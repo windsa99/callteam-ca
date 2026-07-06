@@ -2,10 +2,19 @@
   <a href="/" class="logo">
     <img src="/assets/images/callteam-logo.png" alt="{{ site.name }}">
   </a>
-  <nav>
+
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+  <nav class="nav-links">
     {% for item in navigation %}
       <a href="{{ item.url }}">{{ item.label }}</a>
     {% endfor %}
   </nav>
-  <a href="/#contact" class="header-cta">{{ site.ctaText }}</a>
+
+  <div class="header-right">
+    <a href="/#contact" class="header-cta">{{ site.ctaText }}</a>
+    <label for="menu-toggle" class="burger-icon" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
 </header>
