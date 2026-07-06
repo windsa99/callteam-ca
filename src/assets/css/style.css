@@ -1,4 +1,4 @@
-  :root {
+:root {
     --black: #111111;
     --white: #FFFFFF;
     --orange: #FF5A1F;
@@ -84,16 +84,16 @@
   }
   h2 { font-size: 30px; margin-bottom: 32px; }
 
-  .help-list { list-style: none; display: grid; gap: 16px; max-width: 640px; }
+  .help-list { list-style: none; display: grid; gap: 16px; max-width: 640px; margin: 0 auto; }
   .help-list li { display: flex; gap: 14px; font-size: 16px; }
   .help-list li::before { content: "→"; color: var(--orange); font-weight: 700; flex-shrink: 0; }
 
   .problem { background: var(--black); color: var(--white); padding: 64px 48px; }
-  .problem h2 { color: var(--white); max-width: 660px; margin-bottom: 20px; }
-  .problem p { color: #ccc; max-width: 620px; font-size: 16px; margin-bottom: 12px; }
+  .problem h2 { color: var(--white); max-width: 660px; margin: 0 auto 20px; }
+  .problem p { color: #ccc; max-width: 620px; font-size: 16px; margin: 0 auto 12px; }
   .problem .punch {
     font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 22px;
-    color: var(--orange); margin-top: 16px; max-width: 640px;
+    color: var(--orange); margin: 16px auto 0; max-width: 640px;
   }
 
   .service-grid {
@@ -101,6 +101,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     max-width: 1080px;
+    margin: 0 auto;
   }
   @media (max-width: 1000px) {
     .service-grid { grid-template-columns: repeat(2, 1fr); }
@@ -117,15 +118,15 @@
   .service-card p { color: var(--grey-text); font-size: 14.5px; }
 
   .who { background: var(--grey-bg); }
-  .who p { font-size: 16.5px; max-width: 660px; margin-bottom: 16px; }
+  .who p { font-size: 16.5px; max-width: 660px; margin: 0 auto 16px; }
   .who .kicker { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 17px; margin-top: 20px; }
 
-  .why p { font-size: 16.5px; max-width: 660px; margin-bottom: 16px; }
+  .why p { font-size: 16.5px; max-width: 660px; margin: 0 auto 16px; }
   .why .goal { font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 21px; margin-top: 20px; }
   .why .goal .no { color: var(--grey-text); }
   .why .goal .yes { color: var(--orange); }
 
-  .steps { display: grid; gap: 26px; max-width: 720px; }
+  .steps { display: grid; gap: 26px; max-width: 720px; margin: 0 auto; }
   .step { display: flex; gap: 18px; }
   .step-num {
     font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 14px;
@@ -158,7 +159,7 @@
   .form-submit:hover { background: #e64f18; }
   .form-note { font-size: 12.5px; color: var(--grey-text); }
 
-  .faq-list { display: grid; gap: 4px; max-width: 760px; }
+  .faq-list { display: grid; gap: 4px; max-width: 760px; margin: 0 auto; }
   .faq-item { border-bottom: 1px solid #eee; padding: 20px 0; }
   .faq-item h3 { font-size: 16px; margin-bottom: 8px; }
   .faq-item p { color: var(--grey-text); font-size: 15px; }
