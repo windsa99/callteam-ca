@@ -2,7 +2,6 @@
   { "label": "Services", "url": "/#services" },
   { "label": "Sales Execution Lab", "url": "/sales-execution-lab/" },
   { "label": "90-Day Revenue Engine", "url": "/90-day-revenue-engine/" },
-  { "label": "Process", "url": "/#process" },
   { "label": "FAQ", "url": "/#faq" },
   { "label": "Contact", "url": "/#contact" }
 ]
