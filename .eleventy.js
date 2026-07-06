@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  // Copy the assets folder as-is (CSS, images) into the final output
+  // Copy the assets folder as-is: CSS, logo, favicon, images
   eleventyConfig.addPassthroughCopy("src/assets");
 
   return {
