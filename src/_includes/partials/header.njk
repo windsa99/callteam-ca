@@ -1,0 +1,11 @@
+<header>
+  <a href="/" class="logo">
+    <img src="/assets/images/callteam-logo.png" alt="{{ site.name }}">
+  </a>
+  <nav>
+    {% for item in navigation %}
+      <a href="{{ item.url }}">{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+  <a href="/#contact" class="header-cta">{{ site.ctaText }}</a>
+</header>

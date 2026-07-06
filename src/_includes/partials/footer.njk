@@ -1,0 +1,18 @@
+<footer>
+  <div class="footer-top">
+    <div class="logo">
+      <img src="/assets/images/callteam-logo.png" alt="{{ site.name }}" style="height:24px; filter: brightness(0) invert(1);">
+    </div>
+    <div class="footer-contact">
+      <div><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 CallTeam.ca</span>
+    <div class="flinks">
+      {% for item in navigation %}
+        <a href="{{ item.url }}">{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
