@@ -1,5 +1,6 @@
 [
   { "label": "Services", "url": "/#services" },
+  { "label": "Sales Execution Lab", "url": "/sales-execution-lab/" },
   { "label": "Process", "url": "/#process" },
   { "label": "FAQ", "url": "/#faq" },
   { "label": "Contact", "url": "/#contact" }
