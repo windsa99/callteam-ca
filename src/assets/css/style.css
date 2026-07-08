@@ -781,3 +781,11 @@ footer .flinks a:hover {
   font-size: 15px;
   color: var(--grey-text);
 }
+
+/* Signature block link list (article layout only) */
+.signature-links {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
