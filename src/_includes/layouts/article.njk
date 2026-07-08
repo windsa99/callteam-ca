@@ -40,6 +40,12 @@ layout: layouts/base.njk
 }
 </script>
 
+<nav class="breadcrumb-trail">
+  <div class="container">
+    <a href="/">Home</a> / <a href="/articles/">Articles</a> / <span>{{ title }}</span>
+  </div>
+</nav>
+
 <section class="hero">
   <div>
     {% if category %}<div class="eyebrow">{{ category }}</div>{% endif %}
@@ -51,6 +57,9 @@ layout: layouts/base.njk
 <section id="article-body">
   <div class="container article-content">
     {{ content | safe }}
+  </div>
+  <div class="container signature-block">
+    <p><strong>CallTeam</strong> helps B2B companies build pipeline through outbound calling, appointment setting, lead qualification, and sales execution. <a href="/#services" class="card-link">See what we do →</a></p>
   </div>
 </section>
 
@@ -96,6 +105,19 @@ layout: layouts/base.njk
     <ul class="help-list">
       {% for item in readNext %}
       <li><a href="{{ item.url }}" class="card-link">{{ item.title }} →</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if sources and sources.length > 0 %}
+<section>
+  <div class="container">
+    <div class="section-label">Sources</div>
+    <ul class="help-list">
+      {% for source in sources %}
+      <li><a href="{{ source.url }}" class="card-link" target="_blank" rel="noopener nofollow">{{ source.name }}</a></li>
       {% endfor %}
     </ul>
   </div>
