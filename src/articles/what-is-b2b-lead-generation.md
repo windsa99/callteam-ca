@@ -17,6 +17,10 @@ cards:
     text: "Lists only matter if you can actually get in front of the person who can say yes."
   - title: "Qualify before you pass it forward"
     text: "Not every response is a real opportunity. Qualification protects your sales team's time."
+  - title: "Build a repeatable process"
+    text: "One-off pushes fade. A real system keeps producing pipeline month after month."
+  - title: "Track what's actually working"
+    text: "Without basic reporting, you can't tell which channel or message is really driving conversations."
 faqs:
   - question: "Is B2B lead generation the same as appointment setting?"
     answer: "No. Lead generation finds and engages potential buyers. Appointment setting moves qualified prospects into booked sales conversations."
@@ -24,6 +28,15 @@ faqs:
     answer: "Outbound calling is one of the most effective lead generation channels for B2B, especially alongside email and LinkedIn."
   - question: "How is lead generation different from marketing?"
     answer: "Marketing tends to build broad awareness. B2B lead generation is more targeted, focused on identifying and engaging specific accounts and buyers."
+  - question: "How long does it take to see results from B2B lead generation?"
+    answer: "Timelines vary, but most companies start seeing qualified conversations within the first few weeks once targeting and outreach are running consistently."
+  - question: "Can a small sales team run lead generation on its own?"
+    answer: "Yes, but it often competes with closing existing deals. Many teams split the work, or bring in dedicated support for the prospecting layer specifically."
+sources:
+  - name: "HubSpot: What Is Lead Generation?"
+    url: "https://www.hubspot.com/lead-generation"
+  - name: "Gartner: B2B Buying Journey"
+    url: "https://www.gartner.com/en/sales/insights/b2b-buying-journey"
 readNext:
   - title: "Sales Execution Lab"
     url: "/sales-execution-lab/"
