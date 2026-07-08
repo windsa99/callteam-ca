@@ -1,64 +1,783 @@
----
-layout: layouts/article.njk
-tags: ["articles"]
-title: "What Is B2B Lead Generation?"
-seoTitle: "What Is B2B Lead Generation? B2B Pipeline Guide | CallTeam"
-description: "Learn what B2B lead generation is, how it works, and how companies use outbound calling, lead qualification, and appointment setting to build pipeline."
-date: "2026-07-07"
-modified: "2026-07-07"
-category: "B2B Lead Generation"
-permalink: "/articles/what-is-b2b-lead-generation/"
-quickAnswer: "B2B lead generation is the process of identifying the right companies, reaching decision-makers, qualifying fit, and creating sales conversations that can turn into pipeline."
-cardsHeading: "The core pieces of B2B lead generation."
-cards:
-  - title: "Target the right accounts"
-    text: "Good lead generation starts with a clear ideal customer profile, not a broad, unfocused list."
-  - title: "Reach real decision-makers"
-    text: "Lists only matter if you can actually get in front of the person who can say yes."
-  - title: "Qualify before you pass it forward"
-    text: "Not every response is a real opportunity. Qualification protects your sales team's time."
-  - title: "Build a repeatable process"
-    text: "One-off pushes fade. A real system keeps producing pipeline month after month."
-  - title: "Track what's actually working"
-    text: "Without basic reporting, you can't tell which channel or message is really driving conversations."
-faqs:
-  - question: "Is B2B lead generation the same as appointment setting?"
-    answer: "No. Lead generation finds and engages potential buyers. Appointment setting moves qualified prospects into booked sales conversations."
-  - question: "Does lead generation include outbound calling?"
-    answer: "Outbound calling is one of the most effective lead generation channels for B2B, especially alongside email and LinkedIn."
-  - question: "How is lead generation different from marketing?"
-    answer: "Marketing tends to build broad awareness. B2B lead generation is more targeted, focused on identifying and engaging specific accounts and buyers."
-  - question: "How long does it take to see results from B2B lead generation?"
-    answer: "Timelines vary, but most companies start seeing qualified conversations within the first few weeks once targeting and outreach are running consistently."
-  - question: "Can a small sales team run lead generation on its own?"
-    answer: "Yes, but it often competes with closing existing deals. Many teams split the work, or bring in dedicated support for the prospecting layer specifically."
-sources:
-  - name: "HubSpot: What Is Lead Generation?"
-    url: "https://www.hubspot.com/lead-generation"
-  - name: "Gartner: B2B Buying Journey"
-    url: "https://www.gartner.com/en/sales/insights/b2b-buying-journey"
-readNext:
-  - title: "Sales Execution Lab"
-    url: "/sales-execution-lab/"
-  - title: "90-Day Revenue Engine"
-    url: "/90-day-revenue-engine/"
-ctaHeading: "Need more qualified B2B conversations?"
-ctaText: "Book a free call and let's look at where your outbound pipeline is breaking."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
----
+:root {
+  --black: #111111;
+  --white: #FFFFFF;
+  --orange: #FF5A1F;
+  --grey-bg: #F5F4F2;
+  --grey-text: #6B6B6B;
+}
 
-B2B lead generation is the process of identifying companies and decision-makers who are a strong fit for what you sell, then engaging them in a way that creates real sales conversations.
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-It's not just about collecting names. A list of contacts with no context, no targeting logic, and no follow-up plan behind it doesn't create pipeline on its own.
+html {
+  scroll-behavior: smooth;
+}
 
-## Why lead generation matters more than lead volume
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--black);
+  background: var(--white);
+  line-height: 1.55;
+}
 
-Most B2B companies don't actually have a shortage of leads. They have a shortage of *qualified, engaged* leads, people who fit the target profile and are worth a real conversation.
+h1,
+h2,
+h3,
+.display {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
 
-That distinction matters because it changes what "good lead generation" actually looks like. It's not about maximizing the number of names on a list. It's about consistently finding the right people, reaching them, and moving the ones worth pursuing toward a real conversation.
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 48px;
+  border-bottom: 1px solid #eee;
+}
 
-## The core components
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 
-Effective B2B lead generation usually includes a few consistent pieces: a clear ideal customer profile, a process for building and refreshing prospect lists, a way to actually reach decision-makers (often outbound calling, email, or LinkedIn), and a qualification step before anything gets passed to sales.
+.logo img {
+  height: 24px;
+  width: auto;
+  display: block;
+}
 
-Skip any one of these, and the system tends to break down somewhere, either you're targeting the wrong companies, you can't get past gatekeepers, or your sales team is wasting time on unqualified conversations.
+nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+nav a {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--orange);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.burger-icon {
+  display: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-cta {
+  background: var(--orange);
+  color: var(--white);
+  padding: 9px 18px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 13.5px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header-cta:hover {
+  background: var(--black);
+}
+
+section {
+  padding: 96px 48px;
+}
+
+.section-label {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > .section-label,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > h2,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > p,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > .kicker,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > .goal,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > .help-list,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > .steps,
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > .faq-list {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > p {
+  font-size: 16.5px;
+  margin-bottom: 16px;
+}
+
+.hero {
+  padding-top: 88px;
+  padding-bottom: 64px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 48px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.hero h1 .highlight {
+  color: var(--orange);
+}
+
+.hero p {
+  font-size: 17px;
+  color: var(--grey-text);
+  max-width: 520px;
+  margin-bottom: 14px;
+}
+
+.hero .cta-row {
+  margin-top: 24px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--orange);
+  color: var(--white);
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.btn-primary:hover {
+  background: #e64f18;
+}
+
+.flow-graphic {
+  background: var(--grey-bg);
+  border-radius: 12px;
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: stretch;
+}
+
+.flow-step {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 8px;
+}
+
+.flow-step .fnum {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2px solid var(--orange);
+  color: var(--orange);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.flow-step .flabel {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.flow-line {
+  width: 2px;
+  height: 20px;
+  background: var(--orange);
+  opacity: 0.4;
+  margin-left: 22px;
+}
+
+.help-list {
+  list-style: none;
+  display: grid;
+  gap: 16px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.help-list li {
+  display: flex;
+  gap: 14px;
+  font-size: 16px;
+}
+
+.help-list li::before {
+  content: "→";
+  color: var(--orange);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.problem {
+  background: var(--black);
+  color: var(--white);
+  padding: 64px 48px;
+}
+
+.problem h2 {
+  color: var(--white);
+  max-width: 760px;
+  margin: 0 auto 20px;
+}
+
+.problem p {
+  color: #ccc;
+  max-width: 760px;
+  font-size: 16px;
+  margin: 0 auto 12px;
+}
+
+.problem .punch {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  color: var(--orange);
+  margin: 16px auto 0;
+  max-width: 760px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: var(--grey-bg);
+  padding: 28px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.service-card:hover {
+  border-color: var(--orange);
+}
+
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--grey-text);
+  font-size: 14.5px;
+}
+
+.who {
+  background: var(--grey-bg);
+}
+
+.who p {
+  font-size: 16.5px;
+  max-width: 760px;
+  margin: 0 auto 16px;
+}
+
+.who .kicker {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  max-width: 760px;
+  margin: 20px auto 0;
+}
+
+.why p {
+  font-size: 16.5px;
+  max-width: 760px;
+  margin: 0 auto 16px;
+}
+
+.why .goal {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 21px;
+  max-width: 760px;
+  margin: 20px auto 0;
+}
+
+.why .goal .no {
+  color: var(--grey-text);
+}
+
+.why .goal .yes {
+  color: var(--orange);
+}
+
+.steps {
+  display: grid;
+  gap: 26px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.step {
+  display: flex;
+  gap: 18px;
+}
+
+.step-num {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step h3 {
+  font-size: 16.5px;
+  margin-bottom: 4px;
+}
+
+.step p {
+  color: var(--grey-text);
+  font-size: 14.5px;
+  margin: 0;
+}
+
+.contact-section {
+  background: var(--grey-bg);
+}
+
+.contact-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  max-width: 1080px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.contact-wrap p {
+  color: var(--grey-text);
+  font-size: 16px;
+  margin-bottom: 12px;
+  max-width: 440px;
+}
+
+.contact-form {
+  background: var(--white);
+  padding: 32px;
+  border-radius: 8px;
+  display: grid;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  gap: 6px;
+}
+
+.form-row label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.form-row input,
+.form-row textarea {
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+}
+
+.form-row textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+  outline: 2px solid var(--orange);
+  border-color: var(--orange);
+}
+
+.form-submit {
+  background: var(--orange);
+  color: var(--white);
+  border: none;
+  padding: 14px 28px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-submit:hover {
+  background: #e64f18;
+}
+
+.form-note {
+  font-size: 12.5px;
+  color: var(--grey-text);
+}
+
+.faq-list {
+  display: grid;
+  gap: 4px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.faq-item h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  color: var(--grey-text);
+  font-size: 15px;
+}
+
+.cta-band {
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 80px 48px;
+}
+
+.cta-band h2 {
+  color: var(--white);
+  max-width: 760px;
+  margin: 0 auto 24px;
+}
+
+.cta-band h2 .highlight {
+  color: var(--orange);
+}
+
+.cta-band p {
+  color: #ccc;
+  max-width: 520px;
+  margin: 0 auto 28px;
+  font-size: 15px;
+}
+
+.btn-light {
+  display: inline-block;
+  background: var(--orange);
+  color: var(--white);
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.btn-light:hover {
+  background: #e64f18;
+}
+
+footer {
+  background: var(--black);
+  color: #999;
+  padding: 48px;
+  font-size: 13px;
+  border-top: 1px solid #222;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1080px;
+  margin: 0 auto 24px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.footer-contact a {
+  color: var(--orange);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  max-width: 1080px;
+  margin: 0 auto;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+footer .flinks a {
+  color: #999;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+footer .flinks a:hover {
+  color: var(--orange);
+}
+
+@media (max-width: 1000px) {
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 14px 20px;
+  }
+
+  .logo img {
+    height: 19px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .burger-icon span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--black);
+    border-radius: 2px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  header {
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  nav.nav-links {
+    display: none;
+    width: 100%;
+    order: 3;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    background: var(--white);
+    border-top: 1px solid #eee;
+    padding: 16px 4px 4px;
+    margin-top: 14px;
+  }
+
+  nav.nav-links a {
+    padding: 10px 4px;
+    width: 100%;
+  }
+
+  .menu-toggle:checked ~ nav.nav-links {
+    display: flex;
+  }
+
+  .header-cta {
+    padding: 8px 14px;
+    font-size: 12.5px;
+  }
+
+  section {
+    padding: 56px 24px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  footer .flinks a {
+    margin-left: 0;
+    margin-right: 18px;
+  }
+}
+
+#services > .section-label,
+#services > h2,
+#faq > .section-label,
+#faq > h2 {
+  max-width: 1080px;
+}
+
+/* Reusable centering containers for new pages (Sales Execution Lab, 90-Day Revenue Engine) */
+.container {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.container-wide {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* Link inside offer-picker cards on the homepage */
+.card-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Article layout: eyebrow tag, quick-answer callout, article body */
+.eyebrow {
+  display: inline-block;
+  background: var(--grey-bg);
+  color: var(--black);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.quick-answer {
+  background: var(--grey-bg);
+  border-left: 4px solid var(--orange);
+  padding: 20px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  max-width: 640px;
+}
+
+.article-content {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.article-content h2 {
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.article-content p {
+  margin-bottom: 18px;
+  color: var(--black);
+}
+
+/* Article breadcrumb + signature block */
+.breadcrumb-trail {
+  padding: 16px 48px 0;
+  font-size: 13px;
+  color: var(--grey-text);
+}
+
+.breadcrumb-trail a {
+  color: var(--grey-text);
+  text-decoration: none;
+}
+
+.breadcrumb-trail a:hover {
+  color: var(--orange);
+}
+
+.signature-block {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+  font-size: 15px;
+  color: var(--grey-text);
+}
