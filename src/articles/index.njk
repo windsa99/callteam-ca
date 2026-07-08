@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: "B2B Sales & Outbound Articles | CallTeam"
+description: "Practical B2B articles on lead generation, outbound calling, appointment setting, sales pipeline, and revenue execution from CallTeam."
+permalink: "/articles/"
+---
+
+<section class="hero">
+  <div>
+    <h1>B2B sales and outbound <span class="highlight">articles</span>.</h1>
+    <p>Practical guides on lead generation, outbound calling, appointment setting, pipeline, and sales execution for B2B teams.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container-wide">
+    <div class="section-label">Articles</div>
+    <h2>Latest posts.</h2>
+    <div class="service-grid">
+      {% for article in collections.articles | reverse %}
+      <div class="service-card">
+        <h3>{{ article.data.title }}</h3>
+        <p>{{ article.data.description }}</p>
+        <a href="{{ article.url }}" class="card-link">Read more →</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
