@@ -721,3 +721,39 @@ footer .flinks a:hover {
 .card-link:hover {
   text-decoration: underline;
 }
+
+/* Article layout: eyebrow tag, quick-answer callout, article body */
+.eyebrow {
+  display: inline-block;
+  background: var(--grey-bg);
+  color: var(--black);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.quick-answer {
+  background: var(--grey-bg);
+  border-left: 4px solid var(--orange);
+  padding: 20px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  max-width: 640px;
+}
+
+.article-content {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.article-content h2 {
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.article-content p {
+  margin-bottom: 18px;
+  color: var(--black);
+}
