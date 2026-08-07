@@ -21,6 +21,10 @@
 
 {{ content | safe }}
 
+{% if not hasInlineContact %}
+{% include "partials/contact-form.njk" %}
+{% endif %}
+
 {% include "partials/footer.njk" %}
 
 </body>
