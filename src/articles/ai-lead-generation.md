@@ -94,7 +94,7 @@ readNext:
     url: "/#services"
 ctaHeading: "Have AI leads but not enough qualified conversations?"
 ctaText: "Book a free call and let's look at how your lists, data, AI tools, outreach, calling, follow-up, and qualification process can turn into real B2B pipeline."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
+ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
 AI lead generation is one of the hottest search terms in sales right now because everyone wants the same thing.

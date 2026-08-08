@@ -74,7 +74,7 @@ readNext:
     url: "/#services"
 ctaHeading: "Need outbound lead generation that creates real conversations?"
 ctaText: "Book a free call and let's look at your target list, outbound calling, lead follow-up, qualification, appointment setting, and sales execution needs."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
+ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
 A company does not wake up one morning and suddenly need outbound.

@@ -1,283 +1,625 @@
 ---
 layout: layouts/base.njk
-title: "Sales Execution Lab | B2B Sales Training, Coaching & Pipeline Execution"
-description: "Sales Execution Lab helps founders, SDRs, AEs, and B2B sales teams improve outbound calls, follow-up, objection handling, sales conversations, and pipeline execution."
+permalink: "/sales-execution-lab/"
+title: "Sales Execution Lab"
+seoTitle: "B2B Sales Training & Coaching | Sales Execution Lab"
+description: "Practical B2B sales training and coaching for SDRs, AEs, founders, and sales teams across calls, discovery, objections, follow-up, and pipeline."
+canonicalUrl: "https://www.callteam.ca/sales-execution-lab/"
+socialTitle: "B2B Sales Training & Coaching | Sales Execution Lab"
+socialDescription: "Human-led sales coaching built around real calls, active outreach, live opportunities, and AI-assisted practice."
 faqSchema: |
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type": "Question", "name": "What is Sales Execution Lab?", "acceptedAnswer": {"@type": "Answer", "text": "Sales Execution Lab is a practical B2B sales training and coaching program focused on improving calls, follow-up, objection handling, sales conversations, pipeline habits, and daily execution."}},
-      {"@type": "Question", "name": "Who is Sales Execution Lab for?", "acceptedAnswer": {"@type": "Answer", "text": "It is built for founders, SDRs, AEs, sales leaders, and B2B teams that need sharper conversations, stronger follow-up, better pipeline habits, and more consistent sales execution."}},
-      {"@type": "Question", "name": "Is this just cold calling training?", "acceptedAnswer": {"@type": "Answer", "text": "No. Calling is part of the work, but Sales Execution Lab also covers follow-up, objection handling, messaging, qualification, sales confidence, pipeline discipline, and multi-channel execution."}},
-      {"@type": "Question", "name": "Does this replace done-for-you outbound calling?", "acceptedAnswer": {"@type": "Answer", "text": "No. Done-for-you outbound calling helps companies run outreach. Sales Execution Lab helps the people inside the business sell better and execute more consistently."}},
-      {"@type": "Question", "name": "Can Sales Execution Lab help SDRs and AEs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The program is designed to help SDRs, AEs, and sales teams improve how they open conversations, ask questions, handle objections, follow up, and move qualified opportunities forward."}},
-      {"@type": "Question", "name": "How is this different from the 90-Day Revenue Engine?", "acceptedAnswer": {"@type": "Answer", "text": "Sales Execution Lab focuses on people, conversations, and sales behavior. The 90-Day Revenue Engine focuses on the larger sales infrastructure, including targeting, list process, CRM workflow, tools, reporting, and the full revenue motion."}}
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.callteam.ca/sales-execution-lab/#webpage",
+        "url": "https://www.callteam.ca/sales-execution-lab/",
+        "name": "B2B Sales Training & Coaching | Sales Execution Lab",
+        "description": "Practical B2B sales training and coaching for SDRs, AEs, founders, and sales teams across calls, discovery, objections, follow-up, and pipeline.",
+        "isPartOf": { "@id": "https://www.callteam.ca/#website" },
+        "about": { "@id": "https://www.callteam.ca/sales-execution-lab/#service" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.callteam.ca/#website",
+        "url": "https://www.callteam.ca/",
+        "name": "CallTeam"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.callteam.ca/sales-execution-lab/#service",
+        "name": "Sales Execution Lab",
+        "serviceType": "B2B sales training, sales coaching, SDR training, AE coaching, founder sales coaching, call coaching, and AI-assisted sales practice",
+        "provider": {
+          "@type": "Organization",
+          "name": "CallTeam",
+          "url": "https://www.callteam.ca/"
+        },
+        "areaServed": ["Canada", "United States"],
+        "url": "https://www.callteam.ca/sales-execution-lab/",
+        "description": "Human-led B2B sales training and coaching built around real calls, messages, active outreach, buyer objections, follow-up, and live opportunities, supported by AI-assisted practice and analysis."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
+          { "@type": "ListItem", "position": 2, "name": "Sales Execution Lab", "item": "https://www.callteam.ca/sales-execution-lab/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is B2B sales training?",
+            "acceptedAnswer": { "@type": "Answer", "text": "B2B sales training develops the skills sellers need to prospect, open conversations, ask useful questions, communicate value, handle objections, qualify opportunities, follow up, and move business buyers toward a clear next step. Strong programs connect learning to the company’s offer, buyers, sales process, and real selling situations." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Sales Execution Lab?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sales Execution Lab is CallTeam’s practical B2B sales training and coaching service. It uses real sales evidence, targeted coaching, live practice, AI-assisted analysis where appropriate, and field application to improve the conversations and behaviors buyers experience." }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is Sales Execution Lab for?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sales Execution Lab is built for founders, SDRs, BDRs, account executives, full-cycle sellers, sales managers, and B2B teams that need sharper prospecting, discovery, objection handling, qualification, follow-up, and pipeline execution." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Sales Execution Lab customized to our company?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. The coaching is built around the company’s offer, buyers, sales roles, calls, messages, objections, follow-up, pipeline stages, and active opportunities. The goal is to improve the selling situations the team actually faces rather than deliver a generic course." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the program include cold calling training?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Cold calling and outbound sales training can cover call preparation, relevant openings, tone, pacing, questions, listening, resistance, qualification, voicemail, follow-up, and securing the next step. The work can use real calls and live practice rather than scripts alone." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you train SDRs and BDRs?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. SDR and BDR training can focus on prospecting discipline, cold calls, email and LinkedIn messages, opening relevance, objection handling, qualification, meeting quality, follow-up, and clean handoff notes." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you coach account executives and full-cycle sellers?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. AE and full-cycle seller coaching can focus on discovery, value communication, qualification, multi-stakeholder conversations, follow-up, deal movement, proposals, negotiation behavior, and maintaining a clear next step." }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you provide founder sales coaching?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Founder sales coaching helps founders translate deep product knowledge into a clearer buyer conversation, ask better questions, avoid over-explaining, handle resistance, qualify fit, and move opportunities forward with more control." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Sales Execution Lab use AI sales coaching or AI role-play?",
+            "acceptedAnswer": { "@type": "Answer", "text": "AI-assisted tools can support call transcription, pattern analysis, role-play, objection simulations, practice, scorecards, and feedback organization where appropriate. Experienced human coaches interpret the context, buyer psychology, tone, commercial relevance, and behavior that needs to change." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between sales training and sales coaching?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sales training teaches a skill, framework, or shared standard. Sales coaching helps a seller apply that standard to current behavior, calls, messages, and opportunities. Sales Execution Lab connects both: teams learn what good looks like, practice it, apply it, review the evidence, and improve again." }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between sales enablement and sales training?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sales enablement is the broader system of content, tools, process, onboarding, training, and support that helps sellers perform. Sales training develops specific knowledge and skills. Sales Execution Lab focuses on the execution layer: what sellers say, do, ask, hear, write, and move forward." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can virtual sales training work for a remote team?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Virtual sales training can be highly practical when it includes real examples, live practice, call review, role-specific feedback, manager reinforcement, and field application between sessions. Remote delivery also makes it easier to coach distributed teams consistently." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you measure sales coaching improvement?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Measurement can include execution scorecards, conversation quality, relevant questions, objection exploration, clear next steps, meeting acceptance, follow-up completion, opportunity movement, stage conversion, and consistency across sellers. The exact measures depend on the role and sales motion." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does B2B sales coaching take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The right duration depends on the team, skill gaps, sales cycle, roles, and amount of reinforcement required. A focused workshop can address a narrow issue, while lasting behavior change usually requires diagnosis, practice, field application, review, and repeated coaching." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the Lab review our current calls, scripts, and follow-up?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Relevant inputs can include call recordings or transcripts, talk tracks, emails, LinkedIn messages, objection notes, CRM entries, discovery notes, stalled opportunities, qualification standards, and follow-up sequences." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Sales Execution Lab replace done-for-you outbound?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Sales Execution Lab improves how your people sell. CallTeam’s done-for-you services help execute calling, lead follow-up, qualification, and appointment setting. A company may need one or both depending on whether the gap is internal capability, execution capacity, or both." }
+          },
+          {
+            "@type": "Question",
+            "name": "How is Sales Execution Lab different from the 90-Day Revenue Engine?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sales Execution Lab is the people-performance offer. It improves calls, messages, discovery, objections, qualification, follow-up, and deal behavior. The 90-Day Revenue Engine addresses the wider sales system, including ICP, list process, tools, CRM workflow, reporting, and revenue rhythm." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we start?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Start with a sales execution diagnostic call. CallTeam will review the team, roles, offer, buyers, current sales motion, visible execution gaps, and commercial priorities to determine the right coaching focus and engagement structure." }
+          }
+        ]
+      }
     ]
   }
 ---
 
-<section class="hero">
-  <div>
-    <h1>Sales training for teams that need better <span class="highlight">execution</span>, not more theory.</h1>
-    <p>Sales Execution Lab helps founders, SDRs, AEs, and B2B sales teams improve how they sell across outbound calls, follow-up, objection handling, qualification, and pipeline conversations.</p>
-    <p>This is not generic sales motivation. It is practical coaching for the moments where pipeline is won or lost: what your team says, how they say it, how they follow up, and how consistently they execute.</p>
-    <div class="cta-row">
-      <a href="https://calendly.com/hello-callteam/30min" class="btn-primary">Book a Sales Execution Call →</a>
-    </div>
-  </div>
+<main class="sales-lab-page">
+  <nav class="breadcrumb-trail" aria-label="Breadcrumb">
+    <div class="container"><a href="/">Home</a> / <span>Sales Execution Lab</span></div>
+  </nav>
 
-  <div class="flow-graphic">
-    <div class="flow-step"><div class="fnum">1</div><div class="flabel">Review the Sales Motion</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">2</div><div class="flabel">Fix Conversations</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">3</div><div class="flabel">Sharpen Follow-Up</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">4</div><div class="flabel">Coach the Team</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">5</div><div class="flabel">Improve Pipeline Habits</div></div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-label">What it is</div>
-    <h2>A practical sales execution lab for real B2B selling.</h2>
-    <p>Sales Execution Lab is built for teams that are already selling, prospecting, calling, following up, and trying to create pipeline — but the execution is not sharp enough yet.</p>
-    <p>The problem is rarely one magic script. The real breakdown is usually a mix of weak openings, unclear value, passive follow-up, poor qualification, shaky objection handling, and inconsistent pipeline discipline.</p>
-    <p>This lab helps your people improve the actual selling behavior that happens between first contact and qualified opportunity.</p>
-  </div>
-</section>
-
-<section class="problem">
-  <div class="container">
-    <div class="section-label">The real problem</div>
-    <h2>Your team may not need more sales theory. They need better execution under pressure.</h2>
-    <p>Most sales teams know they should call, follow up, ask better questions, handle objections, and move deals forward.</p>
-    <p>But knowing it and doing it under pressure are not the same thing.</p>
-    <p>Pipeline breaks when reps sound unsure, founders over-explain, follow-up gets weak, objections shut the conversation down, and nobody has a clear rhythm for moving the right prospects forward.</p>
-    <div class="punch">Sales Execution Lab is built to fix the behavior, language, habits, and confidence behind stronger sales conversations.</div>
-  </div>
-</section>
-
-<section id="what-we-fix">
-  <div class="container-wide">
-    <div class="section-label">What we fix</div>
-    <h2>The execution gaps that quietly kill pipeline.</h2>
-
-    <div class="service-grid">
-      <div class="service-card">
-        <h3>Weak Call Openings</h3>
-        <p>We help your team open sales conversations with more clarity, confidence, and relevance instead of sounding like everyone else.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Poor Follow-Up</h3>
-        <p>We tighten the follow-up process so real opportunities do not disappear because nobody had a clear next step.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Objection Handling</h3>
-        <p>We coach your team on how to stay composed, ask better questions, and keep the conversation alive when prospects push back.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Unclear Value</h3>
-        <p>We help sellers communicate value faster, cleaner, and in language that connects to the buyer's actual business problem.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Passive Sales Behavior</h3>
-        <p>We help reps and founders stop waiting for prospects to lead the conversation and start guiding the next step with control.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Pipeline Inconsistency</h3>
-        <p>We improve the habits around outreach, follow-up, qualification, and opportunity movement so execution becomes more consistent.</p>
+  <section class="hero lab-hero">
+    <div>
+      <div class="eyebrow">B2B sales training. Built for execution.</div>
+      <h1>B2B sales training that changes how your team performs <span class="highlight">when the buyer answers.</span></h1>
+      <p>Sales Execution Lab combines live call coaching, SDR and AE training, founder sales coaching, AI-assisted practice, message rewrites, objection handling, follow-up, and active-deal coaching.</p>
+      <p>The work is built around your offer, your buyers, and the conversations your team is having now.</p>
+      <div class="lab-hero-proof">Real sales evidence in. Better execution back in the field.</div>
+      <div class="cta-row lab-cta-row">
+        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Sales Execution Diagnostic →</a>
+        <a href="#execution-loop" class="btn-secondary">See Inside the Lab</a>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="who">
-  <div class="container">
-    <div class="section-label">Who it is for</div>
-    <h2>Built for founders, SDRs, AEs, and B2B sales teams.</h2>
-    <p>Sales Execution Lab is for teams that need sharper sales conversations, better follow-up, stronger qualification, and more consistent outbound behavior.</p>
-    <p>It works for founders who are still selling directly, SDR teams that need better prospecting habits, AEs who need stronger discovery and follow-up, and sales leaders trying to raise team execution without adding more noise.</p>
-    <div class="kicker">If your team has activity but not enough movement, the issue may not be effort. It may be execution.</div>
-  </div>
-</section>
-
-<section class="why">
-  <div class="container">
-    <div class="section-label">How it is different</div>
-    <h2>This is not motivational sales training.</h2>
-    <p>Most sales training sounds good in a session and disappears the next week. Sales Execution Lab is different because it focuses on the live selling moments that actually affect pipeline.</p>
-    <p>We look at how your team opens, explains, asks, listens, handles resistance, follows up, qualifies, and moves the next step forward.</p>
-    <p>The goal is not to make your team memorize robotic scripts. The goal is to help them sell with more control, clarity, confidence, and consistency.</p>
-    <div class="goal"><span class="no">Not more theory.</span> <span class="yes">Better sales behavior in the real world.</span></div>
-  </div>
-</section>
-
-<section id="inside-lab">
-  <div class="container-wide">
-    <div class="section-label">Inside the lab</div>
-    <h2>What Sales Execution Lab can include.</h2>
-
-    <div class="service-grid">
-      <div class="service-card">
-        <h3>Call Coaching</h3>
-        <p>Improve how sellers open calls, control the conversation, ask questions, qualify, handle resistance, and move toward a next step.</p>
+    <div class="lab-hero-model" aria-label="Sales Execution Lab coaching model">
+      <div class="lab-model-topline">
+        <span>Sales Execution Lab</span>
+        <strong>FIELD SYSTEM</strong>
       </div>
-
-      <div class="service-card">
-        <h3>SDR and AE Coaching</h3>
-        <p>Support reps who need better habits across prospecting, discovery, follow-up, pipeline movement, and sales conversations.</p>
+      <div class="lab-model-stage">
+        <span class="lab-model-index">01</span>
+        <div><small>Inspect</small><strong>Real calls and active deals</strong></div>
       </div>
-
-      <div class="service-card">
-        <h3>Founder Sales Coaching</h3>
-        <p>Help founders stop over-explaining, tighten the message, ask better questions, and lead sales conversations with more authority.</p>
+      <div class="lab-model-stage featured">
+        <span class="lab-model-index">02</span>
+        <div><small>Sharpen</small><strong>Coach. Practice. Apply.</strong></div>
       </div>
-
-      <div class="service-card">
-        <h3>Talk Tracks and Scripts</h3>
-        <p>Build practical language your team can actually use on calls, in follow-up, and during objections without sounding scripted.</p>
+      <div class="lab-model-stage">
+        <span class="lab-model-index">03</span>
+        <div><small>Measure</small><strong>Buyer behavior and pipeline movement</strong></div>
       </div>
+      <div class="lab-model-signal"><span></span> New evidence strengthens the next coaching cycle</div>
+    </div>
+  </section>
 
-      <div class="service-card">
-        <h3>Follow-Up Systems</h3>
-        <p>Improve how prospects are followed up with after calls, emails, meetings, missed replies, old opportunities, and stalled conversations.</p>
+  <section class="lab-proof-strip" aria-label="Experience behind Sales Execution Lab">
+    <div class="lab-proof-grid">
+      <div><strong>500,000+</strong><span>cold calls behind the experience</span></div>
+      <div><strong>1,000+</strong><span>sales professionals coached</span></div>
+      <div><strong>150+</strong><span>companies supported globally</span></div>
+      <div><strong>Fortune 100/500</strong><span>sales and leadership experience</span></div>
+    </div>
+    <p>These figures describe the combined professional experience behind the Lab. They are not promised program outcomes.</p>
+  </section>
+
+  <section class="lab-definition">
+    <div class="container">
+      <div class="section-label">The short answer</div>
+      <h2>What is B2B sales training and coaching?</h2>
+      <p><strong>B2B sales training builds the skills sellers need to create, develop, and advance conversations with business buyers. Sales coaching turns those skills into better behavior inside real selling situations.</strong></p>
+      <p>That includes prospecting, cold calling, email and LinkedIn outreach, discovery, listening, value communication, objection handling, qualification, follow-up, negotiation behavior, and securing a clear next step.</p>
+      <p>Sales Execution Lab connects the training room to the field. Your team learns what good looks like, practices it, applies it, reviews what happened, and improves again.</p>
+      <div class="lab-truth-line">Knowing the script is not the skill. Executing when the buyer pushes back is the skill.</div>
+    </div>
+  </section>
+
+  <section class="lab-market-shift">
+    <div class="container-wide">
+      <div class="section-label">Why the model is changing</div>
+      <h2>Sales training is moving from one-time instruction to continuous practice.</h2>
+      <div class="lab-stat-grid">
+        <div class="lab-stat-card">
+          <strong>164%</strong>
+          <span>more companies reported using AI in sales-training programs than in the prior year.</span>
+        </div>
+        <div class="lab-stat-card">
+          <strong>13 hrs</strong>
+          <span>is the average time managers spend each week coaching sales representatives.</span>
+        </div>
+        <div class="lab-stat-card statement">
+          <strong>Practice wins</strong>
+          <span>AI can expand repetition and analysis. Experienced coaching gives the practice a commercial standard.</span>
+        </div>
       </div>
-
-      <div class="service-card">
-        <h3>Pipeline Discipline</h3>
-        <p>Help your team understand what needs to happen after activity: next steps, qualification, ownership, and consistent movement.</p>
+      <p class="lab-source-note">Source: <a href="https://www.highspot.com/state-of-sales-enablement-2025/" target="_blank" rel="noopener nofollow">Highspot, State of Sales Enablement 2025</a>.</p>
+      <div class="lab-market-copy">
+        <p>The old model delivered information, ran a workshop, and hoped the behavior survived contact with a live buyer. Modern teams can review more calls, simulate more objections, personalize practice, and identify patterns faster.</p>
+        <p>Technology expands the training surface. It does not decide what good selling looks like for your market, offer, buyer, and sales cycle. That standard still requires experience, judgment, and a clear connection to commercial outcomes.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="process">
-  <div class="container">
-    <div class="section-label">How it works</div>
-    <h2>Review → diagnose → coach → apply → improve.</h2>
+  <section class="problem lab-problem">
+    <div class="container">
+      <div class="section-label">The execution gap</div>
+      <h2>Your team can know the methodology and still lose the moment.</h2>
+      <p>A rep knows they should ask questions. Then the prospect challenges the price and the rep starts defending. A founder knows discovery matters. Then they spend twelve minutes explaining the product. An SDR knows follow-up matters. Then the next email says, “Just checking in.”</p>
+      <p>The gap is rarely a total lack of knowledge. It is the ability to recall, adapt, and execute the right behavior while the conversation is moving.</p>
+      <div class="punch">Sales Execution Lab works on the moment the buyer actually experiences.</div>
+    </div>
+  </section>
 
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div>
-          <h3>Review the Current Sales Motion</h3>
-          <p>We look at where your team is selling now: calls, follow-up, outreach, objections, pipeline behavior, and conversion points.</p>
+  <section class="lab-loop-section" id="execution-loop">
+    <div class="container-wide">
+      <div class="section-label">The operating system</div>
+      <h2>The CallTeam Sales Execution Loop.</h2>
+      <p class="lab-section-intro">This is how real sales evidence becomes targeted coaching, stronger practice, and measurable field improvement.</p>
+
+      <div class="lab-control-panel" role="img" aria-label="The CallTeam Sales Execution Loop takes evidence from calls, messages, CRM notes, objections, and active deals; diagnoses eight execution levers; applies human coaching and AI-assisted practice; sends improved behavior back into live selling; and measures conversation and pipeline movement before repeating the cycle.">
+        <div class="lab-panel-header">
+          <div><span class="lab-live-dot" aria-hidden="true"></span> EXECUTION INTELLIGENCE</div>
+          <span>LIVE FEEDBACK LOOP</span>
+        </div>
+
+        <div class="lab-input-rail">
+          <span>Call recordings</span>
+          <span>Emails + LinkedIn</span>
+          <span>CRM notes</span>
+          <span>Buyer objections</span>
+          <span>Stalled deals</span>
+        </div>
+
+        <div class="lab-panel-flow">
+          <div class="lab-panel-block evidence">
+            <small>01 / EVIDENCE</small>
+            <strong>See what buyers experience now.</strong>
+            <p>Real work exposes the patterns a generic course cannot see.</p>
+          </div>
+
+          <div class="lab-panel-arrow" aria-hidden="true">→</div>
+
+          <div class="lab-panel-block diagnosis">
+            <small>02 / DIAGNOSIS</small>
+            <strong>Score the eight execution levers.</strong>
+            <div class="lab-mini-scorecard">
+              <span>Relevance</span><span>Opening</span><span>Listening</span><span>Questions</span>
+              <span>Value</span><span>Objections</span><span>Qualification</span><span>Next step</span>
+            </div>
+          </div>
+
+          <div class="lab-panel-arrow" aria-hidden="true">→</div>
+
+          <div class="lab-panel-block application">
+            <small>03 / APPLICATION</small>
+            <strong>Coach. Practice. Return to the field.</strong>
+            <div class="lab-coaching-rails">
+              <span><b>Human</b> judgment, language, context</span>
+              <span><b>AI-assisted</b> analysis, simulation, repetition</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lab-outcome-rail">
+          <div><small>Conversation</small><strong>More relevant</strong></div>
+          <div><small>Resistance</small><strong>Better explored</strong></div>
+          <div><small>Next steps</small><strong>More explicit</strong></div>
+          <div><small>Pipeline</small><strong>Better evidence</strong></div>
+        </div>
+
+        <div class="lab-feedback-line"><span>↻</span> New field evidence enters the next coaching cycle.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="evidence">
+    <div class="container-wide">
+      <div class="section-label">Evidence before advice</div>
+      <h2>The Lab starts with what your team is actually doing.</h2>
+      <p class="lab-section-intro">The most useful coaching inputs are the moments where prospects answered, resisted, disengaged, advanced, or went quiet.</p>
+      <div class="service-grid lab-evidence-grid">
+        <article class="service-card"><span class="lab-card-kicker">Hear</span><h3>Calls and Meetings</h3><p>Recordings or transcripts reveal openings, pacing, listening, questions, buyer language, objections, qualification, and next-step control.</p></article>
+        <article class="service-card"><span class="lab-card-kicker">Read</span><h3>Email and LinkedIn</h3><p>Messages reveal whether the relevance is clear, the language sounds human, the ask fits the relationship, and follow-up earns another look.</p></article>
+        <article class="service-card"><span class="lab-card-kicker">Trace</span><h3>CRM and Follow-Up</h3><p>Notes and activity show whether sellers understand the opportunity, capture useful context, keep promises, and maintain the next action.</p></article>
+        <article class="service-card"><span class="lab-card-kicker">Pressure-test</span><h3>Objections and Losses</h3><p>Recurring resistance exposes weak positioning, shallow discovery, confidence gaps, poor timing, qualification problems, and language that triggers rejection.</p></article>
+        <article class="service-card"><span class="lab-card-kicker">Inspect</span><h3>Active Opportunities</h3><p>Live deals show where conversations stall, stakeholders disappear, proposals lose urgency, and sellers need a stronger commercial next step.</p></article>
+        <article class="service-card"><span class="lab-card-kicker">Align</span><h3>Manager Standards</h3><p>Current scorecards, coaching notes, pipeline reviews, and expectations reveal whether the team shares a clear definition of strong execution.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-levers-section" id="execution-levers">
+    <div class="container-wide">
+      <div class="section-label">The diagnostic scorecard</div>
+      <h2>Eight execution levers shape the buyer conversation.</h2>
+      <div class="lab-levers-grid">
+        <article><span>01</span><h3>Relevance</h3><p>Does the seller connect the conversation to this buyer, role, company, and moment?</p></article>
+        <article><span>02</span><h3>Opening</h3><p>Does the first minute earn attention, permission, and enough curiosity to continue?</p></article>
+        <article><span>03</span><h3>Listening</h3><p>Does the seller hear the words, intent, hesitation, and business meaning behind the response?</p></article>
+        <article><span>04</span><h3>Questions</h3><p>Do questions uncover useful context, consequences, priorities, process, and decision conditions?</p></article>
+        <article><span>05</span><h3>Value</h3><p>Can the seller translate the offer into a business reason that matters to the buyer?</p></article>
+        <article><span>06</span><h3>Objections</h3><p>Can the seller stay composed, explore resistance, and respond without arguing or collapsing?</p></article>
+        <article><span>07</span><h3>Qualification</h3><p>Does the team distinguish a good conversation from an opportunity worth pursuing?</p></article>
+        <article><span>08</span><h3>Next Step</h3><p>Does every meaningful interaction end with clear ownership, timing, and purpose?</p></article>
+      </div>
+      <div class="lab-lever-conclusion">The scorecard creates a shared coaching language. Feedback becomes specific enough to practice and measure.</div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container-wide">
+      <div class="section-label">Skills built inside the Lab</div>
+      <h2>Training for the full B2B sales conversation.</h2>
+      <div class="service-grid lab-skill-grid">
+        <article class="service-card"><div class="lab-card-num">01</div><h3>Cold Calling and Prospecting</h3><p>Sharper research, call preparation, relevant openings, tone, pacing, questions, voicemail, resistance, qualification, and meeting asks for outbound sellers.</p></article>
+        <article class="service-card"><div class="lab-card-num">02</div><h3>Discovery and Consultative Selling</h3><p>Move past surface pain. Help sellers listen, diagnose, explore consequences, understand the current state, and connect the right value to what they learn.</p></article>
+        <article class="service-card"><div class="lab-card-num">03</div><h3>Value and Sales Messaging</h3><p>Turn product detail into a clear commercial story across calls, emails, LinkedIn, follow-up, demos, and stakeholder conversations.</p></article>
+        <article class="service-card"><div class="lab-card-num">04</div><h3>Objection Handling</h3><p>Build composure and useful language for “not interested,” price resistance, existing vendors, bad timing, internal solutions, no budget, and competitive comparisons.</p></article>
+        <article class="service-card"><div class="lab-card-num">05</div><h3>Qualification and Meeting Quality</h3><p>Define what a qualified next step means, ask what matters, protect sales time, and improve the context transferred from SDR to AE.</p></article>
+        <article class="service-card"><div class="lab-card-num">06</div><h3>Follow-Up and Deal Movement</h3><p>Replace passive chasing with useful follow-up, explicit commitments, stakeholder plans, re-engagement language, and disciplined next-step ownership.</p></article>
+        <article class="service-card"><div class="lab-card-num">07</div><h3>Email and LinkedIn Execution</h3><p>Improve subject lines, first-touch messages, connection language, post-call notes, reply handling, and multi-channel follow-up without sounding automated.</p></article>
+        <article class="service-card"><div class="lab-card-num">08</div><h3>Closing Behavior</h3><p>Strengthen decision conversations, commercial clarity, risk handling, negotiation posture, proposal follow-up, and the discipline to address uncertainty directly.</p></article>
+        <article class="service-card"><div class="lab-card-num">09</div><h3>Pipeline Discipline</h3><p>Help sellers maintain clean notes, honest stages, timely follow-up, clear actions, and a weekly rhythm that reflects reality instead of hope.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-role-section" id="role-training">
+    <div class="container-wide">
+      <div class="section-label">Role-specific coaching</div>
+      <h2>Different jobs break at different moments.</h2>
+      <div class="lab-role-grid">
+        <article>
+          <span>SDR / BDR</span>
+          <h3>Earn the conversation.</h3>
+          <p>Prospecting discipline, call openings, email and LinkedIn, early resistance, qualification, meeting quality, follow-up, and handoff notes.</p>
+        </article>
+        <article>
+          <span>Account Executive</span>
+          <h3>Develop the opportunity.</h3>
+          <p>Discovery, value, stakeholder conversations, qualification, demos, follow-up, proposals, negotiation behavior, and deal movement.</p>
+        </article>
+        <article>
+          <span>Founder</span>
+          <h3>Lead without over-explaining.</h3>
+          <p>Translate expertise into buyer language, ask better questions, control the pace, qualify fit, handle resistance, and create a confident next step.</p>
+        </article>
+        <article>
+          <span>Sales Manager</span>
+          <h3>Make improvement repeatable.</h3>
+          <p>Shared standards, call-review discipline, specific feedback, coaching questions, reinforcement, rep priorities, and evidence-based pipeline inspection.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-ai-section" id="ai-sales-coaching">
+    <div class="container-wide">
+      <div class="section-label">AI-assisted sales training</div>
+      <h2>AI can score the moment. Experience understands what the moment meant.</h2>
+      <div class="lab-ai-grid">
+        <div class="lab-ai-card machine">
+          <span>AI-assisted analysis and practice</span>
+          <ul>
+            <li>Transcribe and organize calls</li>
+            <li>Surface repeated words and patterns</li>
+            <li>Create role-play scenarios</li>
+            <li>Simulate common objections</li>
+            <li>Support repetition between sessions</li>
+            <li>Compare talk ratios and question patterns</li>
+            <li>Structure scorecards and coaching notes</li>
+            <li>Prepare call and deal practice</li>
+          </ul>
+        </div>
+        <div class="lab-ai-card human">
+          <span>Experienced human coaching</span>
+          <ul>
+            <li>Interpret buyer context and psychology</li>
+            <li>Judge tone, pacing, and credibility</li>
+            <li>Separate correlation from the real cause</li>
+            <li>Adapt language to the offer and market</li>
+            <li>Coach confidence without creating a robot</li>
+            <li>Decide which behavior matters most</li>
+            <li>Connect feedback to commercial reality</li>
+            <li>Help sellers perform under pressure</li>
+          </ul>
         </div>
       </div>
+      <p class="lab-ai-note">Sales Execution Lab can use appropriate AI tools to strengthen analysis, role-play, and repetition. CallTeam does not claim to own proprietary AI coaching software. The value is the coaching standard applied to the technology and the field evidence around it.</p>
+    </div>
+  </section>
 
-      <div class="step">
-        <div class="step-num">2</div>
-        <div>
-          <h3>Find the Execution Breakdowns</h3>
-          <p>We identify where deals are slowing down: weak openings, unclear messaging, poor follow-up, bad qualification, or lack of control.</p>
-        </div>
+  <section class="lab-quiet-section">
+    <div class="container">
+      <div class="section-label">Quiet Power under pressure</div>
+      <h2>Control is calm, not loud.</h2>
+      <p>Strong sellers do not rush to fill silence, argue with resistance, dump features, or chase approval. They stay present. They hear what changed. They ask the next useful question. They guide the conversation without forcing it.</p>
+      <p>Quiet Power is the human layer inside the Lab: composure, clarity, confidence, restraint, and commercial courage when the conversation becomes uncomfortable.</p>
+      <div class="lab-quiet-code">
+        <span>Listen before reacting</span>
+        <span>Clarify before defending</span>
+        <span>Diagnose before pitching</span>
+        <span>Confirm before advancing</span>
       </div>
+    </div>
+  </section>
 
-      <div class="step">
-        <div class="step-num">3</div>
-        <div>
-          <h3>Build Better Language and Habits</h3>
-          <p>We create sharper talk tracks, call structure, follow-up language, objection responses, and pipeline behaviors your team can use.</p>
-        </div>
+  <section class="lab-failure-section" id="why-sales-training-fails">
+    <div class="container-wide">
+      <div class="section-label">Why sales training fails</div>
+      <h2>A strong workshop can still disappear by Monday.</h2>
+      <p class="lab-section-intro">Training loses value when the idea never becomes an observable field behavior. Four breakdowns are especially common.</p>
+      <div class="lab-failure-grid">
+        <article><span>01</span><h3>No field evidence</h3><p>The program teaches a broad method without inspecting the calls, messages, buyers, and deals where the team is struggling.</p></article>
+        <article><span>02</span><h3>No practice under pressure</h3><p>Sellers understand the concept in a calm room but have not rehearsed the objection, interruption, silence, or uncertainty that changes their behavior.</p></article>
+        <article><span>03</span><h3>No manager standard</h3><p>Managers give conflicting feedback because the company never defined what a strong opening, discovery, qualification decision, or next step looks like.</p></article>
+        <article><span>04</span><h3>No reinforcement loop</h3><p>The team returns to old habits because nobody reviews new evidence, recognizes improvement, corrects drift, or sets the next practice priority.</p></article>
       </div>
+      <div class="lab-failure-conclusion">The cure is not more content. It is a tighter connection between the skill, the practice, the live application, and the next coaching decision.</div>
+    </div>
+  </section>
 
-      <div class="step">
-        <div class="step-num">4</div>
-        <div>
-          <h3>Coach the Team</h3>
-          <p>We help reps, founders, or sales leaders apply the improvements in real sales situations, not just in theory.</p>
-        </div>
+  <section class="lab-manager-section" id="manager-reinforcement">
+    <div class="container">
+      <div class="section-label">Sales manager reinforcement</div>
+      <h2>The manager keeps the training alive after the session ends.</h2>
+      <p>A sales training company can introduce the language and practice. Daily leadership determines whether it becomes the team standard. Managers need a simple way to hear the same evidence, coach the same levers, and choose one useful behavior at a time.</p>
+      <p>Sales Execution Lab can help managers run cleaner call reviews, ask better coaching questions, separate pipeline inspection from skill coaching, and give feedback the seller can apply on the next call.</p>
+      <div class="lab-manager-rail">
+        <div><span>Observe</span><strong>Use evidence, not impressions.</strong></div>
+        <div><span>Coach</span><strong>Focus on one behavior that matters.</strong></div>
+        <div><span>Apply</span><strong>Define the next field experiment.</strong></div>
+        <div><span>Reinforce</span><strong>Review what changed and repeat.</strong></div>
       </div>
+      <p class="lab-manager-note">For distributed teams, virtual sales training and online practice make reinforcement easier to schedule. The standard still has to show up in real calls, messages, follow-up, and pipeline reviews.</p>
+    </div>
+  </section>
 
-      <div class="step">
-        <div class="step-num">5</div>
-        <div>
-          <h3>Tighten the Execution Rhythm</h3>
-          <p>We help the team build more consistent sales behavior around outreach, follow-up, qualification, and next-step movement.</p>
+  <section id="process">
+    <div class="container">
+      <div class="section-label">The coaching process</div>
+      <h2>Diagnose → define → practice → apply → inspect → reinforce.</h2>
+      <div class="steps lab-process-steps">
+        <div class="step"><div class="step-num">1</div><div><h3>Diagnose the Current Execution</h3><p>Review roles, goals, calls, messages, objections, opportunities, pipeline behavior, and manager observations to locate the highest-value gaps.</p></div></div>
+        <div class="step"><div class="step-num">2</div><div><h3>Define What Good Looks Like</h3><p>Create a practical standard for the specific behavior: the opening, question, objection response, follow-up, qualification decision, or next step.</p></div></div>
+        <div class="step"><div class="step-num">3</div><div><h3>Build the Language and Practice</h3><p>Develop talk tracks, message options, coaching examples, role-play scenarios, and repetition around situations the team actually faces.</p></div></div>
+        <div class="step"><div class="step-num">4</div><div><h3>Apply It in Live Selling</h3><p>Take the skill into real outreach, calls, discovery, follow-up, and active opportunities while the new behavior is still deliberate.</p></div></div>
+        <div class="step"><div class="step-num">5</div><div><h3>Inspect the New Evidence</h3><p>Review what changed in seller behavior, buyer response, conversation quality, next steps, and opportunity movement.</p></div></div>
+        <div class="step"><div class="step-num">6</div><div><h3>Reinforce What Works</h3><p>Tighten the language, remove weak habits, give managers a repeatable standard, and move to the next highest-value execution lever.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-deliverables-section" id="deliverables">
+    <div class="container-wide">
+      <div class="section-label">What the client receives</div>
+      <h2>A working improvement system, not a motivational slide deck.</h2>
+      <div class="lab-core-deliverables">
+        <article><span>CORE</span><h3>Sales execution diagnostic</h3><p>A focused view of where seller behavior, language, and field execution are breaking.</p></article>
+        <article><span>CORE</span><h3>Call and message review</h3><p>Evidence-based feedback using relevant calls, outreach, follow-up, and active opportunities.</p></article>
+        <article><span>CORE</span><h3>Execution scorecards</h3><p>Role-appropriate standards that make coaching specific, visible, and repeatable.</p></article>
+        <article><span>CORE</span><h3>Coaching and live practice</h3><p>Targeted sessions built around the situations, objections, and behaviors that matter now.</p></article>
+        <article><span>CORE</span><h3>Field priorities</h3><p>Clear actions for the team and managers to apply, observe, and reinforce between sessions.</p></article>
+      </div>
+      <div class="lab-module-wrap">
+        <h3>Modules selected around the engagement</h3>
+        <div class="lab-module-list">
+          <span>Customized talk tracks</span><span>Cold-call openings</span><span>Discovery question maps</span><span>Objection frameworks</span><span>Follow-up language</span><span>Qualification standards</span><span>Deal coaching</span><span>AI-assisted role-play</span><span>Manager coaching guides</span><span>Before-and-after benchmarks</span>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
-  <div class="container">
-    <div class="section-label">Sales Lab vs other offers</div>
-    <h2>Pick the right level of help.</h2>
-    <p>Sales Execution Lab is the people-performance product. It helps the humans selling your offer get better at calls, follow-up, messaging, objections, and pipeline behavior.</p>
-    <p>If you need CallTeam to help run outbound activity, look at our <a href="/#services">done-for-you outbound calling and lead follow-up services</a>.</p>
-    <p>If you need the larger sales infrastructure built around targeting, list process, CRM workflow, tools, reporting, and pipeline systems, look at the <a href="/90-day-revenue-engine/">90-Day Revenue Engine</a>.</p>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-label">Signs you need this</div>
-    <h2>You may need Sales Execution Lab if your team is active but not converting enough.</h2>
-
-    <ul class="help-list">
-      <li>Your reps are making calls, but conversations are not progressing.</li>
-      <li>Your team gets objections and does not know how to keep control.</li>
-      <li>Follow-up is inconsistent or too passive.</li>
-      <li>Founders are still selling but over-explain the offer.</li>
-      <li>SDRs are booking too few qualified conversations.</li>
-      <li>AEs are losing momentum after discovery or proposal.</li>
-      <li>The team is busy, but the pipeline does not move enough.</li>
-      <li>Your sales process has activity, but not enough quality conversations.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="faq">
-  <div class="container-wide">
-    <div class="section-label">FAQ</div>
-    <h2>Common questions about Sales Execution Lab.</h2>
-
-    <div class="service-grid">
-      <div class="service-card">
-        <h3>What is Sales Execution Lab?</h3>
-        <p>Sales Execution Lab is a practical B2B sales training and coaching program focused on improving calls, follow-up, objection handling, sales conversations, pipeline habits, and daily execution.</p>
+  <section id="measurement">
+    <div class="container-wide">
+      <div class="section-label">Measurement</div>
+      <h2>Track the behavior and commercial movement coaching can influence.</h2>
+      <div class="lab-measure-grid">
+        <div><span>01</span><strong>Conversation quality</strong><p>Relevance, listening, questions, clarity, and buyer engagement.</p></div>
+        <div><span>02</span><strong>Resistance handling</strong><p>Whether objections are explored, understood, and answered appropriately.</p></div>
+        <div><span>03</span><strong>Next-step quality</strong><p>Clear purpose, ownership, timing, stakeholders, and commitments.</p></div>
+        <div><span>04</span><strong>Meeting quality</strong><p>Acceptance, attendance, qualification, context, and sales-team usefulness.</p></div>
+        <div><span>05</span><strong>Follow-up discipline</strong><p>Completion, relevance, timing, re-engagement, and promised actions.</p></div>
+        <div><span>06</span><strong>Pipeline movement</strong><p>Stage progression, stalled-opportunity recovery, and honest qualification.</p></div>
+        <div><span>07</span><strong>Role conversion</strong><p>Connect-to-conversation, discovery-to-next-stage, or proposal progression where relevant.</p></div>
+        <div><span>08</span><strong>Team consistency</strong><p>Whether strong execution becomes more repeatable across people and time.</p></div>
       </div>
+      <div class="lab-metric-note">Revenue matters. It is also affected by market, product, pricing, territory, timing, and lead quality. The Lab measures the execution evidence closest to seller behavior while tracking downstream commercial movement where appropriate.</div>
+    </div>
+  </section>
 
-      <div class="service-card">
-        <h3>Who is this for?</h3>
-        <p>It is built for founders, SDRs, AEs, sales leaders, and B2B teams that need sharper conversations, stronger follow-up, better pipeline habits, and more consistent sales execution.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Is this only cold calling training?</h3>
-        <p>No. Calling is part of it, but the lab also covers follow-up, objection handling, messaging, qualification, sales confidence, pipeline discipline, and multi-channel execution.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Does this replace outbound calling?</h3>
-        <p>No. Done-for-you outbound calling helps companies run outreach. Sales Execution Lab helps the people inside the business sell better and execute more consistently.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>Can this help SDRs and AEs?</h3>
-        <p>Yes. The program can help SDRs and AEs improve how they open conversations, ask questions, handle objections, follow up, and move qualified opportunities forward.</p>
-      </div>
-
-      <div class="service-card">
-        <h3>How is this different from the 90-Day Revenue Engine?</h3>
-        <p>Sales Execution Lab focuses on people, conversations, and behavior. The 90-Day Revenue Engine focuses on the larger sales infrastructure and revenue system.</p>
+  <section class="lab-comparison-section" id="training-vs-coaching">
+    <div class="container-wide">
+      <div class="section-label">Clear definitions</div>
+      <h2>Sales training vs coaching vs enablement.</h2>
+      <div class="lab-table-wrap">
+        <table class="lab-comparison-table">
+          <thead><tr><th>Approach</th><th>Primary job</th><th>Typical focus</th><th>Where it breaks</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Sales training</strong></td><td>Teach knowledge and skills</td><td>Methods, competencies, language, process, practice</td><td>Information may fade without field application and reinforcement</td></tr>
+            <tr><td><strong>Sales coaching</strong></td><td>Improve individual or team behavior</td><td>Current calls, messages, skills, opportunities, priorities</td><td>Feedback becomes vague when no shared standard exists</td></tr>
+            <tr><td><strong>Sales enablement</strong></td><td>Support the wider selling system</td><td>Content, tools, onboarding, training, process, productivity</td><td>Resources can multiply without changing buyer-facing execution</td></tr>
+            <tr class="featured"><td><strong>Sales Execution Lab</strong></td><td>Connect learning to field performance</td><td>Evidence, standards, coaching, practice, live application, measurement</td><td>Designed to close the gap between knowing and executing</td></tr>
+          </tbody>
+        </table>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="cta-band">
-  <h2>Want your sales team to execute with more <span class="highlight">control and consistency</span>?</h2>
-  <p>Book a call and tell us where the sales motion is breaking: calls, follow-up, objections, qualification, pipeline discipline, or team confidence.</p>
-  <a href="https://calendly.com/hello-callteam/30min" class="btn-light">Book a Sales Execution Call</a>
-</section>
+  <section id="compare-options">
+    <div class="container-wide">
+      <div class="section-label">Choose the delivery model</div>
+      <h2>A course library, an AI platform, or the Lab?</h2>
+      <div class="lab-option-grid">
+        <article><span>Course library</span><h3>Build baseline knowledge</h3><p>Useful for scalable instruction, onboarding, refreshers, and self-directed learning.</p><ul><li>Easy access</li><li>Consistent content</li><li>Limited context from live selling</li></ul></article>
+        <article><span>AI coaching platform</span><h3>Expand practice and analysis</h3><p>Useful for role-play, call data, repetition, automated feedback, and visibility at scale.</p><ul><li>Always available</li><li>Large practice surface</li><li>Depends on the quality of the scoring standard</li></ul></article>
+        <article class="featured"><span>Sales Execution Lab</span><h3>Change field behavior</h3><p>Built around the company’s offer, buyers, evidence, people, and current commercial priorities.</p><ul><li>Human coaching judgment</li><li>AI-assisted where useful</li><li>Real application and reinforcement</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-fit-section">
+    <div class="container-wide">
+      <div class="section-label">Who it is for</div>
+      <h2>Built for B2B selling environments where the conversation matters.</h2>
+      <div class="lab-fit-grid">
+        <div><strong>SaaS and technology</strong><span>Outbound, discovery, demos, multi-stakeholder deals, and competitive markets.</span></div>
+        <div><strong>Professional services</strong><span>Consultative selling, expertise translation, trust, scope, value, and founder-led sales.</span></div>
+        <div><strong>Agencies and consultants</strong><span>Prospecting, differentiation, discovery, objections, follow-up, and proposal movement.</span></div>
+        <div><strong>IT and cybersecurity</strong><span>Technical value, risk conversations, crowded categories, and complex buying groups.</span></div>
+        <div><strong>Manufacturing and logistics</strong><span>Account development, operational value, incumbent resistance, and longer sales cycles.</span></div>
+        <div><strong>Other complex B2B offers</strong><span>Any team where seller judgment and conversation quality influence the next step.</span></div>
+      </div>
+      <p class="lab-fit-note">Delivery can be virtual for distributed teams and adapted for focused workshops, ongoing coaching, role-specific groups, leaders, or a blended engagement.</p>
+    </div>
+  </section>
+
+  <section class="lab-experience-section">
+    <div class="container">
+      <div class="section-label">Experience behind the Lab</div>
+      <h2>Sales coaching shaped by the field, not a theory-only career.</h2>
+      <p>The professional background behind Sales Execution Lab includes more than 500,000 cold calls, coaching for over 1,000 sales professionals, work across more than 150 companies globally, and experience inside Fortune 100 and Fortune 500 environments.</p>
+      <p>That range matters because the same technique does not fit every seller, buyer, market, or sales cycle. Coaching needs a clear standard and enough field judgment to adapt that standard without losing the commercial objective.</p>
+      <div class="lab-experience-quote">The goal is simple: make the next real sales conversation better than the last one.</div>
+    </div>
+  </section>
+
+  <section class="lab-routing-section" id="right-offer">
+    <div class="container-wide">
+      <div class="section-label">Which CallTeam offer fits?</div>
+      <h2>Start with the actual bottleneck.</h2>
+      <div class="lab-routing-grid">
+        <article><span>Need more qualified leads</span><h3>AI Lead Generation Services</h3><p>Build better-fit prospect lists, use available signals and research, and connect modern intelligence to human calling.</p><a href="/ai-lead-generation-services/">Explore AI lead generation →</a></article>
+        <article><span>Have leads that need follow-up</span><h3>Done-for-You Services</h3><p>Use CallTeam for calling, lead follow-up, qualification, appointment setting, and practical outbound execution.</p><a href="/#services">Explore done-for-you services →</a></article>
+        <article class="featured"><span>Your people need to sell better</span><h3>Sales Execution Lab</h3><p>Improve calls, messages, discovery, objections, qualification, follow-up, confidence, and deal behavior.</p><a href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Book a Sales Execution Diagnostic →</a></article>
+        <article><span>The whole pipeline system is messy</span><h3>90-Day Revenue Engine</h3><p>Fix ICP, targeting, list process, tools, CRM workflow, reporting, follow-up rules, and the wider revenue rhythm.</p><a href="/90-day-revenue-engine/">Explore the Revenue Engine →</a></article>
+      </div>
+      <div class="lab-related-reading">Build the wider context: read <a href="/articles/outbound-lead-generation/">how outbound lead generation works</a> and <a href="/articles/lead-generation-tools-vs-done-for-you-services/">compare sales tools with done-for-you execution</a>.</div>
+    </div>
+  </section>
+
+  <section id="faq" class="lab-faq-section">
+    <div class="container-wide">
+      <div class="section-label">Sales training FAQ</div>
+      <h2>Questions buyers ask about B2B sales training and coaching.</h2>
+      <div class="faq-list lab-faq-list">
+        <article class="faq-item"><h3>What is B2B sales training?</h3><p>B2B sales training develops the skills sellers need to prospect, open conversations, ask useful questions, communicate value, handle objections, qualify opportunities, follow up, and move business buyers toward a clear next step. Strong programs connect learning to the company’s offer, buyers, sales process, and real selling situations.</p></article>
+        <article class="faq-item"><h3>What is Sales Execution Lab?</h3><p>Sales Execution Lab is CallTeam’s practical B2B sales training and coaching service. It uses real sales evidence, targeted coaching, live practice, AI-assisted analysis where appropriate, and field application to improve the conversations and behaviors buyers experience.</p></article>
+        <article class="faq-item"><h3>Who is Sales Execution Lab for?</h3><p>Sales Execution Lab is built for founders, SDRs, BDRs, account executives, full-cycle sellers, sales managers, and B2B teams that need sharper prospecting, discovery, objection handling, qualification, follow-up, and pipeline execution.</p></article>
+        <article class="faq-item"><h3>Is Sales Execution Lab customized to our company?</h3><p>Yes. The coaching is built around the company’s offer, buyers, sales roles, calls, messages, objections, follow-up, pipeline stages, and active opportunities. The goal is to improve the selling situations the team actually faces rather than deliver a generic course.</p></article>
+        <article class="faq-item"><h3>Does the program include cold calling training?</h3><p>Yes. Cold calling and outbound sales training can cover call preparation, relevant openings, tone, pacing, questions, listening, resistance, qualification, voicemail, follow-up, and securing the next step. The work can use real calls and live practice rather than scripts alone.</p></article>
+        <article class="faq-item"><h3>Can you train SDRs and BDRs?</h3><p>Yes. SDR and BDR training can focus on prospecting discipline, cold calls, email and LinkedIn messages, opening relevance, objection handling, qualification, meeting quality, follow-up, and clean handoff notes.</p></article>
+        <article class="faq-item"><h3>Can you coach account executives and full-cycle sellers?</h3><p>Yes. AE and full-cycle seller coaching can focus on discovery, value communication, qualification, multi-stakeholder conversations, follow-up, deal movement, proposals, negotiation behavior, and maintaining a clear next step.</p></article>
+        <article class="faq-item"><h3>Do you provide founder sales coaching?</h3><p>Yes. Founder sales coaching helps founders translate deep product knowledge into a clearer buyer conversation, ask better questions, avoid over-explaining, handle resistance, qualify fit, and move opportunities forward with more control.</p></article>
+        <article class="faq-item"><h3>Does Sales Execution Lab use AI sales coaching or AI role-play?</h3><p>AI-assisted tools can support call transcription, pattern analysis, role-play, objection simulations, practice, scorecards, and feedback organization where appropriate. Experienced human coaches interpret the context, buyer psychology, tone, commercial relevance, and behavior that needs to change.</p></article>
+        <article class="faq-item"><h3>What is the difference between sales training and sales coaching?</h3><p>Sales training teaches a skill, framework, or shared standard. Sales coaching helps a seller apply that standard to current behavior, calls, messages, and opportunities. Sales Execution Lab connects both: teams learn what good looks like, practice it, apply it, review the evidence, and improve again.</p></article>
+        <article class="faq-item"><h3>What is the difference between sales enablement and sales training?</h3><p>Sales enablement is the broader system of content, tools, process, onboarding, training, and support that helps sellers perform. Sales training develops specific knowledge and skills. Sales Execution Lab focuses on the execution layer: what sellers say, do, ask, hear, write, and move forward.</p></article>
+        <article class="faq-item"><h3>Can virtual sales training work for a remote team?</h3><p>Yes. Virtual sales training can be highly practical when it includes real examples, live practice, call review, role-specific feedback, manager reinforcement, and field application between sessions. Remote delivery also makes it easier to coach distributed teams consistently.</p></article>
+        <article class="faq-item"><h3>How do you measure sales coaching improvement?</h3><p>Measurement can include execution scorecards, conversation quality, relevant questions, objection exploration, clear next steps, meeting acceptance, follow-up completion, opportunity movement, stage conversion, and consistency across sellers. The exact measures depend on the role and sales motion.</p></article>
+        <article class="faq-item"><h3>How long does B2B sales coaching take?</h3><p>The right duration depends on the team, skill gaps, sales cycle, roles, and amount of reinforcement required. A focused workshop can address a narrow issue, while lasting behavior change usually requires diagnosis, practice, field application, review, and repeated coaching.</p></article>
+        <article class="faq-item"><h3>Can the Lab review our current calls, scripts, and follow-up?</h3><p>Yes. Relevant inputs can include call recordings or transcripts, talk tracks, emails, LinkedIn messages, objection notes, CRM entries, discovery notes, stalled opportunities, qualification standards, and follow-up sequences.</p></article>
+        <article class="faq-item"><h3>Does Sales Execution Lab replace done-for-you outbound?</h3><p>No. Sales Execution Lab improves how your people sell. CallTeam’s done-for-you services help execute calling, lead follow-up, qualification, and appointment setting. A company may need one or both depending on whether the gap is internal capability, execution capacity, or both.</p></article>
+        <article class="faq-item"><h3>How is Sales Execution Lab different from the 90-Day Revenue Engine?</h3><p>Sales Execution Lab is the people-performance offer. It improves calls, messages, discovery, objections, qualification, follow-up, and deal behavior. The 90-Day Revenue Engine addresses the wider sales system, including ICP, list process, tools, CRM workflow, reporting, and revenue rhythm.</p></article>
+        <article class="faq-item"><h3>How do we start?</h3><p>Start with a sales execution diagnostic call. CallTeam will review the team, roles, offer, buyers, current sales motion, visible execution gaps, and commercial priorities to determine the right coaching focus and engagement structure.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band lab-final-cta">
+    <h2>Turn the next real sales conversation into <span class="highlight">better evidence.</span></h2>
+    <p>Tell us where execution is breaking: prospecting, calls, discovery, objections, qualification, follow-up, active deals, or manager coaching.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Sales Execution Diagnostic</a>
+  </section>
+</main>

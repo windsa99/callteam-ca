@@ -94,7 +94,7 @@ readNext:
     url: "/#services"
 ctaHeading: "Need a B2B lead generation service that creates real conversations?"
 ctaText: "Book a free call and let's look at your target market, lists, old leads, inbound leads, calling process, follow-up, qualification, and appointment-setting needs."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
+ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
 B2B lead generation services are not all the same.

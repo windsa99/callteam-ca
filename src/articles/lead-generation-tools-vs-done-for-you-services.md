@@ -72,7 +72,7 @@ readNext:
     url: "/#services"
 ctaHeading: "Have tools, but still no reliable pipeline?"
 ctaText: "Book a free call and let's look at whether your company needs better lists, done-for-you execution, sales training, or a 90-day pipeline system."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
+ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
 The sales stack looks impressive.

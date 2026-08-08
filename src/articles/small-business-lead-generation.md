@@ -72,7 +72,7 @@ readNext:
     url: "/#services"
 ctaHeading: "Need more leads without carrying the whole sales process yourself?"
 ctaText: "Book a free call and let's look at whether your small business needs a better lead list, done-for-you follow-up, sales execution training, or a simple pipeline system."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
+ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
 A small business can look busy and still have no real pipeline.

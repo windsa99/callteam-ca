@@ -82,7 +82,7 @@ readNext:
     url: "/#services"
 ctaHeading: "Need more qualified B2B conversations?"
 ctaText: "Book a free call and let's look at where your outbound pipeline is breaking: targeting, lists, calling, follow-up, qualification, or appointment setting."
-ctaUrl: "https://calendly.com/hello-callteam/30min"
+ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
 Most B2B companies do not have a lead problem.
