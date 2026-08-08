@@ -1,266 +1,591 @@
 ---
 layout: layouts/base.njk
 hasInlineContact: true
-title: "CallTeam | B2B Lead Generation, Appointment Setting & Sales Execution"
-description: "CallTeam helps B2B companies get more qualified leads, build prospect lists, call decision-makers, book sales conversations, train sales teams, and fix pipeline systems."
+title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
+seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
+description: "Done-for-you B2B outbound calling, prospect list building, lead follow-up, qualification, and appointment setting that creates better sales conversations."
+canonicalUrl: "https://www.callteam.ca/"
+socialTitle: "B2B Outbound Calling & Appointment Setting | CallTeam"
+socialDescription: "We can build the list or use the leads you already have, make the calls, follow up, qualify the opportunity, and book the conversation."
 faqSchema: |
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type": "Question", "name": "Does CallTeam provide leads?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CallTeam can help build targeted B2B prospect lists around your ideal customer profile, decision-maker titles, industries, and best-fit accounts. We can also call and follow up with CRM contacts, old leads, inbound leads, event leads, LinkedIn prospects, and target account lists."}},
-      {"@type": "Question", "name": "Do you only make calls?", "acceptedAnswer": {"@type": "Answer", "text": "No. Outbound calling is one part of the work. CallTeam also helps with prospect list building, targeting, lead follow-up, qualification, appointment setting, sales execution support, sales training, and pipeline systems."}},
-      {"@type": "Question", "name": "Can CallTeam call a list we already have?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CallTeam can call and follow up with prospect lists, CRM contacts, old leads, inbound leads, event leads, webinar leads, referral lists, LinkedIn prospects, and target accounts."}},
-      {"@type": "Question", "name": "What is Sales Execution Lab?", "acceptedAnswer": {"@type": "Answer", "text": "Sales Execution Lab helps founders, SDRs, AEs, and sales teams improve call execution, follow-up habits, objection handling, qualification, sales confidence, and sales conversations."}},
-      {"@type": "Question", "name": "What is the 90-Day Revenue Engine?", "acceptedAnswer": {"@type": "Answer", "text": "The 90-Day Revenue Engine helps companies rebuild the system behind pipeline, including ideal customer profile, prospect lists, CRM workflow, outreach rhythm, follow-up, reporting, and accountability."}},
-      {"@type": "Question", "name": "What makes a lead qualified?", "acceptedAnswer": {"@type": "Answer", "text": "A qualified lead should show some level of company fit, role relevance, interest, timing, need, decision path, or next-step potential before it is passed to sales."}},
-      {"@type": "Question", "name": "Who is CallTeam best for?", "acceptedAnswer": {"@type": "Answer", "text": "CallTeam is best for B2B companies that need more qualified leads, better follow-up, more booked sales conversations, stronger sales execution, or a clearer pipeline system."}},
-      {"@type": "Question", "name": "How do I know which CallTeam offer I need?", "acceptedAnswer": {"@type": "Answer", "text": "If you need more prospects, start with list building and lead generation. If you have lists that need calling, start with done-for-you lead generation. If your team needs stronger sales behavior, look at Sales Execution Lab. If the whole pipeline process is unclear, look at the 90-Day Revenue Engine."}}
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.callteam.ca/#website",
+        "url": "https://www.callteam.ca/",
+        "name": "CallTeam",
+        "publisher": { "@id": "https://www.callteam.ca/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.callteam.ca/#organization",
+        "name": "CallTeam",
+        "url": "https://www.callteam.ca/",
+        "logo": "https://www.callteam.ca/assets/images/callteam-logo.png",
+        "email": "hello@callteam.ca"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.callteam.ca/#webpage",
+        "url": "https://www.callteam.ca/",
+        "name": "B2B Outbound Calling & Appointment Setting Services | CallTeam",
+        "description": "Done-for-you B2B outbound calling, prospect list building, lead follow-up, qualification, and appointment setting that creates better sales conversations.",
+        "isPartOf": { "@id": "https://www.callteam.ca/#website" },
+        "about": { "@id": "https://www.callteam.ca/#service" }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.callteam.ca/#service",
+        "name": "B2B Outbound Calling and Appointment Setting Services",
+        "serviceType": "Done-for-you B2B outbound calling, prospect list building, lead follow-up, lead qualification, and appointment setting",
+        "provider": { "@id": "https://www.callteam.ca/#organization" },
+        "areaServed": ["Canada", "United States"],
+        "url": "https://www.callteam.ca/",
+        "description": "CallTeam can build or refine a targeted B2B prospect list, call decision-makers, follow up, qualify opportunities, and book appropriate sales conversations for the client team."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can CallTeam build the prospect list?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. CallTeam can build a targeted B2B prospect list around the companies, industries, locations, company sizes, and decision-maker roles that fit your offer. We can also verify and refine a list you already have." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can CallTeam call a list we already have?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. If you already have a prospect list, CRM contacts, target accounts, or leads from another source, CallTeam can organize the calling plan, make the calls, follow up, qualify responses, and book appropriate conversations." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you call old CRM leads?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. CallTeam can work through old CRM leads, dormant opportunities, previous inquiries, no-decisions, and contacts that stopped responding. We agree on the priority, message, status rules, and handoff before outreach starts." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you follow up with inbound, event, or webinar leads?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. CallTeam can follow up with inbound form leads, demo requests, event lists, trade-show contacts, webinar attendees, referrals, and other warm or time-sensitive leads. The campaign is built around the source and the reason the person entered the list." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is outbound calling the same as cold calling?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Cold calling is one type of outbound calling. Outbound calling can also include old-lead reactivation, inbound lead follow-up, event follow-up, target-account outreach, referral follow-up, and calls to prospects who have already shown some interest." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do callers represent our company, and who approves the talk track?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Callers work from an agreed campaign brief and represent the client in the way approved before launch. The client reviews the core talk track, positioning, qualification questions, meeting standard, and important boundaries. Real conversations then help refine the language." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does CallTeam research prospects?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Research depends on the campaign. It can include company fit, industry, size, location, decision-maker role, available contact data, account changes, relevant business signals, CRM history, and public context that helps the caller understand why the account may be worth contacting." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does CallTeam qualify a meeting?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Qualification criteria are agreed before launch. They can include company fit, role relevance, need, interest, timing, current approach, decision path, and a clear reason for a next conversation. The exact standard should match the offer and sales process." }
+          },
+          {
+            "@type": "Question",
+            "name": "What information comes with a booked meeting?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The handoff can include the contact and company, why the conversation was booked, useful call notes, relevant needs or objections, timing, people involved, and the agreed next step. The exact fields are set during campaign setup." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can CallTeam work inside our CRM?",
+            "acceptedAnswer": { "@type": "Answer", "text": "CallTeam can work with an agreed CRM or campaign workflow when access, permissions, fields, and operating rules are clear. If direct CRM work is not appropriate, we can agree on another clean reporting and handoff process." }
+          },
+          {
+            "@type": "Question",
+            "name": "What reporting do we receive?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Reporting is matched to the engagement and can include activity, connection outcomes, call dispositions, objections, referrals, qualification notes, follow-up status, meetings booked, and market feedback. The goal is to show what happened and what the campaign is learning." }
+          },
+          {
+            "@type": "Question",
+            "name": "How much calling volume is included?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Calling volume depends on list size, research needs, contact quality, follow-up depth, market, talk-track complexity, and campaign goals. CallTeam scopes the right operating level after reviewing the work instead of forcing every client into one activity package." }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does campaign setup take?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Setup time depends on how clear the offer, target market, list, data, talk track, CRM process, and qualification rules already are. A focused campaign with approved inputs can move faster than a campaign that needs targeting and list building from the ground up." }
+          },
+          {
+            "@type": "Question",
+            "name": "How is CallTeam pricing determined?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on the campaign scope, list and research work, calling and follow-up needs, reporting, systems, market complexity, and level of management required. A strategy call is used to understand the work before a recommendation is made." }
+          },
+          {
+            "@type": "Question",
+            "name": "Is CallTeam an outsourced SDR service or a call centre?",
+            "acceptedAnswer": { "@type": "Answer", "text": "CallTeam can provide the front-end work many companies expect from an outsourced SDR service, including prospecting, calling, follow-up, qualification, and appointment setting. It is not positioned as a generic high-volume call centre. The work is built around the client's offer, market, qualification standard, and sales handoff." }
+          },
+          {
+            "@type": "Question",
+            "name": "How does AI support the outbound calling process?",
+            "acceptedAnswer": { "@type": "Answer", "text": "AI can support account research, list enrichment, lead prioritization, call preparation, message comparison, note organization, and campaign learning. Experienced people make the calls, listen, respond, qualify, and use judgment in the live conversation." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does CallTeam guarantee appointments?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No honest provider can control every buyer, list, market, offer, timing issue, or competitive condition. CallTeam builds and runs the agreed process, measures the work, shares what the market is saying, and improves the campaign using real evidence. Specific commercial commitments belong in the engagement agreement." }
+          },
+          {
+            "@type": "Question",
+            "name": "When is CallTeam not the right fit, and which offer should we choose?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Done-for-you outbound calling fits when you need leads sourced or a list called, followed up, qualified, and booked. Sales Execution Lab fits when your own people need better sales behavior. The 90-Day Revenue Engine fits when the whole pipeline system needs structure. CallTeam may not be the right fit when the offer is still unproven, the target market cannot be defined, or the goal is only the cheapest possible call volume." }
+          }
+        ]
+      }
     ]
   }
 ---
 
-<section class="hero">
-  <div>
-    <h1>More B2B leads. More qualified <span class="highlight">appointments</span>. A stronger sales pipeline.</h1>
-    <p>CallTeam helps B2B companies build targeted prospect lists, call decision-makers, follow up with prospects, qualify opportunities, and book more sales conversations.</p>
-    <p>Need more qualified leads? Have a list that needs calling? Need your sales team trained? Need the pipeline system fixed? CallTeam helps turn sales activity into qualified pipeline.</p>
-    <div class="cta-row">
-      <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Free Call →</a>
+<main class="home-outbound-page">
+  <section class="hero home-hero">
+    <div class="home-hero-copy">
+      <div class="home-eyebrow">Done-for-you B2B outbound calling</div>
+      <h1>We make the calls. You get more <span class="highlight">qualified sales conversations.</span></h1>
+      <p class="home-hero-lead">CallTeam can build the prospect list or use the leads you already have. We call decision-makers, keep following up, qualify the opportunity, and book the right conversations for your sales team.</p>
+      <p>No hiring another SDR. No good list sitting untouched. No calendar filled with meetings that never should have been booked.</p>
+      <div class="home-cta-row">
+        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+        <a href="#qualified-conversation-engine" class="btn-secondary">See How the Calling Works</a>
+      </div>
+      <div class="home-hero-note"><span></span>Built around your offer, your market, and your definition of a qualified conversation.</div>
     </div>
-  </div>
-  <div class="flow-graphic">
-    <div class="flow-step"><div class="fnum">1</div><div class="flabel">Find Leads</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">2</div><div class="flabel">Call</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">3</div><div class="flabel">Qualify</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">4</div><div class="flabel">Book</div></div>
-    <div class="flow-line"></div>
-    <div class="flow-step"><div class="fnum">5</div><div class="flabel">Grow</div></div>
-  </div>
-</section>
 
-<!-- What does CallTeam do? -->
-<section id="services">
-<div class="container-wide">
-  <div class="section-label">What CallTeam does</div>
-  <h2>Lead generation, appointment setting, sales training, and pipeline systems.</h2>
-  <div class="service-grid">
-    <div class="service-card">
-      <h3>Build the Prospect List</h3>
-      <p>Need more qualified leads? CallTeam can help build targeted B2B prospect lists around your ideal customer profile, industries, decision-maker titles, and best-fit accounts.</p>
+    <div class="home-hero-system" role="img" aria-label="CallTeam system showing prospect lists entering human-led calling, qualification, and booked sales conversations">
+      <div class="home-system-head">
+        <span>CallTeam Calling System</span>
+        <strong><i></i> Campaign active</strong>
+      </div>
+      <div class="home-system-inputs">
+        <span>Your leads</span>
+        <span>CRM contacts</span>
+        <span>New list</span>
+      </div>
+      <div class="home-system-core">
+        <small>Human-led execution</small>
+        <strong>Call + Follow Up</strong>
+        <p>Real people start the conversation, handle the first resistance, and keep the next step moving.</p>
+      </div>
+      <div class="home-system-gate">
+        <span>Fit</span><span>Role</span><span>Need</span><span>Timing</span>
+      </div>
+      <div class="home-system-output">
+        <div><small>Qualified</small><strong>Meeting booked</strong></div>
+        <b>→</b>
+      </div>
     </div>
-    <div class="service-card">
-      <h3>Call, Follow Up, and Book</h3>
-      <p>Have a list, CRM contacts, inbound leads, event leads, or LinkedIn prospects? CallTeam can call, follow up, qualify the opportunity, and book sales conversations.</p>
-    </div>
-    <div class="service-card">
-      <h3>Train the Sales Team</h3>
-      <p>If your people need stronger calls, better follow-up, objection handling, qualification, and sales confidence, the Sales Execution Lab helps improve the behavior behind pipeline.</p>
-    </div>
-    <div class="service-card">
-      <h3>Fix the Pipeline System</h3>
-      <p>If the whole process is messy, the 90-Day Revenue Engine helps rebuild the system: target market, lead lists, CRM workflow, outreach rhythm, follow-up, reporting, and accountability.</p>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
-<section>
-<div class="container">
-  <div class="section-label">What we help you do</div>
-  <h2>Get more qualified leads, book more sales conversations, and build a pipeline that moves.</h2>
-  <ul class="help-list">
-    <li>Build targeted B2B prospect lists around your ideal customer profile.</li>
-    <li>Call decision-makers your team has not been able to reach.</li>
-    <li>Follow up with old CRM leads, inbound leads, event leads, LinkedIn prospects, and target account lists.</li>
-    <li>Qualify prospects before they reach your calendar.</li>
-    <li>Book sales conversations with people worth your team's time.</li>
-    <li>Train founders, SDRs, AEs, and sales teams to handle calls, objections, follow-up, and qualification with more confidence.</li>
-    <li>Build a clearer pipeline system instead of relying on random activity, scattered tools, or inconsistent follow-up.</li>
-  </ul>
-</div>
-</section>
+  <section class="home-proof-strip" aria-label="Experience behind CallTeam">
+    <div class="home-proof-grid">
+      <div><strong>500,000+</strong><span>outbound calls</span></div>
+      <div><strong>1,000+</strong><span>sellers coached</span></div>
+      <div><strong>150+</strong><span>companies supported</span></div>
+      <div><strong>Fortune 100/500</strong><span>sales experience</span></div>
+    </div>
+    <p>The experience behind CallTeam includes more than 500,000 outbound calls, coaching for 1,000+ sellers, work across 150+ companies and high-pressure Fortune 100/500 sales environments.</p>
+  </section>
 
-<!-- What problems do we solve? -->
-<section class="problem">
-<div class="container">
-  <div class="section-label">The real problem</div>
-  <h2>Most pipeline problems are not just lead problems.</h2>
-  <p>A company may need a better prospect list. It may have a list that needs calling. The sales team may need training. The full pipeline process may need structure.</p>
-  <p>CallTeam helps identify the gap and fix the part that is blocking growth: list building, outbound calling, lead follow-up, appointment setting, sales training, or a full revenue system.</p>
-  <div class="punch">More leads only matter when they turn into qualified conversations.</div>
-</div>
-</section>
+  <section id="what-callteam-does" class="home-definition">
+    <div class="container">
+      <div class="section-label">What CallTeam does</div>
+      <h2>A real team that can call for you.</h2>
+      <p>CallTeam provides done-for-you B2B outbound calling and appointment setting. In simple terms, we take responsibility for the work between a list of possible buyers and a qualified sales conversation.</p>
+      <p>If you have no list, we can help build one. If you already have leads, we can call them. If old CRM contacts have gone quiet, we can follow up. If inbound, event, webinar, referral, or target-account leads need a human conversation, we can work through them. We agree on who to contact, what to say, what counts as qualified, and how a good opportunity reaches your team.</p>
+      <div class="home-truth-line">You do not need another database full of names. You need the right people contacted, followed up, qualified, and moved toward a real next step.</div>
+    </div>
+  </section>
 
-<!-- Which offer should I choose? -->
-<section id="offers">
-<div class="container-wide">
-  <div class="section-label">Which offer should I choose?</div>
-  <h2>Pick the path based on the problem you need solved.</h2>
-  <div class="service-grid">
-    <div class="service-card">
-      <h3>Done-For-You Lead Generation</h3>
-      <p>For companies that need the prospect list built, existing lists called, follow-up handled, leads qualified, and appointments booked with decision-makers.</p>
-      <a href="/#services" class="card-link">See how it works →</a>
+  <section id="choose-the-right-path" class="home-path-section">
+    <div id="services" class="container-wide">
+      <div class="section-label">Start with the real problem</div>
+      <h2>Four common sales problems. Four clear starting points.</h2>
+      <p class="home-section-intro">You do not need to know the name of the service before you talk to us. Find the situation that sounds like your business.</p>
+      <div class="home-path-grid">
+        <article class="home-path-card featured">
+          <span>01 · Core CallTeam service</span>
+          <h3>“We need more leads and people to call them.”</h3>
+          <p>We can clarify the target market, build or refine the prospect list, make the calls, follow up, qualify the opportunity, and book the conversation.</p>
+          <a href="#qualified-conversation-engine">Explore outbound calling →</a>
+        </article>
+        <article class="home-path-card">
+          <span>02 · Existing leads</span>
+          <h3>“We have leads, but nobody is following up.”</h3>
+          <p>We can call your CRM contacts, old leads, inbound inquiries, event lists, webinar leads, referrals, LinkedIn prospects, or target accounts.</p>
+          <a href="#existing-lead-calling">See the lead types →</a>
+        </article>
+        <article class="home-path-card">
+          <span>03 · Team performance</span>
+          <h3>“Our people need help selling.”</h3>
+          <p>If your team needs better calls, stronger discovery, clearer follow-up, objection handling, qualification, or confidence, use the <a href="/sales-execution-lab/">Sales Execution Lab</a>.</p>
+        </article>
+        <article class="home-path-card">
+          <span>04 · Pipeline system</span>
+          <h3>“The whole pipeline is a mess.”</h3>
+          <p>If the ICP, CRM, process, follow-up, reporting, and weekly rhythm all need work, use the <a href="/90-day-revenue-engine/">90-Day Revenue Engine</a>.</p>
+        </article>
+      </div>
     </div>
-    <div class="service-card">
-      <h3>Sales Execution Lab</h3>
-      <p>For founders, SDRs, AEs, and sales teams that need better calls, stronger follow-up, cleaner qualification, objection handling, and more consistent sales behavior.</p>
-      <a href="/sales-execution-lab/" class="card-link">Explore Sales Execution Lab →</a>
-    </div>
-    <div class="service-card">
-      <h3>90-Day Revenue Engine</h3>
-      <p>For companies where the pipeline system needs to be rebuilt: target market, lead lists, CRM workflow, outreach rhythm, follow-up, reporting, and accountability.</p>
-      <a href="/90-day-revenue-engine/" class="card-link">Explore the Revenue Engine →</a>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
-<!-- Who is it for? -->
-<section>
-<div class="container">
-  <div class="section-label">Who this is for</div>
-  <h2>Built for B2B teams that need more qualified sales conversations.</h2>
-  <p>CallTeam is for B2B companies that sell to other businesses and need more qualified leads, more follow-up, more booked conversations, stronger sales execution, and better pipeline visibility.</p>
-  <p>Founders, business owners, sales leaders, consultants, service companies, SaaS teams, agencies, and B2B companies use CallTeam when they need the front end of sales to become more consistent.</p>
-  <div class="kicker">The answer is not always more ads, more software, or more cold email. Many teams need a better list, stronger follow-up, sharper sales behavior, or a pipeline system that gets used every week.</div>
-</div>
-</section>
+  <section id="qualified-conversation-engine" class="home-engine-section">
+    <div class="container-wide">
+      <div class="section-label">The CallTeam Qualified Conversation Engine</div>
+      <h2>A managed system for turning lead data into real sales conversations.</h2>
+      <p class="home-section-intro">The work is not a straight line from “list” to “meeting.” Every call produces information. Good campaigns use that information to improve the next call, the next message, and the next account priority.</p>
 
-<section class="who">
-<div class="container">
-  <div class="section-label">Lead sourcing + outreach</div>
-  <h2>Need leads built, called, qualified, or booked? We can help.</h2>
-  <p>Some companies need a fresh B2B prospect list built around their ideal customer profile. Others have CRM contacts, old opportunities, inbound leads, webinar leads, event leads, LinkedIn prospects, referral lists, or target accounts that need structured follow-up.</p>
-  <p>CallTeam supports both situations. We can help build the list, call the right people, qualify the opportunity, and move the strongest prospects toward a booked sales conversation.</p>
-  <p>This is where lead generation becomes sales execution: finding the right people, starting real conversations, qualifying the opportunity, and giving your team more time with prospects who can move forward.</p>
-  <div class="kicker">Find the right prospects. Start the conversation. Qualify the opportunity. Book the meeting.</div>
-</div>
-</section>
+      <div class="home-control-panel" role="img" aria-label="The CallTeam Qualified Conversation Engine moves offer, ideal customer profile, lead data, and buying signals through targeting, human calling, follow-up, qualification, and booked conversations. Market feedback improves the next campaign cycle.">
+        <div class="home-panel-head">
+          <div><span class="home-live-dot"></span> Qualified Conversation Engine</div>
+          <strong>Human calling + AI-assisted intelligence</strong>
+        </div>
+        <div class="home-panel-inputs">
+          <span>Offer</span><span>Ideal buyer</span><span>Your leads</span><span>New prospect data</span><span>Buying signals</span>
+        </div>
+        <div class="home-panel-flow">
+          <div class="home-panel-block">
+            <small>01 · Target</small>
+            <strong>Build and prepare</strong>
+            <p>Account fit, decision-makers, verified data, priorities, and call reasons.</p>
+          </div>
+          <div class="home-panel-arrow">→</div>
+          <div class="home-panel-block execution">
+            <small>02 · Execute</small>
+            <strong>Call and follow up</strong>
+            <p>Human-led conversations, clear talk tracks, steady follow-up, and useful notes.</p>
+          </div>
+          <div class="home-panel-arrow">→</div>
+          <div class="home-panel-block qualification">
+            <small>03 · Qualify</small>
+            <strong>Protect the calendar</strong>
+            <div class="home-mini-gates"><span>Fit</span><span>Role</span><span>Need</span><span>Timing</span><span>Next step</span></div>
+          </div>
+          <div class="home-panel-arrow">→</div>
+          <div class="home-panel-block outcome">
+            <small>04 · Hand off</small>
+            <strong>Qualified conversation</strong>
+            <p>Meeting, context, call notes, needs, objections, and the agreed next step.</p>
+          </div>
+        </div>
+        <div class="home-panel-intelligence">
+          <div><small>Market response</small><strong>Objections · Referrals · Timing · Language · Competitors</strong></div>
+          <div><small>Campaign improvement</small><strong>Refine the list · Message · Priority · Qualification</strong></div>
+        </div>
+        <div class="home-panel-feedback"><span>↻</span> Every real conversation becomes evidence for the next campaign decision.</div>
+        <div class="home-panel-rail"><span>AI-assisted research</span><span>Human-led calling</span><span>Structured follow-up</span><span>Transparent qualification</span></div>
+      </div>
+    </div>
+  </section>
 
-<!-- When leads are not the only problem -->
-<section>
-<div class="container-wide">
-  <div class="section-label">When leads are not the only problem</div>
-  <h2>Sometimes the list is fine. The sales execution or pipeline system needs work.</h2>
-  <div class="service-grid">
-    <div class="service-card">
-      <h3>Sales Execution Lab</h3>
-      <p>Sales Execution Lab is for founders, SDRs, AEs, and sales teams that need stronger sales behavior. The goal is better calls, better follow-up, cleaner qualification, stronger objection handling, and more confidence in real sales conversations.</p>
-      <p>If your team has leads but struggles to turn them into next steps, this is where training and coaching can help.</p>
-      <a href="/sales-execution-lab/" class="card-link">Explore Sales Execution Lab →</a>
+  <section id="campaign-inputs" class="home-input-section">
+    <div class="container-wide">
+      <div class="section-label">What enters the system</div>
+      <h2>Start with your leads, a new list, or both.</h2>
+      <div class="home-input-grid">
+        <article>
+          <span>Your data</span>
+          <h3>Use the leads you already have</h3>
+          <p>CRM contacts, old opportunities, inbound leads, event lists, webinar attendees, referrals, LinkedIn prospects, target accounts, partner lists, or another list your team wants called.</p>
+        </article>
+        <article>
+          <span>New data</span>
+          <h3>Build a prospect list from scratch</h3>
+          <p>We can help define the companies and decision-makers that fit the offer, source the records, check the data, and prepare a focused list for calling.</p>
+        </article>
+        <article>
+          <span>Mixed campaign</span>
+          <h3>Combine old and new opportunities</h3>
+          <p>Many businesses have useful contacts already but still need fresh prospects. We can separate the groups, use the right message for each, and report on what each source produces.</p>
+        </article>
+      </div>
     </div>
-    <div class="service-card">
-      <h3>90-Day Revenue Engine</h3>
-      <p>The 90-Day Revenue Engine is for companies where the pipeline process needs structure. The issue may be unclear targeting, weak lists, messy CRM, inconsistent outreach, poor follow-up, thin reporting, or no weekly sales rhythm.</p>
-      <p>If the problem is bigger than one campaign, this helps rebuild the system behind qualified pipeline.</p>
-      <a href="/90-day-revenue-engine/" class="card-link">Explore the Revenue Engine →</a>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
-<!-- Why are we different? -->
-<section class="why">
-<div class="container">
-  <div class="section-label">Why CallTeam is different</div>
-  <h2>The missing layer between leads and revenue.</h2>
-  <p>CallTeam is not a traditional call center or a generic list vendor. The work is built around the practical path behind B2B pipeline: who to target, how to build the list, how to call, how to follow up, how to qualify, and how to move the right prospects toward a real sales conversation.</p>
-  <p>For some companies, the gap is lead supply. For others, it is calling and follow-up. Many teams need stronger sales behavior. Some companies need the full pipeline system rebuilt. The right starting point depends on what is blocking qualified conversations.</p>
-  <div class="goal"><span class="no">The goal is not more activity.</span> <span class="yes">The goal is qualified pipeline movement.</span></div>
-</div>
-</section>
+  <section id="target-market" class="home-focus-section">
+    <div class="container">
+      <div class="section-label">Ideal customer profile and target market</div>
+      <h2>Before the calling starts, we get clear on who is worth calling.</h2>
+      <p>A larger list is not automatically a better list. We first clarify the type of company that can realistically buy the offer and the people most likely to understand the problem. That may include industry, location, company size, business model, technology, operating condition, role, seniority, and obvious reasons the account may or may not fit.</p>
+      <p>We also agree on exclusions. A campaign should not waste time calling companies that are too small, too large, in the wrong region, outside the required industry, already active customers, direct competitors, students, vendors, or roles that cannot move the conversation forward.</p>
+      <div class="home-inline-checks"><span>Best-fit companies</span><span>Right decision-makers</span><span>Clear exclusions</span><span>Useful call reason</span></div>
+    </div>
+  </section>
 
-<!-- How does it work? -->
-<section id="process">
-<div class="container">
-  <div class="section-label">How it works</div>
-  <h2>Build the list, call the market, qualify the opportunity, book the conversation.</h2>
-  <div class="steps">
-    <div class="step">
-      <div class="step-num">1</div>
-      <div><h3>Clarify the Market</h3><p>We clarify your ideal customer profile, target industries, company size, decision-maker titles, buying triggers, and strongest-fit accounts.</p></div>
+  <section id="prospect-list-building" class="home-data-section">
+    <div class="container-wide">
+      <div class="section-label">Prospect list building and verification</div>
+      <h2>No usable list? We can help build one.</h2>
+      <div class="home-split-copy">
+        <div>
+          <p>CallTeam can help build an ICP-matched B2B prospect list from the ground up. The list can include target companies, the right roles, available work contact information, useful account context, and the fields needed for calling, qualification, and reporting.</p>
+          <p>When you already have a list, we can review it for gaps before the campaign starts. That may mean removing obvious bad-fit records, separating warm and cold contacts, checking role relevance, finding missing decision-makers, and deciding which records deserve attention first.</p>
+        </div>
+        <div class="home-dark-note">
+          <span>List quality rule</span>
+          <strong>A name is not a lead just because it appears in a database.</strong>
+          <p>The record needs a reason to be there: company fit, role relevance, useful data, or a real connection to your offer.</p>
+        </div>
+      </div>
+      <p class="home-related-link">For a deeper look at modern research, signals, and prioritization, explore <a href="/ai-lead-generation-services/">AI Lead Generation Services</a>.</p>
     </div>
-    <div class="step">
-      <div class="step-num">2</div>
-      <div><h3>Build or Refine the Lead List</h3><p>We can build a new targeted prospect list or use CRM contacts, inbound leads, event leads, LinkedIn prospects, referral lists, or target accounts you want called.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">3</div>
-      <div><h3>Call and Follow Up</h3><p>We make the calls, follow up with prospects, handle early objections, and keep outreach moving with a consistent rhythm.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">4</div>
-      <div><h3>Qualify and Book</h3><p>We look for fit, relevance, interest, timing, role, need, and next-step potential before moving prospects toward your sales team.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">5</div>
-      <div><h3>Improve the People or the System</h3><p>If your team needs better sales behavior, Sales Execution Lab can help. If the pipeline process needs rebuilding, the 90-Day Revenue Engine can help create structure.</p></div>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
-<section>
-<div class="container">
-  <div class="section-label">Lead types</div>
-  <h2>Prospects, lists, and follow-up opportunities we can help with.</h2>
-  <ul class="help-list">
-    <li>New B2B prospect lists built around your ideal customer profile.</li>
-    <li>Cold prospect lists that need outbound calling.</li>
-    <li>Old CRM leads that have gone quiet.</li>
-    <li>Inbound leads that need faster follow-up.</li>
-    <li>LinkedIn prospects and Sales Navigator-style target lists.</li>
-    <li>Event, conference, or webinar leads.</li>
-    <li>Dormant opportunities sitting in your pipeline.</li>
-    <li>Target account lists for account-based outbound campaigns.</li>
-    <li>Referral or partner lists that need structured follow-up.</li>
-  </ul>
-</div>
-</section>
+  <section id="ai-assisted-research" class="home-ai-section">
+    <div class="container-wide">
+      <div class="section-label">AI-assisted research and prioritization</div>
+      <h2>Use AI to prepare the work. Use people to earn the conversation.</h2>
+      <div class="home-ai-grid">
+        <article>
+          <span>AI can support</span>
+          <ul>
+            <li>Account research and data organization</li>
+            <li>Lead enrichment and role matching</li>
+            <li>Available buying-signal review</li>
+            <li>Account prioritization and call preparation</li>
+            <li>Message comparison and note organization</li>
+            <li>Patterns across objections and outcomes</li>
+          </ul>
+        </article>
+        <article class="human">
+          <span>Experienced people handle</span>
+          <ul>
+            <li>The live call and first impression</li>
+            <li>Listening, pacing, tone, and judgment</li>
+            <li>Unexpected questions and resistance</li>
+            <li>Commercial context and real qualification</li>
+            <li>Referrals, next steps, and careful handoff</li>
+            <li>Learning what the buyer actually meant</li>
+          </ul>
+        </article>
+      </div>
+      <div class="home-ai-conclusion">AI can help decide where to look. A real conversation confirms what is true.</div>
+    </div>
+  </section>
 
-<section id="faq">
-<div class="container-wide">
-  <div class="section-label">FAQ</div>
-  <h2>Common questions about CallTeam.</h2>
-  <div class="service-grid">
-    <div class="service-card">
-      <h3>Does CallTeam provide leads?</h3>
-      <p>Yes. CallTeam can help build targeted B2B prospect lists around your ideal customer profile, decision-maker titles, industries, and best-fit accounts. We can also call and follow up with CRM contacts, old leads, inbound leads, event leads, LinkedIn prospects, and target account lists.</p>
+  <section id="human-outbound-calling" class="home-calling-section">
+    <div class="container">
+      <div class="section-label">Human-led outbound calling</div>
+      <h2>Calling is not a button. It is a live sales conversation.</h2>
+      <p>CallTeam callers contact decision-makers on behalf of the campaign, explain the reason for the call, listen to the response, work through the first resistance, ask the right questions, and decide whether a next step makes sense. That is different from simply reading a script and counting dials.</p>
+      <p>Some calls are cold. Others follow an inbound form, a previous conversation, an event, a referral, or an old opportunity. The opening and the goal should match the situation. A person who downloaded something yesterday should not receive the same call as a decision-maker who has never heard of the company.</p>
+      <p>Calls also reveal what lists and dashboards cannot: whether the role is correct, whether the problem matters, how buyers describe it, which objections appear repeatedly, who else should be involved, and whether the market understands the offer.</p>
     </div>
-    <div class="service-card">
-      <h3>Do you only make calls?</h3>
-      <p>No. Outbound calling is one part of the work. CallTeam also helps with prospect list building, targeting, lead follow-up, qualification, appointment setting, sales execution support, sales training, and pipeline systems.</p>
-    </div>
-    <div class="service-card">
-      <h3>Can CallTeam call a list we already have?</h3>
-      <p>Yes. CallTeam can call and follow up with prospect lists, CRM contacts, old leads, inbound leads, event leads, webinar leads, referral lists, LinkedIn prospects, and target accounts.</p>
-    </div>
-    <div class="service-card">
-      <h3>What is Sales Execution Lab?</h3>
-      <p>Sales Execution Lab helps founders, SDRs, AEs, and sales teams improve call execution, follow-up habits, objection handling, qualification, sales confidence, and sales conversations.</p>
-    </div>
-    <div class="service-card">
-      <h3>What is the 90-Day Revenue Engine?</h3>
-      <p>The 90-Day Revenue Engine helps companies rebuild the system behind pipeline, including ideal customer profile, prospect lists, CRM workflow, outreach rhythm, follow-up, reporting, and accountability.</p>
-    </div>
-    <div class="service-card">
-      <h3>How do I know which offer I need?</h3>
-      <p>If you need more prospects, start with list building and lead generation. If you have lists that need calling, start with done-for-you lead generation. If your team needs stronger sales behavior, look at Sales Execution Lab. If the whole pipeline process is unclear, look at the 90-Day Revenue Engine.</p>
-    </div>
-  </div>
-</div>
-</section>
+  </section>
 
-<!-- How do I book? -->
-{% include "partials/contact-form.njk" %}
+  <section id="talk-tracks" class="home-talk-section">
+    <div class="container-wide">
+      <div class="section-label">Talk tracks and message approval</div>
+      <h2>Your company should know how it will be represented.</h2>
+      <div class="home-talk-grid">
+        <article><span>1</span><h3>Campaign brief</h3><p>We learn the offer, buyer, problem, proof, common objections, boundaries, and the reason a prospect should care.</p></article>
+        <article><span>2</span><h3>Approved language</h3><p>We align on the opening, core message, qualification questions, meeting standard, and claims that should or should not be used.</p></article>
+        <article><span>3</span><h3>Real-call learning</h3><p>We use actual responses to make the language clearer. Changes should come from evidence, not random script rewrites.</p></article>
+      </div>
+      <p class="home-centered-copy">A talk track gives the caller structure. It should not trap the caller inside a robotic speech. Good callers know the destination of the conversation and still listen to the person in front of them.</p>
+    </div>
+  </section>
 
-<section class="cta-band">
-  <h2>Need more qualified B2B <span class="highlight">leads and appointments</span>?</h2>
-  <p>Book a free call and let's look at the gap: lead list, outbound calling, follow-up, qualification, sales training, or the pipeline system behind it.</p>
-  <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free Call</a>
-</section>
+  <section id="follow-up" class="home-followup-section">
+    <div class="container">
+      <div class="section-label">Structured follow-up</div>
+      <h2>One unanswered call is not a sales strategy.</h2>
+      <p>Most good prospects are busy. They miss calls, ask for information, send the caller to another person, delay a decision, or say “not now” when they really mean “the timing is unclear.” A campaign needs a follow-up rhythm that keeps the opportunity moving without turning into noise.</p>
+      <p>CallTeam can manage agreed call attempts and appropriate supporting follow-up around the campaign. The exact channels, timing, number of touches, message, and stop rules depend on the engagement. Replies, referrals, clear declines, wrong-person outcomes, and booked conversations should all change what happens next.</p>
+      <div class="home-followup-rail"><span>Call</span><b>→</b><span>Record the outcome</span><b>→</b><span>Take the right next action</span><b>→</b><span>Stop when the answer is clear</span></div>
+    </div>
+  </section>
+
+  <section id="lead-qualification" class="home-qualification-section">
+    <div class="container-wide">
+      <div class="section-label">Lead qualification</div>
+      <h2>A full calendar means nothing if the wrong people are on it.</h2>
+      <p class="home-section-intro">Before launch, we agree on what must be true for a meeting to count. The exact questions change by offer, but the qualification logic is simple.</p>
+      <div class="home-qualification-grid">
+        <article><span>01</span><h3>Company fit</h3><p>Does the company match the market, size, location, industry, or operating profile the offer is built for?</p></article>
+        <article><span>02</span><h3>Role relevance</h3><p>Is this the right person, a useful influencer, a clear referral, or someone connected to the decision?</p></article>
+        <article><span>03</span><h3>Need or reason</h3><p>Is there a real problem, goal, change, gap, or business reason that makes a conversation useful?</p></article>
+        <article><span>04</span><h3>Interest and timing</h3><p>Is there enough interest to continue, and does the timing support a real next step now or later?</p></article>
+        <article><span>05</span><h3>Decision path</h3><p>Who else matters, what happens next, and what must the sales team understand before the meeting?</p></article>
+        <article><span>06</span><h3>Clear next step</h3><p>Did the prospect knowingly agree to a relevant conversation, with a reason for both sides to attend?</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="appointment-setting" class="home-handoff-section">
+    <div class="container">
+      <div class="section-label">Appointment setting and handoff</div>
+      <h2>Your sales team should know why the meeting exists.</h2>
+      <p>A booked meeting is the handoff point, not the finish line. The calendar invitation should connect the right people to a clear next conversation. The notes should help your seller walk in prepared instead of asking the prospect to repeat everything.</p>
+      <p>Depending on the campaign and agreed process, the handoff can include the contact and company, the reason the prospect agreed to talk, useful needs or priorities, timing, current approach, objections, other people involved, relevant call notes, and the agreed next step. If the prospect is not ready for a meeting but should be followed later, that outcome should be recorded instead of forced onto the calendar.</p>
+      <div class="home-handoff-card"><span>Qualified handoff</span><strong>Right account · Right person · Real reason · Clear next step · Useful context</strong></div>
+    </div>
+  </section>
+
+  <section id="existing-lead-calling" class="home-lead-types-section">
+    <div class="container-wide">
+      <div class="section-label">Existing-list calling and lead reactivation</div>
+      <h2>If the leads are sitting there, we can call them.</h2>
+      <div class="home-lead-type-grid">
+        <article><h3>Prospect lists</h3><p>Cold or warm B2B lists that need real calling, follow-up, qualification, and clear outcomes.</p></article>
+        <article><h3>Old CRM leads</h3><p>Previous inquiries, no-decisions, dormant opportunities, and contacts that stopped responding.</p></article>
+        <article><h3>Inbound leads</h3><p>Form fills, demo requests, downloads, or other inquiries that need faster human follow-up.</p></article>
+        <article><h3>Events and webinars</h3><p>Attendees, registrants, booth visitors, conference lists, and people who engaged with a session.</p></article>
+        <article><h3>Target accounts</h3><p>Named companies, ABM lists, LinkedIn prospects, and decision-makers your team wants to reach.</p></article>
+        <article><h3>Referrals and partners</h3><p>Introductions, member lists, channel opportunities, and partner-sourced contacts that need structure.</p></article>
+      </div>
+      <p class="home-centered-copy">Each list needs its own context. We should know where the lead came from, what the person may already know, what can be said honestly, and what outcome the client wants.</p>
+    </div>
+  </section>
+
+  <section id="client-deliverables" class="home-deliverables-section">
+    <div class="container-wide">
+      <div class="section-label">What clients receive</div>
+      <h2>A managed campaign, not a pile of unexplained activity.</h2>
+      <div class="home-deliverables-grid">
+        <article><span>01</span><h3>Campaign foundation</h3><p>Target-market definition, list plan, campaign brief, talk track, qualification standard, handoff rules, and agreed boundaries.</p></article>
+        <article><span>02</span><h3>Calling execution</h3><p>Prepared human callers, consistent outreach, structured follow-up, clear dispositions, useful notes, and next actions.</p></article>
+        <article><span>03</span><h3>Qualified handoffs</h3><p>Booked conversations that meet the agreed standard, with the contact, context, needs, timing, and relevant call information.</p></article>
+        <article><span>04</span><h3>Campaign intelligence</h3><p>What prospects said, common objections, role corrections, referrals, timing signals, message patterns, and recommendations for improvement.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="reporting" class="home-reporting-section">
+    <div class="container">
+      <div class="section-label">Reporting and campaign intelligence</div>
+      <h2>See the work, the outcomes, and what the market is teaching us.</h2>
+      <p>Activity matters, but activity alone does not explain performance. Reporting can include calls, connection outcomes, call dispositions, wrong-person results, referrals, objections, qualification notes, follow-up status, meetings booked, and other agreed campaign measures.</p>
+      <p>The more valuable layer is the market response. Are the right people answering? Do they understand the problem? Is the role wrong? Does one industry respond better? Is the offer arriving too early, too late, or with weak language? Are meetings being lost because of targeting, data, message, timing, or qualification?</p>
+      <div class="home-reporting-grid"><span>Activity</span><span>Connection outcomes</span><span>Qualification</span><span>Meetings</span><span>Objections</span><span>Market learning</span></div>
+    </div>
+  </section>
+
+  <section id="client-inputs" class="home-client-section">
+    <div class="container-wide">
+      <div class="section-label">What CallTeam needs from the client</div>
+      <h2>The calling works better when the foundation is clear.</h2>
+      <div class="home-client-grid">
+        <article><strong>A real offer</strong><p>What do you sell, what problem does it solve, and why should the target buyer care?</p></article>
+        <article><strong>A target market</strong><p>Which companies and people fit, and which ones should never enter the campaign?</p></article>
+        <article><strong>Useful proof</strong><p>Relevant experience, examples, results, customer language, or evidence the caller can use honestly.</p></article>
+        <article><strong>A meeting standard</strong><p>What must be true before a conversation belongs on the sales team's calendar?</p></article>
+        <article><strong>Fast decisions</strong><p>Clear approval for language, lists, changes, questions, and issues that could slow the campaign.</p></article>
+        <article><strong>Strong follow-through</strong><p>The client team must attend, prepare for, and properly work the qualified meetings it receives.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparison" class="home-comparison-section">
+    <div class="container-wide">
+      <div class="section-label">Compare the operating models</div>
+      <h2>CallTeam versus hiring, a generic call centre, or buying another tool.</h2>
+      <div class="home-table-wrap">
+        <table class="home-comparison-table">
+          <thead><tr><th>Option</th><th>What you get</th><th>What you still own</th><th>Best when</th></tr></thead>
+          <tbody>
+            <tr class="featured"><td><strong>CallTeam</strong></td><td>Targeting support, list work, human calling, follow-up, qualification, appointment setting, and campaign learning</td><td>Offer clarity, approvals, proof, meeting attendance, and the sales conversation after handoff</td><td>You need the front end of sales managed without building the full function internally</td></tr>
+            <tr><td><strong>Internal SDR</strong></td><td>A dedicated employee who can learn the company deeply and handle a wider set of internal tasks</td><td>Hiring, onboarding, pay, tools, management, coaching, coverage, process, and performance risk</td><td>You have the management capacity, repeatable motion, time, and budget to build in-house</td></tr>
+            <tr><td><strong>Generic call centre</strong></td><td>High call capacity built around scripts, queues, or broad activity goals</td><td>Strategy, targeting, sales judgment, qualification quality, message improvement, and handoff design</td><td>The work is simple, repeatable, highly scripted, and mainly judged by volume</td></tr>
+            <tr><td><strong>Software or database</strong></td><td>Data, automation, workflows, signals, or outreach tools your team can use</td><td>People, daily execution, calls, judgment, follow-up, qualification, management, and sales outcomes</td><td>Your team already has the time, skill, process, and ownership to do the work</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="home-related-link">Read the full comparison: <a href="/articles/lead-generation-tools-vs-done-for-you-services/">lead generation tools versus done-for-you services</a>.</p>
+    </div>
+  </section>
+
+  <section id="use-cases" class="home-use-cases-section">
+    <div class="container-wide">
+      <div class="section-label">Use cases and sales environments</div>
+      <h2>Built for B2B offers that need a real conversation.</h2>
+      <div class="home-use-grid">
+        <article><h3>Founder-led sales</h3><p>The founder can take good meetings but cannot spend every day building lists, making calls, and chasing follow-up.</p></article>
+        <article><h3>Small sales teams</h3><p>The team needs more front-end coverage without immediately hiring, onboarding, and managing another full-time SDR.</p></article>
+        <article><h3>Complex B2B services</h3><p>The offer needs explanation, context, qualification, and a thoughtful handoff rather than a simple consumer script.</p></article>
+        <article><h3>SaaS and technology</h3><p>The company needs target-account calls, decision-maker access, discovery, meeting setting, or support around a focused market.</p></article>
+        <article><h3>Agencies and consultants</h3><p>Experts can deliver the work but need more consistent conversations with the companies most likely to value it.</p></article>
+        <article><h3>Reactivation campaigns</h3><p>The business has years of contacts, inquiries, no-decisions, event leads, or quiet opportunities worth revisiting.</p></article>
+      </div>
+      <p class="home-centered-copy">CallTeam is not limited to one industry. The better question is whether the offer has a definable B2B buyer, a useful reason to talk, and a sales team ready to handle qualified conversations.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="home-experience-section">
+    <div class="container">
+      <div class="section-label">Experience behind CallTeam</div>
+      <h2>Built from the work itself.</h2>
+      <p>The people behind CallTeam have worked across high-pressure Fortune 100/500 sales environments, supported more than 150 companies, coached more than 1,000 sellers, and built experience from more than 500,000 outbound calls.</p>
+      <p>That matters because outbound calling is not learned from a template alone. It is learned by hearing real objections, working different markets, watching good and bad lists perform, coaching people through difficult calls, and understanding why some conversations move while others die.</p>
+      <p>CallTeam brings calling execution, sales coaching, targeting, qualification, and pipeline thinking into one operating model. The goal is not to look busy. The goal is to create more sales conversations worth having and make the evidence behind them visible.</p>
+      <div class="home-experience-quote">More calls are not the product. Better qualified conversations are.</div>
+    </div>
+  </section>
+
+  <section id="offer-routing" class="home-routing-section">
+    <div class="container-wide">
+      <div class="section-label">Choose the right CallTeam offer</div>
+      <h2>Start where the problem actually lives.</h2>
+      <div class="home-routing-grid">
+        <article class="featured"><span>Done-for-you execution</span><h3>Outbound Calling</h3><p>Choose this when you need a new prospect list or already have leads that need calling, follow-up, qualification, and appointment setting.</p><a href="#contact">Talk about your calling campaign →</a></article>
+        <article><span>Advanced targeting</span><h3>AI Lead Generation</h3><p>Choose this when better account research, available buying signals, data enrichment, lead prioritization, and AI-assisted preparation are central to the work.</p><a href="/ai-lead-generation-services/">Explore AI Lead Generation →</a></article>
+        <article><span>Team performance</span><h3>Sales Execution Lab</h3><p>Choose this when your own founders, SDRs, BDRs, AEs, or managers need stronger calls, discovery, objections, qualification, and follow-up.</p><a href="/sales-execution-lab/">Explore Sales Execution Lab →</a></article>
+        <article><span>Pipeline system</span><h3>90-Day Revenue Engine</h3><p>Choose this when the ICP, CRM, process, outreach rhythm, reporting, accountability, and full pipeline system need to be rebuilt.</p><a href="/90-day-revenue-engine/">Explore the Revenue Engine →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="learn-more" class="home-learning-section">
+    <div class="container-wide">
+      <div class="section-label">Learn before you choose</div>
+      <h2>Practical guides to B2B lead generation and outbound.</h2>
+      <div class="home-learning-grid">
+        <a href="/articles/outbound-lead-generation/"><span>Guide</span><strong>How outbound lead generation works</strong><small>Lists, calls, follow-up, qualification, and booked conversations.</small></a>
+        <a href="/articles/what-is-b2b-lead-generation/"><span>Definition</span><strong>What is B2B lead generation?</strong><small>A complete explanation of the work behind qualified pipeline.</small></a>
+        <a href="/articles/b2b-lead-generation-services/"><span>Buyer guide</span><strong>How to evaluate B2B lead generation services</strong><small>What a provider should actually do and how to compare options.</small></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="home-faq-section">
+    <div class="container-wide">
+      <div class="section-label">Frequently asked questions</div>
+      <h2>Questions about outbound calling and appointment setting.</h2>
+      <div class="home-faq-list">
+        <details><summary>Can CallTeam build the prospect list?</summary><p>Yes. CallTeam can build a targeted B2B prospect list around the companies, industries, locations, company sizes, and decision-maker roles that fit your offer. We can also verify and refine a list you already have.</p></details>
+        <details><summary>Can CallTeam call a list we already have?</summary><p>Yes. If you already have a prospect list, CRM contacts, target accounts, or leads from another source, CallTeam can organize the calling plan, make the calls, follow up, qualify responses, and book appropriate conversations.</p></details>
+        <details><summary>Can you call old CRM leads?</summary><p>Yes. CallTeam can work through old CRM leads, dormant opportunities, previous inquiries, no-decisions, and contacts that stopped responding. We agree on the priority, message, status rules, and handoff before outreach starts.</p></details>
+        <details><summary>Can you follow up with inbound, event, or webinar leads?</summary><p>Yes. CallTeam can follow up with inbound form leads, demo requests, event lists, trade-show contacts, webinar attendees, referrals, and other warm or time-sensitive leads. The campaign is built around the source and the reason the person entered the list.</p></details>
+        <details><summary>Is outbound calling the same as cold calling?</summary><p>Cold calling is one type of outbound calling. Outbound calling can also include old-lead reactivation, inbound lead follow-up, event follow-up, target-account outreach, referral follow-up, and calls to prospects who have already shown some interest.</p></details>
+        <details><summary>How do callers represent our company, and who approves the talk track?</summary><p>Callers work from an agreed campaign brief and represent the client in the way approved before launch. The client reviews the core talk track, positioning, qualification questions, meeting standard, and important boundaries. Real conversations then help refine the language.</p></details>
+        <details><summary>How does CallTeam research prospects?</summary><p>Research depends on the campaign. It can include company fit, industry, size, location, decision-maker role, available contact data, account changes, relevant business signals, CRM history, and public context that helps the caller understand why the account may be worth contacting.</p></details>
+        <details><summary>How does CallTeam qualify a meeting?</summary><p>Qualification criteria are agreed before launch. They can include company fit, role relevance, need, interest, timing, current approach, decision path, and a clear reason for a next conversation. The exact standard should match the offer and sales process.</p></details>
+        <details><summary>What information comes with a booked meeting?</summary><p>The handoff can include the contact and company, why the conversation was booked, useful call notes, relevant needs or objections, timing, people involved, and the agreed next step. The exact fields are set during campaign setup.</p></details>
+        <details><summary>Can CallTeam work inside our CRM?</summary><p>CallTeam can work with an agreed CRM or campaign workflow when access, permissions, fields, and operating rules are clear. If direct CRM work is not appropriate, we can agree on another clean reporting and handoff process.</p></details>
+        <details><summary>What reporting do we receive?</summary><p>Reporting is matched to the engagement and can include activity, connection outcomes, call dispositions, objections, referrals, qualification notes, follow-up status, meetings booked, and market feedback. The goal is to show what happened and what the campaign is learning.</p></details>
+        <details><summary>How much calling volume is included?</summary><p>Calling volume depends on list size, research needs, contact quality, follow-up depth, market, talk-track complexity, and campaign goals. CallTeam scopes the right operating level after reviewing the work instead of forcing every client into one activity package.</p></details>
+        <details><summary>How long does campaign setup take?</summary><p>Setup time depends on how clear the offer, target market, list, data, talk track, CRM process, and qualification rules already are. A focused campaign with approved inputs can move faster than a campaign that needs targeting and list building from the ground up.</p></details>
+        <details><summary>How is CallTeam pricing determined?</summary><p>Pricing depends on the campaign scope, list and research work, calling and follow-up needs, reporting, systems, market complexity, and level of management required. A strategy call is used to understand the work before a recommendation is made.</p></details>
+        <details><summary>Is CallTeam an outsourced SDR service or a call centre?</summary><p>CallTeam can provide the front-end work many companies expect from an outsourced SDR service, including prospecting, calling, follow-up, qualification, and appointment setting. It is not positioned as a generic high-volume call centre. The work is built around the client's offer, market, qualification standard, and sales handoff.</p></details>
+        <details><summary>How does AI support the outbound calling process?</summary><p>AI can support account research, list enrichment, lead prioritization, call preparation, message comparison, note organization, and campaign learning. Experienced people make the calls, listen, respond, qualify, and use judgment in the live conversation.</p></details>
+        <details><summary>Does CallTeam guarantee appointments?</summary><p>No honest provider can control every buyer, list, market, offer, timing issue, or competitive condition. CallTeam builds and runs the agreed process, measures the work, shares what the market is saying, and improves the campaign using real evidence. Specific commercial commitments belong in the engagement agreement.</p></details>
+        <details><summary>When is CallTeam not the right fit, and which offer should we choose?</summary><p>Done-for-you outbound calling fits when you need leads sourced or a list called, followed up, qualified, and booked. Sales Execution Lab fits when your own people need better sales behavior. The 90-Day Revenue Engine fits when the whole pipeline system needs structure. CallTeam may not be the right fit when the offer is still unproven, the target market cannot be defined, or the goal is only the cheapest possible call volume.</p></details>
+      </div>
+    </div>
+  </section>
+
+  {% include "partials/contact-form.njk" %}
+
+  <section class="cta-band home-final-cta">
+    <div class="section-label">Ready to put the list to work?</div>
+    <h2>We can build the list, make the calls, and book the right conversations.</h2>
+    <p>Tell us what you sell, who you want to reach, and what is sitting untouched. We will help identify the right starting point.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+  </section>
+</main>
