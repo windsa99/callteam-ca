@@ -56,6 +56,8 @@ sources:
   - name: "McKinsey: B2B Sales Omnichannel Everywhere, Every Time"
     url: "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/b2b-sales-omnichannel-everywhere-every-time"
 readNext:
+  - title: "AI Lead Generation Services"
+    url: "/ai-lead-generation-services/"
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
   - title: "B2B Lead Generation Services"

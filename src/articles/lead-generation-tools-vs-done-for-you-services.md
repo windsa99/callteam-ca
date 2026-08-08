@@ -56,6 +56,8 @@ sources:
   - name: "McKinsey: B2B Sales Omnichannel Everywhere, Every Time"
     url: "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/b2b-sales-omnichannel-everywhere-every-time"
 readNext:
+  - title: "AI Lead Generation Services"
+    url: "/ai-lead-generation-services/"
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
   - title: "AI Lead Generation"
@@ -191,7 +193,7 @@ A bad list with AI-written messages is still a bad campaign. A lead score built 
 
 The best use of AI in lead generation is not replacing the sales process. It is helping the team focus attention on better accounts, better timing, and better conversations.
 
-For a deeper breakdown, read [AI Lead Generation: What It Can Do and What It Cannot Do](/articles/ai-lead-generation/).
+For a managed execution option, explore CallTeam's [AI Lead Generation Services](/ai-lead-generation-services/). For the educational breakdown, read [AI Lead Generation: What It Can Do and What It Cannot Do](/articles/ai-lead-generation/).
 
 ## How to make the decision
 

@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ seoTitle or title }}</title>
 <meta name="description" content="{{ description }}">
+{% if canonicalUrl %}<link rel="canonical" href="{{ canonicalUrl }}">{% endif %}
+{% if socialTitle %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CallTeam">
+<meta property="og:title" content="{{ socialTitle }}">
+<meta property="og:description" content="{{ socialDescription or description }}">
+<meta property="og:url" content="{{ canonicalUrl }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ socialTitle }}">
+<meta name="twitter:description" content="{{ socialDescription or description }}">
+{% endif %}
 <link rel="icon" href="/assets/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">

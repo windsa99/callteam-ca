@@ -80,6 +80,8 @@ sources:
   - name: "HubSpot: Introduction to lead generation"
     url: "https://offers.hubspot.com/lead-generation-introduction"
 readNext:
+  - title: "AI Lead Generation Services"
+    url: "/ai-lead-generation-services/"
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
   - title: "B2B Lead Generation Services"
@@ -439,7 +441,7 @@ If you use AI after the target is clear, you get better leverage.
 
 ## Where CallTeam fits
 
-CallTeam fits when a company wants smarter lead generation but still needs real execution.
+CallTeam's [AI lead generation services](/ai-lead-generation-services/) fit when a company wants smarter prospecting but still needs real human execution.
 
 You may already have:
 

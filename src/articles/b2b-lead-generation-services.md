@@ -80,6 +80,8 @@ sources:
   - name: "LinkedIn Sales Navigator: Lead generation efficiency"
     url: "https://www.linkedin.com/business/sales/blog/sales-navigator/maximize-lead-gen-efficiency-with-linkedin-sales-navigator"
 readNext:
+  - title: "AI Lead Generation Services"
+    url: "/ai-lead-generation-services/"
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
   - title: "AI Lead Generation"
@@ -389,7 +391,7 @@ This is exactly how CallTeam thinks about it.
 
 Use AI and data where they improve targeting and preparation. Keep the focus on sales execution and real conversations.
 
-For a deeper breakdown, read [AI Lead Generation: What It Can Do and What It Cannot Do](/articles/ai-lead-generation/).
+For a deeper breakdown, explore CallTeam's [AI Lead Generation Services](/ai-lead-generation-services/) or read [AI Lead Generation: What It Can Do and What It Cannot Do](/articles/ai-lead-generation/).
 
 ## What good reporting should show
 
