@@ -7,7 +7,21 @@
 
   <nav class="nav-links">
     {% for item in navigation %}
-      <a href="{{ item.url }}">{{ item.label }}</a>
+      {% if item.children %}
+        <div class="nav-group">
+          <a href="{{ item.url }}" class="nav-group-link">{{ item.label }} <span aria-hidden="true">⌄</span></a>
+          <div class="nav-dropdown" aria-label="{{ item.label }} menu">
+            {% for child in item.children %}
+              <a href="{{ child.url }}">
+                <strong>{{ child.label }}</strong>
+                <small>{{ child.description }}</small>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <a href="{{ item.url }}">{{ item.label }}</a>
+      {% endif %}
     {% endfor %}
   </nav>
 

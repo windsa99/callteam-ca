@@ -1,18 +1,34 @@
 <footer>
   <div class="footer-top">
-    <div class="logo">
+    <div class="footer-brand">
+      <a href="/" class="logo">
       <img src="/assets/images/callteam-logo.png" alt="{{ site.name }}" style="height:24px; filter: brightness(0) invert(1);">
+      </a>
+      <p>Human-led B2B outbound, qualification, appointment setting, sales execution, and revenue systems.</p>
+    </div>
+    <div class="footer-nav-column">
+      <strong>Services</strong>
+      {% for child in navigation[0].children %}
+        <a href="{{ child.url }}">{{ child.label }}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-nav-column">
+      <strong>CallTeam</strong>
+      <a href="/services/">All Services</a>
+      <a href="/articles/">Articles</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/#contact">Contact</a>
     </div>
     <div class="footer-contact">
+      <strong>Start a conversation</strong>
       <div><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+      <a href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Book a free strategy call →</a>
     </div>
   </div>
   <div class="footer-bottom">
     <span>&copy; 2026 CallTeam.ca</span>
     <div class="flinks">
-      {% for item in navigation %}
-        <a href="{{ item.url }}">{{ item.label }}</a>
-      {% endfor %}
+      <span>B2B sales execution for the United States, North America, and global markets.</span>
     </div>
   </div>
 </footer>

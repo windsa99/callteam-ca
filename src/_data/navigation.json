@@ -1,6 +1,15 @@
 [
-  { "label": "Outbound Calling", "url": "/" },
-  { "label": "AI Lead Generation", "url": "/ai-lead-generation-services/" },
+  {
+    "label": "Services",
+    "url": "/services/",
+    "children": [
+      { "label": "Outbound Calling", "url": "/", "description": "Done-for-you calling and qualification" },
+      { "label": "AI Lead Generation", "url": "/ai-lead-generation-services/", "description": "AI-assisted research, human execution" },
+      { "label": "B2B Appointment Setting", "url": "/services/b2b-appointment-setting/", "description": "Qualified meetings with useful context" },
+      { "label": "Sales Execution Lab", "url": "/sales-execution-lab/", "description": "Build stronger sales behaviour" },
+      { "label": "90-Day Revenue Engine", "url": "/90-day-revenue-engine/", "description": "Rebuild the full pipeline system" }
+    ]
+  },
   { "label": "Sales Execution Lab", "url": "/sales-execution-lab/" },
   { "label": "90-Day Revenue Engine", "url": "/90-day-revenue-engine/" },
   { "label": "Articles", "url": "/articles/" },
