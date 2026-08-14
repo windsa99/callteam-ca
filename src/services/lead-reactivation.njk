@@ -1,0 +1,1706 @@
+---
+layout: layouts/base.njk
+permalink: "/services/lead-reactivation/"
+title: "B2B Lead Reactivation Services"
+seoTitle: "B2B Lead Reactivation Services | CallTeam"
+description: "Reactivate old CRM leads, inbound inquiries, event contacts and dormant opportunities through human calling, follow up, qualification and appointment booking."
+canonicalUrl: "https://www.callteam.ca/services/lead-reactivation/"
+socialTitle: "B2B Lead Reactivation Services | CallTeam"
+socialDescription: "CallTeam cleans, prioritizes, calls and follows up with neglected B2B leads so useful opportunities can return to active pipeline."
+faqSchema: |
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.callteam.ca/services/lead-reactivation/#webpage",
+        "url": "https://www.callteam.ca/services/lead-reactivation/",
+        "name": "B2B Lead Reactivation Services | CallTeam",
+        "description": "Reactivate old CRM leads, inbound inquiries, event contacts and dormant opportunities through human calling, follow up, qualification and appointment booking.",
+        "isPartOf": { "@id": "https://www.callteam.ca/#website" },
+        "about": { "@id": "https://www.callteam.ca/services/lead-reactivation/#service" }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.callteam.ca/services/lead-reactivation/#service",
+        "name": "B2B Lead Reactivation Services",
+        "serviceType": "B2B lead reactivation, CRM lead follow up, dormant opportunity recovery, inbound lead follow up, event lead follow up, human cold calling, lead qualification and appointment booking",
+        "provider": { "@id": "https://www.callteam.ca/#organization" },
+        "areaServed": "Worldwide",
+        "url": "https://www.callteam.ca/services/lead-reactivation/",
+        "description": "CallTeam audits, cleans, segments and works neglected B2B lead pools through human calling, structured follow up, qualification, appointment booking and clear CRM outcomes."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.callteam.ca/services/" },
+          { "@type": "ListItem", "position": 3, "name": "B2B Lead Reactivation Services", "item": "https://www.callteam.ca/services/lead-reactivation/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are B2B lead reactivation services?",
+            "acceptedAnswer": { "@type": "Answer", "text": "B2B lead reactivation services reconnect with old, dormant, unresponsive or neglected business leads. The work can include auditing and cleaning the data, segmenting the lead pool, preparing the message, human calling, structured follow up, qualification, appointment booking and recording a clear next action." }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of leads can CallTeam reactivate?",
+            "acceptedAnswer": { "@type": "Answer", "text": "CallTeam can work with old CRM leads, dormant opportunities, previous inquiries, unresponsive inbound leads, event and webinar contacts, past proposals, no decision opportunities, target accounts, referral lists and previous prospecting campaigns." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does CallTeam use human callers for lead reactivation?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Experienced people handle live calls, listening, objections, referrals, qualification and next step decisions. AI and sales technology can support data organization, enrichment, segmentation, research, priorities and reporting." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can CallTeam build a lead list if we do not have one?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. CallTeam can clarify the ideal customer profile and build a targeted B2B prospect list using access to a global business contact universe with more than 300 million records. Records are selected, checked and prepared for the agreed campaign rather than treated as automatically qualified leads." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can lead reactivation include appointment setting?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. When a reactivated lead meets the agreed qualification standard and accepts a relevant next conversation, CallTeam can schedule the appointment and provide the sales team with the account, contact, reason, context, timing, objections and agreed purpose." }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do B2B lead reactivation services cost?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on lead volume, data condition, lead age and source, research requirements, buyer seniority, calling workload, follow up depth, qualification complexity, CRM workflow, reporting and campaign duration." }
+          }
+        ]
+      }
+    ]
+  }
+---
+
+<style>
+/* Lead reactivation service page */
+.reactivation-page {
+  --reactivation-navy: #0d151d;
+  --reactivation-panel: #131f29;
+  --reactivation-panel-soft: #192833;
+  --reactivation-line: rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+}
+
+.reactivation-hero {
+  align-items: center;
+  gap: 70px;
+  min-height: 760px;
+}
+
+.reactivation-eyebrow {
+  margin-bottom: 20px;
+  color: var(--orange);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.reactivation-hero-lead {
+  max-width: 650px;
+  color: #242424;
+  font-size: 20px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.reactivation-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.reactivation-hero-note {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 19px;
+  color: var(--grey-text);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.reactivation-hero-note span {
+  width: 8px;
+  height: 8px;
+  background: var(--orange);
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px rgba(255, 90, 31, 0.13);
+}
+
+.reactivation-console,
+.reactivation-engine-panel,
+.reactivation-segmentation-board,
+.reactivation-outcome-board {
+  color: var(--white);
+  background: var(--reactivation-navy);
+  border: 1px solid #253642;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(13, 21, 29, 0.2);
+}
+
+.reactivation-console {
+  min-width: 0;
+  padding: 22px;
+}
+
+.reactivation-console-head,
+.reactivation-engine-head,
+.reactivation-outcome-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--reactivation-line);
+  color: #adb9c2;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.reactivation-console-head span,
+.reactivation-engine-head span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reactivation-console-head i,
+.reactivation-engine-head i {
+  width: 7px;
+  height: 7px;
+  background: #39d98a;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(57, 217, 138, 0.12);
+}
+
+.reactivation-console-head strong,
+.reactivation-engine-head strong,
+.reactivation-outcome-head strong {
+  color: var(--orange);
+  font-size: 8px;
+  letter-spacing: 0.11em;
+}
+
+.reactivation-console-inputs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  margin-top: 18px;
+}
+
+.reactivation-console-inputs span {
+  padding: 10px 5px;
+  color: #c2ccd3;
+  background: var(--reactivation-panel-soft);
+  border: 1px solid #2d3d49;
+  border-radius: 5px;
+  font-size: 9px;
+  font-weight: 750;
+  text-align: center;
+}
+
+.reactivation-console-arrow {
+  height: 24px;
+  color: var(--orange);
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.reactivation-console-core {
+  padding: 18px;
+  background: linear-gradient(135deg, rgba(255, 90, 31, 0.18), rgba(255, 90, 31, 0.055));
+  border: 1px solid var(--orange);
+  border-radius: 7px;
+}
+
+.reactivation-console-core small,
+.reactivation-console-core strong {
+  display: block;
+}
+
+.reactivation-console-core small {
+  margin-bottom: 7px;
+  color: var(--orange);
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+}
+
+.reactivation-console-core strong {
+  font-family: 'Archivo', sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.reactivation-console-progress {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  margin-top: 14px;
+}
+
+.reactivation-console-progress i {
+  height: 4px;
+  background: var(--orange);
+  border-radius: 6px;
+}
+
+.reactivation-console-progress i:nth-child(4),
+.reactivation-console-progress i:nth-child(5) {
+  opacity: 0.3;
+}
+
+.reactivation-console-outcomes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.reactivation-console-outcomes article {
+  padding: 12px;
+  background: var(--reactivation-panel-soft);
+  border: 1px solid #2d3d49;
+  border-radius: 6px;
+}
+
+.reactivation-console-outcomes small,
+.reactivation-console-outcomes strong {
+  display: block;
+}
+
+.reactivation-console-outcomes small {
+  margin-bottom: 4px;
+  color: var(--orange);
+  font-size: 7px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.reactivation-console-outcomes strong {
+  font-size: 10px;
+}
+
+.reactivation-proof-strip {
+  padding: 0 48px 64px;
+  background: var(--white);
+}
+
+.reactivation-proof-strip .container-wide {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.reactivation-proof-strip .container-wide > div {
+  padding: 24px 20px;
+  border-right: 1px solid #dedede;
+}
+
+.reactivation-proof-strip .container-wide > div:last-child {
+  border-right: 0;
+}
+
+.reactivation-proof-strip strong,
+.reactivation-proof-strip span {
+  display: block;
+}
+
+.reactivation-proof-strip strong {
+  margin-bottom: 5px;
+  color: var(--orange);
+  font-family: 'Archivo', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.reactivation-proof-strip span {
+  color: var(--grey-text);
+  font-size: 11.5px;
+}
+
+.reactivation-section-intro {
+  max-width: 800px;
+  margin: -12px 0 34px;
+  color: var(--grey-text);
+  font-size: 16px;
+}
+
+.reactivation-definition-section,
+.reactivation-segmentation-section,
+.reactivation-human-section,
+.reactivation-playbooks-section,
+.reactivation-deliverables-section,
+.reactivation-fit-section,
+.reactivation-related-section {
+  background: var(--white);
+}
+
+.reactivation-problem-section,
+.reactivation-followup-section,
+.reactivation-two-lanes-section,
+.reactivation-qualification-section,
+.reactivation-comparison-section,
+.reactivation-pricing-section,
+.reactivation-faq-section {
+  background: var(--grey-bg);
+}
+
+.reactivation-sources-section,
+.reactivation-engine-section,
+.reactivation-outcomes-section,
+.reactivation-not-fit-section {
+  color: var(--white);
+  background: var(--reactivation-navy);
+}
+
+.reactivation-sources-section h2,
+.reactivation-engine-section h2,
+.reactivation-outcomes-section h2,
+.reactivation-not-fit-section h2 {
+  color: var(--white);
+}
+
+.reactivation-truth-line,
+.reactivation-not-fit-line,
+.reactivation-pricing-note,
+.reactivation-followup-note,
+.reactivation-data-note {
+  margin-top: 28px;
+  padding: 22px 25px;
+  color: var(--black);
+  background: #fff4ec;
+  border-left: 4px solid var(--orange);
+  font-family: 'Archivo', sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.reactivation-problem-grid,
+.reactivation-source-grid,
+.reactivation-playbook-grid,
+.reactivation-qualification-grid,
+.reactivation-outcome-grid,
+.reactivation-fit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.reactivation-problem-grid article,
+.reactivation-playbook-grid article,
+.reactivation-qualification-grid article,
+.reactivation-fit-grid article {
+  padding: 26px;
+  background: var(--white);
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+
+.reactivation-problem-grid span,
+.reactivation-qualification-grid span,
+.reactivation-pricing-grid span {
+  display: block;
+  margin-bottom: 19px;
+  color: var(--orange);
+  font-family: 'Archivo', sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.reactivation-problem-grid h3,
+.reactivation-source-grid h3,
+.reactivation-playbook-grid h3,
+.reactivation-qualification-grid h3,
+.reactivation-fit-grid h3,
+.reactivation-pricing-grid h3 {
+  margin-bottom: 9px;
+  font-size: 18px;
+}
+
+.reactivation-problem-grid p,
+.reactivation-source-grid p,
+.reactivation-playbook-grid p,
+.reactivation-qualification-grid p,
+.reactivation-fit-grid p,
+.reactivation-pricing-grid p {
+  margin: 0;
+  color: var(--grey-text);
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+.reactivation-source-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.reactivation-source-grid article {
+  min-height: 220px;
+  padding: 24px;
+  background: var(--reactivation-panel);
+  border: 1px solid #2b3b47;
+  border-radius: 8px;
+}
+
+.reactivation-source-grid span,
+.reactivation-playbook-grid span {
+  display: inline-flex;
+  margin-bottom: 18px;
+  padding: 6px 9px;
+  color: var(--orange);
+  background: rgba(255, 90, 31, 0.1);
+  border: 1px solid rgba(255, 90, 31, 0.3);
+  border-radius: 4px;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reactivation-source-grid h3 {
+  color: var(--white);
+}
+
+.reactivation-source-grid p {
+  color: #b9c4cb;
+}
+
+.reactivation-engine-panel,
+.reactivation-outcome-board {
+  padding: 24px;
+  background: #0a1118;
+}
+
+.reactivation-engine-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+  margin-top: 20px;
+}
+
+.reactivation-engine-grid article {
+  min-height: 210px;
+  padding: 20px;
+  background: var(--reactivation-panel);
+  border: 1px solid #2b3b47;
+  border-radius: 7px;
+}
+
+.reactivation-engine-grid article.active {
+  background: linear-gradient(145deg, rgba(255, 90, 31, 0.2), rgba(255, 90, 31, 0.06));
+  border-color: var(--orange);
+}
+
+.reactivation-engine-grid small,
+.reactivation-engine-grid strong {
+  display: block;
+}
+
+.reactivation-engine-grid small {
+  margin-bottom: 28px;
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.reactivation-engine-grid strong {
+  min-height: 43px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.reactivation-engine-grid p {
+  margin: 10px 0 0;
+  color: #aeb9c1;
+  font-size: 11.5px;
+  line-height: 1.55;
+}
+
+.reactivation-engine-grid article:last-child {
+  grid-column: 2 / span 2;
+}
+
+.reactivation-engine-loop {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+  padding: 16px 18px;
+  color: var(--black);
+  background: var(--white);
+  border-radius: 7px;
+}
+
+.reactivation-engine-loop span {
+  color: var(--orange);
+  font-size: 24px;
+}
+
+.reactivation-engine-loop strong {
+  font-size: 12px;
+}
+
+.reactivation-segmentation-board {
+  padding: 24px;
+}
+
+.reactivation-segment-axis {
+  padding-bottom: 15px;
+  color: var(--orange);
+  border-bottom: 1px solid var(--reactivation-line);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.11em;
+}
+
+.reactivation-segment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.reactivation-segment-grid article {
+  min-height: 200px;
+  padding: 20px;
+  background: var(--reactivation-panel-soft);
+  border: 1px solid #30414d;
+  border-radius: 7px;
+}
+
+.reactivation-segment-grid small,
+.reactivation-segment-grid strong {
+  display: block;
+}
+
+.reactivation-segment-grid small {
+  margin-bottom: 20px;
+  color: var(--orange);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.reactivation-segment-grid strong {
+  min-height: 58px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.reactivation-segment-grid p {
+  margin: 10px 0 0;
+  color: #adb9c2;
+  font-size: 11.5px;
+  line-height: 1.55;
+}
+
+.reactivation-segment-output {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 10px;
+  padding: 17px 20px;
+  color: var(--black);
+  background: var(--white);
+  border-radius: 7px;
+}
+
+.reactivation-segment-output small {
+  color: var(--orange);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.reactivation-segment-output strong {
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+  text-align: right;
+}
+
+.reactivation-followup-flow {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.reactivation-followup-flow article {
+  min-height: 220px;
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+}
+
+.reactivation-followup-flow article span {
+  display: block;
+  margin-bottom: 34px;
+  color: var(--orange);
+  font-family: 'Archivo', sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.reactivation-followup-flow article h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.reactivation-followup-flow article p {
+  margin: 0;
+  color: var(--grey-text);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.reactivation-followup-flow > b {
+  align-self: center;
+  color: var(--orange);
+  font-size: 18px;
+  text-align: center;
+}
+
+.reactivation-followup-note {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.reactivation-human-grid {
+  display: grid;
+  grid-template-columns: 1fr 38px 1fr 38px 1fr;
+  align-items: stretch;
+  gap: 7px;
+}
+
+.reactivation-human-grid article {
+  min-height: 350px;
+  padding: 28px;
+  border: 1px solid #d9d9d9;
+  border-radius: 9px;
+}
+
+.reactivation-human-grid article.technology {
+  background: var(--grey-bg);
+}
+
+.reactivation-human-grid article.people {
+  color: var(--white);
+  background: var(--reactivation-navy);
+  border-color: var(--reactivation-navy);
+}
+
+.reactivation-human-grid article.result {
+  background: #fff4ec;
+  border-color: rgba(255, 90, 31, 0.45);
+}
+
+.reactivation-human-grid article > span {
+  display: block;
+  margin-bottom: 48px;
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reactivation-human-grid h3 {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+.reactivation-human-grid .people h3 {
+  color: var(--white);
+}
+
+.reactivation-human-grid ul {
+  margin: 0;
+  padding-left: 17px;
+}
+
+.reactivation-human-grid li,
+.reactivation-human-grid p {
+  margin-bottom: 8px;
+  color: var(--grey-text);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.reactivation-human-grid .people li {
+  color: #c2ccd3;
+}
+
+.reactivation-human-plus,
+.reactivation-human-equals {
+  align-self: center;
+  color: var(--orange);
+  font-family: 'Archivo', sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.reactivation-lanes {
+  display: grid;
+  grid-template-columns: 1fr 58px 1fr;
+  align-items: stretch;
+}
+
+.reactivation-lanes article {
+  min-height: 410px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.reactivation-lanes article.existing {
+  color: var(--white);
+  background: var(--reactivation-navy);
+}
+
+.reactivation-lanes article.new {
+  background: var(--white);
+  border: 1px solid #d9d9d9;
+}
+
+.reactivation-lanes article > span {
+  display: block;
+  margin-bottom: 54px;
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.reactivation-lanes h3 {
+  margin-bottom: 14px;
+  font-size: 25px;
+}
+
+.reactivation-lanes .existing h3 {
+  color: var(--white);
+}
+
+.reactivation-lanes p,
+.reactivation-lanes li {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.reactivation-lanes .existing p,
+.reactivation-lanes .existing li {
+  color: #c2ccd3;
+}
+
+.reactivation-lanes ul {
+  margin: 20px 0 0;
+  padding-left: 18px;
+}
+
+.reactivation-lane-choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.reactivation-lane-choice::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: #d1d1d1;
+  content: '';
+}
+
+.reactivation-lane-choice span {
+  z-index: 1;
+  padding: 10px;
+  color: var(--orange);
+  background: var(--grey-bg);
+  font-family: 'Archivo', sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.reactivation-data-note {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reactivation-data-note a,
+.reactivation-related-line a {
+  color: var(--orange);
+  font-weight: 800;
+}
+
+.reactivation-playbook-grid article {
+  min-height: 245px;
+}
+
+.reactivation-qualification-grid article {
+  min-height: 225px;
+}
+
+.reactivation-related-line {
+  margin: 25px 0 0;
+  color: var(--grey-text);
+  font-size: 14px;
+}
+
+.reactivation-outcome-grid {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+
+.reactivation-outcome-grid article {
+  min-height: 190px;
+  padding: 22px;
+  background: var(--reactivation-panel);
+  border: 1px solid #2b3b47;
+  border-radius: 7px;
+}
+
+.reactivation-outcome-grid article.hot {
+  background: linear-gradient(145deg, rgba(255, 90, 31, 0.22), rgba(255, 90, 31, 0.07));
+  border-color: var(--orange);
+}
+
+.reactivation-outcome-grid small,
+.reactivation-outcome-grid strong {
+  display: block;
+}
+
+.reactivation-outcome-grid small {
+  margin-bottom: 28px;
+  color: var(--orange);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.reactivation-outcome-grid strong {
+  font-family: 'Archivo', sans-serif;
+  font-size: 15px;
+}
+
+.reactivation-outcome-grid p {
+  margin: 10px 0 0;
+  color: #adb9c2;
+  font-size: 11.5px;
+  line-height: 1.55;
+}
+
+.reactivation-deliverables-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  background: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  border-radius: 9px;
+}
+
+.reactivation-deliverables-grid article {
+  min-height: 210px;
+  padding: 27px;
+  background: var(--white);
+}
+
+.reactivation-deliverables-grid strong {
+  display: block;
+  min-height: 43px;
+  color: var(--black);
+  font-family: 'Archivo', sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.reactivation-deliverables-grid p {
+  margin: 13px 0 0;
+  color: var(--grey-text);
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.reactivation-table-wrap {
+  overflow-x: auto;
+  background: var(--white);
+  border: 1px solid #d9d9d9;
+  border-radius: 9px;
+}
+
+.reactivation-comparison-table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+}
+
+.reactivation-comparison-table th,
+.reactivation-comparison-table td {
+  padding: 20px;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  text-align: left;
+  vertical-align: top;
+}
+
+.reactivation-comparison-table th:last-child,
+.reactivation-comparison-table td:last-child {
+  border-right: 0;
+}
+
+.reactivation-comparison-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.reactivation-comparison-table th {
+  color: var(--white);
+  background: var(--reactivation-navy);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reactivation-comparison-table td {
+  color: var(--grey-text);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+
+.reactivation-comparison-table td strong {
+  color: var(--black);
+  font-family: 'Archivo', sans-serif;
+}
+
+.reactivation-comparison-table tr.featured td {
+  background: #fff4ec;
+}
+
+.reactivation-fit-grid article {
+  min-height: 230px;
+}
+
+.reactivation-not-fit-section p {
+  color: #bdc7ce;
+}
+
+.reactivation-not-fit-line {
+  color: var(--white);
+  background: rgba(255, 90, 31, 0.12);
+}
+
+.reactivation-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.reactivation-pricing-grid article {
+  min-height: 250px;
+  padding: 25px;
+  background: var(--white);
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+}
+
+.reactivation-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.reactivation-related-grid a {
+  display: flex;
+  min-height: 210px;
+  flex-direction: column;
+  padding: 26px;
+  color: var(--black);
+  background: var(--grey-bg);
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.reactivation-related-grid a:hover {
+  border-color: var(--orange);
+  transform: translateY(-3px);
+}
+
+.reactivation-related-grid span,
+.reactivation-related-grid strong,
+.reactivation-related-grid small {
+  display: block;
+}
+
+.reactivation-related-grid span {
+  margin-bottom: 37px;
+  color: var(--orange);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reactivation-related-grid strong {
+  font-family: 'Archivo', sans-serif;
+  font-size: 17px;
+}
+
+.reactivation-related-grid small {
+  margin-top: 10px;
+  color: var(--grey-text);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.reactivation-faq-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 14px;
+  align-items: start;
+}
+
+.reactivation-faq-list details {
+  background: var(--white);
+  border: 1px solid #dadada;
+  border-radius: 7px;
+}
+
+.reactivation-faq-list summary {
+  position: relative;
+  padding: 20px 55px 20px 21px;
+  cursor: pointer;
+  font-family: 'Archivo', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  list-style: none;
+}
+
+.reactivation-faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.reactivation-faq-list summary::after {
+  position: absolute;
+  top: 17px;
+  right: 19px;
+  color: var(--orange);
+  content: '+';
+  font-size: 22px;
+}
+
+.reactivation-faq-list details[open] summary::after {
+  content: '\2212';
+}
+
+.reactivation-faq-list details p {
+  margin: 0;
+  padding: 0 21px 22px;
+  color: var(--grey-text);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.reactivation-final-cta {
+  background: linear-gradient(145deg, #0d151d, #172834);
+}
+
+@media (max-width: 1100px) {
+  .reactivation-hero {
+    gap: 45px;
+  }
+
+  .reactivation-source-grid,
+  .reactivation-engine-grid,
+  .reactivation-segment-grid,
+  .reactivation-deliverables-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reactivation-engine-grid article:last-child {
+    grid-column: auto;
+  }
+
+  .reactivation-pricing-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .reactivation-hero {
+    min-height: auto;
+  }
+
+  .reactivation-problem-grid,
+  .reactivation-playbook-grid,
+  .reactivation-qualification-grid,
+  .reactivation-outcome-grid,
+  .reactivation-fit-grid,
+  .reactivation-related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reactivation-followup-flow {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .reactivation-followup-flow > b {
+    display: none;
+  }
+
+  .reactivation-human-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reactivation-human-plus,
+  .reactivation-human-equals {
+    padding: 5px 0;
+  }
+
+  .reactivation-human-grid article {
+    min-height: 0;
+  }
+
+  .reactivation-lanes {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .reactivation-lane-choice {
+    height: 42px;
+  }
+
+  .reactivation-lane-choice::before {
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: auto;
+    height: 1px;
+  }
+
+  .reactivation-lanes article {
+    min-height: 0;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .reactivation-hero {
+    gap: 35px;
+  }
+
+  .reactivation-hero-lead {
+    font-size: 18px;
+  }
+
+  .reactivation-cta-row {
+    flex-direction: column;
+  }
+
+  .reactivation-cta-row a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .reactivation-console {
+    padding: 17px;
+  }
+
+  .reactivation-console-head,
+  .reactivation-engine-head,
+  .reactivation-outcome-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .reactivation-console-inputs,
+  .reactivation-console-outcomes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reactivation-proof-strip {
+    padding: 0 20px 48px;
+  }
+
+  .reactivation-proof-strip .container-wide {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reactivation-proof-strip .container-wide > div {
+    padding: 18px 12px;
+  }
+
+  .reactivation-proof-strip .container-wide > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .reactivation-proof-strip .container-wide > div:nth-child(-n+2) {
+    border-bottom: 1px solid #dedede;
+  }
+
+  .reactivation-proof-strip strong {
+    font-size: 17px;
+  }
+
+  .reactivation-problem-grid,
+  .reactivation-source-grid,
+  .reactivation-engine-grid,
+  .reactivation-segment-grid,
+  .reactivation-followup-flow,
+  .reactivation-playbook-grid,
+  .reactivation-qualification-grid,
+  .reactivation-outcome-grid,
+  .reactivation-deliverables-grid,
+  .reactivation-fit-grid,
+  .reactivation-pricing-grid,
+  .reactivation-related-grid,
+  .reactivation-faq-list {
+    grid-template-columns: 1fr;
+  }
+
+  .reactivation-engine-panel,
+  .reactivation-segmentation-board,
+  .reactivation-outcome-board {
+    padding: 16px;
+  }
+
+  .reactivation-engine-grid article,
+  .reactivation-segment-grid article,
+  .reactivation-followup-flow article,
+  .reactivation-source-grid article,
+  .reactivation-outcome-grid article,
+  .reactivation-deliverables-grid article,
+  .reactivation-pricing-grid article {
+    min-height: 0;
+  }
+
+  .reactivation-segment-grid strong,
+  .reactivation-engine-grid strong,
+  .reactivation-deliverables-grid strong {
+    min-height: 0;
+  }
+
+  .reactivation-segment-output {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .reactivation-segment-output strong {
+    text-align: left;
+  }
+
+  .reactivation-lanes article {
+    padding: 28px;
+  }
+
+  .reactivation-lanes article > span,
+  .reactivation-human-grid article > span,
+  .reactivation-related-grid span {
+    margin-bottom: 28px;
+  }
+
+  .reactivation-truth-line,
+  .reactivation-not-fit-line,
+  .reactivation-pricing-note,
+  .reactivation-followup-note,
+  .reactivation-data-note {
+    padding: 19px;
+    font-size: 15px;
+  }
+
+  .reactivation-faq-list summary {
+    padding: 18px 52px 18px 18px;
+  }
+
+  .reactivation-faq-list details p {
+    padding: 0 18px 20px;
+  }
+}
+</style>
+
+<main class="reactivation-page">
+  <nav class="breadcrumb-trail" aria-label="Breadcrumb">
+    <div class="container"><a href="/">Home</a> / <a href="/services/">Services</a> / <span>Lead Reactivation</span></div>
+  </nav>
+
+  <section class="hero reactivation-hero">
+    <div>
+      <div class="reactivation-eyebrow">B2B lead reactivation services</div>
+      <h1>Turn old B2B leads into <span class="highlight">qualified sales conversations.</span></h1>
+      <p class="reactivation-hero-lead">Your CRM may already contain your next customer. The problem is that nobody is calling, following up or finding out what changed.</p>
+      <p>CallTeam cleans the lead pool, prioritizes the right records, makes the calls, follows up, qualifies the response and books the next conversation.</p>
+      <div class="reactivation-cta-row">
+        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Reactivate My Lead List</a>
+        <a href="#recovery-engine" class="btn-secondary">See the Recovery Engine</a>
+      </div>
+      <div class="reactivation-hero-note"><span></span>You bring the leads. We bring the follow through.</div>
+    </div>
+
+    <div class="reactivation-console" role="img" aria-label="CallTeam Lead Recovery Console turns old CRM leads, inbound inquiries, event contacts and dormant opportunities into qualified meetings and clear next actions">
+      <div class="reactivation-console-head"><span><i></i> LEAD RECOVERY CONSOLE</span><strong>CAMPAIGN ACTIVE</strong></div>
+      <div class="reactivation-console-inputs">
+        <span>CRM leads</span><span>Inbound</span><span>Events</span><span>Old deals</span>
+      </div>
+      <div class="reactivation-console-arrow">↓</div>
+      <div class="reactivation-console-core">
+        <small>CALLTEAM RECOVERY SYSTEM</small>
+        <strong>Audit · Clean · Prioritize · Call · Follow up</strong>
+        <div class="reactivation-console-progress"><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="reactivation-console-arrow">↓</div>
+      <div class="reactivation-console-outcomes">
+        <article><small>NOW</small><strong>Qualified meeting</strong></article>
+        <article><small>LATER</small><strong>Future follow up</strong></article>
+        <article><small>CORRECT</small><strong>Referral or new role</strong></article>
+        <article><small>CLOSE</small><strong>Clear disposition</strong></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-proof-strip" aria-label="Experience behind CallTeam lead reactivation services">
+    <div class="container-wide">
+      <div><strong>500,000+</strong><span>outbound calls</span></div>
+      <div><strong>300M+</strong><span>business contact universe</span></div>
+      <div><strong>Human led</strong><span>live follow up</span></div>
+      <div><strong>Clear outcomes</strong><span>for every record</span></div>
+    </div>
+  </section>
+
+  <section class="reactivation-definition-section">
+    <div class="container">
+      <div class="section-label">The direct answer</div>
+      <h2>What are B2B lead reactivation services?</h2>
+      <p><strong>B2B lead reactivation services reconnect with business leads that already exist but are old, dormant, unresponsive, neglected or no longer owned by anyone.</strong></p>
+      <p>The work can include auditing the data, cleaning and enriching records, segmenting the lead pool, preparing the reason to call, human cold calling, structured follow up, qualification, appointment booking and recording a useful next action.</p>
+      <p>A lead may have filled out a form, attended an event, requested information, received a proposal, spoken with a seller or appeared in an earlier campaign. Interest may have faded because the timing was wrong, the follow up stopped or the record simply disappeared into the CRM.</p>
+      <div class="reactivation-truth-line">The lead was not always lost. Sometimes the follow up stopped.</div>
+    </div>
+  </section>
+
+  <section class="reactivation-problem-section">
+    <div class="container-wide">
+      <div class="section-label">Where pipeline quietly disappears</div>
+      <h2>You may not need more leads first. You may need somebody to work the ones you already have.</h2>
+      <p class="reactivation-section-intro">Companies keep paying for demand while useful contacts sit untouched. The problem is rarely the CRM itself. The problem is ownership, timing, capacity and follow through.</p>
+      <div class="reactivation-problem-grid">
+        <article><span>01</span><h3>Nobody owns the follow up</h3><p>The campaign ended, a seller moved on or the record entered the CRM without a clear person responsible for the next action.</p></article>
+        <article><span>02</span><h3>One attempt became a conclusion</h3><p>The contact missed one call or did not answer one email, and the lead was treated as dead before a real conversation happened.</p></article>
+        <article><span>03</span><h3>The timing was wrong</h3><p>The account may have fit, but the budget, project, leadership, contract, problem or urgency was not ready when the first conversation happened.</p></article>
+        <article><span>04</span><h3>The lead arrived faster than the team</h3><p>Inbound inquiries, demo requests, event contacts and referrals can cool down while the sales team focuses on active opportunities.</p></article>
+        <article><span>05</span><h3>The data became unreliable</h3><p>Titles change, people leave, phone numbers fail and the person in the record may no longer own the problem.</p></article>
+        <article><span>06</span><h3>The CRM became storage</h3><p>Notes, outcomes and follow up dates are missing, so nobody knows which leads deserve another call or what should be said.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-sources-section">
+    <div class="container-wide">
+      <div class="section-label">Lead sources we can work</div>
+      <h2>Different lead histories require different reactivation conversations.</h2>
+      <div class="reactivation-source-grid">
+        <article><span>CRM</span><h3>Dormant CRM leads</h3><p>Contacts and opportunities that went quiet, lost ownership or never received a complete follow up sequence.</p></article>
+        <article><span>Inbound</span><h3>Unresponsive inbound leads</h3><p>Form fills, demo requests, downloads, inquiries and people who raised a hand but were not reached properly.</p></article>
+        <article><span>Pipeline</span><h3>Lost and no decision opportunities</h3><p>Previous sales conversations where timing, budget, priorities, proof or another stakeholder stopped the deal.</p></article>
+        <article><span>Events</span><h3>Conference and trade show contacts</h3><p>Booth visitors, badge scans, introductions and event lists that need a real reason for the follow up call.</p></article>
+        <article><span>Webinars</span><h3>Registrants and attendees</h3><p>People who showed interest in a topic but were never contacted or were placed into an email sequence and forgotten.</p></article>
+        <article><span>Outbound</span><h3>Previous prospecting campaigns</h3><p>Target accounts, referrals, call lists and earlier outreach records that may deserve a better message or a new timing test.</p></article>
+        <article><span>Proposals</span><h3>Past quotes and proposals</h3><p>Companies that evaluated the offer but did not move forward and may now have a new problem, budget or decision maker.</p></article>
+        <article><span>Turnover</span><h3>Abandoned seller pipelines</h3><p>Leads and accounts left behind after role changes, layoffs, territory changes, resignations or sales team restructuring.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="recovery-engine" class="reactivation-engine-section">
+    <div class="container-wide">
+      <div class="section-label">The CallTeam Lead Recovery Engine</div>
+      <h2>A structured system for finding what is still commercially useful.</h2>
+      <p class="reactivation-section-intro">We do not dump every old record into a dialer. The history, fit, data condition and reason to reconnect shape what happens next.</p>
+      <div class="reactivation-engine-panel">
+        <div class="reactivation-engine-head"><span><i></i> RECOVERY WORKFLOW</span><strong>SEVEN CONTROLLED STAGES</strong></div>
+        <div class="reactivation-engine-grid">
+          <article><small>01</small><strong>Audit the lead pool</strong><p>Review sources, stages, age, notes, ownership, previous activity and obvious exclusions.</p></article>
+          <article><small>02</small><strong>Clean the records</strong><p>Remove unusable entries, identify data gaps, check contacts and prepare the required campaign fields.</p></article>
+          <article><small>03</small><strong>Segment and prioritize</strong><p>Group leads by fit, source, history, timing, value, data confidence and the likely reason to reconnect.</p></article>
+          <article class="active"><small>04</small><strong>Build the message</strong><p>Prepare the context, call opening, business reason, questions, proof, objections and next step.</p></article>
+          <article><small>05</small><strong>Call and follow up</strong><p>Use human calling and approved supporting follow up to reach the right person and test what changed.</p></article>
+          <article><small>06</small><strong>Qualify and book</strong><p>Confirm fit, role, reason, interest, timing and whether a useful sales conversation should happen.</p></article>
+          <article><small>07</small><strong>Record and route</strong><p>Book, schedule later, refer, nurture, correct, close or remove the record with a clear reason.</p></article>
+        </div>
+        <div class="reactivation-engine-loop"><span>↻</span><strong>Every response improves the priorities, message, data and next round of follow up.</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-segmentation-section">
+    <div class="container-wide">
+      <div class="section-label">Lead pool triage</div>
+      <h2>The oldest lead is not automatically the weakest. The newest lead is not automatically the best.</h2>
+      <div class="reactivation-segmentation-board" role="img" aria-label="Lead reactivation priority matrix using account fit, previous engagement, timing clues and data confidence">
+        <div class="reactivation-segment-axis">PRIORITY LOGIC</div>
+        <div class="reactivation-segment-grid">
+          <article><small>FIT</small><strong>Does the account still belong in the market?</strong><p>Industry, size, geography, offer relevance and commercial potential.</p></article>
+          <article><small>HISTORY</small><strong>What happened before?</strong><p>Inquiry, conversation, objection, proposal, delay, referral or no response.</p></article>
+          <article><small>TIMING</small><strong>What may have changed?</strong><p>Leadership, budget, contract, hiring, growth, priorities or operating pressure.</p></article>
+          <article><small>DATA</small><strong>Can the right person be reached?</strong><p>Role accuracy, contact confidence, missing stakeholders and usable call information.</p></article>
+        </div>
+        <div class="reactivation-segment-output"><small>OUTPUT</small><strong>Call now · Research first · Follow later · Exclude</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-followup-section">
+    <div class="container-wide">
+      <div class="section-label">Human calling and structured follow up</div>
+      <h2>The value is in the follow through.</h2>
+      <p class="reactivation-section-intro">One unanswered call does not explain the lead. The campaign needs persistence, useful context and a clear decision after every response.</p>
+      <div class="reactivation-followup-flow">
+        <article><span>01</span><h3>Prepare</h3><p>Know the lead source, previous context, reason to reconnect and what can be said honestly.</p></article>
+        <b>→</b>
+        <article><span>02</span><h3>Call</h3><p>Reach the person, earn attention, listen, redirect and find out whether the situation changed.</p></article>
+        <b>→</b>
+        <article><span>03</span><h3>Record</h3><p>Capture the outcome, objections, referrals, timing, needs, questions and next action.</p></article>
+        <b>→</b>
+        <article><span>04</span><h3>Act</h3><p>Follow up, book, schedule later, route, nurture, correct the data or close the record.</p></article>
+      </div>
+      <div class="reactivation-followup-note"><strong>The operating rule:</strong> keep following up while there is a credible reason and stop when the answer is clear.</div>
+    </div>
+  </section>
+
+  <section class="reactivation-human-section">
+    <div class="container-wide">
+      <div class="section-label">AI assisted. Human led.</div>
+      <h2>Technology organizes the opportunity. People recover the conversation.</h2>
+      <div class="reactivation-human-grid">
+        <article class="technology"><span>AI and sales intelligence</span><h3>Prepare the lead pool</h3><ul><li>Data organization and cleanup support</li><li>Account and contact enrichment</li><li>Segmentation and priority support</li><li>Research and context preparation</li><li>Pattern analysis across outcomes</li></ul></article>
+        <div class="reactivation-human-plus">+</div>
+        <article class="people"><span>Experienced people</span><h3>Handle the live conversation</h3><ul><li>Human cold calling</li><li>Listening and judgment</li><li>Objection handling and redirection</li><li>Qualification and referrals</li><li>Agreement on the next step</li></ul></article>
+        <div class="reactivation-human-equals">=</div>
+        <article class="result"><span>Commercial result</span><h3>Useful pipeline evidence</h3><p>A qualified meeting, a future follow up date, a corrected contact, a clear decline or another outcome the team can act on.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-two-lanes-section">
+    <div class="container-wide">
+      <div class="section-label">Bring your leads or build a new list</div>
+      <h2>Start with the data you have. Add new prospects when the campaign needs them.</h2>
+      <div class="reactivation-lanes">
+        <article class="existing">
+          <span>LANE A</span>
+          <h3>You already have leads</h3>
+          <p>CallTeam can work from your CRM, spreadsheet, inbound source, event list, previous pipeline, referral pool or old prospecting campaign.</p>
+          <ul><li>Audit and segment the pool</li><li>Clean and prepare the records</li><li>Call and follow up</li><li>Qualify and book</li><li>Return clear outcomes</li></ul>
+        </article>
+        <div class="reactivation-lane-choice"><span>OR</span></div>
+        <article class="new">
+          <span>LANE B</span>
+          <h3>You need more leads</h3>
+          <p>CallTeam can clarify the ICP and build a targeted prospect list using access to a global business contact universe with more than 300 million records.</p>
+          <ul><li>Define the account criteria</li><li>Identify relevant buyer roles</li><li>Source and check the records</li><li>Prepare the calling list</li><li>Connect to outbound execution</li></ul>
+        </article>
+      </div>
+      <div class="reactivation-data-note">A database record is not automatically a qualified lead. We select, check and prepare records around the campaign before outreach begins. Need a deeper new-prospect program? Explore <a href="/ai-lead-generation-services/">AI Lead Generation Services</a>.</div>
+    </div>
+  </section>
+
+  <section class="reactivation-playbooks-section">
+    <div class="container-wide">
+      <div class="section-label">Reactivation playbooks by source</div>
+      <h2>The reason to call must match how the lead entered the business.</h2>
+      <div class="reactivation-playbook-grid">
+        <article><span>Inbound</span><h3>Fast recovery</h3><p>Confirm what the person asked for, whether the need still exists, who owns it now and what a useful next step should be.</p></article>
+        <article><span>Dormant CRM</span><h3>Context rebuild</h3><p>Use the available history, acknowledge the time gap and find out what changed without pretending the relationship is current.</p></article>
+        <article><span>No decision</span><h3>Timing retest</h3><p>Return to the original problem, previous blocker and current business condition to see whether the decision deserves another look.</p></article>
+        <article><span>Event</span><h3>Relevance follow up</h3><p>Connect the event, session or conversation to a specific business reason instead of sending a generic post event pitch.</p></article>
+        <article><span>Old list</span><h3>Fit and data reset</h3><p>Verify the account, correct the role, find the right person and use a fresh reason to start the conversation.</p></article>
+        <article><span>Past proposal</span><h3>Commercial change check</h3><p>Ask what stopped the decision, what changed and whether the offer, proof, timing or stakeholders should be revisited.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-qualification-section">
+    <div class="container-wide">
+      <div class="section-label">Qualification and appointment booking</div>
+      <h2>A recovered response becomes pipeline only when the next step makes sense.</h2>
+      <div class="reactivation-qualification-grid">
+        <article><span>01</span><h3>Account fit</h3><p>Does the company still match the market, offer, geography, size and commercial reality?</p></article>
+        <article><span>02</span><h3>Role relevance</h3><p>Is this the right person, a credible influence, a useful referral or a missing stakeholder?</p></article>
+        <article><span>03</span><h3>What changed</h3><p>Did the timing, priority, budget, problem, leadership, contract or current approach change?</p></article>
+        <article><span>04</span><h3>Current reason</h3><p>Is there a real business reason for the account and your sales team to continue the conversation?</p></article>
+        <article><span>05</span><h3>Interest and timing</h3><p>Is there enough relevance now, or should the lead return to a defined future follow up?</p></article>
+        <article><span>06</span><h3>Clear next step</h3><p>Did the prospect knowingly agree to a useful meeting with a clear purpose and the right people?</p></article>
+      </div>
+      <p class="reactivation-related-line">Need a complete meeting qualification and confirmation program? Explore <a href="/services/b2b-appointment-setting/">B2B Appointment Setting Services</a>.</p>
+    </div>
+  </section>
+
+  <section class="reactivation-outcomes-section">
+    <div class="container-wide">
+      <div class="section-label">The Lead Disposition Board</div>
+      <h2>Every worked record should end with a useful business decision.</h2>
+      <div class="reactivation-outcome-board">
+        <div class="reactivation-outcome-head"><span>LEAD OUTCOME CONTROL</span><strong>One pool · clear routes</strong></div>
+        <div class="reactivation-outcome-grid">
+          <article class="hot"><small>ACTIVE NOW</small><strong>Qualified and booked</strong><p>Fit, relevance, reason, context and an agreed sales conversation.</p></article>
+          <article><small>FUTURE</small><strong>Follow up later</strong><p>A credible reason exists, but the timing needs a specific future action.</p></article>
+          <article><small>ROUTE</small><strong>Referral or new contact</strong><p>The account may fit, but another role or person owns the problem.</p></article>
+          <article><small>NURTURE</small><strong>Not ready yet</strong><p>Useful interest exists but the lead does not meet the current meeting standard.</p></article>
+          <article><small>CORRECT</small><strong>Data needs work</strong><p>Contact, role, phone, ownership or account information must be repaired.</p></article>
+          <article><small>CLOSE</small><strong>No current opportunity</strong><p>The answer is clear and the team can stop wasting effort on the record.</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-deliverables-section">
+    <div class="container-wide">
+      <div class="section-label">What clients receive</div>
+      <h2>A managed recovery campaign with visible work and usable outcomes.</h2>
+      <div class="reactivation-deliverables-grid">
+        <article><strong>Lead pool audit</strong><p>Sources, stages, ownership, age, visible history, data condition and obvious exclusions.</p></article>
+        <article><strong>Segmentation plan</strong><p>Priority groups built around fit, source, history, timing, value and data confidence.</p></article>
+        <article><strong>Data preparation</strong><p>Cleanup direction, missing fields, role checks, contact gaps and campaign ready records.</p></article>
+        <article><strong>Reactivation talk track</strong><p>Reason to call, context, opening, questions, proof, objections and next step language.</p></article>
+        <article><strong>Human calling</strong><p>Prepared callers, structured attempts, live conversations, referrals and useful notes.</p></article>
+        <article><strong>Supporting follow up</strong><p>Approved follow up actions matched to the lead source, response and campaign rules.</p></article>
+        <article><strong>Qualification and booking</strong><p>Agreed standards, appointment scheduling and sales ready meeting context.</p></article>
+        <article><strong>Outcome reporting</strong><p>Activity, connections, dispositions, objections, referrals, timing, meetings and next actions.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-comparison-section">
+    <div class="container-wide">
+      <div class="section-label">Compare the sales motions</div>
+      <h2>Use the service that matches the current state of the lead.</h2>
+      <div class="reactivation-table-wrap">
+        <table class="reactivation-comparison-table">
+          <thead><tr><th>Service</th><th>Lead starting point</th><th>Primary work</th><th>Best when</th></tr></thead>
+          <tbody>
+            <tr class="featured"><td><strong>Lead reactivation</strong></td><td>Known, old, dormant, unresponsive or previously engaged leads</td><td>Audit, clean, segment, call, follow up, qualify, book and route</td><td>Useful contacts already exist but nobody is working them consistently</td></tr>
+            <tr><td><strong>Outbound calling</strong></td><td>New or existing target accounts and prospect lists</td><td>Cold calling, follow up, qualification and campaign learning</td><td>You need human outbound execution across a defined market</td></tr>
+            <tr><td><strong>AI lead generation</strong></td><td>A market where the right accounts and contacts still need to be found</td><td>ICP, account discovery, research, enrichment, signals and priorities</td><td>You need better prospect intelligence or a new targeted lead pool</td></tr>
+            <tr><td><strong>Appointment setting</strong></td><td>Leads or prospects that must meet a defined meeting standard</td><td>Outreach, qualification, scheduling, confirmation and handoff</td><td>The main outcome is a qualified sales conversation on the calendar</td></tr>
+            <tr><td><strong>Outsourced SDR</strong></td><td>A wider market, data and pipeline workload</td><td>Managed research, outreach, follow up, qualification, meetings and reporting</td><td>You need the broader front of sales operated as an ongoing function</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-fit-section">
+    <div class="container-wide">
+      <div class="section-label">Who this service is for</div>
+      <h2>Built for B2B companies with real contacts and unfinished sales work.</h2>
+      <div class="reactivation-fit-grid">
+        <article><h3>CRM databases with dormant leads</h3><p>The company has meaningful lead volume but no reliable process for deciding who deserves another call.</p></article>
+        <article><h3>High value B2B offers</h3><p>One recovered opportunity can justify careful human follow up, qualification and appointment booking.</p></article>
+        <article><h3>Inbound programs with follow up gaps</h3><p>Marketing creates inquiries, but response, persistence, ownership and sales handoff are inconsistent.</p></article>
+        <article><h3>Event and webinar programs</h3><p>The team collects contacts but lacks the capacity or call process to turn engagement into conversations.</p></article>
+        <article><h3>Sales teams focused on active deals</h3><p>Sellers need more time to close while CallTeam works older or neglected lead pools.</p></article>
+        <article><h3>Companies rebuilding pipeline</h3><p>Leadership wants to understand what is recoverable before buying more data or adding more demand spend.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="reactivation-not-fit-section">
+    <div class="container">
+      <div class="section-label">When this is not the right move</div>
+      <h2>Old data is not automatically hidden revenue.</h2>
+      <p>Lead reactivation may not be the right fit when the records have no relationship to the offer, the company cannot explain where the data came from, the contacts have already clearly declined, there is no team available to take qualified conversations or leadership expects every old name to become an opportunity.</p>
+      <p>The campaign also needs a real offer, a reachable B2B market, honest context, agreed contact rules, clear suppression and opt out handling, and a defined owner after the handoff.</p>
+      <div class="reactivation-not-fit-line">The goal is to recover what is still commercially useful and close what is not.</div>
+    </div>
+  </section>
+
+  <section class="reactivation-pricing-section">
+    <div class="container-wide">
+      <div class="section-label">Lead reactivation pricing</div>
+      <h2>The scope depends on the condition of the lead pool and the work required to recover it.</h2>
+      <div class="reactivation-pricing-grid">
+        <article><span>01</span><h3>Lead volume</h3><p>Number of records, account groups, sources, regions and buyer roles in the campaign.</p></article>
+        <article><span>02</span><h3>Data condition</h3><p>Age, missing fields, duplicate records, role accuracy, contact confidence and cleanup needs.</p></article>
+        <article><span>03</span><h3>History and research</h3><p>Available notes, previous activity, context, account research and message preparation required.</p></article>
+        <article><span>04</span><h3>Calling and follow up</h3><p>Attempt logic, number of segments, channels, response handling and campaign duration.</p></article>
+        <article><span>05</span><h3>Qualification and systems</h3><p>Meeting criteria, CRM workflow, handoff fields, reporting, review cadence and future routing.</p></article>
+      </div>
+      <div class="reactivation-pricing-note">CallTeam reviews the lead pool, offer, buyer, data and desired outcome before recommending a reactivation scope.</div>
+    </div>
+  </section>
+
+  <section class="reactivation-related-section">
+    <div class="container-wide">
+      <div class="section-label">Related CallTeam services</div>
+      <h2>Connect lead recovery to the sales motion around it.</h2>
+      <div class="reactivation-related-grid">
+        <a href="/services/"><span>Service hub</span><strong>All B2B Sales Services</strong><small>Find the right entry point for the current pipeline problem.</small></a>
+        <a href="/"><span>Human execution</span><strong>B2B Outbound Calling</strong><small>Call new or existing target accounts and qualify the response.</small></a>
+        <a href="/ai-lead-generation-services/"><span>New prospect data</span><strong>AI Lead Generation</strong><small>Build, research and prioritize a new targeted prospect universe.</small></a>
+        <a href="/services/b2b-appointment-setting/"><span>Meeting outcome</span><strong>B2B Appointment Setting</strong><small>Qualify, schedule, confirm and hand off the right conversation.</small></a>
+        <a href="/services/outsourced-sdr/"><span>Managed function</span><strong>Outsourced SDR Services</strong><small>Operate the broader front of the sales pipeline.</small></a>
+        <a href="/90-day-revenue-engine/"><span>Full sales system</span><strong>90-Day Revenue Engine</strong><small>Fix the process, CRM, ownership, reporting and revenue rhythm.</small></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="reactivation-faq-section">
+    <div class="container-wide">
+      <div class="section-label">B2B lead reactivation FAQ</div>
+      <h2>Questions companies ask before working an old or neglected lead pool.</h2>
+      <div class="reactivation-faq-list">
+        <details><summary>What are B2B lead reactivation services?</summary><p>B2B lead reactivation services reconnect with old, dormant, unresponsive or neglected business leads. The work can include auditing and cleaning the data, segmenting the lead pool, preparing the message, human calling, structured follow up, qualification, appointment booking and recording a clear next action.</p></details>
+        <details><summary>What is CRM lead reactivation?</summary><p>CRM lead reactivation is the process of identifying inactive contacts and opportunities inside a customer relationship management system, deciding which records still deserve attention, reconnecting with them and returning useful outcomes to the CRM.</p></details>
+        <details><summary>What types of leads can CallTeam reactivate?</summary><p>CallTeam can work with old CRM leads, dormant opportunities, previous inquiries, unresponsive inbound leads, event and webinar contacts, past proposals, no decision opportunities, target accounts, referral lists and previous prospecting campaigns.</p></details>
+        <details><summary>How old can a lead be?</summary><p>Age alone does not determine whether a lead is useful. Fit, source, previous engagement, data condition, reason for the original interest, timing and what may have changed all matter. CallTeam reviews the pool before recommending outreach.</p></details>
+        <details><summary>Can CallTeam follow up with inbound leads?</summary><p>Yes. CallTeam can contact inbound inquiries that were not reached, received incomplete follow up or went quiet after an initial response. The call should reflect what the person requested and how much time has passed.</p></details>
+        <details><summary>Can you reactivate event and webinar leads?</summary><p>Yes. CallTeam can work with conference attendees, booth visitors, webinar registrations, session participants and other event contacts. The outreach needs a specific reason tied to the event and the buyer rather than a generic follow up message.</p></details>
+        <details><summary>Can you work lost or no decision opportunities?</summary><p>Yes. Previous opportunities can be reviewed around the original problem, decision, objections, timing, stakeholders and outcome. The reactivation conversation tests what changed and whether another sales discussion is now useful.</p></details>
+        <details><summary>Does CallTeam use human callers?</summary><p>Yes. Experienced people handle live calls, listening, objections, referrals, qualification and next step decisions. AI and sales technology can support data organization, enrichment, segmentation, research, priorities and reporting.</p></details>
+        <details><summary>Is lead reactivation the same as cold calling?</summary><p>No. Cold calling commonly starts with a new prospect who may have no previous relationship with the company. Lead reactivation starts with a known record, previous interaction, earlier campaign or existing CRM history. Human calling can be part of both services, but the context and message are different.</p></details>
+        <details><summary>Is lead reactivation the same as lead generation?</summary><p>No. Lead generation identifies and creates possible new opportunities. Lead reactivation returns to contacts and opportunities that already exist. CallTeam can connect both when the company needs to recover the current database and build a new prospect list.</p></details>
+        <details><summary>Is lead reactivation the same as appointment setting?</summary><p>Lead reactivation focuses on recovering and correctly routing existing leads. Appointment setting focuses on qualifying and scheduling a sales conversation. A reactivation campaign can include appointment setting when a lead meets the agreed standard.</p></details>
+        <details><summary>Can CallTeam build a list if we do not have enough leads?</summary><p>Yes. CallTeam can clarify the ideal customer profile and build a targeted B2B prospect list using access to a global business contact universe with more than 300 million records. Records are selected, checked and prepared for the campaign rather than treated as automatically qualified leads.</p></details>
+        <details><summary>Does CallTeam own a database of 300 million contacts?</summary><p>CallTeam uses access to a global business contact universe with more than 300 million records. We do not present every record as owned, current or qualified. The relevant accounts and contacts must be selected, checked and prepared around the client campaign.</p></details>
+        <details><summary>Does CallTeam clean and enrich the lead data?</summary><p>CallTeam can review the lead pool for duplicates, missing fields, obvious bad data, role relevance, contact gaps and account context. The exact cleanup, validation and enrichment work depends on the source and campaign scope.</p></details>
+        <details><summary>Which outreach channels are used?</summary><p>CallTeam is built around human calling. Approved email or other appropriate supporting follow up can be included depending on the lead source, available permissions, client process, market and engagement scope.</p></details>
+        <details><summary>How does CallTeam qualify a reactivated lead?</summary><p>The standard is agreed before launch and can include account fit, role relevance, what changed, current business reason, interest, timing, decision path and a clear next step. Not every response should become a meeting.</p></details>
+        <details><summary>Can CallTeam book appointments from old leads?</summary><p>Yes. When a reactivated lead meets the qualification standard and accepts a relevant next conversation, CallTeam can schedule the appointment and provide the sales team with the account, contact, reason, context, timing, objections and agreed purpose.</p></details>
+        <details><summary>Can CallTeam work inside our CRM?</summary><p>CallTeam can work with an agreed CRM or structured campaign workflow when access, permissions, fields, ownership and operating rules are clear. Another reporting and handoff method can be used when direct access is not appropriate.</p></details>
+        <details><summary>What happens when somebody is interested but not ready?</summary><p>The lead should receive a specific future action rather than being forced onto the calendar. That can include a follow up date, nurture route, additional information, another stakeholder or a condition that needs to change first.</p></details>
+        <details><summary>What reporting will we receive?</summary><p>Reporting can include records worked, calls, connection outcomes, dispositions, objections, referrals, wrong contacts, data corrections, follow up dates, qualified leads, appointments and market patterns. The exact scorecard is agreed before launch.</p></details>
+        <details><summary>How long does a lead reactivation campaign take?</summary><p>The timeline depends on record volume, data quality, lead age, number of segments, buyer seniority, calling workload, follow up depth, response rates and the amount of evidence required. CallTeam reviews the pool before defining the campaign.</p></details>
+        <details><summary>How much do B2B lead reactivation services cost?</summary><p>Pricing depends on lead volume, data condition, lead age and source, research requirements, buyer seniority, calling workload, follow up depth, qualification complexity, CRM workflow, reporting and campaign duration.</p></details>
+        <details><summary>Does CallTeam guarantee recovered revenue or appointments?</summary><p>No honest provider controls the quality of every old record, the buyer, the offer, the market, the timing or what changed. CallTeam defines the process, performs the agreed work, reports the evidence and improves the campaign. Specific commercial commitments belong in the engagement agreement.</p></details>
+        <details><summary>How do we start?</summary><p>Start with a strategy call. We review the offer, lead sources, record volume, data condition, available history, target buyer, qualification standard, CRM workflow, sales capacity and the outcome the campaign needs to produce.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band reactivation-final-cta">
+    <div class="section-label">Recover the pipeline you already earned</div>
+    <h2>Stop letting useful leads disappear after the <span class="highlight">first missed follow up.</span></h2>
+    <p>Tell us where the leads came from, how many records you have and what a qualified next conversation should mean.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Lead Reactivation Strategy Call</a>
+  </section>
+</main>
