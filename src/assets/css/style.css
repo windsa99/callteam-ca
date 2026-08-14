@@ -1199,6 +1199,11 @@
   border-color: rgba(245, 102, 0, 0.55);
 }
 
+.services-card.reactivation-card {
+  background: linear-gradient(145deg, #fff, #fff7f1);
+  border-color: rgba(245, 102, 0, 0.7);
+}
+
 .services-card.agtm-card {
   color: var(--white);
   background: linear-gradient(145deg, #0d1a22, #173447);
@@ -9892,7 +9897,7 @@ footer .flinks a:hover {
   }
 
   .services-card:last-child {
-    grid-column: 1 / -1;
+    grid-column: auto;
   }
 
   .services-system-flow {
@@ -10088,7 +10093,7 @@ footer .flinks a:hover {
 }
 
 .services-card-grid .services-card:last-child {
-  grid-column: 3 / span 2;
+  grid-column: auto;
 }
 
 .services-card.sdr-card {
@@ -10145,12 +10150,5 @@ footer .flinks a:hover {
   .services-diagnostic-grid,
   .appointment-related-grid {
     grid-template-columns: 1fr;
-  }
-}
-
-/* Nine service hub cards */
-@media (min-width: 641px) {
-  .services-card-grid .services-card:last-child {
-    grid-column: span 2;
   }
 }
