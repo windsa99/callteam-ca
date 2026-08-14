@@ -24,7 +24,7 @@ faqSchema: |
         "@type": "ItemList",
         "@id": "https://www.callteam.ca/case-studies/#case-study-list",
         "name": "CallTeam B2B sales case studies",
-        "numberOfItems": 1,
+        "numberOfItems": 2,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -35,6 +35,17 @@ faqSchema: |
               "url": "https://www.callteam.ca/case-studies/fintech-payment-platform-appointment-setting/",
               "name": "FinTech Payment Platform Appointment Setting Case Study",
               "description": "A 90 day campaign that generated 15 qualified product demos, three closed deals, and combined six figure contract value."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.callteam.ca/case-studies/manufacturing-cybersecurity-appointment-setting/#article",
+              "url": "https://www.callteam.ca/case-studies/manufacturing-cybersecurity-appointment-setting/",
+              "name": "Manufacturing Cybersecurity Appointment Setting Case Study",
+              "description": "A 90 day campaign that generated nine qualified appointments, three sales opportunities, and one near term provider switching conversation."
             }
           }
         ]
@@ -257,6 +268,11 @@ faqSchema: |
   border-radius: 13px;
   box-shadow: 0 20px 55px rgba(12, 21, 29, 0.08);
   text-decoration: none;
+}
+
+.case-hub-card-list {
+  display: grid;
+  gap: 22px;
 }
 
 .case-hub-card-copy {
@@ -601,23 +617,39 @@ faqSchema: |
 
   <section id="featured-case-study" class="case-hub-featured">
     <div class="container-wide">
-      <div class="section-label">Featured case study</div>
-      <h2>A FinTech payments platform needed more conversations with merchants worth winning.</h2>
-      <p class="case-hub-intro">The sales team could run a strong product demo. The missing layer was a repeatable path to the right ecommerce and multi location merchants, the right decision makers, and a qualified reason to meet.</p>
-      <a class="case-hub-card" href="/case-studies/fintech-payment-platform-appointment-setting/" aria-label="Read the FinTech payment platform appointment setting case study">
-        <div class="case-hub-card-copy">
-          <div class="case-hub-tags"><span>FinTech</span><span>Payment technology</span><span>Appointment setting</span><span>Outbound calling</span></div>
-          <h3>How a payments platform generated 15 qualified demos and three closed deals</h3>
-          <p>A focused 90 day campaign connected merchant research, human conversations, qualification, structured follow up, and a clear product demo handoff.</p>
-          <span class="case-hub-card-cta">Read the Complete Case Study →</span>
-        </div>
-        <div class="case-hub-card-results" aria-hidden="true">
-          <div><strong>15</strong><span>Qualified demos</span></div>
-          <div><strong>3</strong><span>Closed deals</span></div>
-          <div><strong>20%</strong><span>Demo conversion</span></div>
-          <div><strong>90</strong><span>Campaign days</span></div>
-        </div>
-      </a>
+      <div class="section-label">Case study library</div>
+      <h2>Two crowded markets. Two focused campaigns. Two measurable results.</h2>
+      <p class="case-hub-intro">Each campaign became stronger when the target market, buyer problem, live conversation, qualification standard, and commercial handoff worked as one system.</p>
+      <div class="case-hub-card-list">
+        <a class="case-hub-card" href="/case-studies/fintech-payment-platform-appointment-setting/" aria-label="Read the FinTech payment platform appointment setting case study">
+          <div class="case-hub-card-copy">
+            <div class="case-hub-tags"><span>FinTech</span><span>Payment technology</span><span>Appointment setting</span><span>Outbound calling</span></div>
+            <h3>How a payments platform generated 15 qualified demos and three closed deals</h3>
+            <p>A focused 90 day campaign connected merchant research, human conversations, qualification, structured follow up, and a clear product demo handoff.</p>
+            <span class="case-hub-card-cta">Read the Complete Case Study →</span>
+          </div>
+          <div class="case-hub-card-results" aria-hidden="true">
+            <div><strong>15</strong><span>Qualified demos</span></div>
+            <div><strong>3</strong><span>Closed deals</span></div>
+            <div><strong>20%</strong><span>Demo conversion</span></div>
+            <div><strong>90</strong><span>Campaign days</span></div>
+          </div>
+        </a>
+        <a class="case-hub-card" href="/case-studies/manufacturing-cybersecurity-appointment-setting/" aria-label="Read the manufacturing cybersecurity appointment setting case study">
+          <div class="case-hub-card-copy">
+            <div class="case-hub-tags"><span>Cybersecurity</span><span>Manufacturing</span><span>Disaster recovery</span><span>Appointment setting</span></div>
+            <h3>How a cybersecurity company generated nine appointments and three sales opportunities</h3>
+            <p>A focused 90 day campaign replaced generic security language with factory uptime, connected systems, recovery, and operational resilience.</p>
+            <span class="case-hub-card-cta">Read the Complete Case Study →</span>
+          </div>
+          <div class="case-hub-card-results" aria-hidden="true">
+            <div><strong>9</strong><span>Booked appointments</span></div>
+            <div><strong>3</strong><span>Sales opportunities</span></div>
+            <div><strong>33%</strong><span>Opportunity rate</span></div>
+            <div><strong>90</strong><span>Campaign days</span></div>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
 
