@@ -5,15 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ seoTitle or title }}</title>
 <meta name="description" content="{{ description }}">
-{% if canonicalUrl %}<link rel="canonical" href="{{ canonicalUrl }}">{% endif %}
+{% set resolvedCanonicalUrl = canonicalUrl or (site.url + page.url) %}
+<link rel="canonical" href="{{ resolvedCanonicalUrl }}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 {% set resolvedSocialTitle = socialTitle or seoTitle or title %}
 {% set resolvedSocialDescription = socialDescription or description %}
 {% set resolvedSocialImage = socialImage or "https://www.callteam.ca/assets/images/callteam-social-preview.jpg" %}
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ ogType or 'website' }}">
 <meta property="og:site_name" content="CallTeam">
 <meta property="og:title" content="{{ resolvedSocialTitle }}">
 <meta property="og:description" content="{{ resolvedSocialDescription }}">
-<meta property="og:url" content="{% if canonicalUrl %}{{ canonicalUrl }}{% else %}https://www.callteam.ca{{ page.url }}{% endif %}">
+<meta property="og:url" content="{{ resolvedCanonicalUrl }}">
 <meta property="og:image" content="{{ resolvedSocialImage }}">
 <meta property="og:image:width" content="1731">
 <meta property="og:image:height" content="909">
@@ -27,6 +29,35 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.organizationId }}",
+      "name": {{ site.name | json | safe }},
+      "alternateName": {{ site.alternateName | json | safe }},
+      "url": "{{ site.url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo }}"
+      },
+      "email": {{ site.email | json | safe }},
+      "description": {{ site.description | json | safe }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.websiteId }}",
+      "url": "{{ site.url }}/",
+      "name": {{ site.name | json | safe }},
+      "alternateName": {{ site.alternateName | json | safe }},
+      "inLanguage": "en",
+      "publisher": { "@id": "{{ site.organizationId }}" }
+    }
+  ]
+}
+</script>
 {% if faqSchema %}
 <script type="application/ld+json">
 {{ faqSchema | safe }}

@@ -1,29 +1,194 @@
 ---
 layout: layouts/base.njk
-title: "B2B Sales & Outbound Articles | CallTeam"
-description: "Practical B2B articles on lead generation, outbound calling, appointment setting, sales pipeline, and revenue execution from CallTeam."
+title: "B2B Sales and Outbound Articles"
+seoTitle: "B2B Sales, Cold Calling and Lead Generation Guides | CallTeam"
+description: "Practical B2B sales guides on lead generation, cold calling, appointment setting, outsourced SDR teams, AI GTM, lead reactivation, sales training, and pipeline execution."
+canonicalUrl: "https://www.callteam.ca/articles/"
 permalink: "/articles/"
+modified: "2026-08-14"
 ---
 
-<section class="hero">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.callteam.ca/articles/#webpage",
+      "url": "https://www.callteam.ca/articles/",
+      "name": "B2B Sales, Cold Calling and Lead Generation Guides",
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "mainEntity": { "@id": "https://www.callteam.ca/articles/#articles" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.callteam.ca/articles/#articles",
+      "name": "CallTeam B2B sales article library",
+      "numberOfItems": {{ collections.articles.length }},
+      "itemListElement": [
+        {%- for article in collections.articles | reverse %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "url": "{{ site.url }}{{ article.url }}",
+          "name": {{ article.data.title | json | safe }}
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Articles", "item": "{{ site.url }}/articles/" }
+      ]
+    }
+  ]
+}
+</script>
+
+<nav class="breadcrumb-trail" aria-label="Breadcrumb">
+  <div class="container"><a href="/">Home</a> / <span>Articles</span></div>
+</nav>
+
+<section class="hero article-library-hero">
   <div>
-    <h1>B2B sales and outbound <span class="highlight">articles</span>.</h1>
-    <p>Practical guides on lead generation, outbound calling, appointment setting, pipeline, and sales execution for B2B teams.</p>
+    <div class="eyebrow">B2B sales knowledge library</div>
+    <h1>Answers for the sales problems that <span class="highlight">kill pipeline.</span></h1>
+    <p>Practical guides on B2B lead generation, outbound calling, appointment setting, sales development, AI-assisted prospecting, lead follow-up, qualification, and revenue execution.</p>
+    <div class="article-cluster-nav" aria-label="Article topics">
+      <a href="#b2b-lead-generation">B2B Lead Generation</a>
+      <a href="#outbound-calling">Outbound Calling</a>
+      <a href="#ai-sales-gtm">AI Sales and GTM</a>
+      <a href="#sales-systems">Sales Systems</a>
+    </div>
   </div>
 </section>
 
-<section>
+<section class="article-featured" aria-labelledby="featured-guide-heading">
   <div class="container-wide">
-    <div class="section-label">Articles</div>
-    <h2>Latest posts.</h2>
-    <div class="service-grid">
+    <div class="section-label">Start here</div>
+    <h2 id="featured-guide-heading">The complete B2B lead generation foundation.</h2>
+    {% for article in collections.articles %}
+      {% if article.data.featured %}
+      <article class="article-feature-card">
+        <div>
+          <span class="article-card-label">{{ article.data.articleType or "Cornerstone guide" }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.quickAnswer }}</p>
+        </div>
+        <div class="article-card-meta">
+          <span>{{ article.data.cluster }}</span>
+          <span>Updated {{ article.data.modified | readableDate }}</span>
+        </div>
+        <a href="{{ article.url }}" class="card-link">Read {{ article.data.title }} →</a>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section id="b2b-lead-generation" class="article-cluster-section">
+  <div class="container-wide">
+    <div class="section-label">Topic cluster</div>
+    <h2>B2B lead generation.</h2>
+    <p class="section-intro">Understand targeting, prospect lists, provider selection, small-team constraints, qualification, follow-up, and the path from a name to a sales conversation.</p>
+    <div class="service-grid article-grid">
       {% for article in collections.articles | reverse %}
-      <div class="service-card">
-        <h3>{{ article.data.title }}</h3>
-        <p>{{ article.data.description }}</p>
-        <a href="{{ article.url }}" class="card-link">Read more →</a>
-      </div>
+        {% if article.data.cluster == "B2B Lead Generation" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Read {{ article.data.title }} →</a>
+        </article>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
+</section>
+
+<section id="outbound-calling" class="article-cluster-section">
+  <div class="container-wide">
+    <div class="section-label">Topic cluster</div>
+    <h2>Outbound calling and sales development.</h2>
+    <p class="section-intro">Build a human-led outbound motion around focused accounts, useful conversations, disciplined follow-up, clear qualification, and a handoff sales can use.</p>
+    <div class="service-grid article-grid">
+      {% for article in collections.articles | reverse %}
+        {% if article.data.cluster == "Outbound Calling and Sales Development" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Read {{ article.data.title }} →</a>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="ai-sales-gtm" class="article-cluster-section">
+  <div class="container-wide">
+    <div class="section-label">Topic cluster</div>
+    <h2>AI lead generation and AI GTM.</h2>
+    <p class="section-intro">Use AI for research, signals, prioritization, and preparation while keeping human judgment responsible for the conversation and commercial decision.</p>
+    <div class="service-grid article-grid">
+      {% for article in collections.articles | reverse %}
+        {% if article.data.cluster == "AI Lead Generation and AI GTM" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Read {{ article.data.title }} →</a>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="sales-systems" class="article-cluster-section">
+  <div class="container-wide">
+    <div class="section-label">Topic cluster</div>
+    <h2>Sales tools, teams, and revenue systems.</h2>
+    <p class="section-intro">Choose the right answer when the bottleneck is a tool, missing execution capacity, weak seller behavior, or a broken pipeline operating system.</p>
+    <div class="service-grid article-grid">
+      {% for article in collections.articles | reverse %}
+        {% if article.data.cluster == "Sales Tools and Revenue Systems" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Read {{ article.data.title }} →</a>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="article-problem-router">
+  <div class="container-wide">
+    <div class="section-label">Move from research to action</div>
+    <h2>Start where the pipeline is breaking.</h2>
+    <div class="service-grid">
+      <article class="service-card"><h3>Need qualified meetings?</h3><p>Connect focused account research and human calling to a qualification standard that protects the calendar.</p><a href="/services/b2b-appointment-setting/" class="card-link">Explore B2B appointment setting services →</a></article>
+      <article class="service-card"><h3>Have old leads going cold?</h3><p>Recover value from dormant CRM records, inbound leads, event contacts, and stalled opportunities.</p><a href="/services/lead-reactivation/" class="card-link">Explore B2B lead reactivation services →</a></article>
+      <article class="service-card"><h3>Need managed sales development?</h3><p>Add a front-end execution layer for research, calling, follow-up, qualification, CRM workflow, and reporting.</p><a href="/services/outsourced-sdr/" class="card-link">Explore outsourced SDR services →</a></article>
+      <article class="service-card"><h3>Need evidence, not promises?</h3><p>See how focused campaigns created qualified demos, sales opportunities, and closed business in complex B2B markets.</p><a href="/case-studies/" class="card-link">See B2B sales case studies →</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>Need an answer for a pipeline problem that is already costing you?</h2>
+  <p>Book a free call and identify whether the real bottleneck is targeting, calling, follow-up, qualification, seller behavior, or the wider sales system.</p>
+  <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free Call</a>
 </section>

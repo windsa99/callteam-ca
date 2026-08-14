@@ -2,13 +2,25 @@
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Small Business Lead Generation: Why Founders Can’t Do It All Themselves"
-seoTitle: "Small Business Lead Generation: Leads, Calls & Pipeline for Founders | CallTeam"
-description: "A practical guide to small business lead generation, including list building, outbound calling, old lead follow-up, sales training, appointment setting, CRM, and simple pipeline systems."
+seoTitle: "Small Business Lead Generation for B2B Founders | CallTeam"
+description: "Learn how B2B founders can build a focused lead generation rhythm across targeting, prospect lists, calling, follow-up, qualification, and CRM."
 date: "2026-07-08"
-modified: "2026-07-08"
+modified: "2026-08-14"
 category: "Small Business Lead Generation"
 permalink: "/articles/small-business-lead-generation/"
+canonicalUrl: "https://www.callteam.ca/articles/small-business-lead-generation/"
+cluster: "B2B Lead Generation"
+articleType: "Founder guide"
+topics: ["small business lead generation", "founder-led sales", "B2B prospecting", "lead follow-up", "sales pipeline"]
 quickAnswer: "Small business lead generation is the process of finding the right prospects, following up with leads, reaching decision-makers, qualifying opportunities, and booking sales conversations without relying only on referrals or the founder’s personal network. Small B2B companies often need clearer targeting, better prospect lists, done-for-you lead follow-up, stronger sales execution, or a simple pipeline system."
+relatedService:
+  title: "Outsourced SDR Services"
+  url: "/services/outsourced-sdr/"
+  text: "Give a lean B2B team consistent prospect research, calling, follow-up, qualification, and reporting without making the founder carry every step."
+relatedCaseStudy:
+  title: "SaaS Demo Appointment Setting Case Study"
+  url: "/case-studies/saas-demo-appointment-setting/"
+  text: "See how a focused campaign clarified a complex SaaS offer and created qualified demos without relying on feature-heavy outreach."
 cardsHeading: "What small business lead generation really needs."
 cards:
   - title: "A narrow target market"
@@ -58,7 +70,7 @@ sources:
 readNext:
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
-  - title: "B2B Lead Generation Services"
+  - title: "How to Choose a B2B Lead Generation Service"
     url: "/articles/b2b-lead-generation-services/"
   - title: "Lead Generation Tools vs. Done-For-You Services"
     url: "/articles/lead-generation-tools-vs-done-for-you-services/"
@@ -69,7 +81,7 @@ readNext:
   - title: "90-Day Revenue Engine"
     url: "/90-day-revenue-engine/"
   - title: "CallTeam Services"
-    url: "/#services"
+    url: "/services/"
 ctaHeading: "Need more leads without carrying the whole sales process yourself?"
 ctaText: "Book a free call and let's look at whether your small business needs a better lead list, done-for-you follow-up, sales execution training, or a simple pipeline system."
 ctaUrl: "https://calendly.com/hello-callteam/new-meeting"

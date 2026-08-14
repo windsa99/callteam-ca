@@ -2,13 +2,25 @@
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Outbound Lead Generation: How It Works and When It’s Worth It"
-seoTitle: "Outbound Lead Generation: Calls, Follow-Up & Qualified Meetings | CallTeam"
-description: "A complete guide to outbound lead generation, including prospect lists, cold calling, LinkedIn, email, lead follow-up, appointment setting, qualification, and sales execution."
+seoTitle: "Outbound Lead Generation: How It Works | CallTeam"
+description: "Learn how outbound lead generation connects prospect lists, cold calling, follow-up, qualification, appointment setting, and useful sales handoffs."
 date: "2026-07-08"
-modified: "2026-07-08"
+modified: "2026-08-14"
 category: "Outbound Lead Generation"
 permalink: "/articles/outbound-lead-generation/"
+canonicalUrl: "https://www.callteam.ca/articles/outbound-lead-generation/"
+cluster: "Outbound Calling and Sales Development"
+articleType: "Practical guide"
+topics: ["outbound lead generation", "B2B cold calling", "appointment setting", "lead follow-up", "sales development"]
 quickAnswer: "Outbound lead generation is the process of proactively reaching target companies through calling, email, LinkedIn, and follow-up to create qualified sales conversations. It works best when the company has the right list, a clear reason to reach out, consistent follow-up, proper qualification, and a clean handoff to sales."
+relatedService:
+  title: "B2B Appointment Setting Services"
+  url: "/services/b2b-appointment-setting/"
+  text: "Turn focused account research and human outbound calling into qualified, confirmed meetings with useful context for sales."
+relatedCaseStudy:
+  title: "Manufacturing Cybersecurity Appointment Setting Case Study"
+  url: "/case-studies/manufacturing-cybersecurity-appointment-setting/"
+  text: "See how a manufacturing-focused cybersecurity campaign created nine appointments and three commercially useful opportunities."
 cardsHeading: "What outbound lead generation needs to work."
 cards:
   - title: "A real target list"
@@ -60,7 +72,7 @@ readNext:
     url: "/ai-lead-generation-services/"
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
-  - title: "B2B Lead Generation Services"
+  - title: "How to Choose a B2B Lead Generation Service"
     url: "/articles/b2b-lead-generation-services/"
   - title: "AI Lead Generation"
     url: "/articles/ai-lead-generation/"
@@ -71,7 +83,7 @@ readNext:
   - title: "90-Day Revenue Engine"
     url: "/90-day-revenue-engine/"
   - title: "CallTeam Services"
-    url: "/#services"
+    url: "/services/"
 ctaHeading: "Need outbound lead generation that creates real conversations?"
 ctaText: "Book a free call and let's look at your target list, outbound calling, lead follow-up, qualification, appointment setting, and sales execution needs."
 ctaUrl: "https://calendly.com/hello-callteam/new-meeting"

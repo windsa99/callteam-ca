@@ -1,7 +1,11 @@
 {
   "name": "CallTeam",
-  "url": "https://callteam.ca",
-  "description": "B2B outbound calling, lead generation, and appointment setting for sales teams.",
+  "alternateName": "CallTeam.ca",
+  "url": "https://www.callteam.ca",
+  "organizationId": "https://www.callteam.ca/#organization",
+  "websiteId": "https://www.callteam.ca/#website",
+  "logo": "https://www.callteam.ca/assets/images/callteam-logo.png",
+  "description": "CallTeam is a B2B outbound sales execution company providing human-led outbound calling, appointment setting, outsourced SDR execution, lead reactivation, AI-assisted lead generation, AI GTM services, US market entry sales, and SDR training.",
   "email": "hello@callteam.ca",
   "ctaText": "Book a Free Call"
 }

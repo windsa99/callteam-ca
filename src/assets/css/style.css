@@ -1453,6 +1453,182 @@
   }
 }
 
+/* Article Engine 2.0 */
+.article-hero .article-deck {
+  max-width: 880px;
+  margin: 24px auto 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: clamp(18px, 2vw, 23px);
+  line-height: 1.55;
+}
+
+.article-byline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 24px;
+  margin: 24px auto 0;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 14px;
+}
+
+.article-byline a {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.article-hero .quick-answer {
+  max-width: 980px;
+  margin: 32px auto 0;
+  padding: 24px 28px;
+  border: 1px solid rgba(245, 102, 0, 0.45);
+  border-left: 5px solid var(--orange);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  line-height: 1.7;
+}
+
+.article-hero .quick-answer strong {
+  color: #fff;
+}
+
+.article-takeaways,
+.article-connections,
+.article-sources,
+.article-about,
+.article-read-next,
+.article-featured,
+.article-cluster-section,
+.article-problem-router {
+  scroll-margin-top: 110px;
+}
+
+.article-takeaways .service-card,
+.article-connections .service-card,
+.article-library-card {
+  min-height: 100%;
+}
+
+.article-card-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--orange);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.article-cluster-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.article-cluster-nav a {
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.article-cluster-nav a:hover,
+.article-cluster-nav a:focus-visible {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.article-feature-card {
+  padding: clamp(26px, 4vw, 46px);
+  border: 1px solid rgba(245, 102, 0, 0.42);
+  border-radius: 16px;
+  background: linear-gradient(145deg, #101d25, #172b36);
+  color: #fff;
+  box-shadow: 0 24px 60px rgba(7, 18, 24, 0.18);
+}
+
+.article-feature-card h3 {
+  max-width: 900px;
+  margin: 0 0 16px;
+  font-size: clamp(28px, 4vw, 48px);
+  line-height: 1.08;
+}
+
+.article-feature-card p {
+  max-width: 960px;
+  color: rgba(255, 255, 255, 0.76);
+  line-height: 1.7;
+}
+
+.article-feature-card .card-link {
+  color: #ff9b52;
+}
+
+.article-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 18px 0;
+  color: #75848d;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.article-feature-card .article-card-meta {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.article-cluster-section .section-intro {
+  max-width: 850px;
+  margin: -8px 0 30px;
+  color: #5d6b73;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.article-library-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-library-card .card-link {
+  margin-top: auto;
+}
+
+.article-about .signature-block h2 {
+  margin: 10px 0 24px;
+}
+
+.article-about .signature-block p {
+  max-width: 1000px;
+}
+
+@media (max-width: 700px) {
+  .article-byline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-hero .quick-answer {
+    padding: 20px;
+  }
+
+  .article-cluster-nav {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .article-cluster-nav a {
+    text-align: center;
+  }
+}
+
 /* AI GTM and SDR Training pillar pages */
 .agtm-page,
 .training-page {

@@ -1,136 +1,204 @@
 ---
 layout: layouts/base.njk
+ogType: article
 ---
+{% set articleCanonical = canonicalUrl or (site.url + page.url) %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "headline": "{{ title }}",
-      "description": "{{ description }}",
-      "datePublished": "{{ date }}",
-      "dateModified": "{{ modified or date }}",
-      "author": { "@type": "Organization", "name": "CallTeam" },
-      "publisher": { "@type": "Organization", "name": "CallTeam", "url": "https://www.callteam.ca" }
+      "@type": "WebPage",
+      "@id": "{{ articleCanonical }}#webpage",
+      "url": "{{ articleCanonical }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "mainEntity": { "@id": "{{ articleCanonical }}#article" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ articleCanonical }}#article",
+      "url": "{{ articleCanonical }}",
+      "mainEntityOfPage": { "@id": "{{ articleCanonical }}#webpage" },
+      "headline": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "datePublished": "{{ date }}T00:00:00Z",
+      "dateModified": "{{ modified or date }}T00:00:00Z",
+      "author": { "@id": "{{ site.organizationId }}" },
+      "publisher": { "@id": "{{ site.organizationId }}" },
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "articleSection": {{ (cluster or category or "B2B Sales") | json | safe }},
+      "inLanguage": "en"{% if socialImage %},
+      "image": [{{ socialImage | json | safe }}]{% endif %}{% if topics and topics.length > 0 %},
+      "about": [
+        {%- for topic in topics %}
+        { "@type": "Thing", "name": {{ topic | json | safe }} }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]{% endif %}
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "{{ articleCanonical }}#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
-        { "@type": "ListItem", "position": 2, "name": "Articles", "item": "https://www.callteam.ca/articles/" },
-        { "@type": "ListItem", "position": 3, "name": "{{ title }}", "item": "https://www.callteam.ca{{ page.url }}" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Articles", "item": "{{ site.url }}/articles/" },
+        { "@type": "ListItem", "position": 3, "name": {{ title | json | safe }}, "item": "{{ articleCanonical }}" }
       ]
-    }
-    {%- if faqs and faqs.length > 0 %}
-    ,{
+    }{% if faqs and faqs.length > 0 %},
+    {
       "@type": "FAQPage",
+      "@id": "{{ articleCanonical }}#faq",
       "mainEntity": [
         {%- for item in faqs %}
         {
           "@type": "Question",
-          "name": "{{ item.question }}",
-          "acceptedAnswer": { "@type": "Answer", "text": "{{ item.answer }}" }
+          "name": {{ item.question | json | safe }},
+          "acceptedAnswer": { "@type": "Answer", "text": {{ item.answer | json | safe }} }
         }{% if not loop.last %},{% endif %}
         {%- endfor %}
       ]
-    }
-    {%- endif %}
+    }{% endif %}
   ]
 }
 </script>
 
-<nav class="breadcrumb-trail">
+<nav class="breadcrumb-trail" aria-label="Breadcrumb">
   <div class="container">
     <a href="/">Home</a> / <a href="/articles/">Articles</a> / <span>{{ title }}</span>
   </div>
 </nav>
 
-<section class="hero">
-  <div>
-    {% if category %}<div class="eyebrow">{{ category }}</div>{% endif %}
-    <h1>{{ title }}</h1>
-    {% if quickAnswer %}<p class="quick-answer"><strong>Quick answer:</strong> {{ quickAnswer }}</p>{% endif %}
-  </div>
-</section>
-
-<section id="article-body">
-  <div class="container article-content">
-    {{ content | safe }}
-  </div>
-  <div class="container signature-block">
-    <p>CallTeam helps B2B companies build more qualified pipeline through outbound calling, appointment setting, lead follow-up, lead qualification, and sales execution support.</p>
-    <p>We help companies turn prospect lists, old CRM leads, inbound leads, event leads, and target accounts into real sales conversations with decision-makers.</p>
-    <p>If your team needs done-for-you outbound support, start with CallTeam services. If your people need stronger sales behavior, explore the Sales Execution Lab. If the whole pipeline system needs to be rebuilt, explore the 90-Day Revenue Engine.</p>
-    <ul class="signature-links">
-      <li><a href="/#services" class="card-link">See CallTeam services →</a></li>
-      <li><a href="/ai-lead-generation-services/" class="card-link">Explore AI Lead Generation Services →</a></li>
-      <li><a href="/sales-execution-lab/" class="card-link">Explore Sales Execution Lab →</a></li>
-      <li><a href="/90-day-revenue-engine/" class="card-link">Explore 90-Day Revenue Engine →</a></li>
-    </ul>
-  </div>
-</section>
-
-{% if cards and cards.length > 0 %}
-<section id="takeaways">
-  <div class="container-wide">
-    <div class="section-label">Key takeaways</div>
-    <h2>{{ cardsHeading or "What you need to know." }}</h2>
-    <div class="service-grid">
-      {% for card in cards %}
-      <div class="service-card">
-        <h3>{{ card.title }}</h3>
-        <p>{{ card.text }}</p>
+<article class="article-page">
+  <header class="hero article-hero">
+    <div>
+      {% if category %}<div class="eyebrow">{{ category }}</div>{% endif %}
+      <h1>{{ title }}</h1>
+      <p class="article-deck">{{ description }}</p>
+      <div class="article-byline">
+        <span>Published by <a href="/">CallTeam</a></span>
+        <span>Published <time datetime="{{ date }}">{{ date | readableDate }}</time></span>
+        <span>Updated <time datetime="{{ modified or date }}">{{ (modified or date) | readableDate }}</time></span>
       </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
-{% if faqs and faqs.length > 0 %}
-<section id="faq">
-  <div class="container-wide">
-    <div class="section-label">FAQ</div>
-    <h2>Common questions.</h2>
-    <div class="faq-list">
-      {% for item in faqs %}
-      <div class="faq-item">
-        <h3>{{ item.question }}</h3>
-        <p>{{ item.answer }}</p>
+      {% if quickAnswer %}
+      <div class="quick-answer">
+        <strong>Quick answer:</strong> {{ quickAnswer }}
       </div>
-      {% endfor %}
+      {% endif %}
     </div>
-  </div>
-</section>
-{% endif %}
+  </header>
 
-{% if readNext and readNext.length > 0 %}
-<section>
-  <div class="container">
-    <div class="section-label">Keep reading</div>
-    <h2>Related pages.</h2>
-    <ul class="help-list">
-      {% for item in readNext %}
-      <li><a href="{{ item.url }}" class="card-link">{{ item.title }} →</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-{% endif %}
+  {% if cards and cards.length > 0 %}
+  <section class="article-takeaways" aria-labelledby="takeaways-heading">
+    <div class="container-wide">
+      <div class="section-label">Key takeaways</div>
+      <h2 id="takeaways-heading">{{ cardsHeading or "What you need to know." }}</h2>
+      <div class="service-grid">
+        {% for card in cards %}
+        <div class="service-card">
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.text }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
 
-{% if sources and sources.length > 0 %}
-<section>
-  <div class="container">
-    <div class="section-label">Sources</div>
-    <ul class="help-list">
-      {% for source in sources %}
-      <li><a href="{{ source.url }}" class="card-link" target="_blank" rel="noopener nofollow">{{ source.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-{% endif %}
+  <section id="article-body">
+    <div class="container article-content">
+      {{ content | safe }}
+    </div>
+  </section>
+
+  {% if relatedService or relatedCaseStudy %}
+  <section class="article-connections" aria-labelledby="connections-heading">
+    <div class="container-wide">
+      <div class="section-label">Connect the answer to the work</div>
+      <h2 id="connections-heading">Relevant service and proof.</h2>
+      <div class="service-grid">
+        {% if relatedService %}
+        <article class="service-card">
+          <span class="article-card-label">Related service</span>
+          <h3>{{ relatedService.title }}</h3>
+          <p>{{ relatedService.text }}</p>
+          <a href="{{ relatedService.url }}" class="card-link">Explore {{ relatedService.title }} →</a>
+        </article>
+        {% endif %}
+        {% if relatedCaseStudy %}
+        <article class="service-card">
+          <span class="article-card-label">Related case study</span>
+          <h3>{{ relatedCaseStudy.title }}</h3>
+          <p>{{ relatedCaseStudy.text }}</p>
+          <a href="{{ relatedCaseStudy.url }}" class="card-link">Read {{ relatedCaseStudy.title }} →</a>
+        </article>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if sources and sources.length > 0 %}
+  <section class="article-sources" aria-labelledby="sources-heading">
+    <div class="container">
+      <div class="section-label">Sources and further reading</div>
+      <h2 id="sources-heading">References used for this guide.</h2>
+      <ul class="help-list">
+        {% for source in sources %}
+        <li><a href="{{ source.url }}" class="card-link" target="_blank" rel="noopener">{{ source.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if faqs and faqs.length > 0 %}
+  <section id="faq">
+    <div class="container-wide">
+      <div class="section-label">FAQ</div>
+      <h2>Questions B2B teams are asking.</h2>
+      <div class="faq-list">
+        {% for item in faqs %}
+        <div class="faq-item">
+          <h3>{{ item.question }}</h3>
+          <p>{{ item.answer }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="article-about" aria-labelledby="about-callteam-heading">
+    <div class="container signature-block">
+      <div class="section-label">About CallTeam</div>
+      <h2 id="about-callteam-heading">B2B sales intelligence connected to human execution.</h2>
+      <p>CallTeam is a B2B outbound sales execution company that helps founders and sales teams turn target accounts, inbound leads, old CRM records, and market signals into qualified sales conversations. Its services include human-led outbound calling, B2B appointment setting, outsourced SDR execution, lead reactivation, AI-assisted lead generation, AI GTM services, US market entry sales, and SDR training.</p>
+      <p>CallTeam uses AI and sales intelligence to research accounts, identify decision-makers, prioritize relevant signals, and prepare outreach. Experienced people handle the calls, qualification, objection handling, follow-up, and meeting handoff. Companies can engage CallTeam for a focused campaign, strengthen their team through the Sales Execution Lab, or rebuild the wider pipeline system through the 90-Day Revenue Engine.</p>
+      <ul class="signature-links">
+        <li><a href="/services/" class="card-link">Explore B2B sales and lead generation services →</a></li>
+        <li><a href="/case-studies/" class="card-link">See B2B sales and appointment setting case studies →</a></li>
+        <li><a href="/sales-execution-lab/" class="card-link">Explore B2B sales training and coaching →</a></li>
+        <li><a href="/90-day-revenue-engine/" class="card-link">Explore B2B sales system consulting →</a></li>
+      </ul>
+    </div>
+  </section>
+
+  {% if readNext and readNext.length > 0 %}
+  <section class="article-read-next" aria-labelledby="read-next-heading">
+    <div class="container">
+      <div class="section-label">Continue the topic</div>
+      <h2 id="read-next-heading">Related B2B sales guides.</h2>
+      <ul class="help-list">
+        {% for item in readNext %}
+        <li><a href="{{ item.url }}" class="card-link">{{ item.title }} →</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endif %}
+</article>
 
 <section class="cta-band">
   <h2>{{ ctaHeading or "Need more qualified B2B conversations?" }}</h2>
