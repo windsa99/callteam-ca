@@ -10436,6 +10436,15 @@ footer .flinks a:hover {
 }
 
 /* Article Engine 2.0: isolate article heroes from the site's two-column hero */
+.article-page .hero.article-hero {
+  /* The global header rule is reserved for site navigation, not article headers. */
+  position: static;
+  top: auto;
+  z-index: auto;
+  backdrop-filter: none;
+  border-bottom: 0;
+}
+
 .article-page .hero.article-hero,
 .hero.article-library-hero {
   display: block;
