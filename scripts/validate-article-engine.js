@@ -132,7 +132,8 @@ for (const filename of articleFiles) {
   for (const key of [
     "title", "seoTitle", "description", "date", "modified", "category",
     "permalink", "canonicalUrl", "cluster", "articleType", "topics",
-    "quickAnswer", "cardsHeading", "cards", "relatedService", "relatedCaseStudy", "faqs", "sources", "readNext"
+    "quickAnswer", "cardsHeading", "cards", "relatedService", "relatedCaseStudy", "faqs", "sources", "readNext",
+    "callTeamTakeHeading", "callTeamTakeA", "callTeamTakeB"
   ]) {
     failUnless(hasTopLevelKey(data, key), relativePath, `missing required ${key} field`);
   }
@@ -199,6 +200,7 @@ for (const marker of [
   '"@type": "BlogPosting"', '"@type": "WebPage"', '"@type": "BreadcrumbList"',
   '"@type": "FAQPage"', '"datePublished"', '"dateModified"', '"mainEntityOfPage"',
   '"author"', '"publisher"', 'class="quick-answer"', 'class="article-about"',
+  'class="article-perspective"', 'class="article-perspective-panel"', "callTeamTakeHeading",
   'class="article-summary-list"', 'class="article-summary-number"',
   '"@type": "ItemList"', "comparisonItems", "relatedService", "relatedCaseStudy"
 ]) {

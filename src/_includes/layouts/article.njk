@@ -135,6 +135,19 @@ ogType: article
     </div>
   </section>
 
+  {% if callTeamTakeHeading and callTeamTakeA and callTeamTakeB %}
+  <section class="article-perspective" aria-labelledby="callteam-take-heading">
+    <div class="container">
+      <div class="article-perspective-panel">
+        <div class="section-label">CallTeam take</div>
+        <h2 id="callteam-take-heading">{{ callTeamTakeHeading }}</h2>
+        <p>{{ callTeamTakeA }}</p>
+        <p>{{ callTeamTakeB }}</p>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if relatedService or relatedCaseStudy %}
   <section class="article-connections" aria-labelledby="connections-heading">
     <div class="container-wide">
