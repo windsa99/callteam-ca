@@ -63,8 +63,10 @@ function resolveInternalUrl(url, sourceFile) {
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
 
 const hub = read("resources/cold-call-scripts/index.html");
+const stylesheet = read("assets/css/style.css");
 assert((hub.match(/<article class="script-card" data-script-card/g) || []).length === scripts.length, `Hub should contain ${scripts.length} script cards.`);
 assert(hub.includes('id="script-search-input"'), "Hub search input is missing.");
+assert(/\.script-card\[hidden\]\s*{[^}]*display:\s*none\s*;?[^}]*}/s.test(stylesheet), "Hidden script cards must be removed from the rendered grid.");
 assert(hub.includes("CollectionPage") && hub.includes("ItemList"), "Hub structured data is incomplete.");
 assert(hub.includes("index, follow"), "Hub is not indexable.");
 validateJsonLd(hub, "script hub");
