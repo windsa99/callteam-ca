@@ -234,6 +234,10 @@
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
+.script-card[hidden] {
+  display: none;
+}
+
 .script-card:hover {
   border-color: rgba(255,90,31,0.48);
   box-shadow: 0 18px 45px rgba(17,17,17,0.09);
@@ -12994,88 +12998,3 @@ footer .flinks a:hover {
 
   .pricing-hero-actions {
     align-items: stretch;
-    flex-direction: column;
-  }
-
-  .pricing-hero-actions a {
-    width: 100%;
-    text-align: center;
-  }
-
-  .pricing-offer-card,
-  .pricing-answer-box,
-  .pricing-fit-grid article {
-    padding: 26px;
-  }
-
-  .pricing-amount {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .pricing-amount strong {
-    font-size: 44px;
-  }
-
-  .pricing-proof-strip .container-wide,
-  .pricing-included-grid,
-  .pricing-fit-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .pricing-proof-strip .container-wide > div,
-  .pricing-proof-strip .container-wide > div:nth-child(2) {
-    border-top: 1px solid #d7d7d2;
-    border-right: 0;
-  }
-
-  .pricing-proof-strip .container-wide > div:first-child {
-    border-top: 0;
-  }
-
-  .pricing-included-grid article {
-    min-height: 0;
-  }
-
-  .pricing-fit-grid article + article {
-    border-top: 1px solid #d8d8d4;
-    border-left: 0;
-  }
-
-  .pricing-ramp-chart {
-    grid-template-columns: 28px 1fr;
-    min-height: 360px;
-    padding: 24px 16px 20px;
-  }
-
-  .ramp-axis span {
-    left: -67px;
-  }
-
-  .ramp-bars {
-    gap: 6px;
-    padding-left: 8px;
-  }
-
-  .ramp-column > strong {
-    font-size: 9px;
-  }
-
-  .ramp-bar span {
-    font-size: 9px;
-  }
-
-  .pricing-compare-table th,
-  .pricing-compare-table td {
-    padding: 16px;
-  }
-
-  .pricing-faq-list summary {
-    padding: 20px 18px;
-    font-size: 16px;
-  }
-
-  .pricing-faq-list details p {
-    padding: 0 18px 22px;
-  }
-}
