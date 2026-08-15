@@ -52,12 +52,12 @@ sources:
   - name: "UK Information Commissioner's Office: Business-to-business marketing"
     url: "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/"
 readNext:
+  - title: "How to Book Qualified Outbound Meetings That Show Up"
+    url: "/articles/outbound-appointment-setting/"
   - title: "What Is B2B Lead Generation?"
     url: "/articles/what-is-b2b-lead-generation/"
   - title: "How Outbound Lead Generation Works"
     url: "/articles/outbound-lead-generation/"
-  - title: "How to Choose a B2B Lead Generation Service"
-    url: "/articles/b2b-lead-generation-services/"
 aboutHeading: "Global B2B appointment setting built around the quality of the conversation."
 aboutCopyA: "CallTeam is a global B2B outbound sales execution company. It helps founders, revenue leaders, and sales teams reach relevant business buyers through B2B lead generation, human-led cold calling, appointment setting, outsourced SDR execution, lead reactivation, AI-assisted research, AI GTM services, US market entry sales, and SDR training."
 aboutCopyB: "Its international team combines practical calling experience with operating standards shaped inside Fortune 100 and Fortune 500 sales environments. For appointment-setting work, CallTeam connects target selection, live conversation, qualification, confirmation, CRM context, and sales handoff so the meeting has a reason to exist."
@@ -196,6 +196,8 @@ A sound attendance process includes:
 - an easy path to reschedule;
 - a named owner monitoring acceptance and changes;
 - a recovery step when the prospect cannot attend.
+
+For the deeper operating system, read [how to qualify outbound meetings, protect attendance, and recover no-shows](/articles/outbound-appointment-setting/).
 
 No-show recovery should preserve dignity. The first assumption should be that something changed, not that the prospect acted in bad faith. Reconnect with the context already earned, confirm whether the issue still matters, and decide whether another date is justified.
 

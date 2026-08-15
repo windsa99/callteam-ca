@@ -201,6 +201,8 @@ The invitation needs a clear subject, appropriate attendees, agenda, time zone, 
 
 Confirmation should be helpful rather than anxious. Send the information required to attend, respond promptly to changes, and create a recovery path for missed meetings. Attendance is an operational stage worth measuring.
 
+The complete [outbound appointment-setting guide](/articles/outbound-appointment-setting/) explains how to define meeting acceptance, protect attendance, recover no-shows, and give sales a usable handoff.
+
 CallTeam's [appointment setting service](/services/b2b-appointment-setting/) manages these steps as one connected motion rather than treating the calendar booking as the finish line.
 
 ## Review the campaign as a system
