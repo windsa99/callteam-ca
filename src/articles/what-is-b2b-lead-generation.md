@@ -94,7 +94,7 @@ These terms describe related work at different points in the revenue process.
 | --- | --- | --- |
 | Demand generation | Build awareness and interest in a market | Attention, traffic, engagement, and inbound demand |
 | Lead generation | Identify and engage potentially suitable buyers | Contacts and qualified sales conversations |
-| Appointment setting | Convert qualified interest into a scheduled next step | Accepted meetings with context |
+| [B2B appointment setting](/articles/what-is-b2b-appointment-setting/) | Convert qualified interest into a scheduled next step | Accepted meetings with context |
 | Sales | Diagnose, propose, negotiate, and close | Opportunities and customers |
 
 The boundaries can overlap. A useful article may create demand and capture a lead. An outbound call may qualify an account and set the appointment in one conversation. The table is valuable because it assigns responsibility: attention must become contact, contact must become qualification, and qualification must become a deliberate handoff.

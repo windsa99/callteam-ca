@@ -5,7 +5,7 @@ seoTitle: "B2B Sales, Cold Calling and Lead Generation Guides | CallTeam"
 description: "Practical B2B sales guides on lead generation, cold calling, appointment setting, outsourced SDR teams, AI GTM, lead reactivation, sales training, and pipeline execution."
 canonicalUrl: "https://www.callteam.ca/articles/"
 permalink: "/articles/"
-modified: "2026-08-14"
+modified: "2026-08-15"
 ---
 
 <script type="application/ld+json">
@@ -60,6 +60,7 @@ modified: "2026-08-14"
     <p>Practical guides on B2B lead generation, outbound calling, appointment setting, sales development, AI-assisted prospecting, lead follow-up, qualification, and revenue execution.</p>
     <div class="article-cluster-nav" aria-label="Article topics">
       <a href="#b2b-lead-generation">B2B Lead Generation</a>
+      <a href="#b2b-appointment-setting">B2B Appointment Setting</a>
       <a href="#outbound-calling">Outbound Calling</a>
       <a href="#ai-sales-gtm">AI Sales and GTM</a>
       <a href="#sales-systems">Sales Systems</a>
@@ -98,6 +99,27 @@ modified: "2026-08-14"
     <div class="service-grid article-grid">
       {% for article in collections.articles | reverse %}
         {% if article.data.cluster == "B2B Lead Generation" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Read {{ article.data.title }} →</a>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="b2b-appointment-setting" class="article-cluster-section">
+  <div class="container-wide">
+    <div class="section-label">Topic cluster</div>
+    <h2>B2B appointment setting.</h2>
+    <p class="section-intro">Learn how to reach the right buyer, qualify a real reason to meet, protect attendance, and hand sales a conversation it can continue.</p>
+    <div class="service-grid article-grid">
+      {% for article in collections.articles | reverse %}
+        {% if article.data.cluster == "B2B Appointment Setting" %}
         <article class="service-card article-library-card">
           <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
           <h3>{{ article.data.title }}</h3>

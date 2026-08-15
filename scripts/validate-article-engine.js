@@ -95,6 +95,13 @@ for (const file of pageFiles) {
 const articleFiles = fs.readdirSync(articlesDir)
   .filter((file) => file.endsWith(".md"))
   .sort();
+const supportedClusters = [
+  "B2B Lead Generation",
+  "B2B Appointment Setting",
+  "Outbound Calling and Sales Development",
+  "AI Lead Generation and AI GTM",
+  "Sales Tools and Revenue Systems"
+];
 
 const sentencesAcrossArticles = new Map();
 
@@ -107,6 +114,7 @@ for (const filename of articleFiles) {
   const seoTitle = quotedValue(data, "seoTitle");
   const description = quotedValue(data, "description");
   const quickAnswer = quotedValue(data, "quickAnswer");
+  const cluster = quotedValue(data, "cluster");
   const faqCount = listCount(data, "faqs", "question");
   const cardCount = listCount(data, "cards", "title");
   const readNextCount = listCount(data, "readNext", "title");
@@ -128,6 +136,7 @@ for (const filename of articleFiles) {
   }
 
   failUnless(canonical === `https://www.callteam.ca${permalink}`, relativePath, "canonicalUrl must match the page permalink");
+  failUnless(supportedClusters.includes(cluster), relativePath, `cluster must match one displayed Articles Hub section (found "${cluster}")`);
   failUnless(seoTitle.length > 0 && seoTitle.length <= 65, relativePath, `seoTitle must be 65 characters or fewer (found ${seoTitle.length})`);
   failUnless(description.length >= 100 && description.length <= 165, relativePath, `description must be 100-165 characters (found ${description.length})`);
   failUnless(faqCount >= 5 && faqCount <= 8, relativePath, `FAQ count must be 5-8 (found ${faqCount})`);
@@ -194,10 +203,7 @@ failUnless(!/article-takeaways[\s\S]{0,500}service-grid/.test(articleLayout), "s
 
 const hubTemplate = source("src/articles/index.njk");
 failUnless(!/Read more/i.test(hubTemplate), "src/articles/index.njk", "replace generic Read more anchors with descriptive text");
-for (const cluster of [
-  "B2B Lead Generation", "Outbound Calling and Sales Development",
-  "AI Lead Generation and AI GTM", "Sales Tools and Revenue Systems"
-]) {
+for (const cluster of supportedClusters) {
   failUnless(hubTemplate.includes(cluster), "src/articles/index.njk", `missing topic cluster: ${cluster}`);
 }
 
