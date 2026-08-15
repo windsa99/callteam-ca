@@ -4725,7 +4725,7 @@ h3,
   line-height: 1.08;
 }
 
-header {
+.site-header {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -5274,7 +5274,7 @@ footer .flinks a:hover {
 }
 
 @media (max-width: 1100px) {
-  header {
+  .site-header {
     padding: 14px 20px;
   }
 
@@ -5310,8 +5310,9 @@ footer .flinks a:hover {
     gap: 14px;
   }
 
-  header {
-    position: relative;
+  .site-header {
+    position: sticky;
+    top: 0;
     flex-wrap: wrap;
   }
 
