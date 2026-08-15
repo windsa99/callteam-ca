@@ -59,6 +59,26 @@ ogType: article
         }{% if not loop.last %},{% endif %}
         {%- endfor %}
       ]
+    }{% endif %}{% if comparisonItems and comparisonItems.length > 0 %},
+    {
+      "@type": "ItemList",
+      "@id": "{{ articleCanonical }}#comparison",
+      "name": {{ (comparisonListName or title) | json | safe }},
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": {{ comparisonItems.length }},
+      "itemListElement": [
+        {%- for item in comparisonItems %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "item": {
+            "@type": "Organization",
+            "name": {{ item.name | json | safe }},
+            "description": {{ item.summary | json | safe }}
+          }
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
     }{% endif %}
   ]
 }

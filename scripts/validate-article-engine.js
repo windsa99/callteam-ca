@@ -115,9 +115,11 @@ for (const filename of articleFiles) {
   const description = quotedValue(data, "description");
   const quickAnswer = quotedValue(data, "quickAnswer");
   const cluster = quotedValue(data, "cluster");
+  const articleType = quotedValue(data, "articleType");
   const faqCount = listCount(data, "faqs", "question");
   const cardCount = listCount(data, "cards", "title");
   const readNextCount = listCount(data, "readNext", "title");
+  const comparisonItemCount = listCount(data, "comparisonItems", "name");
   const body = articleBody(contents);
   const bodyWords = wordCount(body);
   const h2Count = (body.match(/^##\s+/gm) || []).length;
@@ -142,6 +144,10 @@ for (const filename of articleFiles) {
   failUnless(faqCount >= 5 && faqCount <= 8, relativePath, `FAQ count must be 5-8 (found ${faqCount})`);
   failUnless(cardCount >= 3 && cardCount <= 5, relativePath, `takeaway count must be 3-5 (found ${cardCount})`);
   failUnless(readNextCount >= 3 && readNextCount <= 4, relativePath, `readNext count must be 3-4 (found ${readNextCount})`);
+  if (articleType === "Provider comparison") {
+    failUnless(hasTopLevelKey(data, "comparisonListName"), relativePath, "comparison guides must define comparisonListName");
+    failUnless(comparisonItemCount >= 2, relativePath, `comparison guides must define at least two comparisonItems (found ${comparisonItemCount})`);
+  }
   failUnless(wordCount(quickAnswer) >= 35 && wordCount(quickAnswer) <= 80, relativePath, `quickAnswer must be 35-80 words (found ${wordCount(quickAnswer)})`);
   failUnless(bodyWords >= 1000 && bodyWords <= 3200, relativePath, `article body must be 1000-3200 words (found ${bodyWords})`);
   failUnless(h2Count >= 7 && h2Count <= 14, relativePath, `article body must contain 7-14 H2 sections (found ${h2Count})`);
@@ -194,7 +200,7 @@ for (const marker of [
   '"@type": "FAQPage"', '"datePublished"', '"dateModified"', '"mainEntityOfPage"',
   '"author"', '"publisher"', 'class="quick-answer"', 'class="article-about"',
   'class="article-summary-list"', 'class="article-summary-number"',
-  "relatedService", "relatedCaseStudy"
+  '"@type": "ItemList"', "comparisonItems", "relatedService", "relatedCaseStudy"
 ]) {
   failUnless(articleLayout.includes(marker), "src/_includes/layouts/article.njk", `missing engine marker: ${marker}`);
 }
