@@ -24,6 +24,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
 
+  eleventyConfig.addFilter("scriptBySlug", (slug, scripts = []) => {
+    return scripts.find((script) => script.slug === slug);
+  });
+
   return {
     dir: {
       input: "src",

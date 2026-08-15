@@ -1,0 +1,174 @@
+---
+layout: layouts/base.njk
+title: "Free B2B Cold Call Scripts for Appointment Setting | CallTeam"
+seoTitle: "Free B2B Cold Call Scripts for Appointment Setting | CallTeam"
+description: "Use six free B2B cold call scripts built from real outbound campaign approaches for appointment setting, demo booking, qualification and discovery."
+canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/"
+modified: "2026-08-15"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Free B2B Cold Call Scripts",
+  "url": "https://www.callteam.ca/resources/cold-call-scripts/",
+  "description": {{ description | json | safe }},
+  "isPartOf": { "@id": "https://www.callteam.ca/#website" },
+  "publisher": { "@id": "https://www.callteam.ca/#organization" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ callScripts.length }},
+    "itemListElement": [
+      {% for script in callScripts %}{
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": {{ script.seoTitle | json | safe }},
+        "url": "https://www.callteam.ca/resources/cold-call-scripts/{{ script.slug }}/"
+      }{% if not loop.last %},{% endif %}{% endfor %}
+    ]
+  }
+}
+</script>
+
+<main class="script-library-page">
+  <section class="script-hub-hero">
+    <div class="container-wide script-hub-hero-grid">
+      <div>
+        <div class="section-label">Free B2B cold call script library</div>
+        <h1>Real cold call scripts for booking better conversations.</h1>
+        <p class="script-hub-lead">Copy the exact structure, adapt it to your market, and use it for appointment setting, demo booking, qualification and discovery. Every resource explains the buyer, ICP, questions, objections and strategy behind the words.</p>
+        <div class="script-hero-actions">
+          <a href="#script-library" class="btn-primary">Browse All Free Scripts</a>
+          <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-secondary" target="_blank" rel="noopener">Build a Campaign With CallTeam</a>
+        </div>
+      </div>
+      <aside class="script-authority-card">
+        <span>Built from live outbound work</span>
+        <strong>Not generic prompt output.</strong>
+        <p>These resources preserve conversation structures used in real B2B campaign work while removing client names, proprietary details and unsupported claims.</p>
+        <ul>
+          <li>Complete copyable scripts</li>
+          <li>Buyer titles and ICP guidance</li>
+          <li>Qualification and objection handling</li>
+          <li>Practical personalization instructions</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section id="script-library" class="script-library-section">
+    <div class="container-wide">
+      <div class="script-library-heading">
+        <div>
+          <div class="section-label">Wave 1 · Six field-tested resources</div>
+          <h2>Find the script that matches the conversation.</h2>
+        </div>
+        <p id="script-result-count" aria-live="polite">Showing all {{ callScripts.length }} scripts</p>
+      </div>
+
+      <div class="script-library-controls" role="search" aria-label="Filter the cold call script library">
+        <label class="script-search">
+          <span class="sr-only">Search scripts</span>
+          <input id="script-search-input" type="search" placeholder="Search by industry, buyer, objective or keyword" autocomplete="off">
+        </label>
+        <div class="script-filters" role="group" aria-label="Script categories">
+          <button type="button" class="is-active" data-script-filter="all">All</button>
+          <button type="button" data-script-filter="technology">Technology</button>
+          <button type="button" data-script-filter="executive">Executive</button>
+          <button type="button" data-script-filter="operations">Operations</button>
+        </div>
+      </div>
+
+      <div class="script-card-grid" id="script-card-grid">
+        {% for script in callScripts %}
+          {% set filterTags = "technology" %}
+          {% if script.slug == "erp-modernization-cold-call-script-for-cfos" %}{% set filterTags = "executive operations" %}{% endif %}
+          {% if script.slug == "logistics-overflow-drayage-cold-call-script" %}{% set filterTags = "operations" %}{% endif %}
+          {% if script.slug == "ai-voice-agent-cold-call-script" %}{% set filterTags = "technology operations" %}{% endif %}
+          {% if script.slug == "cloud-migration-cold-call-script-for-cios" %}{% set filterTags = "technology executive" %}{% endif %}
+          {% if script.slug == "cybersecurity-risk-assessment-cold-call-script" %}{% set filterTags = "technology executive" %}{% endif %}
+          <article class="script-card" data-script-card data-tags="{{ filterTags }}" data-search="{{ script.title }} {{ script.industry }} {{ script.buyers | join(' ') }} {{ script.objective }} {{ script.primaryKeyword }} {{ script.secondaryKeywords | join(' ') }}">
+            <div class="script-card-meta"><span>{{ script.category }}</span><small>{{ script.archetype }}</small></div>
+            <h3><a href="/resources/cold-call-scripts/{{ script.slug }}/">{{ script.seoTitle }}</a></h3>
+            <p>{{ script.metaDescription }}</p>
+            <dl>
+              <div><dt>Buyer</dt><dd>{{ script.buyers[0] }}, {{ script.buyers[1] }}</dd></div>
+              <div><dt>Objective</dt><dd>{{ script.objective }}</dd></div>
+            </dl>
+            <a class="script-card-link" href="/resources/cold-call-scripts/{{ script.slug }}/">Open the free script →</a>
+          </article>
+        {% endfor %}
+      </div>
+      <p class="script-empty-state" id="script-empty-state" hidden>No scripts match that search yet. Try a buyer title, industry or objective.</p>
+    </div>
+  </section>
+
+  <section class="script-use-section">
+    <div class="container-wide">
+      <div class="section-label">How to use the library</div>
+      <h2>Use the structure. Keep the conversation human.</h2>
+      <div class="script-use-grid">
+        <article><span>01</span><h3>Choose by market</h3><p>Start with the closest industry, buyer or sales objective instead of forcing a generic script onto every account.</p></article>
+        <article><span>02</span><h3>Personalize the reason</h3><p>Replace the placeholders and use one legitimate trigger or business condition that makes the call relevant.</p></article>
+        <article><span>03</span><h3>Listen beyond the words</h3><p>The script creates a useful opening. The caller still needs to listen, redirect, qualify and respond like a person.</p></article>
+        <article><span>04</span><h3>Improve with evidence</h3><p>Track objections, referrals, timing and language patterns so the next version reflects what buyers actually say.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="script-hub-faq">
+    <div class="container-wide">
+      <div class="section-label">Frequently asked questions</div>
+      <h2>Using B2B cold call scripts effectively.</h2>
+      <div class="script-faq-list">
+        <details><summary>Are these scripts actually free?</summary><p>Yes. Open any resource, copy the complete script and adapt it for your own B2B campaign.</p></details>
+        <details><summary>Can these scripts be used for appointment setting and demo booking?</summary><p>Yes. Each page identifies the objective and provides a low-friction CTA suited to discovery, assessment, appointment-setting or demo conversations.</p></details>
+        <details><summary>Should callers read the script word for word?</summary><p>No. Use it as a conversation structure. The caller should understand the buyer, purpose and questions well enough to listen and respond naturally.</p></details>
+        <details><summary>Where did the scripts come from?</summary><p>The structures were developed from approaches used in real B2B outbound campaign work. Identifiable client, company and product details have been removed.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band script-hub-final-cta">
+    <div class="section-label">Need more than the script?</div>
+    <h2>CallTeam can build the list, customize the campaign and make the calls.</h2>
+    <p>Tell us what you sell and who you need to reach. We will help turn the right talk track into qualified sales conversations.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+  </section>
+</main>
+
+<script>
+(function () {
+  var input = document.getElementById('script-search-input');
+  var buttons = Array.from(document.querySelectorAll('[data-script-filter]'));
+  var cards = Array.from(document.querySelectorAll('[data-script-card]'));
+  var count = document.getElementById('script-result-count');
+  var empty = document.getElementById('script-empty-state');
+  var activeFilter = 'all';
+
+  function updateLibrary() {
+    var query = (input.value || '').trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function (card) {
+      var matchesText = !query || card.getAttribute('data-search').toLowerCase().indexOf(query) !== -1;
+      var tags = card.getAttribute('data-tags').split(' ');
+      var matchesFilter = activeFilter === 'all' || tags.indexOf(activeFilter) !== -1;
+      var show = matchesText && matchesFilter;
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    count.textContent = visible === cards.length && !query && activeFilter === 'all' ? 'Showing all ' + visible + ' scripts' : 'Showing ' + visible + ' script' + (visible === 1 ? '' : 's');
+    empty.hidden = visible !== 0;
+  }
+
+  input.addEventListener('input', updateLibrary);
+  buttons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      activeFilter = button.getAttribute('data-script-filter');
+      buttons.forEach(function (item) { item.classList.toggle('is-active', item === button); });
+      updateLibrary();
+    });
+  });
+})();
+</script>

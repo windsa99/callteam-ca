@@ -5,7 +5,8 @@
     "build": "eleventy",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js",
-    "check:about": "node scripts/validate-about-page.js"
+    "check:about": "node scripts/validate-about-page.js",
+    "check:scripts": "node scripts/validate-script-library.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
