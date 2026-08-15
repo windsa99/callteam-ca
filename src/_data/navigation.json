@@ -20,7 +20,14 @@
   { "label": "90-Day Revenue Engine", "url": "/90-day-revenue-engine/" },
   { "label": "About", "url": "/about/" },
   { "label": "Pricing", "url": "/pricing/" },
-  { "label": "Articles", "url": "/articles/" },
+  {
+    "label": "Resources",
+    "url": "/resources/cold-call-scripts/",
+    "children": [
+      { "label": "Free Cold Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy field-tested B2B call scripts" },
+      { "label": "B2B Sales Articles", "url": "/articles/", "description": "Practical outbound and pipeline guides" }
+    ]
+  },
   { "label": "FAQ", "url": "/#faq" },
   { "label": "Contact", "url": "/#contact" }
 ]

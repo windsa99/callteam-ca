@@ -160,6 +160,8 @@ These are categories, not a mandatory script. A capable caller follows the answe
 
 Objections provide evidence. “We already have a provider” may reveal satisfaction, a switching barrier, or an opening around coverage. “Send information” may be a dismissal or a legitimate request. The next question determines which.
 
+If you need the complete words and not only the framework, use CallTeam's [free B2B cold call script library](/resources/cold-call-scripts/). It includes full appointment-setting scripts, target buyer guidance, qualification questions, objection responses, CTAs, voicemail versions, and personalization instructions.
+
 ## Use follow-up to add context
 
 Follow-up should move the conversation, not merely announce persistence.

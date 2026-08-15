@@ -1,0 +1,243 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: callScripts
+  size: 1
+  alias: resource
+eleventyExcludeFromCollections: true
+permalink: "resources/cold-call-scripts/{{ resource.slug }}/index.html"
+modified: "2026-08-15"
+eleventyComputed:
+  title: "{{ resource.seoTitle }} | CallTeam"
+  seoTitle: "{{ resource.seoTitle }} | CallTeam"
+  description: "{{ resource.metaDescription }}"
+  canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": {{ resource.seoTitle | json | safe }},
+      "description": {{ resource.metaDescription | json | safe }},
+      "url": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/",
+      "dateModified": "2026-08-15",
+      "author": { "@id": "https://www.callteam.ca/#organization" },
+      "publisher": { "@id": "https://www.callteam.ca/#organization" },
+      "isPartOf": { "@id": "https://www.callteam.ca/#website" },
+      "keywords": {{ resource.primaryKeyword | json | safe }}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "CallTeam", "item": "https://www.callteam.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Free Cold Call Scripts", "item": "https://www.callteam.ca/resources/cold-call-scripts/" },
+        { "@type": "ListItem", "position": 3, "name": {{ resource.title | json | safe }}, "item": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="script-resource-page">
+  <nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
+    <a href="/resources/cold-call-scripts/">Free Cold Call Scripts</a>
+    <span aria-hidden="true">/</span>
+    <span>{{ resource.category }}</span>
+  </nav>
+
+  <section class="script-resource-hero">
+    <div class="container-wide script-resource-hero-grid">
+      <div>
+        <div class="section-label">Free B2B call script · {{ resource.category }}</div>
+        <h1>{{ resource.seoTitle }}</h1>
+        <p class="script-resource-lead">{{ resource.metaDescription }}</p>
+        <div class="script-resource-tags">
+          <span>{{ resource.industry }}</span>
+          <span>{{ resource.objective }}</span>
+          <span>{{ resource.archetype }}</span>
+        </div>
+        <div class="script-hero-actions">
+          <a href="#complete-script" class="btn-primary">Copy the Script</a>
+          <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-secondary" target="_blank" rel="noopener">Build This Campaign</a>
+        </div>
+      </div>
+      <aside class="script-resource-summary" aria-label="Campaign snapshot">
+        <span>Campaign snapshot</span>
+        <dl>
+          <div><dt>Best for</dt><dd>{{ resource.icp }}</dd></div>
+          <div><dt>Buyer level</dt><dd>{{ resource.buyerLevel }}</dd></div>
+          <div><dt>Company size</dt><dd>{{ resource.companySize }}</dd></div>
+          <div><dt>Objective</dt><dd>{{ resource.objective }}</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="script-resource-content">
+    <div class="container-wide script-resource-layout">
+      <aside class="script-resource-toc" aria-label="Page contents">
+        <strong>On this page</strong>
+        <a href="#complete-script">Complete script</a>
+        <a href="#who-it-is-for">Industry and ICP</a>
+        <a href="#qualification">Qualification questions</a>
+        <a href="#objections">Objection handling</a>
+        <a href="#why-it-works">Why it works</a>
+        <a href="#personalization">Personalization</a>
+        <a href="#alternatives">Alternative versions</a>
+      </aside>
+
+      <div class="script-resource-main">
+        <section class="script-trust-note">
+          <strong>Built from real campaign experience.</strong>
+          <p>This script preserves a conversation structure used in live B2B outbound work while removing client names, identifiable product details and unsupported claims.</p>
+        </section>
+
+        <section id="complete-script" class="script-content-section">
+          <div class="script-section-heading">
+            <div><span>Copy, customize and call</span><h2>The complete {{ resource.title }}</h2></div>
+            <button type="button" class="script-copy-button" data-copy-target="full-script">Copy Script</button>
+          </div>
+          <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
+        </section>
+
+        <section id="who-it-is-for" class="script-content-section">
+          <span class="script-kicker">Targeting brief</span>
+          <h2>Who this cold call script is for</h2>
+          <div class="script-profile-grid">
+            <article><span>Industry</span><strong>{{ resource.industry }}</strong><p>{{ resource.subindustry }}</p></article>
+            <article><span>Company profile</span><strong>{{ resource.companySize }}</strong><p>{{ resource.icp }}</p></article>
+            <article><span>Geography</span><strong>{{ resource.geography }}</strong><p>{{ resource.serviceCategory }}</p></article>
+            <article><span>Call scenario</span><strong>{{ resource.objective }}</strong><p>{{ resource.scenario }}</p></article>
+          </div>
+
+          <div class="script-two-column">
+            <div>
+              <h3>Target buyer titles</h3>
+              <ul class="script-chip-list">{% for buyer in resource.buyers %}<li>{{ buyer }}</li>{% endfor %}</ul>
+            </div>
+            <div>
+              <h3>Useful trigger signals</h3>
+              <ul class="script-check-list">{% for trigger in resource.triggers %}<li>{{ trigger }}</li>{% endfor %}</ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="qualification" class="script-content-section">
+          <span class="script-kicker">Discovery structure</span>
+          <h2>Qualification questions</h2>
+          <p>Do not fire these off like a checklist. Choose the question that best matches the buyer’s first response and use the answer to guide the next part of the conversation.</p>
+          <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>
+          <div class="script-bridge-card"><span>Positioning bridge</span><p>{{ resource.bridge }}</p></div>
+          <div class="script-cta-card"><span>Recommended CTA</span><p>{{ resource.cta }}</p></div>
+        </section>
+
+        <section id="objections" class="script-content-section">
+          <span class="script-kicker">Keep the conversation moving</span>
+          <h2>Objection-handling responses</h2>
+          <div class="script-objection-list">
+            {% for objection in resource.objections %}
+              <details{% if loop.first %} open{% endif %}>
+                <summary>“{{ objection.objection }}”</summary>
+                <p>{{ objection.response }}</p>
+              </details>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section id="why-it-works" class="script-content-section">
+          <span class="script-kicker">CallTeam analysis</span>
+          <h2>Why this script works</h2>
+          <p class="script-analysis-lead">{{ resource.whyItWorks }}</p>
+          <div class="script-analysis-grid">
+            {% for item in resource.whyBreakdown %}<article><span>0{{ loop.index }}</span><h3>{{ item.label }}</h3><p>{{ item.text }}</p></article>{% endfor %}
+          </div>
+        </section>
+
+        <section id="personalization" class="script-content-section">
+          <span class="script-kicker">Make it yours</span>
+          <h2>How to personalize this script</h2>
+          <ul class="script-personalization-list">{% for instruction in resource.personalization %}<li><span>{{ loop.index }}</span><p>{{ instruction }}</p></li>{% endfor %}</ul>
+        </section>
+
+        <section id="alternatives" class="script-content-section">
+          <span class="script-kicker">Alternative call flows</span>
+          <h2>Short, voicemail and buyer-specific versions</h2>
+          <div class="script-alternative-list">
+            {% for alternative in resource.alternatives %}
+              <article>
+                <div><span>{{ alternative.label }}</span><p>{{ alternative.description }}</p></div>
+                <div class="script-alternative-copy"><p id="alternative-{{ loop.index }}">{{ alternative.script }}</p><button type="button" class="script-copy-button script-copy-button-small" data-copy-target="alternative-{{ loop.index }}">Copy</button></div>
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="script-content-section script-service-section">
+          <span class="script-kicker">Put the script into action</span>
+          <h2>Relevant CallTeam services</h2>
+          <p>The resource is free. If you need the campaign built, called, qualified and managed, these are the closest starting points.</p>
+          <div class="script-service-grid">
+            {% for service in resource.relevantServices %}
+              <a href="{{ service.href }}"><h3>{{ service.title }}</h3><p>{{ service.description }}</p><span>Explore the service →</span></a>
+            {% endfor %}
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="script-related-section">
+    <div class="container-wide">
+      <div class="script-related-heading"><div><div class="section-label">Keep building the call</div><h2>Related B2B cold call scripts</h2></div><a href="/resources/cold-call-scripts/" class="card-link">View the full library →</a></div>
+      <div class="script-related-grid">
+        {% for relatedSlug in resource.related %}
+          {% set relatedScript = relatedSlug | scriptBySlug(callScripts) %}
+          {% if relatedScript %}<article><span>{{ relatedScript.category }}</span><h3><a href="/resources/cold-call-scripts/{{ relatedScript.slug }}/">{{ relatedScript.seoTitle }}</a></h3><p>{{ relatedScript.objective }}</p><a href="/resources/cold-call-scripts/{{ relatedScript.slug }}/" class="card-link">Open the script →</a></article>{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band script-resource-final-cta">
+    <div class="section-label">Need a team to run the campaign?</div>
+    <h2>We can customize the script, make the calls and book qualified conversations.</h2>
+    <p>Tell us what you sell, who you need to reach and what a good meeting looks like.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+  </section>
+</main>
+
+<script>
+(function () {
+  function copyText(text, button) {
+    function done() {
+      var original = button.textContent;
+      button.textContent = 'Copied';
+      button.classList.add('is-copied');
+      window.setTimeout(function () { button.textContent = original; button.classList.remove('is-copied'); }, 1800);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(done);
+      return;
+    }
+    var area = document.createElement('textarea');
+    area.value = text;
+    area.setAttribute('readonly', '');
+    area.style.position = 'fixed';
+    area.style.opacity = '0';
+    document.body.appendChild(area);
+    area.select();
+    document.execCommand('copy');
+    document.body.removeChild(area);
+    done();
+  }
+  document.addEventListener('click', function (event) {
+    var button = event.target.closest('[data-copy-target]');
+    if (!button) return;
+    var target = document.getElementById(button.getAttribute('data-copy-target'));
+    if (target) copyText(target.textContent.trim(), button);
+  });
+})();
+</script>

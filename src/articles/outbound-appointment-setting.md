@@ -151,6 +151,8 @@ A useful booking line sounds like an agreement, not a trap:
 
 The question gives the prospect room to correct the purpose. It also tests commitment without manufacturing urgency. When the buyer confirms the reason in their own words, the appointment carries more meaning than a generic introductory call.
 
+See this principle used in complete conversations inside the [free B2B cold call script library](/resources/cold-call-scripts/), including scripts for cybersecurity assessments, cloud migration, ERP modernization, ITSM software, logistics capacity, and AI voice agents.
+
 ## Build an appointment confirmation process with a purpose
 
 Confirmation should help the meeting happen. Repeated messages that add no information can feel like pressure, while silence leaves preventable confusion untouched.

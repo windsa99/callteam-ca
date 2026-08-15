@@ -16,4 +16,10 @@ eleventyExcludeFromCollections: true
   </url>
   {%- endif %}
 {%- endfor %}
+{%- for script in callScripts %}
+  <url>
+    <loc>https://www.callteam.ca/resources/cold-call-scripts/{{ script.slug }}/</loc>
+    <lastmod>2026-08-15</lastmod>
+  </url>
+{%- endfor %}
 </urlset>

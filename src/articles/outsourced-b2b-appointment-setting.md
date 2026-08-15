@@ -254,6 +254,8 @@ CallTeam starts with the work that needs to be done, not a meeting target pulled
 
 CallTeam's [managed B2B appointment setting service](/services/b2b-appointment-setting/) can include strategy, scripts, human calling, follow-up, qualification, appointment setting, meeting protection, CRM context, weekly reporting, and campaign improvement. The client and CallTeam agree on what quality means, who owns each next step, and how sales outcomes return to the campaign.
 
+You can inspect the structure directly in CallTeam's [free cold call script library](/resources/cold-call-scripts/). Each resource shows the ICP, buyer roles, complete script, qualification questions, objection handling, CTA, alternatives, and the reasoning underneath the language.
+
 CallTeam's [public pricing](/pricing/) starts at US$4,000 per month for a campaign-ready company with a defined offer and market, target accounts or contacts ready to activate, CRM and calendar access, and sales capacity for qualified meetings. The agreed starting scope has no setup charge, hidden platform fee, or surprise program surcharge. When fresh prospect data, additional markets, languages, or greater capacity are needed, that work is defined and priced before launch.
 
 AI supports account research, data preparation, signal review, and call preparation. People remain responsible for live conversations, judgment, objections, qualification, follow-up, confirmation, and handoff. The goal is not to automate responsibility away. It is to give skilled callers better information and keep the client close to what the market is saying.
