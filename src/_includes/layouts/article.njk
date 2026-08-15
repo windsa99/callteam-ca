@@ -99,6 +99,7 @@ ogType: article
       <ul class="article-summary-list">
         {% for card in cards %}
         <li>
+          <span class="article-summary-number" aria-hidden="true">0{{ loop.index }}</span>
           <h3>{{ card.title }}</h3>
           <p>{{ card.text }}</p>
         </li>

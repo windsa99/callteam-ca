@@ -184,7 +184,8 @@ for (const marker of [
   '"@type": "BlogPosting"', '"@type": "WebPage"', '"@type": "BreadcrumbList"',
   '"@type": "FAQPage"', '"datePublished"', '"dateModified"', '"mainEntityOfPage"',
   '"author"', '"publisher"', 'class="quick-answer"', 'class="article-about"',
-  'class="article-summary-list"', "relatedService", "relatedCaseStudy"
+  'class="article-summary-list"', 'class="article-summary-number"',
+  "relatedService", "relatedCaseStudy"
 ]) {
   failUnless(articleLayout.includes(marker), "src/_includes/layouts/article.njk", `missing engine marker: ${marker}`);
 }
