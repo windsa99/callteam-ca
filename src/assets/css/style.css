@@ -1505,6 +1505,27 @@
   scroll-margin-top: 110px;
 }
 
+/* Article section rhythm: prevent adjacent section padding from stacking. */
+.article-page > #article-body {
+  padding: 72px 48px;
+}
+
+.article-page > .article-connections,
+.article-page > .article-sources,
+.article-page > #faq,
+.article-page > .article-about,
+.article-page > .article-read-next {
+  padding: 0 48px 72px;
+}
+
+.article-page > #faq {
+  padding-bottom: 24px;
+}
+
+.article-page .article-about .signature-block {
+  margin-top: 0;
+}
+
 .article-takeaways .service-card,
 .article-connections .service-card,
 .article-library-card {
@@ -1610,6 +1631,22 @@
 }
 
 @media (max-width: 700px) {
+  .article-page > #article-body {
+    padding: 48px 24px;
+  }
+
+  .article-page > .article-connections,
+  .article-page > .article-sources,
+  .article-page > #faq,
+  .article-page > .article-about,
+  .article-page > .article-read-next {
+    padding: 0 24px 48px;
+  }
+
+  .article-page > #faq {
+    padding-bottom: 8px;
+  }
+
   .article-byline {
     flex-direction: column;
     align-items: center;
