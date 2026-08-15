@@ -91,17 +91,19 @@ ogType: article
 
   {% if cards and cards.length > 0 %}
   <section class="article-takeaways" aria-labelledby="takeaways-heading">
-    <div class="container-wide">
-      <div class="section-label">Key takeaways</div>
-      <h2 id="takeaways-heading">{{ cardsHeading or "What you need to know." }}</h2>
-      <div class="service-grid">
+    <div class="container article-takeaways-inner">
+      <div class="article-takeaways-heading">
+        <div class="section-label">Key takeaways</div>
+        <h2 id="takeaways-heading">{{ cardsHeading or "What you need to know." }}</h2>
+      </div>
+      <ul class="article-summary-list">
         {% for card in cards %}
-        <div class="service-card">
+        <li>
           <h3>{{ card.title }}</h3>
           <p>{{ card.text }}</p>
-        </div>
+        </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </section>
   {% endif %}
