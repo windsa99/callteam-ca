@@ -44,7 +44,20 @@
         "url": "{{ site.logo }}"
       },
       "email": {{ site.email | json | safe }},
-      "description": {{ site.description | json | safe }}
+      "description": {{ site.description | json | safe }},
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": {{ site.email | json | safe }},
+        "url": "https://calendly.com/hello-callteam/new-meeting",
+        "availableLanguage": "English"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Place", "name": "North America" },
+        { "@type": "Place", "name": "Worldwide" }
+      ]
     },
     {
       "@type": "WebSite",
