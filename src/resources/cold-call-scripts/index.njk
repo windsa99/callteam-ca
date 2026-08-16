@@ -2,9 +2,9 @@
 layout: layouts/base.njk
 title: "Free B2B Cold Call Scripts for Appointment Setting | CallTeam"
 seoTitle: "Free B2B Cold Call Scripts for Appointment Setting | CallTeam"
-description: "Use six free B2B cold call scripts built from real outbound campaign approaches for appointment setting, demo booking, qualification and discovery."
+description: "Use 16 free B2B cold call scripts built from real outbound campaign approaches for appointment setting, demo booking, qualification and discovery."
 canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/"
-modified: "2026-08-15"
+modified: "2026-08-16"
 ---
 
 <script type="application/ld+json">
@@ -61,7 +61,7 @@ modified: "2026-08-15"
     <div class="container-wide">
       <div class="script-library-heading">
         <div>
-          <div class="section-label">Wave 1 · Six field-tested resources</div>
+          <div class="section-label">Sixteen field-tested script resources</div>
           <h2>Find the script that matches the conversation.</h2>
         </div>
         <p id="script-result-count" aria-live="polite">Showing all {{ callScripts.length }} scripts</p>
@@ -77,6 +77,8 @@ modified: "2026-08-15"
           <button type="button" data-script-filter="technology">Technology</button>
           <button type="button" data-script-filter="executive">Executive</button>
           <button type="button" data-script-filter="operations">Operations</button>
+          <button type="button" data-script-filter="finance">Finance</button>
+          <button type="button" data-script-filter="commerce">Commerce</button>
         </div>
       </div>
 
@@ -88,6 +90,7 @@ modified: "2026-08-15"
           {% if script.slug == "ai-voice-agent-cold-call-script" %}{% set filterTags = "technology operations" %}{% endif %}
           {% if script.slug == "cloud-migration-cold-call-script-for-cios" %}{% set filterTags = "technology executive" %}{% endif %}
           {% if script.slug == "cybersecurity-risk-assessment-cold-call-script" %}{% set filterTags = "technology executive" %}{% endif %}
+          {% if script.filters %}{% set filterTags = script.filters | join(' ') | lower %}{% endif %}
           <article class="script-card" data-script-card data-tags="{{ filterTags }}" data-search="{{ script.title }} {{ script.industry }} {{ script.buyers | join(' ') }} {{ script.objective }} {{ script.primaryKeyword }} {{ script.secondaryKeywords | join(' ') }}">
             <div class="script-card-meta"><span>{{ script.category }}</span><small>{{ script.archetype }}</small></div>
             <h3><a href="/resources/cold-call-scripts/{{ script.slug }}/">{{ script.seoTitle }}</a></h3>

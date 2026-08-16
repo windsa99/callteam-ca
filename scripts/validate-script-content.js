@@ -1,0 +1,62 @@
+const scripts = require("../src/_data/callScripts.js");
+
+const failures = [];
+const forbidden = [
+  "Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite",
+  "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz",
+];
+
+function assert(condition, message) {
+  if (!condition) failures.push(message);
+}
+
+function words(text) {
+  return text.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter((word) => word.length > 2);
+}
+
+function trigrams(text) {
+  const tokens = words(text);
+  return new Set(tokens.slice(0, -2).map((word, index) => `${word} ${tokens[index + 1]} ${tokens[index + 2]}`));
+}
+
+function jaccard(left, right) {
+  let intersection = 0;
+  left.forEach((value) => { if (right.has(value)) intersection += 1; });
+  return intersection / (left.size + right.size - intersection || 1);
+}
+
+const keys = ["id", "slug", "seoTitle", "metaDescription", "primaryKeyword"];
+for (const key of keys) {
+  assert(new Set(scripts.map((script) => script[key].toLowerCase())).size === scripts.length, `${key} values must be unique.`);
+}
+
+for (const script of scripts) {
+  assert(script.seoTitle.length >= 30 && script.seoTitle.length <= 68, `${script.slug}: SEO title length is ${script.seoTitle.length}.`);
+  assert(script.metaDescription.length >= 120 && script.metaDescription.length <= 180, `${script.slug}: meta description length is ${script.metaDescription.length}.`);
+  assert(script.fullScript.length >= 650, `${script.slug}: complete script is too thin (${script.fullScript.length} characters).`);
+  assert(script.questions.length >= 3, `${script.slug}: needs at least three discovery questions.`);
+  assert(script.objections.length >= 3, `${script.slug}: needs at least three objections.`);
+  assert(script.alternatives.length >= 3, `${script.slug}: needs at least three alternative versions.`);
+  assert(script.personalization.length >= 4, `${script.slug}: needs at least four personalization instructions.`);
+  const publicText = JSON.stringify(script);
+  forbidden.forEach((term) => assert(!new RegExp(term, "i").test(publicText), `${script.slug}: private identifier ${term} found.`));
+}
+
+let highest = { score: 0, pair: "" };
+for (let left = 0; left < scripts.length; left += 1) {
+  const leftSet = trigrams(`${scripts[left].fullScript} ${scripts[left].whyItWorks} ${scripts[left].personalization.join(" ")}`);
+  for (let right = left + 1; right < scripts.length; right += 1) {
+    const rightSet = trigrams(`${scripts[right].fullScript} ${scripts[right].whyItWorks} ${scripts[right].personalization.join(" ")}`);
+    const score = jaccard(leftSet, rightSet);
+    if (score > highest.score) highest = { score, pair: `${scripts[left].slug} / ${scripts[right].slug}` };
+    assert(score < 0.35, `Possible content cannibalization: ${scripts[left].slug} and ${scripts[right].slug} scored ${score.toFixed(3)}.`);
+  }
+}
+
+if (failures.length) {
+  console.error(`Script content validation failed with ${failures.length} problem(s):`);
+  failures.forEach((failure) => console.error(`- ${failure}`));
+  process.exit(1);
+}
+
+console.log(`Script content validation passed for ${scripts.length} resources. Highest pairwise similarity: ${highest.score.toFixed(3)} (${highest.pair}).`);

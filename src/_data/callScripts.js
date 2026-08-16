@@ -1,4 +1,4 @@
-module.exports = [
+const launchResources = [
   {
     id: "CT-R003",
     slug: "cybersecurity-risk-assessment-cold-call-script",
@@ -121,9 +121,9 @@ CTA: Would a 15-minute scoping call be unreasonable to determine whether an inde
       },
     ],
     related: [
+      "technical-cloud-migration-discovery-call-script",
       "cloud-migration-cold-call-script-for-cios",
-      "itsm-software-cold-call-script",
-      "ai-voice-agent-cold-call-script",
+      "healthcare-software-modernization-cold-call-script",
     ],
     relevantServices: [
       {
@@ -264,8 +264,8 @@ CTA: Would a short executive working session next week be useful to compare your
       },
     ],
     related: [
+      "technical-cloud-migration-discovery-call-script",
       "cybersecurity-risk-assessment-cold-call-script",
-      "itsm-software-cold-call-script",
       "erp-modernization-cold-call-script-for-cfos",
     ],
     relevantServices: [
@@ -409,9 +409,9 @@ CTA: Would a short modernization assessment be useful to document the business c
       },
     ],
     related: [
+      "accounting-software-to-erp-cold-call-script",
+      "software-procurement-advisory-cold-call-script",
       "cloud-migration-cold-call-script-for-cios",
-      "itsm-software-cold-call-script",
-      "logistics-overflow-drayage-cold-call-script",
     ],
     relevantServices: [
       {
@@ -552,9 +552,9 @@ CTA: Would a short workflow demo built around one current service process be use
       },
     ],
     related: [
-      "cloud-migration-cold-call-script-for-cios",
-      "cybersecurity-risk-assessment-cold-call-script",
-      "ai-voice-agent-cold-call-script",
+      "technical-cloud-migration-discovery-call-script",
+      "field-inspection-software-cold-call-script",
+      "software-procurement-advisory-cold-call-script",
     ],
     relevantServices: [
       {
@@ -695,8 +695,8 @@ CTA: Would it be useful to review one lane or overflow scenario and see whether 
       },
     ],
     related: [
+      "3pl-fulfillment-cold-call-script",
       "erp-modernization-cold-call-script-for-cfos",
-      "cloud-migration-cold-call-script-for-cios",
       "ai-voice-agent-cold-call-script",
     ],
     relevantServices: [
@@ -838,9 +838,9 @@ CTA: Would a short demonstration using one common inbound scenario be useful?`,
       },
     ],
     related: [
+      "tourism-booking-software-cold-call-script",
       "itsm-software-cold-call-script",
-      "cybersecurity-risk-assessment-cold-call-script",
-      "logistics-overflow-drayage-cold-call-script",
+      "payment-processing-cold-call-script",
     ],
     relevantServices: [
       {
@@ -861,3 +861,5 @@ CTA: Would a short demonstration using one common inbound scenario be useful?`,
     ],
   },
 ];
+
+module.exports = [...launchResources, ...require("./callScriptsWaveTwo")];

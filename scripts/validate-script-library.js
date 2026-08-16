@@ -5,6 +5,8 @@ const scripts = require("../src/_data/callScripts.js");
 const root = path.resolve(__dirname, "..");
 const output = path.join(root, "_site");
 const failures = [];
+const newResourceIds = new Set(["CT-R002", "CT-R008", "CT-R010", "CT-R011", "CT-R012", "CT-R015", "CT-R017", "CT-R023", "CT-R024", "CT-R026"]);
+const forbiddenPublicTerms = ["Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite", "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz"];
 
 function assert(condition, message) {
   if (!condition) failures.push(message);
@@ -61,6 +63,10 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
+assert(scripts.length === 16, `Expected 16 scripts, found ${scripts.length}.`);
+assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
+assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
+assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");
 
 const hub = read("resources/cold-call-scripts/index.html");
 const stylesheet = read("assets/css/style.css");
@@ -88,6 +94,17 @@ for (const script of scripts) {
   assert(html.includes('href="/#contact"'), `${script.slug}: contact navigation missing.`);
   assert(html.includes("index, follow"), `${script.slug}: page is not indexable.`);
   assert(!/martal|white[ -]?label/i.test(html), `${script.slug}: legacy identifier found.`);
+  assert(script.related.length === 3, `${script.slug}: expected three related scripts.`);
+  assert(script.related.every((slug) => scripts.some((candidate) => candidate.slug === slug)), `${script.slug}: unresolved related-script slug.`);
+  assert(script.relevantServices.length === 3, `${script.slug}: expected three relevant services.`);
+  if (newResourceIds.has(script.id)) {
+    assert(script.publishedDate === "2026-08-16", `${script.slug}: incorrect publication date.`);
+    assert(script.campaignPlan, `${script.slug}: campaign plan missing.`);
+    assert(script.faqs && script.faqs.length >= 2, `${script.slug}: campaign FAQs missing.`);
+    assert(html.includes("How to use this script for B2B appointment setting"), `${script.slug}: appointment-setting section missing.`);
+    assert(html.includes("Using this script in a real outbound campaign"), `${script.slug}: campaign FAQ section missing.`);
+    forbiddenPublicTerms.forEach((term) => assert(!new RegExp(term, "i").test(html), `${script.slug}: private identifier ${term} found.`));
+  }
   validateJsonLd(html, script.slug);
 }
 

@@ -13083,3 +13083,42 @@ footer .flinks a:hover {
     padding: 0 18px 22px;
   }
 }
+
+/* Wave two cold call script campaign plan */
+.script-campaign-plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.script-campaign-plan-grid article {
+  padding: 23px;
+  background: #fff8f4;
+  border: 1px solid #ffd2c4;
+  border-radius: 7px;
+}
+
+.script-campaign-plan-grid article > span {
+  color: var(--orange);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.script-campaign-plan-grid h3 {
+  margin: 18px 0 9px;
+  font-size: 18px;
+}
+
+.script-campaign-plan-grid p {
+  margin: 0;
+  color: #5c5e61;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 780px) {
+  .script-campaign-plan-grid {
+    grid-template-columns: 1fr;
+  }
+}
