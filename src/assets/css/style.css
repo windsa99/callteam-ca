@@ -337,6 +337,10 @@
   color: #fff;
 }
 
+.script-use-section[aria-labelledby="cold-calling-guides-heading"] .service-card h3 {
+  color: var(--black);
+}
+
 .script-use-grid,
 .script-analysis-grid,
 .script-profile-grid {
