@@ -490,7 +490,7 @@ CTA: Would a short project-fit discussion with the product team make sense to re
     related: [
       "technical-cloud-migration-discovery-call-script",
       "cybersecurity-risk-assessment-cold-call-script",
-      "itsm-software-cold-call-script",
+      "medical-device-engineering-software-cold-call-script",
     ],
     relevantServices: [
       appointmentSetting("Book project-fit conversations with healthcare product and technology leaders."),
@@ -803,7 +803,7 @@ CTA: Would a short alarm-workflow review be useful to map how one critical alert
     ],
     related: [
       "frontline-workforce-software-cold-call-script",
-      "field-inspection-software-cold-call-script",
+      "ot-security-cold-call-script-for-manufacturers",
       "cybersecurity-risk-assessment-cold-call-script",
     ],
     relevantServices: [
@@ -1119,8 +1119,8 @@ CTA: Would a short statement and payment-setup review be worth scheduling to see
     ],
     related: [
       "accounting-software-to-erp-cold-call-script",
-      "tourism-booking-software-cold-call-script",
-      "3pl-fulfillment-cold-call-script",
+      "credit-union-identity-protection-cold-call-script",
+      "income-verification-software-cold-call-script-credit-unions",
     ],
     relevantServices: [
       appointmentSetting("Book statement and payment-setup reviews with qualified merchants."),

@@ -121,9 +121,9 @@ CTA: Would a 15-minute scoping call be unreasonable to determine whether an inde
       },
     ],
     related: [
+      "ot-security-cold-call-script-for-manufacturers",
       "technical-cloud-migration-discovery-call-script",
       "cloud-migration-cold-call-script-for-cios",
-      "healthcare-software-modernization-cold-call-script",
     ],
     relevantServices: [
       {
@@ -862,4 +862,8 @@ CTA: Would a short demonstration using one common inbound scenario be useful?`,
   },
 ];
 
-module.exports = [...launchResources, ...require("./callScriptsWaveTwo")];
+module.exports = [
+  ...launchResources,
+  ...require("./callScriptsWaveTwo"),
+  ...require("./callScriptsWaveThree"),
+];

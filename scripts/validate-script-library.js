@@ -5,7 +5,7 @@ const scripts = require("../src/_data/callScripts.js");
 const root = path.resolve(__dirname, "..");
 const output = path.join(root, "_site");
 const failures = [];
-const newResourceIds = new Set(["CT-R002", "CT-R008", "CT-R010", "CT-R011", "CT-R012", "CT-R015", "CT-R017", "CT-R023", "CT-R024", "CT-R026"]);
+const newResourceIds = new Set(["CT-R002", "CT-R008", "CT-R010", "CT-R011", "CT-R012", "CT-R015", "CT-R017", "CT-R023", "CT-R024", "CT-R026", "CT-R004", "CT-R005", "CT-R006", "CT-R014"]);
 const forbiddenPublicTerms = ["Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite", "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz"];
 
 function assert(condition, message) {
@@ -63,7 +63,7 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
-assert(scripts.length === 16, `Expected 16 scripts, found ${scripts.length}.`);
+assert(scripts.length === 20, `Expected 20 scripts, found ${scripts.length}.`);
 assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
 assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
 assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");
