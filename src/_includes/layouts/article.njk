@@ -135,6 +135,25 @@ ogType: article
     </div>
   </section>
 
+  {% if relatedResources and relatedResources.length > 0 %}
+  <section class="article-connections article-related-resources" aria-labelledby="related-resources-heading">
+    <div class="container-wide">
+      <div class="section-label">{{ relatedResourcesLabel or "Related resources" }}</div>
+      <h2 id="related-resources-heading">{{ relatedResourcesHeading or "Useful resources for the next step." }}</h2>
+      <div class="service-grid">
+        {% for item in relatedResources %}
+        <article class="service-card">
+          {% if item.label %}<span class="article-card-label">{{ item.label }}</span>{% endif %}
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.text }}</p>
+          <a href="{{ item.url }}" class="card-link">{{ item.linkText or ("Explore " ~ item.title) }} →</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if callTeamTakeHeading and callTeamTakeA and callTeamTakeB %}
   <section class="article-perspective" aria-labelledby="callteam-take-heading">
     <div class="container">
@@ -213,11 +232,17 @@ ogType: article
       <p>{{ aboutCopyA or "CallTeam helps founders, revenue leaders, and sales teams create qualified conversations with the right business buyers. Its services include B2B lead generation, human-led cold calling, appointment setting, outsourced SDR execution, lead reactivation, AI-assisted lead generation, AI GTM services, US market entry sales, and SDR training." }}</p>
       <p>{{ aboutCopyB or "CallTeam brings together international sales talent and operating experience shaped inside demanding Fortune 100 and Fortune 500 sales environments. AI supports research, decision-maker identification, signal prioritization, and preparation. Experienced people own the conversations, qualification, objection handling, follow-up, and sales handoff." }}</p>
       <ul class="signature-links">
+        {% if aboutLinks and aboutLinks.length > 0 %}
+        {% for item in aboutLinks %}
+        <li><a href="{{ item.url }}" class="card-link">{{ item.title }} →</a></li>
+        {% endfor %}
+        {% else %}
         <li><a href="/about/" class="card-link">Learn about CallTeam and its operating model →</a></li>
         <li><a href="/services/" class="card-link">Explore B2B sales and lead generation services →</a></li>
         <li><a href="/case-studies/" class="card-link">See B2B sales and appointment setting case studies →</a></li>
         <li><a href="/sales-execution-lab/" class="card-link">Explore B2B sales training and coaching →</a></li>
         <li><a href="/90-day-revenue-engine/" class="card-link">Explore B2B sales system consulting →</a></li>
+        {% endif %}
       </ul>
     </div>
   </section>

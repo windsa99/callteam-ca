@@ -4,6 +4,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const src = path.join(root, "src");
 const articlesDir = path.join(src, "articles");
+const callScripts = require(path.join(src, "_data", "callScripts"));
 const failures = [];
 
 function walk(directory) {
@@ -79,6 +80,8 @@ for (const file of pageFiles) {
   const contents = fs.readFileSync(file, "utf8");
   const relativePath = path.relative(root, file);
   const match = contents.match(/^permalink:\s*["']([^"']+)["']/m);
+  const canonicalMatch = contents.match(/^canonicalUrl:\s*["']https:\/\/www\.callteam\.ca(\/[^"']*)["']/m);
+  if (canonicalMatch) knownPermalinks.add(canonicalMatch[1]);
   if (!match) continue;
 
   const permalink = match[1];
@@ -90,6 +93,10 @@ for (const file of pageFiles) {
     failUnless(canonical === `https://www.callteam.ca${permalink}`, relativePath, "canonicalUrl must match the page permalink");
     failUnless(hasTopLevelKey(data, "modified") || hasTopLevelKey(data, "date"), relativePath, "missing sitemap lastmod source (modified or date)");
   }
+}
+
+for (const resource of callScripts) {
+  knownPermalinks.add(`/resources/cold-call-scripts/${resource.slug}/`);
 }
 
 const articleFiles = fs.readdirSync(articlesDir)
@@ -120,6 +127,13 @@ for (const filename of articleFiles) {
   const cardCount = listCount(data, "cards", "title");
   const readNextCount = listCount(data, "readNext", "title");
   const comparisonItemCount = listCount(data, "comparisonItems", "name");
+  const relatedResourcesBlock = topLevelBlock(data, "relatedResources");
+  const relatedResourceCount = listCount(data, "relatedResources", "title");
+  const relatedResourceUrlCount = (relatedResourcesBlock.match(/^\s{4}url:/gm) || []).length;
+  const relatedResourceTextCount = (relatedResourcesBlock.match(/^\s{4}text:/gm) || []).length;
+  const aboutLinksBlock = topLevelBlock(data, "aboutLinks");
+  const aboutLinkCount = listCount(data, "aboutLinks", "title");
+  const aboutLinkUrlCount = (aboutLinksBlock.match(/^\s{4}url:/gm) || []).length;
   const body = articleBody(contents);
   const bodyWords = wordCount(body);
   const h2Count = (body.match(/^##\s+/gm) || []).length;
@@ -148,6 +162,15 @@ for (const filename of articleFiles) {
   if (articleType === "Provider comparison") {
     failUnless(hasTopLevelKey(data, "comparisonListName"), relativePath, "comparison guides must define comparisonListName");
     failUnless(comparisonItemCount >= 2, relativePath, `comparison guides must define at least two comparisonItems (found ${comparisonItemCount})`);
+  }
+  if (hasTopLevelKey(data, "relatedResources")) {
+    failUnless(relatedResourceCount >= 1 && relatedResourceCount <= 6, relativePath, `relatedResources must contain 1-6 items (found ${relatedResourceCount})`);
+    failUnless(relatedResourceUrlCount === relatedResourceCount, relativePath, "every related resource must define a url");
+    failUnless(relatedResourceTextCount === relatedResourceCount, relativePath, "every related resource must define text");
+  }
+  if (hasTopLevelKey(data, "aboutLinks")) {
+    failUnless(aboutLinkCount >= 2 && aboutLinkCount <= 4, relativePath, `aboutLinks must contain 2-4 items (found ${aboutLinkCount})`);
+    failUnless(aboutLinkUrlCount === aboutLinkCount, relativePath, "every About CallTeam link must define a url");
   }
   failUnless(wordCount(quickAnswer) >= 35 && wordCount(quickAnswer) <= 80, relativePath, `quickAnswer must be 35-80 words (found ${wordCount(quickAnswer)})`);
   failUnless(bodyWords >= 1000 && bodyWords <= 3200, relativePath, `article body must be 1000-3200 words (found ${bodyWords})`);
@@ -202,7 +225,8 @@ for (const marker of [
   '"author"', '"publisher"', 'class="quick-answer"', 'class="article-about"',
   'class="article-perspective"', 'class="article-perspective-panel"', "callTeamTakeHeading",
   'class="article-summary-list"', 'class="article-summary-number"',
-  '"@type": "ItemList"', "comparisonItems", "relatedService", "relatedCaseStudy"
+  '"@type": "ItemList"', "comparisonItems", "relatedService", "relatedCaseStudy",
+  "relatedResources", "aboutLinks"
 ]) {
   failUnless(articleLayout.includes(marker), "src/_includes/layouts/article.njk", `missing engine marker: ${marker}`);
 }
