@@ -411,7 +411,7 @@ CTA: Would a short modernization assessment be useful to document the business c
     related: [
       "accounting-software-to-erp-cold-call-script",
       "software-procurement-advisory-cold-call-script",
-      "cloud-migration-cold-call-script-for-cios",
+      "erp-competitive-replacement-cold-call-script",
     ],
     relevantServices: [
       {
@@ -866,4 +866,5 @@ module.exports = [
   ...launchResources,
   ...require("./callScriptsWaveTwo"),
   ...require("./callScriptsWaveThree"),
+  ...require("./callScriptsWaveFour"),
 ];

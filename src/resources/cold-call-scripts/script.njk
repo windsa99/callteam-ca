@@ -103,6 +103,13 @@ eleventyComputed:
             <button type="button" class="script-copy-button" data-copy-target="full-script">Copy Script</button>
           </div>
           <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
+          <div class="script-inline-conversion">
+            <div>
+              <span>Want CallTeam to run the campaign?</span>
+              <p>We can build the ICP-matched list, customize the talk track, make the calls, qualify the buyers and book the right conversations.</p>
+            </div>
+            <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a B2B Strategy Call</a>
+          </div>
         </section>
 
         <section id="who-it-is-for" class="script-content-section">
@@ -200,6 +207,15 @@ eleventyComputed:
               <details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>
             {% endfor %}
           </div>
+        </section>
+        {% endif %}
+
+        {% if resource.aboutCallTeam %}
+        <section class="script-content-section script-authority-section">
+          <span class="script-kicker">About CallTeam</span>
+          <h2>{{ resource.aboutCallTeam.heading }}</h2>
+          <p class="script-analysis-lead">{{ resource.aboutCallTeam.body }}</p>
+          <ul class="script-check-list">{% for point in resource.aboutCallTeam.points %}<li>{{ point }}</li>{% endfor %}</ul>
         </section>
         {% endif %}
 

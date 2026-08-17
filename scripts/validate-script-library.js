@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, "..");
 const output = path.join(root, "_site");
 const failures = [];
 const newResourceIds = new Set(["CT-R002", "CT-R008", "CT-R010", "CT-R011", "CT-R012", "CT-R015", "CT-R017", "CT-R023", "CT-R024", "CT-R026", "CT-R004", "CT-R005", "CT-R006", "CT-R014"]);
+const waveFourIds = new Set(["CT-R016", "CT-R018", "CT-R019", "CT-R020", "CT-R021"]);
 const forbiddenPublicTerms = ["Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite", "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz"];
 
 function assert(condition, message) {
@@ -63,7 +64,7 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
-assert(scripts.length === 20, `Expected 20 scripts, found ${scripts.length}.`);
+assert(scripts.length === 25, `Expected 25 scripts, found ${scripts.length}.`);
 assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
 assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
 assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");
@@ -85,6 +86,8 @@ for (const script of scripts) {
   assert(html.includes(script.metaDescription), `${script.slug}: meta description missing.`);
   assert(html.includes('id="full-script"'), `${script.slug}: complete script block missing.`);
   assert(html.includes("data-copy-target=\"full-script\""), `${script.slug}: copy control missing.`);
+  assert(html.includes("Want CallTeam to run the campaign?"), `${script.slug}: inline campaign conversion CTA missing.`);
+  assert(html.includes("Book a B2B Strategy Call"), `${script.slug}: inline booking link missing.`);
   assert(html.includes("script-objection-list"), `${script.slug}: objection section missing.`);
   assert(html.includes("script-related-grid"), `${script.slug}: related-script section missing.`);
   assert(html.includes("script-service-grid"), `${script.slug}: service links missing.`);
@@ -97,13 +100,19 @@ for (const script of scripts) {
   assert(script.related.length === 3, `${script.slug}: expected three related scripts.`);
   assert(script.related.every((slug) => scripts.some((candidate) => candidate.slug === slug)), `${script.slug}: unresolved related-script slug.`);
   assert(script.relevantServices.length === 3, `${script.slug}: expected three relevant services.`);
-  if (newResourceIds.has(script.id)) {
-    assert(script.publishedDate === "2026-08-16", `${script.slug}: incorrect publication date.`);
+  if (newResourceIds.has(script.id) || waveFourIds.has(script.id)) {
+    const expectedDate = waveFourIds.has(script.id) ? "2026-08-17" : "2026-08-16";
+    assert(script.publishedDate === expectedDate, `${script.slug}: incorrect publication date.`);
     assert(script.campaignPlan, `${script.slug}: campaign plan missing.`);
     assert(script.faqs && script.faqs.length >= 2, `${script.slug}: campaign FAQs missing.`);
     assert(html.includes("How to use this script for B2B appointment setting"), `${script.slug}: appointment-setting section missing.`);
     assert(html.includes("Using this script in a real outbound campaign"), `${script.slug}: campaign FAQ section missing.`);
     forbiddenPublicTerms.forEach((term) => assert(!new RegExp(term, "i").test(html), `${script.slug}: private identifier ${term} found.`));
+  }
+  if (waveFourIds.has(script.id)) {
+    assert(script.aboutCallTeam, `${script.slug}: About CallTeam authority section missing.`);
+    assert(html.includes("About CallTeam"), `${script.slug}: About CallTeam section was not rendered.`);
+    assert(html.includes("B2B lead generation"), `${script.slug}: B2B lead-generation positioning is missing.`);
   }
   validateJsonLd(html, script.slug);
 }

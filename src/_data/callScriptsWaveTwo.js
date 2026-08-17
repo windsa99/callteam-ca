@@ -173,7 +173,7 @@ CTA: Would a technical working session with a migration specialist be useful to 
     related: [
       "cloud-migration-cold-call-script-for-cios",
       "cybersecurity-risk-assessment-cold-call-script",
-      "itsm-software-cold-call-script",
+      "outsourced-pmo-services-cold-call-script",
     ],
     relevantServices: [
       appointmentSetting("Reach cloud, architecture and infrastructure buyers with a technical discovery-led campaign."),
@@ -648,7 +648,7 @@ CTA: Would a short workflow demonstration be useful to compare that approach wit
     related: [
       "industrial-alarm-notification-cold-call-script",
       "field-inspection-software-cold-call-script",
-      "itsm-software-cold-call-script",
+      "parcel-locker-cold-call-script-property-managers",
     ],
     relevantServices: [
       appointmentSetting("Book workflow demonstrations with plant, operations and EHS leaders."),
@@ -961,7 +961,7 @@ CTA: Would a short ERP-fit conversation and demonstration be useful to compare t
     ],
     related: [
       "erp-modernization-cold-call-script-for-cfos",
-      "payment-processing-cold-call-script",
+      "erp-competitive-replacement-cold-call-script",
       "software-procurement-advisory-cold-call-script",
     ],
     relevantServices: [
@@ -1595,7 +1595,7 @@ CTA: Would a short field-workflow demonstration be useful using one inspection o
     related: [
       "frontline-workforce-software-cold-call-script",
       "industrial-alarm-notification-cold-call-script",
-      "itsm-software-cold-call-script",
+      "security-guard-services-cold-call-script",
     ],
     relevantServices: [
       appointmentSetting("Book field-workflow demonstrations with operations, inspection and quality leaders."),
