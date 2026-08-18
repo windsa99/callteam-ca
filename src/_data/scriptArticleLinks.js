@@ -47,6 +47,11 @@ module.exports = {
       title: "How to Sell Software When Switching Feels Too Disruptive",
       url: "/articles/sell-software-switching-too-disruptive/",
       description: "Turn implementation risk into qualified discovery and a staged decision path instead of minimizing the buyer's concern."
+    },
+    {
+      title: "How to Get Meetings With CIOs and IT Leaders",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Build technology-buyer outreach around service workflows, business outcomes, account signals, governance, and a defined next decision."
     }
   ],
   "cybersecurity-risk-assessment-cold-call-script": [
@@ -85,6 +90,11 @@ module.exports = {
       title: "How to Sell Automation When the Manual Process Still Works",
       url: "/articles/sell-automation-manual-process-still-works/",
       description: "Find the operating threshold where a familiar manual workflow becomes difficult to scale, control, or audit."
+    },
+    {
+      title: "How to Cold Call Operations Leaders",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Replace a generic efficiency pitch with a specific frontline workflow, pressure condition, operating measure, and qualified next step."
     }
   ],
   "industrial-alarm-notification-cold-call-script": [
@@ -92,6 +102,11 @@ module.exports = {
       title: "How to Sell Automation When the Manual Process Still Works",
       url: "/articles/sell-automation-manual-process-still-works/",
       description: "Map escalation, response, exception handling, and human ownership before proposing an automated workflow."
+    },
+    {
+      title: "How to Cold Call Operations Leaders",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Use workflow-specific outreach to explore alarm escalation, response ownership, exception handling, auditability, and operating impact."
     }
   ],
   "ai-voice-agent-cold-call-script": [
@@ -118,6 +133,11 @@ module.exports = {
       title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
       url: "/articles/sell-outsourced-services-vs-hiring/",
       description: "Discuss time to capacity, finance controls, continuity, knowledge transfer, and the work that should remain internal."
+    },
+    {
+      title: "How to Get Meetings With CFOs",
+      url: "/articles/get-meetings-with-cfos-b2b/",
+      description: "Connect finance capacity, close reliability, control, growth, and change signals to a qualified executive conversation."
     }
   ],
   "outsourced-legal-support-services-cold-call-script": [
@@ -132,6 +152,11 @@ module.exports = {
       title: "How to Handle the No Budget Objection",
       url: "/articles/no-budget-objection-b2b-cold-call/",
       description: "Clarify sponsorship, business outcomes, planning cycles, and the approval path for a workforce investment."
+    },
+    {
+      title: "How to Sell HR Technology Without Leading With AI",
+      url: "/articles/sell-hr-technology-without-leading-ai/",
+      description: "Lead with the workforce outcome, user workflow, adoption plan, evidence, and cross-functional buying process."
     }
   ],
   "erp-modernization-cold-call-script-for-cfos": [
@@ -151,6 +176,32 @@ module.exports = {
       title: "What to Say When a Prospect Says Send Me Information",
       url: "/articles/send-me-information-sales-objection/",
       description: "Clarify whether architecture, workload, security, cost, or migration proof would help the buyer evaluate the next step."
+    },
+    {
+      title: "How to Get Meetings With CIOs and IT Leaders",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Use business and technology signals to frame a relevant CIO conversation around modernization, constraints, ownership, and next work."
+    }
+  ],
+  "technical-cloud-migration-discovery-call-script": [
+    {
+      title: "How to Get Meetings With CIOs and IT Leaders",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Connect technical discovery to the business outcome, technology domain, account context, governance, and qualified meeting purpose."
+    }
+  ],
+  "field-inspection-software-cold-call-script": [
+    {
+      title: "How to Cold Call Operations Leaders",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Build a specific Operations conversation around inspection capture, review, exceptions, field adoption, control, and measurable impact."
+    }
+  ],
+  "ai-recruiting-software-cold-call-script": [
+    {
+      title: "How to Sell HR Technology Without Leading With AI",
+      url: "/articles/sell-hr-technology-without-leading-ai/",
+      description: "Start with the recruiting outcome and workflow, then address AI evidence, governance, human oversight, adoption, and buyer roles."
     }
   ],
   "payment-processing-cold-call-script": [
