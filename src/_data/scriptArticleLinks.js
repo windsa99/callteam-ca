@@ -119,6 +119,11 @@ module.exports = {
       title: "How to Sell Automation When the Manual Process Still Works",
       url: "/articles/sell-automation-manual-process-still-works/",
       description: "Define the use case, baseline, automation boundary, escalation, and success decision behind a controlled pilot."
+    },
+    {
+      title: "How to Qualify a Software Demo Before Putting It on the Calendar",
+      url: "/articles/qualify-software-demo-before-booking/",
+      description: "Use one real inbound call scenario to qualify the audience, outcome, and decision purpose before the demo."
     }
   ],
   "outsourced-pmo-services-cold-call-script": [
@@ -150,6 +155,11 @@ module.exports = {
       title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
       url: "/articles/sell-outsourced-services-vs-hiring/",
       description: "Position external legal support around matter scope, specialist capacity, supervision, confidentiality, and a reversible operating model."
+    },
+    {
+      title: "How to Adapt a B2B Cold Call for Global Markets",
+      url: "/articles/adapt-b2b-cold-call-global-markets/",
+      description: "Localize jurisdiction, terminology, proof, service boundaries, timing, and the next-step path for international legal buyers."
     }
   ],
   "corporate-training-cold-call-script-financial-acumen": [
@@ -247,6 +257,25 @@ module.exports = {
       title: "What to Say When a Prospect Says Send Me Information",
       url: "/articles/send-me-information-sales-objection/",
       description: "Send focused information on cost, settlement, support, integration, or channels and agree on relevant follow-up."
+    }
+  ],
+  "tourism-booking-software-cold-call-script": [
+    {
+      title: "How to Qualify a Software Demo Before Putting It on the Calendar",
+      url: "/articles/qualify-software-demo-before-booking/",
+      description: "Qualify the booking workflow, operating problem, users, desired outcome, attendees, and demo purpose before scheduling."
+    },
+    {
+      title: "How to Adapt a B2B Cold Call for Global Markets",
+      url: "/articles/adapt-b2b-cold-call-global-markets/",
+      description: "Localize tourism software outreach around market structure, seasonality, terminology, proof, currency, and meeting ownership."
+    }
+  ],
+  "event-marketing-software-cold-call-script": [
+    {
+      title: "How to Reactivate Old B2B Leads With a Problem-Led Call",
+      url: "/articles/reactivate-old-b2b-leads-problem-led-call/",
+      description: "Reconnect around a new event cycle, engagement workflow, pipeline requirement, or measurement question."
     }
   ]
 };
