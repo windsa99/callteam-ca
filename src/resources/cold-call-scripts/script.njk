@@ -89,6 +89,7 @@ eleventyComputed:
         <a href="#why-it-works">Why it works</a>
         <a href="#personalization">Personalization</a>
         <a href="#alternatives">Alternative versions</a>
+        {% if scriptArticleLinks[resource.slug] %}<a href="#supporting-guides">Supporting guide</a>{% endif %}
       </aside>
 
       <div class="script-resource-main">
@@ -216,6 +217,19 @@ eleventyComputed:
           <h2>{{ resource.aboutCallTeam.heading }}</h2>
           <p class="script-analysis-lead">{{ resource.aboutCallTeam.body }}</p>
           <ul class="script-check-list">{% for point in resource.aboutCallTeam.points %}<li>{{ point }}</li>{% endfor %}</ul>
+        </section>
+        {% endif %}
+
+        {% if scriptArticleLinks[resource.slug] %}
+        <section id="supporting-guides" class="script-content-section script-service-section">
+          <span class="script-kicker">Solve the buyer friction</span>
+          <h2>Supporting guide for this call scenario</h2>
+          <p>Use the problem-led guide to understand the buyer's decision, adapt the conversation, and qualify a stronger next step.</p>
+          <div class="script-service-grid">
+            {% for guide in scriptArticleLinks[resource.slug] %}
+              <a href="{{ guide.url }}"><h3>{{ guide.title }}</h3><p>{{ guide.description }}</p><span>Read the guide →</span></a>
+            {% endfor %}
+          </div>
         </section>
         {% endif %}
 

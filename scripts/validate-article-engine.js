@@ -5,6 +5,7 @@ const root = path.resolve(__dirname, "..");
 const src = path.join(root, "src");
 const articlesDir = path.join(src, "articles");
 const callScripts = require(path.join(src, "_data", "callScripts"));
+const scriptArticleLinks = require(path.join(src, "_data", "scriptArticleLinks"));
 const failures = [];
 
 function walk(directory) {
@@ -103,6 +104,7 @@ const articleFiles = fs.readdirSync(articlesDir)
   .filter((file) => file.endsWith(".md"))
   .sort();
 const supportedClusters = [
+  "Active Buyer Friction",
   "B2B Lead Generation",
   "B2B Appointment Setting",
   "Outbound Calling and Sales Development",
@@ -201,10 +203,37 @@ for (const filename of articleFiles) {
   }
 
   const internalUrls = [...data.matchAll(/^\s+url:\s*["'](\/[^"']+)["']/gm)].map((match) => match[1]);
+  const markdownUrls = [...body.matchAll(/\[[^\]]+\]\((\/[^)]+)\)/g)].map((match) => match[1]);
+  internalUrls.push(...markdownUrls);
   for (const url of internalUrls) {
     const target = url.split("#")[0];
     failUnless(knownPermalinks.has(target), relativePath, `internal relationship target does not exist: ${url}`);
   }
+}
+
+const scriptSlugs = new Set(callScripts.map((resource) => resource.slug));
+for (const [slug, guides] of Object.entries(scriptArticleLinks)) {
+  failUnless(scriptSlugs.has(slug), "src/_data/scriptArticleLinks.js", `unknown script slug: ${slug}`);
+  failUnless(Array.isArray(guides) && guides.length >= 1 && guides.length <= 2, "src/_data/scriptArticleLinks.js", `${slug} must link to 1-2 supporting guides`);
+  for (const guide of guides) {
+    failUnless(Boolean(guide.title && guide.description && guide.url), "src/_data/scriptArticleLinks.js", `${slug} has an incomplete supporting guide`);
+    failUnless(knownPermalinks.has(guide.url), "src/_data/scriptArticleLinks.js", `${slug} links to an unknown article: ${guide.url}`);
+  }
+}
+
+for (const filename of [
+  "cold-call-prospects-existing-vendor.md",
+  "sell-software-switching-too-disruptive.md",
+  "create-urgency-b2b-sales.md",
+  "sell-automation-manual-process-still-works.md",
+  "sell-outsourced-services-vs-hiring.md"
+]) {
+  const relativePath = path.join("src", "articles", filename);
+  const contents = source(relativePath);
+  const data = frontMatter(contents, relativePath);
+  failUnless(quotedValue(data, "cluster") === "Active Buyer Friction", relativePath, "must belong to the Active Buyer Friction hub shelf");
+  failUnless(quotedValue(data, "ctaHeading") === "Want CallTeam to run the campaign?", relativePath, "must use the contextual campaign CTA");
+  failUnless(articleBody(contents).includes("https://calendly.com/hello-callteam/new-meeting"), relativePath, "missing contextual in-article booking link");
 }
 
 for (const [sentence, files] of sentencesAcrossArticles) {
@@ -232,6 +261,11 @@ for (const marker of [
 }
 failUnless(!articleLayout.includes("nofollow"), "src/_includes/layouts/article.njk", "editorial source links must not use blanket nofollow");
 failUnless(!/article-takeaways[\s\S]{0,500}service-grid/.test(articleLayout), "src/_includes/layouts/article.njk", "takeaways must not use the full service-card grid");
+
+const scriptLayout = source("src/resources/cold-call-scripts/script.njk");
+for (const marker of ["scriptArticleLinks[resource.slug]", 'id="supporting-guides"', "Solve the buyer friction"]) {
+  failUnless(scriptLayout.includes(marker), "src/resources/cold-call-scripts/script.njk", `missing reciprocal article link marker: ${marker}`);
+}
 
 const hubTemplate = source("src/articles/index.njk");
 failUnless(!/Read more/i.test(hubTemplate), "src/articles/index.njk", "replace generic Read more anchors with descriptive text");

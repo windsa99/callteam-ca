@@ -5,7 +5,7 @@ seoTitle: "B2B Sales, Cold Calling and Lead Generation Guides | CallTeam"
 description: "Practical B2B sales guides on lead generation, cold calling, appointment setting, outsourced SDR teams, AI GTM, lead reactivation, sales training, and pipeline execution."
 canonicalUrl: "https://www.callteam.ca/articles/"
 permalink: "/articles/"
-modified: "2026-08-16"
+modified: "2026-08-18"
 ---
 
 <script type="application/ld+json">
@@ -59,6 +59,7 @@ modified: "2026-08-16"
     <h1>Answers for the sales problems that <span class="highlight">kill pipeline.</span></h1>
     <p>Practical guides on B2B lead generation, outbound calling, appointment setting, sales development, AI-assisted prospecting, lead follow-up, qualification, and revenue execution.</p>
     <div class="article-cluster-nav" aria-label="Article topics">
+      <a href="#active-buyer-friction">Active Buyer Friction</a>
       <a href="#b2b-lead-generation">B2B Lead Generation</a>
       <a href="#b2b-appointment-setting">B2B Appointment Setting</a>
       <a href="#outbound-calling">Outbound Calling</a>
@@ -88,6 +89,27 @@ modified: "2026-08-16"
       </article>
       {% endif %}
     {% endfor %}
+  </div>
+</section>
+
+<section id="active-buyer-friction" class="article-cluster-section article-friction-cluster">
+  <div class="container-wide">
+    <div class="section-label">Problem-led sales guides</div>
+    <h2>Active buyer friction.</h2>
+    <p class="section-intro">Use practical plays for the objections and operating realities already slowing a live B2B decision, from incumbent vendors and switching risk to weak urgency, working manual processes, and internal hiring plans.</p>
+    <div class="service-grid article-grid">
+      {% for article in collections.articles | reverse %}
+        {% if article.data.cluster == "Active Buyer Friction" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Solve {{ article.data.category }} →</a>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </section>
 
