@@ -59,6 +59,11 @@ module.exports = {
       title: "How to Create Urgency in B2B Sales Without Manufacturing Fear",
       url: "/articles/create-urgency-b2b-sales/",
       description: "Connect risk to a verified event, decision, and cost of delay without using unsupported breach predictions or scare tactics."
+    },
+    {
+      title: "How to Prepare a B2B Software Opportunity for Security Review",
+      url: "/articles/prepare-b2b-software-security-review/",
+      description: "Qualify the buyer's security process, organize current evidence, route exceptions, and place review work inside the opportunity plan."
     }
   ],
   "software-procurement-advisory-cold-call-script": [
@@ -188,6 +193,39 @@ module.exports = {
       title: "How to Get Meetings With CIOs and IT Leaders",
       url: "/articles/get-meetings-with-cios-it-leaders/",
       description: "Connect technical discovery to the business outcome, technology domain, account context, governance, and qualified meeting purpose."
+    },
+    {
+      title: "How to Handle Integration Concerns in a Software Sales Call",
+      url: "/articles/integration-concerns-software-sales-call/",
+      description: "Turn a broad integration concern into workflow, system, data, security, ownership, evidence, and validation questions."
+    }
+  ],
+  "healthcare-software-modernization-cold-call-script": [
+    {
+      title: "How to Handle Integration Concerns in a Software Sales Call",
+      url: "/articles/integration-concerns-software-sales-call/",
+      description: "Qualify interoperability, data, workflow, identity, ownership, and implementation risk without promising universal compatibility."
+    }
+  ],
+  "medical-device-engineering-software-cold-call-script": [
+    {
+      title: "How to Sell Regulated Technology Without Unsupported Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Connect product and workflow value to approved evidence while keeping regulatory, performance, and compliance claims inside their scope."
+    }
+  ],
+  "income-verification-software-cold-call-script-credit-unions": [
+    {
+      title: "How to Sell Regulated Technology Without Unsupported Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Use precise financial technology messaging, material qualifications, approved proof, and a clear route for specialist questions."
+    }
+  ],
+  "credit-union-identity-protection-cold-call-script": [
+    {
+      title: "How to Prepare a B2B Software Opportunity for Security Review",
+      url: "/articles/prepare-b2b-software-security-review/",
+      description: "Map the use case, data, identity, control evidence, review owner, exceptions, and buyer approval path before diligence stalls the deal."
     }
   ],
   "field-inspection-software-cold-call-script": [
