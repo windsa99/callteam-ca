@@ -28,6 +28,11 @@ module.exports = {
       title: "How to Cold Call Prospects Who Already Have a Vendor",
       url: "/articles/cold-call-prospects-existing-vendor/",
       description: "Use complement, contingency, benchmark, and review strategies when the buyer already has a logistics partner."
+    },
+    {
+      title: "How Logistics Companies Can Win Accounts That Already Have Carriers",
+      url: "/articles/logistics-win-accounts-existing-carriers/",
+      description: "Earn a lane review, overflow test, or backup-carrier position without demanding a full network replacement."
     }
   ],
   "accounting-software-to-erp-cold-call-script": [
@@ -56,9 +61,9 @@ module.exports = {
   ],
   "cybersecurity-risk-assessment-cold-call-script": [
     {
-      title: "How to Create Urgency in B2B Sales Without Manufacturing Fear",
-      url: "/articles/create-urgency-b2b-sales/",
-      description: "Connect risk to a verified event, decision, and cost of delay without using unsupported breach predictions or scare tactics."
+      title: "How to Sell Cybersecurity Assessments When the Buyer Already Has an MSP",
+      url: "/articles/sell-cybersecurity-assessment-existing-msp/",
+      description: "Position independent validation beside the incumbent MSP by clarifying scope, responsibility, evidence, and the next security decision."
     },
     {
       title: "How to Prepare a B2B Software Opportunity for Security Review",
@@ -188,9 +193,9 @@ module.exports = {
   ],
   "cloud-migration-cold-call-script-for-cios": [
     {
-      title: "What to Say When a Prospect Says Send Me Information",
-      url: "/articles/send-me-information-sales-objection/",
-      description: "Clarify whether architecture, workload, security, cost, or migration proof would help the buyer evaluate the next step."
+      title: "How to Sell Cloud Migration to CIOs Without Leading With Infrastructure Jargon",
+      url: "/articles/sell-cloud-migration-to-cios/",
+      description: "Frame cloud migration around the executive decision, operating risk, business outcome, investment logic, and phased next step."
     },
     {
       title: "How to Get Meetings With CIOs and IT Leaders",
@@ -200,9 +205,9 @@ module.exports = {
   ],
   "technical-cloud-migration-discovery-call-script": [
     {
-      title: "How to Get Meetings With CIOs and IT Leaders",
-      url: "/articles/get-meetings-with-cios-it-leaders/",
-      description: "Connect technical discovery to the business outcome, technology domain, account context, governance, and qualified meeting purpose."
+      title: "Cloud Migration Discovery Questions for Architects and Technical Buyers",
+      url: "/articles/cloud-migration-discovery-questions/",
+      description: "Qualify workload scope, dependencies, target architecture, security, operations, migration waves, evidence, and decision ownership."
     },
     {
       title: "How to Handle Integration Concerns in a Software Sales Call",
@@ -261,9 +266,9 @@ module.exports = {
   ],
   "tourism-booking-software-cold-call-script": [
     {
-      title: "How to Qualify a Software Demo Before Putting It on the Calendar",
-      url: "/articles/qualify-software-demo-before-booking/",
-      description: "Qualify the booking workflow, operating problem, users, desired outcome, attendees, and demo purpose before scheduling."
+      title: "How to Sell Booking Software to Tour Operators and Attractions",
+      url: "/articles/sell-booking-software-tour-operators-attractions/",
+      description: "Sell around the complete guest and operator workflow, including availability, channels, waivers, payments, staffing, reporting, and peak operations."
     },
     {
       title: "How to Adapt a B2B Cold Call for Global Markets",
@@ -276,6 +281,13 @@ module.exports = {
       title: "How to Reactivate Old B2B Leads With a Problem-Led Call",
       url: "/articles/reactivate-old-b2b-leads-problem-led-call/",
       description: "Reconnect around a new event cycle, engagement workflow, pipeline requirement, or measurement question."
+    }
+  ],
+  "logistics-overflow-drayage-cold-call-script": [
+    {
+      title: "How Logistics Companies Can Win Accounts That Already Have Carriers",
+      url: "/articles/logistics-win-accounts-existing-carriers/",
+      description: "Use one lane, overflow condition, contingency need, or service gap to earn a low-risk first shipment."
     }
   ]
 };

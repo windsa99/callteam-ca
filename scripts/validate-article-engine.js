@@ -105,6 +105,7 @@ const articleFiles = fs.readdirSync(articlesDir)
   .sort();
 const supportedClusters = [
   "Active Buyer Friction",
+  "Industry and Buyer Playbooks",
   "B2B Lead Generation",
   "B2B Appointment Setting",
   "Outbound Calling and Sales Development",
@@ -255,7 +256,7 @@ for (const marker of [
   'class="article-perspective"', 'class="article-perspective-panel"', "callTeamTakeHeading",
   'class="article-summary-list"', 'class="article-summary-number"',
   '"@type": "ItemList"', "comparisonItems", "relatedService", "relatedCaseStudy",
-  "relatedResources", "aboutLinks"
+  "relatedResources", "aboutLinks", "aboutCopyC"
 ]) {
   failUnless(articleLayout.includes(marker), "src/_includes/layouts/article.njk", `missing engine marker: ${marker}`);
 }

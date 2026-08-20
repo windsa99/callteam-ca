@@ -5,7 +5,7 @@ seoTitle: "B2B Sales, Cold Calling and Lead Generation Guides | CallTeam"
 description: "Practical B2B sales guides on lead generation, cold calling, appointment setting, outsourced SDR teams, AI GTM, lead reactivation, sales training, and pipeline execution."
 canonicalUrl: "https://www.callteam.ca/articles/"
 permalink: "/articles/"
-modified: "2026-08-18"
+modified: "2026-08-20"
 ---
 
 <script type="application/ld+json">
@@ -60,6 +60,7 @@ modified: "2026-08-18"
     <p>Practical guides on B2B lead generation, outbound calling, appointment setting, sales development, AI-assisted prospecting, lead follow-up, qualification, and revenue execution.</p>
     <div class="article-cluster-nav" aria-label="Article topics">
       <a href="#active-buyer-friction">Active Buyer Friction</a>
+      <a href="#industry-buyer-playbooks">Industry and Buyer Playbooks</a>
       <a href="#b2b-lead-generation">B2B Lead Generation</a>
       <a href="#b2b-appointment-setting">B2B Appointment Setting</a>
       <a href="#outbound-calling">Outbound Calling</a>
@@ -106,6 +107,27 @@ modified: "2026-08-18"
           <p>{{ article.data.description }}</p>
           <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
           <a href="{{ article.url }}" class="card-link">Solve {{ article.data.category }} →</a>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="industry-buyer-playbooks" class="article-cluster-section">
+  <div class="container-wide">
+    <div class="section-label">Industry and buyer playbooks</div>
+    <h2>Sell into a specific market with the right buyer language.</h2>
+    <p class="section-intro">Use field-ready playbooks for the industries, buying roles, operating pressures, discovery paths, objections, and campaign offers that shape a qualified B2B conversation.</p>
+    <div class="service-grid article-grid">
+      {% for article in collections.articles | reverse %}
+        {% if article.data.cluster == "Industry and Buyer Playbooks" %}
+        <article class="service-card article-library-card">
+          <span class="article-card-label">{{ article.data.articleType or article.data.category }}</span>
+          <h3>{{ article.data.title }}</h3>
+          <p>{{ article.data.description }}</p>
+          <div class="article-card-meta"><span>Updated {{ article.data.modified | readableDate }}</span></div>
+          <a href="{{ article.url }}" class="card-link">Use the {{ article.data.category }} playbook →</a>
         </article>
         {% endif %}
       {% endfor %}
