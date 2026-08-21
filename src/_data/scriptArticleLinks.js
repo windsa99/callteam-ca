@@ -37,14 +37,14 @@ module.exports = {
   ],
   "accounting-software-to-erp-cold-call-script": [
     {
+      title: "How to Identify Companies That Have Outgrown Basic Accounting Software",
+      url: "/articles/companies-outgrown-accounting-software/",
+      description: "Use business complexity, manual workflow, reporting latency, and control signals to identify accounts that merit ERP-readiness discovery."
+    },
+    {
       title: "How to Sell Software When Switching Feels Too Disruptive",
       url: "/articles/sell-software-switching-too-disruptive/",
       description: "Separate the value of a new platform from the migration, workflow, data, integration, and adoption work required to reach it."
-    },
-    {
-      title: "How to Multi-Thread a B2B Deal",
-      url: "/articles/multi-thread-b2b-deal-finance-it-operations/",
-      description: "Connect Finance and Operations priorities to technical feasibility, adoption, economics, and shared decision ownership."
     }
   ],
   "itsm-software-cold-call-script": [
@@ -97,9 +97,9 @@ module.exports = {
   ],
   "frontline-workforce-software-cold-call-script": [
     {
-      title: "How to Sell Automation When the Manual Process Still Works",
-      url: "/articles/sell-automation-manual-process-still-works/",
-      description: "Find the operating threshold where a familiar manual workflow becomes difficult to scale, control, or audit."
+      title: "How to Sell Frontline Workforce Software When the Buyer Already Has an ERP",
+      url: "/articles/sell-frontline-workforce-software-existing-erp/",
+      description: "Find the frontline execution and adoption gap while respecting the ERP as the system of record."
     },
     {
       title: "How to Cold Call Operations Leaders",
@@ -109,9 +109,9 @@ module.exports = {
   ],
   "industrial-alarm-notification-cold-call-script": [
     {
-      title: "How to Sell Automation When the Manual Process Still Works",
-      url: "/articles/sell-automation-manual-process-still-works/",
-      description: "Map escalation, response, exception handling, and human ownership before proposing an automated workflow."
+      title: "How to Sell Industrial Alarm Software to Plant and Operations Leaders",
+      url: "/articles/sell-industrial-alarm-software-operations-leaders/",
+      description: "Build a plant-specific conversation around alarm sources, notification, acknowledgement, escalation, shift coverage, and response ownership."
     },
     {
       title: "How to Cold Call Operations Leaders",
@@ -217,6 +217,11 @@ module.exports = {
   ],
   "healthcare-software-modernization-cold-call-script": [
     {
+      title: "How Software Development Firms Can Sell to Regulated Healthcare Buyers",
+      url: "/articles/sell-software-development-regulated-healthcare/",
+      description: "Qualify the healthcare workflow, data, security, validation, procurement, and implementation conditions before proposing development work."
+    },
+    {
       title: "How to Handle Integration Concerns in a Software Sales Call",
       url: "/articles/integration-concerns-software-sales-call/",
       description: "Qualify interoperability, data, workflow, identity, ownership, and implementation risk without promising universal compatibility."
@@ -258,6 +263,11 @@ module.exports = {
     }
   ],
   "payment-processing-cold-call-script": [
+    {
+      title: "How to Sell Payment Processing Without Sounding Like Every Other Provider",
+      url: "/articles/sell-payment-processing-differentiate/",
+      description: "Differentiate through merchant-specific discovery, transparent comparisons, continuity planning, and support accountability."
+    },
     {
       title: "What to Say When a Prospect Says Send Me Information",
       url: "/articles/send-me-information-sales-objection/",
