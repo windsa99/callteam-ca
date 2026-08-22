@@ -25,14 +25,14 @@ module.exports = {
   ],
   "3pl-fulfillment-cold-call-script": [
     {
+      title: "How 3PL Providers Can Prospect Ecommerce Brands That Already Have Fulfillment",
+      url: "/articles/3pl-prospect-ecommerce-brands-existing-fulfillment/",
+      description: "Earn a region, channel, overflow, backup, benchmark, or future review by qualifying the brand's actual fulfilment job."
+    },
+    {
       title: "How to Cold Call Prospects Who Already Have a Vendor",
       url: "/articles/cold-call-prospects-existing-vendor/",
       description: "Use complement, contingency, benchmark, and review strategies when the buyer already has a logistics partner."
-    },
-    {
-      title: "How Logistics Companies Can Win Accounts That Already Have Carriers",
-      url: "/articles/logistics-win-accounts-existing-carriers/",
-      description: "Earn a lane review, overflow test, or backup-carrier position without demanding a full network replacement."
     }
   ],
   "accounting-software-to-erp-cold-call-script": [
@@ -49,14 +49,14 @@ module.exports = {
   ],
   "itsm-software-cold-call-script": [
     {
+      title: "How to Sell ITSM Software to IT Leaders With an Existing Service Desk",
+      url: "/articles/sell-itsm-software-existing-service-desk/",
+      description: "Diagnose one service workflow and separate process, configuration, adoption, data, administration, and platform issues."
+    },
+    {
       title: "How to Sell Software When Switching Feels Too Disruptive",
       url: "/articles/sell-software-switching-too-disruptive/",
       description: "Turn implementation risk into qualified discovery and a staged decision path instead of minimizing the buyer's concern."
-    },
-    {
-      title: "How to Get Meetings With CIOs and IT Leaders",
-      url: "/articles/get-meetings-with-cios-it-leaders/",
-      description: "Build technology-buyer outreach around service workflows, business outcomes, account signals, governance, and a defined next decision."
     }
   ],
   "cybersecurity-risk-assessment-cold-call-script": [
@@ -73,9 +73,9 @@ module.exports = {
   ],
   "software-procurement-advisory-cold-call-script": [
     {
-      title: "How to Create Urgency in B2B Sales Without Manufacturing Fear",
-      url: "/articles/create-urgency-b2b-sales/",
-      description: "Work backward from renewal and procurement lead time to build a credible reason for an earlier decision."
+      title: "How to Reach Enterprise Software Buyers Before a Renewal Decision",
+      url: "/articles/reach-enterprise-software-buyers-before-renewal/",
+      description: "Map the decision calendar, buying committee, evidence gaps, options, and procurement work before the renewal becomes rushed."
     },
     {
       title: "How to Prospect Before a Software or Service Renewal",
@@ -121,9 +121,9 @@ module.exports = {
   ],
   "ai-voice-agent-cold-call-script": [
     {
-      title: "How to Sell Automation When the Manual Process Still Works",
-      url: "/articles/sell-automation-manual-process-still-works/",
-      description: "Define the use case, baseline, automation boundary, escalation, and success decision behind a controlled pilot."
+      title: "How to Sell AI Voice Agents Without Claiming Humans Are Obsolete",
+      url: "/articles/sell-ai-voice-agents-with-human-escalation/",
+      description: "Define a suitable call type, approved actions, operating controls, pilot evidence, and explicit human escalation."
     },
     {
       title: "How to Qualify a Software Demo Before Putting It on the Calendar",
@@ -249,6 +249,11 @@ module.exports = {
     }
   ],
   "field-inspection-software-cold-call-script": [
+    {
+      title: "How to Sell Field Inspection Software to Operations and Quality Leaders",
+      url: "/articles/sell-field-inspection-software-operations-quality/",
+      description: "Follow one inspection from field capture through validation, corrective action, approval, reporting, and adoption."
+    },
     {
       title: "How to Cold Call Operations Leaders",
       url: "/articles/cold-call-operations-leaders/",
