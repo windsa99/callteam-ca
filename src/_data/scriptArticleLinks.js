@@ -1,9 +1,9 @@
 module.exports = {
   "erp-competitive-replacement-cold-call-script": [
     {
-      title: "How to Cold Call Prospects Who Already Have a Vendor",
-      url: "/articles/cold-call-prospects-existing-vendor/",
-      description: "Learn how to respect the incumbent, find a credible gap, and qualify the next review without forcing displacement."
+      title: "How to Displace an Incumbent ERP Without Attacking the Current Vendor",
+      url: "/articles/displace-incumbent-erp-without-attacking-vendor/",
+      description: "Compare staying, improving, upgrading, reimplementing, and replacing against requirements, economics, risk, and change effort."
     },
     {
       title: "How to Sell Software When Switching Feels Too Disruptive",
@@ -69,6 +69,18 @@ module.exports = {
       title: "How to Prepare a B2B Software Opportunity for Security Review",
       url: "/articles/prepare-b2b-software-security-review/",
       description: "Qualify the buyer's security process, organize current evidence, route exceptions, and place review work inside the opportunity plan."
+    }
+  ],
+  "ot-security-cold-call-script-for-manufacturers": [
+    {
+      title: "How to Sell OT Security Without Alienating Plant Operations",
+      url: "/articles/sell-ot-security-without-alienating-plant-operations/",
+      description: "Respect uptime and safety while qualifying ownership, visibility, remote access, finding response, and cross-functional decisions."
+    },
+    {
+      title: "How to Cold Call Operations Leaders",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Use a specific plant workflow and operating condition to create a relevant Operations conversation."
     }
   ],
   "software-procurement-advisory-cold-call-script": [
@@ -229,6 +241,11 @@ module.exports = {
   ],
   "medical-device-engineering-software-cold-call-script": [
     {
+      title: "How to Sell Engineering Software to Medical Device and Quality Teams",
+      url: "/articles/sell-engineering-software-medical-device-quality/",
+      description: "Follow a governed workflow across requirements, risk, testing, traceability, review, validation, Engineering, and Quality."
+    },
+    {
       title: "How to Sell Regulated Technology Without Unsupported Claims",
       url: "/articles/sell-regulated-technology-compliance-claims/",
       description: "Connect product and workflow value to approved evidence while keeping regulatory, performance, and compliance claims inside their scope."
@@ -236,12 +253,22 @@ module.exports = {
   ],
   "income-verification-software-cold-call-script-credit-unions": [
     {
+      title: "How to Sell Income Verification Software to Lending Leaders",
+      url: "/articles/sell-income-verification-software-lending-leaders/",
+      description: "Qualify the lending workflow, permission, source coverage, exceptions, underwriting review, integration, and decision evidence."
+    },
+    {
       title: "How to Sell Regulated Technology Without Unsupported Claims",
       url: "/articles/sell-regulated-technology-compliance-claims/",
       description: "Use precise financial technology messaging, material qualifications, approved proof, and a clear route for specialist questions."
     }
   ],
   "credit-union-identity-protection-cold-call-script": [
+    {
+      title: "How to Sell Identity Protection Technology to Credit Unions",
+      url: "/articles/sell-identity-protection-credit-unions/",
+      description: "Build the buying case around member needs, service coverage, adoption, support ownership, security, and vendor review."
+    },
     {
       title: "How to Prepare a B2B Software Opportunity for Security Review",
       url: "/articles/prepare-b2b-software-security-review/",
