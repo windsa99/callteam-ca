@@ -1,4 +1,64 @@
 module.exports = {
+  "ai-customer-support-software-cold-call-script": [
+    {
+      title: "How to Sell AI Voice Agents Without Claiming Humans Are Obsolete",
+      url: "/articles/sell-ai-voice-agents-with-human-escalation/",
+      description: "Define where AI assists, where it can complete a workflow and where a person must take control."
+    },
+    {
+      title: "How to Sell Automation When the Manual Process Still Works",
+      url: "/articles/sell-automation-manual-process-still-works/",
+      description: "Respect the working support process and build a controlled case around capacity, consistency and customer effort."
+    }
+  ],
+  "compliance-training-software-cold-call-script": [
+    {
+      title: "How to Sell Regulated Technology Without Making Unsupported Compliance Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Connect training workflow and evidence value to the buyer's requirements without claiming software guarantees compliance."
+    },
+    {
+      title: "How Software Development Firms Can Sell to Regulated Healthcare Buyers",
+      url: "/articles/sell-software-development-regulated-healthcare/",
+      description: "Understand regulated buyer scrutiny across requirements, Quality, security, implementation and accountable ownership."
+    }
+  ],
+  "cmms-cold-call-script-maintenance-plant-leaders": [
+    {
+      title: "How to Cold Call Operations Leaders Without a Generic Efficiency Pitch",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Open around one maintenance workflow, operating condition and decision instead of promising broad efficiency."
+    },
+    {
+      title: "How to Sell Frontline Workforce Software When the Buyer Already Has an ERP",
+      url: "/articles/sell-frontline-workforce-software-existing-erp/",
+      description: "Evaluate where the ERP supports frontline work and where adoption, workflow or specialist capability still creates a gap."
+    }
+  ],
+  "digital-marketing-agency-cold-call-script-paid-media": [
+    {
+      title: "How to Build a B2B Sales Business Case When ROI Is Hard to Prove",
+      url: "/articles/build-b2b-sales-business-case/",
+      description: "Define the commercial question, evidence, costs and decision threshold without inventing a paid-media return."
+    },
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Protect a working agency relationship while qualifying a channel, market, measurement or specialist gap."
+    }
+  ],
+  "ma-advisor-cold-call-script-business-owners": [
+    {
+      title: "How to Get Meetings With CFOs for Complex B2B Offers",
+      url: "/articles/get-meetings-with-cfos-b2b/",
+      description: "Prepare a finance-led conversation around decision value, evidence and a credible executive next step."
+    },
+    {
+      title: "How to Map the Buying Committee for a Complex B2B Sale",
+      url: "/articles/map-b2b-buying-committee/",
+      description: "Map owners, executives, finance, boards, corporate development and advisers without broadening the meeting unnecessarily."
+    }
+  ],
   "gaming-licensing-services-cold-call-script": [
     {
       title: "How to Sell Regulated Technology Without Making Unsupported Compliance Claims",

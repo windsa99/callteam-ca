@@ -8,9 +8,9 @@ eleventyExcludeFromCollections: true
 permalink: "resources/cold-call-scripts/{{ resource.slug }}/index.html"
 modified: "2026-08-15"
 eleventyComputed:
-  title: "{{ resource.seoTitle }} | CallTeam"
-  seoTitle: "{{ resource.seoTitle }} | CallTeam"
-  description: "{{ resource.metaDescription }}"
+  title: "{{ resource.seoTitle | safe }} | CallTeam"
+  seoTitle: "{{ resource.seoTitle | safe }} | CallTeam"
+  description: "{{ resource.metaDescription | safe }}"
   canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/"
 ---
 

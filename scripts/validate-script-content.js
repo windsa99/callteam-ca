@@ -2,6 +2,7 @@ const scripts = require("../src/_data/callScripts.js");
 
 const failures = [];
 const waveSixIds = new Set(["CT-R031", "CT-R032", "CT-R033", "CT-R034", "CT-R035"]);
+const waveSevenIds = new Set(["CT-R036", "CT-R037", "CT-R038", "CT-R039", "CT-R040"]);
 const forbidden = [
   "Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite",
   "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz",
@@ -41,7 +42,7 @@ for (const script of scripts) {
   assert(script.personalization.length >= 4, `${script.slug}: needs at least four personalization instructions.`);
   const publicText = JSON.stringify(script);
   forbidden.forEach((term) => assert(!new RegExp(term, "i").test(publicText), `${script.slug}: private identifier ${term} found.`));
-  if (waveSixIds.has(script.id)) {
+  if (waveSixIds.has(script.id) || waveSevenIds.has(script.id)) {
     assert(!publicText.includes("—"), `${script.slug}: em dash found in new public content.`);
     assert(script.whyBreakdown.length === 4, `${script.slug}: needs four distinct why-it-works points.`);
     assert(script.signalRadar && script.signalRadar.signals.length === 4, `${script.slug}: needs four Buyer Signal Radar inputs.`);

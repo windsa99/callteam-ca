@@ -869,4 +869,5 @@ module.exports = [
   ...require("./callScriptsWaveFour"),
   ...require("./callScriptsWaveFive"),
   ...require("./callScriptsWaveSix"),
+  ...require("./callScriptsWaveSeven"),
 ];
