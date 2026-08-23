@@ -5187,6 +5187,19 @@
   color: var(--white);
 }
 
+.home-ai-section .home-section-intro {
+  color: #d6d6d6;
+}
+
+.home-ai-section .home-section-intro strong {
+  color: var(--white);
+}
+
+.home-ai-section .home-section-intro a,
+.home-ai-section .home-section-intro a:visited {
+  color: #ff9b78;
+}
+
 .home-ai-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
