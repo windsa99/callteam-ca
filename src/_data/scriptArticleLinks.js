@@ -1,4 +1,64 @@
 module.exports = {
+  "b2b-saas-cold-call-script": [
+    {
+      title: "How to Qualify a Software Demo Before Putting It on the Calendar",
+      url: "/articles/qualify-software-demo-before-booking/",
+      description: "Confirm the use case, current environment, buyer group and purpose before asking a product specialist to run a demonstration."
+    },
+    {
+      title: "How to Sell Software When Switching Feels Too Disruptive",
+      url: "/articles/sell-software-switching-too-disruptive/",
+      description: "Separate product value from migration, integration, adoption and internal change when the current platform remains workable."
+    }
+  ],
+  "msp-cold-call-script-managed-it-services": [
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Use coverage, specialist, benchmark, contingency and future-review angles without attacking the incumbent managed provider."
+    },
+    {
+      title: "How to Sell Cybersecurity Assessments When the Buyer Already Has an MSP",
+      url: "/articles/sell-cybersecurity-assessment-existing-msp/",
+      description: "Position an independent risk assessment as a defined assurance job that can complement the buyer's ongoing IT relationship."
+    }
+  ],
+  "lead-generation-agency-cold-call-script": [
+    {
+      title: "Outbound Appointment Setting: How to Build Qualified B2B Meetings",
+      url: "/articles/outbound-appointment-setting/",
+      description: "Connect targeting, live outreach, qualification, calendar booking and handoff into one accountable meeting-generation system."
+    },
+    {
+      title: "Outsourced B2B Appointment Setting: What Buyers Should Expect",
+      url: "/articles/outsourced-b2b-appointment-setting/",
+      description: "Define the provider's work, sales-accepted qualification, collaboration model and evidence buyers should inspect."
+    }
+  ],
+  "custom-software-development-cold-call-script": [
+    {
+      title: "How to Sell a Complex Implementation Without Pretending It Will Be Easy",
+      url: "/articles/sell-complex-software-implementation/",
+      description: "Address scope, ownership, dependencies, change and delivery risk without minimizing the work required to reach value."
+    },
+    {
+      title: "How to Build a B2B Sales Business Case When ROI Is Hard to Prove",
+      url: "/articles/build-b2b-sales-business-case/",
+      description: "Frame the decision around evidence, cost, risk and a useful threshold instead of inventing a custom-development return."
+    }
+  ],
+  "bpo-services-cold-call-script": [
+    {
+      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
+      url: "/articles/sell-outsourced-services-vs-hiring/",
+      description: "Compare internal hiring, overflow, specialist and hybrid models while protecting the buyer's ownership of the process."
+    },
+    {
+      title: "How to Sell Against the Status Quo Without Attacking the Buyer",
+      url: "/articles/sell-against-status-quo-b2b/",
+      description: "Explore process, capacity and control gaps while respecting the operating model the buyer has built."
+    }
+  ],
   "ai-customer-support-software-cold-call-script": [
     {
       title: "How to Sell AI Voice Agents Without Claiming Humans Are Obsolete",
