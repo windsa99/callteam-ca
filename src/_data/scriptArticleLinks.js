@@ -511,5 +511,65 @@ module.exports = {
       url: "/articles/logistics-win-accounts-existing-carriers/",
       description: "Use one lane, overflow condition, contingency need, or service gap to earn a low-risk first shipment."
     }
+  ],
+  "marketing-automation-consulting-cold-call-script": [
+    {
+      title: "How to Sell Automation When the Manual Process Still Works",
+      url: "/articles/sell-automation-manual-process-still-works/",
+      description: "Find one manual handoff worth improving without pretending the current marketing process has failed."
+    },
+    {
+      title: "How to Handle Integration Concerns in a Software Sales Call",
+      url: "/articles/integration-concerns-software-sales-call/",
+      description: "Clarify the workflow, systems, data, ownership and validation path behind a marketing technology integration concern."
+    }
+  ],
+  "business-intelligence-software-cold-call-script": [
+    {
+      title: "How to Build a B2B Sales Business Case When ROI Is Hard to Prove",
+      url: "/articles/build-b2b-sales-business-case/",
+      description: "Build a credible case from the reporting decision, current baseline, cost of delay and evidence the buyer can defend."
+    },
+    {
+      title: "How to Handle Integration Concerns in a Software Sales Call",
+      url: "/articles/integration-concerns-software-sales-call/",
+      description: "Turn a broad data integration concern into specific questions about sources, flow, access, controls and ownership."
+    }
+  ],
+  "hris-implementation-services-cold-call-script": [
+    {
+      title: "How to Sell a Complex Implementation Without Pretending It Will Be Easy",
+      url: "/articles/sell-complex-software-implementation/",
+      description: "Set honest expectations around scope, ownership, stages, evidence and change during an HRIS rollout."
+    },
+    {
+      title: "How to Sell HR Technology Without Leading With AI",
+      url: "/articles/sell-hr-technology-without-leading-ai/",
+      description: "Keep the conversation anchored in the HR workflow, user need, adoption plan and buying group."
+    }
+  ],
+  "fractional-cmo-services-cold-call-script": [
+    {
+      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
+      url: "/articles/sell-outsourced-services-vs-hiring/",
+      description: "Respect the full-time hiring plan while exploring interim leadership, defined projects and a practical transition."
+    },
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Work alongside existing agencies and advisers by clarifying the separate leadership gap and decision owner."
+    }
+  ],
+  "telehealth-services-cold-call-script": [
+    {
+      title: "How to Sell Regulated Technology Without Making Unsupported Compliance Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Keep healthcare claims precise, qualified and inside the evidence approved for the service and jurisdiction."
+    },
+    {
+      title: "How to Prepare a B2B Software Opportunity for Security Review",
+      url: "/articles/prepare-b2b-software-security-review/",
+      description: "Map the use case, data, identity, review owner and evidence path before a healthcare technology review begins."
+    }
   ]
 };
