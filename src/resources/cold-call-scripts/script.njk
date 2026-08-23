@@ -61,7 +61,7 @@ eleventyComputed:
           <span>{{ resource.archetype }}</span>
         </div>
         <div class="script-hero-actions">
-          <a href="#complete-script" class="btn-primary">Copy the Script</a>
+          <a href="#complete-script" class="btn-primary">{{ resource.copyLabel or 'Copy the Script' }}</a>
           <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-secondary" target="_blank" rel="noopener">Build This Campaign</a>
         </div>
       </div>
@@ -83,6 +83,7 @@ eleventyComputed:
         <strong>On this page</strong>
         <a href="#complete-script">Complete script</a>
         <a href="#who-it-is-for">Industry and ICP</a>
+        {% if resource.signalRadar %}<a href="#buyer-signal-radar">Buyer Signal Radar</a>{% endif %}
         <a href="#qualification">Qualification questions</a>
         {% if resource.campaignPlan %}<a href="#campaign-plan">Campaign plan</a>{% endif %}
         <a href="#objections">Objection handling</a>
@@ -90,6 +91,7 @@ eleventyComputed:
         <a href="#personalization">Personalization</a>
         <a href="#alternatives">Alternative versions</a>
         {% if scriptArticleLinks[resource.slug] %}<a href="#supporting-guides">Supporting guide</a>{% endif %}
+        {% if resource.aboutCallTeam %}<a href="#about-callteam">About CallTeam</a>{% endif %}
       </aside>
 
       <div class="script-resource-main">
@@ -101,7 +103,7 @@ eleventyComputed:
         <section id="complete-script" class="script-content-section">
           <div class="script-section-heading">
             <div><span>Copy, customize and call</span><h2>The complete {{ resource.title }}</h2></div>
-            <button type="button" class="script-copy-button" data-copy-target="full-script">Copy Script</button>
+            <button type="button" class="script-copy-button" data-copy-target="full-script">{{ resource.copyLabel or 'Copy Script' }}</button>
           </div>
           <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
           <div class="script-inline-conversion">
@@ -134,6 +136,20 @@ eleventyComputed:
             </div>
           </div>
         </section>
+
+        {% if resource.signalRadar %}
+        <section id="buyer-signal-radar" class="script-content-section">
+          <span class="script-kicker">CallTeam Buyer Signal Radar</span>
+          <h2>{{ resource.signalRadar.heading }}</h2>
+          <p class="script-analysis-lead">{{ resource.signalRadar.summary }}</p>
+          <div class="script-campaign-plan-grid">
+            {% for signal in resource.signalRadar.signals %}
+              <article><span>0{{ loop.index }}</span><h3>{{ signal.label }}</h3><p>{{ signal.text }}</p></article>
+            {% endfor %}
+          </div>
+          <div class="script-bridge-card"><span>CallTeam AI GTM activation</span><p>{{ resource.signalRadar.activation }}</p></div>
+        </section>
+        {% endif %}
 
         <section id="qualification" class="script-content-section">
           <span class="script-kicker">Discovery structure</span>
@@ -212,10 +228,14 @@ eleventyComputed:
         {% endif %}
 
         {% if resource.aboutCallTeam %}
-        <section class="script-content-section script-authority-section">
+        <section id="about-callteam" class="script-content-section script-authority-section">
           <span class="script-kicker">About CallTeam</span>
           <h2>{{ resource.aboutCallTeam.heading }}</h2>
-          <p class="script-analysis-lead">{{ resource.aboutCallTeam.body }}</p>
+          {% if resource.aboutCallTeam.paragraphs %}
+            {% for paragraph in resource.aboutCallTeam.paragraphs %}<p{% if loop.first %} class="script-analysis-lead"{% endif %}>{{ paragraph }}</p>{% endfor %}
+          {% else %}
+            <p class="script-analysis-lead">{{ resource.aboutCallTeam.body }}</p>
+          {% endif %}
           <ul class="script-check-list">{% for point in resource.aboutCallTeam.points %}<li>{{ point }}</li>{% endfor %}</ul>
         </section>
         {% endif %}

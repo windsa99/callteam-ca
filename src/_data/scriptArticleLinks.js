@@ -1,4 +1,64 @@
 module.exports = {
+  "gaming-licensing-services-cold-call-script": [
+    {
+      title: "How to Sell Regulated Technology Without Making Unsupported Compliance Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Keep regulatory, legal, product and performance language inside the evidence while still creating a useful commercial conversation."
+    },
+    {
+      title: "How to Adapt a B2B Cold Call for Global Markets",
+      url: "/articles/adapt-b2b-cold-call-global-markets/",
+      description: "Localize terminology, jurisdiction, buyer expectations, timing and service boundaries before calling across regulated markets."
+    }
+  ],
+  "augmented-reality-ecommerce-cold-call-script": [
+    {
+      title: "How to Qualify a Software Demo Before Putting It on the Calendar",
+      url: "/articles/qualify-software-demo-before-booking/",
+      description: "Qualify the product category, shopper problem, asset readiness, technical environment and purpose of the AR demonstration."
+    },
+    {
+      title: "How to Build a B2B Sales Business Case When ROI Is Hard to Prove",
+      url: "/articles/build-b2b-sales-business-case/",
+      description: "Define the customer behavior, evidence plan, implementation cost and decision threshold without inventing a conversion claim."
+    }
+  ],
+  "recruitment-agency-cold-call-script-global-talent": [
+    {
+      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
+      url: "/articles/sell-outsourced-services-vs-hiring/",
+      description: "Position external recruiting as specialist, overflow, project or market capacity while protecting the internal talent team."
+    },
+    {
+      title: "How to Adapt a B2B Cold Call for Global Markets",
+      url: "/articles/adapt-b2b-cold-call-global-markets/",
+      description: "Adapt recruiting terminology, employment context, geography, proof and the next-step path for an international campaign."
+    }
+  ],
+  "grc-software-cold-call-script-compliance-leaders": [
+    {
+      title: "How to Sell Regulated Technology Without Making Unsupported Compliance Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Connect workflow and evidence value to the buyer's requirements without claiming the software guarantees compliance."
+    },
+    {
+      title: "How to Prepare a B2B Software Opportunity for Security Review",
+      url: "/articles/prepare-b2b-software-security-review/",
+      description: "Qualify data, hosting, integrations, access, evidence and ownership before the opportunity reaches security review."
+    }
+  ],
+  "property-restoration-cold-call-script-property-managers": [
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Use backup, regional, specialist, benchmark and future-review angles without attacking the primary restoration provider."
+    },
+    {
+      title: "How to Sell Against the Status Quo Without Attacking the Buyer",
+      url: "/articles/sell-against-status-quo-b2b/",
+      description: "Explore coverage, escalation and readiness gaps while respecting the buyer's current plan and past decisions."
+    }
+  ],
   "erp-competitive-replacement-cold-call-script": [
     {
       title: "How to Displace an Incumbent ERP Without Attacking the Current Vendor",
