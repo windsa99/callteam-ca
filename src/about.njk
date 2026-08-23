@@ -2,13 +2,13 @@
 layout: layouts/base.njk
 permalink: "/about/"
 title: "About CallTeam"
-seoTitle: "About CallTeam | Global B2B Outbound Sales Company"
-description: "CallTeam is a global B2B outbound sales execution company providing cold calling, lead generation, appointment setting, SDR services, training, and AI GTM support."
+seoTitle: "About CallTeam | CallTeam AI & Global B2B Sales"
+description: "Learn how CallTeam combines CallTeam AI, AI lead generation, buyer signals, human cold calling, qualification, and global B2B appointment setting."
 canonicalUrl: "https://www.callteam.ca/about/"
-socialTitle: "About CallTeam | Global B2B Outbound Sales Execution"
-socialDescription: "Learn how CallTeam combines international sales talent, human-led outbound calling, AI-assisted intelligence, appointment setting, SDR services, training, and revenue systems."
+socialTitle: "About CallTeam | CallTeam AI & Human-Led B2B Sales"
+socialDescription: "See how CallTeam AI supports account research and buyer-signal review while experienced people handle calling, qualification, and appointment setting."
 date: 2026-08-15
-modified: 2026-08-16
+modified: 2026-08-23
 ---
 <script type="application/ld+json">
 {
@@ -30,14 +30,19 @@ modified: 2026-08-16
       "@type": "Organization",
       "@id": "{{ site.organizationId }}",
       "name": "CallTeam",
-      "alternateName": "CallTeam.ca",
+      "alternateName": ["CallTeam.ca", "Call Team"],
       "url": "https://www.callteam.ca/",
       "logo": {
         "@type": "ImageObject",
         "url": "{{ site.logo }}"
       },
       "email": "{{ site.email }}",
-      "description": "CallTeam is a global B2B outbound sales execution company providing human-led cold calling, B2B lead generation, appointment setting, outsourced SDR execution, lead reactivation, AI-assisted lead generation, AI GTM services, US market entry sales, SDR training, sales coaching, and revenue system consulting.",
+      "description": "CallTeam is a global B2B outbound sales execution company combining CallTeam AI, AI lead generation, buyer-signal research, human cold calling, qualification, appointment setting, outsourced SDR execution, training, and revenue systems.",
+      "brand": [
+        { "@type": "Brand", "name": "CallTeam AI" },
+        { "@type": "Brand", "name": "CallTeam AI GTM" },
+        { "@type": "Brand", "name": "CallTeam Buyer Signal Radar" }
+      ],
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "sales",
@@ -59,7 +64,10 @@ modified: 2026-08-16
         "outsourced SDR services",
         "lead reactivation",
         "AI lead generation",
-        "AI GTM services",
+        "CallTeam AI",
+        "CallTeam AI GTM",
+        "CallTeam Buyer Signal Radar",
+        "B2B buyer signals",
         "US market entry sales",
         "SDR training",
         "sales coaching",
@@ -71,7 +79,7 @@ modified: 2026-08-16
         "itemListElement": [
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Outbound Calling", "url": "https://www.callteam.ca/" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Lead Generation", "url": "https://www.callteam.ca/ai-lead-generation-services/" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI GTM Services", "url": "https://www.callteam.ca/services/ai-gtm/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CallTeam AI GTM", "alternateName": "AI GTM Services", "url": "https://www.callteam.ca/services/ai-gtm/" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "B2B Appointment Setting", "url": "https://www.callteam.ca/services/b2b-appointment-setting/" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lead Reactivation", "url": "https://www.callteam.ca/services/lead-reactivation/" } },
           { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Outsourced SDR Services", "url": "https://www.callteam.ca/services/outsourced-sdr/" } },
@@ -116,8 +124,13 @@ modified: 2026-08-16
         },
         {
           "@type": "Question",
-          "name": "Does CallTeam use AI?",
-          "acceptedAnswer": { "@type": "Answer", "text": "CallTeam uses AI to support account research, decision-maker identification, signal review, prioritization, preparation, and workflow efficiency. Experienced people remain responsible for live calls, judgment, qualification, objection handling, follow-up, and the sales handoff." }
+          "name": "What is CallTeam AI?",
+          "acceptedAnswer": { "@type": "Answer", "text": "CallTeam AI is the AI-assisted sales intelligence layer behind CallTeam's human-led B2B outbound work. It supports account research, decision-maker identification, buyer-signal review, prioritization, and call preparation. Experienced people remain responsible for live calls, judgment, qualification, follow-up, and meeting handoff." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is CallTeam AI an AI receptionist or voice bot?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. CallTeam AI supports B2B account research, buyer-signal review, prioritization, and outbound preparation. Experienced CallTeam callers conduct live sales conversations, qualify buyers, and book appropriate meetings." }
         },
         {
           "@type": "Question",
@@ -212,7 +225,7 @@ modified: 2026-08-16
           <p>AI helps CallTeam research accounts, identify decision-makers, review signals, prepare outreach, and prioritize work. People remain responsible for the live conversation and final judgment.</p>
           <ul>
             <li><a href="/ai-lead-generation-services/">AI lead generation services</a></li>
-            <li><a href="/services/ai-gtm/">AI GTM services</a></li>
+            <li><a href="/services/ai-gtm/">CallTeam AI GTM</a></li>
           </ul>
         </article>
         <article>
@@ -233,6 +246,16 @@ modified: 2026-08-16
           </ul>
         </article>
       </div>
+    </div>
+  </section>
+
+  <section id="callteam-ai" class="about-definition-section">
+    <div class="container about-copy">
+      <div class="section-label">CallTeam AI in simple English</div>
+      <h2>AI prepares the account. Experienced people earn the conversation.</h2>
+      <p><strong>CallTeam AI is the AI-assisted sales intelligence layer behind CallTeam's human-led B2B outbound work.</strong> It helps organize account research, decision-makers, buyer signals, campaign evidence, and call preparation before a person contacts the market.</p>
+      <p><a href="/ai-lead-generation-services/">AI Lead Generation</a> finds, researches, and prioritizes potential accounts and contacts. The proprietary CallTeam Buyer Signal Radar identifies observable business changes worth investigating. <a href="/services/ai-gtm/">CallTeam AI GTM</a> connects that intelligence to campaign workflow, human calling, qualification, meeting handoff, and market learning.</p>
+      <p>A signal is not proof that a company wants to buy. Experienced callers verify the situation, speak with the right people, qualify what is real, and book meetings only when there is a useful reason to continue.</p>
     </div>
   </section>
 
@@ -368,7 +391,8 @@ modified: 2026-08-16
         <details><summary>Is CallTeam a B2B lead generation agency?</summary><p>CallTeam provides B2B lead generation, but its role is broader than supplying names or running isolated outreach. CallTeam connects targeting, research, human calling, qualification, follow-up, appointment setting, CRM handoff, campaign learning, sales training, and revenue system improvement.</p></details>
         <details><summary>Does CallTeam provide cold calling and appointment setting?</summary><p>Yes. CallTeam provides human-led B2B cold calling, qualification, follow-up, and appointment setting. The goal is not meeting volume at any cost. The goal is to create relevant conversations with suitable business buyers and hand useful context to the sales team.</p></details>
         <details><summary>Does CallTeam provide outsourced SDR services?</summary><p>Yes. CallTeam can provide managed outsourced SDR execution covering target accounts, contact research, call preparation, calling, follow-up, qualification, meeting booking, CRM updates, reporting, and campaign learning.</p></details>
-        <details><summary>Does CallTeam use AI?</summary><p>CallTeam uses AI to support account research, decision-maker identification, signal review, prioritization, preparation, and workflow efficiency. Experienced people remain responsible for live calls, judgment, qualification, objection handling, follow-up, and the sales handoff.</p></details>
+        <details><summary>What is CallTeam AI?</summary><p>CallTeam AI is the AI-assisted sales intelligence layer behind CallTeam's human-led B2B outbound work. It supports account research, decision-maker identification, buyer-signal review, prioritization, and call preparation. Experienced people remain responsible for live calls, judgment, qualification, follow-up, and meeting handoff.</p></details>
+        <details><summary>Is CallTeam AI an AI receptionist or voice bot?</summary><p>No. CallTeam AI supports B2B account research, buyer-signal review, prioritization, and outbound preparation. Experienced CallTeam callers conduct live sales conversations, qualify buyers, and book appropriate meetings.</p></details>
         <details><summary>Where does CallTeam operate?</summary><p>CallTeam supports B2B companies selling in the United States, Canada, across North America, and in global English-speaking markets. It can also help international B2B companies build a practical route into the US market.</p></details>
         <details><summary>Who does CallTeam work with?</summary><p>CallTeam works with founders, chief executive officers, revenue leaders, sales leaders, SDR and BDR teams, small sales teams, and international companies that need more qualified B2B conversations, stronger outbound execution, better sales behavior, or a more reliable revenue system.</p></details>
         <details><summary>Are Call Team and CallTeam.ca the same company?</summary><p>CallTeam is the official brand and CallTeam.ca is its official website. Some people type the name as Call Team using two words, but the company name is written as one word: CallTeam.</p></details>
