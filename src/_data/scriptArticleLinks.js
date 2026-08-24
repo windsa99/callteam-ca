@@ -193,14 +193,26 @@ module.exports = {
   ],
   "security-guard-services-cold-call-script": [
     {
-      title: "How to Cold Call Prospects Who Already Have a Vendor",
-      url: "/articles/cold-call-prospects-existing-vendor/",
-      description: "Approach an established service relationship through coverage, change events, contract timing, and a buyer-safe next step."
+      title: "How Security Guard Companies Can Win Backup-Vendor and Coverage Opportunities",
+      url: "/articles/security-guard-backup-vendor-coverage-opportunities/",
+      description: "Use backup coverage, call-offs, temporary posts, new sites, fire watch and vendor qualification to earn a practical first opportunity."
     },
     {
       title: "How to Prospect Before a Software or Service Renewal",
       url: "/articles/prospect-before-software-service-renewal/",
       description: "Use service reviews, site changes, performance, coverage, notice periods, and transition needs to time the conversation."
+    }
+  ],
+  "parcel-locker-cold-call-script-property-managers": [
+    {
+      title: "How PropTech Companies Can Sell Parcel Lockers to Property Managers",
+      url: "/articles/sell-parcel-lockers-property-managers/",
+      description: "Map package volume, staff handling, resident access, property constraints and the decision path before proposing a site assessment."
+    },
+    {
+      title: "How to Sell Automation When the Manual Process Still Works",
+      url: "/articles/sell-automation-manual-process-still-works/",
+      description: "Respect the existing package workflow and identify the volume, space, access or staffing threshold where change becomes useful."
     }
   ],
   "3pl-fulfillment-cold-call-script": [
@@ -325,14 +337,14 @@ module.exports = {
   ],
   "outsourced-pmo-services-cold-call-script": [
     {
-      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
-      url: "/articles/sell-outsourced-services-vs-hiring/",
-      description: "Compare a permanent hire with bridge, specialist, managed, overflow, and hybrid PMO delivery models."
+      title: "How to Sell Outsourced PMO Services When the Buyer Already Has Project Tools",
+      url: "/articles/sell-outsourced-pmo-existing-project-tools/",
+      description: "Separate project software from governance, decision ownership, executive visibility and the delivery capacity required around one active program."
     },
     {
-      title: "How to Respond When It Is Not a Priority",
-      url: "/articles/not-a-priority-sales-objection/",
-      description: "Explore delivery pressure, portfolio visibility, transformation timing, and capacity without forcing a false deadline."
+      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
+      url: "/articles/sell-outsourced-services-vs-hiring/",
+      description: "Compare a permanent hire with bridge, specialist, managed, overflow and hybrid PMO delivery models."
     }
   ],
   "outsourced-accounting-services-cold-call-script": [
@@ -361,21 +373,21 @@ module.exports = {
   ],
   "corporate-training-cold-call-script-financial-acumen": [
     {
-      title: "How to Handle the No Budget Objection",
-      url: "/articles/no-budget-objection-b2b-cold-call/",
-      description: "Clarify sponsorship, business outcomes, planning cycles, and the approval path for a workforce investment."
+      title: "How to Sell Corporate Training by Connecting Learning to Business Outcomes",
+      url: "/articles/sell-corporate-training-business-outcomes/",
+      description: "Connect the audience, required behavior, work environment, sponsor and evidence to a result the organization already cares about."
     },
     {
-      title: "How to Sell HR Technology Without Leading With AI",
-      url: "/articles/sell-hr-technology-without-leading-ai/",
-      description: "Lead with the workforce outcome, user workflow, adoption plan, evidence, and cross-functional buying process."
+      title: "How to Handle the No Budget Objection",
+      url: "/articles/no-budget-objection-b2b-cold-call/",
+      description: "Clarify sponsorship, business outcomes, planning cycles and the approval path for a workforce investment."
     }
   ],
   "erp-modernization-cold-call-script-for-cfos": [
     {
-      title: "How to Handle the No Budget Objection",
-      url: "/articles/no-budget-objection-b2b-cold-call/",
-      description: "Separate funding constraints from economic value, executive ownership, timing, and the case for modernization."
+      title: "How to Build the Business Case for ERP Modernization With CFOs",
+      url: "/articles/erp-modernization-business-case-cfos/",
+      description: "Use finance and operating baselines, realistic options, full delivery costs, risks and buyer-owned evidence to build the modernization case."
     },
     {
       title: "How to Multi-Thread a B2B Deal",
