@@ -289,14 +289,14 @@ module.exports = {
   ],
   "private-credit-software-cold-call-script": [
     {
-      title: "How to Create Urgency in B2B Sales Without Manufacturing Fear",
-      url: "/articles/create-urgency-b2b-sales/",
-      description: "Use fund events, portfolio growth, reporting pressure, and operating capacity to qualify why timing matters."
+      title: "How to Sell Private Credit Software to Investment and Operations Teams",
+      url: "/articles/how-to-sell-private-credit-software-to-investment-and-operations-teams/",
+      description: "Use one representative deal or portfolio workflow to align investment, operations, data and technology buyers around a focused platform decision."
     },
     {
-      title: "How to Respond When It Is Not a Priority",
-      url: "/articles/not-a-priority-sales-objection/",
-      description: "Connect reporting, monitoring, portfolio events, and team capacity to the buyer's actual ranking and timing."
+      title: "How to Create Urgency in B2B Sales Without Manufacturing Fear",
+      url: "/articles/create-urgency-b2b-sales/",
+      description: "Use fund events, portfolio growth, reporting pressure and operating capacity to qualify why timing matters."
     }
   ],
   "frontline-workforce-software-cold-call-script": [
@@ -349,9 +349,9 @@ module.exports = {
   ],
   "outsourced-accounting-services-cold-call-script": [
     {
-      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
-      url: "/articles/sell-outsourced-services-vs-hiring/",
-      description: "Discuss time to capacity, finance controls, continuity, knowledge transfer, and the work that should remain internal."
+      title: "How to Sell Outsourced Accounting Without Leading With Cheap Labor",
+      url: "/articles/how-to-sell-outsourced-accounting-without-leading-with-cheap-labor/",
+      description: "Sell close reliability, capacity, controls and reporting before comparing labor rates or delivery locations."
     },
     {
       title: "How to Get Meetings With CFOs",
@@ -361,9 +361,9 @@ module.exports = {
   ],
   "outsourced-legal-support-services-cold-call-script": [
     {
-      title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally",
-      url: "/articles/sell-outsourced-services-vs-hiring/",
-      description: "Position external legal support around matter scope, specialist capacity, supervision, confidentiality, and a reversible operating model."
+      title: "How to Sell Outsourced Legal Support Without Blurring the Line With Legal Advice",
+      url: "/articles/how-to-sell-outsourced-legal-support-without-blurring-the-line-with-legal-advice/",
+      description: "Define the work, authority, supervision, confidentiality and review model before selling external legal capacity."
     },
     {
       title: "How to Adapt a B2B Cold Call for Global Markets",
@@ -481,6 +481,11 @@ module.exports = {
   ],
   "ai-recruiting-software-cold-call-script": [
     {
+      title: "How to Sell AI Recruiting Software Without Triggering the Wrong Objection",
+      url: "/articles/how-to-sell-ai-recruiting-software-without-triggering-the-wrong-objection/",
+      description: "Lead with one recruiting workflow, protect human judgment and earn a use-case-specific product demonstration."
+    },
+    {
       title: "How to Sell HR Technology Without Leading With AI",
       url: "/articles/sell-hr-technology-without-leading-ai/",
       description: "Start with the recruiting outcome and workflow, then address AI evidence, governance, human oversight, adoption, and buyer roles."
@@ -511,6 +516,11 @@ module.exports = {
     }
   ],
   "event-marketing-software-cold-call-script": [
+    {
+      title: "How Event Software Companies Can Find Accounts With a Real Buying Window",
+      url: "/articles/how-event-software-companies-can-find-accounts-with-a-real-buying-window/",
+      description: "Connect a visible event program, a real workflow gap and enough decision time to create a qualified platform conversation."
+    },
     {
       title: "How to Reactivate Old B2B Leads With a Problem-Led Call",
       url: "/articles/reactivate-old-b2b-leads-problem-led-call/",
