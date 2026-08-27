@@ -6,7 +6,7 @@ pagination:
   alias: resource
 eleventyExcludeFromCollections: true
 permalink: "resources/cold-call-scripts/{{ resource.slug }}/index.html"
-modified: "2026-08-15"
+modified: "2026-08-27"
 eleventyComputed:
   title: "{{ resource.seoTitle | safe }} | CallTeam"
   seoTitle: "{{ resource.seoTitle | safe }} | CallTeam"
@@ -33,9 +33,10 @@ eleventyComputed:
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "CallTeam", "item": "https://www.callteam.ca/" },
-        { "@type": "ListItem", "position": 2, "name": "Free Cold Call Scripts", "item": "https://www.callteam.ca/resources/cold-call-scripts/" },
-        { "@type": "ListItem", "position": 3, "name": {{ resource.title | json | safe }}, "item": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "https://www.callteam.ca/resources/outbound-sales-library/" },
+        { "@type": "ListItem", "position": 3, "name": "Cold-Call Scripts", "item": "https://www.callteam.ca/resources/cold-call-scripts/" },
+        { "@type": "ListItem", "position": 4, "name": {{ resource.title | json | safe }}, "item": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/" }
       ]
     }
   ]
@@ -44,7 +45,9 @@ eleventyComputed:
 
 <main class="script-resource-page">
   <nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
-    <a href="/resources/cold-call-scripts/">Free Cold Call Scripts</a>
+    <a href="/resources/outbound-sales-library/">Outbound Sales Library</a>
+    <span aria-hidden="true">/</span>
+    <a href="/resources/cold-call-scripts/">Cold-Call Scripts</a>
     <span aria-hidden="true">/</span>
     <span>{{ resource.category }}</span>
   </nav>
@@ -76,6 +79,13 @@ eleventyComputed:
       </aside>
     </div>
   </section>
+
+  <aside class="script-library-context">
+    <div class="container-wide">
+      <div><span>Part of the Outbound Sales Library</span><strong>Cold-Call Scripts</strong><p>Pair the talk track with buyer context, objection handling and a qualification standard.</p></div>
+      <nav aria-label="Related library collections"><a href="/resources/outbound-playbooks/buyers/">Buyer playbooks →</a><a href="/articles/cold-call-objection-handling/">Objection database →</a><a href="/resources/outbound-campaign-strategy/">Campaign strategy →</a></nav>
+    </div>
+  </aside>
 
   <section class="script-resource-content">
     <div class="container-wide script-resource-layout">

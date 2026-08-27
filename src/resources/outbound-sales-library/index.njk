@@ -1,0 +1,150 @@
+---
+layout: layouts/base.njk
+title: "B2B Outbound Sales Library | CallTeam"
+seoTitle: "B2B Outbound Sales Library: Scripts and Playbooks | CallTeam"
+description: "Search CallTeam's B2B outbound sales library for cold-call scripts, industry and buyer playbooks, objection handling, qualification and campaign strategy."
+canonicalUrl: "https://www.callteam.ca/resources/outbound-sales-library/"
+permalink: "/resources/outbound-sales-library/"
+modified: "2026-08-27"
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": "CallTeam B2B Outbound Sales Library",
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "mainEntity": { "@id": "{{ canonicalUrl }}#resources" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ canonicalUrl }}#resources",
+      "name": "B2B outbound sales scripts, playbooks and campaign guides",
+      "numberOfItems": {{ collections.articles.length + callScripts.length }},
+      "itemListElement": [
+        {%- for article in collections.articles | reverse %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ article.data.title | json | safe }}, "url": "{{ site.url }}{{ article.url }}" },
+        {%- endfor %}
+        {%- for script in callScripts %}
+        { "@type": "ListItem", "position": {{ collections.articles.length + loop.index }}, "name": {{ script.seoTitle | json | safe }}, "url": "{{ site.url }}/resources/cold-call-scripts/{{ script.slug }}/" }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ canonicalUrl }}" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="outbound-library-page outbound-library-home">
+  <nav class="breadcrumb-trail" aria-label="Breadcrumb"><div class="container-wide"><a href="/">Home</a> / <span>Outbound Sales Library</span></div></nav>
+
+  <section class="library-hero library-home-hero">
+    <div class="container-wide library-hero-grid">
+      <div>
+        <div class="section-label">CallTeam Outbound Sales Library</div>
+        <h1>Find the playbook for the next sales conversation.</h1>
+        <p>Search practical scripts, market and buyer playbooks, objection responses, qualification standards and campaign operating guides. Start with the problem you need to solve, then follow the connected path through the complete outbound system.</p>
+        <form class="library-hero-search" action="#library-finder" data-library-search-jump>
+          <label><span class="sr-only">Search the outbound sales library</span><input type="search" placeholder="Search a buyer, industry, objection or campaign problem" autocomplete="off"></label>
+          <button type="submit" class="btn-primary">Search the Library</button>
+        </form>
+      </div>
+      <aside class="library-stat-panel" aria-label="Library size">
+        <div><strong>{{ callScripts.length }}</strong><span>complete cold-call scripts</span></div>
+        <div><strong>{{ collections.articles.length }}</strong><span>outbound sales guides</span></div>
+        <p>Every resource stays at its original URL. The library creates clear paths around the work without moving or duplicating the underlying content.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="library-routes" aria-labelledby="library-routes-heading">
+    <div class="container-wide">
+      <div class="library-section-heading">
+        <div><div class="section-label">Choose your route</div><h2 id="library-routes-heading">One library. Five working collections.</h2></div>
+        <p>Use the collection closest to the task. Cross-links connect the strategy, people, talk track, resistance and quality standard behind it.</p>
+      </div>
+      <div class="library-route-grid">
+        <a href="/resources/cold-call-scripts/" class="library-route-card library-route-featured"><span>01 · Talk tracks</span><h3>Cold-Call Scripts</h3><p>Fifty complete, copyable B2B scripts with targeting, qualification, objections and campaign context.</p><strong>Browse the scripts →</strong></a>
+        <a href="/resources/outbound-playbooks/industries/" class="library-route-card"><span>02 · Markets</span><h3>Industry Playbooks</h3><p>Plan the message, triggers, discovery path and next step around how a specific market operates.</p><strong>Browse industry playbooks →</strong></a>
+        <a href="/resources/outbound-playbooks/buyers/" class="library-route-card"><span>03 · People</span><h3>Buyer Playbooks</h3><p>Reach CFOs, CIOs, operations leaders, procurement and multi-person buying committees.</p><strong>Browse buyer playbooks →</strong></a>
+        <a href="/articles/cold-call-objection-handling/" class="library-route-card"><span>04 · Resistance</span><h3>Objection Database</h3><p>Clarify timing, budget, incumbent, access, trust and change-risk objections without forcing the call.</p><strong>Open the database →</strong></a>
+        <a href="/resources/outbound-campaign-strategy/" class="library-route-card"><span>05 · Operating system</span><h3>Qualification and Campaign Strategy</h3><p>Build the ICP, calling motion, accepted-meeting standard, compliance, metrics and 90-day plan.</p><strong>Build the campaign system →</strong></a>
+        <a href="/articles/" class="library-route-card library-route-all"><span>Complete index</span><h3>All B2B Sales Articles</h3><p>Browse every article by its established SEO topic cluster while keeping the new task-based library structure.</p><strong>View the article index →</strong></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="library-campaign-map" aria-labelledby="main-campaign-map-heading">
+    <div class="container-wide">
+      <div class="section-label">Complete campaign map</div>
+      <h2 id="main-campaign-map-heading">A useful meeting starts before the dial and continues after the booking.</h2>
+      <ol>
+        <li><span>01</span><strong>Plan</strong><a href="/resources/outbound-campaign-strategy/">Set the system</a></li>
+        <li><span>02</span><strong>Target</strong><a href="/resources/outbound-playbooks/industries/">Choose market and buyers</a></li>
+        <li><span>03</span><strong>Call</strong><a href="/resources/cold-call-scripts/">Use the right talk track</a></li>
+        <li><span>04</span><strong>Handle</strong><a href="/articles/cold-call-objection-handling/">Understand resistance</a></li>
+        <li><span>05</span><strong>Qualify</strong><a href="/articles/cold-calling-metrics-campaign-quality/">Measure accepted quality</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="library-finder" class="library-finder-section library-global-finder" data-resource-finder data-limit="18">
+    <div class="container-wide">
+      <div class="library-section-heading">
+        <div><div class="section-label">Search all resources</div><h2>Find the most useful answer.</h2></div>
+        <p data-library-count aria-live="polite">Showing 18 of {{ collections.articles.length + callScripts.length }} resources</p>
+      </div>
+      <div class="library-finder-controls" role="search" aria-label="Search and filter the outbound sales library">
+        <label class="library-search"><span class="sr-only">Search the outbound sales library</span><input type="search" data-library-search placeholder="Search by buyer, industry, objection, objective or keyword" autocomplete="off"></label>
+        <div class="library-filter-row" role="group" aria-label="Resource collections">
+          <button type="button" class="is-active" data-library-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-library-filter="scripts" aria-pressed="false">Scripts</button>
+          <button type="button" data-library-filter="industries" aria-pressed="false">Industry</button>
+          <button type="button" data-library-filter="buyers" aria-pressed="false">Buyer</button>
+          <button type="button" data-library-filter="objections" aria-pressed="false">Objections</button>
+          <button type="button" data-library-filter="strategy" aria-pressed="false">Qualification and Strategy</button>
+        </div>
+      </div>
+      <div class="library-resource-grid">
+        {% for article in collections.articles | reverse %}
+          {% set articleSection = article.fileSlug | librarySectionFor %}
+          <article class="library-resource-card" data-library-card data-track="{{ articleSection.id }}" data-search="{{ article.data.title }} {{ article.data.description }} {{ article.data.category }} {{ article.data.cluster }} {% if article.data.topics %}{{ article.data.topics | join(' ') }}{% endif %}">
+            <div class="library-card-top"><span>{{ articleSection.shortLabel }}</span><small>{{ article.data.articleType or article.data.category }}</small></div>
+            <h3><a href="{{ article.url }}">{{ article.data.title }}</a></h3><p>{{ article.data.description }}</p>
+            <div class="library-card-footer"><span>Updated {{ article.data.modified | readableDate }}</span><a href="{{ article.url }}">Read guide →</a></div>
+          </article>
+        {% endfor %}
+        {% for script in callScripts %}
+          <article class="library-resource-card library-script-card" data-library-card data-track="scripts" data-search="{{ script.seoTitle }} {{ script.industry }} {{ script.buyers | join(' ') }} {{ script.objective }} {{ script.primaryKeyword }} {{ script.secondaryKeywords | join(' ') }}">
+            <div class="library-card-top"><span>Cold-Call Script</span><small>{{ script.category }}</small></div>
+            <h3><a href="/resources/cold-call-scripts/{{ script.slug }}/">{{ script.seoTitle }}</a></h3><p>{{ script.metaDescription }}</p>
+            <div class="library-card-footer"><span>{{ script.objective }}</span><a href="/resources/cold-call-scripts/{{ script.slug }}/">Open script →</a></div>
+          </article>
+        {% endfor %}
+      </div>
+      <p class="library-empty-state" data-library-empty hidden>No resources match that search. Try a buyer title, industry, objection or campaign problem.</p>
+      <div class="library-load-row"><button type="button" class="btn-secondary" data-library-more>Show all {{ collections.articles.length + callScripts.length }} resources</button></div>
+    </div>
+  </section>
+
+  <section class="cta-band library-final-cta">
+    <div class="section-label">Need execution, not another document?</div>
+    <h2>CallTeam can build the list, make the calls and qualify the right next step.</h2>
+    <p>We connect buyer signals, human conversation, disqualification, follow-up, meeting confirmation and sales-ready CRM handoff.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+  </section>
+</main>
+<script src="/assets/js/outbound-library.js" defer></script>

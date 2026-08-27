@@ -3,6 +3,8 @@ layout: layouts/base.njk
 ogType: article
 ---
 {% set articleCanonical = canonicalUrl or (site.url + page.url) %}
+{% set libraryParent = page.fileSlug | librarySectionFor %}
+{% set isObjectionDatabase = page.fileSlug == "cold-call-objection-handling" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -45,8 +47,10 @@ ogType: article
       "@id": "{{ articleCanonical }}#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
-        { "@type": "ListItem", "position": 2, "name": "Articles", "item": "{{ site.url }}/articles/" },
-        { "@type": "ListItem", "position": 3, "name": {{ title | json | safe }}, "item": "{{ articleCanonical }}" }
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
+        {% if isObjectionDatabase %}{ "@type": "ListItem", "position": 3, "name": "Objection Database", "item": "{{ articleCanonical }}" }
+        {% else %}{ "@type": "ListItem", "position": 3, "name": {{ libraryParent.label | json | safe }}, "item": "{{ site.url }}{{ libraryParent.url }}" },
+        { "@type": "ListItem", "position": 4, "name": {{ title | json | safe }}, "item": "{{ articleCanonical }}" }{% endif %}
       ]
     }{% if faqs and faqs.length > 0 %},
     {
@@ -81,6 +85,22 @@ ogType: article
         }{% if not loop.last %},{% endif %}
         {%- endfor %}
       ]
+    }{% endif %}{% if objectionEntries and objectionEntries.length > 0 %},
+    {
+      "@type": "ItemList",
+      "@id": "{{ articleCanonical }}#objections",
+      "name": "Common B2B cold call objections",
+      "numberOfItems": {{ objectionEntries.length }},
+      "itemListElement": [
+        {%- for item in objectionEntries %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "name": {{ item.title | json | safe }},
+          "url": "{{ articleCanonical }}#{{ item.id }}"
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
     }{% endif %}
   ]
 }
@@ -88,7 +108,9 @@ ogType: article
 
 <nav class="breadcrumb-trail" aria-label="Breadcrumb">
   <div class="container">
-    <a href="/">Home</a> / <a href="/articles/">Articles</a> / <span>{{ title }}</span>
+    <a href="/">Home</a> / <a href="/resources/outbound-sales-library/">Outbound Sales Library</a> /
+    {% if isObjectionDatabase %}<span>Objection Database</span>
+    {% else %}<a href="{{ libraryParent.url }}">{{ libraryParent.label }}</a> / <span>{{ title }}</span>{% endif %}
   </div>
 </nav>
 
@@ -132,11 +154,76 @@ ogType: article
   </section>
   {% endif %}
 
+  <aside class="article-library-context" aria-label="Outbound Sales Library location">
+    <div class="container article-library-context-inner">
+      <div>
+        <span>Part of the Outbound Sales Library</span>
+        <strong>{% if isObjectionDatabase %}Cold-Call Objection Database{% else %}{{ libraryParent.label }}{% endif %}</strong>
+        <p>Connect this guide to the scripts, buyer context and campaign system behind a qualified sales conversation.</p>
+      </div>
+      <nav aria-label="Related library collections">
+        {% if not isObjectionDatabase %}<a href="{{ libraryParent.url }}">Browse {{ libraryParent.shortLabel }} →</a>{% endif %}
+        <a href="/resources/cold-call-scripts/">Use a cold-call script →</a>
+        <a href="/resources/outbound-sales-library/">Explore the full library →</a>
+      </nav>
+    </div>
+  </aside>
+
+  {% if objectionEntries and objectionEntries.length > 0 %}
+  <section class="objection-directory" aria-labelledby="objection-directory-heading">
+    <div class="container-wide">
+      <div class="library-section-heading">
+        <div><div class="section-label">Objection database</div><h2 id="objection-directory-heading">Jump to the resistance you are hearing.</h2></div>
+        <p>Use the response as a decision framework, not a line to recite. Clarify the meaning, answer what is true and stop when the buyer gives a clear no.</p>
+      </div>
+      <div class="objection-directory-grid">
+        {% for item in objectionEntries %}<a href="#{{ item.id }}"><span>0{{ loop.index }}</span><strong>{{ item.title }}</strong><small>{{ item.signal }}</small></a>{% endfor %}
+      </div>
+      <a class="objection-deep-link" href="#objection-guides">Search every deeper objection and resistance guide →</a>
+    </div>
+  </section>
+  {% endif %}
+
   <section id="article-body">
     <div class="container article-content">
       {{ content | safe }}
     </div>
   </section>
+
+  {% if isObjectionDatabase %}
+  <section id="objection-guides" class="library-finder-section objection-guides" data-resource-finder data-limit="8">
+    <div class="container-wide">
+      <div class="library-section-heading">
+        <div><div class="section-label">Deeper objection guides</div><h2>Find the response behind the resistance.</h2></div>
+        <p data-library-count aria-live="polite">Showing 8 of {{ collections.libraryObjections.length - 1 }} resources</p>
+      </div>
+      <div class="library-finder-controls" role="search" aria-label="Search and filter objection-handling guides">
+        <label class="library-search"><span class="sr-only">Search objection guides</span><input type="search" data-library-search placeholder="Search timing, budget, incumbent, access or change risk" autocomplete="off"></label>
+        <div class="library-filter-row" role="group" aria-label="Objection topics">
+          <button type="button" class="is-active" data-library-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-library-filter="brush-offs" aria-pressed="false">Brush-Offs</button>
+          <button type="button" data-library-filter="timing-budget" aria-pressed="false">Timing and Budget</button>
+          <button type="button" data-library-filter="incumbent-status-quo" aria-pressed="false">Incumbent and Status Quo</button>
+          <button type="button" data-library-filter="change-risk" aria-pressed="false">Change Risk</button>
+          <button type="button" data-library-filter="access-trust" aria-pressed="false">Access and Trust</button>
+        </div>
+      </div>
+      <div class="library-resource-grid">
+        {% for resource in collections.libraryObjections | reverse %}
+        {% if resource.fileSlug != "cold-call-objection-handling" %}
+        <article class="library-resource-card" data-library-card data-track="objections" data-group="{{ resource.fileSlug | libraryGroupFor('objections') }}" data-search="{{ resource.data.title }} {{ resource.data.description }} {{ resource.data.category }} {% if resource.data.topics %}{{ resource.data.topics | join(' ') }}{% endif %}">
+          <div class="library-card-top"><span>Objection guide</span><small>{{ resource.data.category }}</small></div>
+          <h3><a href="{{ resource.url }}">{{ resource.data.title }}</a></h3><p>{{ resource.data.description }}</p>
+          <div class="library-card-footer"><span>Updated {{ resource.data.modified | readableDate }}</span><a href="{{ resource.url }}">Read guide →</a></div>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+      <p class="library-empty-state" data-library-empty hidden>No objection guides match that search. Try the buyer's actual words or the underlying constraint.</p>
+      <div class="library-load-row"><button type="button" class="btn-secondary" data-library-more>Show all {{ collections.libraryObjections.length - 1 }} resources</button></div>
+    </div>
+  </section>
+  {% endif %}
 
   {% if relatedResources and relatedResources.length > 0 %}
   <section class="article-connections article-related-resources" aria-labelledby="related-resources-heading">
@@ -271,3 +358,4 @@ ogType: article
   <p>{{ ctaText or "Book a free call and let's look at where your outbound pipeline is breaking." }}</p>
   <a href="{{ ctaUrl or 'https://calendly.com/hello-callteam/new-meeting' }}" class="btn-light" target="_blank" rel="noopener">Book a Free Call</a>
 </section>
+{% if isObjectionDatabase %}<script src="/assets/js/outbound-library.js" defer></script>{% endif %}

@@ -4,43 +4,57 @@ title: "Free B2B Cold Call Scripts for Appointment Setting | CallTeam"
 seoTitle: "Free B2B Cold Call Scripts for Appointment Setting | CallTeam"
 description: "Use 50 free B2B cold call scripts built from real outbound campaign approaches for appointment setting, demo booking, qualification and discovery."
 canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/"
-modified: "2026-08-23"
+modified: "2026-08-27"
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Free B2B Cold Call Scripts",
-  "url": "https://www.callteam.ca/resources/cold-call-scripts/",
-  "description": {{ description | json | safe }},
-  "isPartOf": { "@id": "https://www.callteam.ca/#website" },
-  "publisher": { "@id": "https://www.callteam.ca/#organization" },
-  "mainEntity": {
-    "@type": "ItemList",
-    "numberOfItems": {{ callScripts.length }},
-    "itemListElement": [
-      {% for script in callScripts %}{
-        "@type": "ListItem",
-        "position": {{ loop.index }},
-        "name": {{ script.seoTitle | json | safe }},
-        "url": "https://www.callteam.ca/resources/cold-call-scripts/{{ script.slug }}/"
-      }{% if not loop.last %},{% endif %}{% endfor %}
-    ]
-  }
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.callteam.ca/resources/cold-call-scripts/#webpage",
+      "name": "Free B2B Cold Call Scripts",
+      "url": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "https://www.callteam.ca/#website" },
+      "publisher": { "@id": "https://www.callteam.ca/#organization" },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ callScripts.length }},
+        "itemListElement": [
+          {% for script in callScripts %}{
+            "@type": "ListItem",
+            "position": {{ loop.index }},
+            "name": {{ script.seoTitle | json | safe }},
+            "url": "https://www.callteam.ca/resources/cold-call-scripts/{{ script.slug }}/"
+          }{% if not loop.last %},{% endif %}{% endfor %}
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "https://www.callteam.ca/resources/outbound-sales-library/" },
+        { "@type": "ListItem", "position": 3, "name": "Cold-Call Scripts", "item": "https://www.callteam.ca/resources/cold-call-scripts/" }
+      ]
+    }
+  ]
 }
 </script>
 
 <main class="script-library-page">
+  <nav class="breadcrumb-trail" aria-label="Breadcrumb"><div class="container-wide"><a href="/">Home</a> / <a href="/resources/outbound-sales-library/">Outbound Sales Library</a> / <span>Cold-Call Scripts</span></div></nav>
   <section class="script-hub-hero">
     <div class="container-wide script-hub-hero-grid">
       <div>
-        <div class="section-label">Free B2B cold call script library</div>
+        <div class="section-label">Outbound Sales Library · Cold-Call Scripts</div>
         <h1>Real cold call scripts for booking better conversations.</h1>
         <p class="script-hub-lead">Copy the exact structure, adapt it to your market, and use it for appointment setting, demo booking, qualification and discovery. Every resource explains the buyer, ICP, questions, objections and strategy behind the words.</p>
         <div class="script-hero-actions">
           <a href="#script-library" class="btn-primary">Browse All Free Scripts</a>
-          <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-secondary" target="_blank" rel="noopener">Build a Campaign With CallTeam</a>
+          <a href="/resources/outbound-sales-library/" class="btn-secondary">Explore the Full Library</a>
         </div>
       </div>
       <aside class="script-authority-card">
@@ -56,6 +70,15 @@ modified: "2026-08-23"
       </aside>
     </div>
   </section>
+
+  <nav class="script-library-paths" aria-label="Connected outbound sales resources">
+    <div class="container-wide">
+      <a href="/resources/outbound-playbooks/industries/"><span>Prepare the market</span><strong>Industry Playbooks →</strong></a>
+      <a href="/resources/outbound-playbooks/buyers/"><span>Prepare the role</span><strong>Buyer Playbooks →</strong></a>
+      <a href="/articles/cold-call-objection-handling/"><span>Prepare for resistance</span><strong>Objection Database →</strong></a>
+      <a href="/resources/outbound-campaign-strategy/"><span>Build the operating system</span><strong>Campaign Strategy →</strong></a>
+    </div>
+  </nav>
 
   <section id="script-library" class="script-library-section">
     <div class="container-wide">

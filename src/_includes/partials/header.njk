@@ -12,7 +12,7 @@
           <a href="{{ item.url }}" class="nav-group-link">{{ item.label }} <span aria-hidden="true">⌄</span></a>
           <div class="nav-dropdown" role="group" aria-label="{{ item.label }} menu">
             {% for child in item.children %}
-              <a href="{{ child.url }}">
+              <a href="{{ child.url }}"{% if child.featured %} class="nav-dropdown-featured"{% endif %}>
                 <strong>{{ child.label }}</strong>
                 <small>{{ child.description }}</small>
               </a>

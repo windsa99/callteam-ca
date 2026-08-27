@@ -1,0 +1,144 @@
+---
+layout: layouts/base.njk
+---
+{% if hubTrack == "industries" %}
+  {% set hubItems = collections.libraryIndustries %}
+{% elif hubTrack == "buyers" %}
+  {% set hubItems = collections.libraryBuyers %}
+{% else %}
+  {% set hubItems = collections.libraryStrategy %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "mainEntity": { "@id": "{{ canonicalUrl }}#resources" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ canonicalUrl }}#resources",
+      "name": {{ hubListName | json | safe }},
+      "numberOfItems": {{ hubItems.length }},
+      "itemListElement": [
+        {%- for resource in hubItems | reverse %}
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "name": {{ resource.data.title | json | safe }},
+          "url": "{{ site.url }}{{ resource.url }}"
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
+        { "@type": "ListItem", "position": 3, "name": {{ hubShortTitle | json | safe }}, "item": "{{ canonicalUrl }}" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="outbound-library-page library-track-page">
+  <nav class="breadcrumb-trail" aria-label="Breadcrumb">
+    <div class="container-wide"><a href="/">Home</a> / <a href="/resources/outbound-sales-library/">Outbound Sales Library</a> / <span>{{ hubShortTitle }}</span></div>
+  </nav>
+
+  <section class="library-hero library-track-hero">
+    <div class="container-wide library-hero-grid">
+      <div>
+        <div class="section-label">{{ hubEyebrow }}</div>
+        <h1>{{ hubHeading }}</h1>
+        <p>{{ hubLead }}</p>
+        <div class="library-hero-actions">
+          <a href="#resource-finder" class="btn-primary">Browse {{ hubItems.length }} Resources</a>
+          <a href="/resources/outbound-sales-library/" class="btn-secondary">Explore the Full Library</a>
+        </div>
+      </div>
+      <aside class="library-brief-card">
+        <span>Use this collection to</span>
+        <ul>
+          {% for item in hubUses %}<li>{{ item }}</li>{% endfor %}
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="library-quick-starts" aria-labelledby="quick-start-heading">
+    <div class="container-wide">
+      <div class="library-section-heading">
+        <div><div class="section-label">Start with the problem</div><h2 id="quick-start-heading">Choose the most useful path.</h2></div>
+        <p>{{ hubQuickIntro }}</p>
+      </div>
+      <div class="library-quick-grid">
+        {% for item in hubQuickStarts %}
+        <a href="{{ item.url }}" class="library-quick-card">
+          <span>0{{ loop.index }}</span><h3>{{ item.title }}</h3><p>{{ item.text }}</p><strong>{{ item.linkText or "Open the guide" }} →</strong>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="library-campaign-map" aria-labelledby="campaign-map-heading">
+    <div class="container-wide">
+      <div class="section-label">Campaign map</div>
+      <h2 id="campaign-map-heading">Connect the resource to the complete outbound system.</h2>
+      <ol>
+        <li><span>01</span><strong>Plan</strong><a href="/resources/outbound-campaign-strategy/">Campaign strategy</a></li>
+        <li><span>02</span><strong>Target</strong><a href="/resources/outbound-playbooks/industries/">Market and buyers</a></li>
+        <li><span>03</span><strong>Call</strong><a href="/resources/cold-call-scripts/">Talk tracks</a></li>
+        <li><span>04</span><strong>Handle</strong><a href="/articles/cold-call-objection-handling/">Live resistance</a></li>
+        <li><span>05</span><strong>Qualify</strong><a href="/articles/cold-calling-metrics-campaign-quality/">Quality and outcomes</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="resource-finder" class="library-finder-section" data-resource-finder data-limit="12">
+    <div class="container-wide">
+      <div class="library-section-heading">
+        <div><div class="section-label">Search this collection</div><h2>{{ hubFinderHeading }}</h2></div>
+        <p data-library-count aria-live="polite">Showing 12 of {{ hubItems.length }} resources</p>
+      </div>
+      <div class="library-finder-controls" role="search" aria-label="Search and filter {{ hubShortTitle }}">
+        <label class="library-search"><span class="sr-only">Search {{ hubShortTitle }}</span><input type="search" data-library-search placeholder="{{ hubSearchPlaceholder }}" autocomplete="off"></label>
+        <div class="library-filter-row" role="group" aria-label="Resource topics">
+          <button type="button" class="is-active" data-library-filter="all" aria-pressed="true">All</button>
+          {% for group in hubGroups %}<button type="button" data-library-filter="{{ group.id }}" aria-pressed="false">{{ group.label }}</button>{% endfor %}
+        </div>
+      </div>
+      <div class="library-resource-grid">
+        {% for resource in hubItems | reverse %}
+        <article class="library-resource-card" data-library-card data-track="{{ hubTrack }}" data-group="{{ resource.fileSlug | libraryGroupFor(hubTrack) }}" data-search="{{ resource.data.title }} {{ resource.data.description }} {{ resource.data.category }} {{ resource.data.cluster }} {% if resource.data.topics %}{{ resource.data.topics | join(' ') }}{% endif %}">
+          <div class="library-card-top"><span>{{ resource.data.articleType or "Guide" }}</span><small>{{ resource.data.category }}</small></div>
+          <h3><a href="{{ resource.url }}">{{ resource.data.title }}</a></h3>
+          <p>{{ resource.data.description }}</p>
+          <div class="library-card-footer"><span>Updated {{ resource.data.modified | readableDate }}</span><a href="{{ resource.url }}">Read guide →</a></div>
+        </article>
+        {% endfor %}
+      </div>
+      <p class="library-empty-state" data-library-empty hidden>No resources match that search. Try a buyer title, industry, objection or campaign problem.</p>
+      <div class="library-load-row"><button type="button" class="btn-secondary" data-library-more>Show all {{ hubItems.length }} resources</button></div>
+    </div>
+  </section>
+
+  <section class="cta-band library-final-cta">
+    <div class="section-label">Turn the playbook into execution</div>
+    <h2>{{ hubCtaHeading }}</h2><p>{{ hubCtaText }}</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+  </section>
+</main>
+<script src="/assets/js/outbound-library.js" defer></script>

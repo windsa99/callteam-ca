@@ -22,10 +22,14 @@
   { "label": "Pricing", "url": "/pricing/" },
   {
     "label": "Resources",
-    "url": "/resources/cold-call-scripts/",
+    "url": "/resources/outbound-sales-library/",
     "children": [
-      { "label": "Free Cold Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy field-tested B2B call scripts" },
-      { "label": "B2B Sales Articles", "url": "/articles/", "description": "Practical outbound and pipeline guides" }
+      { "label": "Outbound Sales Library", "url": "/resources/outbound-sales-library/", "description": "Find the right resource for every campaign stage", "featured": true },
+      { "label": "Cold-Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy 50 field-tested B2B call scripts" },
+      { "label": "Industry Playbooks", "url": "/resources/outbound-playbooks/industries/", "description": "Plan outbound for specific B2B markets" },
+      { "label": "Buyer Playbooks", "url": "/resources/outbound-playbooks/buyers/", "description": "Reach executives and buying committees" },
+      { "label": "Objection Database", "url": "/articles/cold-call-objection-handling/", "description": "Handle live resistance without forcing the call" },
+      { "label": "Qualification and Campaign Strategy", "url": "/resources/outbound-campaign-strategy/", "description": "Build the targeting, quality and operating system" }
     ]
   },
   { "label": "FAQ", "url": "/#faq" },

@@ -1,3 +1,5 @@
+const outboundLibrary = require("./src/_data/outboundLibrary");
+
 module.exports = function (eleventyConfig) {
   // Copy the assets folder as-is: CSS, logo, favicon, images
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -26,6 +28,34 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("scriptBySlug", (slug, scripts = []) => {
     return scripts.find((script) => script.slug === slug);
+  });
+
+  eleventyConfig.addFilter("librarySectionFor", (slug) => {
+    return outboundLibrary.primarySectionFor(slug);
+  });
+
+  eleventyConfig.addFilter("libraryHasTrack", (slug, track) => {
+    return outboundLibrary.hasTrack(slug, track);
+  });
+
+  eleventyConfig.addFilter("libraryGroupFor", (slug, track) => {
+    return outboundLibrary.groupFor(slug, track);
+  });
+
+  eleventyConfig.addCollection("libraryIndustries", (collectionApi) => {
+    return collectionApi.getFilteredByTag("articles").filter((item) => outboundLibrary.hasTrack(item.fileSlug, "industries"));
+  });
+
+  eleventyConfig.addCollection("libraryBuyers", (collectionApi) => {
+    return collectionApi.getFilteredByTag("articles").filter((item) => outboundLibrary.hasTrack(item.fileSlug, "buyers"));
+  });
+
+  eleventyConfig.addCollection("libraryObjections", (collectionApi) => {
+    return collectionApi.getFilteredByTag("articles").filter((item) => outboundLibrary.hasTrack(item.fileSlug, "objections"));
+  });
+
+  eleventyConfig.addCollection("libraryStrategy", (collectionApi) => {
+    return collectionApi.getFilteredByTag("articles").filter((item) => outboundLibrary.hasTrack(item.fileSlug, "strategy"));
   });
 
   return {
