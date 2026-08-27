@@ -27,6 +27,8 @@ ogType: article
       "datePublished": "{{ date }}T00:00:00Z",
       "dateModified": "{{ modified or date }}T00:00:00Z",
       "author": { "@id": "{{ site.organizationId }}" },
+      {% if reviewedBy %}"reviewedBy": { "@type": "Organization", "name": {{ reviewedBy | json | safe }} },
+      {% endif %}
       "publisher": { "@id": "{{ site.organizationId }}" },
       "isPartOf": { "@id": "{{ site.websiteId }}" },
       "articleSection": {{ (cluster or category or "B2B Sales") | json | safe }},
@@ -98,6 +100,7 @@ ogType: article
       <p class="article-deck">{{ description }}</p>
       <div class="article-byline">
         <span>Published by <a href="/">CallTeam</a></span>
+        {% if reviewedBy %}<span>Reviewed by {{ reviewedBy }}</span>{% endif %}
         <span>Published <time datetime="{{ date }}">{{ date | readableDate }}</time></span>
         <span>Updated <time datetime="{{ modified or date }}">{{ (modified or date) | readableDate }}</time></span>
       </div>
