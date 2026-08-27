@@ -13641,7 +13641,7 @@ footer .flinks a:hover {
   font-weight: 800;
 }
 .library-filter-row button:hover,
-.library-filter-row button.is-active { color: #fff; background: var(--library-navy); border-color: var(--library-navy); }
+.library-filter-row button.is-active { color: #fff; background: var(--library-navy, #0d171f); border-color: var(--library-navy, #0d171f); }
 
 .library-resource-grid {
   display: grid;
