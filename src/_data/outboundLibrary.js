@@ -42,14 +42,19 @@ const industrySlugs = [
   "b2b-lead-generation-software-companies",
   "cloud-migration-discovery-questions",
   "companies-outgrown-accounting-software",
+  "cybersecurity-outbound-sales-playbook",
   "displace-incumbent-erp-without-attacking-vendor",
   "erp-modernization-business-case-cfos",
+  "fintech-outbound-sales-playbook",
+  "healthcare-technology-outbound-sales-playbook",
   "how-event-software-companies-can-find-accounts-with-a-real-buying-window",
   "how-to-sell-ai-recruiting-software-without-triggering-the-wrong-objection",
   "how-to-sell-outsourced-accounting-without-leading-with-cheap-labor",
   "how-to-sell-outsourced-legal-support-without-blurring-the-line-with-legal-advice",
   "how-to-sell-private-credit-software-to-investment-and-operations-teams",
   "logistics-win-accounts-existing-carriers",
+  "logistics-sales-prospecting-playbook",
+  "manufacturing-outbound-sales-playbook",
   "security-guard-backup-vendor-coverage-opportunities",
   "sell-ai-voice-agents-with-human-escalation",
   "sell-booking-software-tour-operators-attractions",
@@ -71,6 +76,7 @@ const industrySlugs = [
 ];
 
 const buyerSlugs = [
+  "ceo-outbound-sales-playbook",
   "cloud-migration-discovery-questions",
   "cold-call-operations-leaders",
   "erp-modernization-business-case-cfos",
@@ -113,7 +119,8 @@ const objectionSlugs = [
   "sell-outsourced-services-vs-hiring",
   "sell-regulated-technology-compliance-claims",
   "sell-software-switching-too-disruptive",
-  "send-me-information-sales-objection"
+  "send-me-information-sales-objection",
+  "were-not-interested-cold-call-objection"
 ];
 
 const trackSets = {
@@ -137,9 +144,9 @@ function hasTrack(slug, track) {
 }
 
 function industryGroupFor(slug) {
-  if (/credit|income|payment|private-credit|accounting|finance|lending/.test(slug)) return "financial-services";
+  if (/fintech|credit|income|payment|private-credit|accounting|finance|lending/.test(slug)) return "financial-services";
   if (/health|medical|regulated/.test(slug)) return "healthcare-regulated";
-  if (/3pl|logistics|parcel|field|industrial|plant|operations/.test(slug)) return "operations-logistics";
+  if (/3pl|logistics|manufacturing|parcel|field|industrial|plant|operations/.test(slug)) return "operations-logistics";
   if (/legal|training|security-guard|pmo/.test(slug)) return "professional-services";
   if (/tourism|event|ecommerce|workforce|recruiting/.test(slug)) return "commerce-workforce";
   return "technology-software";
