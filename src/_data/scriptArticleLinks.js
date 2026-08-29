@@ -593,5 +593,125 @@ module.exports = {
       url: "/articles/prepare-b2b-software-security-review/",
       description: "Map the use case, data, identity, review owner and evidence path before a healthcare technology review begins."
     }
+  ],
+  "vciso-services-cold-call-script-ceos": [
+    {
+      title: "Cybersecurity Outbound Sales Playbook",
+      url: "/articles/cybersecurity-outbound-sales-playbook/",
+      description: "Build the cybersecurity ICP, evidence-led timing, buyer map, qualification standard and multi-stakeholder handoff around the vCISO motion."
+    },
+    {
+      title: "CEO Outbound Sales Playbook",
+      url: "/articles/ceo-outbound-sales-playbook/",
+      description: "Prepare an executive-level message that connects security ownership to a real business decision without leading with technical detail."
+    }
+  ],
+  "accounts-payable-automation-cold-call-script-cfos": [
+    {
+      title: "CFO Outbound Sales Playbook",
+      url: "/articles/get-meetings-with-cfos-b2b/",
+      description: "Connect the AP workflow to control, visibility, capacity and a decision Finance can evaluate."
+    },
+    {
+      title: "How to Sell Automation When the Manual Process Still Works",
+      url: "/articles/sell-automation-manual-process-still-works/",
+      description: "Respect the existing ERP and identify the invoice-volume or exception threshold that creates a reason to review automation."
+    }
+  ],
+  "ehr-software-cold-call-script-healthcare-cios": [
+    {
+      title: "Healthcare Technology Outbound Sales Playbook",
+      url: "/articles/healthcare-technology-outbound-sales-playbook/",
+      description: "Build the provider ICP, clinical workflow, buying committee, evidence rules and qualification standard around healthcare technology."
+    },
+    {
+      title: "CIO Outbound Sales Playbook",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Reach technology leaders with a bounded interoperability decision, clear technical ownership and a useful next meeting."
+    }
+  ],
+  "cmmc-compliance-services-cold-call-script-manufacturers": [
+    {
+      title: "Manufacturing Outbound Sales Playbook",
+      url: "/articles/manufacturing-outbound-sales-playbook/",
+      description: "Plan account selection, plant and corporate buyers, evidence control and qualification for complex manufacturing outreach."
+    },
+    {
+      title: "How to Sell Regulated Technology Without Unsupported Claims",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Keep CMMC language inside the provider's evidence, role and current official requirements."
+    }
+  ],
+  "warehouse-staffing-cold-call-script-logistics": [
+    {
+      title: "Logistics Sales Prospecting Playbook",
+      url: "/articles/logistics-sales-prospecting-playbook/",
+      description: "Build a logistics account model around facilities, capacity, timing, operating ownership and usable handoffs."
+    },
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Find backup, overflow, difficult-shift or future-review work without attacking the incumbent staffing agency."
+    }
+  ],
+  "workflow-automation-software-cold-call-script-coos": [
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Reach COOs and operating leaders with one workflow, baseline, owner and practical evaluation path."
+    },
+    {
+      title: "How to Sell Automation When the Manual Process Still Works",
+      url: "/articles/sell-automation-manual-process-still-works/",
+      description: "Find the volume, delay, exception or growth threshold that makes a working manual process worth reviewing."
+    }
+  ],
+  "revenue-operations-consulting-cold-call-script": [
+    {
+      title: "CEO Outbound Sales Playbook",
+      url: "/articles/ceo-outbound-sales-playbook/",
+      description: "Keep the revenue-process message at executive altitude and connect the diagnostic to a decision leadership owns."
+    },
+    {
+      title: "How to Build a B2B Sales Business Case",
+      url: "/articles/build-b2b-sales-business-case/",
+      description: "Define the operating baseline, cost of delay, evidence and implementation ownership before presenting a RevOps case."
+    }
+  ],
+  "payroll-software-cold-call-script-hr-operations": [
+    {
+      title: "How to Sell HR Technology Without Leading With AI",
+      url: "/articles/sell-hr-technology-without-leading-ai/",
+      description: "Anchor payroll outreach in the employee, manager and HR workflow instead of a technology trend."
+    },
+    {
+      title: "How to Sell Software When Switching Feels Too Disruptive",
+      url: "/articles/sell-software-switching-too-disruptive/",
+      description: "Turn payroll migration, testing, integration and change risk into a qualified evaluation plan."
+    }
+  ],
+  "ai-governance-software-cold-call-script-procurement": [
+    {
+      title: "Procurement Outbound Sales Playbook",
+      url: "/articles/reach-procurement-before-buying-process/",
+      description: "Reach procurement before the vendor decision is locked and map the intake, evidence and approval workflow."
+    },
+    {
+      title: "How to Prepare a Software Opportunity for Security Review",
+      url: "/articles/prepare-b2b-software-security-review/",
+      description: "Prepare the AI use case, data, access, controls, evidence and responsible owners before a platform review."
+    }
+  ],
+  "commercial-cleaning-cold-call-script-property-owners": [
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Use backup, benchmark, specialty-scope and future-review paths without insulting the incumbent cleaning company."
+    },
+    {
+      title: "How PropTech Companies Can Sell to Property Managers",
+      url: "/articles/sell-parcel-lockers-property-managers/",
+      description: "Understand property scope, operating ownership, site constraints and the practical path to a walkthrough or review."
+    }
   ]
 };

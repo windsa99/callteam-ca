@@ -8,6 +8,7 @@
     "check:about": "node scripts/validate-about-page.js",
     "check:scripts": "node scripts/validate-script-library.js",
     "check:script-content": "node scripts/validate-script-content.js",
+    "check:script-wave-ten": "node scripts/validate-script-wave-ten.js",
     "check:library": "node scripts/validate-outbound-library.js"
   },
   "devDependencies": {

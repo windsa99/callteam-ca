@@ -124,7 +124,7 @@ for (const file of articleFiles) {
   const section = outboundLibrary.primarySectionFor(slug);
   if (!section || !section.url || !section.id) fail(`Article has no primary library section: ${slug}`);
 }
-if (callScripts.length !== 50) fail(`Expected 50 cold-call scripts, found ${callScripts.length}.`);
+if (callScripts.length !== 60) fail(`Expected 60 cold-call scripts, found ${callScripts.length}.`);
 
 for (const route of requiredRoutes) {
   const file = routeToFile(route);

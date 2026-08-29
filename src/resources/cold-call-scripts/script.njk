@@ -38,7 +38,31 @@ eleventyComputed:
         { "@type": "ListItem", "position": 3, "name": "Cold-Call Scripts", "item": "https://www.callteam.ca/resources/cold-call-scripts/" },
         { "@type": "ListItem", "position": 4, "name": {{ resource.title | json | safe }}, "item": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/" }
       ]
-    }
+    }{% if resource.enhancedSchema %},
+    {
+      "@type": "HowTo",
+      "@id": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/#howto",
+      "name": {{ resource.seoTitle | json | safe }},
+      "description": {{ resource.metaDescription | json | safe }},
+      "url": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/",
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Open the conversation", "text": {{ resource.opening | json | safe }} },
+        { "@type": "HowToStep", "position": 2, "name": "Qualify the operating problem", "text": {{ resource.questions | join(' ') | json | safe }} },
+        { "@type": "HowToStep", "position": 3, "name": "Connect the problem to the offer", "text": {{ resource.bridge | json | safe }} },
+        { "@type": "HowToStep", "position": 4, "name": "Ask for a useful next step", "text": {{ resource.cta | json | safe }} }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/#faq",
+      "mainEntity": [
+        {% for faq in resource.faqs %}{
+          "@type": "Question",
+          "name": {{ faq.question | json | safe }},
+          "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | json | safe }} }
+        }{% if not loop.last %},{% endif %}{% endfor %}
+      ]
+    }{% endif %}
   ]
 }
 </script>
