@@ -1,14 +1,14 @@
 module.exports = {
   "b2b-saas-cold-call-script": [
     {
+      title: "B2B SaaS Outbound Sales Playbook",
+      url: "/articles/b2b-saas-outbound-sales-playbook/",
+      description: "Build the SaaS market, account, signal, buyer, call, qualification, demonstration and handoff system around one commercial motion."
+    },
+    {
       title: "How to Qualify a Software Demo Before Putting It on the Calendar",
       url: "/articles/qualify-software-demo-before-booking/",
       description: "Confirm the use case, current environment, buyer group and purpose before asking a product specialist to run a demonstration."
-    },
-    {
-      title: "How to Sell Software When Switching Feels Too Disruptive",
-      url: "/articles/sell-software-switching-too-disruptive/",
-      description: "Separate product value from migration, integration, adoption and internal change when the current platform remains workable."
     }
   ],
   "msp-cold-call-script-managed-it-services": [
@@ -61,14 +61,14 @@ module.exports = {
   ],
   "ai-customer-support-software-cold-call-script": [
     {
+      title: "AI Software Outbound Sales Playbook",
+      url: "/articles/ai-software-outbound-sales-playbook/",
+      description: "Build the AI use case, readiness model, claim boundaries, governance questions, pilot qualification and sales handoff."
+    },
+    {
       title: "How to Sell AI Voice Agents Without Claiming Humans Are Obsolete",
       url: "/articles/sell-ai-voice-agents-with-human-escalation/",
       description: "Define where AI assists, where it can complete a workflow and where a person must take control."
-    },
-    {
-      title: "How to Sell Automation When the Manual Process Still Works",
-      url: "/articles/sell-automation-manual-process-still-works/",
-      description: "Respect the working support process and build a controlled case around capacity, consistency and customer effort."
     }
   ],
   "compliance-training-software-cold-call-script": [
@@ -560,9 +560,9 @@ module.exports = {
   ],
   "hris-implementation-services-cold-call-script": [
     {
-      title: "How to Sell a Complex Implementation Without Pretending It Will Be Easy",
-      url: "/articles/sell-complex-software-implementation/",
-      description: "Set honest expectations around scope, ownership, stages, evidence and change during an HRIS rollout."
+      title: "HR Technology Outbound Sales Playbook",
+      url: "/articles/hr-technology-outbound-sales-playbook/",
+      description: "Build the workforce ICP, signal model, buyer group, qualification standard, governance path and demonstration handoff."
     },
     {
       title: "How to Sell HR Technology Without Leading With AI",
@@ -668,14 +668,14 @@ module.exports = {
   ],
   "revenue-operations-consulting-cold-call-script": [
     {
+      title: "Professional Services Outbound Sales Playbook",
+      url: "/articles/professional-services-outbound-sales-playbook/",
+      description: "Build the service line, client trigger, assignment, buyer map, proof, qualification and expert handoff."
+    },
+    {
       title: "CEO Outbound Sales Playbook",
       url: "/articles/ceo-outbound-sales-playbook/",
       description: "Keep the revenue-process message at executive altitude and connect the diagnostic to a decision leadership owns."
-    },
-    {
-      title: "How to Build a B2B Sales Business Case",
-      url: "/articles/build-b2b-sales-business-case/",
-      description: "Define the operating baseline, cost of delay, evidence and implementation ownership before presenting a RevOps case."
     }
   ],
   "payroll-software-cold-call-script-hr-operations": [
@@ -704,14 +704,14 @@ module.exports = {
   ],
   "commercial-cleaning-cold-call-script-property-owners": [
     {
+      title: "Commercial Real Estate Outbound Sales Playbook",
+      url: "/articles/commercial-real-estate-outbound-sales-playbook/",
+      description: "Build the property and portfolio ICP, site signals, buyer map, qualification path, walkthrough purpose and handoff."
+    },
+    {
       title: "How to Cold Call Prospects Who Already Have a Vendor",
       url: "/articles/cold-call-prospects-existing-vendor/",
       description: "Use backup, benchmark, specialty-scope and future-review paths without insulting the incumbent cleaning company."
-    },
-    {
-      title: "How PropTech Companies Can Sell to Property Managers",
-      url: "/articles/sell-parcel-lockers-property-managers/",
-      description: "Understand property scope, operating ownership, site constraints and the practical path to a walkthrough or review."
     }
   ]
 };
