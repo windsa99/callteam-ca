@@ -54,9 +54,9 @@ module.exports = {
       description: "Compare internal hiring, overflow, specialist and hybrid models while protecting the buyer's ownership of the process."
     },
     {
-      title: "How to Sell Against the Status Quo Without Attacking the Buyer",
-      url: "/articles/sell-against-status-quo-b2b/",
-      description: "Explore process, capacity and control gaps while respecting the operating model the buyer has built."
+      title: "How to Handle ‘We Tried Outsourcing Before’",
+      url: "/articles/we-tried-outsourcing-before-cold-call-objection/",
+      description: "Use the buyer's previous failure to define the targeting, management, qualification, visibility and handoff controls a new model must prove."
     }
   ],
   "ai-customer-support-software-cold-call-script": [
@@ -601,9 +601,9 @@ module.exports = {
       description: "Build the cybersecurity ICP, evidence-led timing, buyer map, qualification standard and multi-stakeholder handoff around the vCISO motion."
     },
     {
-      title: "CEO Outbound Sales Playbook",
-      url: "/articles/ceo-outbound-sales-playbook/",
-      description: "Prepare an executive-level message that connects security ownership to a real business decision without leading with technical detail."
+      title: "CISO Outbound Sales Playbook",
+      url: "/articles/ciso-outbound-sales-playbook/",
+      description: "Reach the security executive with a precise governance, assurance, risk or operating question and a qualified buying path."
     }
   ],
   "accounts-payable-automation-cold-call-script-cfos": [

@@ -118,7 +118,7 @@ for (const route of requiredRoutes) {
 }
 
 const articleFiles = walk(path.join(root, "src/articles"), ".md");
-if (articleFiles.length !== 105) fail(`Expected 105 article files, found ${articleFiles.length}.`);
+if (articleFiles.length !== 109) fail(`Expected 109 article files, found ${articleFiles.length}.`);
 for (const file of articleFiles) {
   const slug = path.basename(file, ".md");
   const section = outboundLibrary.primarySectionFor(slug);

@@ -18,7 +18,7 @@ const sections = {
     label: "Buyer Playbooks",
     shortLabel: "Buyer playbooks",
     url: "/resources/outbound-playbooks/buyers/",
-    description: "Practical guidance for reaching CFOs, CIOs, operations leaders, procurement, technical evaluators and buying committees."
+    description: "Practical guidance for reaching CFOs, CIOs, CISOs, operations leaders, procurement, technical evaluators and buying committees."
   },
   objections: {
     id: "objections",
@@ -82,6 +82,7 @@ const industrySlugs = [
 
 const buyerSlugs = [
   "ceo-outbound-sales-playbook",
+  "ciso-outbound-sales-playbook",
   "cloud-migration-discovery-questions",
   "cold-call-operations-leaders",
   "erp-modernization-business-case-cfos",
@@ -116,6 +117,8 @@ const objectionSlugs = [
   "how-to-handle-bad-timing-without-killing-b2b-opportunity",
   "how-to-handle-price-questions-before-sales-discovery-is-complete",
   "integration-concerns-software-sales-call",
+  "not-looking-to-add-anything-cold-call-objection",
+  "not-the-right-person-cold-call-objection",
   "no-budget-objection-b2b-cold-call",
   "not-a-priority-sales-objection",
   "sell-against-status-quo-b2b",
@@ -125,6 +128,7 @@ const objectionSlugs = [
   "sell-regulated-technology-compliance-claims",
   "sell-software-switching-too-disruptive",
   "send-me-information-sales-objection",
+  "we-tried-outsourcing-before-cold-call-objection",
   "were-not-interested-cold-call-objection"
 ];
 
@@ -159,7 +163,7 @@ function industryGroupFor(slug) {
 
 function buyerGroupFor(slug) {
   if (/cfo|finance|private-credit|income|payment/.test(slug)) return "finance";
-  if (/cio|cloud|software|technical|itsm|security/.test(slug)) return "technology";
+  if (/cio|ciso|cloud|software|technical|itsm|security/.test(slug)) return "technology";
   if (/operations|industrial|field|plant|logistics/.test(slug)) return "operations";
   if (/hr|recruiting|training|workforce/.test(slug)) return "people";
   if (/procurement|renewal|buying-committee|multi-thread/.test(slug)) return "committee";
@@ -170,7 +174,7 @@ function buyerGroupFor(slug) {
 function objectionGroupFor(slug) {
   if (/send-me|not-interested|busy|information/.test(slug)) return "brush-offs";
   if (/budget|priority|timing|price|urgency/.test(slug)) return "timing-budget";
-  if (/vendor|provider|contract|status-quo|manual|hiring/.test(slug)) return "incumbent-status-quo";
+  if (/vendor|provider|contract|status-quo|manual|hiring|outsourc|not-looking-to-add/.test(slug)) return "incumbent-status-quo";
   if (/risk|switch|implementation|integration|compliance/.test(slug)) return "change-risk";
   if (/number|gatekeeper|right-person/.test(slug)) return "access-trust";
   return "core-method";

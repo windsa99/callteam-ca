@@ -5,7 +5,7 @@ title: "Cold Call Objection Handling Database: 10 B2B Responses"
 seoTitle: "Cold Call Objection Handling Database | CallTeam"
 description: "Use a practical B2B cold call objection database to understand common resistance, ask the right next question and decide when to continue or stop."
 date: "2026-08-16"
-modified: "2026-08-27"
+modified: "2026-08-31"
 category: "Cold Call Objection Handling"
 permalink: "/articles/cold-call-objection-handling/"
 canonicalUrl: "https://www.callteam.ca/articles/cold-call-objection-handling/"
@@ -212,6 +212,8 @@ Most mature B2B accounts already use something. Attacking the incumbent forces t
 
 The [logistics cold call script](/resources/cold-call-scripts/logistics-overflow-drayage-cold-call-script/) uses this logic by positioning backup capacity for difficult lanes instead of pretending the buyer should replace working carrier relationships.
 
+If the buyer's resistance comes from a failed external provider or outsourced sales program, use the [“we tried outsourcing before” response guide](/articles/we-tried-outsourcing-before-cold-call-objection/) to identify the exact control that broke before discussing a new model.
+
 <span id="under-contract" class="library-anchor-target"></span>
 
 ### 5. “We are under contract.”
@@ -242,6 +244,8 @@ This response is often accurate. The useful question is what makes the timing wr
 
 Do not manufacture urgency. A known renewal, budget cycle, audit, launch, or capacity event may create a legitimate follow-up point. If no trigger exists, close the record cleanly.
 
+When the buyer's exact constraint is a freeze on new software, vendors, services, headcount, or projects, use the [“we're not looking to add anything” response guide](/articles/not-looking-to-add-anything-cold-call-objection/) instead of treating it as a generic priority issue.
+
 <span id="wrong-person" class="library-anchor-target"></span>
 
 ### 8. “I am not the right person.”
@@ -251,6 +255,8 @@ Wrong-person calls are normal in complex organizations. The caller should make r
 > Thanks for telling me. Which team normally owns this, and is there a role you would suggest I start with?
 
 Ask for a name only when the conversation supports it. Record the role correction even if no referral is given. That information can improve the entire account map.
+
+The [complete wrong-person response guide](/articles/not-the-right-person-cold-call-objection/) explains role-first routing, referral permission, buying-committee context, CRM updates, and the stop rule.
 
 <span id="change-risk" class="library-anchor-target"></span>
 
