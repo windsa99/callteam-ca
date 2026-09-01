@@ -713,5 +713,125 @@ module.exports = {
       url: "/articles/cold-call-prospects-existing-vendor/",
       description: "Use backup, benchmark, specialty-scope and future-review paths without insulting the incumbent cleaning company."
     }
+  ],
+  "banking-software-cold-call-script-bank-executives": [
+    {
+      title: "FinTech Outbound Sales Playbook",
+      url: "/articles/fintech-outbound-sales-playbook/",
+      description: "Build the institution ICP, financial workflow, executive buyer map, evidence standard and qualified technology handoff."
+    },
+    {
+      title: "CEO Outbound Sales Playbook",
+      url: "/articles/ceo-outbound-sales-playbook/",
+      description: "Connect a banking workflow to an executive decision without turning the call into a broad platform pitch."
+    }
+  ],
+  "insurance-claims-automation-cold-call-script": [
+    {
+      title: "AI Software Outbound Sales Playbook",
+      url: "/articles/ai-software-outbound-sales-playbook/",
+      description: "Qualify a controlled automation use case, approved human boundary, evidence requirement and pilot path."
+    },
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Follow one claims workflow, operating owner and measure before proposing a software demonstration."
+    }
+  ],
+  "telecom-services-cold-call-script-cios": [
+    {
+      title: "CIO Outbound Sales Playbook",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Reach technology leaders with a bounded infrastructure job, current environment and decision window."
+    },
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Use backup, regional, service, contract and future-review paths without attacking the incumbent carrier."
+    }
+  ],
+  "utility-cybersecurity-cold-call-script-cisos": [
+    {
+      title: "Cybersecurity Outbound Sales Playbook",
+      url: "/articles/cybersecurity-outbound-sales-playbook/",
+      description: "Build evidence-controlled outreach around a defined security job, buyer group and responsible next step."
+    },
+    {
+      title: "CISO Outbound Sales Playbook",
+      url: "/articles/ciso-outbound-sales-playbook/",
+      description: "Reach security executives without inventing exposure, requesting sensitive details or leading with fear."
+    }
+  ],
+  "construction-staffing-cold-call-script-employers": [
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Connect the staffing conversation to a project, trade, site, schedule and accountable operating owner."
+    },
+    {
+      title: "How to Handle We Tried Outsourcing Before",
+      url: "/articles/we-tried-outsourcing-before-cold-call-objection/",
+      description: "Diagnose what failed in a prior staffing relationship and define the evidence required from another provider."
+    }
+  ],
+  "restaurant-pos-software-cold-call-script": [
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Reach restaurant operators through one location workflow, operating condition and measurable review purpose."
+    },
+    {
+      title: "How to Sell Software When Switching Feels Too Disruptive",
+      url: "/articles/sell-software-switching-too-disruptive/",
+      description: "Qualify data, integrations, training, pilot locations, support and rollout before minimizing POS change risk."
+    }
+  ],
+  "sales-enablement-software-cold-call-script": [
+    {
+      title: "B2B SaaS Outbound Sales Playbook",
+      url: "/articles/b2b-saas-outbound-sales-playbook/",
+      description: "Build the revenue-team ICP, seller workflow, software proof, demonstration purpose and qualified handoff."
+    },
+    {
+      title: "How to Handle We Are Not Looking to Add Anything",
+      url: "/articles/not-looking-to-add-anything-cold-call-objection/",
+      description: "Determine whether the enablement job belongs inside the current stack before defending another platform."
+    }
+  ],
+  "fleet-management-software-cold-call-script": [
+    {
+      title: "Logistics Sales Prospecting Playbook",
+      url: "/articles/logistics-sales-prospecting-playbook/",
+      description: "Build the fleet and transportation ICP, operating trigger, buyer map and workflow-specific outreach system."
+    },
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Follow a maintenance, compliance, utilization or driver exception from data to accountable action."
+    }
+  ],
+  "vendor-management-software-cold-call-script-procurement": [
+    {
+      title: "Procurement Outbound Sales Playbook",
+      url: "/articles/reach-procurement-before-buying-process/",
+      description: "Map supplier intake, evidence, approvals, risk owners and the buying process before a platform demonstration."
+    },
+    {
+      title: "How to Handle We Are Not Looking to Add Anything",
+      url: "/articles/not-looking-to-add-anything-cold-call-objection/",
+      description: "Test whether the vendor workflow needs process improvement, existing-system changes or a new capability."
+    }
+  ],
+  "commercial-insurance-cold-call-script-business-owners": [
+    {
+      title: "CEO Outbound Sales Playbook",
+      url: "/articles/ceo-outbound-sales-playbook/",
+      description: "Reach owners with a verified business change, restrained question and clear commercial review purpose."
+    },
+    {
+      title: "How to Cold Call Prospects Who Already Have a Vendor",
+      url: "/articles/cold-call-prospects-existing-vendor/",
+      description: "Respect the incumbent broker and use renewal, benchmark, specialist and future-review paths responsibly."
+    }
   ]
 };

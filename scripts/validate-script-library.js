@@ -14,6 +14,7 @@ const waveSevenIds = new Set(["CT-R036", "CT-R037", "CT-R038", "CT-R039", "CT-R0
 const waveEightIds = new Set(["CT-R041", "CT-R042", "CT-R043", "CT-R044", "CT-R045"]);
 const waveNineIds = new Set(["CT-R046", "CT-R047", "CT-R048", "CT-R049", "CT-R050"]);
 const waveTenIds = new Set(["CT-R051", "CT-R052", "CT-R053", "CT-R054", "CT-R055", "CT-R056", "CT-R057", "CT-R058", "CT-R059", "CT-R060"]);
+const waveElevenIds = new Set(["CT-R061", "CT-R062", "CT-R063", "CT-R064", "CT-R065", "CT-R066", "CT-R067", "CT-R068", "CT-R069", "CT-R070"]);
 const forbiddenPublicTerms = ["Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite", "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz"];
 
 function assert(condition, message) {
@@ -71,7 +72,7 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
-assert(scripts.length === 60, `Expected 60 scripts, found ${scripts.length}.`);
+assert(scripts.length === 70, `Expected 70 scripts, found ${scripts.length}.`);
 assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
 assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
 assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");
@@ -108,8 +109,8 @@ for (const script of scripts) {
   assert(script.related.length === 3, `${script.slug}: expected three related scripts.`);
   assert(script.related.every((slug) => scripts.some((candidate) => candidate.slug === slug)), `${script.slug}: unresolved related-script slug.`);
   assert(script.relevantServices.length === 3, `${script.slug}: expected three relevant services.`);
-  if (newResourceIds.has(script.id) || waveFourIds.has(script.id) || waveFiveIds.has(script.id) || waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id)) {
-    const expectedDate = waveTenIds.has(script.id) ? "2026-08-29" : waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) ? "2026-08-23" : waveFiveIds.has(script.id) || waveFourIds.has(script.id) ? "2026-08-17" : "2026-08-16";
+  if (newResourceIds.has(script.id) || waveFourIds.has(script.id) || waveFiveIds.has(script.id) || waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id) || waveElevenIds.has(script.id)) {
+    const expectedDate = waveElevenIds.has(script.id) ? "2026-09-01" : waveTenIds.has(script.id) ? "2026-08-29" : waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) ? "2026-08-23" : waveFiveIds.has(script.id) || waveFourIds.has(script.id) ? "2026-08-17" : "2026-08-16";
     assert(script.publishedDate === expectedDate, `${script.slug}: incorrect publication date.`);
     assert(script.campaignPlan, `${script.slug}: campaign plan missing.`);
     assert(script.faqs && script.faqs.length >= 2, `${script.slug}: campaign FAQs missing.`);
@@ -117,12 +118,12 @@ for (const script of scripts) {
     assert(html.includes("Using this script in a real outbound campaign"), `${script.slug}: campaign FAQ section missing.`);
     forbiddenPublicTerms.forEach((term) => assert(!new RegExp(term, "i").test(html), `${script.slug}: private identifier ${term} found.`));
   }
-  if (waveFourIds.has(script.id) || waveFiveIds.has(script.id) || waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id)) {
+  if (waveFourIds.has(script.id) || waveFiveIds.has(script.id) || waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id) || waveElevenIds.has(script.id)) {
     assert(script.aboutCallTeam, `${script.slug}: About CallTeam authority section missing.`);
     assert(html.includes("About CallTeam"), `${script.slug}: About CallTeam section was not rendered.`);
     assert(html.includes("B2B lead generation"), `${script.slug}: B2B lead-generation positioning is missing.`);
   }
-  if (waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id)) {
+  if (waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id) || waveElevenIds.has(script.id)) {
     assert(script.copyLabel === "Copy this script", `${script.slug}: contextual copy CTA label is incorrect.`);
     assert(html.includes(">Copy this script<"), `${script.slug}: exact Copy this script CTA is missing.`);
     assert(script.signalRadar && script.signalRadar.signals.length === 4, `${script.slug}: Buyer Signal Radar section is incomplete.`);
@@ -132,7 +133,7 @@ for (const script of scripts) {
     assert(script.faqs.length >= 5, `${script.slug}: expected five campaign FAQs.`);
     assert(html.includes('id="about-callteam"'), `${script.slug}: About CallTeam anchor is missing.`);
   }
-  if (waveTenIds.has(script.id)) {
+  if (waveTenIds.has(script.id) || waveElevenIds.has(script.id)) {
     assert(html.includes('"@type": "HowTo"'), `${script.slug}: HowTo script structured data is missing.`);
     assert(html.includes('"@type": "FAQPage"'), `${script.slug}: FAQ structured data is missing.`);
     assert(Boolean(scriptArticleLinks[script.slug] && scriptArticleLinks[script.slug].length >= 2), `${script.slug}: supporting industry, buyer or objection links are missing.`);

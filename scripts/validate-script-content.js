@@ -6,6 +6,7 @@ const waveSevenIds = new Set(["CT-R036", "CT-R037", "CT-R038", "CT-R039", "CT-R0
 const waveEightIds = new Set(["CT-R041", "CT-R042", "CT-R043", "CT-R044", "CT-R045"]);
 const waveNineIds = new Set(["CT-R046", "CT-R047", "CT-R048", "CT-R049", "CT-R050"]);
 const waveTenIds = new Set(["CT-R051", "CT-R052", "CT-R053", "CT-R054", "CT-R055", "CT-R056", "CT-R057", "CT-R058", "CT-R059", "CT-R060"]);
+const waveElevenIds = new Set(["CT-R061", "CT-R062", "CT-R063", "CT-R064", "CT-R065", "CT-R066", "CT-R067", "CT-R068", "CT-R069", "CT-R070"]);
 const forbidden = [
   "Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite",
   "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz",
@@ -45,7 +46,7 @@ for (const script of scripts) {
   assert(script.personalization.length >= 4, `${script.slug}: needs at least four personalization instructions.`);
   const publicText = JSON.stringify(script);
   forbidden.forEach((term) => assert(!new RegExp(term, "i").test(publicText), `${script.slug}: private identifier ${term} found.`));
-  if (waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id)) {
+  if (waveSixIds.has(script.id) || waveSevenIds.has(script.id) || waveEightIds.has(script.id) || waveNineIds.has(script.id) || waveTenIds.has(script.id) || waveElevenIds.has(script.id)) {
     assert(!publicText.includes("—"), `${script.slug}: em dash found in new public content.`);
     assert(script.whyBreakdown.length === 4, `${script.slug}: needs four distinct why-it-works points.`);
     assert(script.signalRadar && script.signalRadar.signals.length === 4, `${script.slug}: needs four Buyer Signal Radar inputs.`);
@@ -56,7 +57,7 @@ for (const script of scripts) {
       .filter((sentence) => sentence.length > 50);
     assert(new Set(sentences).size === sentences.length, `${script.slug}: repeated About CallTeam sentence found.`);
   }
-  if (waveTenIds.has(script.id)) {
+  if (waveTenIds.has(script.id) || waveElevenIds.has(script.id)) {
     assert(script.enhancedSchema === true, `${script.slug}: enhanced structured-data flag is missing.`);
     assert(script.faqs.length === 5, `${script.slug}: expected five buyer-intent FAQs.`);
     assert(script.questions.length === 4, `${script.slug}: expected four focused qualification questions.`);
