@@ -316,7 +316,7 @@ ogType: article
   {% endif %}
 
   <section class="article-about" aria-labelledby="about-callteam-heading">
-    <div class="container signature-block">
+    <div class="container signature-block{% if aboutParagraphSpacing %} signature-block--spaced{% endif %}">
       <div class="section-label">About CallTeam</div>
       <h2 id="about-callteam-heading">{{ aboutHeading or "A global B2B outbound sales execution company." }}</h2>
       <p>{{ aboutCopyA or "CallTeam helps founders, revenue leaders, and sales teams create qualified conversations with the right business buyers. Its services include B2B lead generation, human-led cold calling, appointment setting, outsourced SDR execution, lead reactivation, AI-assisted lead generation, AI GTM services, US market entry sales, and SDR training." }}</p>
