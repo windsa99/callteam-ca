@@ -716,9 +716,9 @@ module.exports = {
   ],
   "banking-software-cold-call-script-bank-executives": [
     {
-      title: "FinTech Outbound Sales Playbook",
-      url: "/articles/fintech-outbound-sales-playbook/",
-      description: "Build the institution ICP, financial workflow, executive buyer map, evidence standard and qualified technology handoff."
+      title: "Banking Technology Sales Playbook",
+      url: "/articles/banking-technology-sales-playbook/",
+      description: "Build the institution ICP, banking workflow, buyer committee, signal model, qualification standard and technology handoff."
     },
     {
       title: "CEO Outbound Sales Playbook",
@@ -752,9 +752,9 @@ module.exports = {
   ],
   "utility-cybersecurity-cold-call-script-cisos": [
     {
-      title: "Cybersecurity Outbound Sales Playbook",
-      url: "/articles/cybersecurity-outbound-sales-playbook/",
-      description: "Build evidence-controlled outreach around a defined security job, buyer group and responsible next step."
+      title: "Energy Technology Outbound Sales Playbook",
+      url: "/articles/energy-technology-outbound-sales-playbook/",
+      description: "Build the energy segment, asset job, operating buyer map, evidence standard and qualified technical handoff."
     },
     {
       title: "CISO Outbound Sales Playbook",
@@ -764,9 +764,9 @@ module.exports = {
   ],
   "construction-staffing-cold-call-script-employers": [
     {
-      title: "Operations Leader Outbound Sales Playbook",
-      url: "/articles/cold-call-operations-leaders/",
-      description: "Connect the staffing conversation to a project, trade, site, schedule and accountable operating owner."
+      title: "Construction Technology Outbound Sales Playbook",
+      url: "/articles/construction-technology-outbound-sales-playbook/",
+      description: "Connect construction outreach to company fit, project signals, field workflows, buyer ownership and implementation reality."
     },
     {
       title: "How to Handle We Tried Outsourcing Before",

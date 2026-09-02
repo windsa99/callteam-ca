@@ -38,6 +38,7 @@ const sections = {
 
 const industrySlugs = [
   "3pl-prospect-ecommerce-brands-existing-fulfillment",
+  "banking-technology-sales-playbook",
   "b2b-appointment-setting-saas-companies",
   "b2b-lead-generation-software-companies",
   "b2b-saas-outbound-sales-playbook",
@@ -59,6 +60,8 @@ const industrySlugs = [
   "manufacturing-outbound-sales-playbook",
   "ai-software-outbound-sales-playbook",
   "commercial-real-estate-outbound-sales-playbook",
+  "construction-technology-outbound-sales-playbook",
+  "energy-technology-outbound-sales-playbook",
   "professional-services-outbound-sales-playbook",
   "security-guard-backup-vendor-coverage-opportunities",
   "sell-ai-voice-agents-with-human-escalation",
@@ -82,9 +85,11 @@ const industrySlugs = [
 
 const buyerSlugs = [
   "ceo-outbound-sales-playbook",
+  "chro-outbound-sales-playbook",
   "ciso-outbound-sales-playbook",
   "cloud-migration-discovery-questions",
   "cold-call-operations-leaders",
+  "coo-outbound-sales-playbook",
   "erp-modernization-business-case-cfos",
   "executive-discovery-questions-for-cfos-cios-and-coos",
   "get-meetings-with-cfos-b2b",
@@ -153,9 +158,9 @@ function hasTrack(slug, track) {
 }
 
 function industryGroupFor(slug) {
-  if (/fintech|credit|income|payment|private-credit|accounting|finance|lending/.test(slug)) return "financial-services";
+  if (/banking|fintech|credit|income|payment|private-credit|accounting|finance|lending/.test(slug)) return "financial-services";
   if (/health|medical|regulated/.test(slug)) return "healthcare-regulated";
-  if (/3pl|logistics|manufacturing|parcel|field|industrial|plant|operations/.test(slug)) return "operations-logistics";
+  if (/3pl|construction|energy|logistics|manufacturing|parcel|field|industrial|plant|operations/.test(slug)) return "operations-logistics";
   if (/legal|training|security-guard|pmo/.test(slug)) return "professional-services";
   if (/tourism|event|ecommerce|workforce|recruiting/.test(slug)) return "commerce-workforce";
   return "technology-software";
@@ -164,8 +169,8 @@ function industryGroupFor(slug) {
 function buyerGroupFor(slug) {
   if (/cfo|finance|private-credit|income|payment/.test(slug)) return "finance";
   if (/cio|ciso|cloud|software|technical|itsm|security/.test(slug)) return "technology";
-  if (/operations|industrial|field|plant|logistics/.test(slug)) return "operations";
-  if (/hr|recruiting|training|workforce/.test(slug)) return "people";
+  if (/coo|operations|industrial|field|plant|logistics/.test(slug)) return "operations";
+  if (/chro|hr|recruiting|training|workforce/.test(slug)) return "people";
   if (/procurement|renewal|buying-committee|multi-thread/.test(slug)) return "committee";
   if (/handoff|qualification|appointment|sales-leader/.test(slug)) return "sales-leadership";
   return "executive";
