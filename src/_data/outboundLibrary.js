@@ -50,6 +50,7 @@ const industrySlugs = [
   "fintech-outbound-sales-playbook",
   "healthcare-technology-outbound-sales-playbook",
   "hr-technology-outbound-sales-playbook",
+  "insurance-technology-outbound-sales-playbook",
   "how-event-software-companies-can-find-accounts-with-a-real-buying-window",
   "how-to-sell-ai-recruiting-software-without-triggering-the-wrong-objection",
   "how-to-sell-outsourced-accounting-without-leading-with-cheap-labor",
@@ -80,7 +81,8 @@ const industrySlugs = [
   "sell-outsourced-pmo-existing-project-tools",
   "sell-parcel-lockers-property-managers",
   "sell-payment-processing-differentiate",
-  "sell-software-development-regulated-healthcare"
+  "sell-software-development-regulated-healthcare",
+  "telecom-outbound-sales-playbook"
 ];
 
 const buyerSlugs = [
