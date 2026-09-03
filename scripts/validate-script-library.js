@@ -15,6 +15,7 @@ const waveEightIds = new Set(["CT-R041", "CT-R042", "CT-R043", "CT-R044", "CT-R0
 const waveNineIds = new Set(["CT-R046", "CT-R047", "CT-R048", "CT-R049", "CT-R050"]);
 const waveTenIds = new Set(["CT-R051", "CT-R052", "CT-R053", "CT-R054", "CT-R055", "CT-R056", "CT-R057", "CT-R058", "CT-R059", "CT-R060"]);
 const waveElevenIds = new Set(["CT-R061", "CT-R062", "CT-R063", "CT-R064", "CT-R065", "CT-R066", "CT-R067", "CT-R068", "CT-R069", "CT-R070"]);
+const waveTwelveIds = new Set(["CT-R071", "CT-R072", "CT-R073", "CT-R074", "CT-R075", "CT-R076", "CT-R077", "CT-R078", "CT-R079", "CT-R080"]);
 const forbiddenPublicTerms = ["Beyonk", "Vynyl", "UnDesked", "SeQent", "QuickBooks", "Acumatica", "NetSuite", "JPMorgan", "JP Morgan", "Chase Payment", "Software Lens", "Flowfinity", "Concierto", "Trianz"];
 
 function assert(condition, message) {
@@ -72,7 +73,7 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
-assert(scripts.length === 70, `Expected 70 scripts, found ${scripts.length}.`);
+assert(scripts.length === 80, `Expected 80 scripts, found ${scripts.length}.`);
 assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
 assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
 assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");

@@ -833,5 +833,125 @@ module.exports = {
       url: "/articles/cold-call-prospects-existing-vendor/",
       description: "Respect the incumbent broker and use renewal, benchmark, specialist and future-review paths responsibly."
     }
+  ],
+  "policy-administration-software-cold-call-script-insurance-cios": [
+    {
+      title: "Insurance Technology Outbound Sales Playbook",
+      url: "/articles/insurance-technology-outbound-sales-playbook/",
+      description: "Build carrier segmentation, insurance workflow qualification, buyer mapping and governed technology handoff."
+    },
+    {
+      title: "CIO Outbound Sales Playbook",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Reach technology leaders around a defined system decision, architecture boundary and evidence-led next step."
+    }
+  ],
+  "insurance-fraud-detection-software-cold-call-script": [
+    {
+      title: "Insurance Technology Outbound Sales Playbook",
+      url: "/articles/insurance-technology-outbound-sales-playbook/",
+      description: "Qualify insurance workflows, data, governance, operating ownership and carrier decision paths."
+    },
+    {
+      title: "How to Sell Regulated Technology",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Keep fraud, risk and regulatory language inside approved evidence without making unsupported claims."
+    }
+  ],
+  "sd-wan-cold-call-script-network-it-leaders": [
+    {
+      title: "Telecom Outbound Sales Playbook",
+      url: "/articles/telecom-outbound-sales-playbook/",
+      description: "Build telecom account selection, network buyer mapping, architecture qualification and sales handoff."
+    },
+    {
+      title: "CIO Outbound Sales Playbook",
+      url: "/articles/get-meetings-with-cios-it-leaders/",
+      description: "Reach CIOs around a verified technology decision without leading with infrastructure jargon."
+    }
+  ],
+  "ucaas-cold-call-script-it-leaders": [
+    {
+      title: "Telecom Outbound Sales Playbook",
+      url: "/articles/telecom-outbound-sales-playbook/",
+      description: "Connect communications workflows, users, network context, contracts and telecom buying roles."
+    },
+    {
+      title: "Procurement Outbound Sales Playbook",
+      url: "/articles/reach-procurement-before-buying-process/",
+      description: "Qualify renewals, supplier review, commercial evidence and the communications buying path."
+    }
+  ],
+  "energy-management-software-cold-call-script-facilities": [
+    {
+      title: "Energy Technology Outbound Sales Playbook",
+      url: "/articles/energy-technology-outbound-sales-playbook/",
+      description: "Build energy-market segmentation, asset and facility research, buyer mapping and operating qualification."
+    },
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Turn one facility condition into a responsible operating question, owner map and next step."
+    }
+  ],
+  "renewable-energy-asset-management-software-cold-call-script": [
+    {
+      title: "Energy Technology Outbound Sales Playbook",
+      url: "/articles/energy-technology-outbound-sales-playbook/",
+      description: "Segment renewable assets, operating jobs, signals, buyers and qualified evaluation paths."
+    },
+    {
+      title: "How to Sell Field Inspection Software",
+      url: "/articles/sell-field-inspection-software-operations-quality/",
+      description: "Qualify field evidence, exceptions, corrective ownership and operating action across distributed assets."
+    }
+  ],
+  "construction-project-management-software-cold-call-script": [
+    {
+      title: "Construction Technology Outbound Sales Playbook",
+      url: "/articles/construction-technology-outbound-sales-playbook/",
+      description: "Build contractor segmentation, project signals, field and office buyer maps, and implementation qualification."
+    },
+    {
+      title: "Operations Leader Outbound Sales Playbook",
+      url: "/articles/cold-call-operations-leaders/",
+      description: "Open around one project workflow and operating consequence instead of generic efficiency."
+    }
+  ],
+  "construction-safety-software-cold-call-script": [
+    {
+      title: "Construction Technology Outbound Sales Playbook",
+      url: "/articles/construction-technology-outbound-sales-playbook/",
+      description: "Map construction firms, field workflows, safety and operations buyers, and responsible technology reviews."
+    },
+    {
+      title: "How to Sell Regulated Technology",
+      url: "/articles/sell-regulated-technology-compliance-claims/",
+      description: "Describe safety workflow support without promising compliance or outcomes the software cannot guarantee."
+    }
+  ],
+  "workforce-analytics-software-cold-call-script-chros": [
+    {
+      title: "CHRO Outbound Sales Playbook",
+      url: "/articles/chro-outbound-sales-playbook/",
+      description: "Reach CHROs around a workforce decision, employee context, governance and business ownership."
+    },
+    {
+      title: "HR Technology Outbound Sales Playbook",
+      url: "/articles/hr-technology-outbound-sales-playbook/",
+      description: "Build HR technology ICP, buyer maps, evidence boundaries and human-led qualification."
+    }
+  ],
+  "process-mining-software-cold-call-script-coos": [
+    {
+      title: "COO Outbound Sales Playbook",
+      url: "/articles/coo-outbound-sales-playbook/",
+      description: "Reach COOs around one operating decision, accountable owner and measurable next step."
+    },
+    {
+      title: "How to Sell Automation When the Manual Process Still Works",
+      url: "/articles/sell-automation-manual-process-still-works/",
+      description: "Respect the current workflow while testing process evidence, thresholds and action capacity."
+    }
   ]
 };
