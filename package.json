@@ -11,6 +11,7 @@
     "check:script-wave-ten": "node scripts/validate-script-wave-ten.js",
     "check:script-wave-eleven": "node scripts/validate-script-wave-eleven.js",
     "check:script-wave-twelve": "node scripts/validate-script-wave-twelve.js",
+    "check:authority-wave-four": "node scripts/validate-authority-wave-four.js",
     "check:library": "node scripts/validate-outbound-library.js"
   },
   "devDependencies": {

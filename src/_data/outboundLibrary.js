@@ -11,14 +11,14 @@ const sections = {
     label: "Industry Outbound Playbooks",
     shortLabel: "Industry playbooks",
     url: "/resources/outbound-playbooks/industries/",
-    description: "Market-specific plays for software, financial services, healthcare, logistics, professional services and complex B2B offers."
+    description: "Market-specific plays for technology, financial services, healthcare, retail, hospitality, staffing, logistics, professional services and complex B2B offers."
   },
   buyers: {
     id: "buyers",
     label: "Buyer Playbooks",
     shortLabel: "Buyer playbooks",
     url: "/resources/outbound-playbooks/buyers/",
-    description: "Practical guidance for reaching CFOs, CIOs, CISOs, operations leaders, procurement, technical evaluators and buying committees."
+    description: "Practical guidance for reaching finance, technology, operations, people, revenue and procurement leaders, technical evaluators and buying committees."
   },
   objections: {
     id: "objections",
@@ -51,6 +51,7 @@ const industrySlugs = [
   "healthcare-technology-outbound-sales-playbook",
   "hr-technology-outbound-sales-playbook",
   "insurance-technology-outbound-sales-playbook",
+  "it-services-outbound-sales-playbook",
   "how-event-software-companies-can-find-accounts-with-a-real-buying-window",
   "how-to-sell-ai-recruiting-software-without-triggering-the-wrong-objection",
   "how-to-sell-outsourced-accounting-without-leading-with-cheap-labor",
@@ -58,12 +59,14 @@ const industrySlugs = [
   "how-to-sell-private-credit-software-to-investment-and-operations-teams",
   "logistics-win-accounts-existing-carriers",
   "logistics-sales-prospecting-playbook",
+  "marketing-agency-outbound-sales-playbook",
   "manufacturing-outbound-sales-playbook",
   "ai-software-outbound-sales-playbook",
   "commercial-real-estate-outbound-sales-playbook",
   "construction-technology-outbound-sales-playbook",
   "energy-technology-outbound-sales-playbook",
   "professional-services-outbound-sales-playbook",
+  "retail-technology-outbound-sales-playbook",
   "security-guard-backup-vendor-coverage-opportunities",
   "sell-ai-voice-agents-with-human-escalation",
   "sell-booking-software-tour-operators-attractions",
@@ -82,6 +85,8 @@ const industrySlugs = [
   "sell-parcel-lockers-property-managers",
   "sell-payment-processing-differentiate",
   "sell-software-development-regulated-healthcare",
+  "staffing-recruiting-outbound-sales-playbook",
+  "hospitality-technology-outbound-sales-playbook",
   "telecom-outbound-sales-playbook"
 ];
 
@@ -103,6 +108,7 @@ const buyerSlugs = [
   "negative-qualification-questions-that-improve-b2b-meetings",
   "reach-enterprise-software-buyers-before-renewal",
   "reach-procurement-before-buying-process",
+  "revenue-leader-outbound-sales-playbook",
   "sell-cloud-migration-to-cios",
   "sell-corporate-training-business-outcomes",
   "sell-engineering-software-medical-device-quality",
@@ -163,8 +169,8 @@ function industryGroupFor(slug) {
   if (/banking|fintech|credit|income|payment|private-credit|accounting|finance|lending/.test(slug)) return "financial-services";
   if (/health|medical|regulated/.test(slug)) return "healthcare-regulated";
   if (/3pl|construction|energy|logistics|manufacturing|parcel|field|industrial|plant|operations/.test(slug)) return "operations-logistics";
-  if (/legal|training|security-guard|pmo/.test(slug)) return "professional-services";
-  if (/tourism|event|ecommerce|workforce|recruiting/.test(slug)) return "commerce-workforce";
+  if (/legal|training|security-guard|pmo|marketing-agency/.test(slug)) return "professional-services";
+  if (/tourism|hospitality|retail|event|ecommerce|workforce|recruiting|staffing/.test(slug)) return "commerce-workforce";
   return "technology-software";
 }
 
@@ -174,7 +180,7 @@ function buyerGroupFor(slug) {
   if (/coo|operations|industrial|field|plant|logistics/.test(slug)) return "operations";
   if (/chro|hr|recruiting|training|workforce/.test(slug)) return "people";
   if (/procurement|renewal|buying-committee|multi-thread/.test(slug)) return "committee";
-  if (/handoff|qualification|appointment|sales-leader/.test(slug)) return "sales-leadership";
+  if (/handoff|qualification|appointment|sales-leader|revenue-leader/.test(slug)) return "sales-leadership";
   return "executive";
 }
 
