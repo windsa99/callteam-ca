@@ -4,7 +4,7 @@ const sections = {
     label: "Cold-Call Scripts",
     shortLabel: "Scripts",
     url: "/resources/cold-call-scripts/",
-    description: "Eighty complete B2B call scripts with ICP guidance, buyer signals, qualification questions, objection responses and campaign notes."
+    description: "Ninety complete B2B call scripts with ICP guidance, buyer signals, qualification questions, objection responses and campaign notes."
   },
   industries: {
     id: "industries",

@@ -67,6 +67,13 @@ eleventyComputed:
 }
 </script>
 
+{% if resource.editorialNote %}
+<style>
+@media (max-width: 640px) {
+  .script-resource-page .container-wide { padding-left: 20px; padding-right: 20px; }
+}
+</style>
+{% endif %}
 <main class="script-resource-page">
   <nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
     <a href="/resources/outbound-sales-library/">Outbound Sales Library</a>
@@ -129,9 +136,21 @@ eleventyComputed:
       </aside>
 
       <div class="script-resource-main">
+        {% if resource.quickAnswer %}
+        <section class="script-trust-note" aria-label="Quick answer">
+          <strong>Quick answer</strong>
+          <p>{{ resource.quickAnswer }}</p>
+          <p>By <a href="/about/">CallTeam</a> · Updated <time datetime="{{ resource.publishedDate }}">{{ resource.publishedDate | readableDate }}</time></p>
+        </section>
+        {% endif %}
         <section class="script-trust-note">
+          {% if resource.editorialNote %}
+          <strong>A practical example to adapt to your offer.</strong>
+          <p>{{ resource.editorialNote }}</p>
+          {% else %}
           <strong>Built from real campaign experience.</strong>
           <p>This script preserves a conversation structure used in live B2B outbound work while removing client names, identifiable product details and unsupported claims.</p>
+          {% endif %}
         </section>
 
         <section id="complete-script" class="script-content-section">
@@ -192,6 +211,10 @@ eleventyComputed:
           <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>
           <div class="script-bridge-card"><span>Positioning bridge</span><p>{{ resource.bridge }}</p></div>
           <div class="script-cta-card"><span>Recommended CTA</span><p>{{ resource.cta }}</p></div>
+          {% if resource.stopRules %}
+          <h3>When to stop or disqualify the account</h3>
+          <ul class="script-check-list">{% for rule in resource.stopRules %}<li>{{ rule }}</li>{% endfor %}</ul>
+          {% endif %}
         </section>
 
         {% if resource.campaignPlan %}
@@ -205,6 +228,10 @@ eleventyComputed:
             <article><span>03</span><h3>Qualify the meeting</h3><p>{{ resource.campaignPlan.meetingReady }}</p></article>
             <article><span>04</span><h3>Prepare the handoff</h3><p>{{ resource.campaignPlan.handoff }}</p></article>
           </div>
+          {% if scriptWaveThirteenLinks[resource.slug] %}
+          <h3>Plan and qualify this campaign</h3>
+          <ul>{% for guide in scriptWaveThirteenLinks[resource.slug] %}{% if loop.index > 2 %}<li><a href="{{ guide.url }}">{{ guide.title }}</a>: {{ guide.description }}</li>{% endif %}{% endfor %}</ul>
+          {% endif %}
         </section>
         {% endif %}
 
@@ -266,11 +293,20 @@ eleventyComputed:
           <span class="script-kicker">About CallTeam</span>
           <h2>{{ resource.aboutCallTeam.heading }}</h2>
           {% if resource.aboutCallTeam.paragraphs %}
-            {% for paragraph in resource.aboutCallTeam.paragraphs %}<p{% if loop.first %} class="script-analysis-lead"{% endif %}>{{ paragraph }}</p>{% endfor %}
+            {% for paragraph in resource.aboutCallTeam.paragraphs %}<p{% if loop.first %} class="script-analysis-lead"{% endif %}{% if resource.editorialNote %} style="margin-top: 1.25rem;"{% endif %}>{{ paragraph }}</p>{% endfor %}
           {% else %}
             <p class="script-analysis-lead">{{ resource.aboutCallTeam.body }}</p>
           {% endif %}
           <ul class="script-check-list">{% for point in resource.aboutCallTeam.points %}<li>{{ point }}</li>{% endfor %}</ul>
+        </section>
+        {% endif %}
+
+        {% if resource.sources %}
+        <section class="script-content-section" aria-label="Research and source notes">
+          <span class="script-kicker">Research notes</span>
+          <h2>Sources behind this example</h2>
+          <p>The sources explain the service context. The talk track, qualification questions and meeting criteria are CallTeam’s editorial guidance.</p>
+          {% for source in resource.sources %}<p><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.title }}</a>. {{ source.note }}</p>{% endfor %}
         </section>
         {% endif %}
 

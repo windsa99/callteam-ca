@@ -73,7 +73,7 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
-assert(scripts.length === 80, `Expected 80 scripts, found ${scripts.length}.`);
+assert(scripts.length === 90, `Expected 90 scripts, found ${scripts.length}.`);
 assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
 assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
 assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");
