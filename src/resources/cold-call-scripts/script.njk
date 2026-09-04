@@ -69,8 +69,18 @@ eleventyComputed:
 
 {% if resource.editorialNote %}
 <style>
+.script-campaign-guides { margin-top: 2rem; }
+.script-campaign-guides > h3 { margin: 0; font-size: 1.375rem; line-height: 1.35; }
+.script-campaign-guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 1rem; gap: 1rem; }
+.script-campaign-guide-grid a { padding: 1.25rem; border-top: 3px solid var(--orange); }
+.script-campaign-guide-grid h4 { margin: 0 0 .625rem; color: #0d151d; font-size: 1.125rem; line-height: 1.4; }
+.script-campaign-guide-grid p { margin: 0 0 1rem; font-size: 1rem; line-height: 1.6; }
+.script-campaign-guide-grid a > span { color: #b83b00; font-size: .875rem; }
+.script-campaign-guide-grid a:hover { border-color: var(--orange); }
+.script-campaign-guide-grid a:focus-visible { outline: 2px solid #0d151d; outline-offset: 3px; }
 @media (max-width: 640px) {
   .script-resource-page .container-wide { padding-left: 20px; padding-right: 20px; }
+  .script-campaign-guide-grid { grid-template-columns: 1fr; }
 }
 </style>
 {% endif %}
@@ -229,8 +239,14 @@ eleventyComputed:
             <article><span>04</span><h3>Prepare the handoff</h3><p>{{ resource.campaignPlan.handoff }}</p></article>
           </div>
           {% if scriptWaveThirteenLinks[resource.slug] %}
-          <h3>Plan and qualify this campaign</h3>
-          <ul>{% for guide in scriptWaveThirteenLinks[resource.slug] %}{% if loop.index > 2 %}<li><a href="{{ guide.url }}">{{ guide.title }}</a>: {{ guide.description }}</li>{% endif %}{% endfor %}</ul>
+          <div class="script-campaign-guides">
+            <h3>Plan and qualify this campaign</h3>
+            <div class="script-service-grid script-campaign-guide-grid">
+              {% for guide in scriptWaveThirteenLinks[resource.slug] %}{% if loop.index > 2 %}
+              <a href="{{ guide.url }}"><h4>{{ guide.title }}</h4><p>{{ guide.description }}</p><span>Read the guide →</span></a>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
           {% endif %}
         </section>
         {% endif %}
