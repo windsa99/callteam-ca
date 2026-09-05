@@ -25,7 +25,7 @@
     "url": "/resources/outbound-sales-library/",
     "children": [
       { "label": "Outbound Sales Library", "url": "/resources/outbound-sales-library/", "description": "Find the right resource for every campaign stage", "featured": true },
-      { "label": "Cold-Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy 50 field-tested B2B call scripts" },
+      { "label": "Cold-Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy free, practical B2B call scripts" },
       { "label": "Industry Playbooks", "url": "/resources/outbound-playbooks/industries/", "description": "Plan outbound for specific B2B markets" },
       { "label": "Buyer Playbooks", "url": "/resources/outbound-playbooks/buyers/", "description": "Reach executives and buying committees" },
       { "label": "Objection Database", "url": "/articles/cold-call-objection-handling/", "description": "Handle live resistance without forcing the call" },
