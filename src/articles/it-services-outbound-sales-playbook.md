@@ -120,6 +120,8 @@ IT services outbound sales should begin with a service responsibility, not a fea
 
 The discipline matters for managed service providers, IT consultancies, cloud specialists, security firms, implementation partners, and project teams. Each may sell technology expertise, but each requires a different account profile, buyer conversation, and qualification standard.
 
+For a ready-to-adapt conversation about disaster recovery planning and testing services, use the [Disaster Recovery Services Cold Call Script](/resources/cold-call-scripts/disaster-recovery-services-cold-call-script/). The buyer identifies a recovery question and the people who can scope a review.
+
 ## How this IT services outbound sales playbook was built
 
 This guide covers market segmentation, account selection, buyer research, human cold calling, qualification, incumbent relationships, first-meeting design, follow-up, and pipeline measurement. Its external references include CISA guidance on the relationship between managed service providers and their customers.

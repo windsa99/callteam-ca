@@ -84,6 +84,12 @@ eleventyComputed:
 }
 </style>
 {% endif %}
+{% if resource.number >= 91 and resource.number <= 100 %}
+<style>
+.script-resource-hero-grid > * { min-width: 0; }
+.script-resource-hero h1 { overflow-wrap: anywhere; }
+</style>
+{% endif %}
 <main class="script-resource-page">
   <nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
     <a href="/resources/outbound-sales-library/">Outbound Sales Library</a>
@@ -238,11 +244,12 @@ eleventyComputed:
             <article><span>03</span><h3>Qualify the meeting</h3><p>{{ resource.campaignPlan.meetingReady }}</p></article>
             <article><span>04</span><h3>Prepare the handoff</h3><p>{{ resource.campaignPlan.handoff }}</p></article>
           </div>
-          {% if scriptWaveThirteenLinks[resource.slug] %}
+          {% set campaignGuides = scriptWaveThirteenLinks[resource.slug] or scriptWaveFourteenLinks[resource.slug] %}
+          {% if campaignGuides %}
           <div class="script-campaign-guides">
             <h3>Plan and qualify this campaign</h3>
             <div class="script-service-grid script-campaign-guide-grid">
-              {% for guide in scriptWaveThirteenLinks[resource.slug] %}{% if loop.index > 2 %}
+              {% for guide in campaignGuides %}{% if loop.index > 2 %}
               <a href="{{ guide.url }}"><h4>{{ guide.title }}</h4><p>{{ guide.description }}</p><span>Read the guide →</span></a>
               {% endif %}{% endfor %}
             </div>
@@ -385,6 +392,35 @@ eleventyComputed:
       button.classList.add('is-copied');
       window.setTimeout(function () { button.textContent = original; button.classList.remove('is-copied'); }, 1800);
     }
+    {% if resource.number >= 91 and resource.number <= 100 %}
+    function manualCopy() {
+      var existing = document.getElementById('manual-script-copy');
+      if (existing) existing.remove();
+      var panel = document.createElement('div');
+      panel.id = 'manual-script-copy';
+      panel.style.cssText = 'margin:1rem 0;padding:1rem;background:#f5f4f2;border:1px solid #c8cecf;';
+      var label = document.createElement('p');
+      label.textContent = 'Select the text below and use your device’s Copy command (Ctrl+C or Command+C on a keyboard).';
+      var area = document.createElement('textarea');
+      area.value = text;
+      area.readOnly = true;
+      area.rows = 8;
+      area.setAttribute('aria-label', 'Script text for manual copying');
+      area.style.cssText = 'box-sizing:border-box;width:100%;font:16px/1.5 monospace;';
+      var close = document.createElement('button');
+      close.type = 'button';
+      close.textContent = 'Close copy panel';
+      close.onclick = function () { panel.remove(); button.focus(); };
+      panel.append(label, area, close);
+      button.parentElement.insertAdjacentElement('afterend', panel);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(done).catch(manualCopy);
+    } else {
+      manualCopy();
+    }
+    return;
+    {% endif %}
     if (navigator.clipboard && window.isSecureContext) {
       navigator.clipboard.writeText(text).then(done);
       return;

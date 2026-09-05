@@ -110,6 +110,8 @@ Corporate training lead generation connects training providers with employers th
 
 This guide is for providers of employer-funded training, workshops, coaching and learning programs. It explains how to generate and qualify B2B opportunities. It does not cover selling individual courses to consumers. Where the main purchase is a learning platform, the software evaluation needs its own technical discovery.
 
+For a ready-to-adapt conversation about new manager training programmes, use the [New Manager Training Cold Call Script](/resources/cold-call-scripts/new-manager-training-cold-call-script/). L&D identifies a cohort, skill need and business sponsor willing to scope learning.
+
 ## Choose the program and employer before choosing the contact
 
 Build separate campaigns for distinct training needs. A financial acumen workshop for managers has a different buyer conversation from compliance learning or technical onboarding.

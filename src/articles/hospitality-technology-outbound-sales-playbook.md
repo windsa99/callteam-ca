@@ -120,6 +120,8 @@ Hospitality technology exists to support a live operation. Reservations arrive, 
 
 A credible campaign begins by defining the operator and workflow. It does not assume that every property shares the same system, buying authority, season, or guest-service problem.
 
+For a ready-to-adapt conversation about hotel guest messaging software, use the [Hotel Guest Messaging Software Cold Call Script](/resources/cold-call-scripts/hotel-guest-messaging-software-cold-call-script/). A property owner identifies a communication workflow worth demonstrating.
+
 ## How this hospitality technology outbound playbook was built
 
 This guide covers hospitality segmentation, account and property research, buying groups, human cold calling, qualification, operating constraints, demonstrations, follow-up, and measurement. AHLA, Oracle, and PCI Security Standards Council resources supply external technology and payment context.

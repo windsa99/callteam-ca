@@ -110,6 +110,8 @@ Facilities services lead generation works at the level of a real site and a real
 
 This playbook covers prospecting for contracted building services such as commercial cleaning, guarding and restoration preparedness. It is written for providers seeking business clients. Property investment, leasing and facilities software purchases have different sales tasks, even when some of the same people are involved.
 
+For a ready-to-adapt conversation about commercial hvac maintenance services, use the [Commercial HVAC Maintenance Cold Call Script](/resources/cold-call-scripts/commercial-hvac-maintenance-cold-call-script/). The buyer confirms a service opening and the person who can approve a scoped assessment.
+
 ## Define your service footprint before buying a list
 
 Start with geography, workforce availability, working hours and property types. Then add the specific services the provider can deliver. Do not target a country-wide property list when the business serves one metro area.

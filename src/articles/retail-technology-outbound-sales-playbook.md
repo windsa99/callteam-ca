@@ -120,6 +120,8 @@ Retail technology outbound sales must start with the way a retailer operates. A 
 
 The seller’s first task is to select a retail environment and one workflow where the product can create a credible improvement. Only then should the team research accounts or write a cold call.
 
+For a ready-to-adapt conversation about retail customer loyalty software, use the [Retail Loyalty Software Cold Call Script](/resources/cold-call-scripts/retail-loyalty-software-cold-call-script/). A loyalty owner identifies a workflow question and agrees what the demo should show.
+
 ## How this retail technology outbound sales playbook was built
 
 This guide covers retail segmentation, account signals, operating buyers, human calling, qualification, demonstrations, objections, follow-up, and measurement. Census ecommerce reporting and PCI Security Standards Council resources provide external market and payment context.

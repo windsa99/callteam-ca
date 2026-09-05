@@ -120,6 +120,8 @@ Marketing agency outbound sales is difficult because prospects already receive c
 
 The agency must also be selective. It should pursue clients whose market, audience, budget reality, working style, and problem fit the services it can deliver well.
 
+For a ready-to-adapt conversation about b2b website redesign agency services, use the [B2B Website Redesign Cold Call Script](/resources/cold-call-scripts/b2b-website-redesign-cold-call-script/). The buyer identifies a journey, an owner and a question the review should answer.
+
 ## How this marketing agency outbound playbook was built
 
 This guide covers agency positioning, client selection, account signals, marketing buyers, human cold calling, qualification, current partners, first meetings, follow-up, and measurement. FTC and Google sources inform the sections on responsible claims and search visibility.

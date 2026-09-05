@@ -958,3 +958,6 @@ module.exports = {
 
 // Supporting paths for scripts 81–90. Existing mappings are preserved.
 Object.assign(module.exports, Object.fromEntries(Object.entries(require("./scriptWaveThirteenLinks")).map(([slug, guides]) => [slug, guides.slice(0, 2)])));
+
+// Sandbox scripts 91–100: preserve the existing two-guide layout.
+Object.assign(module.exports, Object.fromEntries(Object.entries(require("./scriptWaveFourteenLinks")).map(([slug, guides]) => [slug, guides.slice(0, 2)])));

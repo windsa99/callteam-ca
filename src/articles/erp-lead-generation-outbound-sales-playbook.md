@@ -110,6 +110,8 @@ Enterprise resource planning (ERP) lead generation is a search for a business de
 
 This playbook is for ERP software vendors, resellers and implementation partners building an outbound pipeline. It covers account selection through the first sales meeting. For exact opening language, use the linked ERP scripts; for a detailed financial argument, use the separate business-case guide.
 
+For a ready-to-adapt conversation about erp implementation and rollout support services, use the [ERP Implementation Services Cold Call Script](/resources/cold-call-scripts/erp-implementation-services-cold-call-script/). The programme owner confirms a service need and a viable role beside current delivery teams.
+
 ## Decide which ERP opportunity you want to create
 
 A campaign for first-time ERP adoption needs different evidence from a competitive replacement campaign. Write one offer statement before anyone buys data or starts calling.

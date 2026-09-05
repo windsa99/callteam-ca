@@ -112,6 +112,8 @@ Customer service software lead generation starts with the way a company handles 
 
 This guide is for vendors and implementation partners selling customer-facing support software. It covers prospecting and qualification through a useful demo. Internal employee service desks belong in the ITSM guide. Business connectivity belongs in the Telecom playbook. Outsourced support staffing belongs in the BPO sales process.
 
+For a ready-to-adapt conversation about customer help desk and ticketing software, use the [Customer Help Desk Software Cold Call Script](/resources/cold-call-scripts/customer-help-desk-software-cold-call-script/). A support owner identifies a queue problem and agrees what the demo should demonstrate.
+
 ## Choose the support workflow your campaign will address
 
 Do not sell “better customer experience” as if every service team has the same problem. Choose the product's strongest supported use case and the accounts where it can fit.

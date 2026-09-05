@@ -120,6 +120,8 @@ Staffing and recruiting firms sell access to talent, but the buyer is purchasing
 
 That standard protects both sides. Employers avoid generic recruiter calls, while agencies avoid meetings for roles they cannot fill or supplier programs they cannot enter.
 
+For a ready-to-adapt conversation about executive search services, use the [Executive Search Cold Call Script for CEOs](/resources/cold-call-scripts/executive-search-cold-call-script-ceos/). An authorized sponsor confirms a relevant need and willingness to discuss scope.
+
 ## How this staffing and recruiting outbound playbook was built
 
 This guide covers staffing market selection, employer signals, account research, hiring and operating buyers, human cold calling, workforce qualification, objections, meetings, follow-up, and measurement. The public sources below provide employment-market and agency-responsibility context; the campaign methods come from CallTeam’s outbound operating practice.

@@ -110,6 +110,8 @@ For a business process outsourcing (BPO) provider, lead generation means finding
 
 A BPO sale involves more than filling seats. Someone must define the work, train the team, approve exceptions, maintain access and assess quality. A useful outbound campaign makes those responsibilities visible before it promises a meeting.
 
+For a ready-to-adapt conversation about outsourced sales order management services, use the [Order Management Outsourcing Cold Call Script](/resources/cold-call-scripts/order-management-outsourcing-cold-call-script/). A process owner confirms a task, boundaries and interest in a service-scope review.
+
 ## Select one process and one operating model
 
 Business process outsourcing can cover very different services. Build campaigns around a clear delivery capability rather than presenting every function in the company profile.
