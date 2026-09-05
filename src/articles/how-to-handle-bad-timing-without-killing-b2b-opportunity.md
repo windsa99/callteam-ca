@@ -5,7 +5,7 @@ title: "How to Handle Bad Timing Without Killing the B2B Opportunity"
 seoTitle: "How to Handle the ‘Bad Timing’ Sales Objection"
 description: "Handle not-now and bad-timing sales objections without pressure. Find the real constraint, agree on a useful follow-up condition and know when to close."
 date: "2026-08-25"
-modified: "2026-08-25"
+modified: "2026-09-05"
 category: "Bad Timing Sales Objections"
 permalink: "/articles/how-to-handle-bad-timing-without-killing-b2b-opportunity/"
 canonicalUrl: "https://www.callteam.ca/articles/how-to-handle-bad-timing-without-killing-b2b-opportunity/"
@@ -106,6 +106,8 @@ ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 Bad timing can mean, "I am walking into a meeting." It can also mean, "This project is dead, but I am too polite to bury it while you are listening."
 
 Do not answer both situations with the same cheerful promise to circle back next quarter. Find out which clock the buyer is talking about.
+
+If the person is simply occupied at the moment of the call, use the [“I’m too busy” response guide](/articles/im-too-busy-cold-call-objection/). It covers the immediate interruption, a welcome callback and the caller’s time promise.
 
 ## Separate the bad moment from the bad opportunity
 

@@ -5,7 +5,7 @@ title: "How to Cold Call Prospects Who Already Have a Vendor"
 seoTitle: "Cold Calling Prospects With an Existing Vendor | CallTeam"
 description: "Learn how to cold call prospects who already have a vendor, uncover coverage gaps without attacking the incumbent, and earn a qualified next step."
 date: "2026-08-18"
-modified: "2026-08-18"
+modified: "2026-09-05"
 category: "Existing Vendor Objection"
 permalink: "/articles/cold-call-prospects-existing-vendor/"
 canonicalUrl: "https://www.callteam.ca/articles/cold-call-prospects-existing-vendor/"
@@ -106,6 +106,8 @@ ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 “We already have a vendor” is not one objection. It can mean the buyer is satisfied, locked into a contract, tired of sales calls, protecting a long-standing relationship, or simply unsure why another supplier would matter. A useful response begins by finding out which reality is present.
 
 The wrong approach is to attack the incumbent or rush into a competitive feature list. That forces the prospect to defend a decision before the caller has established any relevance. The better approach is to respect the current arrangement and look for a business condition that could justify another conversation.
+
+When a new selection is already final, the [decision-made objection guide](/articles/the-decision-has-already-been-made-cold-call-objection/) explains how to confirm closure and distinguish a genuinely separate scope. An existing supplier and a newly closed evaluation need different responses.
 
 ## Why prospects mention the existing vendor so quickly
 

@@ -5,7 +5,7 @@ title: "How to Handle ‘I’m Not the Right Person’ on a B2B Cold Call"
 seoTitle: "I’m Not the Right Person: B2B Cold Call Response"
 description: "Learn what to say when a B2B prospect is not the right person. Correct the buyer map, request a useful route, qualify the account, and stop."
 date: "2026-08-31"
-modified: "2026-08-31"
+modified: "2026-09-05"
 reviewedBy: "CallTeam Revenue Operations"
 category: "I’m Not the Right Person Objection"
 permalink: "/articles/not-the-right-person-cold-call-objection/"
@@ -108,6 +108,8 @@ ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 “I’m not the right person” is useful information. The caller’s ownership assumption may be wrong, the account may use a buying committee, or the contact may be involved without holding final approval.
 
 Do not argue from a job title. Accept the correction, ask for the responsible role, and preserve the route accurately.
+
+If the contact also says they cannot provide a route, move to the [“I don’t own this and can’t refer you” guide](/articles/i-dont-own-this-and-cant-refer-you-cold-call-objection/). It covers a clean exit and independent research after the referral path has closed.
 
 ## The immediate response
 

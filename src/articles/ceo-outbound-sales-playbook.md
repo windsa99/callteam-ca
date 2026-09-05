@@ -5,7 +5,7 @@ title: "CEO Outbound Sales Playbook: How to Sell to Chief Executives"
 seoTitle: "CEO Outbound Sales Playbook: How to Sell to CEOs"
 description: "Learn how to sell to CEOs with trigger-led account research, executive-level messaging, qualification, respectful follow-up, and sales-ready handoffs."
 date: "2026-08-29"
-modified: "2026-08-29"
+modified: "2026-09-05"
 reviewedBy: "CallTeam Revenue Operations"
 category: "CEO Outbound Sales Playbook"
 permalink: "/articles/ceo-outbound-sales-playbook/"
@@ -108,6 +108,8 @@ ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 Selling to a CEO is not a shorter version of selling to a department head. The chief executive is deciding whether an issue deserves organizational attention, capital, and coordinated action. Generic personalization and a product tour do not help with that decision.
 
 A strong CEO outbound sales playbook starts with a company-level change, connects that event to a consequence the executive may own, and makes the uncertainty explicit. The caller earns the next step by helping the buyer examine a real decision, not by pretending that public research proves a private problem.
+
+For an owner who still handles day-to-day purchasing and customer work, use the [Business Owner Outbound Sales Playbook](/articles/business-owner-outbound-sales-playbook/). It focuses on practical tasks, owner capacity and a clearly scoped next step.
 
 ## How this CEO outbound sales playbook was built
 

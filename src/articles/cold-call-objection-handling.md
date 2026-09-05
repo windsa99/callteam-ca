@@ -5,7 +5,7 @@ title: "Cold Call Objection Handling Database: 10 B2B Responses"
 seoTitle: "Cold Call Objection Handling Database | CallTeam"
 description: "Use a practical B2B cold call objection database to understand common resistance, ask the right next question and decide when to continue or stop."
 date: "2026-08-16"
-modified: "2026-08-31"
+modified: "2026-09-05"
 category: "Cold Call Objection Handling"
 permalink: "/articles/cold-call-objection-handling/"
 canonicalUrl: "https://www.callteam.ca/articles/cold-call-objection-handling/"
@@ -45,6 +45,12 @@ objectionEntries:
   - id: "not-fit"
     title: "We are not a fit"
     signal: "A threshold or correct disqualification"
+  - id: "decision-made"
+    title: "The decision has already been made"
+    signal: "A completed selection or closed evaluation"
+  - id: "no-referral"
+    title: "I don’t own this and can’t refer you"
+    signal: "A closed referral path and a contact correction"
 relatedService:
   title: "SDR Training Services"
   url: "/services/sdr-training/"
@@ -202,6 +208,8 @@ The buyer may have no time now and still have a relevant problem. Respect the im
 
 A specific callback is valuable only when the prospect agrees to it. Repeatedly treating “busy” as an invitation to keep talking turns a timing issue into distrust.
 
+Use the [complete “I’m too busy” response guide](/articles/im-too-busy-cold-call-objection/) for immediate interruptions, short permission-based explanations, callback wording and accurate outcome notes.
+
 <span id="existing-provider" class="library-anchor-target"></span>
 
 ### 4. “We already have a provider.”
@@ -257,6 +265,18 @@ Wrong-person calls are normal in complex organizations. The caller should make r
 Ask for a name only when the conversation supports it. Record the role correction even if no referral is given. That information can improve the entire account map.
 
 The [complete wrong-person response guide](/articles/not-the-right-person-cold-call-objection/) explains role-first routing, referral permission, buying-committee context, CRM updates, and the stop rule.
+
+<span id="decision-made" class="library-anchor-target"></span>
+
+### “The decision has already been made.”
+
+Acknowledge the choice and clarify the stage only if the buyer remains willing. The [decision-made response guide](/articles/the-decision-has-already-been-made-cold-call-objection/) distinguishes a preferred supplier, final award, implementation work and an agreed future review. A completed decision can be the correct reason to close the sales attempt.
+
+<span id="no-referral" class="library-anchor-target"></span>
+
+### “I don’t own this and can’t refer you.”
+
+Thank the contact and end the referral attempt. The [no-ownership and no-referral guide](/articles/i-dont-own-this-and-cant-refer-you-cold-call-objection/) covers record correction, independent role research and truthful language for any later outreach. It starts after the person has said they cannot provide a route.
 
 <span id="change-risk" class="library-anchor-target"></span>
 

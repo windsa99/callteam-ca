@@ -96,6 +96,7 @@ const industrySlugs = [
 ];
 
 const buyerSlugs = [
+  "business-owner-outbound-sales-playbook",
   "ceo-outbound-sales-playbook",
   "chro-outbound-sales-playbook",
   "ciso-outbound-sales-playbook",
@@ -127,6 +128,9 @@ const buyerSlugs = [
 ];
 
 const objectionSlugs = [
+  "im-too-busy-cold-call-objection",
+  "the-decision-has-already-been-made-cold-call-objection",
+  "i-dont-own-this-and-cant-refer-you-cold-call-objection",
   "cold-call-objection-handling",
   "cold-call-prospects-existing-vendor",
   "create-urgency-b2b-sales",
@@ -192,6 +196,8 @@ function buyerGroupFor(slug) {
 }
 
 function objectionGroupFor(slug) {
+  if (slug === "the-decision-has-already-been-made-cold-call-objection") return "incumbent-status-quo";
+  if (slug === "i-dont-own-this-and-cant-refer-you-cold-call-objection") return "access-trust";
   if (/send-me|not-interested|busy|information/.test(slug)) return "brush-offs";
   if (/budget|priority|timing|price|urgency/.test(slug)) return "timing-budget";
   if (/vendor|provider|contract|status-quo|manual|hiring|outsourc|not-looking-to-add/.test(slug)) return "incumbent-status-quo";
