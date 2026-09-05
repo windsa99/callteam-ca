@@ -37,6 +37,11 @@ const sections = {
 };
 
 const industrySlugs = [
+  "erp-lead-generation-outbound-sales-playbook",
+  "corporate-training-lead-generation-playbook",
+  "facilities-services-lead-generation-playbook",
+  "bpo-lead-generation-outbound-sales-playbook",
+  "customer-service-software-sales-playbook",
   "3pl-prospect-ecommerce-brands-existing-fulfillment",
   "banking-technology-sales-playbook",
   "b2b-appointment-setting-saas-companies",
@@ -166,6 +171,8 @@ function hasTrack(slug, track) {
 }
 
 function industryGroupFor(slug) {
+  if (slug === "facilities-services-lead-generation-playbook") return "operations-logistics";
+  if (slug === "bpo-lead-generation-outbound-sales-playbook") return "professional-services";
   if (/banking|fintech|credit|income|payment|private-credit|accounting|finance|lending/.test(slug)) return "financial-services";
   if (/health|medical|regulated/.test(slug)) return "healthcare-regulated";
   if (/3pl|construction|energy|logistics|manufacturing|parcel|field|industrial|plant|operations/.test(slug)) return "operations-logistics";

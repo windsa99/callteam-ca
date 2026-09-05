@@ -331,6 +331,9 @@ eleventyComputed:
           <span class="script-kicker">Solve the buyer friction</span>
           <h2>Supporting guide for this call scenario</h2>
           <p>Use the problem-led guide to understand the buyer's decision, adapt the conversation, and qualify a stronger next step.</p>
+          {% if industryMasterLinks[resource.slug] %}
+          <p>For the full campaign, read the <a href="{{ industryMasterLinks[resource.slug].url }}">{{ industryMasterLinks[resource.slug].title }}</a>.</p>
+          {% endif %}
           <div class="script-service-grid">
             {% for guide in scriptArticleLinks[resource.slug] %}
               <a href="{{ guide.url }}"><h3>{{ guide.title }}</h3><p>{{ guide.description }}</p><span>Read the guide →</span></a>
