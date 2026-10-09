@@ -207,6 +207,7 @@ function objectionGroupFor(slug) {
 }
 
 function strategyGroupFor(slug) {
+  if (slug === "switching-b2b-lead-generation-agencies") return "management-buying";
   if (/compliance/.test(slug)) return "compliance";
   if (/appointment|meeting|handoff|qualified/.test(slug)) return "appointment-quality";
   if (/lead-generation|prospect|target|account|buyer-signal/.test(slug)) return "targeting-lead-generation";

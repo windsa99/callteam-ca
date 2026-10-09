@@ -5,7 +5,7 @@ title: "How to Handle ‘We Tried Outsourcing Before’ on a B2B Cold Call"
 seoTitle: "We Tried Outsourcing Before: B2B Objection Response"
 description: "Use a practical response when a B2B prospect says outsourcing failed before. Diagnose the failure, qualify the new model, and know when to stop."
 date: "2026-08-31"
-modified: "2026-08-31"
+modified: "2026-10-09"
 reviewedBy: "CallTeam Revenue Operations"
 category: "We Tried Outsourcing Before Objection"
 permalink: "/articles/we-tried-outsourcing-before-cold-call-objection/"
@@ -220,6 +220,8 @@ A professional exit is simple:
 > Understood. It sounds like revisiting the model would not be useful. I will close it here. Thank you for explaining what happened.
 
 Record the reason accurately. Do not label the buyer “against outsourcing” when the real issue was poor qualification, weak management, lost visibility, or a failure your company also cannot solve.
+
+Buyers preparing to replace a provider can use the [lead generation agency transition guide](/articles/switching-b2b-lead-generation-agencies/) to plan record transfers, active conversations and the restart. It is a practical companion when the discussion moves from the earlier experience to a new engagement.
 
 ## Put the response inside a complete B2B outbound system
 
