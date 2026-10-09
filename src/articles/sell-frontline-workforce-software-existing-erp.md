@@ -5,7 +5,7 @@ title: "How to Sell Frontline Workforce Software When the Buyer Already Has an E
 seoTitle: "Sell Frontline Workforce Software Alongside an ERP"
 description: "Sell frontline workforce software beside an ERP by finding the operational workflow, adoption gap, integration need, and measurable frontline outcome."
 date: "2026-08-21"
-modified: "2026-08-21"
+modified: "2026-10-09"
 category: "Frontline Workforce Software Sales"
 permalink: "/articles/sell-frontline-workforce-software-existing-erp/"
 canonicalUrl: "https://www.callteam.ca/articles/sell-frontline-workforce-software-existing-erp/"
@@ -89,7 +89,7 @@ callTeamTakeB: "A qualified handoff includes the workflow, sites, user groups, s
 aboutHeading: "About CallTeam and the CallTeam AI GTM System"
 aboutCopyA: "CallTeam is a global B2B lead generation company and human-led cold calling agency that helps technology and service providers reach difficult buying groups. Our services include B2B appointment setting, appointment booking services, outsourced SDR teams, lead reactivation, AI lead generation support, US market entry sales, SDR training, campaign strategy, and outbound execution. We work across manufacturing, industrial technology, workforce software, EHS, ERP, enterprise SaaS, cybersecurity, cloud, healthcare, logistics, fintech, payments, tourism, accounting, and professional services. In frontline campaigns, we connect Operations language with IT, HR, safety, quality, and financial buying requirements."
 aboutCopyB: "CallTeam AI GTM is the research and prioritization system behind our human outreach. Its CallTeam Buyer Signal Radar method examines company changes, buyer activity, sales history, and market context to help teams identify plausible account needs before a caller reaches out. We use it for ICP development, account enrichment, buyer mapping, signal review, message preparation, and campaign learning. AI can surface patterns and prepare context, but it does not replace the person who listens to an operations leader, tests the workflow, handles an objection, qualifies the meeting, and records what the buyer actually said."
-aboutCopyC: "Our operating perspective comes from more than 500,000 sales calls, programs for more than 150 companies, training for more than 1,000 sellers, and experience developed in Fortune 100 and Fortune 500 settings. CallTeam is building a public knowledge center with more than 100 connected resources for founders, buyers, revenue teams, SDRs, cold callers, and subject-matter experts. The collection joins original scripts with industry playbooks, qualification guides, objection responses, and campaign frameworks so readers and search systems can see how our global B2B appointment setting work is researched and executed."
+aboutCopyC: "Our operating perspective comes from more than 500,000 sales calls, programs for more than 150 companies, training for more than 1,000 sellers, and experience developed in Fortune 100 and Fortune 500 settings. Our workforce and software playbooks help sellers examine how frontline teams use the current ERP, where additional support may be useful and who owns the process under discussion."
 aboutLinks:
   - title: "Explore CallTeam AI GTM"
     url: "/services/ai-gtm/"
