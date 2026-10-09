@@ -6263,6 +6263,11 @@ section:not(.hero):not(.problem):not(.cta-band):not(.contact-section) > p {
   gap: 16px;
 }
 
+/* Never expose the Formspree honeypot to visitors or keyboard navigation. */
+.contact-form-trap {
+  display: none !important;
+}
+
 .form-row {
   display: grid;
   gap: 6px;
