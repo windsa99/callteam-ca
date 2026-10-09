@@ -17,7 +17,7 @@ ogType: article
       "description": {{ description | json | safe }},
       "isPartOf": { "@id": "{{ site.websiteId }}" },
       "mainEntity": { "@id": "{{ articleCanonical }}#article" },
-      "inLanguage": "en"
+      "inLanguage": {{ (contentLanguage or "en") | json | safe }}
     },
     {
       "@type": "BlogPosting",
@@ -34,7 +34,7 @@ ogType: article
       "publisher": { "@id": "{{ site.organizationId }}" },
       "isPartOf": { "@id": "{{ site.websiteId }}" },
       "articleSection": {{ (cluster or category or "B2B Sales") | json | safe }},
-      "inLanguage": "en"{% if socialImage %},
+      "inLanguage": {{ (contentLanguage or "en") | json | safe }}{% if socialImage %},
       "image": [{{ socialImage | json | safe }}]{% endif %}{% if topics and topics.length > 0 %},
       "about": [
         {%- for topic in topics %}
