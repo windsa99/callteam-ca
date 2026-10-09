@@ -5,7 +5,7 @@ title: "How to Choose a B2B Lead Generation Service"
 seoTitle: "How to Choose a B2B Lead Generation Service | CallTeam"
 description: "Compare B2B lead generation services by operating model, qualification, reporting, pricing factors, proof, and fit before choosing a provider."
 date: "2026-07-07"
-modified: "2026-08-15"
+modified: "2026-10-09"
 category: "B2B Lead Generation Services"
 permalink: "/articles/b2b-lead-generation-services/"
 canonicalUrl: "https://www.callteam.ca/articles/b2b-lead-generation-services/"
@@ -98,6 +98,8 @@ If the central decision is whether to buy software or transfer execution, use th
 These companies supply account and contact records, enrichment, or access to a prospecting platform. They are appropriate when your team already knows its market and has the capacity to research, contact, qualify, and manage the records.
 
 Ask about source transparency, verification, replacement policies, permissible use, exports, and ownership. A large record count has little value if the roles, regions, or contact details do not fit the campaign.
+
+For a sample specification and acceptance checks, use the [B2B prospect list building buyer guide](/articles/b2b-prospect-list-building-services/). It explains what to inspect before the calling team starts work.
 
 ### Campaign providers
 

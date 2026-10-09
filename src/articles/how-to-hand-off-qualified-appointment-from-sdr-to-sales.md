@@ -5,7 +5,7 @@ title: "How to Hand Off a Qualified Appointment From SDR to Sales"
 seoTitle: "SDR-to-Sales Handoff for Qualified B2B Appointments"
 description: "Use a practical SDR-to-sales handoff process with acceptance rules, CRM fields, a warm introduction, meeting preparation and a closed feedback loop."
 date: "2026-08-25"
-modified: "2026-08-25"
+modified: "2026-10-09"
 category: "SDR-to-Sales Appointment Handoff"
 permalink: "/articles/how-to-hand-off-qualified-appointment-from-sdr-to-sales/"
 canonicalUrl: "https://www.callteam.ca/articles/how-to-hand-off-qualified-appointment-from-sdr-to-sales/"
@@ -153,6 +153,8 @@ Give every SDR the same structure inside the CRM:
 > **Open questions:** [facts still requiring discovery]
 
 Structured fields should hold information needed for routing and reporting. The short narrative preserves nuance. Do not bury the entire handoff inside a transcript nobody will read before the call.
+
+If an external team will update those records, review [appointment setting with CRM integration](/articles/appointment-setting-crm-integration/) before launch. The guide covers access, record matching, meeting changes and practical workflow tests.
 
 ## Preserve the buyer's language
 
