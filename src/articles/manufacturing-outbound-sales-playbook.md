@@ -5,7 +5,7 @@ title: "Manufacturing Outbound Sales Playbook: Reach Plant Buyers"
 seoTitle: "Manufacturing Outbound Sales Playbook"
 description: "Build a manufacturing outbound sales campaign around plant signals, operational outcomes, technical buyers, human cold calling, and qualified meetings."
 date: "2026-08-29"
-modified: "2026-08-29"
+modified: "2026-10-09"
 reviewedBy: "CallTeam Revenue Operations"
 category: "Manufacturing Outbound Sales Playbook"
 permalink: "/articles/manufacturing-outbound-sales-playbook/"
@@ -191,6 +191,8 @@ Confirm the purpose and attendees before the meeting. A no-show or misrouted pla
 Track connections, owner referrals, confirmed sites, qualified workflows, disqualification, bookings, held meetings, sales acceptance, and downstream progress. Segment rejection reasons by subsector, plant profile, role, and offer.
 
 When a campaign produces conversations but no real plant cases, the account model or message is wrong. When meetings collapse at implementation review, qualification is too shallow. Use the data to improve the operating premise before adding volume.
+
+If you are evaluating outside support, review [appointment setting for companies selling to manufacturers](/articles/b2b-appointment-setting-selling-to-manufacturers/) for service scope, delivery responsibilities and a published campaign example.
 
 ## Run manufacturing outbound end to end
 
