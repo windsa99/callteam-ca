@@ -126,6 +126,10 @@ for (const filename of articleFiles) {
   const quickAnswer = quotedValue(data, "quickAnswer");
   const cluster = quotedValue(data, "cluster");
   const articleType = quotedValue(data, "articleType");
+  // New articles opt in explicitly; unmarked articles keep the original rules.
+  const editorialProfile = quotedValue(data, "editorialProfile");
+  const flexibleEditorial = editorialProfile === "flexible-v1";
+  failUnless(!hasTopLevelKey(data, "editorialProfile") || flexibleEditorial, relativePath, 'editorialProfile must be "flexible-v1" when supplied');
   const faqCount = listCount(data, "faqs", "question");
   const cardCount = listCount(data, "cards", "title");
   const readNextCount = listCount(data, "readNext", "title");
@@ -176,8 +180,13 @@ for (const filename of articleFiles) {
     failUnless(aboutLinkUrlCount === aboutLinkCount, relativePath, "every About CallTeam link must define a url");
   }
   failUnless(wordCount(quickAnswer) >= 35 && wordCount(quickAnswer) <= 80, relativePath, `quickAnswer must be 35-80 words (found ${wordCount(quickAnswer)})`);
-  failUnless(bodyWords >= 1000 && bodyWords <= 3200, relativePath, `article body must be 1000-3200 words (found ${bodyWords})`);
-  failUnless(h2Count >= 7 && h2Count <= 14, relativePath, `article body must contain 7-14 H2 sections (found ${h2Count})`);
+  if (flexibleEditorial) {
+    failUnless(bodyWords <= 3200, relativePath, `article body must be 3200 words or fewer (found ${bodyWords})`);
+  } else {
+    failUnless(bodyWords >= 1000 && bodyWords <= 3200, relativePath, `article body must be 1000-3200 words (found ${bodyWords})`);
+  }
+  const minimumH2 = flexibleEditorial ? 4 : 7;
+  failUnless(h2Count >= minimumH2 && h2Count <= 14, relativePath, `article body must contain ${minimumH2}-14 H2 sections (found ${h2Count})`);
   failUnless(oneSentenceRatio <= 0.55, relativePath, `one-sentence paragraph ratio must be 55% or lower (found ${Math.round(oneSentenceRatio * 100)}%)`);
   failUnless(!body.includes("—"), relativePath, "replace em dashes with natural sentence structure");
   failUnless(!/^## Where CallTeam fits\s*$/im.test(body), relativePath, "remove generic Where CallTeam fits section; use a contextual service bridge instead");
