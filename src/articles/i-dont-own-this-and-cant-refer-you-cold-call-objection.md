@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: "layouts/article.njk"
 tags: ["articles"]
 title: "How to Handle “I Don’t Own This and Can’t Refer You” on a B2B Cold Call"

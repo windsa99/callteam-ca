@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Logistics Sales Prospecting Playbook: Win Qualified Accounts"

@@ -6,6 +6,7 @@ const src = path.join(root, "src");
 const articlesDir = path.join(src, "articles");
 const callScripts = require(path.join(src, "_data", "callScripts"));
 const scriptArticleLinks = require(path.join(src, "_data", "scriptArticleLinks"));
+const authors = require(path.join(src, "_data", "authors.json"));
 const failures = [];
 
 function walk(directory) {
@@ -126,6 +127,12 @@ for (const filename of articleFiles) {
   const quickAnswer = quotedValue(data, "quickAnswer");
   const cluster = quotedValue(data, "cluster");
   const articleType = quotedValue(data, "articleType");
+  const authorKey = quotedValue(data, "authorKey");
+  const articleAuthor = Object.prototype.hasOwnProperty.call(authors, authorKey) ? authors[authorKey] : null;
+  failUnless(Boolean(articleAuthor), relativePath, 'authorKey must be a quoted registered author key (use "harjSingh")');
+  if (articleAuthor) {
+    failUnless(Boolean(articleAuthor.name && articleAuthor.id && knownPermalinks.has(articleAuthor.url)), relativePath, "registered author must have a name, entity ID and existing profile page");
+  }
   // New articles opt in explicitly; unmarked articles keep the original rules.
   const editorialProfile = quotedValue(data, "editorialProfile");
   const flexibleEditorial = editorialProfile === "flexible-v1";

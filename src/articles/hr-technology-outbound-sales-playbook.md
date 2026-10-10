@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "HR Technology Outbound Sales Playbook: Reach People Leaders"

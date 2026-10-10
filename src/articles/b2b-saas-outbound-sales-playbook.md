@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "B2B SaaS Outbound Sales Playbook: Build Qualified Pipeline"

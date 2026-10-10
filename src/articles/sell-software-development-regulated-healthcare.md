@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How Software Development Firms Can Sell to Regulated Healthcare Buyers"

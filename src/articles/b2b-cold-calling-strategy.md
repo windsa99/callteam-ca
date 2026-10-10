@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "B2B Cold Calling Strategy: How to Build a Campaign That Books Qualified Meetings"

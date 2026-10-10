@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "CISO Outbound Sales Playbook: How to Sell to Security Leaders"

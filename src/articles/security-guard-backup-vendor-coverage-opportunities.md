@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How Security Guard Companies Can Win Backup-Vendor and Coverage Opportunities"

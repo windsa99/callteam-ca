@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Answer ‘How Did You Get My Number?’ on a B2B Cold Call"

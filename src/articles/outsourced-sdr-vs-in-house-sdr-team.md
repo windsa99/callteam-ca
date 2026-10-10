@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Outsourced SDR Services vs an In-House SDR Team: Cost, Control and Cold Calling"

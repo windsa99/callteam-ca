@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Cold Call Discovery Questions: 30 Questions to Qualify B2B Prospects"

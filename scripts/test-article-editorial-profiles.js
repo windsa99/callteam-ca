@@ -77,6 +77,8 @@ function check(label, contents, expectedErrors = []) {
 
 {
   check("future article below 1,000 words with four sections", document("flexible-v1"));
+  check("missing author is rejected", document("flexible-v1").replace(/^authorKey:.*\n/m, ""), ["authorKey must be a quoted registered author key"]);
+  check("unknown author is rejected", document("flexible-v1").replace(/^authorKey:.*$/m, 'authorKey: "unknownAuthor"'), ["authorKey must be a quoted registered author key"]);
   check("unmarked article retains both legacy minimums", document(null), ["article body must be 1000-3200 words", "article body must contain 7-14 H2 sections"]);
   check("future article with three sections is rejected", document("flexible-v1", 3), ["article body must contain 4-14 H2 sections"]);
   check("future article with fourteen sections passes", document("flexible-v1", 14));

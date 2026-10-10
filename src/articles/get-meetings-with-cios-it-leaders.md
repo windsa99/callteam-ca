@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Get Meetings With CIOs and IT Leaders: An Outbound Sales Playbook"

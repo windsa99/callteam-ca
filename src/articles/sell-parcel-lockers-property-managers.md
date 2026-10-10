@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How PropTech Companies Can Sell Parcel Lockers to Property Managers"

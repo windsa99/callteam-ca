@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Best B2B Appointment Setting Companies in 2026: Six Providers Compared"

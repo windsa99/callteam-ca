@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "CHRO Outbound Sales Playbook: How to Sell to HR Leaders"

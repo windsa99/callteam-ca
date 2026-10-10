@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Best B2B Lead Generation Companies in the United States: 2026 Buyer’s Comparison"

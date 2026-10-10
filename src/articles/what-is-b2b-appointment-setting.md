@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "What Is B2B Appointment Setting? Process, Qualification, and Sales Handoff"

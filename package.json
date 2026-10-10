@@ -2,7 +2,7 @@
   "name": "callteam-ca",
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run check:articles && eleventy && node scripts/test-article-authorship.js",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js",
     "check:about": "node scripts/validate-about-page.js",
