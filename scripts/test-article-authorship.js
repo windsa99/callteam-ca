@@ -45,6 +45,12 @@ for (const author of Object.values(authors)) {
   assert.strictEqual(person.name, author.name);
   assert.strictEqual(profile.mainEntity["@id"], person["@id"]);
   assert.strictEqual(person.url, site.url + author.url);
+  for (const property of ["dateCreated", "dateModified"]) {
+    const value = profile[property];
+    assert(typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(value)
+      && Number.isFinite(Date.parse(value)), `${author.name}: ${property} must be an ISO 8601 datetime with a timezone`);
+  }
+  assert(Date.parse(profile.dateModified) >= Date.parse(profile.dateCreated), `${author.name}: profile modification precedes creation`);
 }
 
 console.log(`Authorship checks passed: ${articles.length} article bylines, linked Person data, publisher attribution, protected forms and author profiles.`);
