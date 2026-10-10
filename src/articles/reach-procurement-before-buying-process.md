@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Sell to Procurement Before the RFP Is Locked: A B2B Playbook"

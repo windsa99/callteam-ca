@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How 3PL Providers Can Prospect Ecommerce Brands That Already Have Fulfillment"

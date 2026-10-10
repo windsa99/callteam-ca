@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Sell Outsourced PMO Services When the Buyer Already Has Project Tools"

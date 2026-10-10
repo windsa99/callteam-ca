@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How Logistics Companies Can Win Accounts That Already Have Carriers"

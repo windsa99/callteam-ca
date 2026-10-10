@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Sell Industrial Alarm Software to Plant and Operations Leaders"

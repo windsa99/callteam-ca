@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Cold Call Coaching: A Practical Scorecard for Sales Managers"

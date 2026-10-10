@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Sell Outsourced Services When the Buyer Plans to Hire Internally"

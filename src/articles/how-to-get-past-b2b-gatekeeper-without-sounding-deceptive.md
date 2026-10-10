@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Get Past a B2B Gatekeeper Without Sounding Deceptive"

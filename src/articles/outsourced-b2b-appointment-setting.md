@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Outsourced B2B Appointment Setting: Costs, Models, and How to Choose"

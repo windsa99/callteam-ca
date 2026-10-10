@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ogType: article
 ---
-{% set articleCanonical = canonicalUrl or (site.url + page.url) %}
+{% set articleCanonical = canonicalUrl or (site.url + page.url) %}{% set articleAuthor = authors[authorKey] if authorKey else false %}
 {% set libraryParent = page.fileSlug | librarySectionFor %}
 {% set isObjectionDatabase = page.fileSlug == "cold-call-objection-handling" %}
 <script type="application/ld+json">
@@ -28,7 +28,7 @@ ogType: article
       "description": {{ description | json | safe }},
       "datePublished": "{{ date }}T00:00:00Z",
       "dateModified": "{{ modified or date }}T00:00:00Z",
-      "author": { "@id": "{{ site.organizationId }}" },
+      "author": {% if articleAuthor %}{ "@type": "Person", "@id": "{{ articleAuthor.id }}", "name": {{ articleAuthor.name | json | safe }}, "url": "{{ site.url }}{{ articleAuthor.url }}" }{% else %}{ "@id": "{{ site.organizationId }}" }{% endif %},
       {% if reviewedBy %}"reviewedBy": { "@type": "Organization", "name": {{ reviewedBy | json | safe }} },
       {% endif %}
       "publisher": { "@id": "{{ site.organizationId }}" },
@@ -121,7 +121,7 @@ ogType: article
       <h1>{{ title }}</h1>
       <p class="article-deck">{{ description }}</p>
       <div class="article-byline">
-        <span>Published by <a href="/">CallTeam</a></span>
+        {% if articleAuthor %}<span>Written by <a href="{{ articleAuthor.url }}" rel="author">{{ articleAuthor.name }}</a></span><span>Published by <a href="/">CallTeam</a></span>{% else %}<span>Published by <a href="/">CallTeam</a></span>{% endif %}
         {% if reviewedBy %}<span>Reviewed by {{ reviewedBy }}</span>{% endif %}
         <span>Published <time datetime="{{ date }}">{{ date | readableDate }}</time></span>
         <span>Updated <time datetime="{{ modified or date }}">{{ (modified or date) | readableDate }}</time></span>

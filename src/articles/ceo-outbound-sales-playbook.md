@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "CEO Outbound Sales Playbook: How to Sell to Chief Executives"

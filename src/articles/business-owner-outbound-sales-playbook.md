@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: "layouts/article.njk"
 tags: ["articles"]
 title: "Business Owner Outbound Sales Playbook"

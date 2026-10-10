@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: "layouts/article.njk"
 tags: ["articles"]
 title: "ERP Lead Generation and Outbound Sales Playbook"

@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Manufacturing Outbound Sales Playbook: Reach Plant Buyers"

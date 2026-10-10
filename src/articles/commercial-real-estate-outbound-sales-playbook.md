@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "Commercial Real Estate Outbound Sales Playbook: Reach Property Buyers"

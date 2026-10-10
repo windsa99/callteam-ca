@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: "layouts/article.njk"
 tags: ["articles"]
 title: "How to Handle “The Decision Has Already Been Made” on a B2B Cold Call"

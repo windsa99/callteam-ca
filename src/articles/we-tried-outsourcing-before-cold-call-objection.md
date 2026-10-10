@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "How to Handle ‘We Tried Outsourcing Before’ on a B2B Cold Call"

@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "FinTech Outbound Sales Playbook: Reach Financial Buyers"

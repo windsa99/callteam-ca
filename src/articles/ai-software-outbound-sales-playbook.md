@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "AI Software Outbound Sales Playbook: Sell a Governable Use Case"

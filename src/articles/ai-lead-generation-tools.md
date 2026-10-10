@@ -1,4 +1,5 @@
 ---
+authorKey: "harjSingh"
 layout: layouts/article.njk
 tags: ["articles"]
 title: "AI Lead Generation Tools for B2B: How to Choose the Right Stack"
