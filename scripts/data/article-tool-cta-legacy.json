@@ -1,0 +1,559 @@
+{
+  "version": 1,
+  "frozenAt": "2026-10-12",
+  "note": "Frozen published article exemptions. Do not regenerate or append future articles.",
+  "articles": [
+    {
+      "path": "src/articles/3pl-prospect-ecommerce-brands-existing-fulfillment.md",
+      "permalink": "/articles/3pl-prospect-ecommerce-brands-existing-fulfillment/"
+    },
+    {
+      "path": "src/articles/adapt-b2b-cold-call-global-markets.md",
+      "permalink": "/articles/adapt-b2b-cold-call-global-markets/"
+    },
+    {
+      "path": "src/articles/ai-lead-generation-tools.md",
+      "permalink": "/articles/ai-lead-generation-tools/"
+    },
+    {
+      "path": "src/articles/ai-lead-generation.md",
+      "permalink": "/articles/ai-lead-generation/"
+    },
+    {
+      "path": "src/articles/ai-software-outbound-sales-playbook.md",
+      "permalink": "/articles/ai-software-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/appointment-setting-crm-integration.md",
+      "permalink": "/articles/appointment-setting-crm-integration/"
+    },
+    {
+      "path": "src/articles/b2b-appointment-setting-cost.md",
+      "permalink": "/articles/b2b-appointment-setting-cost/"
+    },
+    {
+      "path": "src/articles/b2b-appointment-setting-saas-companies.md",
+      "permalink": "/articles/b2b-appointment-setting-saas-companies/"
+    },
+    {
+      "path": "src/articles/b2b-appointment-setting-selling-to-manufacturers.md",
+      "permalink": "/articles/b2b-appointment-setting-selling-to-manufacturers/"
+    },
+    {
+      "path": "src/articles/b2b-cold-call-voicemail-scripts-that-create-a-reason-to-call-back.md",
+      "permalink": "/articles/b2b-cold-call-voicemail-scripts-that-create-a-reason-to-call-back/"
+    },
+    {
+      "path": "src/articles/b2b-cold-calling-compliance-global.md",
+      "permalink": "/articles/b2b-cold-calling-compliance-global/"
+    },
+    {
+      "path": "src/articles/b2b-cold-calling-strategy.md",
+      "permalink": "/articles/b2b-cold-calling-strategy/"
+    },
+    {
+      "path": "src/articles/b2b-lead-generation-services.md",
+      "permalink": "/articles/b2b-lead-generation-services/"
+    },
+    {
+      "path": "src/articles/b2b-lead-generation-software-companies.md",
+      "permalink": "/articles/b2b-lead-generation-software-companies/"
+    },
+    {
+      "path": "src/articles/b2b-prospect-list-building-services.md",
+      "permalink": "/articles/b2b-prospect-list-building-services/"
+    },
+    {
+      "path": "src/articles/b2b-saas-outbound-sales-playbook.md",
+      "permalink": "/articles/b2b-saas-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/banking-technology-sales-playbook.md",
+      "permalink": "/articles/banking-technology-sales-playbook/"
+    },
+    {
+      "path": "src/articles/best-b2b-appointment-setting-companies.md",
+      "permalink": "/articles/best-b2b-appointment-setting-companies/"
+    },
+    {
+      "path": "src/articles/best-b2b-cold-calling-companies-canada.md",
+      "permalink": "/articles/best-b2b-cold-calling-companies-canada/"
+    },
+    {
+      "path": "src/articles/best-b2b-cold-calling-companies-usa.md",
+      "permalink": "/articles/best-b2b-cold-calling-companies-usa/"
+    },
+    {
+      "path": "src/articles/best-b2b-lead-generation-agencies.md",
+      "permalink": "/articles/best-b2b-lead-generation-agencies/"
+    },
+    {
+      "path": "src/articles/best-b2b-lead-generation-companies-canada.md",
+      "permalink": "/articles/best-b2b-lead-generation-companies-canada/"
+    },
+    {
+      "path": "src/articles/best-b2b-lead-generation-companies-usa.md",
+      "permalink": "/articles/best-b2b-lead-generation-companies-usa/"
+    },
+    {
+      "path": "src/articles/bpo-lead-generation-outbound-sales-playbook.md",
+      "permalink": "/articles/bpo-lead-generation-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/build-b2b-sales-business-case.md",
+      "permalink": "/articles/build-b2b-sales-business-case/"
+    },
+    {
+      "path": "src/articles/business-owner-outbound-sales-playbook.md",
+      "permalink": "/articles/business-owner-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/ceo-outbound-sales-playbook.md",
+      "permalink": "/articles/ceo-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/chro-outbound-sales-playbook.md",
+      "permalink": "/articles/chro-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/ciso-outbound-sales-playbook.md",
+      "permalink": "/articles/ciso-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/cloud-migration-discovery-questions.md",
+      "permalink": "/articles/cloud-migration-discovery-questions/"
+    },
+    {
+      "path": "src/articles/cold-call-coaching-scorecard.md",
+      "permalink": "/articles/cold-call-coaching-scorecard/"
+    },
+    {
+      "path": "src/articles/cold-call-discovery-questions.md",
+      "permalink": "/articles/cold-call-discovery-questions/"
+    },
+    {
+      "path": "src/articles/cold-call-objection-handling.md",
+      "permalink": "/articles/cold-call-objection-handling/"
+    },
+    {
+      "path": "src/articles/cold-call-operations-leaders.md",
+      "permalink": "/articles/cold-call-operations-leaders/"
+    },
+    {
+      "path": "src/articles/cold-call-prospects-existing-vendor.md",
+      "permalink": "/articles/cold-call-prospects-existing-vendor/"
+    },
+    {
+      "path": "src/articles/cold-calling-agency-vs-freelance-caller-us.md",
+      "permalink": "/articles/cold-calling-agency-vs-freelance-caller-us/"
+    },
+    {
+      "path": "src/articles/cold-calling-metrics-campaign-quality.md",
+      "permalink": "/articles/cold-calling-metrics-campaign-quality/"
+    },
+    {
+      "path": "src/articles/commercial-real-estate-outbound-sales-playbook.md",
+      "permalink": "/articles/commercial-real-estate-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/companies-outgrown-accounting-software.md",
+      "permalink": "/articles/companies-outgrown-accounting-software/"
+    },
+    {
+      "path": "src/articles/construction-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/construction-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/coo-outbound-sales-playbook.md",
+      "permalink": "/articles/coo-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/corporate-training-lead-generation-playbook.md",
+      "permalink": "/articles/corporate-training-lead-generation-playbook/"
+    },
+    {
+      "path": "src/articles/create-urgency-b2b-sales.md",
+      "permalink": "/articles/create-urgency-b2b-sales/"
+    },
+    {
+      "path": "src/articles/customer-service-software-sales-playbook.md",
+      "permalink": "/articles/customer-service-software-sales-playbook/"
+    },
+    {
+      "path": "src/articles/cybersecurity-outbound-sales-playbook.md",
+      "permalink": "/articles/cybersecurity-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/displace-incumbent-erp-without-attacking-vendor.md",
+      "permalink": "/articles/displace-incumbent-erp-without-attacking-vendor/"
+    },
+    {
+      "path": "src/articles/energy-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/energy-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/erp-lead-generation-outbound-sales-playbook.md",
+      "permalink": "/articles/erp-lead-generation-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/erp-modernization-business-case-cfos.md",
+      "permalink": "/articles/erp-modernization-business-case-cfos/"
+    },
+    {
+      "path": "src/articles/executive-discovery-questions-for-cfos-cios-and-coos.md",
+      "permalink": "/articles/executive-discovery-questions-for-cfos-cios-and-coos/"
+    },
+    {
+      "path": "src/articles/facilities-services-lead-generation-playbook.md",
+      "permalink": "/articles/facilities-services-lead-generation-playbook/"
+    },
+    {
+      "path": "src/articles/fintech-outbound-sales-playbook.md",
+      "permalink": "/articles/fintech-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/get-meetings-with-cfos-b2b.md",
+      "permalink": "/articles/get-meetings-with-cfos-b2b/"
+    },
+    {
+      "path": "src/articles/get-meetings-with-cios-it-leaders.md",
+      "permalink": "/articles/get-meetings-with-cios-it-leaders/"
+    },
+    {
+      "path": "src/articles/healthcare-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/healthcare-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/hospitality-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/hospitality-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/how-event-software-companies-can-find-accounts-with-a-real-buying-window.md",
+      "permalink": "/articles/how-event-software-companies-can-find-accounts-with-a-real-buying-window/"
+    },
+    {
+      "path": "src/articles/how-many-cold-calls-book-b2b-meeting.md",
+      "permalink": "/articles/how-many-cold-calls-book-b2b-meeting/"
+    },
+    {
+      "path": "src/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call.md",
+      "permalink": "/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call/"
+    },
+    {
+      "path": "src/articles/how-to-get-past-b2b-gatekeeper-without-sounding-deceptive.md",
+      "permalink": "/articles/how-to-get-past-b2b-gatekeeper-without-sounding-deceptive/"
+    },
+    {
+      "path": "src/articles/how-to-hand-off-qualified-appointment-from-sdr-to-sales.md",
+      "permalink": "/articles/how-to-hand-off-qualified-appointment-from-sdr-to-sales/"
+    },
+    {
+      "path": "src/articles/how-to-handle-bad-timing-without-killing-b2b-opportunity.md",
+      "permalink": "/articles/how-to-handle-bad-timing-without-killing-b2b-opportunity/"
+    },
+    {
+      "path": "src/articles/how-to-handle-price-questions-before-sales-discovery-is-complete.md",
+      "permalink": "/articles/how-to-handle-price-questions-before-sales-discovery-is-complete/"
+    },
+    {
+      "path": "src/articles/how-to-sell-ai-recruiting-software-without-triggering-the-wrong-objection.md",
+      "permalink": "/articles/how-to-sell-ai-recruiting-software-without-triggering-the-wrong-objection/"
+    },
+    {
+      "path": "src/articles/how-to-sell-outsourced-accounting-without-leading-with-cheap-labor.md",
+      "permalink": "/articles/how-to-sell-outsourced-accounting-without-leading-with-cheap-labor/"
+    },
+    {
+      "path": "src/articles/how-to-sell-outsourced-legal-support-without-blurring-the-line-with-legal-advice.md",
+      "permalink": "/articles/how-to-sell-outsourced-legal-support-without-blurring-the-line-with-legal-advice/"
+    },
+    {
+      "path": "src/articles/how-to-sell-private-credit-software-to-investment-and-operations-teams.md",
+      "permalink": "/articles/how-to-sell-private-credit-software-to-investment-and-operations-teams/"
+    },
+    {
+      "path": "src/articles/how-to-write-a-b2b-cold-call-script.md",
+      "permalink": "/articles/how-to-write-a-b2b-cold-call-script/"
+    },
+    {
+      "path": "src/articles/hr-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/hr-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/i-dont-own-this-and-cant-refer-you-cold-call-objection.md",
+      "permalink": "/articles/i-dont-own-this-and-cant-refer-you-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/im-too-busy-cold-call-objection.md",
+      "permalink": "/articles/im-too-busy-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/insurance-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/insurance-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/integration-concerns-software-sales-call.md",
+      "permalink": "/articles/integration-concerns-software-sales-call/"
+    },
+    {
+      "path": "src/articles/it-services-outbound-sales-playbook.md",
+      "permalink": "/articles/it-services-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/launch-90-day-b2b-outbound-campaign.md",
+      "permalink": "/articles/launch-90-day-b2b-outbound-campaign/"
+    },
+    {
+      "path": "src/articles/lead-generation-tools-vs-done-for-you-services.md",
+      "permalink": "/articles/lead-generation-tools-vs-done-for-you-services/"
+    },
+    {
+      "path": "src/articles/logistics-sales-prospecting-playbook.md",
+      "permalink": "/articles/logistics-sales-prospecting-playbook/"
+    },
+    {
+      "path": "src/articles/logistics-win-accounts-existing-carriers.md",
+      "permalink": "/articles/logistics-win-accounts-existing-carriers/"
+    },
+    {
+      "path": "src/articles/manufacturing-outbound-sales-playbook.md",
+      "permalink": "/articles/manufacturing-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/map-b2b-buying-committee.md",
+      "permalink": "/articles/map-b2b-buying-committee/"
+    },
+    {
+      "path": "src/articles/marketing-agency-outbound-sales-playbook.md",
+      "permalink": "/articles/marketing-agency-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/multi-thread-b2b-deal-finance-it-operations.md",
+      "permalink": "/articles/multi-thread-b2b-deal-finance-it-operations/"
+    },
+    {
+      "path": "src/articles/negative-qualification-questions-that-improve-b2b-meetings.md",
+      "permalink": "/articles/negative-qualification-questions-that-improve-b2b-meetings/"
+    },
+    {
+      "path": "src/articles/no-budget-objection-b2b-cold-call.md",
+      "permalink": "/articles/no-budget-objection-b2b-cold-call/"
+    },
+    {
+      "path": "src/articles/not-a-priority-sales-objection.md",
+      "permalink": "/articles/not-a-priority-sales-objection/"
+    },
+    {
+      "path": "src/articles/not-looking-to-add-anything-cold-call-objection.md",
+      "permalink": "/articles/not-looking-to-add-anything-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/not-the-right-person-cold-call-objection.md",
+      "permalink": "/articles/not-the-right-person-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/outbound-appointment-setting.md",
+      "permalink": "/articles/outbound-appointment-setting/"
+    },
+    {
+      "path": "src/articles/outbound-lead-generation.md",
+      "permalink": "/articles/outbound-lead-generation/"
+    },
+    {
+      "path": "src/articles/outsourced-b2b-appointment-setting.md",
+      "permalink": "/articles/outsourced-b2b-appointment-setting/"
+    },
+    {
+      "path": "src/articles/outsourced-inbound-lead-follow-up.md",
+      "permalink": "/articles/outsourced-inbound-lead-follow-up/"
+    },
+    {
+      "path": "src/articles/outsourced-sdr-vs-in-house-sdr-team.md",
+      "permalink": "/articles/outsourced-sdr-vs-in-house-sdr-team/"
+    },
+    {
+      "path": "src/articles/prepare-b2b-software-security-review.md",
+      "permalink": "/articles/prepare-b2b-software-security-review/"
+    },
+    {
+      "path": "src/articles/professional-services-outbound-sales-playbook.md",
+      "permalink": "/articles/professional-services-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/prospect-before-software-service-renewal.md",
+      "permalink": "/articles/prospect-before-software-service-renewal/"
+    },
+    {
+      "path": "src/articles/qualify-software-demo-before-booking.md",
+      "permalink": "/articles/qualify-software-demo-before-booking/"
+    },
+    {
+      "path": "src/articles/reach-enterprise-software-buyers-before-renewal.md",
+      "permalink": "/articles/reach-enterprise-software-buyers-before-renewal/"
+    },
+    {
+      "path": "src/articles/reach-procurement-before-buying-process.md",
+      "permalink": "/articles/reach-procurement-before-buying-process/"
+    },
+    {
+      "path": "src/articles/reactivate-old-b2b-leads-problem-led-call.md",
+      "permalink": "/articles/reactivate-old-b2b-leads-problem-led-call/"
+    },
+    {
+      "path": "src/articles/retail-technology-outbound-sales-playbook.md",
+      "permalink": "/articles/retail-technology-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/revenue-leader-outbound-sales-playbook.md",
+      "permalink": "/articles/revenue-leader-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/security-guard-backup-vendor-coverage-opportunities.md",
+      "permalink": "/articles/security-guard-backup-vendor-coverage-opportunities/"
+    },
+    {
+      "path": "src/articles/sell-against-status-quo-b2b.md",
+      "permalink": "/articles/sell-against-status-quo-b2b/"
+    },
+    {
+      "path": "src/articles/sell-ai-voice-agents-with-human-escalation.md",
+      "permalink": "/articles/sell-ai-voice-agents-with-human-escalation/"
+    },
+    {
+      "path": "src/articles/sell-automation-manual-process-still-works.md",
+      "permalink": "/articles/sell-automation-manual-process-still-works/"
+    },
+    {
+      "path": "src/articles/sell-booking-software-tour-operators-attractions.md",
+      "permalink": "/articles/sell-booking-software-tour-operators-attractions/"
+    },
+    {
+      "path": "src/articles/sell-cloud-migration-to-cios.md",
+      "permalink": "/articles/sell-cloud-migration-to-cios/"
+    },
+    {
+      "path": "src/articles/sell-complex-software-implementation.md",
+      "permalink": "/articles/sell-complex-software-implementation/"
+    },
+    {
+      "path": "src/articles/sell-corporate-training-business-outcomes.md",
+      "permalink": "/articles/sell-corporate-training-business-outcomes/"
+    },
+    {
+      "path": "src/articles/sell-cybersecurity-assessment-existing-msp.md",
+      "permalink": "/articles/sell-cybersecurity-assessment-existing-msp/"
+    },
+    {
+      "path": "src/articles/sell-engineering-software-medical-device-quality.md",
+      "permalink": "/articles/sell-engineering-software-medical-device-quality/"
+    },
+    {
+      "path": "src/articles/sell-field-inspection-software-operations-quality.md",
+      "permalink": "/articles/sell-field-inspection-software-operations-quality/"
+    },
+    {
+      "path": "src/articles/sell-frontline-workforce-software-existing-erp.md",
+      "permalink": "/articles/sell-frontline-workforce-software-existing-erp/"
+    },
+    {
+      "path": "src/articles/sell-hr-technology-without-leading-ai.md",
+      "permalink": "/articles/sell-hr-technology-without-leading-ai/"
+    },
+    {
+      "path": "src/articles/sell-identity-protection-credit-unions.md",
+      "permalink": "/articles/sell-identity-protection-credit-unions/"
+    },
+    {
+      "path": "src/articles/sell-income-verification-software-lending-leaders.md",
+      "permalink": "/articles/sell-income-verification-software-lending-leaders/"
+    },
+    {
+      "path": "src/articles/sell-industrial-alarm-software-operations-leaders.md",
+      "permalink": "/articles/sell-industrial-alarm-software-operations-leaders/"
+    },
+    {
+      "path": "src/articles/sell-itsm-software-existing-service-desk.md",
+      "permalink": "/articles/sell-itsm-software-existing-service-desk/"
+    },
+    {
+      "path": "src/articles/sell-ot-security-without-alienating-plant-operations.md",
+      "permalink": "/articles/sell-ot-security-without-alienating-plant-operations/"
+    },
+    {
+      "path": "src/articles/sell-outsourced-pmo-existing-project-tools.md",
+      "permalink": "/articles/sell-outsourced-pmo-existing-project-tools/"
+    },
+    {
+      "path": "src/articles/sell-outsourced-services-vs-hiring.md",
+      "permalink": "/articles/sell-outsourced-services-vs-hiring/"
+    },
+    {
+      "path": "src/articles/sell-parcel-lockers-property-managers.md",
+      "permalink": "/articles/sell-parcel-lockers-property-managers/"
+    },
+    {
+      "path": "src/articles/sell-payment-processing-differentiate.md",
+      "permalink": "/articles/sell-payment-processing-differentiate/"
+    },
+    {
+      "path": "src/articles/sell-regulated-technology-compliance-claims.md",
+      "permalink": "/articles/sell-regulated-technology-compliance-claims/"
+    },
+    {
+      "path": "src/articles/sell-software-development-regulated-healthcare.md",
+      "permalink": "/articles/sell-software-development-regulated-healthcare/"
+    },
+    {
+      "path": "src/articles/sell-software-switching-too-disruptive.md",
+      "permalink": "/articles/sell-software-switching-too-disruptive/"
+    },
+    {
+      "path": "src/articles/send-me-information-sales-objection.md",
+      "permalink": "/articles/send-me-information-sales-objection/"
+    },
+    {
+      "path": "src/articles/small-business-lead-generation.md",
+      "permalink": "/articles/small-business-lead-generation/"
+    },
+    {
+      "path": "src/articles/staffing-recruiting-outbound-sales-playbook.md",
+      "permalink": "/articles/staffing-recruiting-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/switching-b2b-lead-generation-agencies.md",
+      "permalink": "/articles/switching-b2b-lead-generation-agencies/"
+    },
+    {
+      "path": "src/articles/technical-discovery-questions-for-complex-b2b-software-sales.md",
+      "permalink": "/articles/technical-discovery-questions-for-complex-b2b-software-sales/"
+    },
+    {
+      "path": "src/articles/telecom-outbound-sales-playbook.md",
+      "permalink": "/articles/telecom-outbound-sales-playbook/"
+    },
+    {
+      "path": "src/articles/the-decision-has-already-been-made-cold-call-objection.md",
+      "permalink": "/articles/the-decision-has-already-been-made-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/we-tried-outsourcing-before-cold-call-objection.md",
+      "permalink": "/articles/we-tried-outsourcing-before-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/were-not-interested-cold-call-objection.md",
+      "permalink": "/articles/were-not-interested-cold-call-objection/"
+    },
+    {
+      "path": "src/articles/what-is-b2b-appointment-setting.md",
+      "permalink": "/articles/what-is-b2b-appointment-setting/"
+    },
+    {
+      "path": "src/articles/what-is-b2b-lead-generation.md",
+      "permalink": "/articles/what-is-b2b-lead-generation/"
+    },
+    {
+      "path": "src/articles/what-makes-b2b-appointment-qualified-practical-standard.md",
+      "permalink": "/articles/what-makes-b2b-appointment-qualified-practical-standard/"
+    }
+  ]
+}

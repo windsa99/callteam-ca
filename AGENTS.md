@@ -28,3 +28,21 @@ For authorship changes, run `node scripts/test-article-editorial-profiles.js`, `
 The production build runs article validation before rendering and authorship verification afterwards. Missing or unknown author keys, broken author profiles, or mismatched visible and structured author data must block the build. Keep the author profile's AI explanation brief and focused on research support.
 
 Keep the author profile independent of the About page. Link to it through article bylines; do not add a profile link to About or shared site navigation without explicit user instruction.
+
+## Contextual tool buttons in future articles
+
+For every new Article Engine article, choose `toolCtaIntent: "campaign"`, `"roi"`, or `"both"` from the reader's actual task. This applies even when the editorial profile is omitted. New pages using the article layout follow the same rule.
+
+- Strategy, targeting, scripts and practical campaign guidance: use **See How We’d Run Your Campaign**, linking to `/b2b-outbound-campaign-planner/`.
+- Campaign costs, budgets, customer value and returns: use **Calculate Your Campaign ROI**, linking to `/b2b-lead-generation-roi-calculator/`.
+- Use both only when the article substantively covers both subjects. Place them in separate relevant sections, with useful advice before each button. Do not stack them or choose by keyword alone.
+
+Use the existing `components/contextual-tool-cta.njk` component and `/assets/css/contextual-tools.css`. Configure only the selected tools under `contextualTools`. Add one explicit component include at the chosen editorial position for each selected tool. Write a short, article-specific introductory sentence; preserve the separate **Book a Free Call** CTA, author information, and all other Article Engine requirements. See `docs/future-article-tool-ctas.md` for a complete example.
+
+The 138 previously published articles are identified by source path and permalink in `scripts/data/article-tool-cta-legacy.json`. This is a frozen historical exemption list, not a list to update when publishing. Do not add future articles to it or retroactively add the new policy fields/buttons to old articles without a separate instruction. No shared-layout injection is used.
+
+`npm run check:articles` checks future article configuration and placement. `npm run build` also checks the rendered buttons inside article content, their labels and destinations, and the retained booking CTA. A failed tool check must be corrected before publishing; do not disable the guard or broaden the exemptions.
+
+For policy changes, run `node scripts/test-article-editorial-profiles.js`, `npm run test:article-tools`, `npm run build`, and `npm run check:library`. Test campaign-only, ROI-only and combined sample articles in an isolated copy outside production sources. Compare the clean production build with its baseline and require every existing output file to remain identical when the release is intended to affect future publishing only.
+
+Standalone service and landing pages keep contextual placements chosen for their own purpose; they are not automatically modified by the Article Engine rule.
