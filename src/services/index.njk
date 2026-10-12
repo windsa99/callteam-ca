@@ -51,6 +51,19 @@ faqSchema: |
   }
 ---
 
+<style>
+/* Keep the final service card the same width as its desktop neighbours. */
+.services-hub-page .services-card-grid > .services-card:last-child {
+  grid-column: span 2;
+}
+
+@media (max-width: 900px) {
+  .services-hub-page .services-card-grid > .services-card:last-child {
+    grid-column: auto;
+  }
+}
+</style>
+
 <main class="services-hub-page">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
     <div class="container"><a href="/">Home</a> / <span>Services</span></div>
