@@ -1,6 +1,20 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
+contextualTools:
+  campaign:
+    id: "cta-agencies-campaign"
+    accessibleName: "Preview your campaign"
+    copy: "See how the approach fits your offer, buyers and market. Build your free campaign preview."
+    href: "/b2b-outbound-campaign-planner/"
+    label: "See How We’d Approach Your Market"
+  roi:
+    id: "cta-agencies-roi"
+    accessibleName: "Calculate campaign returns"
+    copy: "Compare the investment with your customer value and sales assumptions. See your potential return and break-even."
+    href: "/b2b-lead-generation-roi-calculator/"
+    label: "Calculate Your Campaign ROI"
 tags: ["articles"]
 title: "Best B2B Lead Generation Agencies in 2026: Six Providers Compared"
 seoTitle: "Best B2B Lead Generation Agencies in 2026"
@@ -206,6 +220,8 @@ That creates six practical differences:
 
 CallTeam's [B2B appointment-setting service](/services/b2b-appointment-setting/) shows how those decisions move from account selection through attendance and handoff. Companies needing broader daily sales-development capacity can review the [outsourced SDR operating model](/services/outsourced-sdr/).
 
+{% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
+
 ## How AI and people should divide the work
 
 Every provider in this comparison discusses technology, automation, AI, proprietary systems, or data-supported execution. The useful question is not whether AI appears in the sales deck. Ask which decisions it makes, which messages it creates, what people review, and who is accountable when the output is wrong.
@@ -232,6 +248,8 @@ Normalize every proposal across these cost categories:
 - minimum term, cancellation, performance fees, and replacement rules.
 
 CallTeam's public price starts at US$4,000 monthly with a three-month initial engagement. For the agreed starting scope, that is the complete monthly program price. CallTeam does not add a setup charge, hidden platform fee, or surprise program surcharge. If the campaign requires fresh data, additional markets, languages, or expanded capacity, those requirements and prices are disclosed before launch. The program is not presented as unlimited or as a guaranteed number of customers. The complete scope is explained on the [B2B outbound pricing page](/pricing/).
+
+{% set contextToolCta = contextualTools.roi %}{% include "components/contextual-tool-cta.njk" %}
 
 ## Define what a qualified outcome means
 

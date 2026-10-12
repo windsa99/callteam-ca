@@ -89,7 +89,13 @@ layout: layouts/base.njk
           <span>0{{ loop.index }}</span><h3>{{ item.title }}</h3><p>{{ item.text }}</p><strong>{{ item.linkText or "Open the guide" }} →</strong>
         </a>
         {% endfor %}
-      </div>
+      </div>{% if contextToolCta %}
+      <!-- Contextual tools CTA: {{ contextToolCta.id }} -->
+      <aside class="context-tool-cta" id="{{ contextToolCta.id }}" data-context-tool-cta="{{ contextToolCta.id }}" aria-label="{{ contextToolCta.label }}">
+        <p>{{ contextToolCta.text }}</p>
+        <div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">See How We’d Approach Your Market</a></div>
+      </aside>
+      <!-- /Contextual tools CTA: {{ contextToolCta.id }} -->{% endif %}
     </div>
   </section>
 

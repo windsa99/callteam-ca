@@ -283,7 +283,13 @@ eleventyComputed:
         <section id="personalization" class="script-content-section">
           <span class="script-kicker">Make it yours</span>
           <h2>How to personalize this script</h2>
-          <ul class="script-personalization-list">{% for instruction in resource.personalization %}<li><span>{{ loop.index }}</span><p>{{ instruction }}</p></li>{% endfor %}</ul>
+          <ul class="script-personalization-list">{% for instruction in resource.personalization %}<li><span>{{ loop.index }}</span><p>{{ instruction }}</p></li>{% endfor %}</ul>{% if contextToolCta %}
+          <!-- Contextual tools CTA: {{ contextToolCta.id }} -->
+          <aside class="context-tool-cta" id="{{ contextToolCta.id }}" data-context-tool-cta="{{ contextToolCta.id }}" aria-label="{{ contextToolCta.label }}">
+            <p>{{ contextToolCta.text }}</p>
+            <div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">See How We’d Approach Your Market</a></div>
+          </aside>
+          <!-- /Contextual tools CTA: {{ contextToolCta.id }} -->{% endif %}
         </section>
 
         <section id="alternatives" class="script-content-section">
