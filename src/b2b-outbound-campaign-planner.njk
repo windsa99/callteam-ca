@@ -1,0 +1,138 @@
+---
+layout: layouts/base.njk
+permalink: "/b2b-outbound-campaign-planner/"
+title: "Free B2B Outbound Campaign Planner"
+seoTitle: "Free B2B Outbound Campaign Planner | CallTeam"
+description: "Build a free B2B outbound campaign preview. Choose your offer, market and buyer to explore a calling angle, qualification questions and a practical next step."
+canonicalUrl: "https://www.callteam.ca/b2b-outbound-campaign-planner/"
+socialTitle: "See how your next sales conversation could start | CallTeam"
+socialDescription: "Five quick questions. A practical outbound starting point. Explore the buyers, conversation angle and qualification behind a CallTeam campaign."
+pageStyles:
+  - "/assets/css/campaign-preview.css"
+pageScripts:
+  - "/assets/js/campaign-data.js"
+  - "/assets/js/campaign-model.js"
+  - "/assets/js/campaign-preview.js"
+date: "2026-10-11"
+modified: "2026-10-12"
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.callteam.ca/b2b-outbound-campaign-planner/#webpage",
+      "url": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "name": {{ seoTitle | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "publisher": { "@id": "{{ site.organizationId }}" },
+      "breadcrumb": { "@id": "https://www.callteam.ca/b2b-outbound-campaign-planner/#breadcrumb" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.callteam.ca/b2b-outbound-campaign-planner/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "B2B Outbound Campaign Planner", "item": "https://www.callteam.ca/b2b-outbound-campaign-planner/" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="campaign-page" id="campaign-preview">
+  <div class="cp-hero-shell">
+    <nav class="cp-breadcrumb cp-wrap" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span aria-current="page">Campaign planner</span></nav>
+    <section class="cp-hero cp-wrap" aria-labelledby="cp-page-title">
+      <div class="cp-hero-copy">
+        <p class="cp-eyebrow">Free B2B Campaign Preview</p>
+        <h1 id="cp-page-title">See how we would get<br>your next sales<br><span>conversation started.</span></h1>
+        <p class="cp-hero-lead">Tell us what you sell and who you want to reach. Get a practical starting point for your buyers, calling angle and qualification.</p>
+        <div class="cp-hero-actions"><a href="#cp-builder" class="cp-button cp-button-orange">Build my campaign preview <span aria-hidden="true">↘</span></a><span>Free. Instant results.<br>No email required.</span></div>
+        <p class="cp-hero-proof">Built from CallTeam's outbound playbooks, call scripts and documented campaign experience.</p>
+      </div>
+      <aside class="cp-hero-map" aria-label="A campaign connects your offer, your buyer and a relevant opening">
+        <div class="cp-map-top"><span>The first conversation</span><span aria-hidden="true">↗</span></div>
+        <ol><li><span>01</span><div><strong>Your offer.</strong><p>The business problem you solve.</p></div></li><li><span>02</span><div><strong>Your buyer.</strong><p>The person who owns that problem.</p></div></li><li><span>03</span><div><strong>A reason to talk.</strong><p>A question worth answering.</p></div></li></ol>
+        <p class="cp-map-foot">Built around CallTeam's sales playbooks and calling resources.</p>
+      </aside>
+    </section>
+  </div>
+
+  <section class="cp-builder-section" id="cp-builder" aria-labelledby="cp-builder-title">
+    <div class="cp-wrap">
+      <div class="cp-section-heading"><div><p class="cp-eyebrow">Five quick questions</p><h2 id="cp-builder-title">Start with your market.</h2></div><p>Your answers shape the approach. Choose the closest fit and see how the conversation could begin.</p></div>
+      <noscript><p class="cp-noscript">Enable JavaScript to build an interactive preview. You can still explore the manufacturing example below or <a href="#contact">send us your campaign brief</a>.</p></noscript>
+      <div class="cp-builder-grid">
+        <div class="cp-selection-panel" data-clarity-mask="true">
+          <fieldset class="cp-fields"><legend class="sr-only">Your outbound campaign</legend>
+            <div class="cp-field cp-field-wide"><label for="cp-offer"><span class="cp-field-number">01</span> What do you sell?</label><select id="cp-offer" aria-describedby="cp-offer-help"><option value="" selected>Select your offer</option>{% for option in campaignPreview.options.offer %}{% if option.value %}<option value="{{ option.value }}">{{ option.label }}</option>{% endif %}{% endfor %}</select><p id="cp-offer-help">Choose the category closest to your product or service.</p></div>
+            <div class="cp-field"><label for="cp-industry"><span class="cp-field-number">02</span> Which industry do you sell to?</label><select id="cp-industry" aria-describedby="cp-industry-help">{% for option in campaignPreview.options.industry %}<option value="{{ option.value }}"{% if option.value == 'any' %} selected{% endif %}>{{ option.label }}</option>{% endfor %}</select><p id="cp-industry-help">The market you want the campaign to reach.</p></div>
+            <div class="cp-field"><label for="cp-buyer"><span class="cp-field-number">03</span> Who is the buyer?</label><select id="cp-buyer" aria-describedby="cp-buyer-help">{% for option in campaignPreview.options.buyer %}<option value="{{ option.value }}"{% if option.value == 'auto' %} selected{% endif %}>{{ option.label }}</option>{% endfor %}</select><p id="cp-buyer-help">Choose a role or use the suggested starting point.</p></div>
+            <div class="cp-field"><label for="cp-region"><span class="cp-field-number">04</span> Which region?</label><select id="cp-region" aria-describedby="cp-region-help">{% for option in campaignPreview.options.region %}<option value="{{ option.value }}"{% if option.value == 'north-america' %} selected{% endif %}>{{ option.label }}</option>{% endfor %}</select><p id="cp-region-help">Where you want to build sales conversations.</p></div>
+            <div class="cp-field"><label for="cp-goal"><span class="cp-field-number">05</span> What do you want to achieve?</label><select id="cp-goal" aria-describedby="cp-goal-help">{% for option in campaignPreview.options.goal %}<option value="{{ option.value }}"{% if option.value == 'meetings' %} selected{% endif %}>{{ option.label }}</option>{% endfor %}</select><p id="cp-goal-help">The outcome a useful first conversation should support.</p></div>
+          </fieldset>
+          <p class="cp-error" id="cp-error" role="alert" hidden></p>
+          <div class="cp-build-actions"><button type="button" id="cp-build" class="cp-button cp-button-orange" disabled>Build my preview <span aria-hidden="true">→</span></button><button type="button" id="cp-reset" class="cp-reset" disabled>Start again</button></div>
+          <p class="cp-selection-note">The preview matches your answers to prepared CallTeam guidance. Company research and campaign planning come next.</p>
+        </div>
+        <aside class="cp-preview-promise">
+          <p class="cp-eyebrow">A useful starting point</p><h3>More than<br>a blank call sheet.</h3>
+          <ul><li><span aria-hidden="true">↗</span><div><strong>A buyer to aim for</strong><p>A role and business context that fit the offer.</p></div></li><li><span aria-hidden="true">↗</span><div><strong>A conversation to open</strong><p>A relevant angle and a practical way to start.</p></div></li><li><span aria-hidden="true">↗</span><div><strong>A reason to keep going</strong><p>Questions that help qualify the next step.</p></div></li><li><span aria-hidden="true">↗</span><div><strong>Resources to go deeper</strong><p>Related CallTeam playbooks, scripts and campaign evidence.</p></div></li></ul>
+          <a href="#cp-example" class="cp-text-link">See an example <span aria-hidden="true">↓</span></a>
+        </aside>
+      </div>
+
+      <div id="cp-results" class="cp-results" hidden tabindex="-1" data-clarity-mask="true" aria-labelledby="cp-result-title">
+        <div class="cp-results-heading"><div><p class="cp-eyebrow">Your preview — based on your answers</p><h2 id="cp-result-title">Your outbound campaign preview</h2></div><span class="cp-result-badge">Ready to review</span></div>
+        <div id="cp-result-content" class="cp-result-content"></div>
+        <div class="cp-result-tools" aria-label="Save or discuss your preview"><button id="cp-copy" type="button" disabled>Copy preview</button><button id="cp-print" type="button" disabled>Print preview</button><button id="cp-inquiry" type="button" disabled>Send this with a message <span aria-hidden="true">→</span></button></div>
+        <label for="cp-copy-text" class="sr-only">Your campaign preview, ready to copy</label><textarea id="cp-copy-text" class="cp-copy-text" readonly hidden data-clarity-mask="true"></textarea>
+        <div class="cp-result-next"><div><h3>Now put a team behind it.</h3><p>Bring this preview to CallTeam. Let us show you how we can turn the starting point into a campaign built around your business.</p></div><a id="cp-booking" href="https://calendly.com/hello-callteam/new-meeting" class="cp-button cp-button-orange" target="_blank" rel="noopener" data-cp-booking>Book a time with CallTeam <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <p id="cp-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    </div>
+  </section>
+
+  <section class="cp-example-section cp-screen-only" id="cp-example" aria-labelledby="cp-example-title">
+    <div class="cp-wrap">
+      <details id="cp-example-disclosure" class="cp-example-disclosure" open>
+      <summary>See another example</summary>
+      <div class="cp-example-content">
+      <div class="cp-section-heading"><div><p class="cp-eyebrow">Example only</p><h2 id="cp-example-title">Cybersecurity offer.<br>Manufacturing buyer.<br><span>A better opening.</span></h2></div><p>A fixed example from our OT security resources. Your selections change the personalised preview above.</p></div>
+      <div class="cp-example-grid">
+        <div class="cp-example-call"><div class="cp-call-meta"><span>Example call opening</span><span aria-hidden="true">01 / VOICE</span></div><blockquote>“Hi [First Name], [Your Name] with [Company]. Quick question: when a security issue affects the plant, who owns the response: IT, controls or plant operations?”</blockquote><p class="cp-example-bridge">The follow-up: “How do those teams agree on the next step when equipment cannot simply be taken offline?”</p><p class="cp-example-call-note">Adapt this opening to your actual offer and approved capabilities.</p></div>
+        <div class="cp-example-detail"><article><span class="cp-small-label">Start with the right environment</span><h3>Connected plants with shared responsibility.</h3><p>Look for manufacturers where production, industrial systems and outside support intersect. Research the operating context before choosing accounts.</p></article><article><span class="cp-small-label">Map the people</span><h3>Security and plant operations.</h3><p>Begin with OT security, industrial cybersecurity or plant IT. Involve controls and operations when production impact shapes the decision.</p></article><article><span class="cp-small-label">Qualify the conversation</span><ul><li>Who owns the issue and approves the work?</li><li>What current question deserves attention?</li><li>Who needs to join a useful working session?</li></ul></article></div>
+      </div>
+      <div class="cp-resource-row"><a href="/articles/sell-ot-security-without-alienating-plant-operations/"><span>Sales playbook</span><strong>Sell OT security with plant reality in mind</strong><span aria-hidden="true">↗</span></a><a href="/resources/cold-call-scripts/ot-security-cold-call-script-for-manufacturers/"><span>Ready-to-adapt script</span><strong>Open the manufacturing OT calling guide</strong><span aria-hidden="true">↗</span></a><a href="/case-studies/manufacturing-cybersecurity-appointment-setting/"><span>Campaign evidence</span><strong>See the manufacturing security case study</strong><span aria-hidden="true">↗</span></a></div>
+      </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="cp-proof-section cp-screen-only" aria-labelledby="cp-proof-title"><div class="cp-wrap">
+    <div class="cp-section-heading"><div><p class="cp-eyebrow">Real results from past CallTeam campaigns</p><h2 id="cp-proof-title">The conversation is<br>where the work begins.</h2></div><p>These documented CallTeam campaigns show what happened after research, calling, qualification and follow-up.</p></div>
+    <div class="cp-proof-grid"><article class="cp-proof-card"><p class="cp-small-label">Manufacturing cybersecurity</p><div class="cp-proof-number"><strong>9</strong><span>qualified appointments<br>in 90 days</span></div><h3>Three meaningful opportunities.</h3><p>Two required longer follow-up. One prospect entered near-term discussions about changing security providers.</p><a href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the campaign <span aria-hidden="true">↗</span></a></article><article class="cp-proof-card"><p class="cp-small-label">B2B SaaS and location intelligence</p><div class="cp-proof-number"><strong>11</strong><span>qualified product demos<br>in 90 days</span></div><h3>Two customers within six months.</h3><p>Four demos developed into serious opportunities. Product evaluation and continued follow-up carried the campaign forward.</p><a href="/case-studies/saas-demo-appointment-setting/">Read the campaign <span aria-hidden="true">↗</span></a></article></div>
+    <p class="cp-proof-note">Individual campaign results, with client identities withheld. The preview does not predict meeting volume, closed business or timing for your campaign.</p>
+  </div></section>
+
+  <section class="cp-execution-section cp-screen-only" aria-labelledby="cp-execution-title"><div class="cp-wrap">
+    <div class="cp-section-heading"><div><p class="cp-eyebrow">From a preview to a working campaign</p><h2 id="cp-execution-title">We do the work<br><span>behind the first meeting.</span></h2></div><p>Once we understand your business, CallTeam connects the planning, human calling and follow-through that a useful campaign needs.</p></div>
+    <ol class="cp-execution-list"><li><span>01</span><div><h3>Get the market right.</h3><p>Review the offer, account criteria, buyer roles, available data and what a qualified next step should mean.</p></div></li><li><span>02</span><div><h3>Prepare the conversation.</h3><p>Build the calling approach, questions, objection handling and handoff around your actual capabilities and buyer context.</p></div></li><li><span>03</span><div><h3>Call, qualify and follow up.</h3><p>Reach people, learn what matters, confirm interest and protect the meeting with useful context for your sales team.</p></div></li><li><span>04</span><div><h3>Improve with evidence.</h3><p>Use buyer responses, meeting quality and your sales feedback to sharpen targeting and the next round of outreach.</p></div></li></ol>
+    <div class="cp-service-links"><span>Explore the operating model</span><a href="/services/b2b-appointment-setting/">B2B appointment setting <span aria-hidden="true">↗</span></a><a href="/services/outsourced-sdr/">Outsourced SDR services <span aria-hidden="true">↗</span></a><a href="/pricing/">Pricing and scope <span aria-hidden="true">↗</span></a><a href="/b2b-lead-generation-roi-calculator/">Check your campaign ROI <span aria-hidden="true">↗</span></a></div>
+  </div></section>
+
+  <section class="cp-faq-section cp-screen-only" aria-labelledby="cp-faq-title"><div class="cp-wrap cp-faq-grid"><div><p class="cp-eyebrow">Know what you are getting</p><h2 id="cp-faq-title">A practical preview.<br>Clear next steps.</h2><p>Use the planner to explore an approach, then bring the details of your business into the conversation.</p></div><div class="cp-faq-list">
+    <details><summary>What does the free B2B outbound campaign planner do?</summary><p>It matches your offer, industry, buyer, region and goal to prepared CallTeam guidance. The preview gives you a starting approach for the audience, conversation and qualification, with related resources to explore.</p></details>
+    <details><summary>Is this a researched campaign for my company?</summary><p>The preview is based on the answers you select. It does not inspect your website, verify your capabilities or research individual target accounts. We develop that company-specific context when discussing a real campaign.</p></details>
+    <details><summary>What if my offer or industry does not have a close match?</summary><p>The planner uses a broader approach and makes the limits clear when a specific match is unavailable. Choose the nearest honest category, or select the other-offer option. Bring the details to CallTeam so we can assess the market properly.</p></details>
+    <details><summary>Can I use the opening and qualification questions?</summary><p>Yes. Adapt them to your actual offer, buyer and evidence before using them. Replace placeholders, verify any company-specific references and keep product claims within what your team can support.</p></details>
+    <details><summary>Does the preview include a prospect list or promise meetings?</summary><p>It provides planning guidance and a conversation starting point. Account research, contact data, campaign capacity, meeting standards and expected outcomes need a separate scope discussion.</p></details>
+    <details><summary>What happens when I send the preview or book a call?</summary><p>We review your offer, target market, current sales process and the approach you selected. Then we discuss the research, calling, qualification and follow-up required, and whether CallTeam fits the work.</p></details>
+  </div></div></section>
+
+  <section class="cp-final-section cp-screen-only" aria-labelledby="cp-final-title"><div class="cp-wrap cp-final-grid"><div><p class="cp-eyebrow">Your next sales conversation</p><h2 id="cp-final-title">You know who you want.<br><span>Let us help you reach them.</span></h2><p>Bring your offer and the market you want to win. Let us show you how CallTeam can build the outreach around it.</p></div><div class="cp-final-actions"><a href="https://calendly.com/hello-callteam/new-meeting" class="cp-button cp-button-orange" target="_blank" rel="noopener" data-cp-booking>Book a time with CallTeam <span aria-hidden="true">↗</span></a><a href="#contact" class="cp-final-message">Prefer to send a message? <span aria-hidden="true">↓</span></a></div></div></section>
+</main>

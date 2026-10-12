@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "deployment": "Sandbox only. No push or deployment.",
+  "localDate": "2026-10-12",
+  "sourceBaseline": "a61295721c0702325d4bea03a57c3942efe757d0",
+  "rounds": 3,
+  "cleanBuildByteIdenticalFiles": 290,
+  "perRound": {
+    "campaignModelChecks": 31,
+    "answerCombinations": 25740,
+    "campaignDOMChecks": 34,
+    "roiModelChecks": 27,
+    "roiDOMChecks": 21,
+    "brokenFormRegressionChecks": 21,
+    "negativePreservationChecks": 5
+  },
+  "preservation": {
+    "status": "passed",
+    "existingPagesPreserved": 265,
+    "existingArticleBodiesPreservedExactly": 138,
+    "existingScriptPagesPreserved": 100,
+    "existingAssetsAndRobotsPreservedExactly": 19,
+    "newPages": 1,
+    "newAssets": 4,
+    "totalHtmlPages": 266,
+    "allowedContextualPages": [
+      "b2b-lead-generation-roi-calculator/index.html",
+      "pricing/index.html",
+      "resources/outbound-sales-library/index.html",
+      "services/b2b-appointment-setting/index.html",
+      "services/outsourced-sdr/index.html",
+      "services/lead-reactivation/index.html"
+    ],
+    "sitemap": "All prior entries preserved; one planner URL added",
+    "newPage": "Static SEO content, canonical, JSON-LD, internal links, asset isolation and shared form guard passed",
+    "negativeRegressionCasesVerified": 5,
+    "negativeRegressionResults": [
+      {
+        "case": "existing article body modified",
+        "rejectedAsExpected": true
+      },
+      {
+        "case": "existing page removed",
+        "rejectedAsExpected": true
+      },
+      {
+        "case": "existing protected form changed",
+        "rejectedAsExpected": true
+      },
+      {
+        "case": "new planner resource missing",
+        "rejectedAsExpected": true
+      },
+      {
+        "case": "existing stylesheet modified",
+        "rejectedAsExpected": true
+      }
+    ],
+    "qualification": "Page preservation permits only the explicit marked link additions and harmless whitespace. No live submission or deployment is performed by this script."
+  },
+  "previewPackage": {
+    "status": "passed",
+    "packagedScenarios": [
+      {
+        "offer": "saas",
+        "industry": "technology",
+        "goal": "demos",
+        "match": "specific",
+        "title": "A use-case-led SaaS campaign",
+        "status": "passed"
+      },
+      {
+        "offer": "ot-security",
+        "industry": "manufacturing",
+        "goal": "meetings",
+        "match": "specific",
+        "title": "An OT security campaign built around plant ownership",
+        "status": "passed"
+      },
+      {
+        "offer": "accounting",
+        "industry": "services",
+        "goal": "reactivate",
+        "match": "specific",
+        "title": "An accounting services campaign with a defined scope",
+        "status": "passed"
+      },
+      {
+        "offer": "healthcare-tech",
+        "industry": "commerce",
+        "goal": "demos",
+        "match": "broad",
+        "title": "Your B2B campaign starting plan",
+        "status": "passed"
+      },
+      {
+        "offer": "other",
+        "industry": "any",
+        "goal": "meetings",
+        "match": "broad",
+        "title": "Your B2B campaign starting plan",
+        "status": "passed"
+      }
+    ],
+    "exampleDisclosureVerified": true,
+    "personalizedAndStaticLabelsVerified": true,
+    "scriptsAndStylesEmbedded": true,
+    "analyticsRemoved": true,
+    "submissionsDisabled": true,
+    "qualification": "Executable DOM verification, not visual browser testing"
+  },
+  "limits": [
+    "Browser visual checks unavailable under Sites workflow in this environment.",
+    "No live Formspree submissions or Calendly bookings were sent.",
+    "Search/AI discoverability foundations are implemented in the sandbox; indexing, provider access and real traffic cannot be established before release."
+  ],
+  "answerCombinationEvaluations": 77220,
+  "matchingCoverage": {
+    "specificMatches": 4960,
+    "disclosedBroadPlans": 20780,
+    "resourcesPerResult": {
+      "min": 4,
+      "max": 7
+    },
+    "note": "All combinations return complete starting plans; they are not individually researched campaigns."
+  },
+  "clarityUpdate": {
+    "sourceBefore": "9aa5faa",
+    "productionFilesChanged": 3,
+    "changes": [
+      "Personal result label states it is based on answers",
+      "Resources labelled as matched to answers",
+      "Fixed example closes after successful build; native disclosure allows reopening; reset opens it",
+      "Static campaign proof labelled as past CallTeam campaigns"
+    ],
+    "readOnlyRemoteMain": "decf147f68061d02f262f90c3b0582a54ae3b5e6"
+  }
+}
