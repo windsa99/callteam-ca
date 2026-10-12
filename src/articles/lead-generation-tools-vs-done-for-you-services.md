@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "Lead Generation Tools vs. Done-For-You Services: Which Do You Actually Need?"
 seoTitle: "Lead Generation Tools vs Done-For-You Services | CallTeam"
@@ -168,6 +169,13 @@ For services, include:
 - transition cost if the relationship ends.
 
 Then consider the cost of delay. A cheaper internal build may be the right long-term decision but arrive too late for a market-entry window. A fast external campaign may provide early learning while the internal function is being developed.
+
+<!-- Contextual tools CTA: cta-tools-roi -->
+<aside class="context-tool-cta" id="cta-tools-roi" aria-label="Estimate returns for the outbound campaign component" data-context-tool-cta="cta-tools-roi">
+<p>Model the outbound campaign component with your chosen budget, customer value and conversion assumptions. Use the cost framework above to assess the wider software and operating investment.</p>
+<div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a></div>
+</aside>
+<!-- /Contextual tools CTA: cta-tools-roi -->
 
 ## Consider control, learning, and dependency
 

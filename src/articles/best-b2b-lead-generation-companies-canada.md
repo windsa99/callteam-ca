@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "Best B2B Lead Generation Companies in Canada: 2026 Buyer’s Comparison"
 seoTitle: "Best B2B Lead Generation Companies in Canada (2026)"
@@ -193,6 +194,13 @@ Then examine the remedy. Free additional work, replacement meetings, credits, di
 CallTeam establishes ICP, account exclusions, country and province coverage, buyer roles, language needs, Buyer Signal Radar inputs, calling process, qualification, disqualification, follow-up, confirmation, CRM requirements, attendance ownership, and quality reporting before launch.
 
 The model is human-led. AI assists with research, prioritization, preparation, and learning, while people remain accountable for the live exchange and every promise made. The team does not treat AI GTM as a substitute for someone having the conversation.
+
+<!-- Contextual tools CTA: cta-canada-campaign -->
+<aside class="context-tool-cta" id="cta-canada-campaign" aria-label="Explore your Canadian or cross-border campaign" data-context-tool-cta="cta-canada-campaign">
+<p>See how this approach could work for your business. Choose your offer, buyers and market to get a campaign starting point with matched CallTeam resources.</p>
+<div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">See How We’d Approach Your Market</a></div>
+</aside>
+<!-- /Contextual tools CTA: cta-canada-campaign -->
 
 ## Field observation: one North American list can hide two campaigns
 

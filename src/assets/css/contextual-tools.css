@@ -1,0 +1,74 @@
+/* Opt-in presentation for the ten contextual tool placements. */
+.context-tool-cta {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 28px 0;
+  padding: 24px;
+  border: 1px solid #e2e2e2;
+  border-left: 4px solid var(--orange);
+  background: #fafafa;
+  color: var(--black);
+}
+
+.context-tool-cta > p {
+  max-width: 76ch;
+  margin: 0 0 18px;
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.context-tool-cta .context-tool-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.context-tool-cta .context-tool-actions > a {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  max-width: 100%;
+  margin: 0;
+  padding: 14px 22px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.context-tool-cta .context-tool-actions > .btn-primary {
+  color: var(--black);
+  border: 2px solid transparent;
+}
+
+.context-tool-cta .context-tool-actions > .btn-secondary {
+  color: var(--black);
+}
+
+.context-tool-cta .context-tool-actions > .btn-secondary:hover {
+  color: var(--orange);
+}
+
+.context-tool-cta .context-tool-actions > a:focus-visible {
+  outline: 3px solid var(--black);
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  .context-tool-cta {
+    margin: 24px 0;
+    padding: 20px 16px;
+  }
+
+  .context-tool-cta .context-tool-actions > a {
+    width: 100%;
+  }
+}

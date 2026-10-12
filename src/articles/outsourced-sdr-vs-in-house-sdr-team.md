@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "Outsourced SDR Services vs an In-House SDR Team: Cost, Control and Cold Calling"
 seoTitle: "Outsourced SDR vs In-House Team: Complete Guide"
@@ -130,6 +131,13 @@ Use a simple model:
 > **Fully loaded internal SDR cost = compensation + employer costs + recruiting + management + data + technology + enablement + QA + compliance + ramp and turnover impact**
 
 For the outsourced model, include the service fee, setup if any, data or technology outside the agreement, client management time, required sales participation, and any contract commitments. Normalize both models over the same period and capacity. Keep the scope precise because a narrow [appointment-setting service](/services/b2b-appointment-setting/) and a managed SDR function are not the same purchase.
+
+<!-- Contextual tools CTA: cta-sdr-roi -->
+<aside class="context-tool-cta" id="cta-sdr-roi" aria-label="Model the return on your chosen campaign budget" data-context-tool-cta="cta-sdr-roi">
+<p>Once you have calculated the costs, enter your selected campaign budget and sales assumptions to explore potential returns. Calculate staffing costs separately using the framework above.</p>
+<div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a></div>
+</aside>
+<!-- /Contextual tools CTA: cta-sdr-roi -->
 
 ## Decide which forms of control actually matter
 

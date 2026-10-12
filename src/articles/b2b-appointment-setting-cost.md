@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "How Much Does B2B Appointment Setting Cost?"
 seoTitle: "B2B Appointment Setting Cost: Pricing Models Explained"
@@ -182,7 +183,12 @@ Then calculate several units:
 
 The first ratio explains calendar production. The second exposes attendance. The third tests the qualification and handoff agreement. The fourth begins connecting top-of-funnel work to pipeline. Keep all four because a single favorable ratio can conceal a failure later in the path.
 
-Use the [B2B lead generation ROI calculator](/b2b-lead-generation-roi-calculator/) to connect your campaign costs and conversion assumptions to customer economics and break-even.
+<!-- Contextual tools CTA: cta-cost-roi -->
+<aside class="context-tool-cta" id="cta-cost-roi" aria-label="Connect campaign costs to customer economics" data-context-tool-cta="cta-cost-roi">
+<p>Connect your campaign costs and conversion assumptions to customer economics and break-even with the B2B lead generation ROI calculator.</p>
+<div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a></div>
+</aside>
+<!-- /Contextual tools CTA: cta-cost-roi -->
 
 ## Treat guarantees as an incentive design problem
 
