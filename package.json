@@ -2,7 +2,7 @@
   "name": "callteam-ca",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run check:articles && eleventy && node scripts/test-article-authorship.js && npm run check:forms",
+    "build": "npm run check:articles && npm run test:roi && eleventy && node scripts/test-article-authorship.js && npm run check:forms",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js",
     "check:about": "node scripts/validate-about-page.js",
@@ -14,7 +14,8 @@
     "check:authority-wave-four": "node scripts/validate-authority-wave-four.js",
     "check:library": "node scripts/validate-outbound-library.js",
     "check:forms": "node scripts/check-contact-forms.js",
-    "test:form-guard": "node scripts/test-contact-form-guard.js"
+    "test:form-guard": "node scripts/test-contact-form-guard.js",
+    "test:roi": "node scripts/test-roi-calculator.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"

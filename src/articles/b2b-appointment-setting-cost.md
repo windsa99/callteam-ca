@@ -182,6 +182,8 @@ Then calculate several units:
 
 The first ratio explains calendar production. The second exposes attendance. The third tests the qualification and handoff agreement. The fourth begins connecting top-of-funnel work to pipeline. Keep all four because a single favorable ratio can conceal a failure later in the path.
 
+Use the [B2B lead generation ROI calculator](/b2b-lead-generation-roi-calculator/) to connect your campaign costs and conversion assumptions to customer economics and break-even.
+
 ## Treat guarantees as an incentive design problem
 
 A guarantee is not proof that a provider can create valuable opportunities. It is a promise governed by definitions, exclusions, replacement rules, and the provider's economic incentive.

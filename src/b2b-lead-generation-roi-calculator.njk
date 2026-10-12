@@ -1,0 +1,245 @@
+---
+layout: layouts/base.njk
+permalink: "/b2b-lead-generation-roi-calculator/"
+title: "B2B Lead Generation ROI Calculator"
+seoTitle: "B2B Lead Generation ROI Calculator | CallTeam"
+description: "Calculate the potential return on B2B appointment setting. Model campaign cost, held meetings, new customers, gross profit and break-even with your own numbers."
+canonicalUrl: "https://www.callteam.ca/b2b-lead-generation-roi-calculator/"
+socialTitle: "What could better sales conversations be worth? | CallTeam"
+socialDescription: "Build the business case for outbound with CallTeam's free B2B lead generation ROI calculator. Start with a US$4,000 monthly example and make the numbers yours."
+pageStyles:
+  - "/assets/css/roi-calculator.css"
+pageScripts:
+  - "/assets/js/roi-model.js"
+  - "/assets/js/roi-calculator.js"
+date: "2026-10-11"
+modified: "2026-10-11"
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/#webpage",
+      "url": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "name": {{ seoTitle | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "publisher": { "@id": "{{ site.organizationId }}" },
+      "breadcrumb": { "@id": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/#breadcrumb" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
+        { "@type": "ListItem", "position": 2, "name": "B2B Lead Generation ROI Calculator", "item": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="roi-page" id="roi-calculator">
+  <div class="roi-hero-shell">
+    <nav class="roi-breadcrumb roi-wrap" aria-label="Breadcrumb">
+      <a href="/">Home</a><span aria-hidden="true">/</span><span aria-current="page">ROI calculator</span>
+    </nav>
+    <section class="roi-hero roi-wrap" aria-labelledby="roi-page-title">
+      <div>
+        <p class="roi-eyebrow">The business case for outbound</p>
+        <h1 id="roi-page-title">B2B lead generation<br><span>ROI calculator.</span></h1>
+        <p class="roi-hero-lead">What could the right sales conversations be worth to your business?</p>
+        <p class="roi-hero-description">Put your customer value, close rate and campaign investment to work. See the potential return, find your break-even point, and start with a clearer plan.</p>
+        <a class="roi-text-link" href="#roi-inputs">Run your numbers <span aria-hidden="true">↘</span></a>
+      </div>
+      <aside class="roi-hero-note" aria-label="How to use this calculator">
+        <span class="roi-note-number" aria-hidden="true">01 / THE OPPORTUNITY</span>
+        <p>A few good customers<br>can change the year.</p>
+        <span>Find out what it would take to earn them.</span>
+        <div class="roi-note-foot"><span aria-hidden="true">●</span> Free to use. No email required.</div>
+      </aside>
+    </section>
+  </div>
+
+  <section class="roi-calculation-section" aria-labelledby="roi-calculation-title">
+    <div class="roi-wrap">
+      <div class="roi-section-heading roi-calculation-heading">
+        <div><p class="roi-eyebrow">Your assumptions. A clearer decision.</p><h2 id="roi-calculation-title">Make the numbers yours.</h2></div>
+        <p>All amounts are in US dollars. Start with the example, then enter figures that reflect your business.</p>
+      </div>
+      <noscript><p class="roi-noscript">The worked example and formulas remain available below. Enable JavaScript to update the calculator, or <a href="#contact">ask CallTeam to review your numbers</a>.</p></noscript>
+      <div class="roi-engine" data-clarity-mask="true">
+        <div class="roi-input-panel" id="roi-inputs">
+          <div class="roi-panel-heading"><h3>Build your scenario</h3><span>01</span></div>
+          <fieldset class="roi-fieldset">
+            <legend>Campaign investment</legend>
+            <div class="roi-field-grid">
+              <div class="roi-field">
+                <label for="roi-monthlyCost">Monthly campaign cost <span>US$</span></label>
+                <input id="roi-monthlyCost" type="number" inputmode="decimal" min="0" max="1000000" step="0.01" value="4000" aria-describedby="roi-monthlyCost-help">
+                <p id="roi-monthlyCost-help">US$4,000 is the starting example. Enter your proposed monthly investment.</p>
+              </div>
+              <div class="roi-field">
+                <label for="roi-months">Campaign length <span>months</span></label>
+                <input id="roi-months" type="number" inputmode="numeric" min="1" max="36" step="1" value="3" aria-describedby="roi-months-help">
+                <p id="roi-months-help">The period in which outreach runs and meetings are generated.</p>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="roi-fieldset">
+            <legend>Your sales economics</legend>
+            <div class="roi-field-grid">
+              <div class="roi-field">
+                <label for="roi-meetings">Qualified meetings held <span>campaign total</span></label>
+                <input id="roi-meetings" type="number" inputmode="numeric" min="0" max="100000" step="1" value="20" aria-describedby="roi-meetings-help">
+                <p id="roi-meetings-help">Meetings that take place across all campaign months. The starting 20 is an example.</p>
+              </div>
+              <div class="roi-field">
+                <label for="roi-closeRate">Meeting-to-customer rate <span>%</span></label>
+                <input id="roi-closeRate" type="number" inputmode="decimal" min="0" max="100" step="0.01" value="10" aria-describedby="roi-closeRate-help">
+                <p id="roi-closeRate-help">The share of comparable held meetings your team converts into customers.</p>
+              </div>
+            </div>
+            <div class="roi-field-grid">
+              <div class="roi-field">
+                <label for="roi-customerRevenue">First-year revenue per customer <span>US$</span></label>
+                <input id="roi-customerRevenue" type="number" inputmode="decimal" min="0" max="100000000" step="0.01" value="25000" aria-describedby="roi-customerRevenue-help">
+                <p id="roi-customerRevenue-help">Use revenue from one customer's first 12 months, including one-off projects within that period.</p>
+              </div>
+              <div class="roi-field">
+                <label for="roi-grossMargin">Gross margin <span>%</span></label>
+                <input id="roi-grossMargin" type="number" inputmode="decimal" min="0" max="100" step="0.01" value="50" aria-describedby="roi-grossMargin-help">
+                <p id="roi-grossMargin-help">The share of revenue remaining after the cost of delivering your product or service.</p>
+              </div>
+            </div>
+          </fieldset>
+          <details class="roi-advanced" id="roi-advanced">
+            <summary>Advanced settings <span>Add other campaign costs</span></summary>
+            <div class="roi-field">
+              <label for="roi-extraCosts">Additional campaign costs <span>US$ total</span></label>
+              <input id="roi-extraCosts" type="number" inputmode="decimal" min="0" max="10000000" step="0.01" value="0" aria-describedby="roi-extraCosts-help">
+              <p id="roi-extraCosts-help">Include research, data, setup or internal sales costs. Enter a total for the full campaign, beyond your monthly investment.</p>
+            </div>
+          </details>
+          <p class="roi-input-note">These starting values illustrate the calculation. Your offer, market and sales follow-through determine the real outcome.</p>
+          <p id="roi-error" class="roi-error" role="alert" hidden></p>
+          <button class="roi-reset" id="roi-reset" type="button" disabled>Reset the example <span aria-hidden="true">↺</span></button>
+          <a class="roi-view-results" href="#roi-results">View my results <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="roi-results-column">
+          <div class="roi-results-panel" id="roi-results" data-state="positive" aria-labelledby="roi-results-title">
+            <div class="roi-panel-heading"><h3 id="roi-results-title">Your business case</h3><span>02</span></div>
+            <div class="roi-primary-result">
+              <span class="roi-result-label">Projected contribution after campaign cost</span>
+              <strong data-roi-output="contribution">US$13,000</strong>
+              <div class="roi-return-line"><span data-roi-output="roi">108.3%</span><span>return on campaign investment</span></div>
+            </div>
+            <dl class="roi-results-list">
+              <div><dt>Total campaign investment</dt><dd data-roi-output="cost">US$12,000</dd></div>
+              <div><dt>Modelled new customers</dt><dd data-roi-output="wins">2</dd></div>
+              <div><dt>Potential first-year revenue</dt><dd data-roi-output="revenue">US$50,000</dd></div>
+              <div><dt>Gross profit before campaign cost</dt><dd data-roi-output="grossProfit">US$25,000</dd></div>
+              <div class="roi-break-even"><dt>Customers to break even</dt><dd data-roi-output="breakEvenCustomers">1</dd></div>
+            </dl>
+            <p class="roi-result-summary" id="roi-result-summary">One new customer would cover your US$12,000 campaign investment at these assumptions.</p>
+            <p class="roi-result-timing">Contracts may close after the campaign ends. These figures model revenue from the customers acquired, rather than cash collected during the outreach period. General overhead and tax are excluded.</p>
+            <div class="roi-improvement" id="roi-improvement" hidden></div>
+            <div class="roi-result-tools" aria-label="Save your calculation">
+              <button id="roi-copy" type="button" disabled>Copy estimate</button>
+              <button id="roi-print" type="button" disabled>Print estimate</button>
+            </div>
+            <label for="roi-copy-text" class="sr-only">Your estimate, ready to copy</label>
+            <textarea id="roi-copy-text" class="roi-copy-text" data-clarity-mask="true" readonly hidden></textarea>
+            <p id="roi-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+          <div class="roi-result-cta">
+            <p id="roi-result-cta-copy">These numbers deserve a conversation. Book a time with CallTeam. Let us show you how we can help you get there.</p>
+            <a class="roi-button roi-button-dark" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-roi-booking>Book a time with CallTeam <span aria-hidden="true">↗</span></a>
+            <button class="roi-inquiry" id="roi-inquiry" type="button" disabled>Send these numbers with a message <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="roi-scenario-panel" aria-labelledby="roi-scenario-title" data-clarity-mask="true">
+        <div class="roi-scenario-intro"><div><p class="roi-eyebrow">Make room for a range</p><h3 id="roi-scenario-title">One assumption can change the answer.</h3></div><p>Compare a lower close rate, your entered rate and a higher rate. Keep the investment, meeting count, customer value and margin the same.</p></div>
+        <div id="roi-scenarios" class="roi-scenarios" tabindex="0" role="region" aria-label="Close-rate comparison table, scroll horizontally on a small screen"></div>
+        <noscript><p class="roi-scenario-fallback">At a 5% close rate, one modelled customer produces US$500 in contribution after campaign cost, a 4.2% return. At 15%, three customers produce US$25,500 in contribution, a 212.5% return.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <section class="roi-proof-section roi-screen-only" aria-labelledby="roi-proof-title">
+    <div class="roi-wrap">
+      <div class="roi-section-heading"><div><p class="roi-eyebrow">The work behind the numbers</p><h2 id="roi-proof-title">Real conversations.<br>Real commercial movement.</h2></div><p>Read what happened in individual CallTeam campaigns, including the time it took to move from a meeting to an opportunity.</p></div>
+      <div class="roi-case-grid">
+        <article class="roi-case-card">
+          <p class="roi-case-category">B2B SaaS / Location intelligence</p>
+          <div class="roi-case-stat"><strong>11</strong><span>qualified demos<br>in 90 days</span></div>
+          <h3>A clearer buyer problem opened the door.</h3>
+          <p>A commercial real estate data platform generated four serious opportunities. Two customers signed within six months, after product evaluation and continued follow-up.</p>
+          <a href="/case-studies/saas-demo-appointment-setting/">Read the SaaS case study <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="roi-case-card">
+          <p class="roi-case-category">Cybersecurity / Manufacturing</p>
+          <div class="roi-case-stat"><strong>9</strong><span>qualified appointments<br>in 90 days</span></div>
+          <h3>The conversation started with factory uptime.</h3>
+          <p>Three appointments advanced into meaningful opportunities. Two needed longer follow-up; one prospect entered near-term discussions about changing providers.</p>
+          <a href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the manufacturing case study <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+      <p class="roi-evidence-note">These confidential case studies describe specific campaigns and follow-up periods. Their results are not the calculator's defaults or a promise for your campaign.</p>
+    </div>
+  </section>
+
+  <section class="roi-process-section roi-screen-only" aria-labelledby="roi-process-title">
+    <div class="roi-wrap">
+      <div class="roi-section-heading"><div><p class="roi-eyebrow">From assumption to execution</p><h2 id="roi-process-title">Build the conditions<br>for better returns.</h2></div><p>CallTeam manages the work that creates useful sales conversations. Your team brings the offer, handles the meetings and closes the business.</p></div>
+      <ol class="roi-process-grid">
+        <li><span class="roi-step-number">01</span><h3>Choose the right market.</h3><p>Define the companies, buyer roles, business problems and exclusions that give your offer a credible reason to be heard.</p></li>
+        <li><span class="roi-step-number">02</span><h3>Make the conversation count.</h3><p>Prepare the scripts and objection handling, make the calls, follow up and learn from what buyers actually say.</p></li>
+        <li><span class="roi-step-number">03</span><h3>Protect the handoff.</h3><p>Qualify the reason to meet, confirm the appointment and give your sales team the context to carry it forward.</p></li>
+        <li><span class="roi-step-number">04</span><h3>Improve with evidence.</h3><p>Review meeting quality, sales feedback and campaign performance. Refine the market and message as the evidence grows.</p></li>
+      </ol>
+      <p class="roi-service-links">Find the right campaign: <a href="/services/b2b-appointment-setting/">B2B appointment setting</a>, <a href="/services/outsourced-sdr/">outsourced SDR services</a> or <a href="/services/lead-reactivation/">lead reactivation</a>.</p>
+    </div>
+  </section>
+
+  <section class="roi-program-section roi-screen-only" aria-labelledby="roi-program-title">
+    <div class="roi-wrap roi-program-grid">
+      <div><p class="roi-eyebrow">A clear starting point</p><h2 id="roi-program-title">What sits behind the<br><span>US$4,000 example?</span></h2><p class="roi-program-lead">CallTeam's managed B2B outbound calling and appointment-setting programs start at US$4,000 per month.</p><p>The starting scope suits an established offer, a defined market, target accounts or contacts ready to activate, CRM and calendar access, and a sales team ready for qualified meetings. Most programs begin with an initial three-month engagement.</p><a class="roi-text-link" href="/pricing/">See pricing and scope <span aria-hidden="true">→</span></a></div>
+      <div class="roi-included-card"><h3>A connected outbound operation.</h3><ul><li>Campaign assessment and target-market alignment</li><li>Call strategy, scripts and objection handling</li><li>Live human calling and structured follow-up</li><li>Qualification, booking and meeting confirmation</li><li>CRM notes, buyer context and sales handoff</li><li>Weekly reporting and ongoing improvement</li></ul><p>Fresh prospect research, list creation, data licensing, extra markets and expanded capacity are scoped separately. Add those costs to your calculation when they apply.</p></div>
+    </div>
+  </section>
+
+  <section class="roi-method-section" aria-labelledby="roi-method-title">
+    <div class="roi-wrap">
+      <div class="roi-section-heading"><div><p class="roi-eyebrow">Open arithmetic</p><h2 id="roi-method-title">How we calculate<br>your return</h2></div><p>First-year gross profit from modelled customers, less your full campaign investment. Every input stays under your control.</p></div>
+      <details class="roi-method-details">
+        <summary>See the formulas, worked example and timing <span aria-hidden="true">+</span></summary>
+        <div class="roi-method-grid">
+          <div class="roi-worked-example"><p class="roi-eyebrow">The starting example</p><h3>Two customers.<br>One business case.</h3><ol><li><span>Campaign investment</span><strong>US$4,000 × 3 months = US$12,000</strong></li><li><span>Modelled new customers</span><strong>20 held meetings × 10% = 2</strong></li><li><span>Potential first-year revenue</span><strong>2 × US$25,000 = US$50,000</strong></li><li><span>Gross profit</span><strong>US$50,000 × 50% = US$25,000</strong></li><li><span>Contribution after campaign cost</span><strong>US$25,000 − US$12,000 = US$13,000</strong></li><li><span>Return on campaign investment</span><strong>US$13,000 ÷ US$12,000 × 100 ≈ 108.3%</strong></li></ol><p>One customer contributes US$12,500 before campaign cost, covering the US$12,000 investment at these assumptions.</p></div>
+          <div class="roi-method-notes"><article><span>01 / THE FORMULAS</span><h3>From meetings to contribution.</h3><p><strong>Investment</strong> = monthly cost × months + additional costs. <strong>Customers</strong> = held meetings × close rate. <strong>Revenue</strong> = customers × first-year customer value.</p><p><strong>Gross profit</strong> = revenue × margin. <strong>Contribution</strong> = gross profit − investment. <strong>ROI</strong> = contribution ÷ investment × 100. Convert percentages to decimals when multiplying.</p></article><article><span>02 / BREAK-EVEN</span><h3>The whole-customer target.</h3><p>Divide investment by the gross profit from one customer and round up. A zero customer value or margin cannot produce a finite target; zero investment makes percentage ROI undefined.</p></article><article><span>03 / TIMING</span><h3>Follow the customer beyond the campaign.</h3><p>Outreach can create customers who sign later. The model counts their first-year revenue, which may arrive after the campaign ends. Payment timing, general overhead and tax sit outside this calculation.</p></article></div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="roi-faq-section roi-screen-only" aria-labelledby="roi-faq-title">
+    <div class="roi-wrap roi-faq-grid"><div><p class="roi-eyebrow">Before you commit</p><h2 id="roi-faq-title">Good questions.<br>Clear answers.</h2><p>Understand the assumptions before turning the estimate into a campaign.</p></div><div class="roi-faq-list">
+      <details><summary>Can I compare an agency campaign with an in-house sales team?</summary><p>Yes. Enter the full monthly cost for either approach, including the people, management and tools involved. Add recruiting, setup or other one-time costs in Advanced settings. Use the same meeting standard and customer economics for a useful comparison.</p></details>
+      <details><summary>Does US$4,000 buy the 20 meetings in the example?</summary><p>The two figures are separate inputs. US$4,000 is CallTeam's starting monthly program price; 20 held meetings across three months is an illustrative scenario. Actual scope and expected meeting volume are discussed after reviewing your offer, market, data and qualification standard.</p></details>
+      <details><summary>Should I enter meetings per month or for the whole campaign?</summary><p>Enter held meetings across the entire campaign. For three months, add all three months together. Count qualified conversations that take place and exclude cancellations and no-shows.</p></details>
+      <details><summary>What close rate should I use?</summary><p>Use your team's conversion from comparable qualified outbound meetings to customers. Match the definition and follow-up period to your own sales process. If you do not have reliable history, compare several assumptions and discuss a realistic starting range with CallTeam.</p></details>
+      <details><summary>Should customer value mean lifetime value or annual revenue?</summary><p>Use the customer's first 12 months of revenue, including projects delivered within that period. This keeps the comparison consistent without assuming years of renewals or retention.</p></details>
+      <details><summary>Why does gross margin change the result?</summary><p>Every customer also costs money to serve. Gross margin accounts for product or service delivery before the model subtracts campaign investment. Use the margin that reflects your business.</p></details>
+      <details><summary>Why are customers sometimes shown as a decimal?</summary><p>The forecast is an average implied by your meeting count and close rate. Real customers arrive in whole numbers. The break-even target rounds up to show how many whole customers would cover the investment.</p></details>
+      <details><summary>What happens after I book a time with CallTeam?</summary><p>We review your offer, market, current sales process and calculator scenario. Then we discuss the qualification standard, campaign scope and whether the starting program fits your business.</p></details>
+    </div></div>
+  </section>
+
+  <section class="roi-final-section roi-screen-only" aria-labelledby="roi-final-title"><div class="roi-wrap roi-final-grid"><div><p class="roi-eyebrow">Put a team behind the plan</p><h2 id="roi-final-title">You have the numbers.<br><span>Let us help you get there.</span></h2><p>Bring your offer, your market and your ambitions. We will show you how CallTeam can build the outbound work around them.</p></div><div class="roi-final-actions"><a class="roi-button roi-button-light" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-roi-booking>Book a time with CallTeam <span aria-hidden="true">↗</span></a><a class="roi-final-message" href="#contact">Prefer to send a message? <span aria-hidden="true">↓</span></a></div></div></section>
+</main>

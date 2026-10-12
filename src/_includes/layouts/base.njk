@@ -29,6 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
+{% for stylesheet in pageStyles %}<link rel="stylesheet" href="{{ stylesheet }}">{% endfor %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -96,5 +97,6 @@
 
 {% include "partials/footer.njk" %}
 
+{% for script in pageScripts %}<script src="{{ script }}" defer></script>{% endfor %}
 </body>
 </html>

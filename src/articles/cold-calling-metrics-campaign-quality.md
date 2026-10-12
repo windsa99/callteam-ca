@@ -184,6 +184,8 @@ Cost per booking equals complete campaign cost divided by booked meetings. Cost 
 
 Include the provider or team expense, data, tools, management, seller preparation and relevant internal work. The [appointment-setting cost guide](/articles/b2b-appointment-setting-cost/) explains why a cheap booked event can become expensive after no-shows and rejections.
 
+Test the financial effect of those assumptions with the [B2B lead generation ROI calculator](/b2b-lead-generation-roi-calculator/), keeping your campaign period and customer economics consistent.
+
 Revenue should not be forced onto the calling team when sales controls discovery, proposals and closing. It should still be visible. The purpose is to understand the relationship between top-of-funnel work and the commercial system it serves.
 
 ## Give callers, managers and clients connected views
