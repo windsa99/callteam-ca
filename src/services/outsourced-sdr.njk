@@ -1,5 +1,7 @@
 ---
 layout: layouts/base.njk
+pageStyles:
+  - /assets/css/contextual-tools.css
 permalink: "/services/outsourced-sdr/"
 title: "Outsourced SDR Services"
 seoTitle: "Outsourced SDR Services for B2B Companies | CallTeam"
@@ -310,12 +312,15 @@ faqSchema: |
         <article><span>05</span><h3>Systems and management</h3><p>CRM workflow, permissions, reporting, calendar coordination, review cadence, and operating support.</p></article>
       </div>
       <div class="sdr-pricing-note">CallTeam reviews the market and workload before recommending the right engagement.</div>
-      <!-- ROI calculator link -->
-      <p>Bring the full SDR campaign cost into the <a href="/b2b-lead-generation-roi-calculator/">B2B lead generation ROI calculator</a> and explore the customer wins needed to recover that investment.</p>
-      <!-- /ROI calculator link -->
-      <!-- Campaign preview link -->
-      <p>Build a starting plan for your target buyers with the free <a href="/b2b-outbound-campaign-planner/">outbound campaign preview</a>.</p>
-      <!-- /Campaign preview link -->
+      <!-- Contextual tools CTA: cta-outsourced-sdr-tools -->
+      <aside class="context-tool-cta" id="cta-outsourced-sdr-tools" data-context-tool-cta="cta-outsourced-sdr-tools" aria-label="Plan your outsourced SDR campaign">
+        <p>Explore the customer wins needed to recover your full SDR campaign cost, then build a free starting plan for your target buyers.</p>
+        <div class="context-tool-actions">
+          <a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a>
+          <a class="btn-secondary" href="/b2b-outbound-campaign-planner/" style="color: var(--black);">See How We’d Run Your Campaign</a>
+        </div>
+      </aside>
+      <!-- /Contextual tools CTA: cta-outsourced-sdr-tools -->
     </div>
   </section>
 

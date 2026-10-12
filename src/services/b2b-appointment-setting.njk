@@ -1,5 +1,7 @@
 ---
 layout: layouts/base.njk
+pageStyles:
+  - /assets/css/contextual-tools.css
 permalink: "/services/b2b-appointment-setting/"
 title: "B2B Appointment Setting Services"
 seoTitle: "B2B Appointment Setting Services | CallTeam"
@@ -287,12 +289,15 @@ faqSchema: |
         <article><span>05</span><h3>Systems and reporting</h3><p>CRM workflow, permissions, handoff fields, calendar coordination, reporting requirements, and review cadence.</p></article>
       </div>
       <div class="appointment-pricing-note">A cheaper meeting is expensive when your seller should never have taken it.</div>
-      <!-- ROI calculator link -->
-      <p>Explore how meeting conversion and campaign costs affect returns with the <a href="/b2b-lead-generation-roi-calculator/">B2B lead generation ROI calculator</a>. Use your own assumptions to find the break-even point.</p>
-      <!-- /ROI calculator link -->
-      <!-- Campaign preview link -->
-      <p>Explore who to approach, what to say and what to qualify with the free <a href="/b2b-outbound-campaign-planner/">B2B campaign preview</a>.</p>
-      <!-- /Campaign preview link -->
+      <!-- Contextual tools CTA: cta-appointment-service-tools -->
+      <aside class="context-tool-cta" id="cta-appointment-service-tools" data-context-tool-cta="cta-appointment-service-tools" aria-label="Plan your appointment-setting campaign">
+        <p>Use your meeting conversion and campaign cost assumptions to find your break-even point, then explore who to approach, what to say and what to qualify in a free campaign preview.</p>
+        <div class="context-tool-actions">
+          <a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a>
+          <a class="btn-secondary" href="/b2b-outbound-campaign-planner/" style="color: var(--black);">See How We’d Run Your Campaign</a>
+        </div>
+      </aside>
+      <!-- /Contextual tools CTA: cta-appointment-service-tools -->
     </div>
   </section>
 

@@ -1,6 +1,20 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
+contextualTools:
+  campaign:
+    id: "cta-metrics-campaign"
+    accessibleName: "Preview your campaign approach"
+    copy: "Give those conversations a clear starting point. Build a preview with buyer roles, qualification questions and resources matched to your market."
+    href: "/b2b-outbound-campaign-planner/"
+    label: "See How We’d Run Your Campaign"
+  roi:
+    id: "cta-metrics-roi"
+    accessibleName: "Calculate campaign returns"
+    copy: "Test the financial effect of those assumptions with the B2B lead generation ROI calculator, keeping your campaign period and customer economics consistent."
+    href: "/b2b-lead-generation-roi-calculator/"
+    label: "Calculate Your Campaign ROI"
 tags: ["articles"]
 title: "Cold Calling Metrics That Actually Measure Campaign Quality"
 seoTitle: "Cold Calling Metrics That Measure Campaign Quality"
@@ -147,6 +161,8 @@ A caller can increase bookings by asking too early, widening the meeting definit
 
 Track useful non-meeting outcomes, including a clear disqualification, correct referral, timing signal, competitive information, renewed follow-up date or corrected account record. These outcomes protect future capacity and improve the market model.
 
+{% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
+
 ## Report booked, confirmed, held and accepted meetings separately
 
 Booked meetings are calendar events. Confirmed meetings have received an explicit attendance signal under the campaign's rule. Held meetings occurred. Accepted meetings satisfy the agreed sales-handoff standard.
@@ -184,7 +200,7 @@ Cost per booking equals complete campaign cost divided by booked meetings. Cost 
 
 Include the provider or team expense, data, tools, management, seller preparation and relevant internal work. The [appointment-setting cost guide](/articles/b2b-appointment-setting-cost/) explains why a cheap booked event can become expensive after no-shows and rejections.
 
-Test the financial effect of those assumptions with the [B2B lead generation ROI calculator](/b2b-lead-generation-roi-calculator/), keeping your campaign period and customer economics consistent.
+{% set contextToolCta = contextualTools.roi %}{% include "components/contextual-tool-cta.njk" %}
 
 Revenue should not be forced onto the calling team when sales controls discovery, proposals and closing. It should still be visible. The purpose is to understand the relationship between top-of-funnel work and the commercial system it serves.
 

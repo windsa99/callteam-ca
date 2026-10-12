@@ -1,5 +1,7 @@
 ---
 layout: layouts/base.njk
+pageStyles:
+  - /assets/css/contextual-tools.css
 permalink: "/services/lead-reactivation/"
 title: "B2B Lead Reactivation Services"
 seoTitle: "B2B Lead Reactivation Services | CallTeam"
@@ -1647,12 +1649,15 @@ faqSchema: |
         <article><span>05</span><h3>Qualification and systems</h3><p>Meeting criteria, CRM workflow, handoff fields, reporting, review cadence and future routing.</p></article>
       </div>
       <div class="reactivation-pricing-note">CallTeam reviews the lead pool, offer, buyer, data and desired outcome before recommending a reactivation scope.</div>
-      <!-- ROI calculator link -->
-      <p>Model a recovery campaign in the <a href="/b2b-lead-generation-roi-calculator/">B2B lead generation ROI calculator</a> using your reactivation costs, conversion assumptions and customer value.</p>
-      <!-- /ROI calculator link -->
-      <!-- Campaign preview link -->
-      <p>Choose stalled leads as your campaign challenge in the free <a href="/b2b-outbound-campaign-planner/">campaign preview</a> to explore a relevant follow-up approach.</p>
-      <!-- /Campaign preview link -->
+      <!-- Contextual tools CTA: cta-reactivation-tools -->
+      <aside class="context-tool-cta" id="cta-reactivation-tools" data-context-tool-cta="cta-reactivation-tools" aria-label="Plan your lead reactivation campaign">
+        <p>Model a recovery campaign using your reactivation costs, conversion assumptions and customer value. Select “Restart conversations with old leads” in the free campaign preview to explore a relevant follow-up approach.</p>
+        <div class="context-tool-actions">
+          <a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a>
+          <a class="btn-secondary" href="/b2b-outbound-campaign-planner/" style="color: var(--black);">See How We’d Run Your Campaign</a>
+        </div>
+      </aside>
+      <!-- /Contextual tools CTA: cta-reactivation-tools -->
     </div>
   </section>
 

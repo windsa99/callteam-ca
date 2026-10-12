@@ -93,7 +93,7 @@ layout: layouts/base.njk
       <!-- Contextual tools CTA: {{ contextToolCta.id }} -->
       <aside class="context-tool-cta" id="{{ contextToolCta.id }}" data-context-tool-cta="{{ contextToolCta.id }}" aria-label="{{ contextToolCta.label }}">
         <p>{{ contextToolCta.text }}</p>
-        <div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">See How We’d Approach Your Market</a></div>
+        <div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">{{ contextToolCta.buttonLabel or "See How We’d Approach Your Market" }}</a>{% if contextToolCta.includeRoi %}<a class="btn-secondary" href="/b2b-lead-generation-roi-calculator/" style="color: var(--black);">Calculate Your Campaign ROI</a>{% endif %}</div>
       </aside>
       <!-- /Contextual tools CTA: {{ contextToolCta.id }} -->{% endif %}
     </div>

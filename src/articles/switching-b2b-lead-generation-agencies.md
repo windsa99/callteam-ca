@@ -1,6 +1,20 @@
 ---
 authorKey: "harjSingh"
 layout: "layouts/article.njk"
+pageStyles: ["/assets/css/contextual-tools.css"]
+contextualTools:
+  campaign:
+    id: "cta-switching-campaign"
+    accessibleName: "Preview your next campaign"
+    copy: "Give the restart a clear direction. Select your offer, market and buyer to see how CallTeam would approach the next campaign."
+    href: "/b2b-outbound-campaign-planner/"
+    label: "See How We’d Run Your Campaign"
+  roi:
+    id: "cta-switching-roi"
+    accessibleName: "Calculate campaign returns"
+    copy: "Put the proposed campaign investment against your customer value and closing assumptions. See the return and break-even before choosing your next step."
+    href: "/b2b-lead-generation-roi-calculator/"
+    label: "Calculate Your Campaign ROI"
 tags:
   - "articles"
 date: "2026-10-09"
@@ -174,6 +188,8 @@ For Canadian and US accounts, confirm the territories, prospect time zones, lang
 
 A restart plan should also state what happens to records that remain unresolved. Keep them visible in a separate review queue with an owner and a decision date.
 
+{% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
+
 ## Decide how you will judge the replacement
 
 Agree on reporting definitions before comparing the old and new results. A booked appointment, an attended meeting and a sales-accepted opportunity describe different stages, and each needs a consistent meaning.
@@ -191,6 +207,8 @@ The [outsourced SDR service](/services/outsourced-sdr/) covers a wider managed s
 If you sell to industrial accounts, the [manufacturing appointment-setting guide](/articles/b2b-appointment-setting-selling-to-manufacturers/) explains the additional facility and buyer context to bring. For other sectors, include examples that show where the previous campaign lost relevance.
 
 Review [CallTeam pricing](/pricing/) alongside a written scope for the proposed work. Clarify any separate preparation effort, dependencies and commercial terms before making the move.
+
+{% set contextToolCta = contextualTools.roi %}{% include "components/contextual-tool-cta.njk" %}
 
 ## Prepare for a useful transition conversation
 

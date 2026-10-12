@@ -1,6 +1,20 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
+contextualTools:
+  campaign:
+    id: "cta-us-agencies-campaign"
+    accessibleName: "Preview your US campaign"
+    copy: "Choose your offer, buyers and US market to see a practical starting approach for your campaign."
+    href: "/b2b-outbound-campaign-planner/"
+    label: "See How We’d Run Your Campaign"
+  roi:
+    id: "cta-us-agencies-roi"
+    accessibleName: "Calculate campaign returns"
+    copy: "Compare the campaign investment with your customer value and sales assumptions before you shortlist a provider."
+    href: "/b2b-lead-generation-roi-calculator/"
+    label: "Calculate Your Campaign ROI"
 tags: ["articles"]
 title: "Best B2B Lead Generation Companies in the United States: 2026 Buyer’s Comparison"
 seoTitle: "Best B2B Lead Generation Companies in the USA (2026)"
@@ -132,6 +146,8 @@ Begin with a responsibility map. Assign ownership for ICP strategy, account sele
 
 The buyer's sales capacity also shapes the choice. A company with one founder closing deals may need a narrow, highly managed program. A large technology vendor may need a dedicated SDR pod or an enterprise operating partner. The best provider is the one whose delivery model matches the work that truly needs to move outside.
 
+{% set contextToolCta = contextualTools.roi %}{% include "components/contextual-tool-cta.njk" %}
+
 ## US-market criteria that change campaign quality
 
 US market familiarity extends beyond using a local phone number. The assigned team must cover the right time zones, understand the target industry's terminology, recognize common titles, adapt to regional and sector differences, and know what proof buyers expect. Caller location should be disclosed, but location alone does not establish competence.
@@ -197,6 +213,8 @@ AI GTM is not a substitute for someone having the conversation. A person must st
 CallTeam begins by defining the ICP, exclusions, buying roles, market, offer, approved claims, qualification evidence, and sales capacity. Buyer Signal Radar and research help select accounts and prepare relevant hypotheses. Human callers then own the live exchange, follow-up, qualification, disqualification, scheduling, and confirmation.
 
 The handoff records why the buyer agreed to meet, what problem or change was discussed, who is involved, which objections appeared, what was promised, and what remains unknown. Attendance and quality feedback return to the campaign so targeting and conversations improve. CallTeam does not chase an arbitrary meeting quota that rewards weak calendar bookings.
+
+{% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
 
 ## Field observation: bad bookings create a hidden internal cost
 
