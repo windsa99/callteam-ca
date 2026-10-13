@@ -2,14 +2,28 @@
 layout: layouts/base.njk
 pageStyles:
   - /assets/css/contextual-tools.css
+  - /assets/css/outsourced-sdr-page.css
 permalink: "/services/outsourced-sdr/"
-title: "Outsourced SDR Services"
-seoTitle: "Outsourced SDR Services for B2B Companies | CallTeam"
-description: "Add a managed B2B sales development function for prospect research, outbound calling, follow-up, qualification, booked meetings, and market feedback."
+title: "Outsourced SDR & BDR Services"
+seoTitle: "Outsourced SDR & BDR Services for B2B Companies | CallTeam"
+description: "Outsource SDR and BDR work to CallTeam: prospect research, human calling, follow-up, qualified meetings and CRM handoff. Managed programs from US$4,000/month."
 canonicalUrl: "https://www.callteam.ca/services/outsourced-sdr/"
-modified: "2026-08-23"
-socialTitle: "Outsourced SDR Services for B2B Companies | CallTeam"
-socialDescription: "CallTeam handles the front of the sales pipeline so your team can focus on qualified conversations and closing deals."
+modified: "2026-10-12"
+socialTitle: "Outsourced SDR & BDR Services for B2B Companies | CallTeam"
+socialDescription: "Your outsourced SDR and BDR team. See the process, real campaign results, scope, and tools to plan your next move."
+contextualTools:
+  campaign:
+    id: "cta-outsourced-sdr-campaign"
+    accessibleName: "Preview your outsourced SDR and BDR campaign"
+    copy: "See how this approach could work for your offer. Choose your market and buyers to get a free campaign starting point, with matched CallTeam resources."
+    href: "/b2b-outbound-campaign-planner/"
+    label: "See How We’d Run Your Campaign"
+  roi:
+    id: "cta-outsourced-sdr-tools"
+    accessibleName: "Calculate your outsourced SDR and BDR campaign ROI"
+    copy: "Put your customer value, campaign cost, and sales assumptions to work. Explore the wins needed to recover your investment and the potential return."
+    href: "/b2b-lead-generation-roi-calculator/"
+    label: "Calculate Your Campaign ROI"
 faqSchema: |
   {
     "@context": "https://schema.org",
@@ -18,61 +32,215 @@ faqSchema: |
         "@type": "WebPage",
         "@id": "https://www.callteam.ca/services/outsourced-sdr/#webpage",
         "url": "https://www.callteam.ca/services/outsourced-sdr/",
-        "name": "Outsourced SDR Services for B2B Companies | CallTeam",
-        "description": "Add a managed B2B sales development function for prospect research, outbound calling, follow-up, qualification, booked meetings, and market feedback.",
-        "isPartOf": { "@id": "https://www.callteam.ca/#website" },
-        "about": { "@id": "https://www.callteam.ca/services/outsourced-sdr/#service" }
+        "name": "Outsourced SDR & BDR Services for B2B Companies | CallTeam",
+        "description": "Outsource SDR and BDR work to CallTeam: prospect research, human calling, follow-up, qualified meetings and CRM handoff. Managed programs from US$4,000/month.",
+        "dateModified": "2026-10-12",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://www.callteam.ca/#website"
+        },
+        "about": {
+          "@id": "https://www.callteam.ca/services/outsourced-sdr/#service"
+        },
+        "mainEntity": {
+          "@id": "https://www.callteam.ca/services/outsourced-sdr/#service"
+        }
       },
       {
         "@type": "Service",
         "@id": "https://www.callteam.ca/services/outsourced-sdr/#service",
-        "name": "Outsourced SDR Services",
-        "serviceType": "Managed B2B sales development, prospect research, outbound calling, follow-up, lead qualification, appointment setting, CRM workflow, and campaign reporting",
-        "provider": { "@id": "https://www.callteam.ca/#organization" },
-        "areaServed": "Worldwide",
+        "name": "Outsourced SDR and BDR Services",
+        "serviceType": "Managed B2B sales development and business development services",
+        "provider": {
+          "@id": "https://www.callteam.ca/#organization"
+        },
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Canada"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          },
+          {
+            "@type": "Place",
+            "name": "Worldwide"
+          }
+        ],
         "url": "https://www.callteam.ca/services/outsourced-sdr/",
-        "description": "CallTeam operates the front of the B2B sales pipeline as a managed outsourced SDR function, from target-account preparation through qualified meeting handoff."
+        "description": "CallTeam manages agreed target-account research, calling-led outreach, follow-up, lead qualification, appointment setting, CRM handoff, and campaign reporting. Clients retain discovery, proposals, negotiation, and closing."
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.callteam.ca/" },
-          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.callteam.ca/services/" },
-          { "@type": "ListItem", "position": 3, "name": "Outsourced SDR Services", "item": "https://www.callteam.ca/services/outsourced-sdr/" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.callteam.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.callteam.ca/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Outsourced SDR & BDR Services",
+            "item": "https://www.callteam.ca/services/outsourced-sdr/"
+          }
         ]
       },
       {
         "@type": "FAQPage",
+        "@id": "https://www.callteam.ca/services/outsourced-sdr/#faq",
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is an outsourced SDR service?",
-            "acceptedAnswer": { "@type": "Answer", "text": "An outsourced SDR service runs part or all of a company's sales development work as a managed service. The work can include target-account research, list building, outbound calling, follow-up, response handling, qualification, meeting scheduling, CRM updates, and campaign reporting." }
+            "name": "What are outsourced SDR services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Outsourced SDR services give a company a managed sales development function. CallTeam handles agreed targeting, research, calling, follow-up, qualification, meeting scheduling, CRM handoff, and reporting. Your team owns discovery, proposals, negotiation, and closing."
+            }
           },
           {
             "@type": "Question",
-            "name": "What is the difference between outsourced SDR services and appointment setting?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Appointment setting focuses on earning and scheduling qualified sales meetings. An outsourced SDR service is the broader operating function around that outcome, including targeting, research, outreach, follow-up, qualification, workflow, reporting, and continuous campaign improvement." }
+            "name": "What are outsourced BDR services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Outsourced BDR services focus on finding and developing new business opportunities. CallTeam identifies suitable companies and buyers, opens outbound conversations, follows up, qualifies the response, and arranges an agreed next step with your sales team."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between an SDR and a BDR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SDR means sales development representative. BDR means business development representative. Companies use the titles differently: SDR can cover inbound or outbound development, while BDR often refers to new-business outbound prospecting. Responsibilities overlap, so CallTeam defines the work and meeting standard before launch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is SDR outsourcing different from appointment setting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Appointment setting focuses on earning and scheduling qualified sales meetings. SDR outsourcing covers the work around that outcome too: target-account preparation, outreach, response handling, follow-up, qualification, CRM workflow, reporting, and campaign improvement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much do outsourced SDR and BDR services cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CallTeam managed outbound programs start at US$4,000 per month for a campaign-ready company with a clear offer, defined market, target accounts or contacts ready to activate, CRM and calendar access, and a sales team ready for meetings. Fresh prospect research, data, additional markets, and expanded capacity are priced into the final scope."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the starting price include a new prospect list?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The US$4,000 starting program assumes target accounts or contact data are ready to activate. CallTeam can build or refine a prospect list when needed. Research, data licensing, validation, and list volume are priced into the final scope."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who manages the campaign and approves the messaging?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CallTeam manages the agreed daily execution, follow-up, qualification, reporting, and improvement. Your team approves the offer, claims, proof, talk track, qualification questions, and meeting standard. You also provide sales availability and handle opportunities after handoff."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does CallTeam qualify a meeting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We agree the standard before launch. It can include company fit, buyer role, business need, current approach, interest, timing, decision process, and a clear purpose for the next conversation. The buyer must understand and accept that next step."
+            }
           },
           {
             "@type": "Question",
             "name": "Can CallTeam work inside our CRM?",
-            "acceptedAnswer": { "@type": "Answer", "text": "CallTeam can work with an agreed CRM or campaign workflow when access, permissions, fields, and operating rules are clear. The exact setup is agreed before launch." }
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with agreed access, permissions, fields, and operating rules. We confirm how records, outcomes, notes, and next actions reach your team before launch. If direct CRM access is unsuitable, we agree another structured reporting and handoff process."
+            }
           },
           {
             "@type": "Question",
-            "name": "Does CallTeam provide the prospect list?",
-            "acceptedAnswer": { "@type": "Answer", "text": "CallTeam can build or refine a targeted B2B prospect list, or work with a list, CRM, target-account set, event list, inbound source, or dormant opportunity pool supplied by the client." }
+            "name": "Do outsourced SDRs and BDRs use cold calling or email?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CallTeam is calling-led. Live conversations help establish fit, objections, referrals, timing, and interest. Approved email follow-up and other agreed channels can support the campaign. The channel mix, infrastructure, permissions, and boundaries are defined in the scope."
+            }
           },
           {
             "@type": "Question",
-            "name": "Who manages the outsourced SDR work?",
-            "acceptedAnswer": { "@type": "Answer", "text": "CallTeam manages the agreed campaign execution, workflow, follow-up, qualification, reporting, and improvement. The client provides offer knowledge, proof, approvals, sales availability, and ownership after a qualified handoff." }
+            "name": "Is the outreach done by people or AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "People handle CallTeam sales conversations, objections, qualification, and next-step agreement. AI can assist with account research, data organization, priorities, call preparation, and note structure. Human judgment stays central to the conversation."
+            }
           },
           {
             "@type": "Question",
-            "name": "How much do outsourced SDR services cost?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on the market, list and research requirements, buyer seniority, outreach channels, calling and follow-up workload, qualification depth, CRM workflow, reporting, and management required. CallTeam reviews the campaign before recommending a scope." }
+            "name": "How quickly can an outsourced SDR campaign launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The launch date depends on the readiness of your offer, audience, contact data, approvals, systems, and calendars. We review those inputs and agree a launch plan before execution. Research or workflow setup can add preparation time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long is the initial engagement?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most CallTeam managed outbound programs begin with an initial three-month engagement. That allows time to launch, learn from buyer conversations, refine the campaign, and assess meaningful results. The scope and terms are agreed before work begins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What reporting will we receive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reporting is agreed for the engagement and connects activity to conversations, qualification, meetings, follow-up, and market feedback. Weekly reporting is included in the starting managed program. Opportunity updates from your sales team help show what happens after the handoff."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which companies and markets does CallTeam support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CallTeam supports B2B companies in Canada, the United States, and international markets. Relevant engagements include SaaS, technology, cybersecurity, financial services, professional services, and market expansion. Each campaign is scoped around its offer, target buyers, geography, and qualification needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can CallTeam follow up with inbound or dormant leads?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, an agreed engagement can work with inbound inquiries, event lists, dormant opportunities, or existing CRM contacts as well as new target accounts. We define the response workflow, priority, qualification, and handoff for that audience before launch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When should we hire an internal SDR instead?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An internal team can be a better fit when you have a proven playbook, dedicated sales development leadership, enough ongoing work, and the ability to recruit, train, equip, and coach the team. Outsourcing fits companies that want the agreed front-end sales work managed externally."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we get started?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a strategy call and tell us what you sell, who buys it, where you want to grow, and what sales development work needs support. CallTeam reviews your market, data, qualification standard, systems, and sales capacity, then recommends the scope."
+            }
           }
         ]
       }
@@ -80,41 +248,37 @@ faqSchema: |
   }
 ---
 
-<main class="sdr-page">
+<main class="sdr-page sdr-service-upgrade">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
-    <div class="container"><a href="/">Home</a> / <a href="/services/">Services</a> / <span>Outsourced SDR Services</span></div>
+    <div class="container"><a href="/">Home</a> / <a href="/services/">Services</a> / <span>Outsourced SDR &amp; BDR Services</span></div>
   </nav>
 
   <section class="hero sdr-hero">
     <div>
       <div class="sdr-eyebrow">Managed B2B sales development</div>
-      <h1>An outsourced SDR team that works like <span class="highlight">part of your company.</span></h1>
-      <p class="sdr-hero-lead">CallTeam handles the front of B2B sales: target accounts, prospect research, calling, follow-up, qualification, booked meetings, and market feedback.</p>
-      <p>Your team stays focused on the sales conversations and deals only it can close. We keep the work before those conversations moving every day.</p>
+      <h1>Your outsourced SDR and BDR team. <span class="highlight">More qualified sales conversations.</span></h1>
+      <p class="sdr-hero-lead">CallTeam researches your target accounts, reaches decision-makers, follows up, qualifies interest, and books meetings with useful context.</p>
+      <p>Your salespeople focus on the conversations and deals they can close. We manage the prospecting work that gets them there.</p>
       <div class="sdr-cta-row">
-        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Build Your Outsourced SDR Function</a>
-        <a href="#sdr-operating-system" class="btn-secondary">See How the System Works</a>
+        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Free Strategy Call</a>
+        <a href="#sdr-process" class="btn-secondary">See How We Work</a>
       </div>
-      <div class="sdr-hero-note"><span></span>No recruiting. No long ramp. No list sitting untouched.</div>
+      <div class="sdr-hero-note"><span aria-hidden="true"></span>Canada · United States · International B2B markets</div>
     </div>
-
-    <div class="sdr-console" role="img" aria-label="CallTeam Embedded SDR System turns the client's offer, ideal buyer, proof, and sales calendar into targeted outreach, qualified conversations, booked meetings, and market feedback">
-      <div class="sdr-console-head"><span><i></i> Embedded SDR System</span><strong>CAMPAIGN ACTIVE</strong></div>
-      <div class="sdr-console-inputs"><span>Your offer</span><span>Ideal buyer</span><span>Proof</span><span>Sales calendar</span></div>
+    <div class="sdr-console" role="img" aria-label="Your offer, target buyers, proof, and sales calendar feed a managed process of research, calling, follow-up, and qualification. The output is a qualified meeting with buyer context and market feedback.">
+      <div class="sdr-console-head"><span><i aria-hidden="true"></i> YOUR SALES DEVELOPMENT FUNCTION</span><strong>MANAGED BY CALLTEAM</strong></div>
+      <div class="sdr-console-inputs"><span>Your offer</span><span>Target buyers</span><span>Your proof</span><span>Sales calendar</span></div>
       <div class="sdr-console-core">
-        <small>CALLTEAM OPERATES</small>
-        <strong>The Front of the Pipeline</strong>
+        <small>WE RUN THE WORK BEFORE THE MEETING</small>
+        <strong>From target account to sales conversation</strong>
         <div class="sdr-console-flow"><span>Research</span><b>→</b><span>Call</span><b>→</b><span>Follow up</span><b>→</b><span>Qualify</span></div>
       </div>
-      <div class="sdr-console-output">
-        <div><small>SALES HANDOFF</small><strong>Qualified meeting with context</strong></div>
-        <b>✓</b>
-      </div>
-      <div class="sdr-console-feedback"><span>↻</span><p><small>MARKET FEEDBACK</small><strong>Objections · referrals · timing · buyer language</strong></p></div>
+      <div class="sdr-console-output"><div><small>YOUR SALES HANDOFF</small><strong>A qualified meeting. The reason behind it.</strong></div><b>✓</b></div>
+      <div class="sdr-console-feedback"><span>↻</span><p><small>FEEDBACK THAT IMPROVES THE CAMPAIGN</small><strong>Buyer needs · objections · referrals · timing</strong></p></div>
     </div>
   </section>
 
-  <section class="sdr-proof-strip" aria-label="Experience behind CallTeam outsourced SDR services">
+  <section class="sdr-proof-strip" aria-label="Experience behind CallTeam">
     <div class="container-wide">
       <div><strong>500,000+</strong><span>outbound calls</span></div>
       <div><strong>1,000+</strong><span>sellers coached</span></div>
@@ -123,259 +287,217 @@ faqSchema: |
     </div>
   </section>
 
+  <section id="sdr-results" class="sdr-results-section">
+    <div class="container-wide">
+      <div class="section-label">Real results from past CallTeam campaigns</div>
+      <h2>Relevant conversations. Measurable progress.</h2>
+      <p class="sdr-section-intro">Each campaign starts with a specific offer and buyer. Here is what that work produced in two different markets.</p>
+      <div class="sdr-evidence-grid">
+        <article class="sdr-evidence-card">
+          <span class="sdr-card-kicker">SaaS · Location intelligence</span>
+          <h3>11 qualified demos<br><span>in a 90-day campaign</span></h3>
+          <p>Focused targeting and calling connected a complex real estate data platform to buyers with a relevant use case.</p>
+          <div class="sdr-evidence-outcome"><strong>4 sales opportunities</strong><span>2 customers signed within six months</span></div>
+          <a href="/case-studies/saas-demo-appointment-setting/">Read the SaaS campaign →</a>
+        </article>
+        <article class="sdr-evidence-card">
+          <span class="sdr-card-kicker">Cybersecurity · Manufacturing buyers</span>
+          <h3>9 qualified appointments<br><span>in the first 90 days</span></h3>
+          <p>The conversation connected security to production uptime, recovery, and the manufacturer's current situation.</p>
+          <div class="sdr-evidence-outcome"><strong>3 sales opportunities</strong><span>Including a prospect considering a provider change</span></div>
+          <a href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the manufacturing campaign →</a>
+        </article>
+      </div>
+      <p class="sdr-evidence-note">These are individual campaign results, with the timeframes shown. Your results depend on the market, offer, qualification standard, and sales follow-through.</p>
+      <div class="sdr-more-proof"><strong>More campaign examples:</strong><a href="/case-studies/fintech-payment-platform-appointment-setting/">FinTech payments</a><a href="/case-studies/credit-union-income-verification-appointment-setting/">Credit union income verification</a><a href="/case-studies/professional-services-appointment-setting/">Professional services</a></div>
+    </div>
+  </section>
+
   <section class="sdr-definition-section">
-    <div class="container">
-      <div class="section-label">The direct answer</div>
-      <h2>What are outsourced SDR services?</h2>
-      <p><strong>Outsourced SDR services give your company a managed sales development function without requiring you to recruit, train, equip, and manage the entire function internally.</strong></p>
-      <p>An SDR is a sales development representative. The job is to create and qualify sales conversations before they reach the people responsible for discovery, proposals, negotiation, and closing.</p>
-      <p>CallTeam can manage the operating work around that job: target-account preparation, prospect research, calling-led outreach, agreed follow-up channels, response handling, qualification, meeting scheduling, CRM workflow, reporting, and campaign improvement.</p>
-      <div class="sdr-truth-line">You keep selling. We keep the front of the pipeline moving.</div>
-    </div>
-  </section>
-
-  <section id="sdr-operating-system" class="sdr-ownership-section">
     <div class="container-wide">
-      <div class="section-label">The CallTeam operating model</div>
-      <h2>Clear ownership keeps the SDR function moving.</h2>
-      <p class="sdr-section-intro">The work fails when nobody knows who owns the list, the language, the follow-up, the meeting standard, or the next decision. We divide the operating responsibilities before launch.</p>
-      <div class="sdr-ownership-board">
-        <article class="sdr-owner client">
-          <span>YOUR COMPANY OWNS</span>
-          <h3>The commercial foundation</h3>
-          <ul><li>Offer and pricing</li><li>Product knowledge</li><li>Proof and approved claims</li><li>Sales calendar</li><li>Discovery and closing</li></ul>
-        </article>
-        <div class="sdr-owner-link"><b>↔</b><span>SHARED<br>DECISIONS</span></div>
-        <article class="sdr-owner callteam">
-          <span>CALLTEAM OWNS</span>
-          <h3>The daily execution</h3>
-          <ul><li>Target-account workflow</li><li>Research and list work</li><li>Calling and follow-up</li><li>Qualification and scheduling</li><li>Reporting and improvement</li></ul>
-        </article>
+      <div class="section-label">The service, explained</div>
+      <h2>What are outsourced SDR and BDR services?</h2>
+      <p class="sdr-section-intro"><strong>Outsourced SDR and BDR services give your company a managed team for finding, reaching, and qualifying potential buyers.</strong> CallTeam runs the agreed work before the sales meeting. Your team owns discovery, proposals, negotiation, and closing.</p>
+      <div class="sdr-definition-grid">
+        <article><span class="sdr-card-kicker">SDR · Sales development representative</span><h3>Develop and qualify sales conversations.</h3><p>SDR work can cover outbound prospects or incoming leads: research, outreach, response handling, follow-up, qualification, and scheduling.</p></article>
+        <article><span class="sdr-card-kicker">BDR · Business development representative</span><h3>Open conversations with new accounts.</h3><p>BDR work often focuses on new-business outbound: choose suitable companies, find the right people, introduce the offer, and build interest.</p></article>
       </div>
-      <div class="sdr-shared-rail"><small>SHARED OPERATING LAYER</small><span>ICP priorities</span><span>Talk track</span><span>Qualification standard</span><span>Campaign decisions</span></div>
+      <p class="sdr-plain-note">Titles vary by company and the responsibilities overlap. We agree exactly what your campaign needs, who owns it, and what makes a meeting qualified.</p>
+      <p class="sdr-inline-reading">Looking specifically for booked meetings? See <a href="/services/b2b-appointment-setting/">B2B appointment setting</a>. Need someone to work incoming inquiries? Read our <a href="/articles/outsourced-inbound-lead-follow-up/">inbound lead follow-up guide</a>.</p>
     </div>
   </section>
 
-  <section class="sdr-heavy-lifting-section">
-    <div class="container-wide">
-      <div class="section-label">What CallTeam takes off your plate</div>
-      <h2>The heavy lifting before a qualified sales conversation.</h2>
-      <div class="sdr-work-grid">
-        <article><span>01</span><h3>ICP execution</h3><p>Turn the target-market definition into usable account criteria, buyer roles, exclusions, priorities, and a campaign universe.</p></article>
-        <article><span>02</span><h3>Prospect research</h3><p>Build or refine the list, identify relevant contacts, check the available data, and prepare useful account context.</p></article>
-        <article><span>03</span><h3>Calling-led outreach</h3><p>Contact decision-makers, earn attention, explain the reason for the call, listen, redirect, and handle the first resistance.</p></article>
-        <article><span>04</span><h3>Persistent follow-up</h3><p>Keep the agreed next action moving across call attempts, email, and other approved channels when the campaign requires them.</p></article>
-        <article><span>05</span><h3>Response handling</h3><p>Work replies, referrals, wrong-person outcomes, timing changes, questions, objections, and requests for later contact.</p></article>
-        <article><span>06</span><h3>Lead qualification</h3><p>Confirm account fit, role relevance, business reason, interest, timing, decision path, and next-step potential.</p></article>
-        <article><span>07</span><h3>Meeting coordination</h3><p>Schedule the right conversation, set expectations, provide context, and keep the outcome visible in the workflow.</p></article>
-        <article><span>08</span><h3>Campaign intelligence</h3><p>Show what the market is saying so targeting, language, priorities, qualification, and follow-up improve over time.</p></article>
+  <section class="sdr-bdr-section">
+    <div class="container-wide sdr-two-column">
+      <div>
+        <div class="section-label">Outsourced BDR services</div>
+        <h2>Reach the accounts that do not know you yet.</h2>
+        <p>Waiting for referrals leaves good-fit companies outside your pipeline. BDR outsourcing creates a deliberate route into new accounts, buyer groups, or markets.</p>
+        <p>We turn your offer into a reason to talk, identify the relevant decision-makers, and follow up on what the conversation reveals. A referral, a timing signal, or an objection becomes a next action.</p>
+        <p><a href="/services/us-market-entry-sales/">Expanding into the United States?</a> We can scope a focused market-entry campaign around the buyers you need to reach.</p>
+      </div>
+      <div class="sdr-account-path" aria-label="How CallTeam develops a new account">
+        <div><span>01</span><p><strong>Choose the account</strong>Industry, company size, location, fit, and clear exclusions.</p></div>
+        <div><span>02</span><p><strong>Find the right buyer</strong>Relevant responsibilities, decision roles, and available contact data.</p></div>
+        <div><span>03</span><p><strong>Earn the conversation</strong>A relevant opening, human calling, useful questions, and persistent follow-up.</p></div>
+        <div><span>04</span><p><strong>Agree the next step</strong>Qualify the business reason and give your sales team the context.</p></div>
       </div>
     </div>
   </section>
 
-  <section class="sdr-launch-section">
+  <section id="sdr-process" class="sdr-launch-section">
     <div class="container-wide">
-      <div class="section-label">How the function launches</div>
-      <h2>From campaign brief to daily sales development.</h2>
-      <div class="sdr-launch-panel" role="img" aria-label="The CallTeam outsourced SDR launch process moves through foundation, campaign build, execution, qualification, and campaign learning">
-        <div class="sdr-launch-head"><span><i></i> SDR LAUNCH CONTROL</span><strong>ONE CONNECTED WORKFLOW</strong></div>
+      <div class="section-label">How SDR and BDR outsourcing works</div>
+      <h2>One connected process, from your offer to the handoff.</h2>
+      <p class="sdr-section-intro">You should know what happens before, during, and after the calls. We agree the audience, message, systems, and qualification standard before execution.</p>
+      <div class="sdr-launch-panel">
+        <div class="sdr-launch-head"><span>YOUR CAMPAIGN WORKFLOW</span><strong>PREPARE · EXECUTE · IMPROVE</strong></div>
         <div class="sdr-launch-grid">
-          <article><small>01 · FOUNDATION</small><strong>Learn the offer</strong><p>Buyer, problem, proof, claims, objections, boundaries, and the reason to care.</p></article>
-          <article><small>02 · CAMPAIGN</small><strong>Build the motion</strong><p>ICP, account list, contacts, talk track, qualification, cadence, and workflow.</p></article>
-          <article class="active"><small>03 · EXECUTION</small><strong>Work the market</strong><p>Calls, approved follow-up, responses, referrals, objections, and next actions.</p></article>
-          <article><small>04 · HANDOFF</small><strong>Qualify and book</strong><p>Meeting standard, context, scheduling, notes, and clear sales ownership.</p></article>
-          <article><small>05 · IMPROVE</small><strong>Use the evidence</strong><p>Segment response, buyer language, timing, list quality, and campaign decisions.</p></article>
+          <article><small>01 · UNDERSTAND</small><h3>Learn your offer</h3><p>Define the buyer's problem, your proof, approved claims, objections, and reason to act.</p></article>
+          <article><small>02 · PREPARE</small><h3>Build the campaign</h3><p>Confirm accounts, contacts, talk track, follow-up, qualification, CRM fields, and calendars.</p></article>
+          <article class="active"><small>03 · REACH</small><h3>Work the market</h3><p>Call, listen, handle responses and referrals, and follow up through agreed channels.</p></article>
+          <article><small>04 · QUALIFY</small><h3>Book with context</h3><p>Confirm fit and purpose, schedule the meeting, and pass useful notes to your team.</p></article>
+          <article><small>05 · REFINE</small><h3>Use what we learn</h3><p>Review response patterns, data quality, buyer language, and opportunities to improve.</p></article>
         </div>
-        <div class="sdr-launch-loop"><span>↻</span><strong>Every real conversation improves the next account, call, follow-up, and decision.</strong></div>
       </div>
+      <div id="sdr-operating-system" class="sdr-responsibility-grid">
+        <article><h3>CallTeam manages</h3><p>The agreed research, list work, calling, follow-up, response handling, qualification, scheduling, reporting, and campaign improvements.</p></article>
+        <article><h3>Your company owns</h3><p>The offer, pricing, product knowledge, approved proof, key campaign decisions, sales availability, and the work required to close.</p></article>
+      </div>
+      {% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
     </div>
   </section>
 
-  <section class="sdr-extension-section">
-    <div class="container-wide">
-      <div class="section-label">Extension of your team</div>
-      <h2>Your market presence. Your standards. A managed execution layer.</h2>
-      <div class="sdr-extension-grid">
-        <article><span>Brand</span><h3>Represent the company properly</h3><p>Callers work from an approved campaign brief, positioning, talk track, qualification standard, proof, and clear boundaries.</p></article>
-        <article><span>Workflow</span><h3>Fit the agreed sales process</h3><p>We define where records live, how outcomes are recorded, what fields matter, and how the handoff reaches your team.</p></article>
-        <article><span>Visibility</span><h3>See what is happening</h3><p>Reporting connects activity to conversations, qualification, meetings, follow-up, objections, and market learning.</p></article>
-        <article><span>Decisions</span><h3>Improve from evidence</h3><p>Campaign changes come from what buyers say, which accounts respond, where data fails, and why opportunities move or stop.</p></article>
+  <section class="sdr-handoff-section">
+    <div class="container-wide sdr-two-column">
+      <div>
+        <div class="section-label">The meeting is only useful with context</div>
+        <h2>Know why the buyer agreed to talk.</h2>
+        <p>Your salespeople need the business reason behind a meeting. We agree the qualification questions and handoff fields so they can prepare a focused conversation.</p>
+        <p>Notes and outcomes move through the agreed CRM or reporting workflow. Meeting confirmation, follow-up, and no-show recovery keep the next action visible.</p>
+        <p><a href="/articles/what-makes-b2b-appointment-qualified-practical-standard/">See our practical qualification standard</a> and <a href="/articles/how-to-hand-off-qualified-appointment-from-sdr-to-sales/">SDR-to-sales handoff guide</a>.</p>
       </div>
-      <div class="sdr-extension-line">Outsourced does not mean disconnected. The function should feel close enough to learn and structured enough to manage.</div>
-    </div>
-  </section>
-
-  <section class="sdr-ai-section">
-    <div class="container-wide">
-      <div class="section-label">AI-assisted. Human-led.</div>
-      <h2>Use technology to prepare the work. Use people to handle the conversation.</h2>
-      <div class="sdr-ai-grid">
-        <article><small>INTELLIGENCE LAYER</small><h3>AI-assisted preparation</h3><ul><li>Account research</li><li>Data organization</li><li>Lead priorities</li><li>Call context</li><li>Note structure</li></ul></article>
-        <div class="sdr-ai-arrow">→</div>
-        <article class="human"><small>EXECUTION LAYER</small><h3>Human sales judgment</h3><ul><li>Attention and relevance</li><li>Listening and redirection</li><li>Objection handling</li><li>Qualification</li><li>Next-step agreement</li></ul></article>
-        <div class="sdr-ai-arrow">→</div>
-        <article class="result"><small>COMMERCIAL OUTPUT</small><h3>A conversation worth taking</h3><p>Relevant account, useful contact, real business reason, qualification context, and a clear next step.</p></article>
+      <div class="sdr-handoff-board">
+        <div class="sdr-handoff-heading"><span>MEETING HANDOFF</span><strong>Example fields, tailored to your campaign</strong></div>
+        <dl>
+          <div><dt>Account fit</dt><dd>Why this company belongs in your target market.</dd></div>
+          <div><dt>Buyer role</dt><dd>What the contact owns, influences, or can help route.</dd></div>
+          <div><dt>Business reason</dt><dd>The need, problem, or change worth discussing.</dd></div>
+          <div><dt>Current approach</dt><dd>Relevant provider, process, objections, and alternatives.</dd></div>
+          <div><dt>Timing and next step</dt><dd>What is known, what needs discovery, and the agreed meeting purpose.</dd></div>
+        </dl>
       </div>
-      <p class="sdr-context-link">Need deeper targeting and account intelligence? Explore <a href="/ai-lead-generation-services/">AI Lead Generation Services</a>.</p>
-    </div>
-  </section>
-
-  <section class="sdr-comparison-section">
-    <div class="container-wide">
-      <div class="section-label">Build versus outsource</div>
-      <h2>One internal hire is not the same as a working SDR function.</h2>
-      <div class="sdr-cost-stack">
-        <div class="sdr-cost-side internal">
-          <span>BUILD INTERNALLY</span>
-          <h3>Separate costs and responsibilities</h3>
-          <div class="sdr-cost-items"><i>Recruit</i><i>Onboard</i><i>Train</i><i>Data</i><i>Dialer</i><i>CRM</i><i>Manage</i><i>Coach</i><i>Backfill</i></div>
-          <p>Your company owns every person, tool, delay, handoff, management task, and replacement.</p>
-        </div>
-        <div class="sdr-cost-versus">OR</div>
-        <div class="sdr-cost-side managed">
-          <span>WORK WITH CALLTEAM</span>
-          <h3>One managed execution layer</h3>
-          <div class="sdr-cost-core"><small>DEFINED SCOPE</small><strong>Targeting + execution + qualification + visibility</strong></div>
-          <p>You keep control of the offer and closing process without building every part of sales development yourself.</p>
-        </div>
-      </div>
-      <div class="sdr-cost-truth">You are not paying for one caller. You are buying the operating work around the caller. <a href="/pricing/">See CallTeam managed outbound pricing.</a></div>
     </div>
   </section>
 
   <section class="sdr-models-section">
     <div class="container-wide">
-      <div class="section-label">Compare the operating models</div>
-      <h2>Choose based on what your company wants to own.</h2>
-      <div class="sdr-table-wrap">
+      <div class="section-label">Outsource or build internally?</div>
+      <h2>Choose the work you want your team to own.</h2>
+      <p class="sdr-section-intro">An internal SDR can be the right investment. The decision includes management, training, data, systems, and daily follow-through alongside the hire.</p>
+      <div class="sdr-table-wrap" tabindex="0" role="region" aria-label="Compare sales development models; scroll horizontally on smaller screens">
         <table class="sdr-comparison-table">
-          <thead><tr><th>Model</th><th>What it gives you</th><th>What you manage</th><th>Best when</th></tr></thead>
+          <caption class="sr-only">Responsibilities under four sales development models</caption>
+          <thead><tr><th scope="col">Model</th><th scope="col">What you get</th><th scope="col">What you manage</th></tr></thead>
           <tbody>
-            <tr class="featured"><td><strong>CallTeam outsourced SDR</strong></td><td>Targeting support, list work, calling-led outreach, follow-up, qualification, meetings, workflow, and market feedback</td><td>Offer, proof, approvals, sales availability, discovery, proposals, and closing</td><td>You need the front of sales managed without building the full internal function</td></tr>
-            <tr><td><strong>Internal SDR</strong></td><td>A dedicated employee who can learn the business deeply and take on broader internal responsibilities</td><td>Recruiting, compensation, onboarding, tools, coaching, daily management, ramp, and turnover</td><td>You have a proven playbook and the capacity to manage the function internally</td></tr>
-            <tr><td><strong>Freelance caller</strong></td><td>Flexible calling capacity for a narrow task or temporary project</td><td>Strategy, data, talk track, management, qualification, reporting, and continuity</td><td>You already have the full system and only need temporary execution</td></tr>
-            <tr><td><strong>Software stack</strong></td><td>Data, sequencing, dialing, automation, workflows, or signals for your team to operate</td><td>People, daily work, judgment, replies, calls, qualification, and campaign decisions</td><td>Your team already has the time, skill, process, and ownership to run it</td></tr>
+            <tr class="featured"><th scope="row">CallTeam outsourced SDR / BDR</th><td>A managed campaign covering agreed targeting, execution, qualification, meetings, and reporting.</td><td>Offer, proof, approvals, sales availability, discovery, proposals, and closing.</td></tr>
+            <tr><th scope="row">Internal SDR team</th><td>Employees who can build deep product knowledge and take on wider internal responsibilities.</td><td>Recruiting, compensation, onboarding, data, tools, coaching, management, and continuity.</td></tr>
+            <tr><th scope="row">Freelance caller</th><td>Flexible calling capacity for a defined task or temporary project.</td><td>The strategy, list, talk track, qualification rules, supervision, and handoff process.</td></tr>
+            <tr><th scope="row">Software tools</th><td>Data, sequencing, dialling, automation, and workflow support.</td><td>The people, campaign decisions, conversations, responses, qualification, and daily work.</td></tr>
           </tbody>
         </table>
       </div>
+      <p class="sdr-inline-reading">Weighing a hire against outsourcing? Read <a href="/articles/outsourced-sdr-vs-in-house-sdr-team/">our outsourced SDR versus in-house comparison</a>.</p>
     </div>
   </section>
 
-  <section class="sdr-metrics-section">
+  <section id="sdr-pricing" class="sdr-pricing-section">
     <div class="container-wide">
-      <div class="section-label">What an outsourced SDR should measure</div>
-      <h2>Activity is visible. Commercial movement is the point.</h2>
-      <div class="sdr-metrics-grid">
-        <article><span>INPUT QUALITY</span><h3>Accounts and contacts</h3><p>Usable records, relevant roles, reachable contacts, exclusions, referrals, wrong-person patterns, and segment quality.</p></article>
-        <article><span>CONVERSATION QUALITY</span><h3>What buyers say</h3><p>Live conversations, recurring objections, business reasons, timing signals, role corrections, and useful follow-up.</p></article>
-        <article><span>HANDOFF QUALITY</span><h3>What sales accepts</h3><p>Meetings that meet the agreed criteria, useful notes, clear next steps, attendance, and sales-team confidence.</p></article>
-        <article><span>PIPELINE MOVEMENT</span><h3>What advances</h3><p>Follow-up completion, opportunities created, segment performance, sales acceptance, and movement after the meeting.</p></article>
+      <div class="section-label">Outsourced SDR and BDR pricing</div>
+      <h2>A clear starting price. A scope built around the work.</h2>
+      <div class="sdr-price-layout">
+        <div class="sdr-price-card"><span>CAMPAIGN-READY MANAGED PROGRAM</span><strong>US$4,000<span>per month, starting rate</span></strong><p>For a clear B2B offer, defined market, target accounts or contacts ready to activate, CRM and calendar access, and a sales team ready for meetings.</p><p>Most programs begin with an initial three-month engagement.</p><a href="/pricing/">See the full pricing and scope →</a></div>
+        <div class="sdr-price-explainer">
+          <h3>What is included</h3><p>Campaign assessment, market alignment, call strategy, scripts, human calling, follow-up, qualification, scheduling, meeting confirmation, no-show recovery, CRM handoff, weekly reporting, and ongoing improvement.</p>
+          <h3>What can expand the scope</h3><p>Fresh prospect research, data licensing, validation, list volume, additional markets, greater calling capacity, deeper qualification, and more complex CRM or reporting needs.</p>
+          <p><strong>The starting rate assumes your target accounts or contact data are ready.</strong> We confirm the workload and final price before work begins.</p>
+        </div>
       </div>
-      <div class="sdr-metric-warning"><strong>Not enough on their own:</strong> raw dials, database size, automated touches, open rates, or meetings booked without a business reason.</div>
+      {% set contextToolCta = contextualTools.roi %}{% include "components/contextual-tool-cta.njk" %}
     </div>
   </section>
 
   <section class="sdr-fit-section">
     <div class="container-wide">
-      <div class="section-label">Who this is for</div>
-      <h2>Built for companies that need consistent sales development without another internal build.</h2>
+      <div class="section-label">When sales development outsourcing makes sense</div>
+      <h2>Your team can sell. It needs more of the right conversations.</h2>
       <div class="sdr-fit-grid">
-        <article><h3>Founder-led sales</h3><p>The founder can close good opportunities but cannot spend every day building lists, calling, and chasing follow-up.</p></article>
-        <article><h3>Lean sales teams</h3><p>Closers need more qualified conversations without carrying prospect research and daily outreach themselves.</p></article>
-        <article><h3>SaaS and technology</h3><p>The offer needs target-account work, relevant buyer roles, context, qualification, and a useful handoff.</p></article>
-        <article><h3>Professional services</h3><p>The company has valuable expertise but needs a more dependable path beyond referrals and founder networks.</p></article>
-        <article><h3>Agencies and B2B providers</h3><p>The delivery team is strong, but the front of the sales pipeline is inconsistent or nobody owns it.</p></article>
-        <article><h3>Market expansion</h3><p>The company wants to test a new geography, segment, buyer group, or offer before adding permanent headcount.</p></article>
+        <article><h3>Founder-led and lean teams</h3><p>You can close good opportunities, but prospecting, list work, and follow-up compete with everything else.</p></article>
+        <article><h3>SaaS, technology and B2B services</h3><p>Your offer needs the right buyer, a clear business reason, thoughtful qualification, and a useful handoff.</p></article>
+        <article><h3>New segments and markets</h3><p>You want real buyer feedback before committing to a larger internal sales development team.</p></article>
       </div>
+      <div class="sdr-readiness"><strong>Bring an offer you can stand behind and a team ready to follow through.</strong><p>We need a definable buyer, credible proof, timely approvals, and people available for meetings. If those foundations are missing, we should address them before starting outreach.</p></div>
     </div>
   </section>
 
-  <section class="sdr-not-fit-section">
-    <div class="container">
-      <div class="section-label">When outsourcing is not the answer</div>
-      <h2>A managed SDR function still needs something real to sell.</h2>
-      <p>CallTeam may not be the right fit when the buyer cannot be defined, the offer has no credible reason to exist, nobody can take the meetings, the client cannot approve campaign decisions, or the goal is simply the cheapest possible activity.</p>
-      <p>Outsourcing execution does not remove the client's responsibility for product, proof, commercial decisions, discovery, proposals, and closing.</p>
-      <div class="sdr-not-fit-line">The service removes operating weight. It does not remove the need for a real offer and a sales team ready to follow through.</div>
-    </div>
-  </section>
-
-  <section class="sdr-pricing-section">
+  <section class="sdr-metrics-section">
     <div class="container-wide">
-      <div class="section-label">Outsourced SDR pricing</div>
-      <h2>The scope should match the work the market requires.</h2>
-      <div class="sdr-pricing-grid">
-        <article><span>01</span><h3>Market complexity</h3><p>Audience size, buyer seniority, geography, competition, offer maturity, and how difficult the category is to explain.</p></article>
-        <article><span>02</span><h3>List and research</h3><p>Whether data already exists, how much sourcing or validation is required, and the context needed per account.</p></article>
-        <article><span>03</span><h3>Execution workload</h3><p>Calling volume, outreach channels, contact depth, follow-up requirements, and response-handling complexity.</p></article>
-        <article><span>04</span><h3>Qualification</h3><p>The business detail, decision path, questions, proof, and meeting standard required before handoff.</p></article>
-        <article><span>05</span><h3>Systems and management</h3><p>CRM workflow, permissions, reporting, calendar coordination, review cadence, and operating support.</p></article>
+      <div class="section-label">Reporting and campaign improvement</div>
+      <h2>See the activity. Understand what is moving.</h2>
+      <p class="sdr-section-intro">Reporting should help you make a decision. We connect the daily work to buyer responses, accepted meetings, and the next campaign adjustment.</p>
+      <div class="sdr-metrics-grid">
+        <article><span>ACCOUNT QUALITY</span><h3>Are we reaching the right people?</h3><p>Usable records, relevant roles, reachable contacts, referrals, and account fit.</p></article>
+        <article><span>BUYER RESPONSE</span><h3>What earns a conversation?</h3><p>Live conversations, objections, business needs, timing signals, and follow-up reasons.</p></article>
+        <article><span>MEETING QUALITY</span><h3>Is the handoff useful?</h3><p>Agreed criteria, qualification notes, attendance, clear next steps, and your team's feedback.</p></article>
+        <article><span>SALES PROGRESS</span><h3>What happens after the meeting?</h3><p>Opportunity updates from your team, segment performance, and movement through your sales process.</p></article>
       </div>
-      <div class="sdr-pricing-note">CallTeam reviews the market and workload before recommending the right engagement.</div>
-      <!-- Contextual tools CTA: cta-outsourced-sdr-tools -->
-      <aside class="context-tool-cta" id="cta-outsourced-sdr-tools" data-context-tool-cta="cta-outsourced-sdr-tools" aria-label="Plan your outsourced SDR campaign">
-        <p>Explore the customer wins needed to recover your full SDR campaign cost, then build a free starting plan for your target buyers.</p>
-        <div class="context-tool-actions">
-          <a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a>
-          <a class="btn-secondary" href="/b2b-outbound-campaign-planner/" style="color: var(--black);">See How We’d Run Your Campaign</a>
-        </div>
-      </aside>
-      <!-- /Contextual tools CTA: cta-outsourced-sdr-tools -->
+      <div class="sdr-human-note"><h3>AI-assisted preparation. Human-led conversations.</h3><p>Technology can support research, data organization, account priorities, and call preparation. People listen, handle objections, qualify interest, and agree the next step. Explore <a href="/ai-lead-generation-services/">our AI lead generation services</a> for deeper account intelligence.</p></div>
     </div>
   </section>
 
   <section class="sdr-related-section">
     <div class="container-wide">
-      <div class="resource-link-panel">
-        <div><span>See the talk tracks</span><h2>Free scripts your SDR team can adapt.</h2><p>Review the buyer, ICP, questions, objections and CTA behind six complete B2B outbound conversations.</p></div>
-        <div class="resource-link-actions"><a href="/resources/cold-call-scripts/" class="btn-primary">Browse All Free Scripts</a><a href="/resources/cold-call-scripts/cloud-migration-cold-call-script-for-cios/">Cloud migration for CIOs →</a><a href="/resources/cold-call-scripts/logistics-overflow-drayage-cold-call-script/">Logistics and drayage →</a></div>
-      </div>
-      <div class="section-label">Related CallTeam services</div>
-      <h2>Connect the SDR function to the layer around it.</h2>
-      <div class="sdr-related-grid">
-        <a href="/services/"><span>Service hub</span><strong>All B2B Sales Services</strong><small>Find the right CallTeam entry point.</small></a>
-        <a href="/"><span>Calling execution</span><strong>B2B Outbound Calling</strong><small>Build the list, make the calls, follow up, and qualify.</small></a>
-        <a href="/services/b2b-appointment-setting/"><span>Meeting outcome</span><strong>B2B Appointment Setting</strong><small>Protect the calendar with a clear qualification standard.</small></a>
-        <a href="/case-studies/fintech-payment-platform-appointment-setting/"><span>Campaign proof</span><strong>FinTech Appointment Setting Case Study</strong><small>See how managed targeting, calling, follow up, and qualification produced 15 demos and three closed deals.</small></a>
-        <a href="/case-studies/manufacturing-cybersecurity-appointment-setting/"><span>Campaign proof</span><strong>Manufacturing Cybersecurity Case Study</strong><small>See how factory specific targeting and calling produced nine appointments and three sales opportunities.</small></a>
-        <a href="/case-studies/saas-demo-appointment-setting/"><span>Campaign proof</span><strong>SaaS Demo Appointment Setting Case Study</strong><small>See how focused targeting, calling, qualification, and follow up produced 11 demos and two new customers.</small></a>
-        <a href="/case-studies/credit-union-income-verification-appointment-setting/"><span>Campaign proof</span><strong>Credit Union Income Verification Case Study</strong><small>See how a lending workflow campaign produced eight qualified meetings, two signed customers, and two advancing opportunities.</small></a>
-        <a href="/case-studies/professional-services-appointment-setting/"><span>Campaign proof</span><strong>Professional Services Case Study</strong><small>See how focused targeting, human calling, and delivery-model qualification produced six meetings and one new client.</small></a>
-        <a href="/services/us-market-entry-sales/"><span>Market expansion</span><strong>US Market Entry Sales</strong><small>Test the US market through real buyer conversations.</small></a>
-        <a href="/90-day-revenue-engine/"><span>Full system</span><strong>90-Day Revenue Engine</strong><small>Rebuild the process from market to managed revenue.</small></a>
+      <div class="section-label">Useful next steps</div>
+      <h2>Explore the approach before you book.</h2>
+      <div class="sdr-reading-grid">
+        <article><h3>Review the conversations</h3><p>Browse the <a href="/resources/cold-call-scripts/">free cold call script library</a>, including <a href="/resources/cold-call-scripts/cloud-migration-cold-call-script-for-cios/">cloud migration for CIOs</a> and <a href="/resources/cold-call-scripts/logistics-overflow-drayage-cold-call-script/">logistics and drayage</a>.</p></article>
+        <article><h3>Choose your service</h3><p>Explore <a href="/services/">all B2B sales services</a>, our <a href="/">outbound calling approach</a>, or the broader <a href="/90-day-revenue-engine/">90-Day Revenue Engine</a>.</p></article>
+        <article><h3>Read the campaign evidence</h3><p>Our <a href="/case-studies/">case studies</a> explain the target buyers, conversation strategy, qualification, and outcomes behind the numbers.</p></article>
       </div>
     </div>
   </section>
 
   <section id="faq" class="sdr-faq-section">
     <div class="container-wide">
-      <div class="section-label">Outsourced SDR FAQ</div>
-      <h2>Questions B2B companies ask before outsourcing sales development.</h2>
+      <div class="section-label">Outsourced SDR and BDR FAQ</div>
+      <h2>Direct answers before you outsource sales development.</h2>
       <div class="sdr-faq-list">
-        <details><summary>What is an outsourced SDR service?</summary><p>An outsourced SDR service runs part or all of a company's sales development work as a managed service. The work can include target-account research, list building, outbound calling, follow-up, response handling, qualification, meeting scheduling, CRM updates, and campaign reporting.</p></details>
-        <details><summary>What does SDR mean?</summary><p>SDR means sales development representative. An SDR focuses on the work before a full sales opportunity, including prospecting, outreach, qualification, follow-up, and arranging the next conversation for a closer or account executive.</p></details>
-        <details><summary>What is the difference between an SDR and a BDR?</summary><p>Companies use the titles differently. SDR often refers to early-stage sales development across inbound or outbound leads. BDR often refers more specifically to new-business outbound prospecting. In practice, the responsibilities can overlap. CallTeam scopes the actual work instead of relying on the title.</p></details>
-        <details><summary>How are outsourced SDR services different from appointment setting?</summary><p>Appointment setting focuses on earning and scheduling qualified sales meetings. An outsourced SDR service is the broader operating function around that outcome, including targeting, research, outreach, follow-up, qualification, workflow, reporting, and continuous campaign improvement.</p></details>
-        <details><summary>Who manages the outsourced SDR work?</summary><p>CallTeam manages the agreed campaign execution, workflow, follow-up, qualification, reporting, and improvement. The client provides offer knowledge, proof, approvals, sales availability, and ownership after a qualified handoff.</p></details>
-        <details><summary>Does CallTeam provide the prospect list?</summary><p>CallTeam can build or refine a targeted B2B prospect list, or work with a list, CRM, target-account set, event list, inbound source, or dormant opportunity pool supplied by the client.</p></details>
-        <details><summary>Do outsourced SDRs cold call?</summary><p>Cold calling can be a central part of the work. CallTeam is calling-led because live conversations reveal fit, objections, timing, referrals, buyer language, and next-step potential that databases cannot confirm.</p></details>
-        <details><summary>Does CallTeam also use email?</summary><p>Depending on the engagement, CallTeam can connect calling with approved email follow-up and other agreed channels. The exact channel mix, infrastructure, permissions, and operating boundaries are defined before launch.</p></details>
-        <details><summary>Can CallTeam work inside our CRM?</summary><p>CallTeam can work with an agreed CRM or campaign workflow when access, permissions, fields, and operating rules are clear. If direct access is not appropriate, we can use another structured reporting and handoff process.</p></details>
-        <details><summary>Who approves the messaging and talk track?</summary><p>The client approves the core positioning, claims, proof, talk track, qualification questions, meeting standard, and important boundaries before launch. Real conversations can then guide agreed improvements.</p></details>
-        <details><summary>How does CallTeam qualify a meeting?</summary><p>The criteria are agreed before launch. Depending on the offer, they can include account fit, role relevance, business reason, interest, timing, current approach, decision path, and a clear purpose for the next conversation.</p></details>
-        <details><summary>What reporting do we receive?</summary><p>Reporting is matched to the engagement and can include activity, contact outcomes, calls, responses, referrals, objections, follow-up, qualification, meetings, segment performance, and market feedback.</p></details>
-        <details><summary>How much do outsourced SDR services cost?</summary><p>Pricing depends on the market, list and research requirements, buyer seniority, outreach channels, calling and follow-up workload, qualification depth, CRM workflow, reporting, and management required. CallTeam reviews the campaign before recommending a scope.</p></details>
-        <details><summary>When should a company outsource sales development?</summary><p>Outsourcing can make sense when a company needs more consistent prospecting capacity, wants to protect closers from front-end work, needs to test a new market, lacks internal SDR management, or wants a managed function without immediately adding permanent headcount.</p></details>
-        <details><summary>When should a company build an internal SDR team instead?</summary><p>An internal team can make more sense when the company has a proven playbook, dedicated SDR leadership, enough scale to support the function, and a product that requires deep ongoing internal specialization.</p></details>
-        <details><summary>How do we start?</summary><p>Start with a strategy call. CallTeam reviews the offer, market, target accounts, data, buyer roles, sales process, qualification standard, systems, and goals before recommending the right operating model.</p></details>
+        <details open><summary>What are outsourced SDR services?</summary><p>Outsourced SDR services give a company a managed sales development function. CallTeam handles agreed targeting, research, calling, follow-up, qualification, meeting scheduling, CRM handoff, and reporting. Your team owns discovery, proposals, negotiation, and closing.</p></details>
+        <details><summary>What are outsourced BDR services?</summary><p>Outsourced BDR services focus on finding and developing new business opportunities. CallTeam identifies suitable companies and buyers, opens outbound conversations, follows up, qualifies the response, and arranges an agreed next step with your sales team.</p></details>
+        <details><summary>What is the difference between an SDR and a BDR?</summary><p>SDR means sales development representative. BDR means business development representative. Companies use the titles differently: SDR can cover inbound or outbound development, while BDR often refers to new-business outbound prospecting. Responsibilities overlap, so CallTeam defines the work and meeting standard before launch.</p></details>
+        <details><summary>How is SDR outsourcing different from appointment setting?</summary><p>Appointment setting focuses on earning and scheduling qualified sales meetings. SDR outsourcing covers the work around that outcome too: target-account preparation, outreach, response handling, follow-up, qualification, CRM workflow, reporting, and campaign improvement.</p></details>
+        <details><summary>How much do outsourced SDR and BDR services cost?</summary><p>CallTeam managed outbound programs start at US$4,000 per month for a campaign-ready company with a clear offer, defined market, target accounts or contacts ready to activate, CRM and calendar access, and a sales team ready for meetings. Fresh prospect research, data, additional markets, and expanded capacity are priced into the final scope.</p></details>
+        <details><summary>Does the starting price include a new prospect list?</summary><p>The US$4,000 starting program assumes target accounts or contact data are ready to activate. CallTeam can build or refine a prospect list when needed. Research, data licensing, validation, and list volume are priced into the final scope.</p></details>
+        <details><summary>Who manages the campaign and approves the messaging?</summary><p>CallTeam manages the agreed daily execution, follow-up, qualification, reporting, and improvement. Your team approves the offer, claims, proof, talk track, qualification questions, and meeting standard. You also provide sales availability and handle opportunities after handoff.</p></details>
+        <details><summary>How does CallTeam qualify a meeting?</summary><p>We agree the standard before launch. It can include company fit, buyer role, business need, current approach, interest, timing, decision process, and a clear purpose for the next conversation. The buyer must understand and accept that next step.</p></details>
+        <details><summary>Can CallTeam work inside our CRM?</summary><p>Yes, with agreed access, permissions, fields, and operating rules. We confirm how records, outcomes, notes, and next actions reach your team before launch. If direct CRM access is unsuitable, we agree another structured reporting and handoff process.</p></details>
+        <details><summary>Do outsourced SDRs and BDRs use cold calling or email?</summary><p>CallTeam is calling-led. Live conversations help establish fit, objections, referrals, timing, and interest. Approved email follow-up and other agreed channels can support the campaign. The channel mix, infrastructure, permissions, and boundaries are defined in the scope.</p></details>
+        <details><summary>Is the outreach done by people or AI?</summary><p>People handle CallTeam sales conversations, objections, qualification, and next-step agreement. AI can assist with account research, data organization, priorities, call preparation, and note structure. Human judgment stays central to the conversation.</p></details>
+        <details><summary>How quickly can an outsourced SDR campaign launch?</summary><p>The launch date depends on the readiness of your offer, audience, contact data, approvals, systems, and calendars. We review those inputs and agree a launch plan before execution. Research or workflow setup can add preparation time.</p></details>
+        <details><summary>How long is the initial engagement?</summary><p>Most CallTeam managed outbound programs begin with an initial three-month engagement. That allows time to launch, learn from buyer conversations, refine the campaign, and assess meaningful results. The scope and terms are agreed before work begins.</p></details>
+        <details><summary>What reporting will we receive?</summary><p>Reporting is agreed for the engagement and connects activity to conversations, qualification, meetings, follow-up, and market feedback. Weekly reporting is included in the starting managed program. Opportunity updates from your sales team help show what happens after the handoff.</p></details>
+        <details><summary>Which companies and markets does CallTeam support?</summary><p>CallTeam supports B2B companies in Canada, the United States, and international markets. Relevant engagements include SaaS, technology, cybersecurity, financial services, professional services, and market expansion. Each campaign is scoped around its offer, target buyers, geography, and qualification needs.</p></details>
+        <details><summary>Can CallTeam follow up with inbound or dormant leads?</summary><p>Yes, an agreed engagement can work with inbound inquiries, event lists, dormant opportunities, or existing CRM contacts as well as new target accounts. We define the response workflow, priority, qualification, and handoff for that audience before launch.</p></details>
+        <details><summary>When should we hire an internal SDR instead?</summary><p>An internal team can be a better fit when you have a proven playbook, dedicated sales development leadership, enough ongoing work, and the ability to recruit, train, equip, and coach the team. Outsourcing fits companies that want the agreed front-end sales work managed externally.</p></details>
+        <details><summary>How do we get started?</summary><p>Book a strategy call and tell us what you sell, who buys it, where you want to grow, and what sales development work needs support. CallTeam reviews your market, data, qualification standard, systems, and sales capacity, then recommends the scope.</p></details>
       </div>
     </div>
   </section>
 
   <section class="cta-band sdr-final-cta">
-    <div class="section-label">Put the front of sales in motion</div>
-    <h2>Let your team close. Let CallTeam keep the <span class="highlight">pipeline moving.</span></h2>
-    <p>Tell us what you sell, who you need to reach, and which part of sales development is consuming your team's time.</p>
-    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book an Outsourced SDR Strategy Call</a>
+    <div class="section-label">Build your next campaign with CallTeam</div>
+    <h2>Give your salespeople more time to <span class="highlight">sell.</span></h2>
+    <p>Tell us what you sell, who you need to reach, and where prospecting is slowing you down. Let’s work out how CallTeam can help you move forward.</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free Strategy Call</a>
   </section>
 </main>
