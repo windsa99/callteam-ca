@@ -1,0 +1,81 @@
+/* Loaded only by the homepage. Shared site styles stay unchanged. */
+.home-outbound-page .home-campaign-results {
+  padding: 56px 48px;
+  background: var(--white);
+}
+
+.home-outbound-page .home-campaign-results h2 {
+  margin-bottom: 28px;
+}
+
+.home-outbound-page .home-campaign-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.home-outbound-page .home-campaign-result-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 28px;
+  background: var(--grey-bg);
+  border: 1px solid #dedede;
+  border-top: 4px solid var(--orange);
+  border-radius: 0 0 9px 9px;
+}
+
+.home-outbound-page .home-campaign-result-market {
+  color: var(--grey-text);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home-outbound-page .home-campaign-result-card h3 {
+  margin: 14px 0 12px;
+  color: var(--black);
+  font-size: clamp(25px, 2.7vw, 32px);
+  line-height: 1.15;
+}
+
+.home-outbound-page .home-campaign-result-card p {
+  margin: 0 0 24px;
+  color: var(--grey-text);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.home-outbound-page .home-campaign-result-card a {
+  align-self: flex-start;
+  margin-top: auto;
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.home-outbound-page .home-campaign-result-card a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.home-outbound-page .home-campaign-result-card a:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 5px;
+}
+
+.home-outbound-page #home-campaign-results {
+  scroll-margin-top: 110px;
+}
+
+@media (max-width: 900px) {
+  .home-outbound-page .home-campaign-results { padding: 48px 28px; }
+}
+
+@media (max-width: 640px) {
+  .home-outbound-page .home-campaign-results { padding: 40px 20px; }
+  .home-outbound-page .home-campaign-results-grid { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .home-outbound-page .home-campaign-result-card { padding: 24px 20px; }
+}

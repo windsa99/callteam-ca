@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/contextual-tools.css"]
+pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css"]
 hasInlineContact: true
 title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
@@ -154,10 +154,10 @@ faqSchema: |
       <p class="home-hero-lead">CallTeam can build the prospect list or use the leads you already have. We call decision-makers, keep following up, qualify the opportunity, and book the right conversations for your sales team.</p>
       <p>No hiring another SDR. No good list sitting untouched. No calendar filled with meetings that never should have been booked.</p>
       <div class="home-cta-row">
-        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener" aria-describedby="home-strategy-call-note">Book a Free B2B Strategy Call</a>
         <a href="#qualified-conversation-engine" class="btn-secondary">See How the Calling Works</a>
       </div>
-      <div class="home-hero-note"><span></span>Built around your offer, your market, and your definition of a qualified conversation.</div>
+      <div class="home-hero-note" id="home-strategy-call-note"><span aria-hidden="true"></span>We’ll review your market, identify the right buyers and explain how we would run the outreach.</div>
     </div>
 
     <div class="home-hero-system" role="img" aria-label="CallTeam system showing prospect lists entering human-led calling, qualification, and booked sales conversations">
@@ -196,6 +196,27 @@ faqSchema: |
   </section>
 
   {% include "partials/platform-partners.njk" %}
+
+  <section id="home-campaign-results" class="home-campaign-results" aria-labelledby="home-campaign-results-heading">
+    <div class="container-wide">
+      <div class="section-label">Results from CallTeam campaigns</div>
+      <h2 id="home-campaign-results-heading">See what the work produced.</h2>
+      <div class="home-campaign-results-grid">
+        <article class="home-campaign-result-card">
+          <span class="home-campaign-result-market">B2B SaaS</span>
+          <h3>11 qualified demos</h3>
+          <p>During a 90-day campaign. Two customers signed within six months.</p>
+          <a href="/case-studies/saas-demo-appointment-setting/">Read the SaaS case study <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="home-campaign-result-card">
+          <span class="home-campaign-result-market">Manufacturing cybersecurity</span>
+          <h3>9 qualified appointments</h3>
+          <p>In the first 90 days, with three opportunities created.</p>
+          <a href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the cybersecurity case study <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
 
   <section id="what-callteam-does" class="home-definition">
     <div class="container">
