@@ -190,6 +190,8 @@ faqSchema: |
         <article><span>06</span><h3>Clear next step</h3><p>The meeting has a defined purpose, the prospect knows what will be discussed, and your seller receives the context to prepare.</p></article>
       </div>
       <div class="appointment-standard-note"><strong>The rule:</strong> if the prospect is not ready for a meeting but deserves follow-up, we record the right next action instead of forcing the calendar.</div>
+      {% set contextToolCta = { id: "cta-appointment-meeting-check", accessibleName: "Review your current appointment-setting results", copy: "Already booking meetings? Check how many happen, meet your sales acceptance standard and become opportunities. Bring those results to a conversation about your campaign.", href: "/b2b-meeting-quality-check/", label: "Check Your Meeting Results" } %}
+      {% include "components/contextual-tool-cta.njk" %}
     </div>
   </section>
 

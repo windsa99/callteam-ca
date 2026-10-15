@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "What Makes a B2B Appointment Qualified? A Practical Standard"
 seoTitle: "What Makes a B2B Appointment Qualified? Checklist"
@@ -225,5 +226,8 @@ CallTeam agrees with the client on account fit, buyer relevance, business reason
 ## Measure quality after the booking
 
 Track sales acceptance, attendance, correct-person attendance, handoff completeness, problem confirmation, next-step progression and disqualification reasons. Review the pattern by campaign, buyer role and caller.
+
+{% set contextToolCta = { id: "cta-qualified-meeting-check", accessibleName: "Measure results against your qualification standard", copy: "Use the same group of bookings to see how many meetings happened, met your sales acceptance standard and became opportunities. Keep missing feedback visible.", href: "/b2b-meeting-quality-check/", label: "Check Your Meeting Results" } %}
+{% include "components/contextual-tool-cta.njk" %}
 
 CallTeam builds the audience, makes the human calls, qualifies against the agreed standard and books accepted meetings into the client's calendar. **Want CallTeam to run the campaign?** [Book a B2B strategy call](https://calendly.com/hello-callteam/new-meeting) to define what qualified means before the first dial.

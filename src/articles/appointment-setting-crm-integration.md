@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "Appointment Setting With CRM Integration: What Your Provider Should Deliver"
 seoTitle: "Appointment Setting With CRM Integration | CallTeam"
@@ -155,6 +156,9 @@ Ask to see how the provider's weekly report will reconcile with your CRM. Calls 
 Clarify who supplies the later sales outcomes. An appointment-setting team cannot reliably report opportunity progression if the client never updates the result. Where feedback is missing, the report should show that gap rather than quietly count the meeting as successful or unsuccessful.
 
 A rejected meeting should carry a reason that the campaign team can review. If sales repeatedly rejects meetings because the contact lacks buying responsibility, the next review should address role selection and the qualification questions callers use.
+
+{% set contextToolCta = { id: "cta-crm-meeting-check", accessibleName: "Check the meeting outcomes recorded in your CRM", copy: "Use the counts from your CRM to follow one group of bookings through to opportunities. The check keeps untracked results separate from zero outcomes.", href: "/b2b-meeting-quality-check/", label: "Check Your Meeting Results" } %}
+{% include "components/contextual-tool-cta.njk" %}
 
 ## Put CRM access, costs and exit arrangements in the scope
 

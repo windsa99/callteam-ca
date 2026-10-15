@@ -178,6 +178,9 @@ Use these formulas:
 
 The [calls-per-meeting guide](/articles/how-many-cold-calls-book-b2b-meeting/) shows how attendance and acceptance change the real volume requirement. These rates should be cohort-based so later outcomes remain connected to the meetings that created them.
 
+{% set contextToolCta = { id: "cta-metrics-meeting-check", accessibleName: "Apply the meeting metrics to your campaign", copy: "Put those definitions to work. Enter one group of bookings to calculate attendance, sales acceptance and opportunity progression, with the counts beside each rate.", href: "/b2b-meeting-quality-check/", label: "Check Your Meeting Results" } %}
+{% include "components/contextual-tool-cta.njk" %}
+
 ## Make no-show and rejection reasons visible
 
 A single no-show total hides different operating problems. Separate buyer no-show, client no-show, cancellation, reschedule, invitation failure, technical failure and inability to reconfirm. Then review time from booking to meeting, meeting purpose, invitation accuracy, reminders, attendance ownership and rescheduling.

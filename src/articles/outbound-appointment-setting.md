@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "Outbound Appointment Setting: How to Book Qualified B2B Meetings That Show Up"
 seoTitle: "Outbound Appointment Setting: Qualified Meetings That Show Up"
@@ -229,6 +230,9 @@ A complete operating view follows the meeting through the funnel:
 Review rejection, cancellation, nurture, and no-show reasons beside the totals. If attendance is weak, inspect the conversation, meeting purpose, invitation, time to meeting, and confirmation ownership. If attendance is healthy but sales rejects the meetings, examine account selection, role relevance, business evidence, and promises made by the caller.
 
 The [FinTech payment platform appointment-setting case study](/case-studies/fintech-payment-platform-appointment-setting/) demonstrates why the funnel matters. The work connected targeted outbound calling to qualified demos and then followed the commercial outcome into closed business. Meeting volume alone would have hidden the result that mattered.
+
+{% set contextToolCta = { id: "cta-outbound-meeting-check", accessibleName: "Check what happens after your appointments are booked", copy: "Follow your own bookings through held meetings, sales acceptance and opportunities. See which stage deserves a closer look before adding more activity.", href: "/b2b-meeting-quality-check/", label: "Check Your Meeting Results" } %}
+{% include "components/contextual-tool-cta.njk" %}
 
 ## How CallTeam improves meeting quality
 

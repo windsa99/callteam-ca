@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "How to Hand Off a Qualified Appointment From SDR to Sales"
 seoTitle: "SDR-to-Sales Handoff for Qualified B2B Appointments"
@@ -231,5 +232,8 @@ Review a small sample of successful and unsuccessful handoffs together. Look for
 The review should end with one owner and one change. Add a required field, revise a routing rule, coach a question or clarify the acceptance standard. A meeting about handoffs that produces no operating change is merely another handoff nobody accepted.
 
 Keep the buyer outside the internal debate. If ownership changes, send one clear update and preserve the original meeting purpose. The prospect should experience preparation and continuity, not watch the sales organization decide who wants the opportunity while the invitation is already sitting on the calendar.
+
+{% set contextToolCta = { id: "cta-handoff-meeting-check", accessibleName: "Review the results of your sales handoff", copy: "Bring the feedback loop into one view. Compare held meetings, sales acceptance and opportunities, then use the results to decide which handoffs to review.", href: "/b2b-meeting-quality-check/", label: "Check Your Meeting Results" } %}
+{% include "components/contextual-tool-cta.njk" %}
 
 CallTeam completes the qualification, warm introduction, CRM handoff, meeting confirmation and feedback loop as part of managed appointment setting. **Want CallTeam to run the campaign?** [Book a B2B strategy call](https://calendly.com/hello-callteam/new-meeting) to build the handoff contract before the first dial.

@@ -2,7 +2,7 @@
   "name": "callteam-ca",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run check:articles && npm run test:roi && npm run test:campaign && eleventy && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms",
+    "build": "npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && eleventy && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js && node scripts/check-article-tool-ctas.js",
     "check:about": "node scripts/validate-about-page.js",
@@ -17,7 +17,8 @@
     "test:form-guard": "node scripts/test-contact-form-guard.js",
     "test:roi": "node scripts/test-roi-calculator.js",
     "test:campaign": "node scripts/test-campaign-preview.js",
-    "test:article-tools": "node scripts/test-article-tool-ctas.js"
+    "test:article-tools": "node scripts/test-article-tool-ctas.js",
+    "test:meeting-quality": "node scripts/test-meeting-quality-model.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
