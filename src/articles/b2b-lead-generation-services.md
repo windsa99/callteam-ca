@@ -2,6 +2,12 @@
 authorKey: "harjSingh"
 layout: layouts/article.njk
 pageStyles: ["/assets/css/contextual-tools.css"]
+contextToolCta:
+  id: "cta-buying-guide-proposals"
+  accessibleName: "Compare shortlisted agency proposals"
+  copy: "Use your shortlist to compare the actual proposals. Check costs, scope and unanswered questions alongside your selection scorecard."
+  href: "/lead-generation-proposal-comparison/"
+  label: "Compare Your Agency Proposals"
 tags: ["articles"]
 title: "How to Choose a B2B Lead Generation Service"
 seoTitle: "How to Choose a B2B Lead Generation Service | CallTeam"
@@ -256,3 +262,5 @@ Score each provider from one to five on strategic fit, data quality, calling cap
 Then apply two gates. First, reject any provider that cannot explain its process or data ownership. Second, reject any engagement whose success definition is ambiguous.
 
 The winner should not be the most persuasive salesperson in the selection process. It should be the team most likely to run the required work, show what is happening, learn from the market, and hand sales conversations over with integrity.
+
+{% include "components/contextual-tool-cta.njk" %}

@@ -2,6 +2,12 @@
 authorKey: "harjSingh"
 layout: layouts/article.njk
 pageStyles: ["/assets/css/contextual-tools.css"]
+contextToolCta:
+  id: "cta-canada-proposals"
+  accessibleName: "Compare Canadian agency proposals"
+  copy: "Put the proposals you receive side by side. Compare costs, meeting definitions and scope before choosing a provider."
+  href: "/lead-generation-proposal-comparison/"
+  label: "Compare Your Agency Proposals"
 tags: ["articles"]
 title: "Best B2B Lead Generation Companies in Canada: 2026 Buyer’s Comparison"
 seoTitle: "Best B2B Lead Generation Companies in Canada (2026)"
@@ -222,3 +228,5 @@ Use these questions to compare the final proposals:
 8. How will activity be connected to opportunities, pipeline, and closed business?
 
 The best choice is the provider whose real delivery team matches the market being purchased. A logo, office address, guarantee, or self-published ranking cannot answer that question on its own.
+
+{% include "components/contextual-tool-cta.njk" %}
