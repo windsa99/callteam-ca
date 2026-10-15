@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "Cold Call Coaching: A Practical Scorecard for Sales Managers"
 seoTitle: "Cold Call Coaching Scorecard for Sales Managers | CallTeam"
@@ -174,6 +175,9 @@ Listen for whether the representative:
 An enthusiastic product introduction can still earn a weak score if the buyer never understands why the call belongs with them. A quiet opening can perform well when it creates an immediate, relevant exchange.
 
 Use the [how to write a B2B cold call script guide](/articles/how-to-write-a-b2b-cold-call-script/) to review the identification, context, business premise, relevance question, and conversation route behind the opening.
+
+{% set contextToolCta = { id: "cta-coaching-script-check", accessibleName: "Review the written opening before coaching the call", copy: "Review the written opening before the next coaching session. The checker helps improve the wording; use this scorecard to assess delivery, listening and decisions on the actual call.", href: "/cold-call-script-checker/", label: "Check Your Cold Call Script" } %}
+{% include "components/contextual-tool-cta.njk" %}
 
 ## Evaluate questions, listening, and adaptation together
 

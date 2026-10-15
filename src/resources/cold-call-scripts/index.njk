@@ -57,6 +57,8 @@ modified: "2026-09-03"
           <a href="#script-library" class="btn-primary">Browse All Free Scripts</a>
           <a href="/resources/outbound-sales-library/" class="btn-secondary">Explore the Full Library</a>
         </div>
+        {% set contextToolCta = { id: "cta-library-script-check", accessibleName: "Review your own cold call opening", copy: "Already have a draft? Check your opening, find useful changes and see examples matched to your buyer.", href: "/cold-call-script-checker/", label: "Check Your Cold Call Script" } %}
+        {% include "components/contextual-tool-cta.njk" %}
       </div>
       <aside class="script-authority-card">
         <span>Built from live outbound work</span>

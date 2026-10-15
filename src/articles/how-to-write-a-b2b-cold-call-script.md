@@ -1,6 +1,7 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 tags: ["articles"]
 title: "How to Write a B2B Cold Call Script That Opens Real Conversations"
 seoTitle: "How to Write a B2B Cold Call Script | CallTeam"
@@ -252,6 +253,9 @@ Replace long sentences with short thoughts. Use familiar words. Put one question
 Role practice should include interruptions, uncertain answers, referrals, detailed questions, and firm refusals. A perfect recital proves only that the caller memorized the page. Useful preparation shows that the person understands the business premise well enough to leave the wording and return to the purpose.
 
 New callers may need a tighter version at first. Experienced representatives can work from call paths, questions, and approved claims. Both need clear boundaries around legal language, commitments, pricing, compliance, and technical statements.
+
+{% set contextToolCta = { id: "cta-writing-script-check", accessibleName: "Check the opening you have written", copy: "Put your draft through a first review. Check the opening for clarity, buyer relevance and a useful next question before rehearsing it with your team.", href: "/cold-call-script-checker/", label: "Check Your Cold Call Script" } %}
+{% include "components/contextual-tool-cta.njk" %}
 
 ## Improve the script from live campaign evidence
 

@@ -29,6 +29,7 @@
       { "label": "Campaign Preview", "url": "/b2b-outbound-campaign-planner/", "description": "See the buyers, message and approach for your market" },
       { "label": "Compare Agency Proposals", "url": "/lead-generation-proposal-comparison/", "description": "Compare costs, meeting definitions and scope" },
       { "label": "Cold-Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy free, practical B2B call scripts" },
+      { "label": "Check Your Cold Call Script", "url": "/cold-call-script-checker/", "description": "Review your opening and find relevant examples" },
       { "label": "Industry Playbooks", "url": "/resources/outbound-playbooks/industries/", "description": "Plan outbound for specific B2B markets" },
       { "label": "Buyer Playbooks", "url": "/resources/outbound-playbooks/buyers/", "description": "Reach executives and buying committees" },
       { "label": "Objection Database", "url": "/articles/cold-call-objection-handling/", "description": "Handle live resistance without forcing the call" },

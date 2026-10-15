@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+pageStyles: ["/assets/css/contextual-tools.css"]
 permalink: "/services/sdr-training/"
 title: "SDR Training Services"
 seoTitle: "SDR Training Services and Cold Call Coaching | CallTeam"
@@ -250,6 +251,8 @@ faqSchema: |
         <article class="strong"><span>STRONG TALK TRACK</span><h3>Know the purpose of each line.</h3><ul><li>Direct opening</li><li>Clear reason to call</li><li>Buyer language</li><li>Listening prompts</li><li>Flexible responses</li><li>Defined next step</li></ul></article>
       </div>
       <p class="training-script-note">CallTeam can review, rewrite, and test cold call scripts against the offer, buyers, real objections, and the conversations your SDRs are actually having.</p>
+      {% set contextToolCta = { id: "cta-training-script-check", accessibleName: "Try a free written script review", copy: "Start with the words your team uses today. Review an opening, then bring the draft and real call examples to a training discussion.", href: "/cold-call-script-checker/", label: "Check Your Cold Call Script" } %}
+      {% include "components/contextual-tool-cta.njk" %}
     </div>
   </section>
 
