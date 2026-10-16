@@ -143,6 +143,10 @@ Define what earns a meeting. Include account fit, buyer relevance, a credible bu
 
 Distinguish booked, confirmed, held, sales-accepted and opportunity outcomes. This prevents the campaign from moving the goalposts when pressure rises.
 
+<!-- US campaign example link: cta-90-day-us-example -->
+<p id="cta-90-day-us-example">For a completed example of the opening, qualification decision and sales handoff, <a href="/us-b2b-lead-generation-campaign-example/">see a US campaign from call to meeting</a>.</p>
+<!-- /US campaign example link: cta-90-day-us-example -->
+
 ## Days 1–30: establish the truth of the market
 
 Launch with a controlled audience and enough variation to observe meaningful patterns. Cover priority accounts, several relevant buyer roles, realistic time windows and the number types the plan intends to use.

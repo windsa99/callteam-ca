@@ -1,0 +1,70 @@
+US B2B LEAD GENERATION CAMPAIGN EXAMPLE
+From cold call to a qualified sales meeting
+CallTeam | https://www.callteam.ca/us-b2b-lead-generation-campaign-example/
+
+ILLUSTRATIVE CAMPAIGN
+This completed brief is an example for planning. The offer, company profile, buyer responses and dates are fictional. It contains no client transcript or claimed campaign results.
+
+1. THE OFFER
+Accounts-payable workflow software that helps a finance team route invoice approvals, see the current approver and track outstanding actions. In this illustration, the software is intended to work alongside the buyer's ERP. Actual integration and fit must be checked during discovery.
+
+2. THE TARGET
+US industrial distributors with multiple locations and a finance team responsible for supplier invoices. Start with Eastern and Central time-zone territories. Verify each contact's local time zone before calling or scheduling.
+
+Primary contact: Controller who owns the invoice-approval workflow.
+Other possible contact: Accounts Payable Manager who can explain the current process and identify the person responsible for evaluating a change.
+
+Illustrative account: An industrial distributor with three US locations. The controller works in Chicago.
+
+3. WHO TO EXCLUDE
+Consumer-only retailers, businesses outside the agreed territories and records that do not establish the basic account fit. Check existing customer, active-opportunity and contact-suppression records before adding an account to outreach. An appropriate company can still leave the sequence when the buyer reports no relevant need.
+
+4. WHAT TO PREPARE
+Confirm company activity, locations, contact role and local time zone. Record the source of each fact. Agree record ownership, access permissions, contact preferences, campaign exclusions and the handoff format before calling. Do not treat a job title as proof of purchasing authority.
+
+5. THE OPENING
+"Hi [First name], it's [Your name] with [Company]. We help finance teams manage invoice approvals across locations. How do approvals work between your branches and the finance team today?"
+
+Replace the placeholders with the real caller and company identity in an actual campaign, and describe only capabilities the product can support.
+
+6. THE CONVERSATION DECISIONS
+Already handled in the ERP: Ask whether any approval work still happens outside it. If the buyer reports that the process works and there is no current need, close the conversation without a meeting.
+
+Requests information: Agree which information would be useful. Ask whether the buyer wants a follow-up and confirm its timing. A request for information alone does not qualify a sales meeting.
+
+Describes a relevant problem: Confirm their responsibility for the workflow, interest in discussing it and a useful purpose for the meeting. Ask for explicit agreement to a time.
+
+7. THE FIRST-MEETING STANDARD
+The account is a suitable industrial distributor.
+The contact owns the invoice-approval workflow or brings that person into the discussion.
+The buyer identifies a relevant problem.
+The buyer wants to explore whether a change could help.
+The buyer agrees to a defined discussion and time.
+
+For this example, budget and final purchasing authority can remain unknown at the first meeting. Record them as unknown. A real campaign should use the qualification criteria agreed with its sales team.
+
+8. THE COMPLETED HANDOFF EXAMPLE
+Status: Qualified to book; buyer agreed to the discussion. Invitation acceptance and attendance remain to be tracked.
+Account: Illustrative US industrial distributor with three locations.
+Contact: Controller responsible for the finance workflow across all three locations.
+Current process: ERP in use; invoice approvals return by email.
+Stated problem: The finance team chases approvers manually.
+Interest: The controller wants to explore a better way to handle the approval workflow.
+Meeting purpose: Review where approvals leave the ERP, how follow-up works and whether the proposed software could fit.
+Agreed illustrative time: Tuesday, October 20, 2026, 10:30-10:50 a.m. America/Chicago (CDT), equivalent to 11:30-11:50 a.m. America/New_York (EDT).
+Unknowns: ERP product, integration requirements, invoice volume, approval rules, budget, final decision-maker and implementation timetable.
+Caller action: Confirm the address, send the agreed invitation and pass these notes to the salesperson.
+Salesperson action: Review the notes, run the workflow discussion and agree any further step with the buyer.
+Opportunity status: No opportunity recorded yet.
+
+9. WHAT TO REVIEW AFTER THE MEETING
+Record whether the meeting happened, whether it met the agreed qualification standard and whether a next sales step was established. Capture the reason when a meeting is rejected or postponed. Review outcomes from the same group of bookings. Keep future meetings and unknown outcomes separate from completed results.
+
+10. CAMPAIGN ECONOMICS
+CallTeam managed B2B outbound calling and appointment-setting programs start at US$4,000 per month for a campaign-ready company. Fresh prospect data and expanded requirements are priced into the final scope. This example sets no monthly meeting target and predicts no campaign result.
+Pricing and scope: https://www.callteam.ca/pricing/
+
+USE THIS BRIEF FOR YOUR MARKET
+Replace the illustrative offer, audience, workflow problem, question and qualification criteria with your own. Keep unknown information visible. Agree the actual territory, coverage, data requirements and sales handoff before launch.
+
+Discuss your US calling campaign: https://calendly.com/hello-callteam/new-meeting

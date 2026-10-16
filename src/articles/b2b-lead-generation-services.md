@@ -173,6 +173,13 @@ Request examples of openings, call objectives, voicemail decisions, email follow
 
 Outreach should develop over the campaign. Early conversations reveal which problems resonate, which roles redirect the caller, and which assumptions are wrong. A provider that repeats the same script despite evidence is operating a volume service, not a learning system.
 
+<!-- US campaign example link: cta-buyer-guide-us-example -->
+{% set usExamplePreviousCta = contextToolCta %}
+{% set contextToolCta = { id: "cta-buyer-guide-us-example", accessibleName: "Inspect a worked US campaign before choosing a service", copy: "Inspect a sample campaign brief, opening conversation and completed handoff. Use the example to make your provider questions more specific.", href: "/us-b2b-lead-generation-campaign-example/", label: "See a US Campaign from Call to Meeting" } %}
+{% include "components/contextual-tool-cta.njk" %}
+{% set contextToolCta = usExamplePreviousCta %}
+<!-- /US campaign example link: cta-buyer-guide-us-example -->
+
 ## Compare reporting by decisions it supports
 
 Dashboards often emphasize dials, emails, connections, and meetings. Those measures explain effort, but buyers also need to see quality and movement.

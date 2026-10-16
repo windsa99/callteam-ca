@@ -260,6 +260,15 @@ faqSchema: |
     </div>
   </section>
 
+  <!-- US campaign example link: cta-appointment-us-example -->
+  <div class="container-wide">
+    {% set usExamplePreviousCta = contextToolCta %}
+{% set contextToolCta = { id: "cta-appointment-us-example", accessibleName: "See a completed US campaign handoff", copy: "See a filled-in handoff and the conversation that earns it. Follow one illustrative US campaign through targeting, buyer responses and the meeting decision.", href: "/us-b2b-lead-generation-campaign-example/", label: "See a US Campaign from Call to Meeting" } %}
+    {% include "components/contextual-tool-cta.njk" %}
+{% set contextToolCta = usExamplePreviousCta %}
+  </div>
+  <!-- /US campaign example link: cta-appointment-us-example -->
+
   <section class="appointment-comparison-section">
     <div class="container-wide">
       <div class="section-label">Compare appointment-setting models</div>

@@ -181,6 +181,13 @@ Define four stages separately: booked, held, sales accepted, and converted into 
 
 An incentive built mostly around calendar volume can encourage weaker screening. The risk does not prove that every guaranteed-meeting provider delivers poor work. It gives the buyer a reason to inspect how revenue is created and how the vendor gets paid. A calendar full of garbage is not pipeline, even when every invitation can be counted.
 
+<!-- US campaign example link: cta-us-calling-example -->
+{% set usExamplePreviousCta = contextToolCta %}
+{% set contextToolCta = { id: "cta-us-calling-example", accessibleName: "Follow a US cold calling campaign example", copy: "Follow a sample call, the buyer's responses and the decision to book or follow up. The worked example shows what belongs behind a meeting count.", href: "/us-b2b-lead-generation-campaign-example/", label: "See a US Campaign from Call to Meeting" } %}
+{% include "components/contextual-tool-cta.njk" %}
+{% set contextToolCta = usExamplePreviousCta %}
+<!-- /US campaign example link: cta-us-calling-example -->
+
 ## Activity, AI, and the evidence sales should receive
 
 Dials, talk time, connections, callbacks, and bookings help managers diagnose execution. They become misleading when presented as substitutes for commercial progress. A stronger report follows the path from attempted account to reached decision-maker, qualified conversation, booked meeting, held meeting, sales acceptance, rejected handoff, opportunity, pipeline, and revenue.

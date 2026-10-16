@@ -156,6 +156,13 @@ Ask how the provider handles federal and state requirements, mobile numbers, cal
 
 Qualification ownership is equally important. If the provider can book meetings but cannot reject a weak prospect, incentives are misaligned. If the client controls acceptance but provides no prompt feedback, the vendor cannot learn. Both parties need a written standard and a fast review loop.
 
+<!-- US campaign example link: cta-us-agencies-example -->
+{% set usExamplePreviousCta = contextToolCta %}
+{% set contextToolCta = { id: "cta-us-agencies-example", accessibleName: "Explore a worked US lead generation campaign", copy: "See how target selection, qualification and sales handoff work together in one illustrative US campaign before assessing a provider's process.", href: "/us-b2b-lead-generation-campaign-example/", label: "See a US Campaign from Call to Meeting" } %}
+{% include "components/contextual-tool-cta.njk" %}
+{% set contextToolCta = usExamplePreviousCta %}
+<!-- /US campaign example link: cta-us-agencies-example -->
+
 ## Provider profiles by operating model
 
 ### CallTeam
