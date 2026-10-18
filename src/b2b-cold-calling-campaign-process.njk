@@ -1,0 +1,118 @@
+---
+layout: layouts/base.njk
+permalink: "/b2b-cold-calling-campaign-process/"
+title: "B2B Cold Calling Campaign: Your First 60 Days | CallTeam"
+seoTitle: "B2B Cold Calling Campaign: Your First 60 Days | CallTeam"
+description: "See how CallTeam works a B2B prospect list over 60 days: call attempts, weekly follow-up, fresh contacts and qualified meetings. Explore a clear US and Canada example."
+canonicalUrl: "https://www.callteam.ca/b2b-cold-calling-campaign-process/"
+contentLanguage: "en"
+ogType: "article"
+socialTitle: "Your first 60 days with CallTeam"
+socialDescription: "300 targeted prospects. A clear calling plan. See how follow-ups and fresh contacts move through a managed B2B campaign."
+authorKey: "harjSingh"
+pageStyles:
+  - "/assets/css/campaign-process.css"
+date: "2026-10-18"
+modified: "2026-10-18"
+---
+{% set plan = campaignProcess %}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"isPartOf":{"@id":"{{ site.websiteId }}"},"breadcrumb":{"@id":"{{ canonicalUrl }}#breadcrumb"},"mainEntity":{"@id":"{{ canonicalUrl }}#article"},"inLanguage":"en"},
+    {"@type":"Article","@id":"{{ canonicalUrl }}#article","headline":{{ title | json | safe }},"description":{{ description | json | safe }},"mainEntityOfPage":{"@id":"{{ canonicalUrl }}#webpage"},"author":{"@id":"{{ authors.harjSingh.id }}"},"publisher":{"@id":"{{ site.organizationId }}"},"image":"{{ site.url }}/assets/images/callteam-social-preview.jpg","datePublished":"2026-10-18T00:00:00Z","dateModified":"2026-10-18T00:00:00Z","inLanguage":"en","isAccessibleForFree":true,"about":[{"@type":"Thing","name":"B2B cold calling campaign process"},{"@type":"Thing","name":"Prospect follow-up and appointment setting"}],"spatialCoverage":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Canada"}]},
+    {"@type":"Person","@id":"{{ authors.harjSingh.id }}","name":{{ authors.harjSingh.name | json | safe }},"url":"{{ site.url }}{{ authors.harjSingh.url }}","description":{{ authors.harjSingh.description | json | safe }}},
+    {"@type":"BreadcrumbList","@id":"{{ canonicalUrl }}#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Outbound Sales Library","item":"{{ site.url }}/resources/outbound-sales-library/"},{"@type":"ListItem","position":3,"name":"Your First 60 Days","item":"{{ canonicalUrl }}"}]},
+    {"@type":"FAQPage","@id":"{{ canonicalUrl }}#faq","mainEntity":[{% for faq in plan.faqs %}{"@type":"Question","name":{{ faq.q | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.a | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+  ]
+}
+</script>
+<main class="process-page">
+  <div class="process-hero-shell">
+    <nav class="process-wrap process-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/resources/outbound-sales-library/">Outbound Library</a><span>/</span><span aria-current="page">Your first 60 days</span></nav>
+    <section class="process-wrap process-hero" aria-labelledby="process-title">
+      <div class="process-hero-copy">
+        <p class="process-eyebrow">Your first 60 days with CallTeam</p>
+        <h1 id="process-title">See how we work your prospect list, <span>week after week.</span></h1>
+        <p class="process-lead">We make the calls, manage the follow-ups and introduce fresh prospects. You see who we are working, what we are learning and which conversations are ready for your sales team.</p>
+        <div class="process-actions"><a class="process-button process-button-solid" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Let’s Plan Your First 60 Days <span aria-hidden="true">↗</span></a><a class="process-text-link" href="#process-month-one">See the monthly plan <span aria-hidden="true">↓</span></a></div>
+        <p class="process-byline">Written by <a href="{{ authors.harjSingh.url }}">{{ authors.harjSingh.name }}</a> · <time datetime="2026-10-18">October 18, 2026</time></p>
+      </div>
+      <aside class="process-plan-sheet" aria-label="Illustrative first-month calling plan">
+        <div class="process-sheet-top"><span>THE CALLING PLAN</span><span>Worked example</span></div>
+        <div class="process-sheet-number"><strong>{{ plan.initialProspects }}</strong><span>targeted prospects<br>introduced in month one</span></div>
+        <div class="process-contact-grid" aria-hidden="true">{% for n in range(0, 30) %}<span></span>{% endfor %}</div>
+        <dl><div><dt>Planned call attempts</dt><dd data-plan-calls="{{ plan.monthlyCalls }}">1,200</dd></div><div><dt>Attempts per prospect, on average</dt><dd>{{ plan.monthlyCalls / plan.initialProspects }}</dd></div><div><dt>Review and new-list decisions</dt><dd>Weekly</dd></div></dl>
+        <p class="process-sheet-bottom">Every response shapes the next action.</p>
+      </aside>
+    </section>
+    <div class="process-wrap process-scope-note"><strong>A campaign you can follow.</strong><p>This is an illustrative activity plan for B2B outreach in the US and Canada. Your proposal confirms volumes, data and timing. The 60-day walkthrough starts when calling begins, after preparation.</p></div>
+  </div>
+
+  <nav class="process-nav" aria-label="On this page"><div class="process-wrap"><a href="#process-start">The prospect list</a><a href="#process-month-one">Month one</a><a href="#process-next-action">After each call</a><a href="#process-month-two">Month two</a><a href="#process-report">Your weekly update</a><a href="#process-faq">Questions</a></div></nav>
+
+  <section id="process-start" class="process-section"><div class="process-wrap process-split">
+    <div><p class="process-eyebrow">01 / Before the first dial</p><h2>A focused list.<br>A clear reason to call.</h2><p class="process-body-lead">We agree who belongs in the campaign, what we will say and what makes a meeting worth your time.</p><p>CallTeam’s managed cold calling process connects prospect selection, repeated call attempts, qualification and sales handoff. Each contact keeps a recorded outcome and a next action.</p><p>Bring an existing list, or include prospect research and list building in your scope. We prepare the buyer roles, contact details and account context before calling.</p></div>
+    <div class="process-definition"><p class="process-label">What we count</p><div class="process-people" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div><h3>3 people. 1 company.</h3><p>A prospect is an individual decision-maker or relevant contact. Three people at one company count as three prospects.</p><div class="process-definition-rule"><strong>A qualified meeting comes later.</strong><p>We establish fit, a business reason and the buyer’s agreement to meet.</p></div></div>
+  </div></section>
+
+  <section id="process-month-one" class="process-section process-paper"><div class="process-wrap">
+    <div class="process-heading"><div><p class="process-eyebrow">02 / Month one</p><h2>Start calling.<br>Keep the follow-up moving.</h2></div><p>In this example, 300 prospects enter over four weekly batches. Repeat attempts and agreed callbacks run alongside first calls.</p></div>
+    <div class="process-month-summary"><div><strong>300</strong><span>distinct prospects introduced</span></div><div><strong>1,200</strong><span>planned call attempts</span></div><div><strong>4</strong><span>attempts per prospect on average</span></div></div>
+    <ol class="process-week-grid">
+      <li><span class="process-week">Week 01</span><h3>Open the campaign.</h3><p class="process-intake"><strong>{{ plan.monthOneAdditions[0] }}</strong> new prospects</p><p>Make the first calls. Confirm reachability, record buyer responses and schedule the next attempts.</p></li>
+      <li><span class="process-week">Week 02</span><h3>Return with purpose.</h3><p class="process-intake"><strong>{{ plan.monthOneAdditions[1] }}</strong> new prospects</p><p>Work requested callbacks and try suitable unanswered contacts at different times. Introduce the next batch.</p></li>
+      <li><span class="process-week">Week 03</span><h3>Use what buyers tell us.</h3><p class="process-intake"><strong>{{ plan.monthOneAdditions[2] }}</strong> new prospects</p><p>Follow live conversations, check referrals and sharpen the opening using the objections we hear.</p></li>
+      <li><span class="process-week">Week 04</span><h3>Prepare the next month.</h3><p class="process-intake"><strong>{{ plan.monthOneAdditions[3] }}</strong> new prospects</p><p>Continue calling, protect agreed meetings and review who should remain active for the next cycle.</p></li>
+    </ol>
+    <p class="process-caption">The 1,200 attempts cover the whole month, including repeat calls and callbacks. A prospect’s response and entry date determine their cadence; later arrivals can continue into month two.</p>
+    <div class="process-inline-resource"><p>Want to see the conversation behind the activity?</p><a href="/us-b2b-lead-generation-campaign-example/">Follow a call through to a qualified meeting <span aria-hidden="true">→</span></a></div>
+  </div></section>
+
+  <section id="process-next-action" class="process-section"><div class="process-wrap">
+    <div class="process-heading"><div><p class="process-eyebrow">03 / After each call</p><h2>The response decides<br>what happens next.</h2></div><p>Every active prospect has a status. Your team can see which conversations need attention and which contacts have completed their outreach.</p></div>
+    <div class="process-status-grid">
+      <article><span class="process-status-dot" aria-hidden="true"></span><p class="process-label">Not reached yet</p><h3>Plan the next attempt.</h3><p>Check fit and contact details. Try another suitable time while the agreed sequence remains open.</p><strong>Next: another scheduled attempt</strong></article>
+      <article><span class="process-status-dot" aria-hidden="true"></span><p class="process-label">Follow-up agreed</p><h3>Keep the commitment.</h3><p>Record what the buyer asked for and when to return. Send agreed information through an approved channel.</p><strong>Next: a dated callback or follow-up</strong></article>
+      <article class="process-status-meeting"><span class="process-status-dot" aria-hidden="true"></span><p class="process-label">Qualified meeting</p><h3>Prepare your salesperson.</h3><p>Confirm the purpose, buyer and time. Pass the conversation notes and track the meeting’s next step.</p><strong>Next: a sales handoff with context</strong></article>
+      <article><span class="process-status-dot" aria-hidden="true"></span><p class="process-label">Closed or removed</p><h3>Keep the list useful.</h3><p>Remove unsuitable records, clear declines and opt-outs. Pause completed sequences where appropriate.</p><strong>Next: close or pause active outreach</strong></article>
+    </div>
+    <div class="process-rule"><strong>A booked meeting changes the work.</strong><p>The contact moves into confirmation and sales handoff. We stop the prospecting sequence and focus on the agreed conversation.</p></div>
+  </div></section>
+
+  <section id="process-month-two" class="process-section process-dark"><div class="process-wrap">
+    <div class="process-heading"><div><p class="process-eyebrow">04 / Month two</p><h2>Your campaign<br>keeps its history.</h2></div><p>Relevant follow-ups continue. Fresh prospects enter alongside them, with the next month’s calling capacity planned around both groups.</p></div>
+    <div class="process-carryover" aria-label="Illustrative month-two plan: 150 continuing prospects plus 150 new prospects equals 300 prospects worked during month two">
+      <div class="process-carry-card"><span>Continuing prospects</span><strong>{{ plan.carryover }}</strong><p>Still suitable, with agreed follow-ups or call attempts remaining.</p></div><span class="process-operator" aria-hidden="true">+</span>
+      <div class="process-carry-card process-new-card"><span>New prospects</span><strong>{{ plan.newMonthTwo }}</strong><p>Fresh people introduced in weekly batches as capacity allows.</p></div><span class="process-operator" aria-hidden="true">=</span>
+      <div class="process-carry-total"><span>Worked during month two</span><strong>{{ plan.carryover + plan.newMonthTwo }}</strong><p>Within a second monthly plan of 1,200 call attempts.</p></div>
+    </div>
+    <div class="process-month-two-detail"><div><h3>A steady intake of new contacts.</h3><ol class="process-batch-strip" aria-label="Illustrative new prospect intake in month two">{% for batch in plan.monthTwoAdditions %}<li><span>Week 0{{ loop.index + 4 }}</span><strong>{{ batch }}</strong><small>new prospects</small></li>{% endfor %}</ol></div><div class="process-total-note"><strong>{{ plan.initialProspects + plan.newMonthTwo }} distinct prospects</strong><p>Across the two months: the original 300, plus 150 new people. Returning prospects retain their history and are counted once in the total audience.</p></div></div>
+    <p class="process-caption">The 150/150 split illustrates capacity planning. Other month-one contacts have left active calling through a handoff, closure or pause. The actual split follows each record’s status; carryover and new intake share the same calling capacity.</p>
+  </div></section>
+
+  <section id="process-report" class="process-section"><div class="process-wrap process-split">
+    <div><p class="process-eyebrow">05 / What you see</p><h2>A weekly update<br>you can act on.</h2><p class="process-body-lead">Know who we are reaching, what buyers are saying and what we will do next.</p><p>Your update connects calling activity with conversations, follow-ups and qualified meetings. We separate attempts from people reached so the numbers stay useful.</p><p>CallTeam manages the outreach and handoff. Your team takes the sales meetings, handles proposals and shares feedback on the opportunities.</p><a class="process-text-link" href="/b2b-meeting-quality-check/">See how to track meeting quality <span aria-hidden="true">→</span></a></div>
+    <aside class="process-report-card" aria-label="Illustrative weekly campaign update">
+      <div class="process-report-head"><span>YOUR WEEKLY CAMPAIGN UPDATE</span><strong>Sample</strong></div>
+      <dl><div><dt>Call attempts made</dt><dd>300</dd></div><div><dt>Distinct prospects attempted</dt><dd>90</dd></div><div><dt>Prospects reached in a live conversation</dt><dd>8</dd></div><div><dt>Prospects with a follow-up agreed this week</dt><dd>5</dd></div><div><dt>Qualified meetings booked this week</dt><dd>1</dd></div></dl>
+      <div class="process-report-learning"><strong>What we heard</strong><p>Several buyers asked how the offer works alongside their existing provider.</p><strong>Next week’s action</strong><p>Use a clearer example in the opening, complete the five agreed follow-ups and introduce the next approved batch.</p></div>
+      <p class="process-caption">Illustrative weekly report. Sample counts and buyer feedback, not a forecast or client result. Weekly prospect counts may overlap across the month.</p>
+    </aside>
+  </div></section>
+
+  <section class="process-section process-paper" id="process-proof"><div class="process-wrap process-split">
+    <div><p class="process-eyebrow">Published campaign evidence</p><h2>See where the<br>conversations led.</h2><p>Our SaaS case study follows a campaign through qualification, product demos and the work after the booking.</p><a class="process-text-link" href="/case-studies/saas-demo-appointment-setting/">Read the SaaS campaign case study <span aria-hidden="true">→</span></a></div>
+    <div class="process-proof"><div><strong>11</strong><span>qualified demos<br>over 90 days</span></div><div><strong>2</strong><span>customers signed<br>within six months</span></div><p>A separate, published past campaign. Its results are not the outcomes of the 60-day illustration above.</p></div>
+  </div></section>
+
+  <section class="process-section" id="process-your-market"><div class="process-wrap">
+    <div class="process-heading"><div><p class="process-eyebrow">Make the plan yours</p><h2>Start with your buyers.<br>Put a team behind the calls.</h2></div><p>For US and Canadian campaigns, we agree the territories, buyer roles, local calling hours and outreach requirements before launch.</p></div>
+    <div class="process-resource-grid"><article><p class="process-label">Your market</p><h3>See the approach to your buyers.</h3><p>Choose your offer and target audience to explore a relevant opening and qualification questions.</p><a class="process-button" href="/b2b-outbound-campaign-planner/">See How We’d Run Your Campaign <span aria-hidden="true">↗</span></a></article><article><p class="process-label">Your investment</p><h3>Work through the economics.</h3><p>Use your customer value, margin and conversion assumptions to understand the returns and break-even.</p><a class="process-button" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI <span aria-hidden="true">↗</span></a><p class="process-small-link"><a href="/pricing/">Review pricing and what affects scope →</a></p></article></div>
+  </div></section>
+
+  <section id="process-faq" class="process-section process-paper"><div class="process-wrap process-faq-layout"><div><p class="process-eyebrow">Questions before you start</p><h2>The details<br>buyers ask us.</h2><p>For a broader launch checklist, use our <a href="/articles/launch-90-day-b2b-outbound-campaign/">90-day campaign guide</a>.</p></div><div class="process-faqs">{% for faq in plan.faqs %}<details><summary>{{ faq.q }}</summary><p>{{ faq.a }}</p></details>{% endfor %}</div></div></section>
+
+  <section class="process-section process-final"><div class="process-wrap"><p class="process-eyebrow">Let’s put the plan to work</p><h2>Your prospects need<br>a team that follows through.</h2><p>Bring your offer and the market you want to reach. We’ll map the prospect list, calling volume and follow-up around your business.</p><a class="process-button process-button-solid" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Let’s Plan Your First 60 Days <span aria-hidden="true">↗</span></a><p class="process-final-secondary"><a href="#contact">Prefer to send a message? Tell us about your campaign.</a></p></div></section>
+</main>
