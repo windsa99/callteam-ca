@@ -1,0 +1,114 @@
+---
+layout: layouts/base.njk
+permalink: "/services/cybersecurity-lead-generation/"
+title: "Cybersecurity Lead Generation Services | CallTeam"
+seoTitle: "Cybersecurity Lead Generation Services | CallTeam"
+description: "Reach security and IT buyers with CallTeam’s cybersecurity lead generation services: human cold calling, qualification, appointment setting and CRM handoff."
+canonicalUrl: "https://www.callteam.ca/services/cybersecurity-lead-generation/"
+contentLanguage: "en"
+socialTitle: "Put your cybersecurity offer in front of the right buyers."
+socialDescription: "A managed calling team for your cybersecurity offer. See the service, published campaign results and the meeting brief your sales team receives."
+authorKey: "harjSingh"
+pageStyles:
+  - "/assets/css/cybersecurity-service.css"
+date: "2026-10-19"
+modified: "2026-10-19"
+---
+{% set cyber = cybersecurityService %}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"isPartOf":{"@id":"{{ site.websiteId }}"},"breadcrumb":{"@id":"{{ canonicalUrl }}#breadcrumb"},"mainEntity":{"@id":"{{ canonicalUrl }}#service"},"author":{"@id":"{{ authors.harjSingh.id }}"},"publisher":{"@id":"{{ site.organizationId }}"},"datePublished":"2026-10-19T00:00:00Z","dateModified":"2026-10-19T00:00:00Z","inLanguage":"en"},
+    {"@type":"Service","@id":"{{ canonicalUrl }}#service","url":"{{ canonicalUrl }}","name":"Cybersecurity Lead Generation Services","serviceType":"Cybersecurity prospecting and appointment setting","description":"Managed human cold calling, follow-up, qualification, appointment setting and CRM handoff for cybersecurity vendors and security service providers.","provider":{"@id":"{{ site.organizationId }}"},"areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"Canada"}]},
+    {"@type":"Person","@id":"{{ authors.harjSingh.id }}","name":{{ authors.harjSingh.name | json | safe }},"url":"{{ site.url }}{{ authors.harjSingh.url }}","description":{{ authors.harjSingh.description | json | safe }}},
+    {"@type":"BreadcrumbList","@id":"{{ canonicalUrl }}#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Services","item":"{{ site.url }}/services/"},{"@type":"ListItem","position":3,"name":"Cybersecurity Lead Generation","item":"{{ canonicalUrl }}"}]},
+    {"@type":"FAQPage","@id":"{{ canonicalUrl }}#faq","mainEntity":[{% for faq in cyber.faqs %}{"@type":"Question","name":{{ faq.q | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.a | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+  ]
+}
+</script>
+<main class="cs-page">
+  <div class="cs-hero-shell">
+    <nav class="cs-wrap cs-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/services/">Services</a><span>/</span><span aria-current="page">Cybersecurity lead generation</span></nav>
+    <section class="cs-wrap cs-hero" aria-labelledby="cs-title">
+      <div>
+        <p class="cs-eyebrow">Cybersecurity lead generation services</p>
+        <h1 id="cs-title">Put your cybersecurity offer in front of <span>the right buyers.</span></h1>
+        <p class="cs-lead">CallTeam runs the prospecting, human cold calling and follow-up that turn your security offer into qualified sales conversations. Your team steps into meetings with a clear purpose and the buyer’s context.</p>
+        <div class="cs-actions"><a class="cs-button cs-button-solid" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Plan Your Cybersecurity Campaign <span aria-hidden="true">↗</span></a><a class="cs-text-link" href="#cs-meeting-brief">See a meeting brief <span aria-hidden="true">↓</span></a></div>
+        <p class="cs-byline">Written by <a href="{{ authors.harjSingh.url }}" rel="author">{{ authors.harjSingh.name }}</a> · <time datetime="2026-10-19">October 19, 2026</time></p>
+      </div>
+      <aside class="cs-campaign-sheet" aria-label="How the cybersecurity service connects your offer to a sales meeting">
+        <div class="cs-sheet-top"><span>Your campaign, connected</span><span aria-hidden="true">CT / 01</span></div>
+        <ol class="cs-campaign-steps">
+          <li><span>01</span><div><strong>Your security offer</strong><p>The problem you solve and the evidence behind it.</p></div></li>
+          <li><span>02</span><div><strong>The right conversation</strong><p>A relevant buyer. A reason to talk. A caller who listens.</p></div></li>
+          <li><span>03</span><div><strong>A prepared sales meeting</strong><p>Confirmed purpose, useful notes and a clear handoff.</p></div></li>
+        </ol>
+        <p class="cs-sheet-bottom">We own the outreach.<br><strong>You lead the technical discussion.</strong></p>
+      </aside>
+    </section>
+    <div class="cs-wrap cs-scope-line"><strong>Built for security companies ready to sell.</strong><p>Cybersecurity vendors, managed security providers and specialist firms reaching buyers in the US, Canada and agreed English-speaking markets.</p></div>
+  </div>
+
+  <nav class="cs-nav" aria-label="On this page"><div class="cs-wrap"><a href="#cs-proof">Campaign evidence</a><a href="#cs-offers">Your offer</a><a href="#cs-delivery">What we manage</a><a href="#cs-meeting-brief">Meeting brief</a><a href="#cs-scope">Pricing &amp; scope</a><a href="#cs-faq">Questions</a></div></nav>
+
+  <section id="cs-proof" class="cs-section"><div class="cs-wrap cs-proof-layout">
+    <div><p class="cs-eyebrow">Real results from a CallTeam campaign</p><h2>Security expertise.<br>Commercial conversations.</h2><p>For a confidential cybersecurity and disaster recovery company, we focused outreach on manufacturing buyers and the operating issues they cared about: production uptime, connected systems and recovery.</p><a class="cs-text-link" href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the manufacturing cybersecurity case study <span aria-hidden="true">→</span></a></div>
+    <div class="cs-proof-record"><p class="cs-label">Published result / 90 days</p><div class="cs-proof-numbers"><div><strong>9</strong><span>qualified appointments<br>booked</span></div><div><strong>3</strong><span>meaningful sales<br>opportunities</span></div></div><p>Two opportunities needed longer-term follow-up. One entered near-term discussions about changing providers.</p><p class="cs-caption">One past campaign. Results depend on the offer, market and sales follow-through.</p></div>
+  </div></section>
+
+  <section id="cs-offers" class="cs-section cs-paper"><div class="cs-wrap">
+    <div class="cs-heading"><div><p class="cs-eyebrow">01 / Your offer, made specific</p><h2>Give the buyer a reason<br>to take the meeting.</h2></div><p>We build cybersecurity appointment setting around the service you deliver and the decision your buyer needs to make.</p></div>
+    <div class="cs-offer-table" role="region" aria-label="Examples of cybersecurity offers and relevant buyers">
+      <div class="cs-offer-head" aria-hidden="true"><span>Your offer</span><span>Who we approach</span><span>Purpose of the first meeting</span></div>
+      {% for offer in cyber.offers %}<article class="cs-offer-row"><h3>{{ offer.name }}</h3><dl><div><dt>Who we approach</dt><dd>{{ offer.buyer }}</dd></div><div><dt>Meeting purpose</dt><dd>{{ offer.meeting }}</dd></div></dl></article>{% endfor %}
+    </div>
+    <p class="cs-caption">These are starting points for scoping. We agree the target companies, buyer roles and qualification criteria with your team before calling.</p>
+  </div></section>
+
+  <section id="cs-delivery" class="cs-section"><div class="cs-wrap">
+    <div class="cs-heading"><div><p class="cs-eyebrow">02 / A team behind the outreach</p><h2>We manage the work<br>before the sales meeting.</h2></div><p>CallTeam acts as an outsourced SDR team for your cybersecurity business, with agreed responsibilities from account preparation to handoff.</p></div>
+    <ol class="cs-delivery-list">
+      <li><span>01</span><div><h3>Prepare the campaign.</h3><p>Set the account criteria, buyer roles, approved claims and meeting standard. Review your prospect data or scope the research needed to build it.</p></div><strong>You receive<br><span>An agreed campaign brief</span></strong></li>
+      <li><span>02</span><div><h3>Make the calls. Work the follow-ups.</h3><p>Reach relevant people, handle first questions, record responses and follow through on callbacks. Your team approves the security language and supporting evidence.</p></div><strong>You receive<br><span>Activity and conversation records</span></strong></li>
+      <li><span>03</span><div><h3>Qualify and prepare the handoff.</h3><p>Confirm the business reason, relevant participants and agreed purpose. Schedule the meeting, manage confirmation and pass the notes into your agreed CRM workflow.</p></div><strong>You receive<br><span>Meetings with buyer context</span></strong></li>
+      <li><span>04</span><div><h3>Review what the market tells us.</h3><p>Review reach, buyer responses, follow-ups and meeting outcomes each week. Use your sales feedback to refine the audience and the next calls.</p></div><strong>You receive<br><span>A weekly update and next actions</span></strong></li>
+    </ol>
+    <div class="cs-ownership"><strong>Your team owns technical discovery and closing.</strong><p>We bring specialist questions back to the people qualified to answer them. You lead the assessment, demonstration, proposal and commercial decision.</p></div>
+    <a class="cs-text-link" href="/b2b-cold-calling-campaign-process/">See how the first 60 days of calling work <span aria-hidden="true">→</span></a>
+  </div></section>
+
+  <section id="cs-meeting-brief" class="cs-section cs-dark"><div class="cs-wrap cs-brief-layout">
+    <div><p class="cs-eyebrow">03 / What lands with your salesperson</p><h2>Walk into the meeting<br>knowing why it exists.</h2><p class="cs-body-lead">A name and a calendar slot leave too much to discover. The brief connects the buyer’s situation to an agreed conversation.</p><p>This example shows the information we aim to capture. Unknowns remain visible so your specialist knows what to ask next.</p><p class="cs-brief-use">Use these fields as a checklist for your own meetings. No form or download required.</p><a class="cs-text-link" href="/b2b-meeting-quality-check/">Check your meeting quality criteria <span aria-hidden="true">→</span></a></div>
+    <article class="cs-meeting-card" aria-labelledby="cs-brief-title">
+      <div class="cs-sheet-top"><span>Sales handoff / Sample</span><span>Illustrative</span></div>
+      <h3 id="cs-brief-title">Independent security assessment</h3>
+      <dl>
+        <div><dt>Company fit</dt><dd>Mid-sized manufacturer in the agreed market.</dd></div>
+        <div><dt>Buyer role</dt><dd>IT director; security review is part of their responsibility.</dd></div>
+        <div><dt>Reason to talk</dt><dd>A customer has asked for updated security evidence. The buyer wants to clarify what an independent review would cover.</dd></div>
+        <div><dt>Current approach</dt><dd>Internal IT and an existing MSP. The scope of their latest independent assessment is still to be confirmed.</dd></div>
+        <div><dt>Open questions</dt><dd>Exact systems in scope, assessment deadline, budget and other approvers.</dd></div>
+        <div><dt>Agreed next step</dt><dd>A scoping call with the buyer and your security specialist to review the evidence request and decide whether an assessment fits.</dd></div>
+        <div><dt>Next action owner</dt><dd>CallTeam confirms the invitation and sends the brief. Your specialist leads the scoping discussion.</dd></div>
+      </dl>
+      <p class="cs-caption">Illustrative record, separate from the published campaign above. It contains no real buyer or confidential system information.</p>
+    </article>
+  </div></section>
+
+  <section id="cs-scope" class="cs-section"><div class="cs-wrap cs-scope-layout">
+    <div><p class="cs-eyebrow">04 / Plan the investment</p><h2>Scope the campaign<br>around your market.</h2><p class="cs-body-lead">Bring a clear offer and a team ready to take qualified meetings. We’ll define the outreach needed to reach the right accounts.</p><p>Our starting program assumes your target accounts or contact data are ready to activate. Fresh prospect research, data, additional markets and more calling capacity are priced into your proposal.</p><a class="cs-text-link" href="/pricing/">Review pricing and everything included <span aria-hidden="true">→</span></a></div>
+    <aside class="cs-price-card" aria-label="Starting price and engagement scope"><p class="cs-label">Managed outbound programs from</p><p class="cs-price"><strong>US$4,000</strong><span>per month</span></p><p>For a campaign-ready company with a defined market, usable prospect data, CRM and calendar access, and sales capacity.</p><ul><li>Calling, follow-up and qualification</li><li>Scheduling, confirmation and CRM handoff</li><li>Weekly reporting and campaign refinement</li></ul><p class="cs-caption">Most programs begin with an initial three-month engagement. The proposal confirms your scope and terms.</p><a class="cs-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Discuss Your Campaign Scope <span aria-hidden="true">↗</span></a></aside>
+  </div></section>
+
+  <section class="cs-section cs-paper" id="cs-resources"><div class="cs-wrap">
+    <div class="cs-heading"><div><p class="cs-eyebrow">Make the next step concrete</p><h2>Explore the approach.<br>Check the economics.</h2></div><p>Use our free tools before you book, or bring the results to your planning call.</p></div>
+    <div class="cs-resource-grid"><article><p class="cs-label">Campaign Preview</p><h3>Start with your security offer.</h3><p>Select your market and buyer to see a relevant opening, qualification questions and matched resources.</p><a class="cs-button" href="/b2b-outbound-campaign-planner/">See How We’d Run Your Campaign <span aria-hidden="true">→</span></a></article><article><p class="cs-label">ROI Calculator</p><h3>Use your customer economics.</h3><p>Enter customer value, delivery margin and conversion assumptions to explore returns and break-even.</p><a class="cs-button" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI <span aria-hidden="true">→</span></a></article></div>
+    <div class="cs-reading"><strong>Building the campaign yourself?</strong><p>Read the <a href="/articles/cybersecurity-outbound-sales-playbook/">cybersecurity outbound sales playbook</a> for the strategy, or use the <a href="/resources/cold-call-scripts/cybersecurity-risk-assessment-cold-call-script/">risk assessment cold call script</a> to prepare the conversation.</p></div>
+  </div></section>
+
+  <section id="cs-faq" class="cs-section"><div class="cs-wrap cs-faq-layout"><div><p class="cs-eyebrow">Before you hire CallTeam</p><h2>Practical answers<br>for your team.</h2><p>Clear responsibilities make it easier to decide whether the campaign fits.</p></div><div class="cs-faqs">{% for faq in cyber.faqs %}<details><summary>{{ faq.q }}</summary><p>{{ faq.a }}</p></details>{% endfor %}</div></div></section>
+
+  <section class="cs-section cs-final cs-paper"><div class="cs-wrap"><p class="cs-eyebrow">Let’s put your offer to work</p><h2>Your next security buyer<br>needs a reason to talk.</h2><p>Bring your offer and the companies you want to reach. We’ll map the audience, the calling approach and what your team needs from each meeting.</p><a class="cs-button cs-button-solid" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener">Plan Your Cybersecurity Campaign <span aria-hidden="true">↗</span></a><p class="cs-final-secondary"><a href="#contact">Prefer to send a message? Tell us about your campaign.</a></p></div></section>
+</main>

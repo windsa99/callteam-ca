@@ -1,0 +1,18 @@
+module.exports = {
+  offers: [
+    { name: 'Security assessments and testing', buyer: 'Security leaders, IT directors and risk owners', meeting: 'Agree what needs independent review, who owns it and whether a scoping call is useful.' },
+    { name: 'Managed security services', buyer: 'CISOs, security operations leaders and IT owners', meeting: 'Explore a specific coverage, capacity or provider decision with the person responsible.' },
+    { name: 'Recovery and resilience services', buyer: 'IT, infrastructure and operations leaders', meeting: 'Discuss recovery priorities, testing responsibilities and the business reason for a review.' },
+    { name: 'Cybersecurity software', buyer: 'The security or technology owner for your use case', meeting: 'Confirm the workflow, current approach and evaluation question before a product discussion.' }
+  ],
+  faqs: [
+    { q: 'What is included in CallTeam’s cybersecurity lead generation service?', a: 'We manage the agreed target audience, call preparation, human outreach, follow-up, qualification, scheduling, meeting confirmation, CRM handoff and weekly reporting. Your proposal defines the calling capacity, markets and any prospect research or list development required.' },
+    { q: 'Can you work as an outsourced SDR team for a cybersecurity company?', a: 'Yes. CallTeam can manage prospecting and appointment setting alongside your sales team. We agree who to approach, what callers can say and when to bring in a technical specialist. Your team owns technical discovery, proposals and closing.' },
+    { q: 'How do you decide whether a cybersecurity meeting is qualified?', a: 'Before launch, we agree the account fit, relevant buyer roles and business reasons worth pursuing. A qualified meeting needs a relevant person, a credible reason to speak and agreement on the next conversation. The handoff records what the buyer confirmed, what remains unknown and who should attend.' },
+    { q: 'What if the prospect already has an MSP or security provider?', a: 'We acknowledge the existing arrangement and check whether your offer has a distinct role, such as independent assessment, specialist support or an upcoming provider review. If the need is already covered and there is no relevant next step, we record that outcome and move on.' },
+    { q: 'Who handles technical questions during a cold call?', a: 'Callers use the terminology, evidence and scope your team has approved. When a question needs a security specialist, we capture it for your technical team. We do not claim to have found a vulnerability or request sensitive system details during prospecting.' },
+    { q: 'Can you reach cybersecurity buyers in the US and Canada?', a: 'Yes. We plan outreach around your agreed US and Canadian territories, relevant buyer roles and local calling hours. International cybersecurity companies can also use CallTeam to approach those markets. Other English-speaking markets are considered during scoping.' },
+    { q: 'How much does a cybersecurity appointment-setting campaign cost?', a: 'Managed outbound programs start at US$4,000 per month for a campaign-ready company with a clear offer, target accounts or contacts, CRM and calendar access, and a team ready for meetings. Fresh data, research, additional markets and capacity affect the final scope. Most programs begin with an initial three-month engagement.' },
+    { q: 'What should we bring to the first planning call?', a: 'Bring your offer, ideal customer profile, target markets, existing prospect data and an example of a valuable sales meeting. Share the evidence callers may use and who will take technical discovery calls. We will use that discussion to define the audience, responsibilities and proposed campaign scope.' }
+  ]
+};

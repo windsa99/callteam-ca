@@ -195,6 +195,10 @@ Track connection reasons, referral quality, confirmed coverage, disqualification
 
 Meeting rejection rules should be explicit. A no-show, duplicate account, out-of-scope environment, student, consultant, or contact without ownership should not silently count as pipeline. The [campaign quality metrics guide](/articles/cold-calling-metrics-campaign-quality/) shows how to structure the scorecard.
 
+<!-- Cybersecurity service link: cta-playbook-cybersecurity-service -->
+<aside id="cta-playbook-cybersecurity-service" aria-label="Hire CallTeam for cybersecurity outreach" style="margin: 28px 0; padding: 24px; border: 1px solid #dedbd5; border-left: 4px solid var(--orange); background: #f5f4f2;"><p><strong>Want a team to run this campaign?</strong> See what CallTeam manages, how we qualify cybersecurity meetings and what your salesperson receives.</p><p><a class="btn-primary" style="color: #111; white-space: normal;" href="/services/cybersecurity-lead-generation/">Explore Cybersecurity Lead Generation</a></p></aside>
+
+<!-- /Cybersecurity service link: cta-playbook-cybersecurity-service -->
 ## Build the campaign with human judgment
 
 AI can help organize signals, summarize public material, and prioritize research. It cannot confirm a private control gap, navigate a technical correction, or decide when continued pressure becomes irresponsible. A person must own those judgments.
