@@ -103,6 +103,10 @@ A provider should preserve the original message and source. Your caller needs to
 
 For records that have already sat untouched or gone quiet, use the separate [lead reactivation guide](/articles/reactivate-old-b2b-leads-problem-led-call/). The process below starts when a fresh enquiry arrives.
 
+<!-- Event follow-up link: cta-inbound-event-follow-up -->
+<aside id="cta-inbound-event-follow-up" aria-label="Follow up a recent event list" style="margin: 28px 0; padding: 24px; border: 1px solid #dedbd5; border-left: 4px solid var(--orange); background: #f5f4f2;"><p><strong>Have a list from a recent event?</strong> Explore a focused campaign for booth conversations, demo requests and conference contacts, with a free intake template.</p><p><a class="btn-primary" style="color: #111; white-space: normal;" href="/services/trade-show-lead-follow-up/">Explore Trade Show Lead Follow-Up</a></p></aside>
+
+<!-- /Event follow-up link: cta-inbound-event-follow-up -->
 ## How should you measure speed to lead?
 
 Speed to lead measures the time between an enquiry arriving and the first response. An inbound lead response service should specify which response it measures, the hours of service, the time zone and the lead types covered.
