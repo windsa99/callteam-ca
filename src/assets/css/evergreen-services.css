@@ -1,0 +1,94 @@
+/* Audience service pages use CallTeam's existing brand tokens and typography. */
+.ev-page { color:var(--black);background:var(--white);font-family:inherit;line-height:1.55 }
+.ev-page * { box-sizing:border-box }
+.ev-wrap { max-width:1120px;width:calc(100% - 80px);margin:auto }
+.ev-page h1,.ev-page h2,.ev-page h3 { font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.02em;line-height:1.08;margin:0;color:inherit }
+.ev-page p { margin:0 0 18px;line-height:1.7 }
+.ev-page a { color:inherit;text-underline-offset:4px }
+.ev-page a:focus-visible,.ev-page summary:focus-visible { outline:3px solid var(--orange);outline-offset:5px }
+.ev-hero-shell > .ev-wrap { max-width:1200px }
+.ev-hero-shell { background:var(--white);border-bottom:1px solid #ddd }
+.ev-breadcrumb { display:flex;justify-content:center;gap:8px;flex-wrap:wrap;padding:20px 0;font-size:14px;color:var(--grey-text) }
+.ev-breadcrumb a { text-decoration:none }
+.ev-hero { display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:48px;align-items:center;padding:60px 0 72px }
+.ev-kicker { color:var(--orange);text-transform:uppercase;font-size:12px;font-weight:700;letter-spacing:.08em }
+.ev-page h1 { font-size:clamp(38px,4.1vw,54px);letter-spacing:-.04em;line-height:1.08 }
+.ev-highlight { color:var(--orange) }
+.ev-tagline { font-size:18px;font-weight:500;line-height:1.7;padding-top:25px;color:#303030 }
+.ev-intro { color:var(--grey-text);font-size:17px;max-width:610px }
+.ev-page .ev-button { max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center;line-height:1.4;color:var(--black);margin-top:12px }
+.ev-micro { font-size:12px;color:var(--grey-text);margin:12px 0 0!important }
+.ev-sheet { background:#1b1b1b;color:var(--white);border:1px solid #333;border-radius:14px;padding:28px;box-shadow:0 20px 45px rgba(0,0,0,.12) }
+.ev-sheet-top { display:flex;justify-content:space-between;gap:12px;font-size:10px;text-transform:uppercase;font-weight:700;letter-spacing:.08em;border-bottom:1px solid #333;padding-bottom:18px;color:var(--orange) }
+.ev-sheet h2 { font-size:28px;margin:24px 0;line-height:1.2 }
+.ev-sheet dl { margin:0 }
+.ev-sheet dl div { padding:16px;border:1px solid #333;background:#242424;border-radius:5px;margin-top:10px }
+.ev-sheet dt { font-size:15px;font-weight:700 }
+.ev-sheet dd { margin:6px 0 0;color:#ddd;font-size:13px;line-height:1.65 }
+.ev-sheet-stamp { font-size:11px;border-top:1px solid #333;margin-top:22px;padding-top:18px;display:flex;align-items:center;gap:9px;color:#ddd }
+.ev-dot { height:7px;width:7px;background:var(--orange);border-radius:50% }
+.ev-trust { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--grey-bg);border-top:1px solid #ddd;gap:0 }
+.ev-trust p { text-align:center;font-size:13px;color:var(--grey-text);margin:0;padding:22px 12px;border-right:1px solid #ddd }
+.ev-trust p:last-child { border-right:0 }
+.ev-trust strong { display:block;font-family:'Archivo',sans-serif;font-weight:900;font-size:24px;color:var(--black) }
+.ev-caption { font-size:12px;color:var(--grey-text) }
+.ev-experience { background:var(--grey-bg);text-align:center;margin:0!important;padding:0 12px 16px }
+.ev-jump { border-bottom:1px solid #ddd }
+.ev-jump .ev-wrap { display:flex;gap:26px;flex-wrap:wrap;padding:18px 0 }
+.ev-jump a { font-size:13px;text-decoration:none;font-weight:600 }
+.ev-section { padding:80px 0;scroll-margin-top:110px }
+.ev-heading { max-width:840px;margin-bottom:30px }
+.ev-heading h2 { font-size:clamp(29px,3.4vw,40px);line-height:1.12;margin:10px 0 24px }
+.ev-heading>p:not(.ev-kicker) { font-size:16px;color:#494949 }
+.ev-cards { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px }
+.ev-card { border:1px solid #ddd;border-top:4px solid var(--orange);padding:28px;background:var(--grey-bg);display:flex;flex-direction:column }
+.ev-card-label { color:var(--orange);font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:700 }
+.ev-card h3 { font-size:23px;line-height:1.2;margin:8px 0 18px }
+.ev-card p { font-size:16px;color:#494949 }
+.ev-action { border-top:1px solid #ddd;padding-top:20px;margin-top:auto }
+.ev-action strong { font-size:14px;color:var(--black) }
+.ev-action p { margin:10px 0 0;font-size:15px }
+.ev-paper { background:var(--grey-bg) }
+.ev-split { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px }
+.ev-split .ev-heading { margin-bottom:0 }
+.ev-steps { padding:0;margin:0;list-style:none }
+.ev-steps li { display:flex;gap:20px;border-bottom:1px solid #ddd;padding:0 0 22px;margin-bottom:22px }
+.ev-steps li:last-child { margin-bottom:0 }
+.ev-steps li>span { font:900 24px 'Archivo',sans-serif;color:var(--orange) }
+.ev-steps h3 { font-size:22px;line-height:1.2;margin-bottom:12px }
+.ev-steps p { font-size:16px;color:#494949;margin-bottom:0 }
+.ev-ownership { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px }
+.ev-ownership article { padding:28px;border:1px solid #ddd;background:var(--white) }
+.ev-ownership h3 { font-size:23px;line-height:1.2 }
+.ev-ownership ul { padding:0;list-style:none;margin-bottom:0 }
+.ev-ownership li { font-size:16px;border-top:1px solid #ddd;padding:15px 0;color:#494949 }
+.ev-proof { background:var(--black);color:var(--white) }
+.ev-proof-grid { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center }
+.ev-proof h2 { font-size:40px;line-height:1.12;margin:12px 0 24px }
+.ev-proof p { color:#ccc;font-size:16px }
+.ev-light-link { color:var(--white)!important;font-size:15px;font-weight:700 }
+.ev-stats { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px }
+.ev-stats div { border-top:1px solid #444;padding-top:16px }
+.ev-stats strong { display:block;color:var(--orange);font:900 64px/1.2 'Archivo',sans-serif }
+.ev-stats span { display:block;font-size:13px;color:#ddd }
+.ev-proof-note { font-size:13px!important;margin:30px 0 0!important }
+.ev-price { background:var(--black);border-top:4px solid var(--orange);padding:30px;color:var(--white) }
+.ev-price-number { font:900 52px/1.1 'Archivo',sans-serif;letter-spacing:-.02em;margin:24px 0!important }
+.ev-price-number span { display:block;font:400 16px 'Inter',sans-serif;letter-spacing:0;color:#ddd;margin-top:10px }
+.ev-price>p:not(.ev-price-number):not(.ev-card-label) { color:#ddd;font-size:15px }
+.ev-text-link { color:var(--white)!important;font-size:15px;font-weight:700 }
+.ev-faqs details { border-top:1px solid #ddd }
+.ev-faqs details:last-child { border-bottom:1px solid #ddd }
+.ev-faqs summary { cursor:pointer;padding:20px 24px 20px 0;font-weight:600;font-size:17px;line-height:1.45 }
+.ev-faqs details p { font-size:16px;color:#494949;padding-bottom:12px }
+.ev-related { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px }
+.ev-related a { border-top:3px solid var(--orange);padding:24px 0;text-decoration:none }
+.ev-related h3 { font-size:23px;line-height:1.2;display:flex;justify-content:space-between;gap:12px }
+.ev-related p { color:#494949;font-size:16px;margin-top:16px }
+.ev-about { font-size:14px;color:var(--grey-text);max-width:900px;border-top:1px solid #ddd;padding-top:24px }
+.ev-final { background:var(--black);color:var(--white);padding:80px 0 }
+.ev-final .ev-wrap { max-width:840px;text-align:center }
+.ev-final h2 { font-size:clamp(30px,3.4vw,40px);line-height:1.12;margin:16px 0 24px }
+.ev-final p:not(.ev-kicker) { max-width:640px;margin:0 auto 24px;color:#ccc;font-size:17px }
+@media(max-width:900px) { .ev-wrap { width:calc(100% - 56px) }.ev-hero { grid-template-columns:minmax(0,1fr);gap:34px;padding:48px 0 64px }.ev-page h1 { max-width:760px;font-size:clamp(38px,6vw,52px) }.ev-sheet { max-width:620px;width:100% }.ev-section,.ev-final { padding:64px 0 }.ev-cards,.ev-related { grid-template-columns:minmax(0,1fr) }.ev-split,.ev-proof-grid { grid-template-columns:minmax(0,1fr);gap:30px }.ev-trust { grid-template-columns:repeat(2,minmax(0,1fr)) }.ev-trust p:nth-child(2) { border-right:0 }.ev-trust p:nth-child(-n+2) { border-bottom:1px solid #ddd } }
+@media(max-width:640px) { .ev-wrap { width:calc(100% - 40px) }.ev-page h1 { font-size:clamp(35px,8.6vw,47px) }.ev-intro { font-size:17px }.ev-tagline { font-size:17px }.ev-breadcrumb { font-size:12px;justify-content:flex-start }.ev-section,.ev-final { padding:52px 0 }.ev-hero { padding:36px 0 52px }.ev-jump .ev-wrap { gap:12px 20px }.ev-sheet,.ev-card,.ev-price { padding:24px 20px }.ev-sheet h2 { font-size:25px }.ev-ownership { grid-template-columns:minmax(0,1fr) }.ev-trust strong { font-size:22px }.ev-trust p { font-size:12px;padding:18px 10px }.ev-proof h2 { font-size:32px }.ev-stats strong { font-size:52px }.ev-price-number { font-size:46px }.ev-faqs summary { font-size:16px }.ev-faqs details p { font-size:15px } }

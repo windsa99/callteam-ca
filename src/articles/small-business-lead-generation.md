@@ -208,3 +208,5 @@ Do not delegate a mystery. Give the new owner a market definition, approved posi
 The first month does not need to prove a final growth model. It should prove that the team can maintain a closed loop from account selection to a documented outcome.
 
 Once that loop is reliable, the business can add volume, another channel, a tool, a hire, or a partner without losing control of the work.
+
+Looking for a team to run the outreach? Explore [CallTeam’s B2B lead generation services for small businesses](/services/small-business-b2b-lead-generation/) for campaign scope, responsibilities, pricing and fit.

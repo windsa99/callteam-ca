@@ -206,3 +206,5 @@ Segment reporting by service line and trigger. A broad total can hide that one o
 The campaign needs feedback from delivery experts, disciplined qualification, clean follow-up, meeting confirmation, and a CRM record that preserves the client’s language. Market learning should update the offer, targeting, and proof library.
 
 CallTeam manages the research, human calling, qualification, objection handling, follow-up, confirmation, and handoff required to turn a service line into a focused outbound program. To define the next professional-services campaign, [book a strategy call](https://calendly.com/hello-callteam/new-meeting).
+
+Want help running this work for your firm? See [professional services lead generation and appointment setting](/services/professional-services-lead-generation/) for CallTeam’s approach, engagement scope and published campaign evidence.
