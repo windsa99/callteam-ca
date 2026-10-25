@@ -193,6 +193,11 @@ Dials, emails, connections, and bookings are useful operating measures. They do 
 
 Review disqualification by segment. If one institution type repeatedly lacks fit, remove it. If calls reveal a different owner, fix the buying map. If meetings fail security or integration review, improve qualification before increasing volume.
 
+
+<!-- EG3:eg3-playbook-fintech -->
+<aside class="context-tool-cta" id="eg3-playbook-fintech" aria-label="Explore Fintech Lead Generation"><p>Ready to put a team behind the plan? Review CallTeam’s fintech campaign scope, buyer routes, handoff and published evidence.</p><div class="context-tool-actions"><a class="btn-primary" href="/services/fintech-lead-generation/">Explore Fintech Lead Generation</a></div></aside>
+<!-- /EG3:eg3-playbook-fintech -->
+
 ## Run FinTech outbound with a complete funnel
 
 CallTeam combines account selection, Buyer Signal Radar research, human cold calling, qualification, follow-up, confirmation, and CRM handoff. AI supports preparation and prioritization, while people own financial discovery, correction, objection handling, and disqualification.

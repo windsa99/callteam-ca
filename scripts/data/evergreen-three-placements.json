@@ -1,0 +1,101 @@
+[
+  {
+    "source": "src/services/index.njk",
+    "output": "services/index.html",
+    "id": "eg3-services-fintech",
+    "route": "/services/fintech-lead-generation/",
+    "position": "In the audience-service card grid alongside the two recently published services.",
+    "label": "Explore Fintech Lead Generation",
+    "block": "\n<!-- EG3:eg3-services-fintech -->\n<article class=\"services-card\" id=\"eg3-services-fintech\" style=\"grid-column:auto;min-height:260px\"><span class=\"services-tag\">Financial technology</span><h3>Fintech Lead Generation</h3><p>Put research, human calling and qualification behind a payments or lending technology offer.</p><a href=\"/services/fintech-lead-generation/\">Explore Fintech Lead Generation \u2192</a></article>\n<!-- /EG3:eg3-services-fintech -->\n"
+  },
+  {
+    "source": "src/articles/fintech-outbound-sales-playbook.md",
+    "output": "articles/fintech-outbound-sales-playbook/index.html",
+    "id": "eg3-playbook-fintech",
+    "route": "/services/fintech-lead-generation/",
+    "position": "Before the section about running FinTech outbound end to end.",
+    "label": "Explore Fintech Lead Generation",
+    "block": "\n<!-- EG3:eg3-playbook-fintech -->\n<aside class=\"context-tool-cta\" id=\"eg3-playbook-fintech\" aria-label=\"Explore Fintech Lead Generation\"><p>Ready to put a team behind the plan? Review CallTeam\u2019s fintech campaign scope, buyer routes, handoff and published evidence.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/services/fintech-lead-generation/\">Explore Fintech Lead Generation</a></div></aside>\n<!-- /EG3:eg3-playbook-fintech -->\n\n"
+  },
+  {
+    "source": "src/case-studies/fintech-payment-platform-appointment-setting.njk",
+    "output": "case-studies/fintech-payment-platform-appointment-setting/index.html",
+    "id": "eg3-payments-fintech",
+    "route": "/services/fintech-lead-generation/",
+    "position": "After the campaign lessons, before related services.",
+    "label": "Discuss a Fintech Campaign",
+    "block": "\n<!-- EG3:eg3-payments-fintech -->\n<style>\n/* Opt-in presentation for the ten contextual tool placements. */\n#eg3-payments-fintech {\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  margin: 28px 0;\n  padding: 24px;\n  border: 1px solid #e2e2e2;\n  border-left: 4px solid var(--orange);\n  background: #fafafa;\n  color: var(--black);\n}\n\n#eg3-payments-fintech > p {\n  max-width: 76ch;\n  margin: 0 0 18px;\n  color: var(--black);\n  font-size: 16px;\n  line-height: 1.65;\n}\n\n#eg3-payments-fintech .context-tool-actions {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: stretch;\n  gap: 12px;\n}\n\n#eg3-payments-fintech .context-tool-actions > a {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  min-height: 48px;\n  max-width: 100%;\n  margin: 0;\n  padding: 14px 22px;\n  font-size: 15px;\n  font-weight: 700;\n  line-height: 1.4;\n  text-align: center;\n  text-decoration: none;\n  white-space: normal;\n  overflow-wrap: anywhere;\n}\n\n#eg3-payments-fintech .context-tool-actions > .btn-primary {\n  color: var(--black);\n  border: 2px solid transparent;\n}\n\n#eg3-payments-fintech .context-tool-actions > .btn-secondary {\n  color: var(--black);\n}\n\n#eg3-payments-fintech .context-tool-actions > .btn-secondary:hover {\n  color: var(--orange);\n}\n\n#eg3-payments-fintech .context-tool-actions > a:focus-visible {\n  outline: 3px solid var(--black);\n  outline-offset: 4px;\n}\n\n@media (max-width: 640px) {\n  #eg3-payments-fintech {\n    margin: 24px 0;\n    padding: 20px 16px;\n  }\n\n  #eg3-payments-fintech .context-tool-actions > a {\n    width: 100%;\n  }\n}\n\n</style>\n<section><div class=\"container-wide\"><aside class=\"context-tool-cta\" id=\"eg3-payments-fintech\" aria-label=\"Discuss a Fintech Campaign\"><p>Planning outreach for your own financial-technology product? See the buyer routes and responsibilities in CallTeam\u2019s fintech service.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/services/fintech-lead-generation/\">Discuss a Fintech Campaign</a></div></aside></div></section>\n<!-- /EG3:eg3-payments-fintech -->\n"
+  },
+  {
+    "source": "src/case-studies/credit-union-income-verification-appointment-setting.njk",
+    "output": "case-studies/credit-union-income-verification-appointment-setting/index.html",
+    "id": "eg3-lending-fintech",
+    "route": "/services/fintech-lead-generation/",
+    "position": "Before the case-study FAQ.",
+    "label": "See Fintech Lead Generation Services",
+    "block": "\n<!-- EG3:eg3-lending-fintech -->\n<style>\n/* Opt-in presentation for the ten contextual tool placements. */\n#eg3-lending-fintech {\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  margin: 28px 0;\n  padding: 24px;\n  border: 1px solid #e2e2e2;\n  border-left: 4px solid var(--orange);\n  background: #fafafa;\n  color: var(--black);\n}\n\n#eg3-lending-fintech > p {\n  max-width: 76ch;\n  margin: 0 0 18px;\n  color: var(--black);\n  font-size: 16px;\n  line-height: 1.65;\n}\n\n#eg3-lending-fintech .context-tool-actions {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: stretch;\n  gap: 12px;\n}\n\n#eg3-lending-fintech .context-tool-actions > a {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  min-height: 48px;\n  max-width: 100%;\n  margin: 0;\n  padding: 14px 22px;\n  font-size: 15px;\n  font-weight: 700;\n  line-height: 1.4;\n  text-align: center;\n  text-decoration: none;\n  white-space: normal;\n  overflow-wrap: anywhere;\n}\n\n#eg3-lending-fintech .context-tool-actions > .btn-primary {\n  color: var(--black);\n  border: 2px solid transparent;\n}\n\n#eg3-lending-fintech .context-tool-actions > .btn-secondary {\n  color: var(--black);\n}\n\n#eg3-lending-fintech .context-tool-actions > .btn-secondary:hover {\n  color: var(--orange);\n}\n\n#eg3-lending-fintech .context-tool-actions > a:focus-visible {\n  outline: 3px solid var(--black);\n  outline-offset: 4px;\n}\n\n@media (max-width: 640px) {\n  #eg3-lending-fintech {\n    margin: 24px 0;\n    padding: 20px 16px;\n  }\n\n  #eg3-lending-fintech .context-tool-actions > a {\n    width: 100%;\n  }\n}\n\n</style>\n<section><div class=\"container-wide\"><aside class=\"context-tool-cta\" id=\"eg3-lending-fintech\" aria-label=\"See Fintech Lead Generation Services\"><p>Explore the service behind a new fintech engagement, including target accounts, relevant buyer roles and meeting-handoff requirements.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/services/fintech-lead-generation/\">See Fintech Lead Generation Services</a></div></aside></div></section>\n<!-- /EG3:eg3-lending-fintech -->\n"
+  },
+  {
+    "source": "src/articles/cold-calling-metrics-campaign-quality.md",
+    "output": "articles/cold-calling-metrics-campaign-quality/index.html",
+    "id": "eg3-metrics-audit",
+    "route": "/b2b-lead-generation-audit/",
+    "position": "Before the section on using the scorecard to decide what changes.",
+    "label": "Check Your Outbound Campaign",
+    "block": "\n<!-- EG3:eg3-metrics-audit -->\n<aside class=\"context-tool-cta\" id=\"eg3-metrics-audit\" aria-label=\"Check Your Outbound Campaign\"><p>Use your recent records to check targeting, contact data, buyer access and follow-up. The free self-audit turns six answers into practical first checks.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-audit/\">Check Your Outbound Campaign</a></div></aside>\n<!-- /EG3:eg3-metrics-audit -->\n\n"
+  },
+  {
+    "source": "src/articles/how-many-cold-calls-book-b2b-meeting.md",
+    "output": "articles/how-many-cold-calls-book-b2b-meeting/index.html",
+    "id": "eg3-volume-audit",
+    "route": "/b2b-lead-generation-audit/",
+    "position": "Before the final forecasting and scaling section.",
+    "label": "Run the Free Lead Generation Self-Audit",
+    "block": "\n<!-- EG3:eg3-volume-audit -->\n<aside class=\"context-tool-cta\" id=\"eg3-volume-audit\" aria-label=\"Run the Free Lead Generation Self-Audit\"><p>Before increasing dial volume, check whether the account criteria, contact routes and callback process are ready for more activity.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-audit/\">Run the Free Lead Generation Self-Audit</a></div></aside>\n<!-- /EG3:eg3-volume-audit -->\n\n"
+  },
+  {
+    "source": "src/articles/switching-b2b-lead-generation-agencies.md",
+    "output": "articles/switching-b2b-lead-generation-agencies/index.html",
+    "id": "eg3-switching-audit",
+    "route": "/b2b-lead-generation-audit/",
+    "position": "Before comparing replacement providers.",
+    "label": "Review Your Campaign Checks",
+    "block": "\n<!-- EG3:eg3-switching-audit -->\n<aside class=\"context-tool-cta\" id=\"eg3-switching-audit\" aria-label=\"Review Your Campaign Checks\"><p>Bring a clearer starting point to the provider discussion. Use six pre-booking checks to identify gaps and missing evidence in the current campaign.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-audit/\">Review Your Campaign Checks</a></div></aside>\n<!-- /EG3:eg3-switching-audit -->\n\n"
+  },
+  {
+    "source": "src/articles/b2b-lead-generation-services.md",
+    "output": "articles/b2b-lead-generation-services/index.html",
+    "id": "eg3-buying-rfp",
+    "route": "/b2b-lead-generation-rfp-template/",
+    "position": "Inside the final selection scorecard, after its opening scoring advice.",
+    "label": "Build Your Agency Brief",
+    "block": "\n<!-- EG3:eg3-buying-rfp -->\n<aside class=\"context-tool-cta\" id=\"eg3-buying-rfp\" aria-label=\"Build Your Agency Brief\"><p>Give prospective agencies the same requirements. Create a short brief covering the buyer, work and meeting standard, with questions for their response.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-rfp-template/\">Build Your Agency Brief</a></div></aside>\n<!-- /EG3:eg3-buying-rfp -->\n\n"
+  },
+  {
+    "source": "src/articles/best-b2b-lead-generation-companies-usa.md",
+    "output": "articles/best-b2b-lead-generation-companies-usa/index.html",
+    "id": "eg3-usa-rfp",
+    "route": "/b2b-lead-generation-rfp-template/",
+    "position": "Before the final US shortlist questions.",
+    "label": "Create a Lead Generation Agency Brief",
+    "block": "\n<!-- EG3:eg3-usa-rfp -->\n<aside class=\"context-tool-cta\" id=\"eg3-usa-rfp\" aria-label=\"Create a Lead Generation Agency Brief\"><p>Turn your US shortlist into comparable requests. Define the target market, work and meeting requirements before asking agencies for a proposal.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-rfp-template/\">Create a Lead Generation Agency Brief</a></div></aside>\n<!-- /EG3:eg3-usa-rfp -->\n\n"
+  },
+  {
+    "source": "src/articles/best-b2b-lead-generation-companies-canada.md",
+    "output": "articles/best-b2b-lead-generation-companies-canada/index.html",
+    "id": "eg3-canada-rfp",
+    "route": "/b2b-lead-generation-rfp-template/",
+    "position": "Before the Canadian vendor-review questions.",
+    "label": "Prepare Your Agency Brief",
+    "block": "\n<!-- EG3:eg3-canada-rfp -->\n<aside class=\"context-tool-cta\" id=\"eg3-canada-rfp\" aria-label=\"Prepare Your Agency Brief\"><p>Set out your Canadian campaign requirements before collecting quotes. Include the audience, territory, responsibilities and useful-meeting standard in one brief.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-rfp-template/\">Prepare Your Agency Brief</a></div></aside>\n<!-- /EG3:eg3-canada-rfp -->\n\n"
+  },
+  {
+    "source": "src/lead-generation-proposal-comparison.njk",
+    "output": "lead-generation-proposal-comparison/index.html",
+    "id": "eg3-comparison-rfp",
+    "route": "/b2b-lead-generation-rfp-template/",
+    "position": "Between the case-study evidence and the comparison-method section.",
+    "label": "Build a Brief Before Requesting Quotes",
+    "block": "\n<!-- EG3:eg3-comparison-rfp -->\n<style>\n/* Opt-in presentation for the ten contextual tool placements. */\n#eg3-comparison-rfp {\n  box-sizing: border-box;\n  width: 100%;\n  max-width: 100%;\n  margin: 28px 0;\n  padding: 24px;\n  border: 1px solid #e2e2e2;\n  border-left: 4px solid var(--orange);\n  background: #fafafa;\n  color: var(--black);\n}\n\n#eg3-comparison-rfp > p {\n  max-width: 76ch;\n  margin: 0 0 18px;\n  color: var(--black);\n  font-size: 16px;\n  line-height: 1.65;\n}\n\n#eg3-comparison-rfp .context-tool-actions {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: stretch;\n  gap: 12px;\n}\n\n#eg3-comparison-rfp .context-tool-actions > a {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  min-height: 48px;\n  max-width: 100%;\n  margin: 0;\n  padding: 14px 22px;\n  font-size: 15px;\n  font-weight: 700;\n  line-height: 1.4;\n  text-align: center;\n  text-decoration: none;\n  white-space: normal;\n  overflow-wrap: anywhere;\n}\n\n#eg3-comparison-rfp .context-tool-actions > .btn-primary {\n  color: var(--black);\n  border: 2px solid transparent;\n}\n\n#eg3-comparison-rfp .context-tool-actions > .btn-secondary {\n  color: var(--black);\n}\n\n#eg3-comparison-rfp .context-tool-actions > .btn-secondary:hover {\n  color: var(--orange);\n}\n\n#eg3-comparison-rfp .context-tool-actions > a:focus-visible {\n  outline: 3px solid var(--black);\n  outline-offset: 4px;\n}\n\n@media (max-width: 640px) {\n  #eg3-comparison-rfp {\n    margin: 24px 0;\n    padding: 20px 16px;\n  }\n\n  #eg3-comparison-rfp .context-tool-actions > a {\n    width: 100%;\n  }\n}\n\n</style>\n<section><div class=\"container-wide\"><aside class=\"context-tool-cta\" id=\"eg3-comparison-rfp\" aria-label=\"Build a Brief Before Requesting Quotes\"><p>Still waiting for proposals? Build the agency brief first so each provider responds to the same work and meeting requirements.</p><div class=\"context-tool-actions\"><a class=\"btn-primary\" href=\"/b2b-lead-generation-rfp-template/\">Build a Brief Before Requesting Quotes</a></div></aside></div></section>\n<!-- /EG3:eg3-comparison-rfp -->\n"
+  }
+]

@@ -229,6 +229,11 @@ In managed campaigns, we have watched teams underestimate the cost of a low-qual
 
 The most productive programs give sales a fast acceptance process and give callers permission to disqualify. When both sides review why meetings advanced or failed, the campaign becomes a learning system. When only appointment volume is discussed, the same weakness can repeat under a larger activity total.
 
+
+<!-- EG3:eg3-usa-rfp -->
+<aside class="context-tool-cta" id="eg3-usa-rfp" aria-label="Create a Lead Generation Agency Brief"><p>Turn your US shortlist into comparable requests. Define the target market, work and meeting requirements before asking agencies for a proposal.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-rfp-template/">Create a Lead Generation Agency Brief</a></div></aside>
+<!-- /EG3:eg3-usa-rfp -->
+
 ## Final questions for the US provider shortlist
 
 Use one scorecard across all finalists:

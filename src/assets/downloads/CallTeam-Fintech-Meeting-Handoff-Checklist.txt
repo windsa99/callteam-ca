@@ -1,0 +1,45 @@
+CALLTEAM | FINTECH MEETING-HANDOFF CHECKLIST
+Use before booking and when passing an agreed conversation to sales.
+Complete with buyer-confirmed information. Mark estimates and unknowns.
+
+ACCOUNT
+Company / institution:
+Market and supported territory:
+Merchant or lending workflow:
+Account-fit criteria met:
+Exclusions checked:
+
+BUYER
+Contact and role:
+Owns / influences / routes the decision:
+Other people needed for the next discussion:
+
+CONVERSATION
+Current process, as described by the buyer:
+Question or issue worth exploring:
+Buyer-confirmed statement (with date):
+Current provider or environment, if volunteered:
+Unconfirmed assumptions:
+
+AGREED MEETING
+Buyer knowingly agreed to:
+Purpose and agenda:
+Attendees and seller:
+Time and time zone:
+Confirmation and follow-up owner:
+
+SPECIALIST QUESTIONS
+Data, integration or implementation:
+Security, risk or control review:
+Commercial case and timing:
+Who will answer each open question:
+
+NEXT ACTION
+Owner:
+Due date:
+Record destination:
+Contact exclusions or stop requests:
+
+CallTeam | https://www.callteam.ca/services/fintech-lead-generation/
+Past campaign evidence: https://www.callteam.ca/case-studies/
+Do not send confidential customer or applicant information in an initial brief.

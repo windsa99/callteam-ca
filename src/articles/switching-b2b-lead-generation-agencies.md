@@ -168,6 +168,11 @@ Pay attention to duplicate contacts, conflicting account assignments and fields 
 
 Your systems owner should review access and integrations as part of the handover. Grant the new team the permissions it needs and remove old access at the agreed point after checking dependencies. Where missing suppression information leaves contact eligibility uncertain, hold the affected records for review.
 
+
+<!-- EG3:eg3-switching-audit -->
+<aside class="context-tool-cta" id="eg3-switching-audit" aria-label="Review Your Campaign Checks"><p>Bring a clearer starting point to the provider discussion. Use six pre-booking checks to identify gaps and missing evidence in the current campaign.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-audit/">Review Your Campaign Checks</a></div></aside>
+<!-- /EG3:eg3-switching-audit -->
+
 ## Compare replacement providers against the problem you found
 
 Give each prospective partner the same brief. Explain the offer, target market, previous scope, failure evidence and the responsibilities your business will keep.

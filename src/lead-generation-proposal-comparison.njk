@@ -81,6 +81,87 @@ modified: "2026-10-15"
 
   <section class="pc-proof-section" aria-labelledby="pc-proof-title"><div class="pc-wrap pc-proof-grid"><div><p class="pc-eyebrow">04 / Evidence behind a scope</p><h2 id="pc-proof-title">Ask what happened<br>after the meeting.</h2><p>CallTeam’s published SaaS campaign followed the work beyond the calendar invite. Read the buyer targeting, qualification and follow-up behind the results.</p><a class="pc-text-link" href="/case-studies/saas-demo-appointment-setting/">Read the SaaS campaign case study <span aria-hidden="true">↗</span></a></div><div class="pc-proof-data"><div><strong>11</strong><span>qualified demos booked<br>during a 90-day campaign</span></div><div><strong>2</strong><span>customers signed<br>within six months</span></div><p>Results from one past campaign. Your scope and outcome depend on your offer, market and sales follow-through.</p></div></div></section>
 
+
+<!-- EG3:eg3-comparison-rfp -->
+<style>
+/* Opt-in presentation for the ten contextual tool placements. */
+#eg3-comparison-rfp {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 28px 0;
+  padding: 24px;
+  border: 1px solid #e2e2e2;
+  border-left: 4px solid var(--orange);
+  background: #fafafa;
+  color: var(--black);
+}
+
+#eg3-comparison-rfp > p {
+  max-width: 76ch;
+  margin: 0 0 18px;
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+#eg3-comparison-rfp .context-tool-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+}
+
+#eg3-comparison-rfp .context-tool-actions > a {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  max-width: 100%;
+  margin: 0;
+  padding: 14px 22px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+#eg3-comparison-rfp .context-tool-actions > .btn-primary {
+  color: var(--black);
+  border: 2px solid transparent;
+}
+
+#eg3-comparison-rfp .context-tool-actions > .btn-secondary {
+  color: var(--black);
+}
+
+#eg3-comparison-rfp .context-tool-actions > .btn-secondary:hover {
+  color: var(--orange);
+}
+
+#eg3-comparison-rfp .context-tool-actions > a:focus-visible {
+  outline: 3px solid var(--black);
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  #eg3-comparison-rfp {
+    margin: 24px 0;
+    padding: 20px 16px;
+  }
+
+  #eg3-comparison-rfp .context-tool-actions > a {
+    width: 100%;
+  }
+}
+
+</style>
+<section><div class="container-wide"><aside class="context-tool-cta" id="eg3-comparison-rfp" aria-label="Build a Brief Before Requesting Quotes"><p>Still waiting for proposals? Build the agency brief first so each provider responds to the same work and meeting requirements.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-rfp-template/">Build a Brief Before Requesting Quotes</a></div></aside></div></section>
+<!-- /EG3:eg3-comparison-rfp -->
   <section id="pc-method" aria-labelledby="pc-method-title"><div class="pc-wrap pc-method-grid"><div><p class="pc-eyebrow">05 / How the tool works</p><h2 id="pc-method-title">Know what the<br>comparison includes.</h2><p>Built for B2B lead generation, appointment setting and outsourced SDR proposals. The calculations are visible, and the questions follow the terms you enter.</p><a class="pc-text-link" href="/articles/b2b-lead-generation-services/">Need a broader agency buying guide? <span aria-hidden="true">→</span></a></div><div class="pc-method-list"><article><h3>One period. One currency.</h3><p>A monthly fee is multiplied by your selected months. Four-week fees use a 52-week annual basis: fee × 13 ÷ 12 × months. This estimates an equivalent cost; actual invoice dates and full billing cycles can differ. A one-time package is counted once, so confirm its scope covers your chosen period.</p></article><article><h3>Only the costs you provide.</h3><p>Known cost = fixed fee for the period + setup + other fixed costs + fee per result × entered result count. An unanswered cost stays unknown. Tax, exchange rates, internal sales costs, notice periods and future renewals are not added. Minimum-term fixed cost covers the fixed fee and setup only.</p></article><article><h3>Questions tied to the gaps.</h3><p>The tool checks unclear fees, result definitions, qualification, replacement terms, data access and handoff. It gives you up to five priority questions per proposal. It does not assess provider performance or award a winner.</p></article><article><h3>Your entries stay in this comparison.</h3><p>No document uploads or account are needed. Calculation code runs locally and does not transmit proposal values. Input and result areas are masked from session replay. Use copy or print to keep the result; it is not automatically attached to a booking.</p></article></div></div></section>
 
   <section class="pc-faq-section" aria-labelledby="pc-faq-title"><div class="pc-wrap pc-faq-grid"><div><p class="pc-eyebrow">06 / Before you decide</p><h2 id="pc-faq-title">Better questions.<br>A clearer commitment.</h2></div><div class="pc-faqs">{% for faq in proposalComparison.faqs %}<details><summary>{{ faq.q }}</summary><p>{{ faq.a }}</p></details>{% endfor %}</div></div></section>

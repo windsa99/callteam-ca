@@ -209,6 +209,11 @@ In an anonymized campaign review, total activity increased after the team pushed
 
 The record showed a different problem. Attempts were concentrating on a small group of familiar contacts while priority accounts with harder routing received little useful coverage. The correction was not a more aggressive meeting ask. It was better number research, clearer account sequencing, referral capture, and a limit on unproductive repetition. Live conversations improved because the team repaired access before demanding more output.
 
+
+<!-- EG3:eg3-volume-audit -->
+<aside class="context-tool-cta" id="eg3-volume-audit" aria-label="Run the Free Lead Generation Self-Audit"><p>Before increasing dial volume, check whether the account criteria, contact routes and callback process are ready for more activity.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-audit/">Run the Free Lead Generation Self-Audit</a></div></aside>
+<!-- /EG3:eg3-volume-audit -->
+
 ## Build the forecast from your market, then earn the right to scale
 
 Estimate the number of target accounts, contacts per account, usable numbers, reasonable attempts, research time, caller capacity, and expected range of conversion scenarios. Run the first calling cycles with stable definitions. Replace assumptions with observed reachability, conversation, booking, attendance, acceptance, and opportunity data.

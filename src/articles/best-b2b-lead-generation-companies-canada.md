@@ -214,6 +214,11 @@ In cross-border programs, we have seen a list labelled North America conceal mat
 
 The better practice is to segment Canada and the United States, then review province or region, buyer role, connection rate, objection, qualification, attendance, acceptance, and opportunity progression. The same caller may serve both markets, but the operating assumptions and learning should remain visible.
 
+
+<!-- EG3:eg3-canada-rfp -->
+<aside class="context-tool-cta" id="eg3-canada-rfp" aria-label="Prepare Your Agency Brief"><p>Set out your Canadian campaign requirements before collecting quotes. Include the audience, territory, responsibilities and useful-meeting standard in one brief.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-rfp-template/">Prepare Your Agency Brief</a></div></aside>
+<!-- /EG3:eg3-canada-rfp -->
+
 ## Questions to put into the Canadian vendor review
 
 Use these questions to compare the final proposals:

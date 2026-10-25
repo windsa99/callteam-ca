@@ -266,6 +266,11 @@ Scale only when the system is producing both outcomes and insight. If results ar
 
 Score each provider from one to five on strategic fit, data quality, calling capability, qualification clarity, workflow transparency, reporting, relevant proof, management quality, commercial terms, and cultural fit.
 
+
+<!-- EG3:eg3-buying-rfp -->
+<aside class="context-tool-cta" id="eg3-buying-rfp" aria-label="Build Your Agency Brief"><p>Give prospective agencies the same requirements. Create a short brief covering the buyer, work and meeting standard, with questions for their response.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-rfp-template/">Build Your Agency Brief</a></div></aside>
+<!-- /EG3:eg3-buying-rfp -->
+
 Then apply two gates. First, reject any provider that cannot explain its process or data ownership. Second, reject any engagement whose success definition is ambiguous.
 
 The winner should not be the most persuasive salesperson in the selection process. It should be the team most likely to run the required work, show what is happening, learn from the market, and hand sales conversations over with integrity.

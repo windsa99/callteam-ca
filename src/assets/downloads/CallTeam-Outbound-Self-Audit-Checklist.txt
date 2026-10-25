@@ -1,0 +1,53 @@
+CALLTEAM | B2B OUTBOUND SELF-AUDIT
+Campaign:
+Review date and period:
+Reviewer:
+Use recent records. Choose Yes / No / Not sure for each question.
+
+1. TARGET ACCOUNT
+Do you have written criteria for the companies you want to call?
+Answer:
+Evidence reviewed:
+Check industries, operating conditions, territories and exclusions.
+
+2. CONTACT DATA
+Have you recently checked a sample of the phone numbers and buyer roles?
+Answer:
+Evidence reviewed:
+Record sample date, changed roles and unusable contact routes.
+
+3. ACCESS TO THE RIGHT ROLE
+Do call notes show who owns the problem or where to route the conversation?
+Answer:
+Evidence reviewed:
+Inspect roles, referrals and unresolved routing.
+
+4. CONVERSATION EVIDENCE
+Can you explain what relevant buyers say about the problem you raise?
+Answer:
+Evidence reviewed:
+Separate confirmed needs, rejection reasons and caller assumptions.
+
+5. FOLLOW-UP OWNERSHIP
+Does every agreed callback have an owner, a due date and a reason?
+Answer:
+Evidence reviewed:
+Inspect the open queue, overdue commitments and contact exclusions.
+
+6. MEETING PURPOSE
+Do buyers know the purpose of the meeting before agreeing to it?
+Answer:
+Evidence reviewed:
+Check the subject, relevant attendee and buyer agreement.
+
+FIRST ACTIONS
+Prioritise reported gaps, then missing evidence. Keep the full answer record.
+Action / owner / due date:
+Action / owner / due date:
+Action / owner / due date:
+
+This checklist does not inspect your systems, judge call quality or establish
+the cause of a campaign result. If all checks are reported in place, confirm
+them against actual records. For post-booking results use:
+https://www.callteam.ca/b2b-meeting-quality-check/
+https://www.callteam.ca/b2b-lead-generation-audit/

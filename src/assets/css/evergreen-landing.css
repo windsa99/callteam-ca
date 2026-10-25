@@ -1,0 +1,63 @@
+/* Scoped to the three standalone pages. Uses CallTeam's production brand tokens. */
+.eg-page{color:var(--black);background:var(--white);font-family:'Inter',sans-serif;line-height:1.65}
+.eg-page *{box-sizing:border-box;min-width:0}
+.eg-page [hidden]{display:none!important}
+.eg-page .eg-wrap{width:calc(100% - 80px);max-width:1160px;margin:auto}
+.eg-page h1,.eg-page h2,.eg-page h3{font-family:'Archivo',Arial,sans-serif;font-weight:900;letter-spacing:-.035em;color:inherit;line-height:1.12;margin:0 0 20px}
+.eg-page h1{font-size:clamp(38px,4.5vw,62px)}.eg-page h2{font-size:clamp(29px,3.1vw,42px)}.eg-page h3{font-size:23px;letter-spacing:-.02em;line-height:1.25}
+.eg-page p{margin:0 0 20px}.eg-page a{color:inherit;text-underline-offset:4px}
+.eg-page a:focus-visible,.eg-page button:focus-visible,.eg-page summary:focus-visible,.eg-page :is(input,textarea,select):focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+.eg-page .eg-crumbs{display:flex;flex-wrap:wrap;gap:9px;font-size:12px;padding:23px 0;color:#555}
+.eg-page .eg-hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:58px;align-items:center;padding:42px 0 70px}
+.eg-page .eg-kicker{color:#555;letter-spacing:.09em;text-transform:uppercase;font-size:11px;font-weight:700;margin-bottom:17px}
+.eg-page .eg-lead{font-size:18px;line-height:1.75;color:#414141;max-width:660px}
+.eg-page .eg-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:26px}
+.eg-page .eg-button{display:inline-flex;justify-content:center;align-items:center;gap:18px;max-width:100%;padding:16px 21px;border:1px solid var(--orange);background:var(--orange);color:#111;text-decoration:none;font:600 14px/1.45 'Inter',sans-serif;cursor:pointer;white-space:normal;text-align:center}
+.eg-page .eg-button:hover{background:#f04c10;border-color:#f04c10}.eg-page .eg-button:disabled{opacity:.55;cursor:default}
+.eg-page .eg-secondary{background:transparent;border:1px solid #aaa}.eg-page .eg-secondary:hover{background:#eee;border-color:#999}
+.eg-page .eg-link{font-weight:600;font-size:14px}.eg-page .eg-small{font-size:12px;line-height:1.7;color:#555;margin-top:15px}
+.eg-page .eg-cover{padding:30px;border-radius:12px;background:#1b1b1b;color:#fff;border:1px solid #333;box-shadow:0 18px 40px #00000012}
+.eg-page .eg-cover .eg-kicker{color:var(--orange)}.eg-page .eg-cover h2{font-size:30px}
+.eg-page .eg-cover dl{margin:0}.eg-page .eg-cover dl>div{padding:17px 0;border-top:1px solid #444}.eg-page dt{font-weight:600;font-size:14px}.eg-page dd{margin:6px 0 0;color:#ddd;font-size:13px}
+.eg-page .eg-cover-note{font-size:12px;color:#ddd;border-top:3px solid var(--orange);padding-top:16px;margin:12px 0 0}
+.eg-page .eg-answer{background:var(--grey-bg);border-block:1px solid #ddd;padding:25px 0}
+.eg-page .eg-answer p{max-width:1000px;font-size:15px;margin:0}
+.eg-page .eg-jump{display:flex;flex-wrap:wrap;gap:23px;padding:22px 0;border-bottom:1px solid #ddd;font-size:12px;font-weight:600}
+.eg-page section[id]{scroll-margin-top:115px}.eg-page .eg-section{padding:76px 0}.eg-page .eg-paper{background:var(--grey-bg)}
+.eg-page .eg-heading{max-width:780px;margin-bottom:32px}.eg-page .eg-heading>p:last-child{color:#494949}
+.eg-page .eg-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.eg-page .eg-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.eg-page .eg-card{border:1px solid #ddd;border-top:3px solid var(--orange);padding:28px;background:#fff}
+.eg-page .eg-card p{color:#494949}.eg-page .eg-card>p:last-child{margin-bottom:0}
+.eg-page .eg-card ul,.eg-page .eg-steps{padding-left:20px}.eg-page li{padding-bottom:9px}
+.eg-page .eg-record{padding:25px;background:var(--grey-bg);border-left:3px solid var(--orange);margin:24px 0}
+.eg-page .eg-record dl{margin:0}.eg-page .eg-record dl>div{margin:15px 0}.eg-page .eg-record dd{color:#414141}
+.eg-page .eg-record .eg-small{margin-bottom:0}
+.eg-page .eg-paths details{padding:22px;border:1px solid #ccc;background:#fff}.eg-page summary{cursor:pointer;font-weight:600;line-height:1.55}
+.eg-page .eg-paths details[open] summary{margin-bottom:22px}.eg-page .eg-paths p{font-size:15px}
+.eg-page .eg-stat{display:block;font:900 54px/1.2 'Archivo',sans-serif;margin:12px 0;color:#111}
+.eg-page .eg-download{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;border:1px solid #ccc;padding:26px;margin-top:30px;background:#fff}
+.eg-page .eg-download p{font-size:14px;margin:5px 0 0}
+.eg-page .eg-split{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:48px}
+.eg-page .eg-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px}
+.eg-page .eg-field{display:block}.eg-page .eg-field>span{display:block;font-size:14px;font-weight:600;margin-bottom:9px}
+.eg-page .eg-field small{display:block;font-size:12px;color:#555;margin:9px 0 0;line-height:1.6}
+.eg-page :is(input,select,textarea){width:100%;padding:13px;border:1px solid #999;border-radius:0;background:#fff;color:#111;font:400 15px/1.55 'Inter',sans-serif}
+.eg-page textarea{resize:vertical;min-height:110px}.eg-page select{min-height:50px}.eg-page .eg-wide{grid-column:1/-1}
+.eg-page .eg-check{border-top:1px solid #ccc;padding:22px 0;display:grid;grid-template-columns:minmax(0,1fr) 155px;gap:30px;align-items:center}
+.eg-page .eg-check .eg-field small{max-width:740px}.eg-page .eg-check select{font-size:14px}
+.eg-page .eg-status{min-height:25px;font-size:13px;color:#444;margin-top:15px}
+.eg-page .eg-result{margin-top:35px;border:1px solid #999;border-top:4px solid var(--orange);padding:30px;background:#fff}
+.eg-page .eg-result h2{font-size:32px}.eg-page .eg-result textarea{min-height:290px;margin-top:12px;font-size:14px}
+.eg-page .eg-result-list{list-style:none;padding:0}.eg-page .eg-result-list li{padding:20px 0;border-top:1px solid #ddd}
+.eg-page .eg-result-list h3{font-size:20px}.eg-page .eg-result-list p{font-size:15px;margin-bottom:0}
+.eg-page .eg-review{font-size:13px;padding-left:20px}.eg-page .eg-badge{background:var(--grey-bg);padding:12px 16px;font-size:13px}
+.eg-page .eg-faq details{border-top:1px solid #ccc;padding:21px 0}.eg-page .eg-faq p{font-size:15px;padding-top:15px;color:#494949;margin:0}
+.eg-page .eg-final{background:var(--grey-bg);border-top:1px solid #ddd}.eg-page .eg-final .eg-wrap{max-width:850px;text-align:center}.eg-page .eg-final .eg-actions{justify-content:center}
+.eg-page .eg-error{border-left:3px solid var(--orange);padding:10px 16px}
+@media(max-width:900px){.eg-page .eg-wrap{width:calc(100% - 48px)}.eg-page .eg-hero{gap:26px}.eg-page h1{font-size:43px}.eg-page .eg-split{grid-template-columns:1fr;gap:25px}.eg-page .eg-three{grid-template-columns:1fr}}
+@media(max-width:640px){.eg-page .eg-wrap{width:calc(100% - 36px)}.eg-page .eg-hero,.eg-page .eg-grid,.eg-page .eg-fields{grid-template-columns:1fr}.eg-page .eg-hero{padding:25px 0 40px}.eg-page h1{font-size:38px}.eg-page .eg-lead{font-size:16px}.eg-page .eg-section{padding:48px 0}.eg-page .eg-cover,.eg-page .eg-card,.eg-page .eg-result{padding:22px}.eg-page .eg-check{grid-template-columns:1fr;gap:14px}.eg-page .eg-check select{max-width:240px}.eg-page .eg-wide{grid-column:auto}.eg-page .eg-actions{align-items:stretch}.eg-page .eg-button{width:100%}.eg-page .eg-jump{gap:14px}}
+@media(prefers-reduced-motion:reduce){.eg-page *{scroll-behavior:auto!important;transition:none!important}}
+@media print{body:has(.eg-page)>header,body:has(.eg-page)>footer,body:has(.eg-page)>#contact,.eg-page .eg-hero,.eg-page .eg-jump,.eg-page .eg-crumbs,.eg-page .eg-final,.eg-page .eg-actions,.eg-page .eg-input-area{display:none!important}.eg-page .eg-wrap{width:100%;max-width:none}.eg-page .eg-section{padding:15px 0}.eg-page .eg-result{border:0;margin:0;padding:0}.eg-page .eg-result textarea{height:auto;min-height:650px}.eg-page .eg-result-list li,.eg-page .eg-card{break-inside:avoid}}
+
+.eg-page .eg-print-copy{display:none}
+@media print{.eg-page .eg-print-copy{display:block;white-space:pre-wrap;overflow-wrap:anywhere;font:11pt/1.5 Arial,sans-serif}.eg-page .eg-result textarea,.eg-page .eg-result label,.eg-page .eg-answer{display:none!important}body:has(.eg-result:not([hidden])) .eg-page>.eg-section:not(:has(.eg-result:not([hidden]))){display:none!important}}

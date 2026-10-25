@@ -219,6 +219,11 @@ In one campaign review, the top-line booking count appeared healthy. The held an
 
 The correction was not more dials. The team tightened the meeting standard, improved confirmation, required specific CRM context and reviewed rejection reasons with sales. Fewer weak events reached the calendar, while the operating record became more useful.
 
+
+<!-- EG3:eg3-metrics-audit -->
+<aside class="context-tool-cta" id="eg3-metrics-audit" aria-label="Check Your Outbound Campaign"><p>Use your recent records to check targeting, contact data, buyer access and follow-up. The free self-audit turns six answers into practical first checks.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-audit/">Check Your Outbound Campaign</a></div></aside>
+<!-- /EG3:eg3-metrics-audit -->
+
 ## Use the scorecard to decide what changes next
 
 Each weak stage suggests a different response. Poor account coverage calls for prioritisation. Low valid-number rates call for data repair. Low connects call for number and timing review. Weak conversations call for coaching and premise work. Low attendance calls for meeting protection. Low acceptance calls for targeting, qualification or handoff correction.
