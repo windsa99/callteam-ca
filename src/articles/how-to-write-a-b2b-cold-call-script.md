@@ -275,6 +275,11 @@ Change one meaningful part at a time and keep versions. If the audience, opener,
 
 CallTeam is building toward the world's largest free cold call resource library from knowledge developed across more than 150 outbound campaigns, work dating back to 2017, and the founder's more than 20 years in sales. The goal is to make real campaign learning useful to the public without exposing the companies or people behind the original work.
 
+
+<!-- Starter kit link: cta-script-guide-starter-kit -->
+<aside class="context-tool-cta" id="cta-script-guide-starter-kit" aria-label="Download the script worksheet and campaign documents"><p>Ready to put the draft to work? Use the free starter kit for an editable script worksheet, campaign brief, call tracker and completed example.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-cold-calling-starter-kit/">Download the Calling Starter Kit</a></div></aside>
+
+<!-- /Starter kit link: cta-script-guide-starter-kit -->
 ## Use this cold call script checklist
 
 Before callers use the script, confirm that the document answers each question:
