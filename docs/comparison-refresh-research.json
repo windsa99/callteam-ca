@@ -1,0 +1,251 @@
+{
+  "verifiedOn": "2026-10-26",
+  "scope": "Six existing articles; sandbox only",
+  "method": "Official provider service, pricing and process pages; no competitor delivery tests or mystery-shopping submissions",
+  "competitors": [
+    {
+      "company": "Belkins",
+      "decision": "Replaced the old $4,000 starter statement with the current advertised $5,000 figure. Distinguished package-specific calling and the partner-delivered small-business option.",
+      "sources": [
+        {
+          "name": "Belkins: appointment-setting offer and advertised starting figure",
+          "url": "https://belkins.io/appointment-setting"
+        },
+        {
+          "name": "Belkins: package and channel differences",
+          "url": "https://belkins.io/pricing"
+        }
+      ]
+    },
+    {
+      "company": "Callbox",
+      "decision": "Kept managed team, regional coverage and custom-quote facts. Removed numerical performance comparisons and did not assume other agencies lack handoff support.",
+      "sources": [
+        {
+          "name": "Callbox: appointment setting, scope and customized pricing",
+          "url": "https://www.callboxinc.com/appointment-setting-lead-generation/"
+        }
+      ]
+    },
+    {
+      "company": "CIENCE",
+      "decision": "Separated campaign team, platform and SDR charges; retained setup and bonus considerations. The old fixed setup amount is no longer asserted.",
+      "sources": [
+        {
+          "name": "CIENCE: campaign, platform, SDR and bonus pricing",
+          "url": "https://www.cience.com/pricing/"
+        }
+      ]
+    },
+    {
+      "company": "memoryBlue",
+      "decision": "Used the current provider identity and documented Operatix acquisition, without carrying forward changing office or headcount figures.",
+      "sources": [
+        {
+          "name": "memoryBlue: current services and technology-company focus",
+          "url": "https://memoryblue.com/about-us/"
+        },
+        {
+          "name": "memoryBlue: Operatix acquisition announcement",
+          "url": "https://memoryblue.com/blog/memoryblue-acquires-operatix-to-create-a-global-leader-in-sales-acceleration-services-for-the-b2b-technology-ecosystem/"
+        }
+      ]
+    },
+    {
+      "company": "SalesHive",
+      "decision": "Recognized phone-only and combined-channel plans and team-location options; retained custom pricing instead of implying a single program.",
+      "sources": [
+        {
+          "name": "SalesHive: current plans, team options and pricing approach",
+          "url": "https://saleshive.com/pricing/"
+        },
+        {
+          "name": "SalesHive: managed cold calling",
+          "url": "https://saleshive.com/cold-calling"
+        }
+      ]
+    },
+    {
+      "company": "Atlantic Growth Solutions",
+      "decision": "Aligned the summary with the current pipeline-system emphasis. Asked buyers to establish the exact execution responsibilities rather than presume a universal campaign package.",
+      "sources": [
+        {
+          "name": "Atlantic Growth Solutions: current lead-generation model",
+          "url": "https://atlanticgrowthsolutions.com/lead-generation/"
+        }
+      ]
+    },
+    {
+      "company": "DMT Business Development",
+      "decision": "Confirmed Ottawa company context and custom packages. Distinguished Starter email/LinkedIn from added calling channels in wider tiers.",
+      "sources": [
+        {
+          "name": "DMT: channel differences and custom packages",
+          "url": "https://dmtcorp.io/packages"
+        },
+        {
+          "name": "DMT: company location and current identity",
+          "url": "https://dmtcorp.io/about"
+        }
+      ]
+    },
+    {
+      "company": "Lead Generators International",
+      "decision": "Identified the $6,000 monthly, two-month budget screen as screening, with currency unspecified. Described continued work under agreement conditions rather than implying a refund.",
+      "sources": [
+        {
+          "name": "LGI: conditional guarantee and budget-screening question",
+          "url": "https://clientfinders.com/what-we-do/results-guarantee/"
+        },
+        {
+          "name": "Lead Generators International: published services",
+          "url": "https://clientfinders.com/"
+        }
+      ]
+    },
+    {
+      "company": "Purple Sales",
+      "decision": "Attributed advertised English-French capability and broader services; required confirmation of the assigned team and custom scope.",
+      "sources": [
+        {
+          "name": "Purple Sales: calling and English-French capability",
+          "url": "https://mypurplesales.com/b2b-cold-calling-services/"
+        },
+        {
+          "name": "Purple Sales: custom appointment-setting plans",
+          "url": "https://mypurplesales.com/b2b-appointment-setting-companies/"
+        }
+      ]
+    },
+    {
+      "company": "The Sales Factory",
+      "decision": "Kept its published data, research, managed-talent and growth-stage model. Specific staffing and commercial scope remain proposal questions.",
+      "sources": [
+        {
+          "name": "The Sales Factory: partner delivery model",
+          "url": "https://www.thesalesfactory.com/partner-with-tsf"
+        }
+      ]
+    },
+    {
+      "company": "EBQ",
+      "decision": "Added $5,000 half-time and $10,000 full-time monthly fees with the annual-commitment condition. Recognized its own scheduling and handoff processes.",
+      "sources": [
+        {
+          "name": "EBQ: sales development, meeting confirmation and handoff",
+          "url": "https://ebq.com/outsourced-sales-development/"
+        },
+        {
+          "name": "EBQ: monthly fees and annual-commitment condition",
+          "url": "https://ebq.com/ebq-pricing/"
+        }
+      ]
+    },
+    {
+      "company": "MarketStar",
+      "decision": "Clarified enterprise scope across pipeline, deals and expansion. Avoided making a narrow prospecting program a false equivalent.",
+      "sources": [
+        {
+          "name": "MarketStar: enterprise sales execution scope",
+          "url": "https://www.marketstar.com/"
+        }
+      ]
+    },
+    {
+      "company": "Televerde",
+      "decision": "Described pipeline development, nurturing and SDR responsibilities. Kept the need to define the particular solution.",
+      "sources": [
+        {
+          "name": "Televerde: pipeline, nurturing and SDR services",
+          "url": "https://televerde.com/solutions/pipeline-revenue-growth/"
+        }
+      ]
+    },
+    {
+      "company": "Cold Calling Co.",
+      "decision": "Kept project-based pricing, lists, scripts, reporting, advertised caller geography and published list provision. Did not invent a numeric campaign fee.",
+      "sources": [
+        {
+          "name": "Cold Calling Co.: project scope, callers and list provision",
+          "url": "https://coldcallingco.com/cold-calling-services/"
+        }
+      ]
+    },
+    {
+      "company": "SalesRoads",
+      "decision": "Used $11,950 per four weeks for one SDR from its main pricing page and explicitly flagged the $9,500 service-page discrepancy. Removed the previous $9,950 figure.",
+      "sources": [
+        {
+          "name": "SalesRoads: current main pricing page and four-week billing",
+          "url": "https://salesroads.com/pricing/"
+        },
+        {
+          "name": "SalesRoads: service page with a different advertised starting figure",
+          "url": "https://salesroads.com/appointment-setting-services/"
+        }
+      ]
+    },
+    {
+      "company": "Superhuman Prospecting",
+      "decision": "Added Flex $1,998/month and Premium $4,995/month. Identified Flex list requirements, potential setup and additional integration costs.",
+      "sources": [
+        {
+          "name": "Superhuman Prospecting: Flex, Premium and additional costs",
+          "url": "https://superhumanprospecting.com/pricing/"
+        },
+        {
+          "name": "Superhuman Prospecting: callers and service differences",
+          "url": "https://superhumanprospecting.com/cold-calling-services/"
+        }
+      ]
+    },
+    {
+      "company": "Abstrakt Marketing Group",
+      "decision": "Added the published Starter amount and monthly cost context. Described the conditional continued-work remedy without guaranteeing the buyer's downstream sales outcome.",
+      "sources": [
+        {
+          "name": "Abstrakt: staffing, appointment commitment and packages",
+          "url": "https://www.abstraktmg.com/b2b-appointment-setting/"
+        },
+        {
+          "name": "Abstrakt: monthly starting-fee illustration",
+          "url": "https://www.abstraktmg.com/appointment-setting-cost/"
+        }
+      ]
+    },
+    {
+      "company": "Cleverly",
+      "decision": "Identified advertised SDR replacement as a specific remedy. Did not imply a refund or appointment replacement; removed irrelevant performance totals.",
+      "sources": [
+        {
+          "name": "Cleverly: calling offer and SDR-replacement remedy",
+          "url": "https://www.cleverly.co/cold-calling-agency"
+        }
+      ]
+    },
+    {
+      "company": "Leadium",
+      "decision": "Used its current published calling-only and multichannel monthly prices and stated engagement terms, while leaving setup and assigned scope for confirmation.",
+      "sources": [
+        {
+          "name": "Leadium: published calling and multichannel prices and terms",
+          "url": "https://www.leadium.com/blog/appointment-setting-services"
+        }
+      ]
+    }
+  ],
+  "regulatorSources": [
+    {
+      "name": "CRTC: business-number exemption and applicable calling rules",
+      "url": "https://crtc.gc.ca/eng/phone/telemarketing/exempt.htm"
+    },
+    {
+      "name": "CRTC: telemarketing operating requirements",
+      "url": "https://crtc.gc.ca/eng/phone/telemarketing/tobligations/rules-regles.htm"
+    },
+    {
+      "name": "FTC: protections against deceptive B2B telemarketing",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-implements-new-protections-businesses-against-telemarketing-fraud-affirms-protections-against-ai"
+    }
+  ]
+}

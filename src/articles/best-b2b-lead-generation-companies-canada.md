@@ -1,6 +1,6 @@
 ---
 authorKey: "harjSingh"
-layout: layouts/article.njk
+layout: "layouts/article.njk"
 pageStyles: ["/assets/css/contextual-tools.css"]
 contextToolCta:
   id: "cta-canada-proposals"
@@ -13,29 +13,29 @@ title: "Best B2B Lead Generation Companies in Canada: 2026 Buyer’s Comparison"
 seoTitle: "Best B2B Lead Generation Companies in Canada (2026)"
 description: "Compare six B2B lead generation companies for Canada by market coverage, bilingual delivery, cross-border execution, qualification, and meeting quality."
 date: "2026-08-27"
-modified: "2026-08-27"
+modified: "2026-10-26"
 reviewedBy: "CallTeam Editorial Review"
 category: "Canada B2B Lead Generation Comparison"
 permalink: "/articles/best-b2b-lead-generation-companies-canada/"
 canonicalUrl: "https://www.callteam.ca/articles/best-b2b-lead-generation-companies-canada/"
 cluster: "B2B Lead Generation"
 articleType: "Provider comparison"
-topics: ["B2B lead generation companies Canada", "Canadian lead generation agencies", "Canada appointment setting", "cross-border B2B outreach", "CallTeam", "Purple Sales", "The Sales Factory", "DMT Business Development", "Atlantic Growth Solutions", "Lead Generators International"]
-quickAnswer: "Six providers to compare for Canadian B2B lead generation are CallTeam, Purple Sales, The Sales Factory, DMT Business Development, Atlantic Growth Solutions, and Lead Generators International. Buyers should separate a Canadian headquarters from Canadian delivery capability, then examine province and time-zone coverage, French support where required, cross-border execution, calling versus electronic outreach rules, qualification ownership, and held-meeting quality. CallTeam publishes this guide and discloses its inclusion."
+topics: ["B2B lead generation companies Canada","Canadian lead generation agencies","Canada appointment setting","cross-border B2B outreach","CallTeam","Purple Sales","The Sales Factory","DMT Business Development","Atlantic Growth Solutions","Lead Generators International"]
+quickAnswer: "For Canadian lead generation, compare market coverage, assigned callers, language needs, channel responsibilities, qualification and the final sales handoff. Atlantic Growth Solutions, DMT, Lead Generators International, Purple Sales and The Sales Factory offer different service models. CallTeam provides a managed B2B calling program with a separately stated scope, starting price and relevant campaign evidence."
 comparisonListName: "Six B2B lead generation companies for Canadian campaigns in 2026"
 comparisonItems:
-  - name: "CallTeam"
-    summary: "Best suited to companies seeking a Canadian-based, globally positioned partner for human calling, complete-funnel qualification, and cross-border execution."
-  - name: "Purple Sales"
-    summary: "Best suited to buyers seeking a Toronto-based provider with publicly stated English and French BDR capability and multichannel execution."
-  - name: "The Sales Factory"
-    summary: "Best suited to organizations comparing outsourced sales, market validation, team launch, and cross-border growth support."
-  - name: "DMT Business Development"
-    summary: "Best suited to buyers considering an Ottawa-headquartered provider with international delivery locations and multichannel sales development."
   - name: "Atlantic Growth Solutions"
-    summary: "Best suited to companies that need wider revenue-system diagnosis, CRM, training, recruitment, and execution rather than a narrow appointment service."
+    summary: "Pipeline-system work, targeting and qualification aligned with sales execution."
+  - name: "DMT Business Development"
+    summary: "Custom research and outreach packages with different channel coverage."
   - name: "Lead Generators International"
-    summary: "Best suited to buyers prioritizing North America-based telephone appointment setting and willing to define its public results guarantee precisely."
+    summary: "Telephone appointment setting and research, with a conditional results guarantee."
+  - name: "Purple Sales"
+    summary: "Calling within wider sales and marketing services, with published English-French capability."
+  - name: "The Sales Factory"
+    summary: "Sales development, data and market research with managed talent."
+  - name: "CallTeam"
+    summary: "Publisher: global managed calling partner for B2B targeting, conversations, follow-up and handoff."
 cardsHeading: "Four Canadian buying questions that change the shortlist."
 cards:
   - title: "Location is not capability"
@@ -44,8 +44,8 @@ cards:
     text: "Canadian telemarketing obligations and CASL requirements for commercial electronic messages must be reviewed as separate operating questions."
   - title: "French needs a real plan"
     text: "If Quebec or French-speaking buyers matter, confirm who can prospect, call, follow up, qualify, document, and support the handoff in French."
-  - title: "Calendar volume can mislead"
-    text: "A calendar full of garbage is not pipeline. Define held, qualified, accepted, and rejected meetings before comparing promises."
+  - title: "Agree the sales standard"
+    text: "Define meeting purpose, attendance, qualification and acceptance so your sellers can assess the conversations the campaign creates."
 relatedResourcesLabel: "Canadian campaign resources"
 relatedResourcesHeading: "Build the qualification and execution layer next."
 relatedResources:
@@ -57,7 +57,7 @@ relatedResources:
     text: "Review CallTeam's standard for qualified conversations, attendance protection, and meeting handoff."
   - title: "Cold-Call Script Library"
     url: "/resources/cold-call-scripts/"
-    text: "Browse 50 practical scripts for technology, services, finance, operations, healthcare, manufacturing, and other B2B markets."
+    text: "Browse 100 practical scripts for technology, services, finance, operations, healthcare, manufacturing, and other B2B markets."
   - title: "Cold-Call Objection Handling"
     url: "/articles/cold-call-objection-handling/"
     text: "Use a structured response model for resistance without arguing, cornering, or forcing a meeting."
@@ -70,25 +70,35 @@ relatedCaseStudy:
   url: "/case-studies/fintech-payment-platform-appointment-setting/"
   text: "See how human calling, qualification, and follow-up produced sales conversations and signed business."
 faqs:
-  - question: "What should a buyer compare when choosing a B2B lead generation company in Canada?"
-    answer: "Compare the provider's actual Canadian operating model, not just a Canadian address or a statement that it serves Canada. Confirm the assigned team's location, province and time-zone coverage, English and French capability where needed, account and data ownership, calling and email processes, qualification rules, meeting confirmation, CRM handoff, reporting, and cross-border experience. Buyers should also ask how Canadian telemarketing obligations and CASL-sensitive electronic outreach are handled separately for the proposed campaign."
-  - question: "Does a lead generation company need to be headquartered in Canada?"
-    answer: "Not necessarily. A Canadian-headquartered company may offer local knowledge and contracting convenience, while a global provider may have stronger talent, industry expertise, or US cross-border execution. The meaningful questions are who performs the work, which markets and languages that team can support, how time zones are covered, what compliance process applies, and whether qualification and handoff meet the buyer's standard. Headquarters should be stated accurately, but it should not substitute for delivery evidence."
-  - question: "Are business cold calls exempt from Canada's National DNCL?"
-    answer: "Calls to business numbers can be exempt from the National DNCL Rules, but they remain subject to other Telemarketing Rules and ADAD requirements. Registration, identification, calling-hour, caller-ID, and internal do-not-call responsibilities may still apply. Obtain advice for the specific campaign rather than relying on a general exemption."
-  - question: "Does the B2B calling exemption also apply to email under CASL?"
-    answer: "No automatic carryover should be assumed. CASL addresses commercial electronic messages and includes consent, identification, and unsubscribe requirements. A provider should explain the basis and process for each channel separately instead of treating phone, email, text, and LinkedIn outreach as one compliance category."
-  - question: "How does CallTeam approach Canadian and cross-border campaigns?"
-    answer: "CallTeam defines the target market, buyer roles, language requirement, account exclusions, channel plan, qualification evidence, calling process, follow-up, meeting confirmation, CRM handoff, and reporting before launch. Its operating base is Canadian, but the brand and delivery model are global, with a strong focus on the United States and North America."
+  - question: "What should I compare when hiring a Canadian lead generation company?"
+    answer: "Check the target provinces, assigned team, language coverage, channels, account criteria, meeting standard and sales handoff. Confirm the location of the people delivering the work separately from the company headquarters."
+  - question: "Does every Canadian lead generation agency provide French outreach?"
+    answer: "Language capability varies by provider and assignment. Ask who will handle the live conversation, written follow-up and sales meeting, and confirm that coverage in the proposal."
+  - question: "Does every DMT package include cold calling?"
+    answer: "DMT lists email and LinkedIn infrastructure in its Starter package. Standard describes an extra channel such as calling, while wider custom packages list additional channels. Confirm the exact proposed package."
+  - question: "What does LGI publish about price and guarantees?"
+    answer: "LGI asks prospects whether they have a $6,000 monthly budget for at least two months, without specifying currency in that form. Its guarantee describes continued work toward an agreed minimum, subject to agreement conditions. Request the actual quote and contract."
+  - question: "What is CallTeam's Canadian campaign offer?"
+    answer: "CallTeam scopes a B2B calling program around your offer, audience, data, qualification and sales process. Its published campaign-ready starting price is US$4,000 per month; required languages, caller locations and additional resources need confirmation for the engagement."
+  - question: "How can I make agency proposals easier to compare?"
+    answer: "Give each provider a common agency brief and require the scope, staffing, currency, fees, initial term and meeting criteria in its reply. The Proposal Comparison tool can organize those answers and identify unresolved items."
 sources:
-  - name: "CRTC: Business alerts for telemarketing"
-    url: "https://crtc.gc.ca/eng/phone/telemarketing/biz.htm"
-  - name: "CRTC: Understand telemarketing rules for compliance"
-    url: "https://crtc.gc.ca/eng/phone/telemarketing/reg.htm"
-  - name: "Government of Canada: Canada's anti-spam legislation"
-    url: "https://www.fightspam.gc.ca/eic/site/030.nsf/eng/00012.html"
-  - name: "Office québécois de la langue française"
-    url: "https://www.oqlf.gouv.qc.ca/"
+  - name: "Atlantic Growth Solutions: current lead-generation model"
+    url: "https://atlanticgrowthsolutions.com/lead-generation/"
+  - name: "DMT: channel differences and custom packages"
+    url: "https://dmtcorp.io/packages"
+  - name: "DMT: company location and current identity"
+    url: "https://dmtcorp.io/about"
+  - name: "LGI: conditional guarantee and budget-screening question"
+    url: "https://clientfinders.com/what-we-do/results-guarantee/"
+  - name: "Purple Sales: calling and English-French capability"
+    url: "https://mypurplesales.com/b2b-cold-calling-services/"
+  - name: "Purple Sales: custom appointment-setting plans"
+    url: "https://mypurplesales.com/b2b-appointment-setting-companies/"
+  - name: "The Sales Factory: partner delivery model"
+    url: "https://www.thesalesfactory.com/partner-with-tsf"
+  - name: "CRTC: business-number exemption and applicable calling rules"
+    url: "https://crtc.gc.ca/eng/phone/telemarketing/exempt.htm"
 readNext:
   - title: "Best B2B Lead Generation Companies in the United States"
     url: "/articles/best-b2b-lead-generation-companies-usa/"
@@ -98,13 +108,12 @@ readNext:
     url: "/articles/what-makes-b2b-appointment-qualified-practical-standard/"
   - title: "How to Adapt a B2B Cold Call for Global Markets"
     url: "/articles/adapt-b2b-cold-call-global-markets/"
-callTeamTakeHeading: "Canadian coverage should be proven in the operating plan."
-callTeamTakeA: "A local address can be relevant, but it does not tell the buyer who researches accounts, which person calls, whether French support exists, how cross-border prospects are handled, or what reaches sales after the meeting. Those details belong in the scope."
-callTeamTakeB: "CallTeam defines country, province, language, buyer, qualification, disqualification, channel, follow-up, attendance, and CRM responsibilities before execution. The team is globally positioned and built to support North American campaigns without reducing Canada to a location label."
+callTeamTakeHeading: "Buy the Canadian coverage your campaign actually needs."
+callTeamTakeA: "A Canadian office, a Canadian buyer list and a Canadian caller describe different things. Put the provinces, time zones, languages and assigned team into the brief so the final proposal answers your delivery requirements."
+callTeamTakeB: "For CallTeam, the fit discussion connects those requirements to the offer, available account data and your sellers. The scope should make qualification, follow-up and the meeting handoff understandable before the work starts."
 aboutHeading: "Canadian operating roots with global B2B execution."
-aboutCopyA: "CallTeam is a global B2B lead generation and outbound sales execution company with a Canadian operating base and a strong focus on the United States, North America, and international markets. The company helps founders, revenue leaders, and sales teams create qualified conversations through human cold calling, appointment setting, outsourced SDR services, lead reactivation, AI-assisted research, CallTeam AI GTM, Buyer Signal Radar, US market entry sales, SDR training, and campaign development. Canadian origin is part of the operating context, not a limit on the brand. Campaigns are designed around the target market, buyer, offer, language, sales process, and commercial objective rather than a flag beside the caller's name."
-aboutCopyB: "Before outreach begins, CallTeam defines the ideal customer profile, exclusions, province or country coverage, buyer map, language needs, data sources, approved claims, qualification evidence, disqualifiers, meeting purpose, confirmation process, and CRM handoff. AI supports account research, signal identification, prioritization, preparation, and pattern analysis. Experienced people own the conversation, follow-up, judgment, objection handling, and decision to book or disqualify. Calling and electronic outreach are treated as distinct operating channels, with campaign-specific requirements reviewed for the markets involved. The team documents what the buyer said, why the next step exists, who should attend, and which facts remain unknown."
-aboutCopyC: "CallTeam's methods draw on work across Fortune 100 and Fortune 500 sales environments and campaigns involving SaaS, cybersecurity, fintech, banking-related technology, payments, manufacturing, logistics, healthcare, HR technology, professional services, and other complex B2B categories. The company does not chase calendar volume at the expense of fit. Reporting distinguishes attempts, conversations, qualified interest, bookings, held meetings, sales acceptance, rejected handoffs, opportunities, and revenue where the client's system provides that visibility. The goal is a managed outbound function that sales can trust across Canadian, US, and broader global markets."
+aboutCopyA: "CallTeam helps B2B companies reach suitable accounts through research, human calling, follow-up and qualification. Its global service can support Canadian and cross-border campaigns when the target market, assigned team and operating requirements fit."
+aboutCopyB: "The people behind the service bring experience from complex sales campaigns and Fortune 100 and Fortune 500 environments. Each proposed engagement identifies the responsibilities, qualification requirements and handoff needed by the receiving sales team."
 aboutLinks:
   - title: "Learn about CallTeam"
     url: "/about/"
@@ -116,90 +125,79 @@ ctaHeading: "Need qualified B2B conversations in Canada or across North America?
 ctaText: "Book a free call to define the market, language needs, outreach channels, qualification standard, and handoff."
 ---
 
-## How we selected the Canadian provider list
+A Canadian lead generation shortlist should explain who will reach your buyers, which markets the team can cover and how a useful conversation reaches sales. An office address alone tells you little about those operating details. A campaign for English-speaking Ontario accounts can also require a different team from a Quebec program or a separate US expansion.
 
-Research was completed on August 26, 2026. A company qualified for inclusion when its public material showed managed B2B lead-generation or sales-development work relevant to Canada, a current operating presence or credible Canadian delivery model, and enough information to assess how a buyer might use it. We excluded software-only products, simple contact databases, consumer agencies, and generic directory entries.
+This comparison covers Atlantic Growth Solutions, DMT Business Development, Lead Generators International, Purple Sales, The Sales Factory and CallTeam. It separates the five other providers from CallTeam's own offer so you can examine both the research and our commercial interest.
 
-The list deliberately mixes Canadian-headquartered providers, companies with Canadian offices, and a Canadian-based global provider. Those are not the same status. Each profile explains the distinction when public evidence permits. CallTeam wrote the article and is one of the companies compared. No provider purchased inclusion, and the order is not a claim of independent rank.
+## How to read this Canadian comparison
 
-## Compare six B2B lead generation companies in Canada
+Official provider pages were checked on October 26, 2026. The company links in the table support the descriptions; fit assessments and purchasing questions are CallTeam's editorial judgement. We have not operated the other agencies' campaigns or independently verified their advertised outcomes.
 
-| Company | Country basis | Canadian delivery questions | Service model | Best fit | Important limitation |
-| --- | --- | --- | --- | --- | --- |
-| **CallTeam** | Canadian operating base with global market positioning | Define market, province, language, team, calling, follow-up, and cross-border scope | Human-led managed outbound with complete-funnel ownership | Companies wanting focused North American and global execution | Not designed around an arbitrary meeting-count promise |
-| **Purple Sales** | Publicly states Toronto headquarters and Canadian ownership | Confirm the assigned English or French team and exact Quebec coverage | Inbound and outbound, CRM, calling, email, LinkedIn, appointments, and follow-up | Buyers wanting a Canadian multichannel partner with stated bilingual capacity | Public ranking claims should not be treated as independent proof |
-| **The Sales Factory** | Publicly lists Toronto and Tampa offices | Identify which office and SDR team executes, plus French availability | Outsourced sales, lead generation, market validation, launch, and expansion | Companies building or extending a sales-development function | Team location, qualification, and meeting acceptance require proposal-level detail |
-| **DMT Business Development** | Publicly says Ottawa headquarters with international offices | Confirm assigned delivery location, language, calling process, and electronic outreach controls | Research, calling, email, LinkedIn, appointments, and sales development | Buyers open to a distributed multichannel delivery team | Canadian headquarters does not mean every campaign is delivered from Canada |
-| **Atlantic Growth Solutions** | Publicly lists Fredericton, New Brunswick | Clarify whether the need is direct lead generation or a broader revenue-system engagement | Diagnosis, sales execution, CRM, forecasting, recruitment, and training | Organizations needing wider commercial infrastructure | May exceed a buyer's need for one focused prospecting pilot |
-| **Lead Generators International** | Publicly describes Canadian and US offices with North America-based callers | Confirm office, caller, territory, language, and guarantee definitions | Telephone appointments, demos, research, database work, email, and LinkedIn | Buyers prioritizing North American phone delivery | Public results-guarantee language requires full booked, held, rejected, and no-show terms |
+The list includes businesses with published Canadian connections and relevant services. Headquarters, delivery-team location and the markets served are separate questions. Confirm each for the actual team assigned to your campaign, especially where language coverage or a local caller is a requirement.
 
-## What Canadian market coverage actually means
+Prices retain the dollar notation used by the source. A budget question on a contact form is a screening threshold rather than a complete service quote, and an unspecified currency should be settled before comparing costs.
 
-Serving Canada is not a single capability. A campaign into Toronto technology firms differs from outreach to industrial companies across Ontario and Quebec, energy buyers in Alberta, logistics operators in British Columbia, or organizations spread across Atlantic Canada. Province, time zone, sector, language, buyer expectations, and sales maturity shape the work.
+## Five providers to evaluate alongside CallTeam
 
-Ask where the assigned researchers, callers, writers, and managers are located. Then ask what they know about the specific market. A Canadian headquarters can help, but it does not prove bilingual capacity, cross-country coverage, industry fluency, or a usable process for US expansion.
+| Company and official source | Published service emphasis | Price information available in the reviewed material | What to settle in the proposal |
+| --- | --- | --- | --- |
+| [Atlantic Growth Solutions](https://atlanticgrowthsolutions.com/lead-generation/) | Targeting, outbound processes, qualification and alignment with sales execution | Request the scope and fee | Does the engagement install a revenue process, run outreach, or include both? |
+| [DMT Business Development](https://dmtcorp.io/packages) | Research and outreach packages with different channel coverage | Custom pricing | Is cold calling included in this package, and who performs it? |
+| [Lead Generators International](https://clientfinders.com/what-we-do/results-guarantee/) | Appointment setting and research with a conditional results guarantee | Its form asks about a $6,000 monthly budget for at least two months; currency is unstated | Confirm the actual quote, currency, qualifying standard and guarantee conditions |
+| [Purple Sales](https://mypurplesales.com/b2b-cold-calling-services/) | Calling within broader outbound and inbound services; published English-French capability | Custom proposal | Which bilingual people and channels are assigned to this campaign? |
+| [The Sales Factory](https://www.thesalesfactory.com/partner-with-tsf) | Sales and lead generation, data and market research, and broader growth support | Quote for the proposed work | What SDR allocation, management and data work are included? |
 
-Cross-border delivery deserves its own test. Many Canadian B2B companies want most of their growth from the United States. The provider should be able to adapt account selection, caller schedule, proof, terminology, objection handling, and handoff to the US market without turning the campaign into a generic North American blast.
+These are options for different needs rather than a numerical ranking. CallTeam's service, current starting scope and evidence appear later in the guide.
 
-## French, Quebec, time zones, and channel rules
-
-French capability should be treated as an operating requirement when the target accounts and buyer experience call for it. Confirm whether the provider can research, call, follow up, qualify, write calendar invitations, document CRM notes, and support the seller in French. One bilingual employee elsewhere in the company does not establish full campaign capacity.
-
-Canadian phone and electronic outreach must also be separated. The CRTC explains that calls to business numbers can be exempt from National DNCL rules while remaining subject to Telemarketing Rules and ADAD requirements. Commercial electronic messages fall under CASL and its consent, identification, and unsubscribe framework. A phone exemption does not create a blanket email exemption.
-
-These pages provide procurement guidance, not legal advice. The buyer and provider should review the actual data, number type, technology, channel, province, audience, and message used in the campaign with qualified counsel where necessary.
-
-## Provider profiles and buyer fit
-
-### CallTeam
-
-CallTeam combines a Canadian operating base with global positioning. The model is built for companies that want a managed path from ICP and account selection through human calling, qualification, follow-up, confirmation, CRM handoff, attendance, and quality reporting. US and North American campaigns are central to the delivery model rather than treated as occasional international projects.
-
-The service fits specialized offers that benefit from experienced conversations and direct campaign attention. It is not the best match for a buyer seeking a giant call centre or a vendor willing to promise a calendar number before the market, qualification bar, and sales capacity are understood.
-
-### Purple Sales
-
-Purple Sales publicly describes Toronto headquarters, Canadian ownership, and English and French BDR capability. Its broader model spans inbound and outbound work, CRM infrastructure, calling, email, LinkedIn, appointment setting, and follow-up. That makes it a credible option for a buyer seeking Canadian multichannel delivery.
-
-The proposal should name the assigned team, confirm which activities can be performed in French, define province and time-zone coverage, and state whether the outcome is a booked meeting, held meeting, accepted opportunity, or another stage. Provider-authored rankings and attributed marketplace recognition should be verified independently before they influence selection.
-
-### The Sales Factory
-
-The Sales Factory publicly lists offices in Toronto and Tampa and positions its work around outsourced sales, lead generation, market validation, team launch, and expansion. That can suit a company deciding whether to test a market, add SDR capacity, or build a wider outsourced sales function.
-
-Because the footprint is cross-border, buyers should identify which office and representatives will execute the campaign. French availability, caller location, data ownership, qualification, meeting acceptance, and management responsibilities should be made explicit rather than inferred from the office list.
-
-### DMT Business Development
-
-DMT Business Development says it is headquartered in Ottawa and also lists offices in Europe. Public services include data research, cold calling, email, LinkedIn, appointment setting, and sales development. A distributed model can provide capacity and language options when it is matched carefully to the market.
-
-The Canadian address should not be used to assume the delivery location. Ask who will work on the account, which language they will use, how Canadian rules are operationalized by channel, and how reporting distinguishes bookings from held and sales-accepted conversations.
+## How their delivery models differ
 
 ### Atlantic Growth Solutions
 
-Atlantic Growth Solutions lists Fredericton, New Brunswick and presents a broader revenue-system offer involving diagnosis, lead generation, sales execution, CRM, forecasting, recruitment, and training. It belongs in the comparison because some buyers do not merely lack leads. Their commercial system needs repair.
+AGS's current lead-generation page emphasizes designing the pipeline system, including targeting, messaging, qualification and alignment with sales execution. A buyer should clarify how that system work translates into the specific outreach activity being purchased.
 
-That breadth can be valuable when strategy, management, process, technology, and talent are connected problems. It can also be more than a company needs when the immediate requirement is a narrow calling pilot. Its own provider-comparison conclusions remain self-published marketing rather than an independent verdict.
+Ask for the operating responsibilities and the milestones used to judge progress. The answer should distinguish advisory or implementation work from a team that will perform the ongoing prospecting.
+
+### DMT Business Development
+
+DMT's [company page](https://dmtcorp.io/about) identifies Ottawa headquarters and a wider international operation. Its Starter package describes email and LinkedIn infrastructure, while the Standard tier adds an extra channel such as cold calling. Phone work therefore needs to be confirmed at package level.
+
+This may suit a buyer assembling research and outreach support around an existing process. Identify the assigned team, channel workload and response handling before judging the apparent breadth of the service.
 
 ### Lead Generators International
 
-Lead Generators International publicly describes Canadian and US offices and North America-based callers. Its offer includes telephone appointment setting, demonstrations, market research, database updates, email, and LinkedIn. The model can appeal to buyers placing heavy weight on phone delivery within North America.
+LGI publishes a guarantee that, subject to its agreement, it will continue work at its own expense until the agreed minimum output is delivered. That is a defined remedy to examine alongside the qualification and acceptance conditions.
 
-The company also uses results-guarantee language while warning elsewhere that pure pay-for-performance can encourage quantity over quality. That tension is worth examining in the contract. Define qualified, booked versus held, rejection rights, no-show treatment, remedy, exclusions, and attendance ownership before attaching value to the word guaranteed.
+Ask what qualifies, which cases are excluded and how long the additional work may continue. Also request the written commercial offer, since the website's budget-screening question does not specify the full package or currency.
 
-## The guarantee test for a Canadian campaign
+### Purple Sales
 
-A calendar full of garbage is not pipeline. A meeting target becomes commercially useful only when the target protects account fit, buyer relevance, informed interest, attendance, and a next step sales can pursue.
+Purple Sales describes English-French capability and calling within a broader sales and marketing offer. That published capability gives a bilingual buyer a reason to investigate the assigned delivery team rather than assume every proposal has identical language coverage.
 
-Start with the definition. Does the prospect work at an agreed type of company? Is the person responsible for, affected by, or able to route the problem? Did the prospect understand the purpose of the meeting? Did the meeting occur? Did sales accept it? Was there a credible business condition, or only politeness?
+Its [appointment-setting information](https://mypurplesales.com/b2b-appointment-setting-companies/) describes custom plans. Define the portion devoted to outbound calls, other channels, CRM work and any separate creative or inbound work.
 
-Then examine the remedy. Free additional work, replacement meetings, credits, discounts, refunds, and replacing a representative solve different problems. Continuing an engagement at no charge may address a volume shortfall, but it does not recover the seller hours consumed by poor-fit conversations. The incentive behind the number deserves as much attention as the number itself.
+### The Sales Factory
 
-## How CallTeam manages Canadian and cross-border work
+The Sales Factory presents sales and lead generation alongside data and market research, with support spanning discovery, launch, growth and expansion. Its partner page describes onshore talent and a managed team.
 
-CallTeam establishes ICP, account exclusions, country and province coverage, buyer roles, language needs, Buyer Signal Radar inputs, calling process, qualification, disqualification, follow-up, confirmation, CRM requirements, attendance ownership, and quality reporting before launch.
+For a Canadian campaign, confirm the specific SDR assignment, buyer preparation and service boundaries. A proposal should explain the difference between adding representatives to your system and transferring responsibility for a managed campaign.
 
-The model is human-led. AI assists with research, prioritization, preparation, and learning, while people remain accountable for the live exchange and every promise made. The team does not treat AI GTM as a substitute for someone having the conversation.
+## Specify Canadian coverage before comparing fees
+
+Describe the provinces, industries, company sizes and buyer roles you need to reach. Add time-zone coverage, expected follow-up and any English-French requirement. These details change both the available prospect pool and the people needed to work it.
+
+A bilingual requirement should cover the whole buyer journey: the opening call, objections, written follow-up and the sales meeting itself. Ask who performs each part and how the quality of that work is reviewed. Published language capability is a useful starting point, with the actual assignment confirmed in the scope.
+
+For cross-border growth, split the Canadian and US account groups in the brief. Different buyer titles, market familiarity and outreach schedules may require different preparation, even when one provider can support both territories.
+
+## Choose CallTeam for a managed calling campaign
+
+CallTeam is a global outbound partner for B2B companies that need research, human calling, persistent follow-up, qualification and appointment scheduling connected to their sales process. A strong fit is an established offer with a definable market and people ready to continue the conversations we arrange.
+
+The work starts with your buying roles, exclusions, offer and available account data. Callers use research to prepare useful questions, check what is relevant with the prospect and record the reason for any agreed meeting. The [outsourced SDR service](/services/outsourced-sdr/) includes CRM context and reporting within the agreed campaign.
+
+Our [published starting program](/pricing/) is US$4,000 per month for a campaign-ready company; most programs begin with three months. Fresh data development, more markets and added resources are scoped separately before launch. Confirm any required language, caller-location or ownership terms for your engagement.
+
+Our payment-platform case describes [15 qualified demos in 90 days and three closed deals](/case-studies/fintech-payment-platform-appointment-setting/). The account selection, questions and sales follow-through give you a process to examine against your own Canadian market requirements.
 
 <!-- Contextual tools CTA: cta-canada-campaign -->
 <aside class="context-tool-cta" id="cta-canada-campaign" aria-label="Explore your Canadian or cross-border campaign" data-context-tool-cta="cta-canada-campaign">
@@ -208,30 +206,28 @@ The model is human-led. AI assists with research, prioritization, preparation, a
 </aside>
 <!-- /Contextual tools CTA: cta-canada-campaign -->
 
-## Field observation: one North American list can hide two campaigns
+## Agree on what sales should receive
 
-In cross-border programs, we have seen a list labelled North America conceal material differences in account size, buyer language, time zones, proof expectations, competitive context, and response patterns. When all activity is reported together, a weak market can be hidden by a stronger one.
+The [appointment-setting process](/services/b2b-appointment-setting/) should leave your salesperson with the buyer's role, account fit, relevant business issue, agreed purpose and outstanding questions. A clear meeting note also identifies what the caller promised so the next conversation starts in the right place.
 
-The better practice is to segment Canada and the United States, then review province or region, buyer role, connection rate, objection, qualification, attendance, acceptance, and opportunity progression. The same caller may serve both markets, but the operating assumptions and learning should remain visible.
+Consider this illustrative situation: an Ontario manufacturer wants to discuss a recurring supplier-delay problem, but the purchasing director still needs to join the review. Recording the interested contact, operational concern and missing stakeholder gives sales a practical next step. Describing the contact as a fully qualified buyer without those distinctions creates avoidable confusion.
 
+Ask finalists how they review rejected meetings, cancellations and later follow-up. Use the [Meeting Quality Check](/b2b-meeting-quality-check/) to examine an example against your requirements, and agree how seller feedback returns to the campaign.
+
+## Ask for the operating rules by channel
+
+The CRTC explains that calls to business numbers are exempt from National DNCL rules but remain covered by Telemarketing and ADAD rules. Its [exemption guidance](https://crtc.gc.ca/eng/phone/telemarketing/exempt.htm) is a better starting point than a broad claim that B2B calling has no rules.
+
+Ask the provider to explain the requirements and controls relevant to your audience, calling method and other channels. Caller identification, requests to stop contact and responsibility for subcontractors should be addressed in the operating plan. Email or text follow-up needs its own channel-specific review.
+
+Treat these questions as part of campaign procurement and obtain qualified advice where required. An agency's location or a compliance badge alone does not establish how your campaign will operate.
+
+## Turn the shortlist into an actionable brief
+
+Send every finalist the same target market, responsibilities, meeting standard and sales capacity. Request a breakdown of research, data, channels, people, technology and any additional fees, with currency and engagement term stated clearly.
 
 <!-- EG3:eg3-canada-rfp -->
 <aside class="context-tool-cta" id="eg3-canada-rfp" aria-label="Prepare Your Agency Brief"><p>Set out your Canadian campaign requirements before collecting quotes. Include the audience, territory, responsibilities and useful-meeting standard in one brief.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-rfp-template/">Prepare Your Agency Brief</a></div></aside>
 <!-- /EG3:eg3-canada-rfp -->
 
-## Questions to put into the Canadian vendor review
-
-Use these questions to compare the final proposals:
-
-1. Is the company headquartered in Canada, operating from a Canadian office, or simply serving Canadian accounts?
-2. Who will perform research, calling, email, LinkedIn, qualification, confirmation, and CRM work?
-3. Which provinces, time zones, and languages can the assigned team support?
-4. Can the provider run a distinct US or cross-border program when growth moves south?
-5. How are telemarketing, electronic-message, caller-ID, recordkeeping, and internal do-not-contact obligations handled by channel?
-6. What makes a meeting qualified, held, accepted, rejected, or replaceable?
-7. Which fees, technology, data, languages, or added markets sit outside the quoted scope?
-8. How will activity be connected to opportunities, pipeline, and closed business?
-
-The best choice is the provider whose real delivery team matches the market being purchased. A logo, office address, guarantee, or self-published ranking cannot answer that question on its own.
-
-{% include "components/contextual-tool-cta.njk" %}
+When proposals arrive, put their assumptions into the [Proposal Comparison tool](/lead-generation-proposal-comparison/). If your next decision is whether CallTeam should run the calling, [book a free 30-minute strategy call](https://calendly.com/hello-callteam/new-meeting) with your offer and market brief ready.
