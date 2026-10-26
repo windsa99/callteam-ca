@@ -151,17 +151,37 @@ function hidden(node) {
 
 function validateArticleRendered({ relativePath, contents, html, legacyEntries = [] }) {
   const result = validateArticleSource({ relativePath, contents, legacyEntries });
-  if (result.exempt || result.errors.length) return result;
+  if (result.errors.length) return result;
   const { data, selectedTools, errors } = result;
   const fail = (message) => errors.push(`${relativePath}: rendered ${message}`);
   const dom = parseDocument(html, { decodeEntities: true });
   const all = elements(dom);
+  const blocks = all.filter((node) => hasClass(node, "context-tool-cta") || "data-context-tool-cta" in (node.attribs || {}));
+  // Published articles keep their existing placement rules, but every rendered
+  // callout must still contain readable copy and a working, labelled button.
+  for (const [index, block] of blocks.entries()) {
+    const name = `tool callout ${block.attribs.id || index + 1}`;
+    const descendants = elements(block);
+    const anchors = descendants.filter((node) => node.name === "a");
+    const paragraphs = descendants.filter((node) => node.name === "p");
+    if (!normalized(block.attribs.id) || all.filter((node) => node.attribs?.id === block.attribs.id).length !== 1) fail(`${name} needs a unique, nonempty ID`);
+    if (!normalized(block.attribs["aria-label"])) fail(`${name} needs an accessible name`);
+    if (!paragraphs.some((node) => normalized(textOf(node)))) fail(`${name} has no explanatory copy`);
+    if (anchors.length !== 1 || !hasClass(anchors[0], "btn-primary") ||
+        !normalized(anchors[0]?.attribs.href) || !normalized(textOf(anchors[0] || {}))) fail(`${name} needs one labelled button with a nonempty destination`);
+    if (hidden(block) || anchors.some(hidden)) fail(`${name} must be visible`);
+    if ("data-context-tool-cta" in block.attribs && block.attribs["data-context-tool-cta"] !== block.attribs.id) fail(`${name} has a mismatched tracking identifier`);
+  }
+  const configuredCallouts = [data.contextToolCta, ...Object.values(data.contextualTools || {})].filter(record);
+  for (const config of configuredCallouts) {
+    if (!normalized(config.id) || blocks.filter((node) => node.attribs.id === config.id).length !== 1) fail(`configured tool callout ${config.id || "without an ID"} is missing or duplicated`);
+  }
+  if (result.exempt) return result;
   const bodies = all.filter((node) => node.attribs?.id === "article-body");
   const contentAreas = all.filter((node) => hasClass(node, "article-content") && ancestor(node, (parent) => parent.attribs?.id === "article-body"));
   if (bodies.length !== 1 || contentAreas.length !== 1) { fail("article body/content container is missing or duplicated"); return result; }
   const content = contentAreas[0];
   const contentNodes = elements(content);
-  const blocks = all.filter((node) => hasClass(node, "context-tool-cta") || "data-context-tool-cta" in (node.attribs || {}));
   if (blocks.length !== selectedTools.length) fail("CTA block count does not match the selected tools");
   const styles = all.filter((node) => node.name === "link" && node.attribs?.href === CTA_STYLESHEET && (node.attribs.rel || "").split(/\s+/).includes("stylesheet"));
   if (styles.length !== 1 || "disabled" in (styles[0]?.attribs || {}) || /print/i.test(styles[0]?.attribs?.media || "")) fail("contextual stylesheet must be enabled exactly once");
@@ -237,8 +257,8 @@ function inspectProject({ rootDir = path.resolve(__dirname, ".."), siteDir = pat
   for (const article of articles) {
     const options = { relativePath: article.relativePath, contents: article.contents, legacyEntries, pagePermalinks };
     const sourceResult = validateArticleSource(options);
-    if (sourceResult.exempt) { legacyCount += 1; continue; }
-    futureCount += 1;
+    if (sourceResult.exempt) legacyCount += 1;
+    else futureCount += 1;
     errors.push(...sourceResult.errors);
     if (rendered && sourceResult.errors.length === 0) {
       const htmlPath = path.join(siteDir, article.data.permalink, "index.html");
@@ -263,7 +283,7 @@ if (require.main === module) {
       console.error(`Article tool CTA checks failed:\n${result.errors.map((error) => `- ${error}`).join("\n")}`);
       process.exitCode = 1;
     } else {
-      console.log(`Article tool CTA ${args.includes("--rendered") ? "rendered" : "source"} checks passed: ${result.legacyCount} published articles exempt; ${result.futureCount} future articles validated.`);
+      console.log(`Article tool CTA ${args.includes("--rendered") ? "rendered" : "source"} checks passed: ${result.legacyCount} published articles exempt; ${result.futureCount} future articles validated.${args.includes("--rendered") ? " Rendered callout content and buttons checked for every article, including published articles." : ""}`);
     }
   } catch (error) {
     console.error(`Article tool CTA checks failed: ${error.message}`);

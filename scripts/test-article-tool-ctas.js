@@ -140,6 +140,29 @@ check("missing booking CTA fails", () => renderedFails(campaign, html.replace(bo
 check("a changed booking destination fails", () => renderedFails(campaign, html.replace('href="https://calendly.com/hello-callteam/new-meeting">Book a Free Call', 'href="/pricing/">Book a Free Call')));
 check("a hidden booking button fails", () => renderedFails(campaign, html.replace('class="btn-light"', 'class="btn-light" hidden')));
 
+const published = {
+  relativePath: legacyEntries[0].path,
+  contents: `---\npermalink: "${legacyEntries[0].permalink}"\n---\nExisting article content.\n`
+};
+const publishedCallout = '<aside class="context-tool-cta" id="cta-published-tool" aria-label="Preview your campaign" data-context-tool-cta="cta-published-tool"><p>Preview an approach to your market.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">See How We’d Approach Your Market</a></div></aside>';
+check("published articles without tool callouts retain their placement exemption", () => renderedPass(published, '<article>Existing content.</article>'));
+check("published callouts retain their approved copy and button wording", () => renderedPass(published, publishedCallout));
+check("missing component settings cannot publish blank buttons on an exempt article", () => {
+  const broken = env.renderString(includes.campaign, {});
+  assert(broken.includes('href=""'), "Regression must reproduce the missing-settings defect");
+  renderedFails(published, broken);
+});
+check("an empty published button destination fails", () => renderedFails(published, publishedCallout.replace('href="/b2b-outbound-campaign-planner/"', 'href=""')));
+check("an empty published button label fails", () => renderedFails(published, publishedCallout.replace('See How We’d Approach Your Market', '')));
+check("an empty published explanatory paragraph fails", () => renderedFails(published, publishedCallout.replace('Preview an approach to your market.', '')));
+check("a hidden published button fails", () => renderedFails(published, publishedCallout.replace('class="btn-primary"', 'class="btn-primary" hidden')));
+check("duplicate published callout IDs fail", () => renderedFails(published, publishedCallout + publishedCallout));
+check("a configured published callout cannot silently disappear", () => {
+  const data = parseArticle(published.contents).data;
+  data.contextToolCta = { id: "cta-published-tool" };
+  renderedFails({ ...published, contents: matter.stringify("Existing article content.", data) }, '<article>Existing content.</article>');
+});
+
 check("the current project passes the guard with all 138 published articles exempt", () => {
   const result = inspectProject({ rootDir: root });
   assert.deepStrictEqual(result.errors, [], result.errors.join("\n"));

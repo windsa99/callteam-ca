@@ -231,3 +231,5 @@ Send every finalist the same target market, responsibilities, meeting standard a
 <!-- /EG3:eg3-canada-rfp -->
 
 When proposals arrive, put their assumptions into the [Proposal Comparison tool](/lead-generation-proposal-comparison/). If your next decision is whether CallTeam should run the calling, [book a free 30-minute strategy call](https://calendly.com/hello-callteam/new-meeting) with your offer and market brief ready.
+
+{% include "components/contextual-tool-cta.njk" %}

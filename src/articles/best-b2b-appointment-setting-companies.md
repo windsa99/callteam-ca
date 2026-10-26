@@ -185,7 +185,10 @@ The [payment-platform campaign](/case-studies/fintech-payment-platform-appointme
 
 These anonymized examples provide a method and timeframe to inspect. Choose the case closest to your buying problem and ask how the targeting, questions and seller follow-through would need to change for your market.
 
-{% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
+<aside class="context-tool-cta" id="cta-appointment-campaign" aria-label="Preview your campaign" data-context-tool-cta="cta-appointment-campaign">
+<p>Preview an approach to your market.</p>
+<div class="context-tool-actions"><a class="btn-primary" href="/b2b-outbound-campaign-planner/">See How We’d Approach Your Market</a></div>
+</aside>
 
 ## Compare remedies, meeting costs and internal work
 
@@ -195,12 +198,17 @@ For a simple cost illustration, a $6,000 program producing ten held meetings cos
 
 Include your sellers' preparation, follow-up and management time when judging the overall investment. The [Proposal Comparison tool](/lead-generation-proposal-comparison/) can organize quoted scope and fees, while the [ROI calculator](/b2b-lead-generation-roi-calculator/) lets you use your own customer and conversion assumptions.
 
-{% set contextToolCta = contextualTools.roi %}{% include "components/contextual-tool-cta.njk" %}
+<aside class="context-tool-cta" id="cta-appointment-roi" aria-label="Calculate campaign economics" data-context-tool-cta="cta-appointment-roi">
+<p>Estimate campaign returns using your own sales assumptions.</p>
+<div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a></div>
+</aside>
 
 ## Set the handoff and choose your next step
 
 Ask the agency to show the structure of a meeting brief: account, contact role, business issue, agreed purpose, timing, other stakeholders, unanswered questions and the next owner. An illustrative software handoff might record that a finance leader wants to examine reconciliation delays while procurement timing remains open.
 
 Use the [Meeting Quality Check](/b2b-meeting-quality-check/) to discuss the evidence with your team. For background on the process, the [appointment-setting explanation](/articles/what-is-b2b-appointment-setting/) and [outbound appointment guide](/articles/outbound-appointment-setting/) cover the stages before and after booking.
+
+{% include "components/contextual-tool-cta.njk" %}
 
 When you are ready to request proposals, create an [agency brief](/b2b-lead-generation-rfp-template/) with the same expectations for every finalist. To examine CallTeam's approach to your audience, [book a free 30-minute strategy call](https://calendly.com/hello-callteam/new-meeting) with your offer and meeting requirements.
