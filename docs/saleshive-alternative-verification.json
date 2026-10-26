@@ -1,0 +1,382 @@
+{
+  "status": "sandbox_ready_for_review",
+  "productionBase": "b87f1f02073665f696a40f463aa6927f3ba6af9d",
+  "deployment": "none",
+  "twoCleanBuilds": "byte-identical across 343 outputs",
+  "previewSha256": "a730f546538e8a9dd705fb2078f6a24deefe2bc2a0916da999d17254fa2d29b1",
+  "verificationRounds": [
+    {
+      "status": "passed",
+      "baseCommit": "b87f1f02073665f696a40f463aa6927f3ba6af9d",
+      "newRoute": "/compare/saleshive-alternatives/",
+      "newHtmlPages": 1,
+      "newStylesheets": 1,
+      "existingArticleLinksAdded": 3,
+      "unrelatedHtmlPagesIdentical": 279,
+      "existingAssetsIdentical": 58,
+      "sharedDesignFormsAndTracking": "Unchanged",
+      "sitemap": "Only one URL added; existing entries unchanged",
+      "faqs": 7,
+      "comparisonRows": 6,
+      "mainActionButtons": 5,
+      "bookingLinks": 4,
+      "newRouteTrackingCases": 9,
+      "mainWordCount": 1462,
+      "productionDeployment": "none",
+      "checkedAt": "2026-10-26T18:20:46.796Z"
+    },
+    {
+      "status": "passed",
+      "baseCommit": "b87f1f02073665f696a40f463aa6927f3ba6af9d",
+      "newRoute": "/compare/saleshive-alternatives/",
+      "newHtmlPages": 1,
+      "newStylesheets": 1,
+      "existingArticleLinksAdded": 3,
+      "unrelatedHtmlPagesIdentical": 279,
+      "existingAssetsIdentical": 58,
+      "sharedDesignFormsAndTracking": "Unchanged",
+      "sitemap": "Only one URL added; existing entries unchanged",
+      "faqs": 7,
+      "comparisonRows": 6,
+      "mainActionButtons": 5,
+      "bookingLinks": 4,
+      "newRouteTrackingCases": 9,
+      "mainWordCount": 1462,
+      "productionDeployment": "none",
+      "checkedAt": "2026-10-26T18:35:32.982Z"
+    }
+  ],
+  "browser": {
+    "status": "passed",
+    "checkedAt": "2026-10-26T18:39:43.135Z",
+    "round1": [
+      {
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dhero",
+            "text": "Compare Your Campaign Fit \u2197",
+            "textFits": true,
+            "visible": true,
+            "width": 256.375
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+            "text": "Compare Your Agency Proposals \u2197",
+            "textFits": true,
+            "visible": true,
+            "width": 289.53125
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+            "text": "See How We\u2019d Run Your Campaign \u2197",
+            "textFits": true,
+            "visible": true,
+            "width": 300.65625
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+            "text": "Calculate Your Campaign ROI \u2197",
+            "textFits": true,
+            "visible": true,
+            "width": 264.953125
+          },
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dclosing",
+            "text": "Book a Free 30-Minute Strategy Call \u2197",
+            "textFits": true,
+            "visible": true,
+            "width": 311.3125
+          }
+        ],
+        "disabledSubmit": true,
+        "faqCount": 7,
+        "fonts": "loaded",
+        "mode": "desktop",
+        "nestedFrames": 0,
+        "overflow": false,
+        "width": 1363
+      },
+      {
+        "buttons": [
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dhero",
+            "text": "Compare Your Campaign Fit \u2197",
+            "textFits": true,
+            "width": 333
+          },
+          {
+            "height": 71.1875,
+            "href": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+            "text": "Compare Your Agency Proposals \u2197",
+            "textFits": true,
+            "width": 280
+          },
+          {
+            "height": 71.1875,
+            "href": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+            "text": "See How We\u2019d Run Your Campaign \u2197",
+            "textFits": true,
+            "width": 281
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+            "text": "Calculate Your Campaign ROI \u2197",
+            "textFits": true,
+            "width": 281
+          },
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dclosing",
+            "text": "Book a Free 30-Minute Strategy Call \u2197",
+            "textFits": true,
+            "width": 333
+          }
+        ],
+        "fonts": "loaded",
+        "images": true,
+        "mode": "mobile",
+        "overflow": false,
+        "table": {
+          "content": 790,
+          "overflow": "auto",
+          "viewport": 331
+        },
+        "width": 388
+      }
+    ],
+    "round2": [
+      {
+        "archivo": "Archivo, sans-serif",
+        "bodyOverflow": false,
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dhero",
+            "label": "Compare Your Campaign Fit \u2197",
+            "textFits": true
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+            "label": "Compare Your Agency Proposals \u2197",
+            "textFits": true
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+            "label": "See How We\u2019d Run Your Campaign \u2197",
+            "textFits": true
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+            "label": "Calculate Your Campaign ROI \u2197",
+            "textFits": true
+          },
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dclosing",
+            "label": "Book a Free 30-Minute Strategy Call \u2197",
+            "textFits": true
+          }
+        ],
+        "disabledSubmit": true,
+        "faqs": 7,
+        "fonts": "loaded",
+        "inter": "Inter, sans-serif",
+        "nestedFrames": 0,
+        "rows": 6,
+        "width": 1363,
+        "mode": "desktop"
+      },
+      {
+        "archivo": "Archivo, sans-serif",
+        "bodyOverflow": false,
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dhero",
+            "label": "Compare Your Campaign Fit \u2197",
+            "textFits": true
+          },
+          {
+            "height": 71.1875,
+            "href": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+            "label": "Compare Your Agency Proposals \u2197",
+            "textFits": true
+          },
+          {
+            "height": 71.1875,
+            "href": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+            "label": "See How We\u2019d Run Your Campaign \u2197",
+            "textFits": true
+          },
+          {
+            "height": 52,
+            "href": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+            "label": "Calculate Your Campaign ROI \u2197",
+            "textFits": true
+          },
+          {
+            "height": 52,
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_preview&utm_medium=review&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dcompare%2Fsaleshive-alternatives%7Cbutton%3Dclosing",
+            "label": "Book a Free 30-Minute Strategy Call \u2197",
+            "textFits": true
+          }
+        ],
+        "disabledSubmit": true,
+        "faqs": 7,
+        "fonts": "loaded",
+        "inter": "Inter, sans-serif",
+        "nestedFrames": 0,
+        "rows": 6,
+        "width": 388,
+        "mode": "mobile"
+      }
+    ],
+    "sectionJumps": [
+      {
+        "id": "comparison",
+        "nestedFrames": 0,
+        "scrollY": 966,
+        "top": 107.671875,
+        "mode": "desktop"
+      },
+      {
+        "id": "fit",
+        "nestedFrames": 0,
+        "scrollY": 2649,
+        "top": 108.484375,
+        "mode": "desktop"
+      },
+      {
+        "id": "handoff",
+        "nestedFrames": 0,
+        "scrollY": 3450,
+        "top": 108.484375,
+        "mode": "desktop"
+      },
+      {
+        "id": "proof",
+        "nestedFrames": 0,
+        "scrollY": 4257,
+        "top": 108.390625,
+        "mode": "desktop"
+      },
+      {
+        "id": "questions",
+        "nestedFrames": 0,
+        "scrollY": 6099,
+        "top": 108.25,
+        "mode": "desktop"
+      },
+      {
+        "id": "comparison",
+        "nestedFrames": 0,
+        "scrollY": 1793,
+        "top": 90.0625,
+        "mode": "mobile"
+      },
+      {
+        "id": "fit",
+        "nestedFrames": 0,
+        "scrollY": 4038,
+        "top": 90.203125,
+        "mode": "mobile"
+      },
+      {
+        "id": "handoff",
+        "nestedFrames": 0,
+        "scrollY": 5404,
+        "top": 90.40625,
+        "mode": "mobile"
+      },
+      {
+        "id": "proof",
+        "nestedFrames": 0,
+        "scrollY": 7026,
+        "top": 90.203125,
+        "mode": "mobile"
+      },
+      {
+        "id": "questions",
+        "nestedFrames": 0,
+        "scrollY": 10261,
+        "top": 90.375,
+        "mode": "mobile"
+      }
+    ],
+    "faqs": {
+      "count": 7,
+      "allOpenedAndReadable": true
+    },
+    "mobileTableKeyboardScroll": {
+      "after": 12,
+      "content": 790,
+      "focused": true,
+      "viewport": 331
+    },
+    "toolDestinationChecks": [
+      {
+        "booking": [
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dlead-generation-proposal-comparison%7Cbutton%3Dheader",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dlead-generation-proposal-comparison%7Cbutton%3Dbody-36",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dlead-generation-proposal-comparison%7Cbutton%3Dbody-43",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Dlead-generation-proposal-comparison%7Cbutton%3Dfooter"
+        ],
+        "path": "/lead-generation-proposal-comparison/",
+        "title": "Compare lead generation agency proposals.Know what you\u2019re buying."
+      },
+      {
+        "booking": [
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-outbound-campaign-planner%7Cbutton%3Dheader",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-outbound-campaign-planner%7Cbutton%3Dbody-36",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-outbound-campaign-planner%7Cbutton%3Dbody-47",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-outbound-campaign-planner%7Cbutton%3Dfooter"
+        ],
+        "path": "/b2b-outbound-campaign-planner/",
+        "title": "See how we would getyour next salesconversation started."
+      },
+      {
+        "booking": [
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-lead-generation-roi-calculator%7Cbutton%3Dheader",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-lead-generation-roi-calculator%7Cbutton%3Dbody-36",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-lead-generation-roi-calculator%7Cbutton%3Dbody-44",
+          "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa&utm_medium=preview&utm_campaign=saleshive_pilot&utm_content=ct1%7Centry%3Dcompare%2Fsaleshive-alternatives%7Cpage%3Db2b-lead-generation-roi-calculator%7Cbutton%3Dfooter"
+        ],
+        "path": "/b2b-lead-generation-roi-calculator/",
+        "title": "B2B lead generationROI calculator."
+      }
+    ],
+    "bookingChecks": [
+      {
+        "calendarVisible": true,
+        "campaign": "saleshive_pilot",
+        "context": "ct1|entry=compare/saleshive-alternatives|page=compare/saleshive-alternatives|button=hero",
+        "path": "/hello-callteam/new-meeting",
+        "source": "sandbox_qa",
+        "title": "Book a Free B2B Strategy Call"
+      },
+      {
+        "calendarVisible": true,
+        "campaign": "saleshive_pilot",
+        "context": "ct1|entry=compare/saleshive-alternatives|page=compare/saleshive-alternatives|button=closing",
+        "path": "/hello-callteam/new-meeting",
+        "source": "sandbox_qa",
+        "title": "Book a Free B2B Strategy Call"
+      }
+    ],
+    "meetingsCreated": 0,
+    "contactSendingDisabledInPreview": true
+  }
+}
