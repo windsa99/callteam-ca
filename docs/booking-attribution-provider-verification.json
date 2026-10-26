@@ -1,0 +1,101 @@
+{
+  "testDate": "2026-10-26",
+  "method": "Sandbox booking URLs inspected in browser; exact tracking values copied to controlled bookings created through the connected Calendly integration; independent provider reads and cancellations.",
+  "websiteDeployment": "none",
+  "publicBrowserFormSubmitted": false,
+  "allTestsPassed": true,
+  "originalAvailabilityRestored": true,
+  "eventConfigurationUnchanged": true,
+  "tests": [
+    {
+      "id": 1,
+      "name": "CallTeam Sandbox Test 01 Google",
+      "bookingCreated": true,
+      "savedTrackingMatches": true,
+      "cancelled": true,
+      "tracking": {
+        "utm_campaign": "sandbox_preview",
+        "utm_source": "google",
+        "utm_medium": "organic",
+        "utm_content": "ct1|entry=script:msp-cold-call-script-managed-it-services|page=pricing|button=footer",
+        "utm_term": null,
+        "salesforce_uuid": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "CallTeam Sandbox Test 02 Bing",
+      "bookingCreated": true,
+      "savedTrackingMatches": true,
+      "cancelled": true,
+      "tracking": {
+        "utm_campaign": "sandbox_preview",
+        "utm_source": "bing",
+        "utm_medium": "organic",
+        "utm_content": "ct1|entry=service:professional-services-lead-generation|page=pricing|button=header",
+        "utm_term": null,
+        "salesforce_uuid": null
+      }
+    },
+    {
+      "id": 3,
+      "name": "CallTeam Sandbox Test 03 Substack",
+      "bookingCreated": true,
+      "savedTrackingMatches": true,
+      "cancelled": true,
+      "tracking": {
+        "utm_campaign": "sandbox_preview",
+        "utm_source": "substack",
+        "utm_medium": "email",
+        "utm_content": "ct1|entry=service:small-business-b2b-lead-generation|page=service:outsourced-sdr|button=footer",
+        "utm_term": null,
+        "salesforce_uuid": null
+      }
+    },
+    {
+      "id": 4,
+      "name": "CallTeam Sandbox Test 04 Direct",
+      "bookingCreated": true,
+      "savedTrackingMatches": true,
+      "cancelled": true,
+      "tracking": {
+        "utm_campaign": "website_booking",
+        "utm_source": "direct_or_unknown",
+        "utm_medium": "unknown",
+        "utm_content": "ct1|entry=home|page=pricing|button=hero",
+        "utm_term": null,
+        "salesforce_uuid": null
+      }
+    },
+    {
+      "id": 5,
+      "name": "CallTeam Sandbox Test 05 Campaign Tool",
+      "bookingCreated": true,
+      "savedTrackingMatches": true,
+      "cancelled": true,
+      "tracking": {
+        "utm_campaign": "sandbox_preview",
+        "utm_source": "substack",
+        "utm_medium": "email",
+        "utm_content": "ct1|entry=b2b-outbound-campaign-planner|page=b2b-outbound-campaign-planner|button=body-36",
+        "utm_term": null,
+        "salesforce_uuid": null
+      }
+    },
+    {
+      "id": 6,
+      "name": "CallTeam Sandbox Test 06 Original Link",
+      "bookingCreated": true,
+      "savedTrackingMatches": true,
+      "cancelled": true,
+      "tracking": {
+        "utm_campaign": null,
+        "utm_source": null,
+        "utm_medium": null,
+        "utm_content": null,
+        "utm_term": null,
+        "salesforce_uuid": null
+      }
+    }
+  ]
+}
