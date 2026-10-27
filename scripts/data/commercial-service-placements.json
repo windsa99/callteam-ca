@@ -1,0 +1,63 @@
+[
+  {
+    "path": "src/services/index.njk",
+    "edits": [
+      {
+        "before": "10 live service paths",
+        "after": "11 live service paths"
+      },
+      {
+        "before": "Ten ways to engage CallTeam",
+        "after": "Eleven ways to engage CallTeam"
+      },
+      {
+        "before": "One connected sales system. Ten clear entry points.",
+        "after": "One connected sales system. Eleven clear entry points."
+      },
+      {
+        "before": "      <div class=\"services-card-grid\">\n        <article class=\"services-card featured\">",
+        "after": "      <div class=\"services-card-grid\">\n        <article class=\"services-card\" id=\"service-lead-generation\">\n          <span>Managed outbound campaign</span>\n          <h3>B2B Lead Generation Services</h3>\n          <p>Connect account research, human outreach, qualification and sales handoff in one defined campaign.</p>\n          <ul><li>Agreed scope</li><li>Buyer conversations</li><li>Sales context</li></ul>\n          <a href=\"/services/b2b-lead-generation/\">Explore B2B Lead Generation →</a>\n        </article>\n        <article class=\"services-card featured\">"
+      },
+      {
+        "before": "<a href=\"/\">Explore Outbound Calling →</a>",
+        "after": "<a href=\"/services/b2b-cold-calling/\">Explore B2B Cold Calling →</a>"
+      }
+    ]
+  },
+  {
+    "path": "src/articles/b2b-lead-generation-services.md",
+    "edits": [
+      {
+        "before": "Campaign execution is useful when the target and offer are reasonably clear but internal activity is inconsistent. It still requires decisions about qualification, CRM access, and the handoff to sales.",
+        "after": "Campaign execution is useful when the target and offer are reasonably clear but internal activity is inconsistent. It still requires decisions about qualification, CRM access, and the handoff to sales.\n\nExplore CallTeam’s [managed B2B lead generation services](/services/b2b-lead-generation/) to see the work, responsibilities and sales handoff we would scope for a campaign."
+      }
+    ]
+  },
+  {
+    "path": "src/articles/outbound-lead-generation.md",
+    "edits": [
+      {
+        "before": "This brief prevents each caller or copywriter from inventing a different campaign. It also gives managers something concrete to revise when market feedback arrives.",
+        "after": "This brief prevents each caller or copywriter from inventing a different campaign. It also gives managers something concrete to revise when market feedback arrives.\n\nIf you need a team to execute the plan, CallTeam’s [B2B lead generation service](/services/b2b-lead-generation/) explains the managed research, outreach, qualification and reporting involved."
+      }
+    ]
+  },
+  {
+    "path": "src/articles/b2b-cold-calling-strategy.md",
+    "edits": [
+      {
+        "before": "This guide focuses on the phone channel itself. The broader [outbound lead generation guide](/articles/outbound-lead-generation/) covers email, LinkedIn, follow-up, and the complete multichannel system. Here, the job is narrower: build a calling operation that can create, qualify, and improve live B2B conversations.",
+        "after": "This guide focuses on the phone channel itself. The broader [outbound lead generation guide](/articles/outbound-lead-generation/) covers email, LinkedIn, follow-up, and the complete multichannel system. Here, the job is narrower: build a calling operation that can create, qualify, and improve live B2B conversations.\n\nFor a managed calling team, explore our [B2B cold calling services](/services/b2b-cold-calling/) and the preparation, follow-up and meeting handoff included in a scoped engagement."
+      }
+    ]
+  },
+  {
+    "path": "src/resources/cold-call-scripts/index.njk",
+    "edits": [
+      {
+        "before": "        <div class=\"script-hero-actions\">",
+        "after": "        <p>Need a team to put the script to work? Explore CallTeam’s <a href=\"/services/b2b-cold-calling/\">managed B2B cold calling services</a> for campaign preparation, human calls and follow-through.</p>\n        <div class=\"script-hero-actions\">"
+      }
+    ]
+  }
+]

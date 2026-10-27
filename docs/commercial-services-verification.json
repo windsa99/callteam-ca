@@ -1,0 +1,932 @@
+{
+  "status": "passed",
+  "cleanBuildRound1": {
+    "status": "passed",
+    "productionBase": "52637cc506dd35cbb3383e0581e14a9f634cf2cc",
+    "newPages": 2,
+    "newStylesheets": 1,
+    "existingPagesWithContextualLinks": 5,
+    "newServiceHubCards": 1,
+    "existingServiceHubCallingLink": "Retargeted to dedicated calling page",
+    "contextualParagraphsAdded": 4,
+    "unrelatedHtmlPagesIdentical": 278,
+    "existingAssetsIdentical": 59,
+    "homepageSharedNavigationFormsAndTracking": "Unchanged",
+    "sitemap": "Two new service URLs; all prior records preserved",
+    "trackingCases": 18,
+    "copyReview": {
+      "exactRepeatedLongSentences": 0,
+      "editorialSentencesChecked": 98,
+      "sharedProofComponent": "Excluded from repetition checks"
+    },
+    "pages": [
+      {
+        "route": "/services/b2b-lead-generation/",
+        "title": "B2B Lead Generation Services | Managed Outbound | CallTeam",
+        "descriptionLength": 166,
+        "mainWords": 1346,
+        "buttons": [
+          {
+            "label": "Plan Your Lead Generation Campaign ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          },
+          {
+            "label": "Check Your Campaign Readiness ↗",
+            "href": "/b2b-lead-generation-audit/"
+          },
+          {
+            "label": "Calculate Your Campaign ROI ↗",
+            "href": "/b2b-lead-generation-roi-calculator/"
+          },
+          {
+            "label": "See How We’d Run Your Campaign ↗",
+            "href": "/b2b-outbound-campaign-planner/"
+          },
+          {
+            "label": "Book a Free 30-Minute Strategy Call ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          }
+        ],
+        "faqs": 7,
+        "proofCards": 3,
+        "bookingLinks": 4
+      },
+      {
+        "route": "/services/b2b-cold-calling/",
+        "title": "B2B Cold Calling Services | Human-Led Outreach | CallTeam",
+        "descriptionLength": 168,
+        "mainWords": 1301,
+        "buttons": [
+          {
+            "label": "Discuss Your Calling Campaign ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          },
+          {
+            "label": "See How We’d Run Your Campaign ↗",
+            "href": "/b2b-outbound-campaign-planner/"
+          },
+          {
+            "label": "Check Your Cold Call Script ↗",
+            "href": "/cold-call-script-checker/"
+          },
+          {
+            "label": "Use the Meeting Quality Check ↗",
+            "href": "/b2b-meeting-quality-check/"
+          },
+          {
+            "label": "Book a Free 30-Minute Strategy Call ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          }
+        ],
+        "faqs": 7,
+        "proofCards": 2,
+        "bookingLinks": 4
+      }
+    ],
+    "files": 346,
+    "htmlPages": 285,
+    "productionDeployment": "none",
+    "checkedAt": "2026-10-27T02:50:20.622Z"
+  },
+  "cleanBuildRound2": {
+    "status": "passed",
+    "productionBase": "52637cc506dd35cbb3383e0581e14a9f634cf2cc",
+    "newPages": 2,
+    "newStylesheets": 1,
+    "existingPagesWithContextualLinks": 5,
+    "newServiceHubCards": 1,
+    "existingServiceHubCallingLink": "Retargeted to dedicated calling page",
+    "contextualParagraphsAdded": 4,
+    "unrelatedHtmlPagesIdentical": 278,
+    "existingAssetsIdentical": 59,
+    "homepageSharedNavigationFormsAndTracking": "Unchanged",
+    "sitemap": "Two new service URLs; all prior records preserved",
+    "trackingCases": 18,
+    "copyReview": {
+      "exactRepeatedLongSentences": 0,
+      "editorialSentencesChecked": 98,
+      "sharedProofComponent": "Excluded from repetition checks"
+    },
+    "pages": [
+      {
+        "route": "/services/b2b-lead-generation/",
+        "title": "B2B Lead Generation Services | Managed Outbound | CallTeam",
+        "descriptionLength": 166,
+        "mainWords": 1346,
+        "buttons": [
+          {
+            "label": "Plan Your Lead Generation Campaign ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          },
+          {
+            "label": "Check Your Campaign Readiness ↗",
+            "href": "/b2b-lead-generation-audit/"
+          },
+          {
+            "label": "Calculate Your Campaign ROI ↗",
+            "href": "/b2b-lead-generation-roi-calculator/"
+          },
+          {
+            "label": "See How We’d Run Your Campaign ↗",
+            "href": "/b2b-outbound-campaign-planner/"
+          },
+          {
+            "label": "Book a Free 30-Minute Strategy Call ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          }
+        ],
+        "faqs": 7,
+        "proofCards": 3,
+        "bookingLinks": 4
+      },
+      {
+        "route": "/services/b2b-cold-calling/",
+        "title": "B2B Cold Calling Services | Human-Led Outreach | CallTeam",
+        "descriptionLength": 168,
+        "mainWords": 1301,
+        "buttons": [
+          {
+            "label": "Discuss Your Calling Campaign ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          },
+          {
+            "label": "See How We’d Run Your Campaign ↗",
+            "href": "/b2b-outbound-campaign-planner/"
+          },
+          {
+            "label": "Check Your Cold Call Script ↗",
+            "href": "/cold-call-script-checker/"
+          },
+          {
+            "label": "Use the Meeting Quality Check ↗",
+            "href": "/b2b-meeting-quality-check/"
+          },
+          {
+            "label": "Book a Free 30-Minute Strategy Call ↗",
+            "href": "https://calendly.com/hello-callteam/new-meeting"
+          }
+        ],
+        "faqs": 7,
+        "proofCards": 2,
+        "bookingLinks": 4
+      }
+    ],
+    "files": 346,
+    "htmlPages": 285,
+    "productionDeployment": "none",
+    "checkedAt": "2026-10-27T02:57:24.880Z"
+  },
+  "buildParity": {
+    "status": "passed",
+    "identicalProductionFiles": 346,
+    "htmlPages": 285,
+    "portablePreviewsIdentical": true,
+    "previewSha256": "d01946cf7e1695afd4e8e273bdf0a2a57a824b4188415e90acb14e06034d2857",
+    "previewOnlyNavigationFix": "Reciprocal links render the other main content locally; page controls reset each view."
+  },
+  "browser": {
+    "rounds": [
+      {
+        "round": 1,
+        "page": "lead",
+        "mode": "Desktop",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Plan Your Lead Generation Campaign\n↗",
+            "width": 317.34375
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Check Your Campaign Readiness\n↗",
+            "width": 289.96875
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Calculate Your Campaign ROI\n↗",
+            "width": 263.953125
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 299.65625
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 310.3125
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B lead generation services.\nBuilt around your buyers.",
+        "pageWidth": 1348,
+        "viewport": 1348,
+        "jumps": [
+          {
+            "id": "scope",
+            "top": 105
+          },
+          {
+            "id": "handoff",
+            "top": 105
+          },
+          {
+            "id": "fit",
+            "top": 105
+          },
+          {
+            "id": "proof",
+            "top": 105
+          },
+          {
+            "id": "investment",
+            "top": 105
+          },
+          {
+            "id": "questions",
+            "top": 105
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "page": "lead",
+        "mode": "Mobile · 390px",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Plan Your Lead Generation Campaign\n↗",
+            "width": 333
+          },
+          {
+            "clipped": false,
+            "height": 72.59375,
+            "label": "Check Your Campaign Readiness\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Calculate Your Campaign ROI\n↗",
+            "width": 281
+          },
+          {
+            "clipped": false,
+            "height": 72.59375,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 333
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B lead generation services.\nBuilt around your buyers.",
+        "pageWidth": 373,
+        "viewport": 373,
+        "faq": {
+          "open": 7,
+          "visible": true
+        },
+        "jumps": [
+          {
+            "id": "scope",
+            "top": 90
+          },
+          {
+            "id": "handoff",
+            "top": 90
+          },
+          {
+            "id": "fit",
+            "top": 90
+          },
+          {
+            "id": "proof",
+            "top": 90
+          },
+          {
+            "id": "investment",
+            "top": 90
+          },
+          {
+            "id": "questions",
+            "top": 90
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "page": "calling",
+        "mode": "Desktop",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Discuss Your Calling Campaign\n↗",
+            "width": 276.890625
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 299.65625
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Check Your Cold Call Script\n↗",
+            "width": 251.78125
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Use the Meeting Quality Check\n↗",
+            "width": 275.078125
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 310.3125
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps.",
+        "pageWidth": 1348,
+        "viewport": 1348,
+        "jumps": [
+          {
+            "id": "calling-process",
+            "top": 105
+          },
+          {
+            "id": "conversation",
+            "top": 105
+          },
+          {
+            "id": "reporting",
+            "top": 105
+          },
+          {
+            "id": "calling-proof",
+            "top": 105
+          },
+          {
+            "id": "calling-cost",
+            "top": 105
+          },
+          {
+            "id": "questions",
+            "top": 105
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "page": "calling",
+        "mode": "Mobile · 390px",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Discuss Your Calling Campaign\n↗",
+            "width": 333
+          },
+          {
+            "clipped": false,
+            "height": 72.59375,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Check Your Cold Call Script\n↗",
+            "width": 333
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Use the Meeting Quality Check\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 333
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps.",
+        "pageWidth": 373,
+        "viewport": 373,
+        "faq": {
+          "open": 7,
+          "visible": true
+        },
+        "jumps": [
+          {
+            "id": "calling-process",
+            "top": 90
+          },
+          {
+            "id": "conversation",
+            "top": 90
+          },
+          {
+            "id": "reporting",
+            "top": 90
+          },
+          {
+            "id": "calling-proof",
+            "top": 90
+          },
+          {
+            "id": "calling-cost",
+            "top": 90
+          },
+          {
+            "id": "questions",
+            "top": 90
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "page": "lead",
+        "mode": "Desktop",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Plan Your Lead Generation Campaign\n↗",
+            "width": 317.34375
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Check Your Campaign Readiness\n↗",
+            "width": 289.96875
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Calculate Your Campaign ROI\n↗",
+            "width": 263.953125
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 299.65625
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 310.3125
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B lead generation services.\nBuilt around your buyers.",
+        "pageWidth": 1348,
+        "viewport": 1348,
+        "jumps": [
+          {
+            "id": "scope",
+            "top": 105
+          },
+          {
+            "id": "handoff",
+            "top": 105
+          },
+          {
+            "id": "fit",
+            "top": 105
+          },
+          {
+            "id": "proof",
+            "top": 105
+          },
+          {
+            "id": "investment",
+            "top": 105
+          },
+          {
+            "id": "questions",
+            "top": 105
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "page": "lead",
+        "mode": "Mobile · 390px",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Plan Your Lead Generation Campaign\n↗",
+            "width": 333
+          },
+          {
+            "clipped": false,
+            "height": 72.59375,
+            "label": "Check Your Campaign Readiness\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Calculate Your Campaign ROI\n↗",
+            "width": 281
+          },
+          {
+            "clipped": false,
+            "height": 72.59375,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 333
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B lead generation services.\nBuilt around your buyers.",
+        "pageWidth": 373,
+        "viewport": 373,
+        "faq": {
+          "open": 7,
+          "visible": true
+        },
+        "jumps": [
+          {
+            "id": "scope",
+            "top": 90
+          },
+          {
+            "id": "handoff",
+            "top": 90
+          },
+          {
+            "id": "fit",
+            "top": 90
+          },
+          {
+            "id": "proof",
+            "top": 90
+          },
+          {
+            "id": "investment",
+            "top": 90
+          },
+          {
+            "id": "questions",
+            "top": 90
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "page": "calling",
+        "mode": "Desktop",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Discuss Your Calling Campaign\n↗",
+            "width": 276.890625
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 299.65625
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Check Your Cold Call Script\n↗",
+            "width": 251.78125
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Use the Meeting Quality Check\n↗",
+            "width": 275.078125
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 310.3125
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps.",
+        "pageWidth": 1348,
+        "viewport": 1348,
+        "jumps": [
+          {
+            "id": "calling-process",
+            "top": 105
+          },
+          {
+            "id": "conversation",
+            "top": 105
+          },
+          {
+            "id": "reporting",
+            "top": 105
+          },
+          {
+            "id": "calling-proof",
+            "top": 105
+          },
+          {
+            "id": "calling-cost",
+            "top": 105
+          },
+          {
+            "id": "questions",
+            "top": 105
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "page": "calling",
+        "mode": "Mobile · 390px",
+        "brokenImages": 0,
+        "buttons": [
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Discuss Your Calling Campaign\n↗",
+            "width": 333
+          },
+          {
+            "clipped": false,
+            "height": 72.59375,
+            "label": "See How We’d Run Your Campaign\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Check Your Cold Call Script\n↗",
+            "width": 333
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Use the Meeting Quality Check\n↗",
+            "width": 278
+          },
+          {
+            "clipped": false,
+            "height": 52.296875,
+            "label": "Book a Free 30-Minute Strategy Call\n↗",
+            "width": 333
+          }
+        ],
+        "font": "Archivo, sans-serif",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps.",
+        "pageWidth": 373,
+        "viewport": 373,
+        "faq": {
+          "open": 7,
+          "visible": true
+        },
+        "jumps": [
+          {
+            "id": "calling-process",
+            "top": 90
+          },
+          {
+            "id": "conversation",
+            "top": 90
+          },
+          {
+            "id": "reporting",
+            "top": 90
+          },
+          {
+            "id": "calling-proof",
+            "top": 90
+          },
+          {
+            "id": "calling-cost",
+            "top": 90
+          },
+          {
+            "id": "questions",
+            "top": 90
+          }
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "page": "lead",
+        "button": "Check Your Campaign Readiness",
+        "url": "http://terminal.local:4173/b2b-lead-generation-audit/",
+        "heading": "Find what is holding your outbound campaign back.",
+        "booking": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_lead&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-lead-generation%7Cpage%3Db2b-lead-generation-audit%7Cbutton%3Dheader"
+      },
+      {
+        "page": "lead",
+        "button": "Calculate Your Campaign ROI",
+        "url": "http://terminal.local:4173/b2b-lead-generation-roi-calculator/",
+        "heading": "B2B lead generation\nROI calculator.",
+        "booking": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_lead&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-lead-generation%7Cpage%3Db2b-lead-generation-roi-calculator%7Cbutton%3Dheader"
+      },
+      {
+        "page": "lead",
+        "button": "See How We’d Run Your Campaign",
+        "url": "http://terminal.local:4173/b2b-outbound-campaign-planner/",
+        "heading": "See how we would get\nyour next sales\nconversation started.",
+        "booking": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_lead&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-lead-generation%7Cpage%3Db2b-outbound-campaign-planner%7Cbutton%3Dheader"
+      },
+      {
+        "page": "calling",
+        "button": "See How We’d Run Your Campaign",
+        "url": "http://terminal.local:4173/b2b-outbound-campaign-planner/",
+        "heading": "See how we would get\nyour next sales\nconversation started.",
+        "booking": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Db2b-outbound-campaign-planner%7Cbutton%3Dheader"
+      },
+      {
+        "page": "calling",
+        "button": "Check Your Cold Call Script",
+        "url": "http://terminal.local:4173/cold-call-script-checker/",
+        "heading": "Check your\ncold call opening.",
+        "booking": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dcold-call-script-checker%7Cbutton%3Dheader"
+      },
+      {
+        "page": "calling",
+        "button": "Use the Meeting Quality Check",
+        "url": "http://terminal.local:4173/b2b-meeting-quality-check/",
+        "heading": "Are your booked meetings turning into sales opportunities?",
+        "booking": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Db2b-meeting-quality-check%7Cbutton%3Dheader"
+      }
+    ],
+    "bookings": [
+      {
+        "id": "22",
+        "title": "Select a Date & Time - Calendly",
+        "url": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_lead&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-lead-generation%7Cpage%3Dservice%3Ab2b-lead-generation%7Cbutton%3Dclosing&month=2026-10"
+      },
+      {
+        "id": "23",
+        "title": "Select a Date & Time - Calendly",
+        "url": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_lead&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-lead-generation%7Cpage%3Dservice%3Ab2b-lead-generation%7Cbutton%3Dhero&month=2026-10",
+        "calendarVerified": true
+      },
+      {
+        "id": "24",
+        "title": "Select a Date & Time - Calendly",
+        "url": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-cold-calling%7Cbutton%3Dhero&month=2026-10"
+      },
+      {
+        "id": "25",
+        "title": "Select a Date & Time - Calendly",
+        "url": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-cold-calling%7Cbutton%3Dclosing&month=2026-10"
+      }
+    ],
+    "inbound": [
+      {
+        "source": "/services/",
+        "destination": "/services/b2b-lead-generation/",
+        "label": "Explore B2B Lead Generation →",
+        "heading": "B2B lead generation services.\nBuilt around your buyers."
+      },
+      {
+        "source": "/services/",
+        "destination": "/services/b2b-cold-calling/",
+        "label": "Explore B2B Cold Calling →",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps."
+      },
+      {
+        "source": "/articles/b2b-lead-generation-services/",
+        "destination": "/services/b2b-lead-generation/",
+        "label": "managed B2B lead generation services",
+        "heading": "B2B lead generation services.\nBuilt around your buyers."
+      },
+      {
+        "source": "/articles/outbound-lead-generation/",
+        "destination": "/services/b2b-lead-generation/",
+        "label": "B2B lead generation service",
+        "heading": "B2B lead generation services.\nBuilt around your buyers."
+      },
+      {
+        "source": "/articles/b2b-cold-calling-strategy/",
+        "destination": "/services/b2b-cold-calling/",
+        "label": "B2B cold calling services",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps."
+      },
+      {
+        "source": "/resources/cold-call-scripts/",
+        "destination": "/services/b2b-cold-calling/",
+        "label": "managed B2B cold calling services",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps."
+      }
+    ],
+    "source": [
+      {
+        "page": "calling",
+        "bookings": [
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-cold-calling%7Cbutton%3Dheader",
+            "label": "Book a Free Call"
+          },
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-cold-calling%7Cbutton%3Dhero",
+            "label": "Discuss Your Calling Campaign\n↗"
+          },
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-cold-calling%7Cbutton%3Dclosing",
+            "label": "Book a Free 30-Minute Strategy Call\n↗"
+          },
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-cold-calling%7Cbutton%3Dfooter",
+            "label": "Book a free strategy call →"
+          }
+        ]
+      },
+      {
+        "page": "lead",
+        "bookings": [
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-lead-generation%7Cbutton%3Dheader",
+            "label": "Book a Free Call"
+          },
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-lead-generation%7Cbutton%3Dhero",
+            "label": "Plan Your Lead Generation Campaign\n↗"
+          },
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-lead-generation%7Cbutton%3Dclosing",
+            "label": "Book a Free 30-Minute Strategy Call\n↗"
+          },
+          {
+            "href": "https://calendly.com/hello-callteam/new-meeting?utm_source=sandbox_qa_calling&utm_medium=preview&utm_campaign=commercial_services&utm_content=ct1%7Centry%3Dservice%3Ab2b-cold-calling%7Cpage%3Dservice%3Ab2b-lead-generation%7Cbutton%3Dfooter",
+            "label": "Book a free strategy call →"
+          }
+        ]
+      }
+    ],
+    "previewPageLinks": [
+      {
+        "from": "lead",
+        "to": "calling",
+        "activation": "keyboard",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps.",
+        "frames": 1
+      },
+      {
+        "from": "calling",
+        "to": "lead",
+        "activation": "keyboard",
+        "heading": "B2B lead generation services.\nBuilt around your buyers.",
+        "frames": 1
+      }
+    ],
+    "sourcePageLinks": [
+      {
+        "from": "calling",
+        "to": "lead",
+        "heading": "B2B lead generation services.\nBuilt around your buyers."
+      },
+      {
+        "from": "lead",
+        "to": "calling",
+        "heading": "B2B cold calling services.\nReal conversations.\nUseful next steps."
+      }
+    ],
+    "status": "passed",
+    "newBookingsCreated": 0,
+    "contactMessagesSent": 0,
+    "previewFix": "Reciprocal page links work through keyboard activation; page buttons reset each view."
+  }
+}

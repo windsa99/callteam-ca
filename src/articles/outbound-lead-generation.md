@@ -102,6 +102,8 @@ Write a short campaign brief that contains:
 
 This brief prevents each caller or copywriter from inventing a different campaign. It also gives managers something concrete to revise when market feedback arrives.
 
+If you need a team to execute the plan, CallTeam’s [B2B lead generation service](/services/b2b-lead-generation/) explains the managed research, outreach, qualification and reporting involved.
+
 ## Select accounts with an explicit reason
 
 Every account should enter the campaign for a reason. The reason may be firmographic fit, a technology environment, a location, a hiring pattern, a regulatory change, an ownership event, prior engagement, or another observable condition.

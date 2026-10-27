@@ -1,0 +1,1 @@
+<section class="mp-section mp-paper" id="questions"><div class="mp-wrap mp-faq-layout"><div><p class="mp-kicker">Before we work together</p><h2>{{ faqHeading }}</h2><p>{{ faqIntro }}</p></div><div class="mp-faqs">{% for item in service.faq %}<details><summary>{{ item.q }}</summary><p>{{ item.a }}</p></details>{% endfor %}</div></div></section>

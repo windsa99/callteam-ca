@@ -115,6 +115,8 @@ A campaign provider manages a defined audience and outreach motion. Scope may in
 
 Campaign execution is useful when the target and offer are reasonably clear but internal activity is inconsistent. It still requires decisions about qualification, CRM access, and the handoff to sales.
 
+Explore CallTeam’s [managed B2B lead generation services](/services/b2b-lead-generation/) to see the work, responsibilities and sales handoff we would scope for a campaign.
+
 ### Appointment-setting teams
 
 Appointment setting adds an explicit objective: create a sales meeting that meets agreed criteria. The provider should own more than sending an invitation. It may need to confirm the contact, discover relevant context, qualify the opportunity, schedule the right participants, and support attendance.

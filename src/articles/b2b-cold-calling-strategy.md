@@ -110,6 +110,8 @@ Without those decisions, the campaign usually becomes a list, a script, and an a
 
 This guide focuses on the phone channel itself. The broader [outbound lead generation guide](/articles/outbound-lead-generation/) covers email, LinkedIn, follow-up, and the complete multichannel system. Here, the job is narrower: build a calling operation that can create, qualify, and improve live B2B conversations.
 
+For a managed calling team, explore our [B2B cold calling services](/services/b2b-cold-calling/) and the preparation, follow-up and meeting handoff included in a scoped engagement.
+
 ## What a B2B cold calling strategy must decide
 
 A strategy is a connected set of choices. It should tell the team where to spend calling time, how to prepare, how to conduct the conversation, and what to do with each outcome.
