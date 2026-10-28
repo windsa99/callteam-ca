@@ -1,0 +1,68 @@
+CALLTEAM: SAAS AND MSP LANDING PAGE REVIEW
+Verified October 28, 2026. Sandbox only. No production or main-branch update.
+
+BASELINE AND PURPOSE
+Roadmap: https://chatgpt.com/space/page_eb513750079081918d5d3030831a638a
+Strategy: CallTeam-Landing-Page-Strategy.pdf, supplied Library file libfile_9200b9568f84819197779bac3923ea70. Native read returned no text; the actual 12-page PDF was materialized and extracted with pdftotext.
+Fresh origin/main: 784a14ed4e1e5f2751eb26f7f5058c44b8a1f3f6. Read AGENTS.md. The SalesHive and first two commercial pages already exist; these were retained. Live reference page bytes matched the clean baseline. Live sitemap contained neither new destination. Existing SaaS guides, general appointment setting, fintech and cybersecurity services remain distinct destinations.
+
+Historical evidence: the October 26 strategy report's prior 90-day export recorded 11 impressions for the SaaS appointment-setting article, seven for software lead generation and ten for the SaaS case study. These are historical page observations, not keyword search volume, current metrics or a forecast. The report recommends a SaaS/IT service cluster connected to existing evidence and scripts. The agreed roadmap narrows this run to the SaaS and MSP pair.
+
+PAGE 1: SAAS APPOINTMENT SETTING SERVICES
+Proposed URL: https://www.callteam.ca/services/saas-appointment-setting/
+Purpose: a commercial service destination for software vendors buying research, calling and demo/discovery qualification. Existing guides teach the task; this page describes commissioning it.
+Specific content: product use cases, process owners versus technical evaluators and budget owners, current tools, integration objections, demo versus discovery choice, an explicitly illustrative handoff, confirmation ownership and seller follow-through. Seven FAQs use the same data as FAQ structured markup. About 1,459 words.
+Published evidence: location-intelligence SaaS, 11 qualified demos in 90 days; four opportunities and two customers within six months. HR/workforce software, nine booked demos and two proposals in its first 90 days. Payment-platform case, 15 qualified demos in 90 days and three campaign closed deals. Do not combine the different windows or treat booked as attended. Client names stay withheld.
+
+PAGE 2: MSP LEAD GENERATION SERVICES
+Proposed URL: https://www.callteam.ca/services/msp-lead-generation/
+Purpose: help managed IT providers scope acquisition around accounts they can actually support, rather than create another general lead-generation guide.
+Specific content: territory and support coverage, target account and user profile, full versus co-managed support, responsible decision makers, incumbent satisfaction, renewal timing, future callbacks, technical handoff and assessment ownership. Seven FAQs. About 1,478 words.
+Evidence boundary: the IT recovery case reports 22 BOOKED meetings over SIX MONTHS in a mixed-sector disaster-recovery campaign. Attendance and downstream sales were not reported. The separate manufacturing cybersecurity campaign reports nine qualified appointments and three opportunities in 90 days. Neither proves recurring MSP client wins. The page says this explicitly.
+
+PRIMARY SOURCES AND VERIFIED CLAIMS
+Checked October 28, 2026:
+https://www.callteam.ca/case-studies/saas-demo-appointment-setting/ — SaaS outcome and six-month customer window.
+https://www.callteam.ca/case-studies/hr-software-lead-generation/ — nine bookings, two proposals, first 90 days.
+https://www.callteam.ca/case-studies/fintech-payment-platform-appointment-setting/ — payments case, kept separate from credit-union work.
+https://www.callteam.ca/case-studies/it-disaster-recovery-appointment-setting/ — 22 bookings in six months; limitations retained.
+https://www.callteam.ca/case-studies/manufacturing-cybersecurity-appointment-setting/ — nine appointments, three opportunities, 90 days.
+https://www.callteam.ca/pricing/ — campaign-ready programs from US$4,000/month; usable account/contact data, offer and market, CRM/calendar access and available sellers assumed. Research, data licensing, validation and resources affect scope. Most programs start with an initial three-month engagement. No pricing page or commercial terms changed.
+https://www.salesforce.com/blog/sales/bant-vs-meddic/ — primary guidance on qualification and decision process. Used for scope judgement, not to imply every early call establishes full purchase readiness.
+https://learn.microsoft.com/en-us/microsoft-365/lighthouse/m365-lighthouse-overview?view=o365-worldwide — primary background on MSP customer-management context. No Microsoft affiliation, certification or service promise inferred.
+https://developers.google.com/search/docs/fundamentals/creating-helpful-content — original, useful buyer information rather than cloned keyword pages.
+
+CURRENT INTENT AND PROVIDER REVIEW
+Searches for SaaS appointment setting and MSP lead generation returned service-oriented results alongside guides. Official provider pages inspected: https://appointmentsetters.us/industries/saas and https://www.sapphirerevenue.com/industries/managed-it-services/ . Their offers use different channels and commercial models, reinforcing the need to explain CallTeam's actual scope and qualification. This is a qualitative search observation, not measured demand or a ranking prediction. No competitor backlinks appear on the new landing pages; no competitor prices or promises are adopted.
+
+DESIGN AND IMPLEMENTATION
+Established Archivo/Inter fonts, commercial-services.css, shared header/footer and contact form are reused without modifications. HTML renders at build time. Each destination has its own title, description, H1, canonical, social metadata and matching WebPage/Service/Breadcrumb/FAQ graph. Sitemap adds only the two new records. There is no landing-page article byline. Combined career experience is not described as company history.
+Original Calendly event: https://calendly.com/hello-callteam/new-meeting . Existing attribution script is unchanged. Hero and closing placements are explicit. Campaign source/content, original entry page, current page and button placement pass 32 model checks through service, tool and pricing navigation.
+
+EXACT PROPOSED INBOUND LINKS
+To SaaS:
+/services/ — new SaaS card in existing industry cards.
+/articles/b2b-appointment-setting-saas-companies/ — added service paragraph before final H2.
+/articles/b2b-lead-generation-software-companies/ — added service paragraph before final H2.
+/case-studies/saas-demo-appointment-setting/ — service route at end of main content.
+/case-studies/hr-software-lead-generation/ — service route at end of main content.
+To MSP:
+/services/ — new MSP card in existing industry cards.
+/articles/it-services-outbound-sales-playbook/ — service paragraph before final H2.
+/case-studies/it-disaster-recovery-appointment-setting/ — service route after evidence, explicitly retaining the recovery/MSP distinction.
+/resources/cold-call-scripts/msp-cold-call-script-managed-it-services/
+/resources/cold-call-scripts/microsoft-365-managed-services-cold-call-script/
+/resources/cold-call-scripts/ucaas-cold-call-script-it-leaders/
+/resources/cold-call-scripts/sd-wan-cold-call-script-network-it-leaders/
+/resources/cold-call-scripts/disaster-recovery-services-cold-call-script/
+The five script links use an exact-slug conditional before main closes. Other script output stays identical. All existing metadata, links and copy are retained. The purpose is a useful path from instruction or evidence to delivery, not a global navigation change. New pages link to their own evidence, relevant guides, general services, pricing, Campaign Planner, ROI Calculator and Meeting Quality Check. No forced cross-link between the unrelated SaaS and MSP sales audiences.
+Machine-readable exact additions are in cross-link-manifest.json.
+
+TWO-PASS VALIDATION
+Both clean builds passed the unchanged build pipeline: attribution, Article Engine, ROI, campaign, meeting-quality, rendered tool CTA, authorship and contact-form checks. Both passed check:library and check:scripts. Both passed additional scoped checks for unique H1/metadata, valid links/anchors, canonical/social URL, schema and visible FAQ agreement, forms matching baseline, sitemap preservation and preview text parity/embedded assets/script compilation. Four main buttons per page, seven FAQs per page, four total-page booking links per page. 32 attribution cases passed per pass.
+Two clean output trees are byte-identical: 348 files. Relative to current production baseline, only two pages are new; 12 existing pages gain the listed links, plus sitemap entries. 273 unrelated HTML pages and all 59 existing assets are byte-identical. Page-specific narrative passages are distinct; price and operating boilerplate intentionally agree.
+
+HONEST LIMITS / RELEASE GATE
+Desktop/mobile browser rendering, actual FAQ and tool clicks, and booking clicks from the new pages remain unverified. The browser could not reach the separate local server, and its security policy rejected local-file navigation. No alternate browser or policy bypass was attempted. The original Calendly event was independently opened in the supported browser: it displayed the existing 30-minute strategy call and available dates. No booking or message was created.
+The self-contained HTML review file includes SaaS/MSP and Desktop/Mobile controls, embedded fonts/images/styles, and disabled contact sending. Its content, links and script syntax were statically verified; this is not a claim of rendered browser interaction.
+Before deployment: complete the outstanding rendered desktop/mobile checks and button/FAQ/Calendly interactions, refresh main again, rebuild baseline if it moved, and revalidate preservation. No production change is authorised by this review delivery.

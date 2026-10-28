@@ -1,0 +1,367 @@
+{
+  "saas": {
+    "slug": "saas-appointment-setting",
+    "name": "SaaS Appointment Setting Services",
+    "seo": "SaaS Appointment Setting Services & Demo Booking | CallTeam",
+    "description": "SaaS appointment setting with account research, human calling, demo qualification and sales handoff. See campaign evidence, responsibilities and pricing.",
+    "summary": "CallTeam helps B2B software companies research suitable accounts, reach relevant buyers, qualify the reason to meet and book product demos or discovery calls with sales context.",
+    "kicker": "B2B software / Human-led appointment setting",
+    "headline": "SaaS appointment setting.<br><span>Give every demo a purpose.</span>",
+    "lead": "Reach buyers with a workflow your software can improve.",
+    "intro": "Build a prospecting campaign around the use case, the people involved and the questions your seller needs answered before showing the product.",
+    "book": "Plan Your SaaS Campaign",
+    "panel": "From software fit<br>to a useful demo.",
+    "stages": [
+      [
+        "Define the use case",
+        "Choose accounts where the product solves a relevant operating problem."
+      ],
+      [
+        "Find the buying roles",
+        "Reach the process owner and identify evaluation stakeholders."
+      ],
+      [
+        "Qualify the conversation",
+        "Establish the current approach, reason to explore and meeting purpose."
+      ],
+      [
+        "Prepare your seller",
+        "Deliver context, open questions and an agreed next step."
+      ]
+    ],
+    "scopeTitle": "Sell the workflow.<br>Earn the product conversation.",
+    "scopeIntro": "A feature list rarely tells a buyer why a meeting deserves their time. We prepare the campaign around a specific job your software helps them do.",
+    "scope": [
+      [
+        "Accounts with a plausible use case",
+        "Agree industries, company profiles, territories and exclusions. Use verified technology or operating signals where available; treat missing information as something to establish.",
+        "A target account brief tied to the product."
+      ],
+      [
+        "Users, owners and evaluators",
+        "Choose the function that owns the workflow. A user, department leader, IT evaluator and budget owner can play different roles in the same purchase.",
+        "Buyer roles and a route to wider discovery."
+      ],
+      [
+        "Product-specific messaging",
+        "Translate approved capabilities into the buyer’s task. Prepare questions about the existing process, integration concerns and the cost of leaving it unchanged.",
+        "A call approach your product team can stand behind."
+      ],
+      [
+        "Human calls and follow-up",
+        "People ask questions, handle initial resistance and work agreed callbacks. AI can assist research and preparation; your team approves claims and proof.",
+        "Buyer responses and a recorded next action."
+      ],
+      [
+        "Demo or discovery qualification",
+        "Confirm account fit, role relevance, a real use case and interest in the next conversation. Agree when discovery should come before a product demonstration.",
+        "A meeting type matched to what is known."
+      ],
+      [
+        "Calendar and sales handoff",
+        "Pass the current workflow, buyer language, existing tools, timing and open questions through the agreed CRM or reporting process.",
+        "A prepared seller with a clear meeting objective."
+      ]
+    ],
+    "qualificationTitle": "What makes a software demo<br>worth booking?",
+    "qualificationText": "Write the acceptance standard together before outreach. A suitable company and a polite yes are only the start. The buyer should understand what the session will cover.",
+    "checks": [
+      "Account fits the agreed product use case and commercial profile.",
+      "Contact owns, uses, influences or evaluates the workflow.",
+      "Current process and a specific reason to explore are recorded.",
+      "Known timing, constraints and other stakeholders are captured.",
+      "Buyer agrees to the meeting purpose and relevant attendees.",
+      "Unknown budget or authority stays marked as unknown."
+    ],
+    "exampleLabel": "Illustrative SaaS handoff / not a client record",
+    "exampleTitle": "Show the approval workflow.",
+    "example": [
+      [
+        "Account",
+        "Multi-site services company in the agreed segment."
+      ],
+      [
+        "Contact",
+        "Operations lead responsible for field approvals."
+      ],
+      [
+        "Current approach",
+        "Supervisors reconcile updates in spreadsheets."
+      ],
+      [
+        "Demo focus",
+        "Show how an approval moves from a field update to a manager."
+      ],
+      [
+        "Open questions",
+        "Integration ownership, security review and budget approval."
+      ]
+    ],
+    "objectionsTitle": "Work with the objection.<br>Keep the next step relevant.",
+    "objections": [
+      [
+        "“We already have software.”",
+        "Ask which part of the workflow is covered and where manual work remains. Continue only if the product addresses a gap the buyer recognises."
+      ],
+      [
+        "“Integration would be difficult.”",
+        "Capture the system and the concern. Your technical seller assesses feasibility; the caller does not promise an integration."
+      ],
+      [
+        "“Send me information.”",
+        "Identify the use case the buyer wants to review, send agreed material and ask whether a specific follow-up would help."
+      ]
+    ],
+    "followTitle": "The work continues<br>after a calendar invitation.",
+    "follow": "Agree confirmation and rescheduling ownership before launch. Your account executive leads discovery and demos, answers product questions and owns proposals and closing. Feed back why meetings were accepted, declined or deferred so the next conversations improve.",
+    "metrics": "Review booked, attended, sales-accepted and opportunity stages separately. A booking is not proof of attendance, and a demo is not automatically an opportunity.",
+    "fitTitle": "For software teams<br>ready to develop the sale.",
+    "fit": [
+      "A defined B2B product and a credible use case.",
+      "An audience you can identify and commercially serve.",
+      "Customer value and margin that support human outreach.",
+      "Available sellers who can run discovery and product demos."
+    ],
+    "fitNote": "Bring approved product claims, case evidence, integrations and exclusions. If the immediate need is to recover dormant trials or old demo requests, explore lead reactivation instead.",
+    "cases": [
+      {
+        "sector": "Location-intelligence SaaS",
+        "number": "11",
+        "label": "qualified demos in 90 days",
+        "result": "Four opportunities; two customers within six months.",
+        "detail": "Property-market buyers were approached around their research workflow.",
+        "href": "/case-studies/saas-demo-appointment-setting/",
+        "link": "Read the SaaS case"
+      },
+      {
+        "sector": "HR and workforce software",
+        "number": "9",
+        "label": "booked demos in the first 90 days",
+        "result": "Two proposals during that period.",
+        "detail": "The conversation focused on training records and role qualifications.",
+        "href": "/case-studies/hr-software-lead-generation/",
+        "link": "Read the workforce software case"
+      },
+      {
+        "sector": "FinTech payment platform",
+        "number": "15",
+        "label": "qualified demos in 90 days",
+        "result": "Three closed deals from the campaign.",
+        "detail": "An adjacent software example with payment-specific targeting and qualification.",
+        "href": "/case-studies/fintech-payment-platform-appointment-setting/",
+        "link": "Read the payment platform case"
+      }
+    ],
+    "proofIntro": "Published software campaigns with their own audiences and timeframes. These are past outcomes, not a forecast for your product.",
+    "resources": "<a href=\"/articles/qualify-software-demo-before-booking/\">Software demo qualification guide</a> · <a href=\"/articles/b2b-appointment-setting-saas-companies/\">SaaS appointment-setting guide</a> · <a href=\"/articles/b2b-lead-generation-software-companies/\">Software lead generation guide</a>",
+    "faq": [
+      {
+        "q": "Do you book product demos or discovery calls?",
+        "a": "We agree the meeting type around your sales process. A defined use case may justify a focused demo; an unclear environment may need discovery first. The buyer knows the purpose and your seller receives the context."
+      },
+      {
+        "q": "Can you target specific software buyers?",
+        "a": "We agree account profiles, buyer roles, territories and exclusions. Relevant existing tools or operating signals can inform research when verified. We do not treat an assumed technology stack as a confirmed fact."
+      },
+      {
+        "q": "What happens when budget or buying authority is unknown?",
+        "a": "We record the gap and follow your acceptance rules. Early interest does not establish purchasing authority or approved budget. Your seller develops the decision path during discovery."
+      },
+      {
+        "q": "Can you follow up old demo enquiries?",
+        "a": "Yes, when the records and outreach are suitable for the agreed campaign. A dormant trial, event list or old enquiry needs a relevant new reason for contact. Lead reactivation may be the better service for that scope."
+      },
+      {
+        "q": "What does SaaS appointment setting cost?",
+        "a": "Campaign-ready managed programs start at US$4,000 per month, with usable accounts or contacts, a defined offer and market, CRM and calendar access, and available sellers. Research, licensed data and extra resources affect scope. Most programs begin with an initial three-month engagement; confirm your proposal."
+      },
+      {
+        "q": "Do you guarantee demos or new customers?",
+        "a": "No fixed demo volume or customer outcome is promised here. Results depend on product relevance, audience, data, access to buyers and sales follow-through. Published results describe individual past campaigns."
+      },
+      {
+        "q": "Who handles the demo and the follow-up sale?",
+        "a": "Your team runs discovery and product demonstrations, technical evaluation, proposals and closing. We agree prospecting, confirmation, rescheduling, handoff and feedback responsibilities before launch."
+      }
+    ],
+    "serviceType": "SaaS Appointment Setting Services"
+  },
+  "msp": {
+    "slug": "msp-lead-generation",
+    "name": "MSP Lead Generation Services",
+    "seo": "MSP Lead Generation Services | Managed IT Appointments | CallTeam",
+    "description": "MSP lead generation built around service territory, client fit, current providers and contract timing. Explore human calling, IT sales handoff, proof and pricing.",
+    "summary": "CallTeam runs outbound lead generation for managed IT service providers, researching suitable businesses, calling relevant decision makers, qualifying service fit and arranging useful sales conversations.",
+    "kicker": "Managed IT services / Account fit before outreach",
+    "headline": "MSP lead generation.<br><span>Find clients you can serve well.</span>",
+    "lead": "Build conversations around the IT support your next client actually needs.",
+    "intro": "Set the territory, service profile and commercial criteria first. Then approach businesses with a relevant reason to discuss their current IT arrangements.",
+    "book": "Plan Your MSP Campaign",
+    "panel": "From account fit<br>to IT discovery.",
+    "stages": [
+      [
+        "Set the service boundary",
+        "Territory, company profile, support model and exclusions."
+      ],
+      [
+        "Find the responsible buyer",
+        "Business owner, operations leader or internal IT contact."
+      ],
+      [
+        "Understand the situation",
+        "Current provider, support gap, review timing and interest."
+      ],
+      [
+        "Hand off for discovery",
+        "A meeting brief your technical seller can use."
+      ]
+    ],
+    "scopeTitle": "Define a suitable client<br>before building the list.",
+    "scopeIntro": "A business in your postcode is not automatically a managed IT prospect. The campaign should reflect your capacity, delivery model and economics.",
+    "scope": [
+      [
+        "Service territory and coverage",
+        "Agree where you can deliver remote and on-site support, the hours you cover and any location or sector restrictions.",
+        "Accounts inside your actual delivery footprint."
+      ],
+      [
+        "Client size and environment",
+        "Define a workable company or user range. Capture available site and endpoint context, supported platforms and exclusions without assuming a full technical inventory.",
+        "A practical account-fit standard."
+      ],
+      [
+        "Fully managed or co-managed",
+        "Separate owner-led businesses outsourcing IT from internal IT teams seeking extra capacity or specialist support. They need different conversations.",
+        "An audience and offer for each support model."
+      ],
+      [
+        "The people responsible",
+        "Approach owners or operations and finance leaders where they own IT decisions. In organisations with internal IT, establish the technical owner and purchasing path.",
+        "A relevant contact and known decision roles."
+      ],
+      [
+        "Current arrangements and timing",
+        "Ask about the present provider or internal setup, what works, what needs attention and when a review would be useful. Record renewal information only when confirmed.",
+        "A genuine reason to speak now or follow up later."
+      ],
+      [
+        "Qualification and handoff",
+        "Document service fit, the buyer’s concern, current arrangement, known review window and agreed meeting purpose. Your team performs technical assessment and scoping.",
+        "A discovery brief with clear unknowns."
+      ]
+    ],
+    "qualificationTitle": "A useful MSP lead<br>has more than contact details.",
+    "qualificationText": "Agree the minimum information needed to accept a first conversation. Avoid turning an unknown environment into a promise your service team cannot deliver.",
+    "checks": [
+      "Business fits your territory and target client profile.",
+      "Support requirement matches an agreed service offer.",
+      "Contact has responsibility or a credible route to the owner.",
+      "Current provider or internal arrangement is captured where disclosed.",
+      "Reason to review, timing and contract constraints are recorded.",
+      "Buyer accepts the discovery purpose; technical gaps remain explicit."
+    ],
+    "exampleLabel": "Illustrative MSP handoff / not a client record",
+    "exampleTitle": "Start with support coverage.",
+    "example": [
+      [
+        "Account",
+        "Regional firm with two sites inside your coverage area."
+      ],
+      [
+        "Contact",
+        "Operations director coordinating outsourced IT."
+      ],
+      [
+        "Situation",
+        "Current provider remains in place; escalation coverage is under review."
+      ],
+      [
+        "Timing",
+        "Contact will confirm the review date. No expiry date assumed."
+      ],
+      [
+        "Meeting",
+        "Compare support requirements and establish whether an assessment is useful."
+      ]
+    ],
+    "objectionsTitle": "Respect the incumbent.<br>Find the real buying window.",
+    "objections": [
+      [
+        "“We already have an IT provider.”",
+        "Ask whether the arrangement fully covers their needs and when it is next reviewed. A satisfied client may simply be outside the current campaign."
+      ],
+      [
+        "“We are under contract.”",
+        "Ask whether there is a suitable future review point. Record the date and permission to reconnect where offered; do not manufacture an urgent switch."
+      ],
+      [
+        "“Our IT team handles that.”",
+        "Establish whether the offer is relevant to their team. Co-managed support, recovery or a defined project should be discussed only if you provide it."
+      ]
+    ],
+    "followTitle": "Your technical team<br>owns the assessment.",
+    "follow": "CallTeam can manage the agreed prospecting, callbacks, appointment coordination and reporting. Your team validates the environment, service levels, onboarding requirements, transition risks and commercial proposal. Agree who follows up a no-show and who owns a future renewal callback.",
+    "metrics": "Keep near-term discovery, future-review accounts and poor-fit accounts distinct. Track attendance and sales acceptance separately from bookings, then feed back which conversations advanced.",
+    "fitTitle": "For MSPs with a clear offer<br>and room for the right clients.",
+    "fit": [
+      "A defined service area and delivery capacity.",
+      "A support package with explicit inclusions and exclusions.",
+      "Client value and margin that justify outbound investment.",
+      "An owner or technical seller available for discovery."
+    ],
+    "fitNote": "Bring your supported environments, minimum viable account profile, proof and onboarding constraints. A standalone security offer may fit our cybersecurity lead generation service more closely.",
+    "cases": [
+      {
+        "sector": "IT disaster recovery and resilience",
+        "number": "22",
+        "label": "booked meetings in six months",
+        "result": "Mixed-sector campaign; attendance and downstream sales were not reported.",
+        "detail": "Outreach explored infrastructure, recovery responsibilities and technical context. This was a recovery-services campaign, not a general MSP retainer campaign.",
+        "href": "/case-studies/it-disaster-recovery-appointment-setting/",
+        "link": "Read the IT recovery case"
+      },
+      {
+        "sector": "Manufacturing cybersecurity",
+        "number": "9",
+        "label": "qualified appointments in 90 days",
+        "result": "Three conversations became opportunities.",
+        "detail": "Adjacent IT security evidence focused on manufacturing operations. It does not establish managed IT client wins.",
+        "href": "/case-studies/manufacturing-cybersecurity-appointment-setting/",
+        "link": "Read the manufacturing security case"
+      }
+    ],
+    "proofIntro": "Related IT-services evidence supports the approach. Neither case is presented as proof of recurring MSP contracts won.",
+    "resources": "<a href=\"/resources/cold-call-scripts/msp-cold-call-script-managed-it-services/\">Managed IT calling script</a> · <a href=\"/articles/it-services-outbound-sales-playbook/\">IT services outbound playbook</a> · <a href=\"/services/cybersecurity-lead-generation/\">Cybersecurity lead generation</a>",
+    "faq": [
+      {
+        "q": "What is included in MSP lead generation?",
+        "a": "We scope target-account research, contact preparation, human calling, agreed follow-up, qualification, appointment coordination and reporting. The brief defines service territory, client criteria, exclusions and the route into your sales process."
+      },
+      {
+        "q": "Can you target fully managed and co-managed IT buyers?",
+        "a": "Yes, where those offers are part of your service. We separate businesses outsourcing IT from internal teams seeking support, with different contact roles, questions and acceptance criteria."
+      },
+      {
+        "q": "How do you handle businesses with an existing MSP?",
+        "a": "We ask about their current arrangements and any relevant gap or review point. If there is no reason to change, we record the outcome. A future callback is based on known timing and an agreed next action."
+      },
+      {
+        "q": "Do you verify contract expiry dates?",
+        "a": "We capture timing a buyer confirms and mark what remains unknown. We do not infer expiry dates from a provider name or claim every contacted business is ready to switch."
+      },
+      {
+        "q": "How much does an MSP outbound campaign cost?",
+        "a": "Campaign-ready managed programs start at US$4,000 per month. The starting scope assumes usable accounts or contacts, a defined offer and market, CRM and calendar access, and available sellers. Fresh research, licensed data and extra resources affect the fee. Most programs begin with an initial three-month engagement; your proposal sets the terms."
+      },
+      {
+        "q": "Does the IT case study prove MSP client wins?",
+        "a": "No. The disaster-recovery case reports 22 booked meetings in six months for a mixed-sector recovery-services campaign. Attendance and downstream sales were not reported. The manufacturing cybersecurity case is separate adjacent evidence, not an MSP contract result."
+      },
+      {
+        "q": "Who qualifies technical needs and closes the contract?",
+        "a": "We establish the agreed initial fit and reason to meet. Your technical seller assesses the environment, solution, service levels and transition requirements, then owns pricing, proposals and closing. No client-win or meeting-volume guarantee is made here."
+      }
+    ],
+    "serviceType": "MSP Lead Generation Services"
+  }
+}

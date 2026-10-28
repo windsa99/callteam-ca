@@ -1,0 +1,85 @@
+[
+  {
+    "source": "services/index.njk",
+    "placement": "Before <article class=\"services-card\" id=\"eg3-services-fintech\"",
+    "target": "SaaS or MSP as explicitly linked",
+    "added": "<article class=\"services-card\" style=\"grid-column:auto;min-height:260px\"><span class=\"services-tag\">Industry campaign</span><h3>SaaS Appointment Setting</h3><p>Research, human calling and demo qualification for software teams, with a prepared sales handoff.</p><a href=\"/services/saas-appointment-setting/\">Explore SaaS Appointment Setting \u2192</a></article>\n",
+    "rationale": "Add a service discovery route beside existing industry cards."
+  },
+  {
+    "source": "services/index.njk",
+    "placement": "Before <article class=\"services-card\" id=\"eg3-services-fintech\"",
+    "target": "SaaS or MSP as explicitly linked",
+    "added": "<article class=\"services-card\" style=\"grid-column:auto;min-height:260px\"><span class=\"services-tag\">Industry campaign</span><h3>MSP Lead Generation</h3><p>Reach suitable managed IT prospects with service-fit qualification and current-provider context.</p><a href=\"/services/msp-lead-generation/\">Explore MSP Lead Generation \u2192</a></article>\n",
+    "rationale": "Add a service discovery route beside existing industry cards."
+  },
+  {
+    "source": "articles/b2b-appointment-setting-saas-companies.md",
+    "placement": "Before final H2",
+    "added": "\nNeed a team to run this work? Explore our [SaaS appointment setting services](/services/saas-appointment-setting/).\n",
+    "rationale": "Convert how-to research into a relevant service choice."
+  },
+  {
+    "source": "articles/b2b-lead-generation-software-companies.md",
+    "placement": "Before final H2",
+    "added": "\nFor managed research, human calling and demo qualification, see our [software demo appointment-setting service](/services/saas-appointment-setting/).\n",
+    "rationale": "Connect software demand research to delivery."
+  },
+  {
+    "source": "articles/it-services-outbound-sales-playbook.md",
+    "placement": "Before final H2",
+    "added": "\nFor a managed campaign built around service fit and provider timing, explore our [MSP lead generation services](/services/msp-lead-generation/).\n",
+    "rationale": "Connect IT strategy to commissioned prospecting."
+  },
+  {
+    "source": "case-studies/saas-demo-appointment-setting.njk",
+    "placement": "Before </main>",
+    "target": "SaaS or MSP as explicitly linked",
+    "added": "<section class=\"section\"><div class=\"container\"><p>Considering a similar outbound workstream? Review our <a href=\"/services/saas-appointment-setting/\">SaaS appointment setting service</a> for scope, responsibilities and pricing context.</p></div></section>\n",
+    "rationale": "Provide a service route after the complete evidence without changing the result."
+  },
+  {
+    "source": "case-studies/hr-software-lead-generation.njk",
+    "placement": "Before </main>",
+    "target": "SaaS or MSP as explicitly linked",
+    "added": "<section class=\"section\"><div class=\"container\"><p>Considering a similar outbound workstream? Review our <a href=\"/services/saas-appointment-setting/\">SaaS demo qualification and appointment setting</a> for scope, responsibilities and pricing context.</p></div></section>\n",
+    "rationale": "Provide a service route after the complete evidence without changing the result."
+  },
+  {
+    "source": "case-studies/it-disaster-recovery-appointment-setting.njk",
+    "placement": "Before </main>",
+    "target": "SaaS or MSP as explicitly linked",
+    "added": "<section class=\"section\"><div class=\"container\"><p>Planning managed IT prospecting? This recovery-services case is related evidence, not an MSP contract result. Explore our <a href=\"/services/msp-lead-generation/\">MSP lead generation service</a> for scope, responsibilities and pricing context.</p></div></section>\n",
+    "rationale": "Provide a service route after the complete evidence without changing the result."
+  },
+  {
+    "source": "/resources/cold-call-scripts/msp-cold-call-script-managed-it-services/",
+    "placement": "Before main close, conditional on exact slug",
+    "added": "MSP lead generation services link",
+    "rationale": "Connect the relevant IT calling task to a managed service; other scripts unchanged."
+  },
+  {
+    "source": "/resources/cold-call-scripts/microsoft-365-managed-services-cold-call-script/",
+    "placement": "Before main close, conditional on exact slug",
+    "added": "MSP lead generation services link",
+    "rationale": "Connect the relevant IT calling task to a managed service; other scripts unchanged."
+  },
+  {
+    "source": "/resources/cold-call-scripts/ucaas-cold-call-script-it-leaders/",
+    "placement": "Before main close, conditional on exact slug",
+    "added": "MSP lead generation services link",
+    "rationale": "Connect the relevant IT calling task to a managed service; other scripts unchanged."
+  },
+  {
+    "source": "/resources/cold-call-scripts/sd-wan-cold-call-script-network-it-leaders/",
+    "placement": "Before main close, conditional on exact slug",
+    "added": "MSP lead generation services link",
+    "rationale": "Connect the relevant IT calling task to a managed service; other scripts unchanged."
+  },
+  {
+    "source": "/resources/cold-call-scripts/disaster-recovery-services-cold-call-script/",
+    "placement": "Before main close, conditional on exact slug",
+    "added": "MSP lead generation services link",
+    "rationale": "Connect the relevant IT calling task to a managed service; other scripts unchanged."
+  }
+]

@@ -196,6 +196,8 @@ During launch, listen for four forms of evidence: whether the account list is ac
 
 **CallTeam field observation:** We have seen software campaigns improve when the opening stopped explaining the platform and started testing one operating problem. The most useful early result was not always a meeting. Sometimes it was a precise referral, a disqualifier, a renewal date, or the buyer's description of why the current process remained acceptable. That evidence made the next account and call better.
 
+For managed research, human calling and demo qualification, see our [software demo appointment-setting service](/services/saas-appointment-setting/).
+
 ## How CallTeam handles software-company lead generation
 
 CallTeam begins with the product, ICP, account exclusions, buying committee, commercial problem, approved claims, proof, qualification, sales capacity, and CRM handoff. Buyer Signal Radar and research help identify account changes and preparation points. Human callers create the live conversation, handle resistance, qualify or disqualify, earn referrals, follow up, confirm appropriate meetings, and document the buyer context.
