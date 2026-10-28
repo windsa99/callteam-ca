@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+const matter = require("gray-matter");
 const outboundLibrary = require("../src/_data/outboundLibrary");
 const callScripts = require("../src/_data/callScripts.js");
 
@@ -117,7 +118,10 @@ for (const route of requiredRoutes) {
   if (!footerSource.includes(`href="${route}"`)) fail(`Footer is missing ${route}`);
 }
 
-const articleFiles = walk(path.join(root, "src/articles"), ".md");
+const articleFiles = walk(path.join(root, "src/articles"), ".md").filter((file) => {
+  const tags = matter(read(file)).data.tags;
+  return Array.isArray(tags) ? tags.includes("articles") : tags === "articles";
+});
 if (articleFiles.length !== 138) fail(`Expected 138 article files, found ${articleFiles.length}.`);
 for (const file of articleFiles) {
   const slug = path.basename(file, ".md");

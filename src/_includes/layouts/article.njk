@@ -47,10 +47,11 @@ ogType: article
       "@id": "{{ articleCanonical }}#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
-        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
+        {% if awardAnnouncement %}{ "@type": "ListItem", "position": 2, "name": "Awards & Recognition", "item": "{{ site.url }}/awards/" },
+        { "@type": "ListItem", "position": 3, "name": {{ title | json | safe }}, "item": "{{ articleCanonical }}" }{% else %}{ "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
         {% if isObjectionDatabase %}{ "@type": "ListItem", "position": 3, "name": "Objection Database", "item": "{{ articleCanonical }}" }
         {% else %}{ "@type": "ListItem", "position": 3, "name": {{ libraryParent.label | json | safe }}, "item": "{{ site.url }}{{ libraryParent.url }}" },
-        { "@type": "ListItem", "position": 4, "name": {{ title | json | safe }}, "item": "{{ articleCanonical }}" }{% endif %}
+        { "@type": "ListItem", "position": 4, "name": {{ title | json | safe }}, "item": "{{ articleCanonical }}" }{% endif %}{% endif %}
       ]
     }{% if faqs and faqs.length > 0 %},
     {
@@ -106,16 +107,16 @@ ogType: article
 }
 </script>
 
-<nav class="breadcrumb-trail" aria-label="Breadcrumb">
+{% if awardAnnouncement %}<nav class="breadcrumb-trail" aria-label="Breadcrumb"><div class="container"><a href="/">Home</a> / <a href="/awards/">Awards & Recognition</a> / <span>{{ awards[awardKey].programme }}</span></div></nav>{% else %}<nav class="breadcrumb-trail" aria-label="Breadcrumb">
   <div class="container">
     <a href="/">Home</a> / <a href="/resources/outbound-sales-library/">Outbound Sales Library</a> /
     {% if isObjectionDatabase %}<span>Objection Database</span>
     {% else %}<a href="{{ libraryParent.url }}">{{ libraryParent.label }}</a> / <span>{{ title }}</span>{% endif %}
   </div>
-</nav>
+</nav>{% endif %}
 
 <article class="article-page">
-  <header class="hero article-hero">
+{% if awardAnnouncement %}{% include "awards/announcement-hero.njk" %}{% else %}  <header class="hero article-hero">
     <div>
       {% if category %}<div class="eyebrow">{{ category }}</div>{% endif %}
       <h1>{{ title }}</h1>
@@ -132,7 +133,7 @@ ogType: article
       </div>
       {% endif %}
     </div>
-  </header>
+  </header>{% endif %}
 
   {% if cards and cards.length > 0 %}
   <section class="article-takeaways" aria-labelledby="takeaways-heading">
@@ -154,7 +155,7 @@ ogType: article
   </section>
   {% endif %}
 
-  <aside class="article-library-context" aria-label="Outbound Sales Library location">
+{% if awardAnnouncement %}<aside class="award-context"><div class="container-wide"><span>Company recognition</span><p>Internationally recognised for B2B outbound calling, lead generation and appointment setting.</p><a href="/awards/">Explore our awards <span aria-hidden="true">→</span></a></div></aside>{% else %}  <aside class="article-library-context" aria-label="Outbound Sales Library location">
     <div class="container article-library-context-inner">
       <div>
         <span>Part of the Outbound Sales Library</span>
@@ -167,7 +168,7 @@ ogType: article
         <a href="/resources/outbound-sales-library/">Explore the full library →</a>
       </nav>
     </div>
-  </aside>
+  </aside>{% endif %}
 
   {% if objectionEntries and objectionEntries.length > 0 %}
   <section class="objection-directory" aria-labelledby="objection-directory-heading">

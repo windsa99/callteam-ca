@@ -1,0 +1,22 @@
+{
+  "ie100": {
+    "programme": "International Elite 100 Global Awards",
+    "edition": "2026",
+    "title": "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada",
+    "short": "Outbound Calling & Appointment Setting",
+    "image": "/assets/images/awards/international-elite-100-2026-winner.png",
+    "size": 591,
+    "url": "/articles/international-elite-100-award-2026/",
+    "label": "International Elite 100 2026 winner badge"
+  },
+  "global100": {
+    "programme": "Global 100 · GPMG",
+    "edition": "2027 edition",
+    "title": "B2B Lead Generation & Appointment Setting — Canada",
+    "short": "B2B Lead Generation & Appointment Setting",
+    "image": "/assets/images/awards/global-100-2027-winner.png",
+    "size": 2000,
+    "url": "/articles/global-100-award-2027/",
+    "label": "Global 100 2027 winner badge"
+  }
+}

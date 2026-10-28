@@ -1,0 +1,14 @@
+{% set recognition = awards[awardKey] %}
+<header class="award-story-hero">
+ <div class="container-wide award-story-grid">
+  <div class="award-story-intro">
+   <div class="award-kicker">CallTeam recognition <span>•</span> {{ recognition.edition }}</div>
+   <h1>{{ title }}</h1>
+   <p class="award-lead">{{ description }}</p>
+   <div class="article-byline"><span>Written by <a href="{{ articleAuthor.url }}" rel="author">{{ articleAuthor.name }}</a></span><span>Published by <a href="/">CallTeam</a></span></div>
+   <div class="award-story-links"><a href="#article-body">Read the announcement ↓</a><a href="/awards/">All CallTeam awards →</a></div>
+  </div>
+  <figure class="award-story-badge"><span class="award-badge-kicker">{{ recognition.programme }}</span><img src="{{ recognition.image }}" width="{{ recognition.size }}" height="{{ recognition.size }}" alt="{{ recognition.label }}" fetchpriority="high"><figcaption><strong>{{ recognition.title }}</strong><span>CallTeam · {{ recognition.edition }}</span></figcaption></figure>
+ </div>
+ <div class="container-wide award-quick-answer"><strong>At a glance</strong><p>{{ quickAnswer }}</p></div>
+</header>

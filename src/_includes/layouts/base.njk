@@ -17,14 +17,14 @@
 <meta property="og:description" content="{{ resolvedSocialDescription }}">
 <meta property="og:url" content="{{ resolvedCanonicalUrl }}">
 <meta property="og:image" content="{{ resolvedSocialImage }}">
-<meta property="og:image:width" content="1731">
-<meta property="og:image:height" content="909">
-<meta property="og:image:alt" content="CallTeam B2B sales execution">
+<meta property="og:image:width" content="{{ socialImageWidth or 1731 }}">
+<meta property="og:image:height" content="{{ socialImageHeight or 909 }}">
+<meta property="og:image:alt" content="{{ socialImageAlt or 'CallTeam B2B sales execution' }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ resolvedSocialTitle }}">
 <meta name="twitter:description" content="{{ resolvedSocialDescription }}">
 <meta name="twitter:image" content="{{ resolvedSocialImage }}">
-<meta name="twitter:image:alt" content="CallTeam B2B sales execution">
+<meta name="twitter:image:alt" content="{{ socialImageAlt or 'CallTeam B2B sales execution' }}">
 <link rel="icon" href="/assets/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -45,7 +45,8 @@
         "url": "{{ site.logo }}"
       },
       "email": {{ site.email | json | safe }},
-      "description": {{ site.description | json | safe }},
+      "description": {{ site.description | json | safe }},{% if organizationAwards %}
+      "award": {{ organizationAwards | json | safe }},{% endif %}
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "sales",
