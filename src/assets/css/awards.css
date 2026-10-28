@@ -1,4 +1,5 @@
 /* Award pages only. Shared site typography, navigation and form remain intact. */
+.award-story-hero h1 .award-headline-accent{color:var(--orange)}
 .awards-page,.award-story-hero,.award-context{--award-ink:var(--black);--award-accent:var(--orange);--award-paper:var(--grey-bg);--award-line:#e5e5e5}
 .awards-page h1,.awards-page h2,.awards-page h3,.award-story-hero h1{letter-spacing:-.02em;line-height:1.08}
 .awards-page .container-wide,.award-story-hero .container-wide,.award-context .container-wide{width:min(1080px,calc(100% - 80px));margin-inline:auto}

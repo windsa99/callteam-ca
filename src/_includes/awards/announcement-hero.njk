@@ -3,7 +3,12 @@
  <div class="container-wide award-story-grid">
   <div class="award-story-intro">
    <div class="award-kicker">CallTeam recognition <span>•</span> {{ recognition.edition }}</div>
+   {% if recognition.headlineAccent and recognition.headlineAccent in title %}
+   {% set headlineParts = title.split(recognition.headlineAccent) %}
+   <h1>{{ headlineParts[0] }}<span class="award-headline-accent">{{ recognition.headlineAccent }}</span>{{ headlineParts[1] }}</h1>
+   {% else %}
    <h1>{{ title }}</h1>
+   {% endif %}
    <p class="award-lead">{{ description }}</p>
    <div class="article-byline"><span>Written by <a href="{{ articleAuthor.url }}" rel="author">{{ articleAuthor.name }}</a></span><span>Published by <a href="/">CallTeam</a></span></div>
    <div class="award-story-links"><a href="#article-body">Read the announcement ↓</a><a href="/awards/">All CallTeam awards →</a></div>
