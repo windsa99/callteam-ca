@@ -1,0 +1,20 @@
+{% macro awardPanel(id, variant, heading, description) %}
+<aside class="ct-recognition ct-recognition--{{ variant }}" id="{{ id }}" data-ct-recognition aria-label="CallTeam awards and recognition">
+  <div class="ct-recognition-inner">
+    <div class="ct-recognition-copy"><div class="ct-recognition-eyebrow">CallTeam awards & recognition</div>{% set accent = "Multi-award-winning" if "Multi-award-winning" in heading else ("Internationally recognised" if "Internationally recognised" in heading else ("Award-winning" if "Award-winning" in heading else ("award-winning" if "award-winning" in heading else ""))) %}{% if accent %}{% set headingParts = heading.split(accent) %}<h2>{{ headingParts[0] }}<span>{{ accent }}</span>{{ headingParts[1] }}</h2>{% else %}<h2>{{ heading }}</h2>{% endif %}<p>{{ description }}</p><a class="ct-recognition-link" href="/awards/">Explore our awards →</a></div>
+    <div class="ct-recognition-marks">
+      {% for key, award in awards %}
+      <a class="ct-award-mark" href="{{ award.url }}" aria-label="{{ award.title }} · {{ award.programme }} · {{ award.edition }}" title="{{ award.title }}">
+        <img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}" loading="lazy" decoding="async">
+        <span class="ct-award-programme">{{ award.programme }}</span><span class="ct-award-edition">{{ award.edition }}</span>
+        {% if variant == 'full' %}<strong class="ct-award-title">{{ award.title }}</strong>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</aside>
+{% endmacro %}
+
+{% macro bookingRecognition(id) %}
+<p class="ct-booking-recognition" id="{{ id }}" data-ct-recognition><span aria-hidden="true">✓</span> <a href="/awards/">Multi-award-winning B2B outbound calling & appointment setting</a></p>
+{% endmacro %}

@@ -1,0 +1,56 @@
+/* CallTeam recognition placements: existing fonts, colours and booking flow. */
+.ct-recognition{color:var(--black);clear:both}
+.ct-recognition-inner{width:min(1080px,calc(100% - 80px));margin-inline:auto;display:grid;grid-template-columns:1.15fr 1fr;gap:44px;align-items:center}
+.ct-recognition--strip,.ct-recognition--library{padding:34px 0;background:var(--grey-bg);border-block:1px solid #e5e5e5}
+.ct-recognition-eyebrow{font-size:10px;line-height:1.6;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+.ct-recognition-copy h2{font-family:Archivo,sans-serif;font-size:27px;font-weight:900;line-height:1.18;letter-spacing:-.02em;margin:0 0 14px}
+.ct-recognition-copy p{font-size:14px;line-height:1.8;color:var(--grey-text);margin:0 0 16px;max-width:600px}
+.ct-recognition-link{display:inline-block;color:var(--black);font-size:13px;line-height:1.6;font-weight:700;text-decoration:none;border-bottom:1px solid #ccc;padding-bottom:3px}
+.ct-recognition-link:hover{color:var(--orange)}
+.ct-recognition-marks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.ct-award-mark{display:flex;flex-direction:column;align-items:center;text-align:center;color:var(--black);text-decoration:none!important;min-width:0}
+.ct-award-mark img{display:block;width:96px;height:96px;object-fit:contain;background:var(--black);border-radius:8px;padding:9px;box-sizing:content-box;margin:0 0 12px}
+.ct-award-programme{display:block;font-size:11px;font-weight:600;line-height:1.6;max-width:190px}
+.ct-award-edition{display:block;font-size:11px;line-height:1.6;color:var(--grey-text);margin-top:3px}
+.ct-award-mark:hover .ct-award-programme{text-decoration:underline}
+.ct-recognition a:focus-visible,.ct-booking-recognition a:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
+.ct-recognition--compact{width:min(1080px,calc(100% - 80px));box-sizing:border-box;margin:38px auto 48px;padding:26px 30px;border:1px solid #e5e5e5;border-left:3px solid var(--orange);border-radius:8px;background:var(--white)}
+.ct-recognition--compact .ct-recognition-inner{width:100%;grid-template-columns:1.5fr 1fr;gap:36px}
+.ct-recognition--compact .ct-recognition-copy h2{font-size:24px}
+.ct-recognition--compact .ct-award-mark img{width:72px;height:72px;padding:7px}
+.ct-recognition--compact .ct-award-programme{font-size:10px}
+.ct-recognition--full{padding:64px 0;background:var(--grey-bg);border-block:1px solid #e5e5e5}
+.ct-recognition--full .ct-recognition-inner{grid-template-columns:1fr;gap:32px}
+.ct-recognition--full .ct-recognition-copy{max-width:750px}
+.ct-recognition--full .ct-recognition-copy h2{font-size:38px}
+.ct-recognition--full .ct-recognition-copy p{font-size:16px}
+.ct-recognition--full .ct-recognition-marks{gap:28px;align-items:stretch}
+.ct-recognition--full .ct-award-mark{background:var(--white);border:1px solid #e5e5e5;border-top:3px solid var(--orange);border-radius:0 0 8px 8px;padding:28px}
+.ct-recognition--full .ct-award-mark img{width:118px;height:118px}
+.ct-award-title{font-family:Archivo,sans-serif;font-size:21px;line-height:1.35;font-weight:900;margin-top:18px;max-width:390px}
+.ct-recognition--library{margin-top:0}
+.ct-recognition--library .ct-recognition-copy h2{font-size:25px}
+.ct-recognition--library .ct-award-mark img{width:80px;height:80px}
+.ct-booking-recognition{font-size:13px!important;line-height:1.7!important;max-width:680px!important;margin:20px 0!important;color:inherit!important}
+.ct-booking-recognition a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.ct-booking-recognition>span{display:inline-block;margin-right:5px;font-weight:700}
+.home-final-cta .ct-booking-recognition{margin-inline:auto!important}
+.footer-brand .ct-footer-recognition{display:block;font-size:12px;line-height:1.8;color:#fff;text-decoration:none;margin-top:18px;max-width:270px}
+.footer-brand .ct-footer-recognition:hover{text-decoration:underline}
+.footer-brand .ct-footer-awards{display:grid;grid-template-columns:repeat(2,minmax(0,104px));gap:16px;margin-top:20px;max-width:224px}
+.footer-brand .ct-footer-award{display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0;color:#ddd;text-decoration:none;text-align:center}
+.footer-brand .ct-footer-award img{display:block;width:72px;height:72px;max-width:100%;object-fit:contain}
+.footer-brand .ct-footer-award span{font-size:10px;line-height:1.5;white-space:nowrap}
+.footer-brand .ct-footer-award:hover span{text-decoration:underline;text-underline-offset:3px}
+.footer-brand .ct-footer-award:focus-visible,.footer-brand .ct-footer-recognition:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
+@media(max-width:700px){.footer-brand .ct-footer-award img{width:64px;height:64px}.footer-brand .ct-footer-awards{margin-top:18px}}
+@media(max-width:900px){.ct-recognition-inner{gap:28px}.ct-recognition-copy h2{font-size:24px}.ct-recognition-marks{gap:14px}.ct-award-mark img{width:80px;height:80px}.ct-recognition--compact .ct-recognition-inner{grid-template-columns:1.2fr 1fr;gap:24px}.ct-recognition--compact{padding:24px}.ct-recognition--full .ct-recognition-inner{grid-template-columns:1fr}}
+@media(max-width:700px){.ct-recognition-inner{width:calc(100% - 40px);grid-template-columns:minmax(0,1fr);gap:26px}.ct-recognition--strip,.ct-recognition--library{padding:30px 0}.ct-recognition-copy h2{font-size:25px}.ct-recognition-copy p{font-size:14px}.ct-recognition-marks{gap:20px}.ct-award-mark img{width:84px;height:84px}.ct-recognition--compact{width:calc(100% - 40px);padding:24px;margin:28px auto 36px}.ct-recognition--compact .ct-recognition-inner{grid-template-columns:minmax(0,1fr);gap:24px}.ct-recognition--compact .ct-recognition-copy h2{font-size:23px}.ct-recognition--compact .ct-recognition-marks{gap:14px}.ct-recognition--compact .ct-award-mark img{width:70px;height:70px}.ct-recognition--full{padding:42px 0}.ct-recognition--full .ct-recognition-copy h2{font-size:31px}.ct-recognition--full .ct-recognition-marks{grid-template-columns:minmax(0,1fr);gap:22px}.ct-recognition--full .ct-award-mark{padding:26px}.ct-award-title{font-size:22px}.ct-booking-recognition{font-size:12px!important}.footer-brand .ct-footer-recognition{max-width:330px}}
+
+.ct-recognition-copy h2 span{color:var(--orange)}
+@media(min-width:1101px) and (max-width:1380px){.site-header{padding-inline:32px}.site-header .nav-links{gap:19px}.site-header .nav-links>a,.site-header .nav-group-link{white-space:nowrap}}
+
+@media(max-width:700px){.has-award-placements .contact-wrap{grid-template-columns:minmax(0,1fr)}.has-award-placements .contact-wrap>*,.has-award-placements .contact-form,.has-award-placements .form-row{min-width:0}.has-award-placements .form-row input,.has-award-placements .form-row textarea{width:100%;min-width:0;box-sizing:border-box}}
+@media(max-width:360px){.has-award-placements .mp-calling-page .mp-hero h1{font-size:32px}}
+
+.ct-recognition--library h2 span{white-space:nowrap}

@@ -144,7 +144,10 @@ faqSchema: |
       }
     ]
   }
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 
 <main class="home-outbound-page">
   <section class="hero home-hero">
@@ -185,7 +188,9 @@ faqSchema: |
     </div>
   </section>
 
-  <section class="home-proof-strip" aria-label="Experience behind CallTeam">
+
+{{ awardPanel("recognition-home", "strip", "Multi-award-winning B2B outbound calling & appointment setting.", "Internationally recognised for B2B lead generation, outbound calling and appointment setting.") }}
+<section class="home-proof-strip" aria-label="Experience behind CallTeam">
     <div class="home-proof-grid">
       <div><strong>500,000+</strong><span>outbound calls</span></div>
       <div><strong>1,000+</strong><span>sellers coached</span></div>
@@ -639,6 +644,7 @@ faqSchema: |
     <div class="section-label">Ready to put the list to work?</div>
     <h2>We can build the list, make the calls, and book the right conversations.</h2>
     <p>Tell us what you sell, who you want to reach, and what is sitting untouched. We will help identify the right starting point.</p>
+    {{ bookingRecognition("recognition-home-booking") }}
     <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
   </section>
 </main>

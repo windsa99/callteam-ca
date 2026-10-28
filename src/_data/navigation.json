@@ -3,40 +3,158 @@
     "label": "Services",
     "url": "/services/",
     "children": [
-      { "label": "Outbound Calling", "url": "/", "description": "Done-for-you calling and qualification" },
-      { "label": "AI Lead Generation", "url": "/ai-lead-generation-services/", "description": "AI-assisted research, human execution" },
-      { "label": "CallTeam AI GTM", "url": "/services/ai-gtm/", "description": "Turn buyer signals into sales conversations" },
-      { "label": "B2B Appointment Setting", "url": "/services/b2b-appointment-setting/", "description": "Qualified meetings with useful context" },
-      { "label": "Lead Reactivation Services", "url": "/services/lead-reactivation/", "description": "Recover neglected leads and pipeline" },
-      { "label": "Outsourced SDR Services", "url": "/services/outsourced-sdr/", "description": "A managed sales development function" },
-      { "label": "US Market Entry Sales", "url": "/services/us-market-entry-sales/", "description": "Build US pipeline from anywhere" },
-      { "label": "SDR Training Services", "url": "/services/sdr-training/", "description": "Train stronger outbound conversations" },
-      { "label": "Sales Execution Lab", "url": "/sales-execution-lab/", "description": "Build stronger sales behaviour" },
-      { "label": "90-Day Revenue Engine", "url": "/90-day-revenue-engine/", "description": "Rebuild the full pipeline system" }
+      {
+        "label": "Outbound Calling",
+        "url": "/",
+        "description": "Done-for-you calling and qualification"
+      },
+      {
+        "label": "AI Lead Generation",
+        "url": "/ai-lead-generation-services/",
+        "description": "AI-assisted research, human execution"
+      },
+      {
+        "label": "CallTeam AI GTM",
+        "url": "/services/ai-gtm/",
+        "description": "Turn buyer signals into sales conversations"
+      },
+      {
+        "label": "B2B Appointment Setting",
+        "url": "/services/b2b-appointment-setting/",
+        "description": "Qualified meetings with useful context"
+      },
+      {
+        "label": "Lead Reactivation Services",
+        "url": "/services/lead-reactivation/",
+        "description": "Recover neglected leads and pipeline"
+      },
+      {
+        "label": "Outsourced SDR Services",
+        "url": "/services/outsourced-sdr/",
+        "description": "A managed sales development function"
+      },
+      {
+        "label": "US Market Entry Sales",
+        "url": "/services/us-market-entry-sales/",
+        "description": "Build US pipeline from anywhere"
+      },
+      {
+        "label": "SDR Training Services",
+        "url": "/services/sdr-training/",
+        "description": "Train stronger outbound conversations"
+      },
+      {
+        "label": "Sales Execution Lab",
+        "url": "/sales-execution-lab/",
+        "description": "Build stronger sales behaviour"
+      },
+      {
+        "label": "90-Day Revenue Engine",
+        "url": "/90-day-revenue-engine/",
+        "description": "Rebuild the full pipeline system"
+      }
     ]
   },
-  { "label": "Case Studies", "url": "/case-studies/" },
-  { "label": "Sales Execution Lab", "url": "/sales-execution-lab/" },
-  { "label": "90-Day Revenue Engine", "url": "/90-day-revenue-engine/" },
-  { "label": "About", "url": "/about/" },
-  { "label": "Pricing", "url": "/pricing/" },
+  {
+    "label": "Case Studies",
+    "url": "/case-studies/"
+  },
+  {
+    "label": "Sales Execution Lab",
+    "url": "/sales-execution-lab/"
+  },
+  {
+    "label": "90-Day Revenue Engine",
+    "url": "/90-day-revenue-engine/"
+  },
+  {
+    "label": "About",
+    "url": "/about/",
+    "children": [
+      {
+        "label": "About CallTeam",
+        "url": "/about/",
+        "description": "Our people, experience and approach"
+      },
+      {
+        "label": "Awards & Recognition",
+        "url": "/awards/",
+        "description": "International recognition for B2B calling and appointment setting"
+      }
+    ]
+  },
+  {
+    "label": "Pricing",
+    "url": "/pricing/"
+  },
   {
     "label": "Resources",
     "url": "/resources/outbound-sales-library/",
     "children": [
-      { "label": "Outbound Sales Library", "url": "/resources/outbound-sales-library/", "description": "Find the right resource for every campaign stage", "featured": true },
-      { "label": "ROI Calculator", "url": "/b2b-lead-generation-roi-calculator/", "description": "Model campaign costs, returns and break-even" },
-      { "label": "Campaign Preview", "url": "/b2b-outbound-campaign-planner/", "description": "See the buyers, message and approach for your market" },
-      { "label": "Compare Agency Proposals", "url": "/lead-generation-proposal-comparison/", "description": "Compare costs, meeting definitions and scope" },
-      { "label": "Cold-Call Scripts", "url": "/resources/cold-call-scripts/", "description": "Copy free, practical B2B call scripts" },
-      { "label": "Check Your Cold Call Script", "url": "/cold-call-script-checker/", "description": "Review your opening and find relevant examples" },
-      { "label": "Meeting Quality Check", "url": "/b2b-meeting-quality-check/", "description": "Follow booked meetings through to sales opportunities" },
-      { "label": "Industry Playbooks", "url": "/resources/outbound-playbooks/industries/", "description": "Plan outbound for specific B2B markets" },
-      { "label": "Buyer Playbooks", "url": "/resources/outbound-playbooks/buyers/", "description": "Reach executives and buying committees" },
-      { "label": "Objection Database", "url": "/articles/cold-call-objection-handling/", "description": "Handle live resistance without forcing the call" },
-      { "label": "Qualification and Campaign Strategy", "url": "/resources/outbound-campaign-strategy/", "description": "Build the targeting, quality and operating system" }
+      {
+        "label": "Outbound Sales Library",
+        "url": "/resources/outbound-sales-library/",
+        "description": "Find the right resource for every campaign stage",
+        "featured": true
+      },
+      {
+        "label": "ROI Calculator",
+        "url": "/b2b-lead-generation-roi-calculator/",
+        "description": "Model campaign costs, returns and break-even"
+      },
+      {
+        "label": "Campaign Preview",
+        "url": "/b2b-outbound-campaign-planner/",
+        "description": "See the buyers, message and approach for your market"
+      },
+      {
+        "label": "Compare Agency Proposals",
+        "url": "/lead-generation-proposal-comparison/",
+        "description": "Compare costs, meeting definitions and scope"
+      },
+      {
+        "label": "Cold-Call Scripts",
+        "url": "/resources/cold-call-scripts/",
+        "description": "Copy free, practical B2B call scripts"
+      },
+      {
+        "label": "Check Your Cold Call Script",
+        "url": "/cold-call-script-checker/",
+        "description": "Review your opening and find relevant examples"
+      },
+      {
+        "label": "Meeting Quality Check",
+        "url": "/b2b-meeting-quality-check/",
+        "description": "Follow booked meetings through to sales opportunities"
+      },
+      {
+        "label": "Industry Playbooks",
+        "url": "/resources/outbound-playbooks/industries/",
+        "description": "Plan outbound for specific B2B markets"
+      },
+      {
+        "label": "Buyer Playbooks",
+        "url": "/resources/outbound-playbooks/buyers/",
+        "description": "Reach executives and buying committees"
+      },
+      {
+        "label": "Objection Database",
+        "url": "/articles/cold-call-objection-handling/",
+        "description": "Handle live resistance without forcing the call"
+      },
+      {
+        "label": "Qualification and Campaign Strategy",
+        "url": "/resources/outbound-campaign-strategy/",
+        "description": "Build the targeting, quality and operating system"
+      }
     ]
   },
-  { "label": "FAQ", "url": "/#faq" },
-  { "label": "Contact", "url": "/#contact" }
+  {
+    "label": "FAQ",
+    "url": "/#faq"
+  },
+  {
+    "label": "Contact",
+    "url": "/#contact"
+  }
 ]

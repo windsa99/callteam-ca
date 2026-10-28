@@ -10,7 +10,10 @@ socialTitle: "CallTeam B2B Outbound Calling Pricing"
 socialDescription: "See what CallTeam includes in a managed B2B outbound calling and appointment-setting program starting at US$4,000 per month."
 date: 2026-08-15
 modified: 2026-08-15
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -153,7 +156,9 @@ modified: 2026-08-15
     </div>
   </section>
 
-  <section class="pricing-proof-strip" aria-label="Experience behind CallTeam">
+
+{{ awardPanel("recognition-pricing", "strip", "Internationally recognised. Ready to work for your business.", "CallTeam’s awards recognise B2B outbound calling, lead generation and appointment setting.") }}
+<section class="pricing-proof-strip" aria-label="Experience behind CallTeam">
     <div class="container-wide">
       <div><strong>500,000+</strong><span>outbound calls behind the experience</span></div>
       <div><strong>1,000+</strong><span>sales professionals coached</span></div>
@@ -394,7 +399,8 @@ modified: 2026-08-15
       <h2>Start with the market, the offer, and the work that actually needs to be done.</h2>
       <p>Tell us what you sell, who you need to reach, what campaign assets you already have, and where the current outbound process is breaking. We will confirm whether the US$4,000 starting program fits or whether the scope needs to change.</p>
       <div class="pricing-hero-actions">
-        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Check fit and scope</a>
+        {{ bookingRecognition("recognition-pricing-booking") }}
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Check fit and scope</a>
         <a href="mailto:hello@callteam.ca" class="btn-secondary">Email hello@callteam.ca</a>
       </div>
     </div>

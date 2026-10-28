@@ -137,7 +137,10 @@ faqSchema: |
       }
     ]
   }
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 
 <main class="ai-service-page">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
@@ -751,7 +754,9 @@ faqSchema: |
     </div>
   </section>
 
-  <section class="cta-band ai-final-cta">
+
+{{ awardPanel("recognition-ai-lead-generation", "compact", "Internationally recognised B2B sales expertise.", "CallTeam’s recognition covers B2B lead generation and appointment setting, connecting prepared research with human-led sales conversations.") }}
+<section class="cta-band ai-final-cta">
     <h2>Use AI to find the opportunity. Use experienced people to <span class="highlight">start the conversation.</span></h2>
     <p>Tell us who you sell to, what data you already have, and where the pipeline is breaking. We will help identify the right AI-assisted, human-led starting point.</p>
     <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free AI Lead Generation Call</a>

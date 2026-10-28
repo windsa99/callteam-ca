@@ -29,6 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/award-placements.css">
 {% for stylesheet in pageStyles %}<link rel="stylesheet" href="{{ stylesheet }}">{% endfor %}
 <script type="application/ld+json">
 {
@@ -45,8 +46,8 @@
         "url": "{{ site.logo }}"
       },
       "email": {{ site.email | json | safe }},
-      "description": {{ site.description | json | safe }},{% if organizationAwards %}
-      "award": {{ organizationAwards | json | safe }},{% endif %}
+      "description": {{ site.description | json | safe }},{% if organizationAwards or awardPlacements %}
+      "award": {{ (organizationAwards or recognition.names) | json | safe }},{% endif %}
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "sales",
@@ -86,7 +87,7 @@
     })(window, document, "clarity", "script", "y3d6ipt5bw");
 </script>
 </head>
-<body>
+<body{% if awardPlacements %} class="has-award-placements"{% endif %}>
 
 {% include "partials/header.njk" %}
 

@@ -1,10 +1,19 @@
-<footer>
+<footer id="site-footer">
   <div class="footer-top">
     <div class="footer-brand">
       <a href="/" class="logo">
       <img src="/assets/images/callteam-logo.png" alt="{{ site.name }}" class="footer-logo-image">
       </a>
       <p>Human-led B2B outbound, qualification, appointment setting, sales execution, and revenue systems.</p>
+      <a class="ct-footer-recognition" href="/awards/">Internationally recognised for B2B outbound calling & appointment setting.</a>
+      <div class="ct-footer-awards" aria-label="CallTeam award winners">
+        {% for key, award in awards %}
+        <a class="ct-footer-award" href="{{ award.url }}" aria-label="{{ award.title }} · {{ award.programme }} · {{ award.edition }}" title="{{ award.title }}">
+          <img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}" loading="lazy" decoding="async">
+          <span>{% if key == "ie100" %}IE100 · 2026{% else %}Global 100 · 2027{% endif %}</span>
+        </a>
+        {% endfor %}
+      </div>
     </div>
     <div class="footer-nav-column">
       <strong>Services</strong>
@@ -33,6 +42,7 @@
     <div class="footer-nav-column">
       <strong>CallTeam</strong>
       <a href="/about/">About CallTeam</a>
+      <a href="/awards/" id="footer-awards-link">Awards & Recognition</a>
       <a href="/services/">All Services</a>
       <a href="/pricing/">Pricing</a>
       <a href="/case-studies/">Case Studies</a>

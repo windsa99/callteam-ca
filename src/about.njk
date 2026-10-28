@@ -9,7 +9,10 @@ socialTitle: "About CallTeam | CallTeam AI & Human-Led B2B Sales"
 socialDescription: "See how CallTeam AI supports account research and buyer-signal review while experienced people handle calling, qualification, and appointment setting."
 date: 2026-08-15
 modified: 2026-08-23
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -191,6 +194,8 @@ modified: 2026-08-23
     </div>
   </section>
 
+{{ awardPanel("recognition-about", "strip", "Internationally recognised for B2B sales expertise.", "Recognised for B2B outbound calling, lead generation and appointment setting. Explore the awards behind CallTeam’s international recognition.") }}
+
   {% include "partials/platform-partners.njk" %}
 
   <section id="what-callteam-does" class="about-definition-section">
@@ -353,7 +358,8 @@ modified: 2026-08-23
     </div>
   </section>
 
-  <section class="about-proof-section">
+
+<section class="about-proof-section">
     <div class="container-wide">
       <div class="section-label">Case studies and proof</div>
       <h2>See how focused B2B campaigns are built and measured.</h2>
@@ -406,7 +412,8 @@ modified: 2026-08-23
       <h2>Start with the pipeline problem, not a preselected package.</h2>
       <p>Tell us what you sell, who you need to reach, what your team already has, and where the process is breaking. We will identify the most useful starting point.</p>
       <div class="about-hero-actions">
-        <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a free call</a>
+        {{ bookingRecognition("recognition-about-booking") }}
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a free call</a>
         <a href="/pricing/" class="btn-secondary">See managed outbound pricing</a>
         <a href="mailto:hello@callteam.ca" class="btn-secondary">Email hello@callteam.ca</a>
       </div>

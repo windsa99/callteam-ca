@@ -246,7 +246,10 @@ faqSchema: |
       }
     ]
   }
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 
 <main class="sdr-page sdr-service-upgrade">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
@@ -497,7 +500,9 @@ faqSchema: |
     </div>
   </section>
 
-  <section class="cta-band sdr-final-cta">
+
+{{ awardPanel("recognition-outsourced-sdr", "compact", "Internationally recognised B2B sales expertise.", "CallTeam’s international recognition reflects the calling, follow-up and appointment setting expertise behind its managed sales development services.") }}
+<section class="cta-band sdr-final-cta">
     <div class="section-label">Build your next campaign with CallTeam</div>
     <h2>Give your salespeople more time to <span class="highlight">sell.</span></h2>
     <p>Tell us what you sell, who you need to reach, and where prospecting is slowing you down. Let’s work out how CallTeam can help you move forward.</p>

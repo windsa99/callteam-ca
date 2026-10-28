@@ -103,7 +103,10 @@ faqSchema: |
       }
     ]
   }
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 
 <main class="appointment-page">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
@@ -391,7 +394,9 @@ faqSchema: |
     </div>
   </section>
 
-  <section class="cta-band appointment-final-cta">
+
+{{ awardPanel("recognition-appointment-setting", "compact", "Internationally recognised B2B sales expertise.", "Recognised for outbound calling and appointment setting, with buyer context carried into the next sales conversation.") }}
+<section class="cta-band appointment-final-cta">
     <div class="section-label">Build a calendar your sales team trusts</div>
     <h2>Put the right conversations on the calendar with the <span class="highlight">right context behind them.</span></h2>
     <p>Tell us what you sell, who you need to reach, and what a qualified meeting should mean inside your sales process.</p>

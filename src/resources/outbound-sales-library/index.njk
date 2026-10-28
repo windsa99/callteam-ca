@@ -6,7 +6,10 @@ description: "Search CallTeam's B2B outbound sales library for cold-call scripts
 canonicalUrl: "https://www.callteam.ca/resources/outbound-sales-library/"
 permalink: "/resources/outbound-sales-library/"
 modified: "2026-10-09"
+awardPlacements: true
 ---
+{% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+
 
 <script type="application/ld+json">
 {
@@ -70,7 +73,9 @@ modified: "2026-10-09"
     </div>
   </section>
 
-  <section class="library-routes" aria-labelledby="library-routes-heading">
+
+{{ awardPanel("recognition-library", "library", "Free sales resources from an award-winning B2B calling agency.", "Practical scripts, guides and planning tools from the team behind CallTeam’s internationally recognised outbound services.") }}
+<section class="library-routes" aria-labelledby="library-routes-heading">
     <div class="container-wide">
       <div class="library-section-heading">
         <div><div class="section-label">Choose your route</div><h2 id="library-routes-heading">One library. Five working collections.</h2></div>
