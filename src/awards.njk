@@ -9,6 +9,7 @@ modified: "2026-10-28"
 contentLanguage: "en-CA"
 pageStyles:
   - "/assets/css/awards.css"
+  - "/assets/css/awards-showcase.css"
 organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
@@ -17,12 +18,81 @@ organizationAwards:
 {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"inLanguage":"en-CA","isPartOf":{"@id":"{{ site.websiteId }}"},"about":{"@id":"{{ site.organizationId }}"},"mainEntity":{"@id":"{{ canonicalUrl }}#recognition"}},{"@type":"ItemList","@id":"{{ canonicalUrl }}#recognition","name":"CallTeam awards and recognition","numberOfItems":2,"itemListElement":[{% for key, award in awards %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ (award.title ~ ' | ' ~ award.programme ~ ' | ' ~ award.edition) | json | safe }},"url":"{{ site.url }}{{ award.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Awards & Recognition","item":"{{ canonicalUrl }}"}]}]}
 </script>
 <nav class="breadcrumb-trail" aria-label="Breadcrumb"><div class="container-wide"><a href="/">Home</a> / <span>Awards & Recognition</span></div></nav>
-<main class="awards-page">
-<section class="awards-hero"><div class="container-wide awards-hero-grid"><div class="awards-hero-intro"><div class="award-kicker">CallTeam awards & recognition</div><div class="awards-mobile-marks" aria-label="Award winner badges">{% for key, award in awards %}<a href="{{ award.url }}"><img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}"><span>{{ "IE100" if key == "ie100" else "Global 100" }}<br>{{ award.edition }}</span></a>{% endfor %}</div><h1>Award-winning B2B outbound calling & <span>appointment setting.</span></h1><p class="award-lead">Internationally recognised for B2B lead generation, outbound calling and appointment setting. Experienced people. Relevant buyers. Qualified sales conversations.</p><div class="awards-hero-actions"><a href="#recognition" class="btn-primary">Explore the awards ↓</a><a href="https://calendly.com/hello-callteam/new-meeting" class="award-text-link" target="_blank" rel="noopener">Book a Free Call →</a></div></div><div class="awards-display" aria-label="CallTeam award winner badges">{% for key, award in awards %}<a class="awards-display-item" href="{{ award.url }}"><img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}" fetchpriority="high"><span>{{ award.programme }}</span><strong>{{ award.edition }}</strong></a>{% endfor %}<div class="awards-display-caption">Recognised for the work we do.</div></div></div></section>
-<section class="awards-identity"><div class="container-wide"><strong>Multi-award-winning B2B outbound calling agency</strong><p>Lead generation. Human-led calling. Appointment booking.</p></div></section>
-<section id="recognition" class="awards-recognition"><div class="container-wide"><div class="award-section-heading"><div class="award-kicker">The recognition</div><h2>Recognised for B2B sales expertise.</h2><p>International awards for the calling and appointment setting services at the heart of CallTeam.</p></div><div class="award-record-grid">{% for key, award in awards %}<article class="award-record" id="{{ key }}"><div class="award-record-top"><span>{{ award.programme }}</span><strong>{{ award.edition }}</strong></div><h3>{{ award.title }}</h3><p>{% if key == 'ie100' %}Awarded to CallTeam for B2B outbound calling and appointment setting.{% else %}Recognised for B2B lead generation and appointment setting, with judges highlighting campaign execution and practical sales education.{% endif %}</p><a class="award-card-link" href="{{ award.url }}">Read the {{ 'IE100' if key == 'ie100' else 'Global 100' }} announcement →</a></article>{% endfor %}</div></div></section>
-<section class="awards-quote"><div class="container-wide awards-quote-grid"><div><div class="award-kicker">Global 100 judges’ comments</div><h2>What the judges said.</h2></div><blockquote><p>“pairs hands-on outbound execution with unusually open, practical education”</p><footer>Global 100 judging panel · GPMG</footer></blockquote></div></section>
-<section class="awards-work"><div class="container-wide"><div class="award-section-heading"><div class="award-kicker">Explore the work</div><h2>Expertise you can put to work.</h2><p>CallTeam combines managed B2B lead generation and appointment setting with free resources that founders and sales teams can use themselves.</p></div><div class="awards-work-grid"><article><span>01</span><h3>B2B appointment setting</h3><p>Prospect research, human calling, follow-up, qualification and useful handoffs to sales.</p><a href="/services/b2b-appointment-setting/">Explore the service →</a></article><article><span>02</span><h3>Campaign case studies</h3><p>Read the targeting, approach and outcomes from particular client campaigns.</p><a href="/case-studies/">See campaign examples →</a></article><article><span>03</span><h3>Free outbound sales library</h3><p>100 cold-call scripts and 138 sales guides for practical campaign preparation.</p><a href="/resources/outbound-sales-library/">Use the free resources →</a></article></div></div></section>
-<section class="awards-facts"><div class="container-wide awards-facts-grid"><div><div class="award-kicker">About CallTeam</div><h2>Experienced people. Award-winning B2B calling.</h2><p>CallTeam is an independent, privately held B2B outbound calling agency. We bring prospect research, human calling, qualification and appointment booking together so your sales team can focus on the next conversation.</p><a class="award-text-link" href="/about/">Learn about CallTeam →</a></div><div class="award-edition-note"><h3>Built on practical sales experience</h3><p>The combined experience behind CallTeam spans 500,000+ outbound calls, 1,000+ sellers coached and work across 150+ companies.</p><h3>Knowledge shared freely</h3><p>Our free library brings that experience to founders and sales teams through 100 cold-call scripts, 138 sales guides and interactive campaign tools.</p></div></div></section>
-<section class="cta-band"><h2>Put experienced B2B calling behind your offer.</h2><p>Let’s discuss your market, buyers and definition of a qualified sales conversation.</p><a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free Call</a></section>
+<main class="awards-showcase">
+  <section class="recognition-hero">
+    <div class="container-wide">
+      <div class="recognition-eyebrow">CallTeam awards & recognition</div>
+      <h1>Award-winning B2B outbound calling & <span>appointment setting.</span></h1>
+      <p class="recognition-lead">Internationally recognised for B2B lead generation, outbound calling and appointment setting.</p>
+      <div class="recognition-actions"><a href="#recognition" class="btn-primary">Explore our awards ↓</a><a href="https://calendly.com/hello-callteam/new-meeting" class="recognition-text-link" target="_blank" rel="noopener">Book a Free Call →</a></div>
+      <div class="recognition-winners" id="recognition" aria-label="CallTeam award winners">
+        {% for key, award in awards %}
+        <article class="recognition-winner" id="{{ key }}">
+          <a class="recognition-badge-link" href="{{ award.url }}" aria-label="Read CallTeam’s {{ award.programme }} {{ award.edition }} award announcement">
+            <div class="recognition-programme"><span>{{ award.programme }}</span><strong>{{ award.edition }}</strong></div>
+            <img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}" fetchpriority="high">
+            <span class="recognition-winner-label">Award winner</span>
+          </a>
+          <div class="recognition-winner-copy">
+            <h2>{{ award.title }}</h2>
+            <p>{% if key == 'ie100' %}Recognising CallTeam’s expertise in outbound calling and appointment setting: reaching the right buyers, qualifying the conversation and preparing the next meeting.{% else %}Recognising B2B lead generation and appointment setting, with judges highlighting hands-on campaign execution and openly shared sales expertise.{% endif %}</p>
+            <a class="recognition-text-link" href="{{ award.url }}">Read the {{ 'IE100' if key == 'ie100' else 'Global 100' }} announcement →</a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="recognition-experience" aria-labelledby="recognition-experience-heading">
+    <div class="container-wide">
+      <div class="recognition-eyebrow" id="recognition-experience-heading">The combined experience behind CallTeam</div>
+      <div class="recognition-stat-grid">
+        <div><strong>500,000+</strong><span>outbound calls</span></div>
+        <div><strong>1,000+</strong><span>sellers coached</span></div>
+        <div><strong>150+</strong><span>companies supported</span></div>
+        <div><strong>Fortune 100/500</strong><span>sales environments</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recognition-judges">
+    <div class="container-wide recognition-judges-grid">
+      <div><div class="recognition-eyebrow">Global 100 judging panel</div><h2>Expertise recognised.<br>Knowledge shared.</h2></div>
+      <blockquote><p>“pairs hands-on outbound execution with unusually open, practical education”</p><footer>Global 100 judges’ comments · GPMG</footer></blockquote>
+    </div>
+  </section>
+
+  <section class="recognition-results">
+    <div class="container-wide">
+      <div class="recognition-section-heading"><div class="recognition-eyebrow">Campaign results</div><h2>See the work behind the recognition.</h2><p>Explore the targeting, conversations and outcomes from CallTeam’s published client campaigns.</p></div>
+      <div class="recognition-result-grid">
+        <article><div class="recognition-result-type">SaaS appointment setting</div><strong class="recognition-result-number">11</strong><h3>qualified demos in 90 days</h3><p>A software campaign built around relevant decision-makers, buyer needs and a clear reason for a demonstration.</p><a class="recognition-text-link" href="/case-studies/saas-demo-appointment-setting/">Read the SaaS case study →</a></article>
+        <article><div class="recognition-result-type">Manufacturing cybersecurity</div><strong class="recognition-result-number">9</strong><h3>qualified appointments in 90 days</h3><p>A cybersecurity campaign that connected the offer with operational priorities and qualified the next conversation.</p><a class="recognition-text-link" href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the cybersecurity case study →</a></article>
+      </div>
+      <p class="recognition-result-note">Results shown are from the individual campaigns linked above.</p>
+    </div>
+  </section>
+
+  <section class="recognition-services">
+    <div class="container-wide">
+      <div class="recognition-section-heading"><div class="recognition-eyebrow">Put the expertise to work</div><h2>Your market. Our people.<br><span>A clear next conversation.</span></h2><p>CallTeam brings research, human calling, follow-up and qualification into one managed service.</p></div>
+      <div class="recognition-service-grid">
+        <article><span class="recognition-service-number">01</span><h3>B2B appointment setting</h3><p>Reach decision-makers, establish a relevant reason to meet and hand over the buyer context your sales team needs.</p><a class="recognition-text-link" href="/services/b2b-appointment-setting/">Explore appointment setting →</a></article>
+        <article><span class="recognition-service-number">02</span><h3>B2B lead generation</h3><p>Prepare target accounts and prospect research so the outreach starts with a clear offer and a relevant buyer.</p><a class="recognition-text-link" href="/ai-lead-generation-services/">Explore lead generation →</a></article>
+        <article><span class="recognition-service-number">03</span><h3>Outsourced SDR services</h3><p>Put a managed team behind calling, follow-up and qualification, with agreed responsibilities and useful reporting.</p><a class="recognition-text-link" href="/services/outsourced-sdr/">Explore outsourced SDR services →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="recognition-library">
+    <div class="container-wide recognition-library-grid">
+      <div><div class="recognition-eyebrow">Practical expertise, freely available</div><h2>Sales knowledge that helps before you become a client.</h2><p>Our free outbound sales library gives founders and sales teams practical help with whom to contact, what to say, how to handle objections and how to qualify a useful next step.</p><p>Use the resources yourself or bring CallTeam in to manage the execution.</p><a href="/resources/outbound-sales-library/" class="btn-primary">Explore the free sales library →</a></div>
+      <div class="recognition-library-resources"><a href="/resources/cold-call-scripts/"><strong>100</strong><span>Free cold-call scripts <b aria-hidden="true">↗</b></span></a><a href="/resources/outbound-sales-library/"><strong>138</strong><span>Outbound sales guides <b aria-hidden="true">↗</b></span></a><a href="/b2b-outbound-campaign-planner/"><strong>Plan your campaign</strong><span>Interactive tools for practical preparation <b aria-hidden="true">↗</b></span></a></div>
+    </div>
+  </section>
+
+  <section class="recognition-closing">
+    <div class="container-wide"><div class="recognition-eyebrow">Multi-award-winning B2B outbound calling agency</div><h2>Put award-winning expertise<br>behind your next campaign.</h2><p>Tell us what you sell, who you need to reach and what a qualified meeting should look like.</p><a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a><a class="recognition-about-link" href="/about/">Learn about CallTeam →</a></div>
+  </section>
 </main>
