@@ -150,7 +150,7 @@ awardPlacements: true
     </div>
   </section>
 
-  {% include "partials/platform-partners.njk" %}
+{{ awardPanel("recognition-appointment-setting", "compact", "Internationally recognised B2B sales expertise.", "Recognised for outbound calling and appointment setting, with buyer context carried into the next sales conversation.") }}
 
   <section class="appointment-definition-section">
     <div class="container">
@@ -271,6 +271,8 @@ awardPlacements: true
 {% set contextToolCta = usExamplePreviousCta %}
   </div>
   <!-- /US campaign example link: cta-appointment-us-example -->
+
+  {% include "partials/platform-partners.njk" %}
 
   <section class="appointment-comparison-section">
     <div class="container-wide">
@@ -395,11 +397,11 @@ awardPlacements: true
   </section>
 
 
-{{ awardPanel("recognition-appointment-setting", "compact", "Internationally recognised B2B sales expertise.", "Recognised for outbound calling and appointment setting, with buyer context carried into the next sales conversation.") }}
 <section class="cta-band appointment-final-cta">
     <div class="section-label">Build a calendar your sales team trusts</div>
     <h2>Put the right conversations on the calendar with the <span class="highlight">right context behind them.</span></h2>
     <p>Tell us what you sell, who you need to reach, and what a qualified meeting should mean inside your sales process.</p>
+    {{ bookingRecognition("recognition-appointment-setting-booking") }}
     <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free Appointment-Setting Strategy Call</a>
   </section>
 </main>

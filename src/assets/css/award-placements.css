@@ -35,7 +35,7 @@
 .ct-booking-recognition{font-size:13px!important;line-height:1.7!important;max-width:680px!important;margin:20px 0!important;color:inherit!important}
 .ct-booking-recognition a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
 .ct-booking-recognition>span{display:inline-block;margin-right:5px;font-weight:700}
-.home-final-cta .ct-booking-recognition{margin-inline:auto!important}
+.home-final-cta .ct-booking-recognition,.mp-final .ct-booking-recognition,.cta-band .ct-booking-recognition{margin-inline:auto!important}
 .footer-brand .ct-footer-recognition{display:block;font-size:12px;line-height:1.8;color:#fff;text-decoration:none;margin-top:18px;max-width:270px}
 .footer-brand .ct-footer-recognition:hover{text-decoration:underline}
 .footer-brand .ct-footer-awards{display:grid;grid-template-columns:repeat(2,minmax(0,104px));gap:16px;margin-top:20px;max-width:224px}
