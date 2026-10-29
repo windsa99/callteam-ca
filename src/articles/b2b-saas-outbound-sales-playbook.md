@@ -203,4 +203,6 @@ Define meeting acceptance in writing. Duplicates, students, consultants, account
 
 The work does not end when a calendar invitation is sent. The campaign needs follow-up, confirmation, attendance protection, handoff quality, feedback from sales, and a process for feeding disqualification back into the market model.
 
-CallTeam connects account selection, Buyer Signal Radar research, human cold calling, qualification, objection handling, follow-up, meeting confirmation, and CRM handoff. To build a SaaS campaign around a specific product and buyer, [book a strategy call](https://calendly.com/hello-callteam/new-meeting).
+For a managed campaign built around your product, buyers and demo criteria, explore [SaaS appointment setting services](/services/saas-appointment-setting/).
+
+CallTeam connects account selection, Buyer Signal Radar research, human cold calling, qualification, objection handling, follow-up, meeting confirmation, and CRM handoff. To build a SaaS campaign around a specific product and buyer, <a href="https://calendly.com/hello-callteam/new-meeting" data-booking-placement="body-49">book a strategy call</a>.
