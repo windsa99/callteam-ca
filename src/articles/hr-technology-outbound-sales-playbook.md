@@ -194,3 +194,5 @@ Do not count a generic CHRO conversation as pipeline when the product belongs wi
 AI can summarize public workforce information and support account prioritization. It cannot confirm private employment practices, decide what is safe to claim, or manage the nuance of a live conversation about employees and candidates.
 
 CallTeam connects Buyer Signal Radar research, human cold calling, qualification, follow-up, confirmation, and CRM handoff. To build an HR technology campaign around one workforce decision, [book a strategy call](https://calendly.com/hello-callteam/new-meeting).
+
+Need a team to put this workflow into practice? Explore [HR tech lead generation and appointment setting](/services/hr-tech-lead-generation/) for managed research, calling and demo handoff.

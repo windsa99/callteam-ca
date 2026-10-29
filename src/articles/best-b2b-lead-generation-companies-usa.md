@@ -244,3 +244,5 @@ Requirements vary with the audience and method, so obtain an explanation appropr
 Ask each finalist to return the same responsibilities, team assignment, pricing period and meeting criteria. Then select the model that handles your actual gap at an investment your customer economics can support.
 
 For a focused discussion of CallTeam's approach, [book a free 30-minute strategy call](https://calendly.com/hello-callteam/new-meeting). Bring the offer, target market and current sales constraints so we can define what an initial campaign would involve.
+
+For a focused review of that provider, our [memoryBlue alternatives comparison](/compare/memoryblue-alternatives/) examines current services, other shortlist options and the questions a proposal should settle.

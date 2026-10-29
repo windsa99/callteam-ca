@@ -1,0 +1,45 @@
+/* Local presentation for the HR tech, human-led and memoryBlue pages. */
+.gp-page h1{font-size:clamp(42px,4.5vw,65px)}
+.gp-page .gp-table-wrap{overflow-x:auto;max-width:100%;border:1px solid var(--mp-line);margin:28px 0}
+.gp-page .gp-table-wrap:focus-visible{outline:3px solid var(--mp-orange);outline-offset:4px}
+.gp-page .gp-table{border-collapse:collapse;width:100%;min-width:700px;text-align:left;font-size:14px;line-height:1.7}
+.gp-page .gp-table caption{text-align:left;padding:16px 20px;font-size:12px;font-weight:600;background:#f5f4f0;color:#111}
+.gp-page .gp-table th,.gp-page .gp-table td{padding:20px;vertical-align:top;border-bottom:1px solid var(--mp-line)}
+.gp-page .gp-table thead{background:#171717;color:white}
+.gp-page .gp-table tbody th{width:20%;font-weight:600}
+.gp-page .gp-table td p{margin-bottom:10px;font-size:14px}
+.gp-page .gp-table a{font-size:12px}
+.gp-page .gp-scroll-hint{font-size:12px;color:var(--mp-muted);margin-bottom:-14px}
+.gp-page .gp-grid-two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.gp-page .gp-tile{padding:28px;border:1px solid var(--mp-line);min-width:0}
+.gp-page .gp-tile h3{margin-bottom:18px}
+.gp-page .gp-tile p,.gp-page .gp-tile li{font-size:14px}
+.gp-page .gp-tile p:last-child{margin-bottom:0}
+.gp-page .gp-stat-block{border:1px solid #454545;padding:35px;min-width:0}
+.gp-page .gp-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;border-block:1px solid #454545;padding:24px 0;margin:25px 0}
+.gp-page .gp-stats strong{font:900 56px/1.1 Archivo,sans-serif;letter-spacing:-.04em;color:#ff9970;display:block}
+.gp-page .gp-stats span{font-size:12px;line-height:1.6;color:#d1d1cc;display:block;margin-top:10px}
+.gp-page .gp-stat-block p{color:#d1d1cc}
+.gp-page .gp-stat-block h3{margin:0 0 20px}
+.gp-page .gp-stat-block .mp-button{margin-top:10px}
+.gp-page .gp-proof-copy h2{margin-bottom:24px}
+.gp-page .gp-proof-copy p{color:#d1d1cc}
+.gp-page .gp-checklist{padding-left:21px;margin:24px 0}
+.gp-page .gp-checklist li{padding-left:3px;margin:0 0 14px}
+.gp-page .gp-resource-list{list-style:none;margin:25px 0 0;padding:0;border-top:1px solid var(--mp-line)}
+.gp-page .gp-resource-list li{padding:18px 0;border-bottom:1px solid var(--mp-line)}
+.gp-page .gp-resource-list a{font-size:15px;font-weight:600}
+.gp-page .gp-resource-list span{display:block;font-size:13px;color:var(--mp-muted);margin-top:6px}
+.gp-page .gp-sources{font-size:13px;line-height:1.9;overflow-wrap:anywhere;padding-left:20px}
+.gp-page .gp-sources li{margin-bottom:14px}
+.gp-page .gp-sources span{display:block;font-size:12px;color:var(--mp-muted)}
+.gp-page .gp-disclosure{font-size:13px;line-height:1.8;padding:22px;border-left:3px solid var(--mp-orange);background:#f5f4f0;margin-bottom:25px}
+.gp-page .gp-route{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;background:#fff0e8;color:#8e2c05;padding:6px 10px;margin-bottom:15px}
+.gp-page .gp-pipeline-note{color:#d1d1cc;font-size:12px;margin-top:20px}
+.gp-page .gp-provider{border-top:3px solid var(--mp-orange)}
+.gp-page .gp-provider h3{font-size:29px}
+.gp-page .gp-provider .gp-provider-label{color:#8e2c05;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.gp-page .gp-provider ul{padding-left:20px}
+.gp-page .gp-source-date{font-size:12px;color:var(--mp-muted)}
+@media(max-width:760px){.gp-page h1{font-size:clamp(36px,8.3vw,54px)}.gp-page .gp-grid-two{grid-template-columns:1fr;gap:22px}.gp-page .gp-tile,.gp-page .gp-stat-block{padding:25px}.gp-page .gp-stats{gap:14px}.gp-page .gp-stats strong{font-size:43px}.gp-page .gp-stats span{font-size:11px}.gp-page .gp-table th,.gp-page .gp-table td{padding:16px}.gp-page .gp-provider h3{font-size:27px}.gp-page .gp-proof-copy h2{margin-bottom:20px}}
+@media(max-width:380px){.gp-page .gp-stats{grid-template-columns:1fr}.gp-page .gp-stats>div{display:grid;grid-template-columns:76px 1fr;align-items:center;gap:15px}.gp-page .gp-stats span{margin:0}.gp-page .mp-note dl>div{grid-template-columns:1fr;gap:5px}.gp-page .mp-price{font-size:31px}}

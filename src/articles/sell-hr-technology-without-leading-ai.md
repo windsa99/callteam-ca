@@ -190,3 +190,5 @@ CallTeam brings this qualification discipline to HR technology, SaaS, training, 
 Do not imply that AI should replace HR judgment, guarantee bias removal, or make an employment decision risk-free. Avoid using fear of being left behind as the primary urgency case and do not dismiss employees or managers who raise concerns.
 
 Strong HR technology selling connects a meaningful outcome to a workable process. AI can be valuable inside that process, but relevance, trust, adoption, and accountable human decisions are what carry the purchase.
+
+For execution around this product-led message, see [HR software lead generation services](/services/hr-tech-lead-generation/) and the campaign responsibilities behind a qualified demo.

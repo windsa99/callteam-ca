@@ -230,3 +230,5 @@ Review results by workforce segment, company profile, offer, buyer, and signal. 
 CallTeam can manage account research, buyer mapping, prospect preparation, human cold calling, workforce-aware qualification, follow-up, meeting confirmation, attendance reporting, and CRM handoff. AI supports research. Experienced people remain accountable for the sensitive and commercial judgment in the live conversation.
 
 Explore [B2B appointment setting](/services/b2b-appointment-setting/) or [book a strategy call](https://calendly.com/hello-callteam/new-meeting) to build a CHRO campaign around a real workforce decision.
+
+Selling a software product to the people function? Our [HR tech appointment-setting service](/services/hr-tech-lead-generation/) connects the product workflow to its buying group and demonstration criteria.

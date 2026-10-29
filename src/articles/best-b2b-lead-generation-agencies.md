@@ -211,3 +211,5 @@ The [Proposal Comparison tool](/lead-generation-proposal-comparison/) can organi
 If you are still defining the purchase, prepare a [Lead Generation Agency Brief](/b2b-lead-generation-rfp-template/). Give finalists the same audience, responsibilities, exclusions and meeting requirements so their proposals answer a common brief.
 
 If you already know the gap, bring your offer, current account data and sales process to a [free 30-minute CallTeam strategy call](https://calendly.com/hello-callteam/new-meeting). We can examine the calling approach, the work involved and whether the current program is suitable for your team.
+
+Evaluating memoryBlue specifically? Compare [memoryBlue alternatives for outsourced SDR services](/compare/memoryblue-alternatives/) by team model, scope, qualification, handoff and pricing basis.
