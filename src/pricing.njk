@@ -9,7 +9,7 @@ canonicalUrl: "https://www.callteam.ca/pricing/"
 socialTitle: "CallTeam B2B Outbound Calling Pricing"
 socialDescription: "See what CallTeam includes in a managed B2B outbound calling and appointment-setting program starting at US$4,000 per month."
 date: 2026-08-15
-modified: 2026-08-15
+modified: 2026-10-29
 awardPlacements: true
 ---
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
@@ -125,6 +125,11 @@ awardPlacements: true
   <div class="container-wide"><a href="/">Home</a> / <span>Pricing</span></div>
 </nav>
 
+<style>
+#meeting-cost-example p { max-width: 960px; margin: 22px 0; font-size: 16px; line-height: 1.7; }
+#meeting-cost-example .context-tool-cta p { margin: 0 0 18px; color: var(--black); }
+#meeting-cost-example .context-tool-cta { margin-top: 30px; }
+</style>
 <main class="pricing-page">
   <section class="pricing-hero">
     <div class="container-wide pricing-hero-grid">
@@ -229,6 +234,37 @@ awardPlacements: true
         <div><span>05</span><strong>Deeper CRM integration and reporting</strong></div>
         <div><span>06</span><strong>Specialized geographic or campaign requirements</strong></div>
       </div>
+    </div>
+  </section>
+
+  <section id="meeting-cost-example" class="pricing-compare-section" aria-labelledby="meeting-cost-heading" style="scroll-margin-top:110px">
+    <div class="container-wide">
+      <div class="section-label">Illustrative campaign economics</div>
+      <h2 id="meeting-cost-heading">Cost per booking and cost per held, qualified meeting.</h2>
+      <p>A calendar booking is one stage. A held, qualified meeting is a conversation that took place and met the qualification standard agreed before launch. Use the same campaign cost and reporting period when comparing these measures.</p>
+      <p><strong>Hypothetical one-month example:</strong> assume US$4,000 in campaign fees, 20 unique meetings booked, 16 attended and 10 of those attended meetings confirmed as qualified. These counts are invented to explain the arithmetic. They are not CallTeam results, averages, forecasts or promised volumes.</p>
+      <div class="pricing-table-wrap" tabindex="0" role="region" aria-label="Illustrative meeting costs; scroll horizontally on smaller screens">
+        <table class="pricing-compare-table">
+          <caption class="sr-only">Hypothetical monthly campaign fees divided by each meeting stage</caption>
+          <thead><tr><th scope="col">Measure</th><th scope="col">Assumed count</th><th scope="col">Calculation</th><th scope="col">Illustrative cost</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Cost per booked meeting</th><td>20 unique bookings</td><td>US$4,000 ÷ 20</td><td>US$200</td></tr>
+            <tr><th scope="row">Cost per held meeting</th><td>16 attended meetings</td><td>US$4,000 ÷ 16</td><td>US$250</td></tr>
+            <tr class="featured"><th scope="row">Cost per held, qualified meeting</th><td>10 attended meetings meeting the agreed criteria</td><td>US$4,000 ÷ 10</td><td>US$400</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>In this scenario, 16 of 20 bookings attend: an 80% attendance rate. Ten of those 16 held meetings qualify: 62.5% of held meetings, or 50% of bookings. Four bookings do not take place during the period; six held meetings fail the agreed qualification criteria.</p>
+      <p>Agree company fit, buyer role, business relevance and meeting purpose before launch, then confirm them with sales feedback. Count each meeting once at each stage; a rescheduled booking is not a second meeting. Keep pending meetings separate until their outcome is known. A qualified meeting still needs discovery and does not guarantee an opportunity or sale.</p>
+      <p>This example uses the published starting monthly fee for a campaign-ready scope. It assumes no additional research, data or expanded-capacity charges and excludes taxes and your internal sales costs. Use your full agreed campaign cost, including scoped extras, for your own comparison. CallTeam charges for the managed engagement; these calculated unit costs are not per-appointment prices. Most programs begin with an initial three-month engagement.</p>
+      <p>If no held meetings qualify, cost per held, qualified meeting cannot be calculated by division; report zero qualified meetings alongside the spend.</p>
+      <aside class="context-tool-cta" id="cta-pricing-meeting-cost" aria-label="Model your own campaign economics">
+        <p>Use your own budget and customer economics in the ROI calculator. Track actual booking, attendance and qualification outcomes with the Meeting Quality Check.</p>
+        <div class="context-tool-actions">
+          <a class="btn-primary" href="/b2b-lead-generation-roi-calculator/">Calculate Your Campaign ROI</a>
+          <a class="btn-secondary" href="/b2b-meeting-quality-check/">Check Your Meeting Quality</a>
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -400,7 +436,7 @@ awardPlacements: true
       <p>Tell us what you sell, who you need to reach, what campaign assets you already have, and where the current outbound process is breaking. We will confirm whether the US$4,000 starting program fits or whether the scope needs to change.</p>
       <div class="pricing-hero-actions">
         {{ bookingRecognition("recognition-pricing-booking") }}
-    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Check fit and scope</a>
+    <a href="https://calendly.com/hello-callteam/new-meeting" data-booking-placement="body-54" class="btn-primary" target="_blank" rel="noopener">Check fit and scope</a>
         <a href="mailto:hello@callteam.ca" class="btn-secondary">Email hello@callteam.ca</a>
       </div>
     </div>
