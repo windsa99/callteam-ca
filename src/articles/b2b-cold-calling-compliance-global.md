@@ -182,6 +182,8 @@ Then review every channel independently. The rule used for a live call may not a
 
 ## Outsourcing changes the workflow, not the need for accountability
 
+Looking to hire a team for the phone work? [CallTeam’s B2B telemarketing services](/services/b2b-telemarketing/) set out programme scope, contact controls, follow-up and handoff responsibilities. Use this guide for the broader country-by-country review.
+
 The client usually knows the product, substantiation, customer evidence, restricted sectors, account priorities and commercial limits. The calling provider controls people, tools, scripts in use, records, suppression execution and daily quality. A safe operating model assigns both sides work.
 
 Agree who approves markets and claims, who validates data, who determines dialing technology, who checks registries, who maintains internal suppression, who handles a complaint and who pauses the campaign. Require access to evidence rather than accepting "our platform handles compliance" as a complete answer.

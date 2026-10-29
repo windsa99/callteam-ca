@@ -191,6 +191,8 @@ For cross-border growth, split the Canadian and US account groups in the brief. 
 
 ## Choose CallTeam for a managed calling campaign
 
+For the company-specific offer, see [CallTeam’s B2B lead generation service in Canada](/b2b-lead-generation-canada/). It explains territory, language requirements, local scheduling and Canada-to-US coordination.
+
 CallTeam is a global outbound partner for B2B companies that need research, human calling, persistent follow-up, qualification and appointment scheduling connected to their sales process. A strong fit is an established offer with a definable market and people ready to continue the conversations we arrange.
 
 The work starts with your buying roles, exclusions, offer and available account data. Callers use research to prepare useful questions, check what is relevant with the prospect and record the reason for any agreed meeting. The [outsourced SDR service](/services/outsourced-sdr/) includes CRM context and reporting within the agreed campaign.
@@ -230,6 +232,6 @@ Send every finalist the same target market, responsibilities, meeting standard a
 <aside class="context-tool-cta" id="eg3-canada-rfp" aria-label="Prepare Your Agency Brief"><p>Set out your Canadian campaign requirements before collecting quotes. Include the audience, territory, responsibilities and useful-meeting standard in one brief.</p><div class="context-tool-actions"><a class="btn-primary" href="/b2b-lead-generation-rfp-template/">Prepare Your Agency Brief</a></div></aside>
 <!-- /EG3:eg3-canada-rfp -->
 
-When proposals arrive, put their assumptions into the [Proposal Comparison tool](/lead-generation-proposal-comparison/). If your next decision is whether CallTeam should run the calling, [book a free 30-minute strategy call](https://calendly.com/hello-callteam/new-meeting) with your offer and market brief ready.
+When proposals arrive, put their assumptions into the [Proposal Comparison tool](/lead-generation-proposal-comparison/). If your next decision is whether CallTeam should run the calling, <a href="https://calendly.com/hello-callteam/new-meeting" data-booking-placement="body-59">book a free 30-minute strategy call</a> with your offer and market brief ready.
 
 {% include "components/contextual-tool-cta.njk" %}

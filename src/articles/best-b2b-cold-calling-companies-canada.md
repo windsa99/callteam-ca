@@ -166,6 +166,8 @@ The current [US$4,000 monthly starting offer](/pricing/) applies to a campaign-r
 
 Bring language, caller-location and ownership requirements to the initial discussion so the proposed team can be confirmed. A written qualification standard should also state which prospects belong in follow-up instead of being booked immediately.
 
+For Canadian territory planning alongside the calling assignment, see [CallTeam’s lead generation service in Canada](/b2b-lead-generation-canada/). Confirm provinces, language needs, local-time coverage and the receiving sales team in the scope.
+
 ## Examine proof and the information behind a meeting
 
 The published [SaaS demo campaign](/case-studies/saas-demo-appointment-setting/) recorded 11 demos in 90 days, four opportunities and two customers within six months. Its useful lesson is the preparation needed to explain a complex data product in the buyer's own business context.
@@ -194,4 +196,4 @@ The [Proposal Comparison tool](/lead-generation-proposal-comparison/) helps coll
 
 Bring your offer, intended audience, available contacts and current follow-up process to the final conversation. Agree what will make the calling useful, which evidence qualifies a meeting and how your team will report subsequent progress.
 
-To examine CallTeam's fit, [book a free 30-minute strategy call about your B2B calling campaign](https://calendly.com/hello-callteam/new-meeting). We can work through the audience, conversation approach, responsibilities and resources before a proposal is prepared.
+To examine CallTeam's fit, <a href="https://calendly.com/hello-callteam/new-meeting" data-booking-placement="body-60">book a free 30-minute strategy call about your B2B calling campaign</a>. We can work through the audience, conversation approach, responsibilities and resources before a proposal is prepared.
