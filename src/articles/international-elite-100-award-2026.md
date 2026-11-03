@@ -10,7 +10,7 @@ title: "CallTeam named B2B Outbound Calling & Appointment Setting Specialists of
 seoTitle: "CallTeam Wins International Elite 100 Award 2026"
 description: "CallTeam wins B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada at the International Elite 100 Global Awards 2026."
 date: "2026-10-28"
-modified: "2026-10-28"
+modified: "2026-11-03"
 category: "CallTeam awards and recognition"
 cluster: "Outbound Calling and Sales Development"
 articleType: "Company award announcement"
@@ -28,6 +28,7 @@ organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
   - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
+  - "Business-to-Business Sales Specialists of the Year | Global Awards · Corporate LiveWire | 2026/27"
 socialImage: "https://www.callteam.ca/assets/images/awards/international-elite-100-2026-winner.png"
 socialImageWidth: 591
 socialImageHeight: 591
@@ -135,4 +136,6 @@ Use the campaign preview to explore buyer language, an opening and qualification
 
 You can also [read CallTeam campaign case studies](/case-studies/) and [explore CallTeam’s awards](/awards/). To discuss the buyers, qualification standard and follow-up for your business, [book a free B2B strategy call](https://calendly.com/hello-callteam/new-meeting).
 
-CallTeam has also won [Best Global B2B Outbound Sales Execution Company 2027](/awards/global-excellence-2027/) in Acquisition International’s Global Excellence Awards. Read the announcement for our latest B2B sales execution recognition.
+CallTeam has also won [Best Global B2B Outbound Sales Execution Company 2027](/awards/global-excellence-2027/) in Acquisition International’s Global Excellence Awards. Read the announcement for our B2B sales execution recognition.
+
+Corporate LiveWire has also named CallTeam [Business-to-Business Sales Specialists of the Year](/awards/corporate-livewire-global-awards-2026-27/) in its Global Awards 2026/27. Explore our fourth award and the published campaigns behind our B2B sales work.

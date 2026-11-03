@@ -2,7 +2,7 @@
 layout: "layouts/base.njk"
 title: "CallTeam Awards and Recognition"
 seoTitle: "Multi-Award-Winning B2B Sales Execution | CallTeam"
-description: "Explore CallTeam’s three awards for B2B calling, lead generation and appointment setting, with GPMG judges’ feedback and published campaign results."
+description: "Explore CallTeam’s four awards for B2B sales, calling, lead generation and appointment setting, with judges’ feedback and published campaign results."
 permalink: "/awards/"
 canonicalUrl: "https://www.callteam.ca/awards/"
 modified: "2026-11-03"
@@ -14,6 +14,7 @@ organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
   - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
+  - "Business-to-Business Sales Specialists of the Year | Global Awards · Corporate LiveWire | 2026/27"
 ---
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"dateModified":"{{ modified }}","inLanguage":"en-CA","isPartOf":{"@id":"{{ site.websiteId }}"},"about":{"@id":"{{ site.organizationId }}"},"mainEntity":{"@id":"{{ canonicalUrl }}#recognition"},"hasPart":{"@id":"{{ canonicalUrl }}#award-questions"}},{"@type":"ItemList","@id":"{{ canonicalUrl }}#recognition","name":"CallTeam awards and recognition","numberOfItems":{{ recognition.names | length }},"itemListElement":[{% for key, award in awards %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ (award.title ~ ' | ' ~ award.programme ~ ' | ' ~ award.edition) | json | safe }},"url":"{{ site.url }}{{ award.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Awards & Recognition","item":"{{ canonicalUrl }}"}]},{"@type":"FAQPage","@id":"{{ canonicalUrl }}#award-questions","mainEntity":[{% for item in awardsHub.faq %}{"@type":"Question","name":{{ item.q | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}]}
@@ -25,10 +26,10 @@ organizationAwards:
       <div class="recognition-eyebrow">CallTeam awards & recognition</div>
       <h1>Multi-award-winning<br><span>B2B outbound sales execution.</span></h1>
       <p class="recognition-lead">Recognised for the research, conversations and qualification behind B2B sales opportunities.</p>
-      <p class="recognition-story">International Elite 100, GPMG and Acquisition International have recognised CallTeam across outbound calling, lead generation, appointment setting and global sales execution. Explore the awarded titles, the GPMG judges’ feedback and the client campaigns behind our work.</p>
+      <p class="recognition-story">International Elite 100, GPMG, Acquisition International and Corporate LiveWire have recognised CallTeam across outbound calling, lead generation, appointment setting and global sales execution. Explore the awarded titles, the GPMG judges’ feedback and the client campaigns behind our work.</p>
       <div class="recognition-actions"><a href="#recognition" class="btn-primary">Explore our awards ↓</a><a href="https://calendly.com/hello-callteam/new-meeting" class="recognition-text-link" target="_blank" rel="noopener">Book a Free Call →</a></div>
       <nav class="recognition-jump" aria-label="Explore CallTeam recognition"><a href="#judges-feedback">Judges’ feedback</a><a href="#campaign-results">Campaign results</a><a href="#award-questions">Award questions</a></nav>
-      <div class="recognition-winners recognition-winners--three" id="recognition" aria-label="CallTeam award winners">
+      <div class="recognition-winners recognition-winners--four" id="recognition" aria-label="CallTeam award winners">
         {% for key, award in awards %}
         <article class="recognition-winner" id="{{ key }}">
           <a class="recognition-badge-link{% if award.imageKind == 'programme' %} recognition-badge-link--programme{% endif %}" data-award-key="{{ key }}" data-award-placement="awards-hub" href="{{ award.url }}" aria-label="Read CallTeam’s {{ award.programme }} {{ award.edition }} award announcement">

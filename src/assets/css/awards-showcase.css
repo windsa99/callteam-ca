@@ -1,11 +1,10 @@
 /* Recognition hub only. Uses CallTeam's existing colours and fonts. */
-.recognition-winners--three{grid-template-columns:repeat(3,minmax(0,1fr))!important}
-.recognition-winners--three .recognition-programme{align-items:flex-start;flex-direction:column;gap:10px}
-.recognition-winners--three .recognition-winner h2{font-size:25px}
-.recognition-winners--three .recognition-winner-copy{padding:26px}
+.recognition-winners--four{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.recognition-winners--four .recognition-winner{min-width:0}
+.recognition-winners--four .recognition-programme{align-items:flex-start;gap:14px}
 .recognition-badge-link--programme img{object-fit:contain;background:#fff;padding:12px;border-radius:6px;box-sizing:border-box}
 .recognition-artwork-note{display:block;font-size:11px;color:var(--grey-text);line-height:1.6;margin-top:15px}
-@media(max-width:900px){.recognition-winners--three{grid-template-columns:minmax(0,1fr)!important;max-width:670px;margin-inline:auto}.recognition-winners--three .recognition-programme{flex-direction:row}.recognition-winners--three .recognition-badge-link--programme img{width:230px;height:230px}}
+@media(max-width:700px){.recognition-winners--four{grid-template-columns:minmax(0,1fr)!important;max-width:670px;margin-inline:auto}}
 .awards-showcase{--recognition-line:#e5e5e5;color:var(--black)}
 .awards-showcase .container-wide{width:min(1200px,calc(100% - 80px));max-width:1200px;margin-inline:auto}
 .awards-showcase section{padding:86px 0!important}

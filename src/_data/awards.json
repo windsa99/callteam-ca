@@ -42,5 +42,21 @@
     "footerLabel": "Global Excellence · Acquisition Intl · 2027",
     "announcementLabel": "Global Excellence",
     "summary": "Winner of Best Global B2B Outbound Sales Execution Company 2027, presented by Acquisition International through its Global Excellence Awards."
+  },
+  "corporatelivewire": {
+    "programme": "Global Awards · Corporate LiveWire",
+    "edition": "2026/27",
+    "title": "Business-to-Business Sales Specialists of the Year",
+    "short": "B2B Sales Specialists",
+    "headlineAccent": "Global Awards 2026/27",
+    "image": "/assets/images/awards/corporate-livewire-global-awards-2026-27-winner.png",
+    "imageWidth": 1722,
+    "imageHeight": 1710,
+    "imageKind": "winner",
+    "url": "/awards/corporate-livewire-global-awards-2026-27/",
+    "label": "Corporate LiveWire Global Awards 2026/27 official winner badge",
+    "footerLabel": "Global Awards · Corporate LiveWire · 2026/27",
+    "announcementLabel": "Corporate LiveWire",
+    "summary": "Named Business-to-Business Sales Specialists of the Year in the Corporate LiveWire Global Awards 2026/27."
   }
 }

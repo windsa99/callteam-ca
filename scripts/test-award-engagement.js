@@ -33,6 +33,14 @@ listener({target: {closest: () => a}, preventDefault: () => {prevented = true;}}
 assert.equal(a.href, booking); assert.equal(prevented, false);
 assert(events.some(e => e[0] === 'event' && e[1] === 'ct_award_booking_click'));
 assert(!JSON.stringify(events).includes('utm_content'));
+const fourthPage = home + '/awards/corporate-livewire-global-awards-2026-27/';
+const fourthState = model.begin('corporatelivewire', home + '/services/outsourced-sdr/?private=hidden', 'services-awards', now);
+assert.equal(fourthState.award, 'corporatelivewire');
+assert.equal(fourthState.origin, '/services/outsourced-sdr/');
+assert.equal(model.action(fourthPage, page, start).award, 'corporatelivewire');
+assert.equal(model.action('/case-studies/hr-software-lead-generation/', fourthPage, fourthState).event, 'ct_award_proof_click');
+assert.equal(model.action(booking, fourthPage, fourthState).award, 'corporatelivewire');
+assert.equal(model.action('https://outside.test/awards/corporate-livewire-global-awards-2026-27/', fourthPage, fourthState), null);
 const count = events.length; model.bind(win); assert.equal(events.length, count);
 assert.equal(attrs['data-award-engagement'], 'ready');
 console.log('Award journey checks passed: privacy, expiry, attribution, relevant navigation, existing booking URL and normal link behaviour.');

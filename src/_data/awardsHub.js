@@ -16,16 +16,17 @@ module.exports = {
   faq: [
     {
       q: 'What awards has CallTeam won?',
-      a: 'CallTeam has won three awards: B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada in the International Elite 100 Global Awards 2026; B2B Lead Generation & Appointment Setting — Canada in the GPMG Global 100 2027 edition; and Best Global B2B Outbound Sales Execution Company 2027 in Acquisition International’s Global Excellence Awards.',
+      a: 'CallTeam has won four awards: B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada in the International Elite 100 Global Awards 2026; B2B Lead Generation & Appointment Setting — Canada in the GPMG Global 100 2027 edition; Best Global B2B Outbound Sales Execution Company 2027 in Acquisition International’s Global Excellence Awards; and Business-to-Business Sales Specialists of the Year in the Corporate LiveWire Global Awards 2026/27.',
       links: [
         { label: 'IE100 announcement', url: '/articles/international-elite-100-award-2026/' },
         { label: 'Global 100 announcement', url: '/articles/global-100-award-2027/' },
-        { label: 'Global Excellence announcement', url: '/awards/global-excellence-2027/' }
+        { label: 'Global Excellence announcement', url: '/awards/global-excellence-2027/' },
+        { label: 'Corporate LiveWire announcement', url: '/awards/corporate-livewire-global-awards-2026-27/' }
       ]
     },
     {
       q: 'Who presents CallTeam’s awards?',
-      a: 'International Elite 100 presents its Global Awards. Global Publishing Media Group, known as GPMG, presents Global 100. Acquisition International, part of AI Global Media, presents the Global Excellence Awards.'
+      a: 'International Elite 100 presents its Global Awards. Global Publishing Media Group, known as GPMG, presents Global 100. Acquisition International, part of AI Global Media, presents the Global Excellence Awards. Corporate LiveWire presents the Global Awards 2026/27.'
     },
     {
       q: 'What did the Global 100 judges highlight?',

@@ -10,7 +10,7 @@ title: "CallTeam recognised for B2B lead generation and appointment setting in G
 seoTitle: "CallTeam Global 100 2027 B2B Lead Generation Award"
 description: "CallTeam receives Global 100 2027 recognition for B2B lead generation and appointment setting in Canada, with judges highlighting execution and education."
 date: "2026-10-28"
-modified: "2026-10-28"
+modified: "2026-11-03"
 category: "CallTeam awards and recognition"
 cluster: "B2B Lead Generation"
 articleType: "Company award announcement"
@@ -28,6 +28,7 @@ organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
   - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
+  - "Business-to-Business Sales Specialists of the Year | Global Awards · Corporate LiveWire | 2026/27"
 socialImage: "https://www.callteam.ca/assets/images/awards/global-100-2027-winner.png"
 socialImageWidth: 2000
 socialImageHeight: 2000
@@ -138,3 +139,5 @@ The campaign preview helps organise that preparation by selecting relevant openi
 Explore our [B2B appointment setting services](/services/b2b-appointment-setting/) and the [International Elite 100 award announcement](/articles/international-elite-100-award-2026/) for further context. If you want to discuss execution for your offer, [book a free B2B strategy call](https://calendly.com/hello-callteam/new-meeting).
 
 CallTeam’s third award is [Best Global B2B Outbound Sales Execution Company 2027](/awards/global-excellence-2027/), presented by Acquisition International through its Global Excellence Awards. Explore the announcement and our B2B campaign results.
+
+CallTeam subsequently won [Business-to-Business Sales Specialists of the Year in the Corporate LiveWire Global Awards 2026/27](/awards/corporate-livewire-global-awards-2026-27/). That announcement connects the new recognition with our service approach and client campaign examples.

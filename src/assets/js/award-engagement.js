@@ -10,9 +10,10 @@
   var routes = {
     '/articles/international-elite-100-award-2026/': 'ie100',
     '/articles/global-100-award-2027/': 'global100',
-    '/awards/global-excellence-2027/': 'globalexcellence'
+    '/awards/global-excellence-2027/': 'globalexcellence',
+    '/awards/corporate-livewire-global-awards-2026-27/': 'corporatelivewire'
   };
-  var keys = ['ie100', 'global100', 'globalexcellence'];
+  var keys = ['ie100', 'global100', 'globalexcellence', 'corporatelivewire'];
   var home = 'https://www.callteam.ca';
   function pathOf(value) {
     try { return new URL(value, home).pathname.slice(0, 250); } catch (_) { return '/'; }

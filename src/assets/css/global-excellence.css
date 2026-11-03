@@ -37,3 +37,5 @@
 @media(max-width:1000px){.ex-page .ex-hero{grid-template-columns:minmax(0,1fr);gap:38px}.ex-award-facts{max-width:700px}.ex-proof-grid{grid-template-columns:minmax(0,1fr)}.ex-other-award{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.ex-page .ex-hero{padding-top:20px;padding-bottom:40px}.ex-page h1{font-size:36px;line-height:1.12;letter-spacing:-.025em}.ex-facts-copy{padding:24px}.ex-facts-copy dl>div{grid-template-columns:minmax(0,1fr);gap:4px}.ex-service-grid{grid-template-columns:minmax(0,1fr)}.ex-other-award{padding:24px}.ex-faq summary{font-size:17px}}
 @media(max-width:360px){.ex-page h1{font-size:32px}.ex-page .mp-button{white-space:normal;text-align:center}}
+
+.ex-page .gp-grid-two .ex-other-award:last-child:nth-child(odd){grid-column:1/-1}
