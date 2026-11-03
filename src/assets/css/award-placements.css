@@ -1,4 +1,12 @@
 /* CallTeam recognition placements: existing fonts, colours and booking flow. */
+.ct-recognition-marks--three{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.ct-recognition-latest{font-size:12px!important;line-height:1.7!important;margin:0 0 16px!important}
+.ct-recognition-latest a{color:inherit;text-underline-offset:3px}
+.ct-recognition .ct-award-mark--programme img{background:#fff}
+.footer-brand .ct-footer-awards.ct-footer-awards--three{grid-template-columns:repeat(3,minmax(0,90px));max-width:302px;gap:10px}
+.footer-brand .ct-footer-awards.ct-footer-awards--three .ct-footer-award span{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+.footer-brand .ct-footer-award--programme img{background:#fff;border-radius:4px;padding:5px;box-sizing:border-box}
+@media(max-width:420px){.ct-recognition-marks--three{grid-template-columns:minmax(0,1fr)!important;gap:26px!important}.ct-recognition-marks--three .ct-award-mark{max-width:260px;margin-inline:auto}.ct-recognition-marks--three .ct-award-programme{font-size:12px!important}.ct-recognition-marks--three .ct-award-edition{font-size:12px}.ct-recognition-marks--three .ct-award-mark--programme img{width:180px!important;height:124px!important;object-fit:contain}}
 .ct-recognition,.ct-booking-recognition,#site-footer{scroll-margin-top:96px}
 .ct-recognition{color:var(--black);clear:both}
 .ct-recognition-inner{width:min(1080px,calc(100% - 80px));margin-inline:auto;display:grid;grid-template-columns:1.15fr 1fr;gap:44px;align-items:center}

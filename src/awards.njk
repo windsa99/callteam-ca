@@ -2,10 +2,10 @@
 layout: "layouts/base.njk"
 title: "CallTeam Awards and Recognition"
 seoTitle: "Award-Winning B2B Calling & Appointment Setting | CallTeam"
-description: "Explore CallTeam’s awards for B2B outbound calling, lead generation and appointment setting: International Elite 100 2026 and Global 100, 2027 edition."
+description: "Explore CallTeam’s recognition from Acquisition International, International Elite 100 and Global 100 for B2B outbound sales, calling and appointment setting."
 permalink: "/awards/"
 canonicalUrl: "https://www.callteam.ca/awards/"
-modified: "2026-10-28"
+modified: "2026-11-03"
 contentLanguage: "en-CA"
 pageStyles:
   - "/assets/css/awards.css"
@@ -13,9 +13,10 @@ pageStyles:
 organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
+  - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
 ---
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"inLanguage":"en-CA","isPartOf":{"@id":"{{ site.websiteId }}"},"about":{"@id":"{{ site.organizationId }}"},"mainEntity":{"@id":"{{ canonicalUrl }}#recognition"}},{"@type":"ItemList","@id":"{{ canonicalUrl }}#recognition","name":"CallTeam awards and recognition","numberOfItems":2,"itemListElement":[{% for key, award in awards %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ (award.title ~ ' | ' ~ award.programme ~ ' | ' ~ award.edition) | json | safe }},"url":"{{ site.url }}{{ award.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Awards & Recognition","item":"{{ canonicalUrl }}"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"inLanguage":"en-CA","isPartOf":{"@id":"{{ site.websiteId }}"},"about":{"@id":"{{ site.organizationId }}"},"mainEntity":{"@id":"{{ canonicalUrl }}#recognition"}},{"@type":"ItemList","@id":"{{ canonicalUrl }}#recognition","name":"CallTeam awards and recognition","numberOfItems":{{ recognition.names | length }},"itemListElement":[{% for key, award in awards %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ (award.title ~ ' | ' ~ award.programme ~ ' | ' ~ award.edition) | json | safe }},"url":"{{ site.url }}{{ award.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Awards & Recognition","item":"{{ canonicalUrl }}"}]}]}
 </script>
 <nav class="breadcrumb-trail" aria-label="Breadcrumb"><div class="container-wide"><a href="/">Home</a> / <span>Awards & Recognition</span></div></nav>
 <main class="awards-showcase">
@@ -25,18 +26,18 @@ organizationAwards:
       <h1>Award-winning B2B outbound calling & <span>appointment setting.</span></h1>
       <p class="recognition-lead">Internationally recognised for B2B lead generation, outbound calling and appointment setting.</p>
       <div class="recognition-actions"><a href="#recognition" class="btn-primary">Explore our awards ↓</a><a href="https://calendly.com/hello-callteam/new-meeting" class="recognition-text-link" target="_blank" rel="noopener">Book a Free Call →</a></div>
-      <div class="recognition-winners" id="recognition" aria-label="CallTeam award winners">
+      <div class="recognition-winners recognition-winners--three" id="recognition" aria-label="CallTeam award winners">
         {% for key, award in awards %}
         <article class="recognition-winner" id="{{ key }}">
-          <a class="recognition-badge-link" href="{{ award.url }}" aria-label="Read CallTeam’s {{ award.programme }} {{ award.edition }} award announcement">
+          <a class="recognition-badge-link{% if award.imageKind == 'programme' %} recognition-badge-link--programme{% endif %}" data-award-key="{{ key }}" data-award-placement="awards-hub" href="{{ award.url }}" aria-label="Read CallTeam’s {{ award.programme }} {{ award.edition }} award announcement">
             <div class="recognition-programme"><span>{{ award.programme }}</span><strong>{{ award.edition }}</strong></div>
-            <img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}" fetchpriority="high">
+            <img src="{{ award.image }}" width="{{ award.imageWidth or award.size }}" height="{{ award.imageHeight or award.size }}" alt="{{ award.label }}" fetchpriority="high">
             <span class="recognition-winner-label">Award winner</span>
           </a>
           <div class="recognition-winner-copy">
             <h2>{{ award.title }}</h2>
-            <p>{% if key == 'ie100' %}Recognising CallTeam’s expertise in outbound calling and appointment setting: reaching the right buyers, qualifying the conversation and preparing the next meeting.{% else %}Recognising B2B lead generation and appointment setting, with judges highlighting hands-on campaign execution and openly shared sales expertise.{% endif %}</p>
-            <a class="recognition-text-link" href="{{ award.url }}">Read the {{ 'IE100' if key == 'ie100' else 'Global 100' }} announcement →</a>
+            <p>{{ award.summary }}</p>
+            <a class="recognition-text-link" href="{{ award.url }}">Read the {{ award.announcementLabel }} announcement →</a>
           </div>
         </article>
         {% endfor %}
@@ -93,6 +94,6 @@ organizationAwards:
   </section>
 
   <section class="recognition-closing">
-    <div class="container-wide"><div class="recognition-eyebrow">Multi-award-winning B2B outbound calling agency</div><h2>Put award-winning expertise<br>behind your next campaign.</h2><p>Tell us what you sell, who you need to reach and what a qualified meeting should look like.</p><a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a><a class="recognition-about-link" href="/about/">Learn about CallTeam →</a></div>
+    <div class="container-wide"><div class="recognition-eyebrow">Multi-award-winning B2B outbound calling agency</div><h2>Put award-winning expertise<br>behind your next campaign.</h2><p>Tell us what you sell, who you need to reach and what a qualified meeting should look like.</p><a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener" data-booking-placement="body-51">Book a Free B2B Strategy Call</a><a class="recognition-about-link" href="/about/">Learn about CallTeam →</a></div>
   </section>
 </main>

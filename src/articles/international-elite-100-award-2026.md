@@ -27,6 +27,7 @@ contentLanguage: "en-CA"
 organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
+  - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
 socialImage: "https://www.callteam.ca/assets/images/awards/international-elite-100-2026-winner.png"
 socialImageWidth: 591
 socialImageHeight: 591
@@ -133,3 +134,5 @@ Use the campaign preview to explore buyer language, an opening and qualification
 {% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
 
 You can also [read CallTeam campaign case studies](/case-studies/) and [explore CallTeam’s awards](/awards/). To discuss the buyers, qualification standard and follow-up for your business, [book a free B2B strategy call](https://calendly.com/hello-callteam/new-meeting).
+
+CallTeam has also won [Best Global B2B Outbound Sales Execution Company 2027](/awards/global-excellence-2027/) in Acquisition International’s Global Excellence Awards. Read the announcement for our latest B2B sales execution recognition.

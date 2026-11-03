@@ -8,7 +8,10 @@
     "image": "/assets/images/awards/international-elite-100-2026-winner.png",
     "size": 591,
     "url": "/articles/international-elite-100-award-2026/",
-    "label": "International Elite 100 2026 winner badge"
+    "label": "International Elite 100 2026 winner badge",
+    "footerLabel": "IE100 · 2026",
+    "announcementLabel": "IE100",
+    "summary": "Recognising CallTeam’s expertise in outbound calling and appointment setting: reaching the right buyers, qualifying the conversation and preparing the next meeting."
   },
   "global100": {
     "programme": "Global 100 · GPMG",
@@ -19,6 +22,25 @@
     "image": "/assets/images/awards/global-100-2027-winner.png",
     "size": 2000,
     "url": "/articles/global-100-award-2027/",
-    "label": "Global 100 2027 winner badge"
+    "label": "Global 100 2027 winner badge",
+    "footerLabel": "Global 100 · GPMG · 2027",
+    "announcementLabel": "Global 100",
+    "summary": "Recognising B2B lead generation and appointment setting, with judges highlighting hands-on campaign execution and openly shared sales expertise."
+  },
+  "globalexcellence": {
+    "programme": "Global Excellence Awards · Acquisition International",
+    "edition": "2027 edition",
+    "title": "Best Global B2B Outbound Sales Execution Company 2027",
+    "short": "Global B2B Outbound Sales Execution",
+    "headlineAccent": "Global Excellence 2027",
+    "image": "/assets/images/awards/acquisition-international-global-excellence-programme-logo.png",
+    "imageWidth": 482,
+    "imageHeight": 332,
+    "imageKind": "programme",
+    "url": "/awards/global-excellence-2027/",
+    "label": "Acquisition International Global Excellence Awards programme logo",
+    "footerLabel": "Global Excellence · Acquisition Intl · 2027",
+    "announcementLabel": "Global Excellence",
+    "summary": "Winner of Best Global B2B Outbound Sales Execution Company 2027, presented by Acquisition International through its Global Excellence Awards."
   }
 }

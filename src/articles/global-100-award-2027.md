@@ -27,6 +27,7 @@ contentLanguage: "en-CA"
 organizationAwards:
   - "B2B Outbound Calling & Appointment Setting Specialists of the Year — Canada | International Elite 100 Global Awards | 2026"
   - "B2B Lead Generation & Appointment Setting — Canada | Global 100 · GPMG | 2027 edition"
+  - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
 socialImage: "https://www.callteam.ca/assets/images/awards/global-100-2027-winner.png"
 socialImageWidth: 2000
 socialImageHeight: 2000
@@ -135,3 +136,5 @@ The campaign preview helps organise that preparation by selecting relevant openi
 {% set contextToolCta = contextualTools.campaign %}{% include "components/contextual-tool-cta.njk" %}
 
 Explore our [B2B appointment setting services](/services/b2b-appointment-setting/) and the [International Elite 100 award announcement](/articles/international-elite-100-award-2026/) for further context. If you want to discuss execution for your offer, [book a free B2B strategy call](https://calendly.com/hello-callteam/new-meeting).
+
+CallTeam’s third award is [Best Global B2B Outbound Sales Execution Company 2027](/awards/global-excellence-2027/), presented by Acquisition International through its Global Excellence Awards. Explore the announcement and our B2B campaign results.

@@ -6,11 +6,11 @@
       </a>
       <p>Human-led B2B outbound, qualification, appointment setting, sales execution, and revenue systems.</p>
       <a class="ct-footer-recognition" href="/awards/">Internationally recognised for B2B outbound calling & appointment setting.</a>
-      <div class="ct-footer-awards" aria-label="CallTeam award winners">
+      <div class="ct-footer-awards ct-footer-awards--three" aria-label="CallTeam award winners">
         {% for key, award in awards %}
-        <a class="ct-footer-award" href="{{ award.url }}" aria-label="{{ award.title }} · {{ award.programme }} · {{ award.edition }}" title="{{ award.title }}">
-          <img src="{{ award.image }}" width="{{ award.size }}" height="{{ award.size }}" alt="{{ award.label }}" loading="lazy" decoding="async">
-          <span>{% if key == "ie100" %}IE100 · 2026{% else %}Global 100 · 2027{% endif %}</span>
+        <a class="ct-footer-award{% if award.imageKind == 'programme' %} ct-footer-award--programme{% endif %}" data-award-key="{{ key }}" data-award-placement="footer" href="{{ award.url }}" aria-label="{{ award.title }} · {{ award.programme }} · {{ award.edition }}" title="{{ award.title }}">
+          <img src="{{ award.image }}" width="{{ award.imageWidth or award.size }}" height="{{ award.imageHeight or award.size }}" alt="{{ award.label }}" loading="lazy" decoding="async">
+          <span>{{ award.footerLabel }}</span>
         </a>
         {% endfor %}
       </div>
