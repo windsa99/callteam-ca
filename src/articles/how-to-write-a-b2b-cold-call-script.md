@@ -161,7 +161,7 @@ A flexible B2B cold call opening usually contains five small pieces. They may ap
 
 The opening does not need a biography, feature list, customer roll call, or complete value proposition. Reach the first useful question before attention disappears.
 
-A script framework is not a fill in the blank promise. The words have to match the offer, buyer, market, caller, and evidence available for the account.
+A script framework is not a fill in the blank promise. The words have to match the offer, buyer, market, caller, and evidence available for the account. Try the [fill-in cold call opener](/resources/cold-call-scripts/#hub-template-title) with a task your buyer handles.
 
 ## Write a reason for calling that sounds credible
 

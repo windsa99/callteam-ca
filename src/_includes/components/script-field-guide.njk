@@ -47,7 +47,8 @@
         <p class="script-analysis-lead">{{ resource.quickAnswer }}</p><p>{{ guide.qualificationText }}</p>
         <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>{% if guide.routingRows %}
         <h3 id="{{ guide.routingId or 'fleet-repair-routing' }}">{{ guide.routingHeading }}</h3>
-        <dl class="fg-note">{% for row in guide.routingRows %}<div><dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd></div>{% endfor %}</dl>{% endif %}
+        <dl class="fg-note">{% for row in guide.routingRows %}<div><dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd></div>{% endfor %}</dl>{% endif %}{% for example in coldCallExamples %}{% if example.slug == resource.slug %}
+        <p class="fg-next"><a href="/resources/cold-calling-script-examples/#{{ example.id }}">{{ example.backlink }}</a></p>{% endif %}{% endfor %}
       </section>
 
       <section id="handoff" class="script-content-section">
