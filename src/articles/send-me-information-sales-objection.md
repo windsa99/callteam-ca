@@ -167,6 +167,8 @@ When no follow-up was agreed, use restraint. A second contact can introduce a re
 
 Record delivery, engagement only when reliably available, buyer feedback, and any next date. Do not infer interest from an email open or link click alone. Digital signals can support prioritization, while a human response provides the stronger qualification evidence.
 
+If the prospect has never spoken with you and your first email went unanswered, use the [first-call script after a cold email](/resources/cold-call-scripts/cold-call-script-after-unanswered-sales-email/). It gives the buyer the whole reason for calling in one sentence.
+
 ## Information requests across CallTeam industries
 
 Buyers request different proof in different markets. CIOs may need architecture, security, or migration detail. Finance and procurement leaders may ask for economics, commercial scope, or a comparison. Operations leaders in manufacturing and logistics often want workflow fit, coverage, integration, and implementation evidence.

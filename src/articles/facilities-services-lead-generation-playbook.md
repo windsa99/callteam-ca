@@ -184,6 +184,8 @@ The seller should receive the site category, known scope, current context, buyer
 
 After the meeting, ask whether the account is serviceable, whether the right buyer attended and whether there is an agreed next step. Record a rejection when the scope falls outside capacity instead of asking callers to replace it with another weak booking.
 
+For planned roof work, the [commercial roofing walk-through request](/resources/cold-call-scripts/commercial-roofing-cold-call-script-property-managers/#handoff) shows what to give the estimator when the host has approved an indoor visit and the owner still controls roof access.
+
 ## Build local relevance without duplicating location pages
 
 For US and Canadian outreach, plan calling windows around the site's local working day and the buyer's role. Explain the actual provider coverage in the conversation. The caller's location and the service crew's location are different facts.

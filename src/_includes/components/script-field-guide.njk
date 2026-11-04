@@ -39,24 +39,27 @@
         <div class="script-section-heading"><div><span>Say it out loud</span><h2>{{ guide.sectionTitle }}</h2></div><button type="button" class="script-copy-button" data-copy-target="full-script">Copy script</button></div>
         <p>{{ guide.sectionLead }}</p>
         <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
-        <p class="fg-next"><a href="#alternatives">Use the fill-in version for your own call</a> · <a href="#handoff">Copy the handoff note</a></p>
+        <p class="fg-next"><a href="#alternatives">Use the fill-in version for your own call</a> · <a href="#handoff">{{ guide.handoffLinkLabel or 'Copy the handoff note' }}</a></p>
       </section>
 
       <section id="qualification" class="script-content-section">
         <span class="script-kicker">Listen before you ask again</span><h2>{{ guide.qualificationHeading }}</h2>
         <p class="script-analysis-lead">{{ resource.quickAnswer }}</p><p>{{ guide.qualificationText }}</p>
         <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>{% if guide.routingRows %}
-        <h3 id="fleet-repair-routing">{{ guide.routingHeading }}</h3>
+        <h3 id="{{ guide.routingId or 'fleet-repair-routing' }}">{{ guide.routingHeading }}</h3>
         <dl class="fg-note">{% for row in guide.routingRows %}<div><dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd></div>{% endfor %}</dl>{% endif %}
       </section>
 
       <section id="handoff" class="script-content-section">
-        <span class="script-kicker">From the call to the CRM</span><h2>{{ guide.worksheetHeading }}</h2><p>{{ guide.worksheetLead }}</p>
+        <span class="script-kicker">{{ guide.worksheetKicker or 'From the call to the CRM' }}</span><h2>{{ guide.worksheetHeading }}</h2><p>{{ guide.worksheetLead }}</p>{% if guide.exampleEmail %}
+        <h3>{{ guide.exampleEmailHeading }}</h3>
+        <div class="script-copy-block"><pre id="sample-email">{{ guide.exampleEmail }}</pre></div>
+        <button class="script-copy-button" type="button" data-copy-target="sample-email">Copy the sample email</button>{% endif %}
         <dl class="fg-note">{% for label in guide.worksheetLabels %}<div><dt>{{ label }}</dt><dd>{{ guide.worksheetExample[loop.index0] }}</dd></div>{% endfor %}</dl>{% if guide.worksheetSources %}
         <p class="fg-next">Verify the sale against {% for item in guide.worksheetSources %}<a href="{{ item.url }}">{{ item.title }}</a>{% if not loop.last %} and {% else %}.{% endif %}{% endfor %}</p>{% endif %}
-        <details class="fg-blank"><summary>{{ guide.worksheetName }}</summary><div class="script-copy-block"><pre id="blank-handoff">{% for label in guide.worksheetLabels %}{{ label }} — [enter what the buyer confirmed]
-{% endfor %}</pre></div></details>
-        <button class="script-copy-button" type="button" data-copy-target="blank-handoff">Copy the blank note</button>
+        <details class="fg-blank"><summary>{{ guide.worksheetName }}</summary><div class="script-copy-block"><pre id="blank-handoff">{% if guide.worksheetBlank %}{{ guide.worksheetBlank }}{% else %}{% for label in guide.worksheetLabels %}{{ label }} — [enter what the buyer confirmed]
+{% endfor %}{% endif %}</pre></div></details>
+        <button class="script-copy-button" type="button" data-copy-target="blank-handoff">{{ guide.blankCopyLabel or 'Copy the blank note' }}</button>
       </section>
 
       <section id="objections" class="script-content-section">

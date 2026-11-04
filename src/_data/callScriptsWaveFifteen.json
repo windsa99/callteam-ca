@@ -816,5 +816,423 @@
       "finalHeading": "Which commercial owners should your brokerage call?",
       "finalText": "Bring your target market, property type and what makes an owner conversation worth booking. We’ll use those criteria to scope the campaign."
     }
+  },
+  {
+    "id": "CT-R105",
+    "number": 105,
+    "title": "Commercial Roofing Cold Call Script for Property Managers",
+    "seoTitle": "Commercial Roofing Cold Call Script for Property Managers",
+    "slug": "commercial-roofing-cold-call-script-property-managers",
+    "primaryKeyword": "commercial roofing cold call script",
+    "secondaryKeywords": [
+      "roofing sales script for commercial buildings",
+      "roofing cold call to a property manager",
+      "commercial roof maintenance prospecting",
+      "roof walk-through request"
+    ],
+    "category": "Commercial roofing",
+    "industry": "Commercial property and facilities services",
+    "subindustry": "Planned roof maintenance for commercial buildings",
+    "serviceCategory": "Commercial roofing prospecting",
+    "buyers": [
+      "Property Manager",
+      "Facilities Manager",
+      "Building Owner"
+    ],
+    "filters": [
+      "operations",
+      "executive"
+    ],
+    "objective": "Find out whether a property manager can consider another roofer and agree on the next step for one building.",
+    "archetype": "Building-specific vendor review",
+    "icp": "Commercial buildings in the contractor’s service area with an identifiable maintenance contact.",
+    "scenario": "A roofing contractor calls about planned work at one property. The manager already uses a roofer and needs the owner’s permission for roof access.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "metaDescription": "Use this commercial roofing cold call script to reach property managers, handle an existing roofer and qualify a walk-through. Copy the script and visit request.",
+    "opening": "Who arranges roof inspections for [Building] when the maintenance plan comes up for review?",
+    "quickAnswer": "Start with one building. Find out who sets the maintenance scope, whether another roofer can quote and who can approve a site visit. The person who can meet you at reception may need the owner’s permission to take you onto the roof.",
+    "questions": [
+      "When is the next inspection already scheduled?",
+      "Who decides which contractors can quote on planned work here?",
+      "If a site visit makes sense, whose approval would we need to go up?"
+    ],
+    "bridge": "If you can consider another contractor, our estimator can go through the scope with you before you ask anyone to price it.",
+    "cta": "Would it help to have our estimator walk through the scope with you before you send it to the owner?",
+    "fullScript": "Hi [Name], it’s [Rep] with [Roofing Company]. Who arranges roof inspections for [Building] when the maintenance plan comes up for review?\n\nProperty manager: “I do. We already have a roofer.”\nYou: “Fair enough. Do they cover every building, or can you bring in a second contractor for this one?”\nProperty manager: “They do the repairs. I can get another quote when we review the maintenance contract.”\nYou: “When does that come up?”\nProperty manager: “September. I send the scope to the owner in August.”\nYou: “What would you want a second roofer to look at?”\nProperty manager: “There’s a ceiling stain near receiving. I’d like to know what belongs in the scope.”\nYou: “Has anyone inspected that area yet?”\nProperty manager: “No. I can show you the stain. The owner has to clear anyone going on the roof.”\n\n[There is a reason to meet.]\nYou: “Would it help to have our estimator walk through the scope with you before you send it to the owner?”\nProperty manager: “Yes. Meet me at reception on Tuesday. We can look from inside.”\nYou: “How about ten on Tuesday morning, Mountain time?”\nProperty manager: “Ten works.”\nYou: “What’s the best email for the invite? I’ll put reception as the meeting point and note that roof access still needs approval.”\n\n[The owner chooses all contractors.]\nProperty manager: “I look after the tenants. The owner hires the contractors.”\nYou: “Who handles the maintenance plan on their side?”\n[If they share a business contact, ask whether you can mention the referral. Otherwise thank them and finish.]\n\n[Every job goes to tender.]\nProperty manager: “We put that work out to bid. We don’t book contractor visits by phone.”\nYou: “Where do you post the notice, and when should we look for it?”\n[Record the portal and review month. End the call there.]\n\n[The incumbent covers everything.]\nProperty manager: “Our roofer has every site. We aren’t adding anyone.”\nYou: “Got it. Thanks for clearing that up. I’ll leave it there.”",
+    "whyItWorks": "The building name makes it easy for the manager to correct the caller. Once a review date and a decision-maker are known, the contractor can ask for a visit the manager is actually allowed to arrange.",
+    "personalization": [
+      "Check the building name and location against the contractor’s service area.",
+      "Use the manager’s words for the concern they reported.",
+      "Confirm the meeting point and the access the host has approved.",
+      "Use the buyer’s actual bid portal or contract review date when purchasing runs the process."
+    ],
+    "objections": [
+      {
+        "objection": "Our contractor handles all of this.",
+        "response": "“Does their agreement include every property you manage?” If it does, ask whether there is a scheduled vendor review. If the manager says the list is closed, thank them and finish."
+      },
+      {
+        "objection": "I can let you into the lobby. That’s it.",
+        "response": "“That works for a first conversation. Who clears contractors for access to the roof?” Put the approved meeting point in the invite and leave the roof visit pending."
+      },
+      {
+        "objection": "Send your details for our vendor file.",
+        "response": "“Sure. Does purchasing need our service area, insurance details or a contact for estimates?” Confirm where to send the requested items and whether there is a review date."
+      },
+      {
+        "objection": "Can you tell us what caused the stain?",
+        "response": "“I can tell our estimator what you’ve seen. What did you notice, and has anyone checked it?” Record the manager’s description in their own words."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in script for planned commercial roof work",
+        "description": "Replace the brackets with one building and work your crew can take.",
+        "script": "Hi [Name], [Rep] from [Contractor]. Who reviews the roof maintenance contract at [Building]?\n\n[If they do] What work is already scheduled for [season]? Can another contractor quote on [scope they named]?\n\n[If a visit would help] Who should meet [estimator], and where are we cleared to go?"
+      },
+      {
+        "label": "When the tenant answers",
+        "description": "A tenant may know who manages the property without having authority to hire a roofer.",
+        "script": "Hi, this is [Rep] with [Company]. I’m looking for the person who handles building maintenance at [Address]. Is there a management office I can call?"
+      },
+      {
+        "label": "Voicemail for a facilities manager",
+        "description": "Use a local number and give the manager a reason to call back.",
+        "script": "Hi [Name], [Rep] at [Roofing Company]. I’m calling about the next roof maintenance review for [Building]. If you’re taking contractor details for that review, my number is [number]. Again, that’s [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should a commercial roofer say when cold calling a property manager?",
+        "answer": "Introduce yourself, name the building and ask who arranges its planned inspections. Once you reach that person, ask when the current maintenance scope gets reviewed. That gives the contractor a reason for the next call."
+      },
+      {
+        "question": "How do I respond when the property manager already has a roofer?",
+        "answer": "Find out whether the agreement covers every property and all planned work. A manager might use the incumbent for repairs but invite another quote for annual maintenance. If their agreement rules that out, close the call."
+      },
+      {
+        "question": "Can I book a roof walk-through if only the owner can approve access?",
+        "answer": "Ask which parts of the site the manager can show you. For an indoor meeting, record the room, the host and the time. Leave roof entry pending until the person who controls access confirms it."
+      },
+      {
+        "question": "What should I record if roof work goes to tender?",
+        "answer": "Get the procurement page, the anticipated posting date and the contact for vendor questions. Log the date to check the notice. A buyer directing you to a portal has given you a procurement route."
+      },
+      {
+        "question": "Can CallTeam book introductions for a commercial roofing contractor?",
+        "answer": "Yes. Give CallTeam the buildings, territory and types of planned work your team can serve. Its callers qualify the maintenance contact, review window and reason to meet before passing an introduction to your estimator."
+      }
+    ],
+    "related": [
+      "commercial-hvac-maintenance-cold-call-script",
+      "property-restoration-cold-call-script-property-managers",
+      "commercial-cleaning-cold-call-script-property-owners"
+    ],
+    "relevantServices": [
+      {
+        "title": "Managed B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "Put a caller on the accounts your roofing crew can serve."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Define what your estimator needs before a visit goes on the calendar."
+      },
+      {
+        "title": "Outsourced SDR services",
+        "href": "/services/outsourced-sdr/",
+        "description": "Build ongoing prospecting coverage for a commercial territory."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Facilities services lead generation playbook",
+        "url": "/articles/facilities-services-lead-generation-playbook/",
+        "description": "Map a service territory and separate site decisions from portfolio decisions."
+      },
+      {
+        "title": "How to call a prospect with an existing vendor",
+        "url": "/articles/cold-call-prospects-existing-vendor/",
+        "description": "Work through contracts, backup suppliers and scheduled vendor reviews."
+      }
+    ],
+    "sources": [
+      {
+        "title": "RCABC Guarantee Corp. roof maintenance guide",
+        "url": "https://www.rcabc.org/wp-content/uploads/Roof-Maintenance-Guide-2012.pdf",
+        "note": "The inspection checklist records the building, date, location and what the inspector observed."
+      },
+      {
+        "title": "City of Port Moody roof inspection and maintenance tender",
+        "url": "https://portmoody.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/d3559742-7f54-43cf-a792-e87b75f26c7a",
+        "note": "This awarded tender shows one buyer’s process for planned roof work, including separate deadlines for questions and bids."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "You’re a roofing contractor calling a property manager. Find out who can approve a visit before offering to send your estimator.",
+      "heroLabel": "After your name and company",
+      "forWho": "Commercial roofing contractors and their callers",
+      "forBuyer": "The person who manages maintenance at one building",
+      "nextStep": "A scoped visit, a purchasing contact or a date to check a tender",
+      "sectionTitle": "The roofing call, from the first question to the visit",
+      "sectionLead": "Start with a property your crew can serve. Use the manager’s answer to choose which part of the call comes next.",
+      "qualificationHeading": "What to qualify before booking a roof walk-through",
+      "qualificationText": "A manager who needs a second price may already have an inspection on the calendar. Check what has been arranged before offering another visit.",
+      "routingId": "roof-vendor-review",
+      "routingHeading": "What the manager can approve",
+      "routingRows": [
+        [
+          "“I can get a second price.”",
+          "Get the building and review date. Ask which part of the scope needs pricing."
+        ],
+        [
+          "“The owner controls access.”",
+          "Ask what the manager can authorise today. Confirm the person who can clear roof entry."
+        ],
+        [
+          "“Everything goes through purchasing.”",
+          "Take the procurement contact or portal and the next posting window."
+        ]
+      ],
+      "objectionHeading": "What to say when the building already has a roofer",
+      "alternativesHeading": "Adapt the call for a contractor, tenant or voicemail",
+      "worksheetHeading": "A commercial roofing walk-through request",
+      "worksheetLead": "Illustrative handoff to an estimator. A property manager approved a meeting inside the building. See exactly what the caller recorded about roof access.",
+      "worksheetLabels": [
+        "Building and meeting point",
+        "Host and access contact",
+        "Purpose and reported concern",
+        "Review window",
+        "Agreed visit and next decision"
+      ],
+      "worksheetExample": [
+        "Westgate Trade Centre. Meet at reception and sign in with the property manager.",
+        "The manager can show the receiving area from inside. The building owner controls roof entry. Approval is pending.",
+        "The manager reported a ceiling stain beside receiving. No inspection has taken place. The cause is unknown.",
+        "Management drafts the annual maintenance scope in August. The owner reviews the contract in September.",
+        "Tuesday at 10 a.m. Mountain time. The estimator and manager will review the indoor concern. The manager will then decide whether to request roof access."
+      ],
+      "worksheetName": "Blank roofing visit request",
+      "worksheetBlank": "Building and meeting point — [site and entrance]\nHost and access contact — [who can approve each area]\nPurpose and reported concern — [buyer’s words and any verified findings]\nReview window — [when and who decides]\nAgreed visit and next decision — [time, time zone and what happens next]",
+      "provenance": "CallTeam wrote the conversation and estimator’s note. The maintenance guide and the municipal tender below document two different parts of the buyer’s job.",
+      "evidenceURL": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+      "evidenceLabel": "Read CallTeam’s appointment qualification standard",
+      "evidenceNote": "It describes which details to confirm before passing a meeting to the person who will attend.",
+      "serviceHeading": "Need someone to call property managers for your roofing company?",
+      "serviceText": "CallTeam works through buildings in your service area, finds the person responsible for roof maintenance and asks when another contractor can be considered. When a visit makes sense, your estimator gets the location, the buyer’s question and the access the host approved.",
+      "serviceLabel": "Explore managed B2B cold calling",
+      "serviceURL": "/services/b2b-cold-calling/",
+      "faqHeading": "Questions roofing contractors ask before calling",
+      "finalHeading": "Which buildings should your roofing team call?",
+      "finalText": "Bring your service territory, the roof work you take and the details your estimator needs before leaving the shop."
+    }
+  },
+  {
+    "id": "CT-R106",
+    "number": 106,
+    "title": "Cold Call Script After an Unanswered Sales Email",
+    "seoTitle": "Cold Call Script After Sending an Email With No Reply",
+    "slug": "cold-call-script-after-unanswered-sales-email",
+    "primaryKeyword": "cold call script after sending an email",
+    "secondaryKeywords": [
+      "first phone call after a cold email",
+      "follow-up call after an unanswered email",
+      "what to say when a prospect did not reply",
+      "B2B email follow-up call script"
+    ],
+    "category": "Sales email follow-up",
+    "industry": "Cross-industry B2B sales",
+    "subindustry": "First calls after outbound email",
+    "serviceCategory": "B2B cold calling",
+    "buyers": [
+      "Operations Manager",
+      "Business Owner",
+      "Department Head"
+    ],
+    "filters": [
+      "operations",
+      "executive"
+    ],
+    "objective": "Start a first conversation after an unsolicited email and agree on a useful next step in the buyer’s own words.",
+    "archetype": "First call after a written introduction",
+    "icp": "Prospects who received a relevant outbound email and have never spoken with the seller.",
+    "scenario": "A rep for a local courier emailed a distributor about late parcel pickups. The distributor has not replied. The rep calls the shipping desk for the first time.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "metaDescription": "Try this cold call script after sending an email with no reply. See what to say if the buyer missed it, read it or wants a resend. Copy both phone openers.",
+    "opening": "I sent you a note about late pickups. We collect parcels after the regular courier leaves. What happens when an order misses pickup at your dock?",
+    "quickAnswer": "Mention the subject in a few words, explain the offer aloud and ask how the buyer handles that situation today. They can answer a question about their work even if they never opened your email.",
+    "questions": [
+      "What happens to an order that misses your last pickup?",
+      "Who decides whether a parcel can go out on a different route?",
+      "Which detail would you need to decide if a late pickup could work?"
+    ],
+    "bridge": "If a parcel really has to leave that day, our dispatcher can check the route and cutoff with you.",
+    "cta": "Would ten minutes with our dispatcher help you see whether we can cover that route?",
+    "fullScript": "Hi [Name], it’s [Rep] with [Courier]. I sent you a note about late pickups. We collect parcels after the regular courier leaves. What happens when an order misses pickup at your dock?\n\n[They missed the email.]\nBuyer: “I didn’t see it. Most of those orders just go tomorrow.”\nYou: “Fair enough. Does anything ever have to leave the same day?”\nBuyer: “Sometimes. The order desk calls around if a customer is waiting on a part.”\nYou: “Who at the desk usually deals with that?”\nBuyer: “That’s me. I’d need to know how late you can come by.”\nYou: “Which depot are you shipping from?”\nBuyer: “The east depot.”\nYou: “Would ten minutes with our dispatcher help you see whether we can cover that route?”\n[If they agree, offer two times. Confirm the depot, the route they want checked, the time zone and the email for the invite.]\n\n[They read it and already use a courier.]\nBuyer: “I saw your email. We’ve got somebody for late pickups.”\nYou: “Sounds like you’ve got it covered. Is there a run they can’t usually take?”\nBuyer: “Fridays can be tricky. Just send me your cutoff for Fridays.”\nYou: “Sure. Which postal code should I have dispatch check?”\nBuyer: “I’ll give you the depot’s. Just email me the answer.”\nYou: “Will do. I’ll send the Friday cutoff for that depot.”\n[Send the verified cutoff to the address they confirm. Record an email request.]\n\n[Someone else handles this.]\nBuyer: “I’m in receiving. Shipping chooses the courier.”\nYou: “Thanks. Is there a name or a direct line for shipping?”\n[If they give you a contact, record who referred you. Introduce yourself when you call that person.]\n\n[There’s no fit.]\nBuyer: “Everything can wait until the morning truck.”\nYou: “Got it. You wouldn’t need us for that. Thanks for your time.”",
+    "whyItWorks": "The buyer hears the whole offer on the first call. Their answer tells the rep whether to ask about a route, contact a colleague, send one detail or finish.",
+    "personalization": [
+      "Keep the offer in your email and on the call consistent.",
+      "Replace the courier example with one task your buyer recognises.",
+      "Confirm the requested information with the person responsible before sending it.",
+      "Use the name of a colleague only when the original contact gave you permission to mention the referral."
+    ],
+    "objections": [
+      {
+        "objection": "I never saw your email.",
+        "response": "“No problem. We pick up parcels after your carrier’s last run. Does anything still need to go out after that?” Give the buyer a moment to think. There’s no need to ask them to find the message."
+      },
+      {
+        "objection": "I read it. We already have someone.",
+        "response": "“How does that work on a Friday afternoon?” Use a question about a real part of your service. If the current arrangement covers it, thank them."
+      },
+      {
+        "objection": "Just resend it.",
+        "response": "“Of course. Was there a detail you wanted, or would you like the original note?” Confirm the address and send what they ask for. Agree on a callback only if they want one."
+      },
+      {
+        "objection": "I’m not the person for this.",
+        "response": "“Who looks after that at your company?” Ask whether you may mention their name. A department number can still help if they prefer to keep a colleague’s details private."
+      },
+      {
+        "objection": "Please take me off your list.",
+        "response": "“Of course. I’ll mark that now. Thanks for telling me.” End the call and record the request before any further outreach."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in script for a first call after an email",
+        "description": "Use the same specific offer you put in your first note.",
+        "script": "Hi [Name], [Rep] with [Company]. I emailed you about [task]. We help [type of buyer] do [specific thing]. How do you handle that today?\n\n[They mention a gap] When did that last come up? Who took care of it?\n\n[They want details] What would be most useful to send?"
+      },
+      {
+        "label": "A short call when the prospect is busy",
+        "description": "Give them an easy way to decide whether to reconnect.",
+        "script": "[Name], this is [Rep] from [Company]. The note I sent was about [specific job]. Do you look after that?\n\n[They do, but have to go] Is there a time that suits you, or would a short email be easier?"
+      },
+      {
+        "label": "Voicemail that stands on its own",
+        "description": "Include the topic and your number so the buyer can respond either way.",
+        "script": "Hi [Name], it’s [Rep] with [Company]. We help [buyer] with [task]. I emailed a short example under the subject [subject]. If you want to talk about [specific issue], my number is [number]. Again, that’s [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should I say on a follow-up call after sending a cold email?",
+        "answer": "Give your name, company and the business reason for calling. Then ask one question the prospect can answer from experience. For a distributor, that could be what happens to parcels after the last truck leaves."
+      },
+      {
+        "question": "Should I ask “Did you get my email?”",
+        "answer": "Open with the issue you emailed about. Asking someone to search their inbox uses the first few seconds on the message itself. A question about their work gives them something they can answer straight away."
+      },
+      {
+        "question": "My CRM shows an email open. Can I assume the buyer read it?",
+        "answer": "An open event cannot establish that the person read the message. Apple’s Mail Privacy Protection can load remote content in the background. Use the prospect’s own words to decide which branch of the call fits."
+      },
+      {
+        "question": "What if the prospect only wants me to resend the email?",
+        "answer": "Confirm the address and whether they want the whole note or one detail. Send that item. If they choose a time to talk, record the date, time zone and purpose as a separate next step."
+      },
+      {
+        "question": "Can CallTeam call the prospects who haven’t replied to our outbound email?",
+        "answer": "Yes. Provide the audience, the exact message you sent and the contacts to exclude. CallTeam can make the first calls, qualify the replies and flag who asked for information, referred a colleague or agreed to meet."
+      }
+    ],
+    "related": [
+      "b2b-appointment-setting-cold-call-script",
+      "lead-generation-agency-cold-call-script",
+      "logistics-overflow-drayage-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "Managed B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "Give prospects an opportunity to discuss the offer in your original email."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Set criteria for a booked sales conversation."
+      },
+      {
+        "title": "Outsourced SDR services",
+        "href": "/services/outsourced-sdr/",
+        "description": "Add calling capacity when your team cannot cover the list."
+      }
+    ],
+    "guides": [
+      {
+        "title": "How to write a B2B cold call script",
+        "url": "/articles/how-to-write-a-b2b-cold-call-script/",
+        "description": "Turn the sentence in your email into a question a buyer can answer out loud."
+      },
+      {
+        "title": "When a buyer asks you to send information",
+        "url": "/articles/send-me-information-sales-objection/",
+        "description": "Use this once the prospect has actually requested something."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Reply.io on calling after a previous touchpoint",
+        "url": "https://reply.io/blog/best-cold-calling-scripts/",
+        "note": "Its script collection includes a call that refers to an earlier outbound email."
+      },
+      {
+        "title": "Gong on explaining the reason for a cold call",
+        "url": "https://www.gong.io/blog/cold-call-objections",
+        "note": "The opening section recommends stating the caller’s identity and reason for calling."
+      },
+      {
+        "title": "Apple on Mail Privacy Protection",
+        "url": "https://www.apple.com/legal/privacy/data/en/mail-privacy-protection/",
+        "note": "Apple explains how Mail can download remote content in the background regardless of whether the recipient engages."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "You emailed a prospect and got no reply. On your first call, explain the offer in one sentence and find out whether they can use it.",
+      "heroLabel": "After your name and company",
+      "forWho": "B2B sellers making their first phone call to a prospect",
+      "forBuyer": "The person whose work the original email was about",
+      "nextStep": "One agreed action, based on what the buyer tells you",
+      "sectionTitle": "The first call after the email, with both sides",
+      "sectionLead": "A local courier emailed a distributor about late pickups. Start at the top, then follow the reply you hear.",
+      "qualificationHeading": "What to ask once the buyer knows why you called",
+      "qualificationText": "Listen for a concrete example of the problem. If the buyer names one, use their words in the next question. If they say their current process covers it, you can finish the call.",
+      "objectionHeading": "What to say if they missed it, have a supplier or want a resend",
+      "alternativesHeading": "First-call templates for any B2B offer",
+      "worksheetHeading": "One cold email and two matching phone openings",
+      "worksheetLead": "Illustrative example from CallTeam. This is the email a courier rep could send a distributor, followed by the words to use when the buyer tells you what they saw.",
+      "worksheetKicker": "From the inbox to the first call",
+      "handoffLinkLabel": "See the email and both phone openings",
+      "exampleEmailHeading": "The original email",
+      "exampleEmail": "Subject: Orders that miss the afternoon truck\n\nHi Morgan,\n\nWe pick up parcels in the east industrial park after the regular carriers leave. What do you do with a parts order that comes in after your last truck?\n\nDani",
+      "worksheetLabels": [
+        "If the buyer says “I missed it”",
+        "If the buyer says “I saw the note”",
+        "What goes in the call record"
+      ],
+      "worksheetExample": [
+        "“That’s fine, Morgan. We do late pickups in the east industrial park. Say a parts order comes in at four. Can it go tomorrow?”",
+        "“You saw the note, Morgan. When an order misses the truck at the east depot, do you already have someone you can call?”",
+        "Morgan asked for the latest Friday pickup time for the east depot. Dani will check with dispatch and email the answer. Morgan hasn’t asked for a meeting."
+      ],
+      "worksheetName": "Blank email-to-call worksheet",
+      "worksheetBlank": "Original subject and offer — [what you actually emailed]\nIf the buyer missed it — [one sentence explaining the offer and a question]\nIf the buyer read it — [a question about the work]\nAgreed outcome — [resend, referral, callback, meeting or close]\nOwner and date — [who agreed to do what and when]",
+      "blankCopyLabel": "Copy the blank worksheet",
+      "provenance": "CallTeam wrote the courier email, phone dialogue and call record for this guide. The sources below cover previous touches, opening a cold call and the limits of email-open data.",
+      "evidenceURL": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+      "evidenceLabel": "See what qualifies as a booked appointment at CallTeam",
+      "evidenceNote": "Use the standard when a buyer offers time to discuss a specific need.",
+      "serviceHeading": "Need someone to call prospects who haven’t replied?",
+      "serviceText": "CallTeam uses the offer your team already emailed, reaches the person who handles it and records what they agree to. Your seller gets the buyer’s reason to meet. People who ask for a resend or point you to a colleague are marked separately.",
+      "serviceLabel": "See CallTeam’s managed B2B cold calling service",
+      "serviceURL": "/services/b2b-cold-calling/",
+      "faqHeading": "Questions about calling after an unanswered email",
+      "finalHeading": "Which prospects should get a first call?",
+      "finalText": "Bring the email you sent, the list it went to and an example of a conversation your sales team would want to take."
+    }
   }
 ]

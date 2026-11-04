@@ -195,6 +195,8 @@ State the purpose plainly:
 
 The meeting earns its place because it helps the buyer make a decision. Calendar time alone is not value.
 
+For a building with an established roofer, the [roof maintenance vendor-review questions](/resources/cold-call-scripts/commercial-roofing-cold-call-script-property-managers/#roof-vendor-review) cover second quotes, owner approval and formal tenders.
+
 ## Qualify before handing the meeting to sales
 
 An incumbent-provider opportunity needs more context than a standard booked demo. Confirm the current model, the gap, who owns the relationship, any known commercial timing, the consequence of doing nothing, and what the buyer expects from the next conversation.

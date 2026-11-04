@@ -173,6 +173,8 @@ Keep the claim inside what the research supports. If the company opened a new lo
 
 The [logistics overflow and drayage script](/resources/cold-call-scripts/logistics-overflow-drayage-cold-call-script/) does not assume the prospect needs a replacement carrier. It looks for overflow lanes, difficult ports, seasonal volume, and exceptions where another option could matter. Credibility comes from respecting the likelihood that the buyer already has an established solution.
 
+See [one sales email and two matching phone openings](/resources/cold-call-scripts/cold-call-script-after-unanswered-sales-email/#handoff) for an example that works whether the buyer read the note or missed it.
+
 ## Ask a question the prospect can answer
 
 The first question should connect directly to the reason for calling. A broad prompt such as “What keeps you up at night?” asks for too much trust and gives the buyer too much work.
