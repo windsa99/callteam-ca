@@ -20,7 +20,7 @@ eleventyComputed:
   "@graph": [
     {
       "@type": "Article",
-      "headline": {{ resource.seoTitle | json | safe }},
+      "headline": {{ (resource.title if resource.fieldGuide else resource.seoTitle) | json | safe }},
       "description": {{ resource.metaDescription | json | safe }},
       "url": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/",
       "datePublished": "{{ resource.publishedDate or '2026-08-15' }}",

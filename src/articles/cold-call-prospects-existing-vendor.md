@@ -171,6 +171,8 @@ Competitive displacement is only one possible strategy. The strongest route depe
 
 This framing makes the call more useful because it separates “another vendor” from “another option.” It also prevents sales from receiving meetings where the prospect has no authority, timing, need, or willingness to evaluate.
 
+For a fleet that already has a body shop, use the [three repair-routing replies](/resources/cold-call-scripts/fleet-account-cold-calling-script-auto-body-shops/#fleet-repair-routing) to decide whether to ask about overflow, request the vendor contact or close the call.
+
 ## Respond without attacking the incumbent
 
 When a buyer says the current provider is good, agree that a working relationship is valuable. Then connect the answer to the narrow issue that prompted the call.

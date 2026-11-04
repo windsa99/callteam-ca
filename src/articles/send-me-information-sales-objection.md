@@ -147,6 +147,8 @@ The email should remind the buyer why it arrived. A practical structure includes
 
 Avoid claiming that an attachment answers questions it does not cover. Technical, financial, security, and legal claims should be accurate and reviewable. Human follow-up works best when the content creates trust rather than marketing noise.
 
+A broker can send a single verified sale when an owner asks for market information. The [completed commercial property owner note](/resources/cold-call-scripts/commercial-real-estate-cold-calling-script-property-owners/#handoff) shows what goes in that email and how to record the agreed next step.
+
 ## Earn a specific follow-up agreement
 
 When the buyer has stated a meaningful reason for reviewing the material, ask what should happen after the review.

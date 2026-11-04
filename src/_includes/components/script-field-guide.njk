@@ -7,7 +7,7 @@
   <div class="container-wide script-resource-hero-grid">
     <div>
       <div class="section-label">Free B2B call script · {{ resource.category }}</div>
-      <h1>{{ resource.seoTitle }}</h1>
+      <h1>{{ resource.title }}</h1>
       <p class="script-resource-lead">{{ guide.subhead }}</p>
       <div class="fg-first-line"><strong>{{ guide.heroLabel }}</strong><p>“{{ resource.opening }}”</p></div>
       <div class="script-hero-actions">
@@ -45,12 +45,15 @@
       <section id="qualification" class="script-content-section">
         <span class="script-kicker">Listen before you ask again</span><h2>{{ guide.qualificationHeading }}</h2>
         <p class="script-analysis-lead">{{ resource.quickAnswer }}</p><p>{{ guide.qualificationText }}</p>
-        <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>
+        <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>{% if guide.routingRows %}
+        <h3 id="fleet-repair-routing">{{ guide.routingHeading }}</h3>
+        <dl class="fg-note">{% for row in guide.routingRows %}<div><dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd></div>{% endfor %}</dl>{% endif %}
       </section>
 
       <section id="handoff" class="script-content-section">
         <span class="script-kicker">From the call to the CRM</span><h2>{{ guide.worksheetHeading }}</h2><p>{{ guide.worksheetLead }}</p>
-        <dl class="fg-note">{% for label in guide.worksheetLabels %}<div><dt>{{ label }}</dt><dd>{{ guide.worksheetExample[loop.index0] }}</dd></div>{% endfor %}</dl>
+        <dl class="fg-note">{% for label in guide.worksheetLabels %}<div><dt>{{ label }}</dt><dd>{{ guide.worksheetExample[loop.index0] }}</dd></div>{% endfor %}</dl>{% if guide.worksheetSources %}
+        <p class="fg-next">Verify the sale against {% for item in guide.worksheetSources %}<a href="{{ item.url }}">{{ item.title }}</a>{% if not loop.last %} and {% else %}.{% endif %}{% endfor %}</p>{% endif %}
         <details class="fg-blank"><summary>{{ guide.worksheetName }}</summary><div class="script-copy-block"><pre id="blank-handoff">{% for label in guide.worksheetLabels %}{{ label }} — [enter what the buyer confirmed]
 {% endfor %}</pre></div></details>
         <button class="script-copy-button" type="button" data-copy-target="blank-handoff">Copy the blank note</button>

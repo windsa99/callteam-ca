@@ -393,5 +393,428 @@
       "finalHeading": "Which IT contracts can your recruiters fill?",
       "finalText": "Bring your specialties, locations and supplier requirements. We’ll discuss the employer conversations that belong on your calendar."
     }
+  },
+  {
+    "id": "CT-R103",
+    "number": 103,
+    "title": "Fleet Account Cold Calling Script for Auto Body Shops",
+    "seoTitle": "Fleet Account Cold Calling Script for Auto Body Shops",
+    "slug": "fleet-account-cold-calling-script-auto-body-shops",
+    "primaryKeyword": "fleet account cold calling script for auto body shops",
+    "secondaryKeywords": [
+      "how to get fleet accounts for an auto body shop",
+      "collision repair sales script for fleet managers",
+      "fleet bodywork backup shop"
+    ],
+    "category": "Fleet collision repair",
+    "industry": "Commercial collision repair",
+    "subindustry": "Auto body shops prospecting local service fleets",
+    "serviceCategory": "Fleet repair account prospecting",
+    "buyers": [
+      "Fleet Manager",
+      "Operations Manager",
+      "Maintenance Manager"
+    ],
+    "filters": [
+      "operations",
+      "commerce"
+    ],
+    "objective": "Find out whether a local fleet can use a second body shop for overflow repairs",
+    "archetype": "Backup repair shop",
+    "icp": "Local operators with vans or light trucks your collision shop can repair. Confirm the vehicle mix and where those vehicles are based.",
+    "scenario": "A local shop wants to introduce its manager to a fleet supervisor who already has a repair supplier.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "metaDescription": "Use this fleet account cold calling script for auto body shops. Ask who chooses the repair shop, handle “we already have one” and qualify a backup introduction.",
+    "opening": "When one of your vans needs bodywork, do you choose the shop locally, or does head office handle that?",
+    "quickAnswer": "A fleet account is worth pursuing when someone can authorise a second estimate. Once you reach that person, ask which vehicles they would send and what would prompt them to call your shop.",
+    "questions": [
+      "Which vehicles would you send to a second shop, and where are they based?",
+      "What usually prompts a call to the backup shop?",
+      "Who has to approve a new shop before you can request an estimate?"
+    ],
+    "bridge": "If you sometimes need a second estimate, our shop manager can check whether those vans fit our bays and tell you who to call.",
+    "cta": "Would ten minutes with our shop manager help you decide whether to keep us as a backup?",
+    "fullScript": "[Introduce yourself.]\nHi [Name], it’s [Rep] at [Shop] in [Town]. When one of your vans needs bodywork, do you choose the shop locally, or does head office handle that?\n\nFleet manager: “We decide here, but we already have a shop.”\nYou: “When they’re booked up, can you use a second shop?”\n\n[They can use a backup.]\nFleet manager: “Yes, if ours can’t give us an estimate date.”\nYou: “Got it. Which vehicles would you send out in that situation?”\nFleet manager: “Mainly service vans. A few are high-roof.”\nYou: “Where are those vans based?”\nFleet manager: “They all come back to the west depot.”\nYou: “Does purchasing have to add us before you can request an estimate?”\nFleet manager: “I can ask for a quote. Purchasing approves the shop before we send a van.”\n\n[If the vehicles and location fit.]\nYou: “Would ten minutes with our shop manager help you decide whether to keep us as a backup?”\n\n[They ask for an email.]\nFleet manager: “Just send me your details.”\nYou: “Sure. What would help next time you need an estimate?”\nFleet manager: “Your estimate contact and whether you can fit our high-roof vans.”\nYou: “I’ll check the clearance with our manager. Would it help to speak with them about that model?”\n[If they prefer email, confirm the address and send the details. If they want the introduction, offer two times and confirm the time zone and email address before sending the invite.]\n\n[Head office or a fleet management company decides.]\nFleet manager: “All bodywork goes through head office.”\nYou: “Who at head office handles repair vendors for this depot?”\n[Record the route they give you. If the list is closed, thank them and end the call.]\n\n[They can’t use a second shop.]\nFleet manager: “No. Even when ours is full, every van goes through them.”\nYou: “Got it. Thanks for clearing that up. I’ll leave it there.”",
+    "whyItWorks": "The first two answers tell you whether the fleet has a choice. A vehicle type, a depot and a reason for the call give the manager something concrete to follow up on.",
+    "personalization": [
+      "Use the name of the shop and the town where it actually repairs vehicles.",
+      "Know the vehicle sizes the shop can accept and who can confirm bay clearance.",
+      "Use the fleet’s own reason for considering a second estimate.",
+      "Confirm any pickup, estimate timing or onboarding details with the shop before promising them."
+    ],
+    "objections": [
+      {
+        "objection": "We already have a shop.",
+        "response": "“If your usual shop can’t give you an estimate date, who can approve another quote?” If purchasing makes that decision, ask how a shop can get on its list."
+      },
+      {
+        "objection": "Head office handles repairs.",
+        "response": "“Who looks after approved body shops for this depot?” Record the contact or application process the supervisor gives you."
+      },
+      {
+        "objection": "Can you pick up a high-roof van and have it back Friday?",
+        "response": "“Which model is it, and where is it parked? I’ll check with the shop manager and get you an answer.” Agree who will call back. Pickup, bay clearance and repair timing all need confirmation."
+      },
+      {
+        "objection": "Just send your number.",
+        "response": "“Of course. Do you just want our estimate contact, or is there a specific van you need us to check?” If the contact is all they want, send it and finish."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in script for a local body shop",
+        "description": "Use the work your shop actually takes and the location it serves.",
+        "script": "[Name], this is [Rep] from [Shop]. We repair [vehicle type] in [Town]. Who chooses the body shop for the [vehicle type] out of [depot]?\n\n[If they choose locally] When your regular shop can’t take one, can you use a backup? Which vehicles would that apply to?\n\n[If it fits] Would it help to introduce you to [manager] so you know who to call for [need they named]?"
+      },
+      {
+        "label": "Short opener for the depot office",
+        "description": "Use this when reception or dispatch answers.",
+        "script": "Hi, it’s [Rep] from [Shop] in [Town]. Who handles collision repairs for the vans at this depot? Do they choose the body shop here, or is that done centrally?"
+      },
+      {
+        "label": "Voicemail for a fleet manager",
+        "description": "Leave one reason to return the call.",
+        "script": "Hi [Name], [Rep] here from [Shop]. We repair vans in [Town]. If you ever need a second estimate, you can reach me at [number]. Again, that’s [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should a body shop say when calling fleet managers?",
+        "answer": "Give your name, your shop and your town. Ask who chooses the repairer when a van needs bodywork, then pause. The answer tells you whether to speak with the depot manager or ask for the head-office contact."
+      },
+      {
+        "question": "How do I get fleet repair accounts if the fleet already has a body shop?",
+        "answer": "Look for a specific gap you can cover. A depot might need an estimate for a high-roof van while its regular shop is full. Confirm the depot can send that work elsewhere and your shop can take the model."
+      },
+      {
+        "question": "What belongs in the handoff to the shop manager?",
+        "answer": "Record the depot, vehicle type, who approves a second shop, when the fleet would use it, and what the manager needs to confirm. Include the agreed next step and time zone. Mark a repair order only after the fleet actually authorizes work."
+      },
+      {
+        "question": "What if the driver or depot manager cannot choose the repair shop?",
+        "answer": "Ask who maintains the approved vendor list. That might be head office or the fleet management company. If they give you a route, record it. If they have no route for a new shop, close the call."
+      },
+      {
+        "question": "Can CallTeam call fleet managers for a collision repair shop?",
+        "answer": "Yes. Give CallTeam your service radius, the vehicles your bays can take and the name of your estimate contact. CallTeam uses those details to qualify fleet managers for an introduction. Your shop confirms capacity and handles estimates."
+      }
+    ],
+    "related": [
+      "b2b-appointment-setting-cold-call-script",
+      "fleet-management-software-cold-call-script",
+      "logistics-overflow-drayage-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Book introductions with fleet buyers who can consider a backup shop."
+      },
+      {
+        "title": "B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "See how CallTeam handles live calls and agreed follow-up."
+      },
+      {
+        "title": "B2B lead generation",
+        "href": "/services/b2b-lead-generation/",
+        "description": "Build a list around the shop’s vehicles and service area."
+      }
+    ],
+    "guides": [
+      {
+        "title": "How to cold call operations leaders",
+        "url": "/articles/cold-call-operations-leaders/",
+        "description": "Find the person who owns a local operating decision."
+      },
+      {
+        "title": "How to cold call prospects with an existing vendor",
+        "url": "/articles/cold-call-prospects-existing-vendor/",
+        "description": "Use the buyer’s answer to decide whether a backup conversation makes sense."
+      }
+    ],
+    "sources": [
+      {
+        "title": "FenderBender on building fleet repair accounts",
+        "url": "https://www.fenderbender.com/running-a-shop/finance/article/33030783/figuring-out-fleets",
+        "note": "Collision shop operators describe direct fleet relationships and repairs routed through fleet management companies."
+      },
+      {
+        "title": "FenderBender on outside sales for collision shops",
+        "url": "https://www.fenderbender.com/running-a-shop/operations/article/55267928/drive-how-outside-sales-can-drive-growth-for-your-collision-shop",
+        "note": "Trade reporting on how shops develop local commercial relationships."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "You’re calling a fleet manager for your body shop. Find out who chooses the repair shop and whether the depot can use a backup.",
+      "heroLabel": "After you introduce yourself",
+      "forWho": "Body shop owners, managers and outside sales reps",
+      "forBuyer": "The fleet or operations manager for a local depot",
+      "nextStep": "A short introduction about vehicles the shop might repair",
+      "sectionTitle": "The fleet repair call, both sides",
+      "sectionLead": "Give your name, shop and town. Pause after the first question so the fleet manager can tell you how repairs work at that depot.",
+      "qualificationHeading": "How to tell if a fleet can use a second body shop",
+      "qualificationText": "Check that the depot is inside your service area and the vehicles fit your bays before offering the shop manager’s time.",
+      "routingHeading": "What to do with each fleet manager’s answer",
+      "routingRows": [
+        [
+          "“We decide here. A backup is possible.”",
+          "Ask about the vans, where they operate and what would trigger an estimate. Offer the shop manager’s time if the work fits."
+        ],
+        [
+          "“Head office or our fleet company decides.”",
+          "Ask for the repair-vendor contact or the application route. Record a referral."
+        ],
+        [
+          "“We have to wait for our regular shop.”",
+          "Thank them and close. Record that a second shop cannot be used."
+        ]
+      ],
+      "objectionHeading": "What to say when the fleet already has a supplier",
+      "alternativesHeading": "Adapt the script for your depot, buyer or voicemail",
+      "worksheetHeading": "A fleet repair handoff the shop manager can use",
+      "worksheetLead": "Illustrative calendar note for the shop manager. It records what the fleet supervisor agreed to and what the manager needs to check.",
+      "worksheetLabels": [
+        "Depot and vehicles",
+        "Who chooses the shop",
+        "When they would call us",
+        "What the manager needs to check",
+        "Agreed next step"
+      ],
+      "worksheetExample": [
+        "Fourteen service vans are based at the west depot, including three high-roof models.",
+        "The fleet supervisor can request a second estimate. Purchasing approves new shops before issuing a repair order.",
+        "“If ours can’t give me an estimate date, I need another number to call.”",
+        "Confirm bay clearance for the high-roof model. Bring the direct number for estimates and ask whether the fleet needs pickup.",
+        "Tuesday at 10 a.m. Mountain time. The supervisor accepted a ten-minute introduction. Attendance and any repair order are still pending."
+      ],
+      "worksheetName": "Blank fleet repair handoff",
+      "provenance": "CallTeam wrote the dialogue and the handoff note. The trade sources below describe how collision shops work with local fleets and fleet management companies.",
+      "evidenceURL": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+      "evidenceLabel": "Read CallTeam’s qualification standard",
+      "evidenceNote": "Use the qualification standard to decide which calls go on the manager’s calendar. Track introductions booked, meetings held and first repair orders separately.",
+      "serviceHeading": "Need someone to call fleet managers for your shop?",
+      "serviceText": "CallTeam researches local fleets, reaches the person who selects repair shops and books qualified introductions. Tell us which vehicles fit your bays and which towns you serve. Your manager gets the buyer’s name, the reason they might use a backup and the question they want answered.",
+      "serviceLabel": "Explore B2B appointment setting",
+      "serviceURL": "/services/b2b-appointment-setting/",
+      "faqHeading": "Questions body shops ask about fleet prospecting",
+      "finalHeading": "Which fleets can your shop actually serve?",
+      "finalText": "Bring your service area, vehicle limits and ideal repair work. We’ll talk through what makes a fleet introduction worth your manager’s time."
+    }
+  },
+  {
+    "id": "CT-R104",
+    "number": 104,
+    "title": "Commercial Real Estate Cold Calling Script for Property Owners",
+    "seoTitle": "Commercial Real Estate Cold Calling Script for Owners",
+    "slug": "commercial-real-estate-cold-calling-script-property-owners",
+    "primaryKeyword": "commercial real estate cold calling script",
+    "secondaryKeywords": [
+      "commercial real estate prospecting script",
+      "cold calling commercial property owners",
+      "industrial real estate broker cold call",
+      "calling an owner who is holding"
+    ],
+    "category": "Commercial real estate",
+    "industry": "Commercial real estate brokerage",
+    "subindustry": "Industrial property owners and asset managers",
+    "serviceCategory": "Commercial owner prospecting",
+    "buyers": [
+      "Commercial Property Owner",
+      "Asset Manager",
+      "Managing Partner"
+    ],
+    "filters": [
+      "commerce",
+      "executive"
+    ],
+    "objective": "Confirm who decides on a commercial property and earn permission for one relevant follow-up",
+    "archetype": "Property owner conversation",
+    "icp": "Owners and authorised asset managers whose commercial buildings fit the brokerage’s market and property type.",
+    "scenario": "An industrial broker has checked an ownership record. The person who answers is keeping the building, but may find a verified sale useful.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "metaDescription": "Use this commercial real estate cold calling script to reach property owners, handle “we’re holding” and offer one verified comparable. Copy the broker’s call notes.",
+    "opening": "Hi [Name], it’s [Rep] with [Brokerage]. Do you still look after [Property] on [Street]?",
+    "quickAnswer": "Identify the property and find out who makes decisions about it. A broker earns a follow-up by tying a documented sale to something the owner is working on, such as a lease renewal or a discussion with a partner.",
+    "questions": [
+      "Who makes the ownership decisions for this building?",
+      "What are your plans for this building over the next year?",
+      "Which difference would matter most if I sent you a sale to look at?"
+    ],
+    "bridge": "I can send the sale I checked, where I found it and the one difference you mentioned.",
+    "cta": "Would it help to compare a nearby sale before you and your partner decide? I can walk you through it in ten minutes.",
+    "fullScript": "[Before dialling, check the property address, the ownership record and the source of any sale you plan to mention.]\nHi [Name], it’s [Rep] with [Brokerage]. Do you still look after [Property] on [Street]?\n\nOwner: “Yes. Why?”\nYou: “I work with industrial owners in [Area]. What are you thinking of doing with the building over the next year?”\n\n[They are holding.]\nOwner: “We’re holding it.”\nYou: “Understood. Would a sale nearby be useful for your planning, or are you all set?”\nOwner: “We’d look at one. Ours has two tenants, though.”\nYou: “I can send the price and floor area. I haven’t confirmed the lease terms. Would those figures still help?”\nOwner: “Yes. Email it to me.”\nYou: “What’s the best work email? I’ll put the address and source in the note.”\n[Send the one item promised. Log email only unless the owner agrees to a call.]\n\n[A lease decision is coming up.]\nOwner: “My partner and I might sell once a lease comes up.”\nYou: “When are you two reviewing it?”\nOwner: “Early next month.”\nYou: “What would help you decide?”\nOwner: “I’d like to know if anyone’s buying buildings our size when a lease is about to expire.”\nYou: “Would it help to compare a nearby sale before you and your partner decide? I can walk you through it in ten minutes.”\n[If yes, offer two times. Confirm who will join, their work email and the time zone. If the sale doesn’t answer the lease question, say so.]\n\n[They already have a broker.]\nOwner: “Our broker handles that for us.”\nYou: “Got it. Does your broker already bring you the sales you need?”\n[If yes, thank them and close. If the owner requests one source, confirm how they would like to receive it.]\n\n[You reached the property manager.]\nManager: “I look after the tenants. Ownership handles sales.”\nYou: “Thanks. Who should I speak with about the owner’s plans for [Property]?”\n[If there is no referral, end here.]\n\n[No fit.]\nOwner: “We’re keeping it and we don’t want updates.”\nYou: “Understood. I’ll leave it there. Thanks for your time.”",
+    "whyItWorks": "A street address gives the owner a quick way to correct the caller. Asking what the owner would use makes the next step specific, including when that next step is a single email.",
+    "personalization": [
+      "Check the building address, ownership entity and authorised contact before calling.",
+      "Pick a closed transaction in the same asset class and area. Record the source and sale date.",
+      "Ask which differences matter to this owner before treating the buildings as comparable.",
+      "Send only the agreed material and record whether the owner requested a follow-up call."
+    ],
+    "objections": [
+      {
+        "objection": "We’re holding the building.",
+        "response": "“Is there anything you’re keeping an eye on while you hold it?” If nothing comes to mind, thank the owner and finish the call."
+      },
+      {
+        "objection": "We already have a broker.",
+        "response": "“Does your broker already bring you what you need?” If the relationship covers it, thank the owner. If they ask for a particular public sale, send only what they requested."
+      },
+      {
+        "objection": "I’m the property manager.",
+        "response": "“Who handles ownership decisions for this building?” Ask for the business contact if they can share it. A manager overseeing tenants might have no role in selling the property."
+      },
+      {
+        "objection": "Do you actually have a buyer?",
+        "response": "If you are calling about market information, say so. “I’m calling about a recorded sale. I don’t have a buyer to bring you for this building.” Let the owner decide whether the information is still useful."
+      },
+      {
+        "objection": "Just send me something.",
+        "response": "“Sure. What would you like me to send?” If the owner asks for the price, send the sale record with the address and date. Arrange a call only if there’s a question they want to discuss."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in call for a commercial building owner",
+        "description": "Use one verified building and a reason for that owner to stay on the line.",
+        "script": "[Name], this is [Rep] at [Brokerage]. Who reviews offers on [Address]?\n\n[If they decide] I cover [property type] in [area]. Are you keeping the building for the time being?\n\n[If there is a decision ahead] What information would help? I checked [closed sale] in [source] on [date]. Would you like the details, or would a short call about [specific difference] be useful?"
+      },
+      {
+        "label": "Opener when you reach an asset manager",
+        "description": "Separate ownership decisions from day-to-day building management.",
+        "script": "Hi [Name], [Rep] with [Brokerage]. I’m calling about [Address]. When the ownership group reviews whether to hold or sell that building, is that something you handle?"
+      },
+      {
+        "label": "Voicemail for a commercial property owner",
+        "description": "Use this only when you have checked the sale you mention.",
+        "script": "Hi [Name], it’s [Rep] with [Brokerage], calling about [Address]. I have the recorded details of an industrial sale in [area]. If that would help with your planning, I’m at [number]. Again, it’s [Rep] at [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should a commercial real estate broker say when cold calling property owners?",
+        "answer": "Give your name and brokerage, name the property, then confirm you have the person who looks after it. Ask about the owner’s plans before offering market information or a meeting."
+      },
+      {
+        "question": "What do I say if the owner says they are holding the property?",
+        "answer": "Ask whether a sale would help with a lease review, refinancing or a conversation with a partner. If the owner requests an email, confirm the address and send the one record they asked for."
+      },
+      {
+        "question": "What makes a comparable sale useful on a broker prospecting call?",
+        "answer": "Start with a confirmed closed sale. Record its source, date, building type, location and size. Ask about the differences that matter to the owner, such as tenancy or loading. Flag missing terms before anyone draws a conclusion about value."
+      },
+      {
+        "question": "How do I handle an owner who already has representation?",
+        "answer": "Ask whether the owner’s broker already provides the information they use. If yes, close courteously. If they request a particular record, respect the route they specify."
+      },
+      {
+        "question": "Can CallTeam call commercial property owners for a brokerage?",
+        "answer": "Yes. Give CallTeam the property types, neighbourhoods and ownership criteria you want to cover. CallTeam qualifies the owner’s reason to meet and books the call. The brokerage verifies comparables and handles valuation and listing advice."
+      }
+    ],
+    "related": [
+      "b2b-appointment-setting-cold-call-script",
+      "commercial-cleaning-cold-call-script-property-owners",
+      "property-restoration-cold-call-script-property-managers"
+    ],
+    "relevantServices": [
+      {
+        "title": "Professional services lead generation",
+        "href": "/services/professional-services-lead-generation/",
+        "description": "Reach the owners a commercial brokerage is equipped to serve."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Agree on the property, decision-maker and purpose before booking."
+      },
+      {
+        "title": "B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "See how a calling programme handles owner research and follow-up."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Commercial real estate outbound sales playbook",
+        "url": "/articles/commercial-real-estate-outbound-sales-playbook/",
+        "description": "Map a commercial property, its decision-makers and the reason for outreach."
+      },
+      {
+        "title": "What to say when an owner asks for information",
+        "url": "/articles/send-me-information-sales-objection/",
+        "description": "Agree on the one item to send and who should receive it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "City of Calgary industrial warehouse sales list",
+        "url": "https://www.calgary.ca/content/dam/www/pda/assessment/documents/publications-and-forms/translated-forms/reports/Industrial-WH-Sales-List.pdf",
+        "note": "The entry for 5110 77 AV SE records the sale date and sale price used in the example."
+      },
+      {
+        "title": "Avison Young Calgary industrial market report, Q2 2025",
+        "url": "https://www.avisonyoung.ca/documents/d/calgary/calgary-industrial-market-report-q2-2025-final-july-28th-2025",
+        "note": "The industrial sales table gives the southeast submarket, floor area and sale price for 5110 77 Avenue SE."
+      },
+      {
+        "title": "Reonomy on prospecting commercial property owners",
+        "url": "https://www.reonomy.com/resources/commercial-real-estate-cold-calling/",
+        "note": "Industry background on researching ownership and offering relevant transaction information."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "You’re a broker calling the owner of a commercial building. Confirm who decides, then ask whether a verified local sale would be useful.",
+      "heroLabel": "The first line",
+      "forWho": "Commercial brokers prospecting for owner clients",
+      "forBuyer": "A commercial owner or an authorised asset manager",
+      "nextStep": "Permission to email a sale record or a meeting about the owner’s plans",
+      "sectionTitle": "The commercial property owner call, both sides",
+      "sectionLead": "This example follows an industrial broker. Replace the property and market details with ones you have verified before making your own call.",
+      "qualificationHeading": "What to qualify before you ask for a broker meeting",
+      "qualificationText": "A property manager may handle tenant requests while an asset manager handles a sale. If you reach the wrong person, ask who reviews the building with the owner.",
+      "objectionHeading": "If the owner is holding, represented or only wants an email",
+      "alternativesHeading": "Owner, asset manager and voicemail scripts",
+      "worksheetHeading": "A commercial owner note with one documented sale",
+      "worksheetLead": "The owner and their 24,000 sq. ft. building are illustrative. The nearby Calgary sale is real. For your own call, choose a recent sale that fits the property and the owner’s question.",
+      "worksheetLabels": [
+        "Owner and purpose",
+        "Sale and date",
+        "Evidence to send",
+        "What differs or needs checking",
+        "Owner’s exact next step"
+      ],
+      "worksheetExample": [
+        "The owner holds a southeast Calgary industrial building with a partner and wants one sale for their next discussion.",
+        "According to the City of Calgary, 5110 77 Avenue SE sold for C$4,225,000 on May 13, 2025.",
+        "Avison Young lists the sold building at 19,588 sq. ft. Send the owner the city’s sale entry and the floor area from the market report.",
+        "The owner’s building has two tenants and 4,412 sq. ft. more floor space. The sale record omits the lease terms. Verify them before comparing rental income.",
+        "“Email me the one sale so I can show my partner.” One source note requested. No call booked."
+      ],
+      "worksheetSources": [
+        {
+          "title": "the City of Calgary’s sales list",
+          "url": "https://www.calgary.ca/content/dam/www/pda/assessment/documents/publications-and-forms/translated-forms/reports/Industrial-WH-Sales-List.pdf"
+        },
+        {
+          "title": "Avison Young’s industrial report",
+          "url": "https://www.avisonyoung.ca/documents/d/calgary/calgary-industrial-market-report-q2-2025-final-july-28th-2025"
+        }
+      ],
+      "worksheetName": "Blank property owner follow-up note",
+      "provenance": "CallTeam wrote the dialogue and owner note. We checked the price and date against the City of Calgary’s sales list and the floor area against Avison Young’s report.",
+      "evidenceURL": "/case-studies/professional-services-appointment-setting/",
+      "evidenceLabel": "Read a documented CallTeam professional services campaign",
+      "evidenceNote": "See how CallTeam handled qualification and the meeting handoff for a professional services client.",
+      "serviceHeading": "Need someone to call commercial property owners for your brokerage?",
+      "serviceText": "CallTeam researches target properties and reaches the owner or authorised asset manager. When the owner has a reason to meet, we book the introduction and give your broker the address, the owner’s plans and what they want to discuss. Your brokerage verifies any sale figures used on the call.",
+      "serviceLabel": "Explore professional services lead generation",
+      "serviceURL": "/services/professional-services-lead-generation/",
+      "faqHeading": "Questions brokers ask about owner prospecting",
+      "finalHeading": "Which commercial owners should your brokerage call?",
+      "finalText": "Bring your target market, property type and what makes an owner conversation worth booking. We’ll use those criteria to scope the campaign."
+    }
   }
 ]

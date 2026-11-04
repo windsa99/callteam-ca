@@ -154,6 +154,8 @@ Use the property event and operating job without claiming that the site has fail
 
 The buyer can confirm the site, redirect the call, explain that coverage is complete, or identify a review. The opening is more useful than asking whether the company wants to improve its properties.
 
+If you are the broker calling ownership, try the [commercial real estate cold calling script for property owners](/resources/cold-call-scripts/commercial-real-estate-cold-calling-script-property-owners/). It gives you both sides of the call when the owner plans to hold the building.
+
 ## Qualify the site, scope, and service path
 
 Confirm the exact property or portfolio, current system or provider, operating need, users or tenants affected, geography, service standard, hours, access, safety, insurance, technical requirements, contract status, budget path, and decision roles.

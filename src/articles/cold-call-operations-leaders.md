@@ -185,6 +185,8 @@ Different roles need different levels of the same message:
 
 The core hypothesis should remain consistent. Changing the level of detail is useful; telling each role a different story is not.
 
+A shop calling a depot can ask who actually chooses the repairer. The [fleet account cold calling script for auto body shops](/resources/cold-call-scripts/fleet-account-cold-calling-script-auto-body-shops/) shows how the next question changes if head office decides.
+
 ## Discover the baseline and the exception path
 
 Average performance can hide the reason an Operations buyer cares. Explore what happens when data is incomplete, a person is unavailable, volume spikes, a system fails, a customer changes requirements, or an incident crosses teams.
