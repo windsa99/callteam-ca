@@ -1,0 +1,397 @@
+[
+  {
+    "id": "CT-R101",
+    "number": 101,
+    "title": "B2B Appointment Setting Cold Call Script",
+    "seoTitle": "B2B Appointment Setting Cold Call Script",
+    "slug": "b2b-appointment-setting-cold-call-script",
+    "primaryKeyword": "B2B appointment setting script",
+    "secondaryKeywords": [
+      "appointment setter script",
+      "cold calling script to book a meeting",
+      "B2B appointment setting scripts",
+      "first sales meeting",
+      "B2B lead generation calling script"
+    ],
+    "category": "Appointment setting",
+    "industry": "Business-to-business sales",
+    "subindustry": "A parts supplier calling a distributor",
+    "serviceCategory": "Booking a qualified first sales meeting",
+    "buyers": [
+      "Purchasing Manager",
+      "Branch Manager"
+    ],
+    "filters": [
+      "operations",
+      "commerce"
+    ],
+    "objective": "Book a first meeting around one problem the buyer wants to solve",
+    "archetype": "First meeting",
+    "icp": "Use the blank version for your own offer. The worked call is for a parts supplier reaching a distributor.",
+    "scenario": "A rep wants a first meeting with the person who buys replacement parts for a distributor.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "metaDescription": "Use this B2B appointment setting cold call script to qualify a buyer, handle “send me an email” and book a first meeting. Copy the template and worked example.",
+    "opening": "Hi [Name], [Rep] with [Supplier]. We help distributors find parts when their usual supplier is out. Do you look after purchasing for the branch?",
+    "quickAnswer": "A B2B appointment setter needs three answers before booking. Does this person own the issue? What happens when it comes up? What would the buyer want to do in a meeting? Use their answer in the invitation.",
+    "questions": [
+      "When a customer needs a part you don’t have, how do you find it today?",
+      "When you can’t find it in time, what happens to the order?",
+      "Is there one part you’ve had trouble finding more than once?"
+    ],
+    "bridge": "Got it. That’s why I called. We can check other sources for [part they named].",
+    "cta": "Would you be open to ten minutes with our parts specialist to look at that one together?",
+    "fullScript": "[Open. Use an offer your team can deliver.]\nHi [Name], [Rep] with [Supplier]. We help distributors find parts when their usual supplier is out. Do you look after purchasing for the branch?\n\n[If yes, pause after each question.]\nCurious to ask, when a customer needs a part you don’t have, how do you find it today?\n\n[Buyer: “We already have two suppliers.”]\nMakes sense. When they’re both out, can the branch use someone else?\n\n[Buyer: “Yes, then I call around.”]\nAnd when you can’t find it in time, what happens to the order?\n\n[Buyer: “If we can’t find it, the order sits.”]\nIs there one part that keeps coming up?\n\n[If they name one.]\nGot it. That’s why I called. We can check other sources for [part they named]. Would you be open to ten minutes with our parts specialist to look at that one together?\n\n[If they say “Just email me.”]\nSure. What would you want me to send you?\n\n[If they identify a part and want help with it, make one more ask.]\nIf it’s [part] you need, would it be easier to look at it together for ten minutes? You could tell us exactly what the replacement needs to fit.\n\n[If they still prefer email.]\nOf course. What’s the best email for that? I’ll send you [the item they requested].\n\n[If they accept the meeting, offer two available times.]\nWould [day and time] or [second day and time] work better? That’s [time zone].\nWhat’s the best work email for the invite?\nPerfect. That’s [confirmed day, time and zone]. We’ll look at [part or order issue].\n\n[Buyer: “Head office decides that.”]\nNo problem. Who should I speak with about a part the branch can’t source?\n\n[Buyer: “They always cover it. We don’t need a backup.”]\nSounds like you’re covered. Thanks for taking my call.",
+    "whyItWorks": "A specific part gives the buyer a reason to meet and gives the specialist something to prepare.",
+    "personalization": [
+      "Replace the distributor example with one buyer, one recurring problem and an offer you can deliver.",
+      "Use the words the buyer used when you describe the meeting.",
+      "Offer two real times only after the buyer has agreed.",
+      "If the buyer asks for an email twice, send the specific item you agreed to send."
+    ],
+    "objections": [
+      {
+        "objection": "Just send me an email.",
+        "response": "Sure. Is there a part you want me to look at, or did you just want our contact details? If they want the details, send them. If they ask about fit for a particular part, a short working call may be worth offering."
+      },
+      {
+        "objection": "We already have suppliers.",
+        "response": "Makes sense. When one of them is out, can the branch go elsewhere, or does everything have to stay with them? If their current suppliers cover it, thank them and move on."
+      },
+      {
+        "objection": "I’m too busy right now.",
+        "response": "Understood. Is this something you’d want to pick up another day? If yes, agree on a callback time. A callback becomes a meeting only when the buyer agrees to a separate discussion with a purpose."
+      },
+      {
+        "objection": "I’m not the person for that.",
+        "response": "No problem. Who usually makes the call when a part is holding up an order? Ask whether you may mention the referral before using their name."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in appointment setter script",
+        "description": "Swap in your own buyer, offer and meeting purpose.",
+        "script": "Hi [Name], [Rep] with [Company]. We help [type of business] with [specific task]. Do you look after that?\n\nCurious to ask, how do you handle [situation] today?\n[Listen.] And when [gap they mentioned] happens, what does that mean for your team?\n\nGot it. We can help with [their issue]. Would you be open to [short meeting] to [specific purpose]?\n\n[If they hesitate.] What would make that conversation useful for you?\n[Ask again only if their answer gives you a reason.] Would [narrower next step] be worth ten minutes?\n\n[If yes.] Does [time] or [time] work better? What’s the best email for the invite? Confirm the day, time, time zone and agenda."
+      },
+      {
+        "label": "Short opener",
+        "description": "For a buyer who answers between tasks.",
+        "script": "Hi [Name], [Rep] with [Supplier]. Quick question. Who handles it when your branch needs a part the regular supplier can’t get?"
+      },
+      {
+        "label": "Voicemail",
+        "description": "Name the job you can help with and leave one clear way back.",
+        "script": "Hi [Name], [Rep] with [Supplier] at [number]. I’m calling about the parts your branch has trouble sourcing. If that lands with you, you can reach me at [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should an appointment setter say at the beginning of a cold call?",
+        "answer": "Give your name, the company and one plain reason for calling. Ask whether the person handles that work. Once they confirm, ask how they deal with the situation today."
+      },
+      {
+        "question": "When should I ask for the meeting?",
+        "answer": "Ask after the buyer has described something they would like to solve or compare. Name that issue and what the meeting would accomplish. An interested tone alone gives a salesperson very little to work with."
+      },
+      {
+        "question": "How do I ask again after “send me an email”?",
+        "answer": "Ask what information would help. If the buyer names a genuine issue that is easier to discuss, offer one short conversation about it. If they still want email, honour that choice."
+      },
+      {
+        "question": "What makes a booked sales meeting qualified?",
+        "answer": "For this call, the right person has a real purchasing issue, accepts a specific agenda and agrees to a date and time. Record the words they used and tell the receiving specialist what is still unknown. Track attendance separately."
+      },
+      {
+        "question": "What should go in the calendar invitation?",
+        "answer": "Use the buyer’s words for the agenda, name the people expected to attend and confirm the day, time and time zone. In the parts example, name the item to review so the specialist knows what to bring."
+      }
+    ],
+    "related": [
+      "it-staffing-cold-call-script-hiring-managers",
+      "b2b-saas-cold-call-script",
+      "lead-generation-agency-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Have CallTeam reach buyers and book meetings against your sales team’s criteria."
+      },
+      {
+        "title": "B2B lead generation",
+        "href": "/services/b2b-lead-generation/",
+        "description": "Build the target list and the outbound campaign around the offer you can deliver."
+      },
+      {
+        "title": "SDR training",
+        "href": "/services/sdr-training/",
+        "description": "Coach your own callers on qualification, the second ask and meeting handoff."
+      }
+    ],
+    "guides": [
+      {
+        "title": "How to write a B2B cold call script",
+        "url": "/articles/how-to-write-a-b2b-cold-call-script/",
+        "description": "Adapt the conversation to another offer."
+      },
+      {
+        "title": "What makes a B2B appointment qualified?",
+        "url": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+        "description": "Agree on the meeting standard with sales."
+      },
+      {
+        "title": "How to respond to “send me information”",
+        "url": "/articles/send-me-information-sales-objection/",
+        "description": "Decide when to send a resource and when to ask another question."
+      }
+    ],
+    "sources": [
+      {
+        "title": "HubSpot’s guide to getting a sales appointment",
+        "url": "https://blog.hubspot.com/sales/how-to-get-an-appointment-with-anyone-in-3-steps",
+        "note": "Background on prospect research and approaching a first meeting."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "You’re an appointment setter calling a purchasing manager about a part their usual supplier can’t get. Find out who buys it, then ask for ten minutes to look at that part together.",
+      "heroLabel": "The first line",
+      "forWho": "SDRs, founders and appointment setters",
+      "forBuyer": "A purchasing manager in the worked example",
+      "nextStep": "An agreed time to look at one hard-to-source part",
+      "sectionTitle": "The complete B2B appointment setting script",
+      "sectionLead": "Read only the lines that match the buyer’s answer. The brackets are notes for the caller.",
+      "qualificationHeading": "Three questions before you ask for a meeting",
+      "qualificationText": "Start with their current process. Go one question deeper when the answer gives you a reason. If the buyer says their suppliers cover every order, there’s no parts issue to take into a meeting.",
+      "objectionHeading": "When the buyer pushes back",
+      "alternativesHeading": "A fill-in template, short opener and voicemail",
+      "worksheetHeading": "What a qualified meeting handoff looks like",
+      "worksheetLead": "Illustrative example from the distributor call. Copy the blank note into your CRM so the parts specialist knows what the buyer wants to discuss and what to bring.",
+      "worksheetLabels": [
+        "Buyer and responsibility",
+        "Problem in the buyer’s words",
+        "What to prepare",
+        "Agreed next step",
+        "Still to confirm"
+      ],
+      "worksheetExample": [
+        "Branch purchasing manager. Can use a second supplier.",
+        "“When that seal is on back order, the whole order sits.”",
+        "Bring options for the seal the buyer identified.",
+        "Tuesday at 10 a.m. Mountain. Ten minutes with the parts specialist to review fit.",
+        "Part number and acceptable substitutions."
+      ],
+      "worksheetName": "Blank meeting handoff",
+      "provenance": "CallTeam adapted this original teaching example from the way its callers qualify a problem and ask for a meeting. The distributor, conversation and CRM note are illustrative.",
+      "evidenceLabel": "See a documented appointment setting campaign",
+      "evidenceURL": "/case-studies/professional-services-appointment-setting/",
+      "evidenceNote": "A separate professional services engagement shows what CallTeam reports from an actual campaign.",
+      "serviceHeading": "Want CallTeam to book first meetings for your team?",
+      "serviceText": "Tell us which buyers you need to reach and what your salespeople count as a qualified meeting. CallTeam can research the accounts, make the calls and pass along the buyer’s reason for meeting.",
+      "serviceLabel": "Explore B2B appointment setting",
+      "serviceURL": "/services/b2b-appointment-setting/",
+      "faqHeading": "Questions appointment setters ask",
+      "finalHeading": "What would make a meeting worth your sales team’s time?",
+      "finalText": "Bring one offer and the buyer you want to reach. We’ll talk through targeting, qualification and what your rep should receive with each booking."
+    }
+  },
+  {
+    "id": "CT-R102",
+    "number": 102,
+    "title": "IT Staffing Cold Call Script for Hiring Managers",
+    "seoTitle": "IT Staffing Cold Call Script for Hiring Managers",
+    "slug": "it-staffing-cold-call-script-hiring-managers",
+    "primaryKeyword": "IT staffing cold calling script",
+    "secondaryKeywords": [
+      "IT recruiter business development script",
+      "technical staffing sales call",
+      "IT staffing agency cold calling script",
+      "job order intake",
+      "cold call to a hiring manager"
+    ],
+    "category": "IT staffing",
+    "industry": "Technical recruiting",
+    "subindustry": "Contract network and infrastructure roles",
+    "serviceCategory": "IT staffing agencies winning employer clients",
+    "buyers": [
+      "IT Hiring Manager",
+      "Infrastructure Manager"
+    ],
+    "filters": [
+      "technology",
+      "operations"
+    ],
+    "objective": "Earn a short intake for one open technical contract role",
+    "archetype": "Verified vacancy",
+    "icp": "An employer with a verified technical contract opening in a location and skill area the agency can serve.",
+    "scenario": "An agency rep calls the hiring manager about a posted contract network administrator position.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "metaDescription": "Copy an IT staffing cold call script for hiring managers. Qualify a contract role, handle preferred agencies and ask for a short job intake before sending résumés.",
+    "opening": "Hi [Name], [Rep] with [Agency]. I saw the contract network administrator role in [City]. Is that one yours?",
+    "quickAnswer": "An IT staffing sales call starts with one verified vacancy. Confirm the hiring owner, the work the contractor must handle and whether the employer can use your agency. Earn a job intake before promising a shortlist.",
+    "questions": [
+      "What’s the one thing this person needs to handle on their own in the first week?",
+      "When do you need them on site?",
+      "Are you open to another recruiting partner for this role?"
+    ],
+    "bridge": "Got it. We recruit for that kind of network work. The part I’d want to get right is [requirement they named].",
+    "cta": "Would you be open to ten minutes with our technical recruiter to go through that before we send anyone over?",
+    "fullScript": "[Check the employer’s posting, contract status and location before you dial.]\nHi [Name], [Rep] with [Agency]. I saw the contract network administrator role in [City]. Is that one yours?\n\n[If yes.]\nIs it still open?\n\n[If they’re still hiring.]\nCurious to ask, what’s the one thing this person needs to handle on their own in the first week?\n\n[Listen. If they name a requirement, follow that thread.]\nWhen you’ve spoken to people so far, what’s been missing?\n\n[If there’s a gap your agency can cover.]\nWhen do you need them on site?\n[Pause.] And are you open to another recruiting partner for this role?\n\n[If they can consider your agency.]\nGot it. We recruit for that kind of network work. The part I’d want to get right is [requirement they named]. Would you be open to ten minutes with our technical recruiter to go through that before we send anyone over?\n\n[Buyer: “We already have agencies.”]\nMakes sense. Are they finding people with [skill they mentioned]?\n[If they aren’t.] Can you bring in another agency for this role, or does everything go through the approved list?\n\n[If they say “Just send résumés.”]\nSure. What would rule someone out straight away?\n\n[If they give you a real constraint and outside submissions are allowed, ask again.]\nThat helps. Would ten minutes with our recruiter be useful to get [specific task] right before we send you a résumé?\n\n[If they accept.]\nWould [day and time] or [second day and time] work better? That’s [time zone].\nWhat’s the best work email for the invite?\nPerfect. We’ll cover [must-have], [start window] and how you’d like submissions handled.\n\n[If only approved suppliers may submit.]\nUnderstood. Is there a vendor review we can apply for, or is the list closed?\n[Buyer: “Talent acquisition handles that.”]\nGot it. Who there looks after contract suppliers, and how do they want us to get in touch?\n\n[Buyer: “The list is closed.”]\nUnderstood. I’ll leave it there. Thanks for letting me know.\n\n[Buyer: “We filled it.”]\nGood to know. I’ll take it off my list. Thanks for your time.",
+    "whyItWorks": "The hiring manager can say exactly what a contractor has to do before the recruiter discusses profiles.",
+    "personalization": [
+      "Verify the job on the employer’s own careers page and use its exact title.",
+      "Use the person’s answer to choose one technical follow-up you understand.",
+      "Confirm the site, start window and approved submission route before promising candidates.",
+      "Use the second ask only when the manager names a hiring requirement your recruiter can help with."
+    ],
+    "objections": [
+      {
+        "objection": "We already have approved agencies.",
+        "response": "Makes sense. When they can’t cover a particular skill, can the team consider a specialist, or does every submission have to go through the same list? If the list is closed, thank them. A vendor review date is a follow-up, not a job order."
+      },
+      {
+        "objection": "Talent acquisition owns the agency list.",
+        "response": "Thanks. Does talent acquisition handle this specific contract too? If they do, who should I ask about the approved route? Stop there if the employer is keeping the search internal."
+      },
+      {
+        "objection": "We already filled it.",
+        "response": "Good to know. I’ll take it off my list. Don’t try to turn a closed job into a technical intake. Record the change so another caller doesn’t call about the same posting."
+      },
+      {
+        "objection": "Send me your rates.",
+        "response": "Happy to get you the right information. Is there an approved range for this contract, and does it go through procurement? Follow their process. Quote only terms your agency can actually offer."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in IT recruiter script",
+        "description": "For a different technical contract your agency can genuinely cover.",
+        "script": "Hi [Name], [Rep] with [Agency]. I saw your [contract role] opening in [location]. Does it sit with your team?\n\n[If still open.] What does this person need to be able to do from day one?\n[Listen.] What’s been hard to find so far? Can you consider an outside recruiter for this role?\n\n[If there is a fit.] Would you be open to a short intake to go through [their requirement] with our recruiter before we send profiles?"
+      },
+      {
+        "label": "Calling through a switchboard",
+        "description": "Give the receptionist a specific job to route.",
+        "script": "Hi, [Rep] with [Agency]. I’m calling about the contract [role] in [City]. Who’s handling that search for the IT team?"
+      },
+      {
+        "label": "Voicemail for the hiring owner",
+        "description": "Reference only a posting you have checked.",
+        "script": "Hi [Name], [Rep] at [Agency], [number]. I’m calling about your contract [role] in [City]. We recruit for [specialty]. If you’re considering outside help on that search, my number is [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do you cold call a hiring manager as an IT recruiter?",
+        "answer": "Reference one verified role and ask whether the manager owns it. Confirm it is still open. Ask what the contractor must handle in the first week, then find out whether the employer can consider an outside recruiter."
+      },
+      {
+        "question": "What if the employer already uses preferred staffing agencies?",
+        "answer": "Ask whether those agencies are covering the specific requirement. If there is a gap, confirm whether another supplier can participate. If only approved firms may submit, ask for the formal review route and follow it."
+      },
+      {
+        "question": "Should I send résumés before a job intake?",
+        "answer": "First confirm what the person must do, working conditions, timing and the employer’s submission process. If the manager wants information only, send the agreed material through the authorised route."
+      },
+      {
+        "question": "What qualifies an IT staffing sales meeting?",
+        "answer": "The vacancy is active, the person can discuss the work, the agency can cover the requirement, and there is a permitted way to participate. A meeting has an agreed time and intake purpose. A vendor registration link on its own is a different outcome."
+      },
+      {
+        "question": "What if a job posting is old or already filled?",
+        "answer": "Ask whether the position is still active before discussing recruiting support. If it has closed, update your record and thank the manager. An old posting alone gives you no basis for an intake or a candidate submission."
+      }
+    ],
+    "related": [
+      "b2b-appointment-setting-cold-call-script",
+      "recruitment-agency-cold-call-script-global-talent",
+      "executive-search-cold-call-script-ceos"
+    ],
+    "relevantServices": [
+      {
+        "title": "B2B lead generation",
+        "href": "/services/b2b-lead-generation/",
+        "description": "Reach employers that match the roles, markets and contract work your recruiters cover."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Agree on hiring-owner and intake criteria before CallTeam books a conversation."
+      },
+      {
+        "title": "Professional services lead generation",
+        "href": "/services/professional-services-lead-generation/",
+        "description": "Scope outbound for a specialist firm when its delivery team needs more client conversations."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Staffing and recruiting outbound sales playbook",
+        "url": "/articles/staffing-recruiting-outbound-sales-playbook/",
+        "description": "Plan employer targeting and business development across a staffing practice."
+      },
+      {
+        "title": "How to cold call a prospect with an existing vendor",
+        "url": "/articles/cold-call-prospects-existing-vendor/",
+        "description": "Work through an approved supplier conversation."
+      },
+      {
+        "title": "How to reach procurement before an RFP",
+        "url": "/articles/reach-procurement-before-buying-process/",
+        "description": "Understand the formal route when a hiring manager cannot add an agency."
+      }
+    ],
+    "sources": [
+      {
+        "title": "American Staffing Association’s definitions of staffing services",
+        "url": "https://americanstaffing.net/why-join-asa-membership/definitions-of-staffing-services/",
+        "note": "Distinguishes contract staffing from direct placement and other employment services."
+      },
+      {
+        "title": "O*NET profile for network and computer systems administrators",
+        "url": "https://www.onetonline.org/link/summary/15-1244.00",
+        "note": "Provides occupational context for the network administrator example. Confirm every actual employer requirement on the call."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "You’re an IT staffing rep calling the hiring manager about an open contract role. Find out what the contractor must do in week one, then ask for a ten-minute job intake.",
+      "heroLabel": "The first line",
+      "forWho": "IT staffing reps calling for new employer clients",
+      "forBuyer": "An IT or infrastructure hiring manager",
+      "nextStep": "A ten-minute intake for a real contract vacancy",
+      "sectionTitle": "The complete IT staffing sales call",
+      "sectionLead": "This is an agency calling a prospective employer. Start with a job your recruiting team can fill and use the employer’s exact title.",
+      "qualificationHeading": "What to qualify before sending a profile",
+      "qualificationText": "The job title gives you a reason to dial. The manager’s answer tells you whether you can help. For a network role, ask what the contractor needs to do without supervision. Then check the working arrangement, start window and route for submissions.",
+      "objectionHeading": "When the hiring manager pushes back",
+      "alternativesHeading": "An adaptable recruiter script, switchboard opener and voicemail",
+      "worksheetHeading": "Five-field IT staffing job intake card",
+      "worksheetLead": "Illustrative example from the network administrator call. Copy the five fields into your CRM so the recruiter has the requirement, the timing and the approved route for submissions.",
+      "worksheetLabels": [
+        "Role and hiring owner",
+        "First-week must-have",
+        "Working terms",
+        "Start and decision timing",
+        "Submission route and next step"
+      ],
+      "worksheetExample": [
+        "Contract network administrator. Infrastructure manager owns the technical interview.",
+        "Can diagnose a branch VPN outage independently. Ask about an example in the intake.",
+        "Two days on site each week. Rate range and contract length still to confirm.",
+        "Employer wants a start next month. Interview dates unconfirmed.",
+        "Talent acquisition approved a Thursday intake with the hiring manager. Complete supplier registration before sending a résumé."
+      ],
+      "worksheetName": "Blank IT staffing intake card",
+      "provenance": "CallTeam wrote this employer-side example using its calling and qualification approach. The vacancy and intake note are illustrative. The industry sources below explain the staffing model and occupation.",
+      "evidenceLabel": "How CallTeam handles a professional services campaign",
+      "evidenceURL": "/case-studies/professional-services-appointment-setting/",
+      "evidenceNote": "This separate engagement illustrates CallTeam’s delivery process. Its published results belong to that engagement.",
+      "serviceHeading": "Want CallTeam to find employers for your staffing agency?",
+      "serviceText": "Start with the contract roles you can fill, the locations you cover and the hiring conversations worth sending to your recruiters. CallTeam can research employers, call hiring managers and qualify the intake.",
+      "serviceLabel": "Explore managed B2B lead generation",
+      "serviceURL": "/services/b2b-lead-generation/",
+      "faqHeading": "Questions IT staffing recruiters ask",
+      "finalHeading": "Which IT contracts can your recruiters fill?",
+      "finalText": "Bring your specialties, locations and supplier requirements. We’ll discuss the employer conversations that belong on your calendar."
+    }
+  }
+]

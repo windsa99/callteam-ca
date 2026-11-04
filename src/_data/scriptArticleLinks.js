@@ -961,3 +961,7 @@ Object.assign(module.exports, Object.fromEntries(Object.entries(require("./scrip
 
 // Sandbox scripts 91–100: preserve the existing two-guide layout.
 Object.assign(module.exports, Object.fromEntries(Object.entries(require("./scriptWaveFourteenLinks")).map(([slug, guides]) => [slug, guides.slice(0, 2)])));
+
+for (const script of require("./callScriptsWaveFifteen.json")) {
+  module.exports[script.slug] = script.guides.slice(0, 2);
+}

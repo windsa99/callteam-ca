@@ -1,0 +1,42 @@
+/* Additional layout for the two worked scripts. Type and colour come from the script library. */
+.script-field-guide .script-resource-hero-grid > *, .script-field-guide .script-resource-main {min-width:0}
+.script-field-guide .script-resource-hero {padding:2rem 0 2.75rem}
+.script-field-guide .script-resource-hero h1 {max-width:none;margin:.7rem 0 1rem;font-size:clamp(2.45rem,4.3vw,4rem);line-height:1.04;overflow-wrap:break-word}
+.script-field-guide .script-hero-actions {margin-top:1.2rem}
+.script-field-guide .script-hero-actions button {cursor:pointer;font-family:inherit;border:0;color:var(--script-navy)}
+.fg-first-line {margin-top:1.3rem;padding-left:1rem;border-left:3px solid var(--orange)}
+.fg-first-line strong {font-family:Archivo,sans-serif;font-size:.8rem}
+.fg-first-line p {margin:.3rem 0 0;max-width:43rem;font-size:1.05rem;line-height:1.55}
+.script-field-guide .script-content-section {padding-bottom:2.75rem}
+.script-field-guide .script-content-section + .script-content-section {padding-top:2.75rem}
+.script-field-guide .script-content-section > p {margin:.75rem 0;line-height:1.65}
+.script-field-guide .script-section-heading > div {min-width:0}
+.script-field-guide .script-copy-block {margin-top:1rem}
+.script-field-guide pre {overflow-wrap:anywhere}
+.script-field-guide .fg-links {padding-left:1.3rem}
+.script-field-guide .fg-links li {margin:.5rem 0}
+.fg-variant {margin:1.25rem 0}
+.fg-variant h3, .fg-variant p {margin:.2rem 0}
+.fg-note {margin:1.25rem 0;background:var(--grey-bg);border:1px solid var(--script-line);border-radius:.5rem}
+.fg-note > div {display:grid;grid-template-columns:minmax(8rem,1fr) minmax(0,2.3fr);gap:1rem;padding:.8rem 1rem}
+.fg-note > div + div {border-top:1px solid var(--script-line)}
+.fg-note dt {font-family:Archivo,sans-serif;font-weight:700}.fg-note dd {margin:0}
+.fg-blank {margin:.9rem 0}.fg-blank summary {cursor:pointer;font-weight:700}
+.fg-edition,.fg-next {font-size:.94rem}.script-field-guide .fg-services {grid-template-columns:repeat(2,minmax(0,1fr));margin-top:1.25rem}
+.script-field-guide :is(.fg-next,.fg-links,.fg-edition,.script-content-section > p) a {text-decoration:underline;text-underline-offset:.15em}
+.script-field-guide :is(a,button,summary):focus-visible {outline:3px solid currentColor;outline-offset:3px}
+@media(max-width:720px){
+  .script-field-guide .script-breadcrumb {flex-wrap:wrap;gap:.35rem;padding-top:.65rem;line-height:1.2}
+  .script-field-guide .script-breadcrumb > :nth-child(-n+2) {display:none}
+  .script-field-guide .script-resource-hero .section-label {font-size:.72rem;line-height:1.3;letter-spacing:.08em;margin-bottom:.4rem}
+  .script-field-guide .script-resource-hero {padding:1.5rem 0 2rem}
+  .script-field-guide .script-resource-hero-grid {gap:1.3rem}
+  .script-field-guide .script-section-heading {align-items:flex-start;flex-wrap:wrap}
+  .script-field-guide .script-resource-hero h1 {font-size:clamp(2.1rem,8.7vw,3.3rem);margin:.65rem 0}
+  .script-field-guide .script-resource-lead {font-size:1rem;line-height:1.45}
+  .script-field-guide .container-wide {padding-inline:20px}
+  .fg-first-line {margin-top:.9rem}.fg-first-line p{font-size:1rem;line-height:1.45}
+  .script-field-guide .script-hero-actions {margin-top:1.1rem}
+  .fg-note > div {grid-template-columns:1fr;gap:.2rem}
+  .script-field-guide .fg-services {grid-template-columns:1fr}
+}

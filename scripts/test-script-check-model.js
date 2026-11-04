@@ -148,8 +148,8 @@ test("general builder keeps unknown facts explicit instead of inventing outcomes
   assert.deepEqual(model.makeDraft(unfamiliar, null), draft);
 });
 
-test("every one of 100 selectable drafts preserves published wording and attribution", () => {
-  assert.equal(catalog.length, 100);
+test("every selectable draft preserves published wording and attribution", () => {
+  assert.equal(catalog.length, 102);
   for (const item of catalog) {
     const original = published.find(source => source.slug === item.slug);
     assert(original, "Missing published source: " + item.slug);
@@ -173,4 +173,4 @@ test("resource catalog does not admit external or executable URL templates", () 
   assert(model.matchResources(valid, poisoned).every(item => /^\/(?:resources|articles)\/[a-z0-9/-]+\/$/.test(item.url)));
 });
 
-console.log("\n" + passed + " model scenarios passed, including " + scenarios.length + " independently judged drafts and full source-fidelity checks for 100 catalog templates. Browser-only deterministic checks; no AI calls or conversion predictions.");
+console.log("\n" + passed + " model scenarios passed, including " + scenarios.length + " independently judged drafts and full source-fidelity checks for " + catalog.length + " catalog templates. Browser-only deterministic checks; no AI calls or conversion predictions.");

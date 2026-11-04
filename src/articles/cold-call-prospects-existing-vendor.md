@@ -118,6 +118,8 @@ The answer may also protect political history. A leader may have selected the pr
 
 Treat the statement as information. Acknowledge it, then ask a question that helps the prospect define whether the current model has edges worth discussing.
 
+For a staffing example, see how an [IT recruiter responds to a preferred agency list](/resources/cold-call-scripts/it-staffing-cold-call-script-hiring-managers/#objections) before asking to submit anyone.
+
 ## Research the incumbent situation before calling
 
 Good preparation changes the premise of the call. Public signals can indicate the technology in use, the likely renewal window, a new site, an acquisition, hiring, geographic expansion, regulatory pressure, capacity changes, or an executive arrival. None proves dissatisfaction, but each can create a reason to review coverage.

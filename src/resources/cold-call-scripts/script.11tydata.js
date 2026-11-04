@@ -19,6 +19,10 @@ function campaignCtaFor(data) {
 module.exports = {
   eleventyComputed: {
     contextToolCta: campaignCtaFor,
-    pageStyles: (data) => campaignCtaFor(data) ? ["/assets/css/contextual-tools.css"] : []
+    ogType: (data) => data.resource && data.resource.fieldGuide ? "article" : "website",
+    pageStyles: (data) => {
+      if (data.resource && data.resource.fieldGuide) return ["/assets/css/script-field-guide.css"];
+      return campaignCtaFor(data) ? ["/assets/css/contextual-tools.css"] : [];
+    }
   }
 };

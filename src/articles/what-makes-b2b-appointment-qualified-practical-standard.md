@@ -123,6 +123,8 @@ Write the definition into the campaign brief before anyone is paid or praised fo
 
 Managers should be able to audit the definition from the call, calendar invitation and CRM record without guessing what the caller meant.
 
+See the [worked meeting handoff in the appointment setter script](/resources/cold-call-scripts/b2b-appointment-setting-cold-call-script/#handoff) for an example of what sales needs to know before it takes the call.
+
 ## Criterion one: the account can fit
 
 Confirm the company falls inside the market the offer can actually serve. Relevant factors may include industry, geography, company size, operating model, use case, user volume, systems, security needs and service requirements.

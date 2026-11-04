@@ -1,0 +1,90 @@
+{% set guide = resource.fieldGuide %}
+<nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
+  <a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span aria-hidden="true">/</span>
+  <a href="/resources/cold-call-scripts/">Cold-Call Scripts</a><span aria-hidden="true">/</span><span>{{ resource.category }}</span>
+</nav>
+<section class="script-resource-hero">
+  <div class="container-wide script-resource-hero-grid">
+    <div>
+      <div class="section-label">Free B2B call script · {{ resource.category }}</div>
+      <h1>{{ resource.seoTitle }}</h1>
+      <p class="script-resource-lead">{{ guide.subhead }}</p>
+      <div class="fg-first-line"><strong>{{ guide.heroLabel }}</strong><p>“{{ resource.opening }}”</p></div>
+      <div class="script-hero-actions">
+        <button type="button" class="btn-primary" data-copy-target="full-script">Copy the full script</button>
+        <a class="btn-secondary" href="#complete-script">Read the full script</a>
+      </div>
+    </div>
+    <aside class="script-resource-summary" aria-label="Who this call is for">
+      <span>Call brief · {{ resource.number }}</span>
+      <dl>
+        <div><dt>Who is calling?</dt><dd>{{ guide.forWho }}</dd></div>
+        <div><dt>Who picks up?</dt><dd>{{ guide.forBuyer }}</dd></div>
+        <div><dt>What are you asking for?</dt><dd>{{ guide.nextStep }}</dd></div>
+      </dl>
+    </aside>
+  </div>
+</section>
+<section class="script-resource-content">
+  <div class="container-wide script-resource-layout">
+    <nav class="script-resource-toc" aria-label="On this page">
+      <strong>On this page</strong>
+      <a href="#complete-script">Full call and second ask</a><a href="#qualification">Qualification questions</a>
+      <a href="#handoff">{{ guide.worksheetName }}</a><a href="#objections">Objection responses</a>
+      <a href="#alternatives">Blank script and short versions</a><a href="#faq">Common questions</a>
+      <a href="#about-callteam">Experience and sources</a><a href="#campaign-help">Help running the calls</a>
+    </nav>
+    <div class="script-resource-main">
+      <section id="complete-script" class="script-content-section">
+        <div class="script-section-heading"><div><span>Say it out loud</span><h2>{{ guide.sectionTitle }}</h2></div><button type="button" class="script-copy-button" data-copy-target="full-script">Copy script</button></div>
+        <p>{{ guide.sectionLead }}</p>
+        <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
+        <p class="fg-next"><a href="#alternatives">Use the fill-in version for your own call</a> · <a href="#handoff">Copy the handoff note</a></p>
+      </section>
+
+      <section id="qualification" class="script-content-section">
+        <span class="script-kicker">Listen before you ask again</span><h2>{{ guide.qualificationHeading }}</h2>
+        <p class="script-analysis-lead">{{ resource.quickAnswer }}</p><p>{{ guide.qualificationText }}</p>
+        <ol class="script-question-list">{% for question in resource.questions %}<li><span>{{ loop.index }}</span><p>{{ question }}</p></li>{% endfor %}</ol>
+      </section>
+
+      <section id="handoff" class="script-content-section">
+        <span class="script-kicker">From the call to the CRM</span><h2>{{ guide.worksheetHeading }}</h2><p>{{ guide.worksheetLead }}</p>
+        <dl class="fg-note">{% for label in guide.worksheetLabels %}<div><dt>{{ label }}</dt><dd>{{ guide.worksheetExample[loop.index0] }}</dd></div>{% endfor %}</dl>
+        <details class="fg-blank"><summary>{{ guide.worksheetName }}</summary><div class="script-copy-block"><pre id="blank-handoff">{% for label in guide.worksheetLabels %}{{ label }} — [enter what the buyer confirmed]
+{% endfor %}</pre></div></details>
+        <button class="script-copy-button" type="button" data-copy-target="blank-handoff">Copy the blank note</button>
+      </section>
+
+      <section id="objections" class="script-content-section">
+        <span class="script-kicker">What to say next</span><h2>{{ guide.objectionHeading }}</h2>
+        <div class="script-objection-list">{% for item in resource.objections %}<details{% if loop.first %} open{% endif %}><summary>“{{ item.objection }}”</summary><p>{{ item.response }}</p></details>{% endfor %}</div>
+      </section>
+
+      <section id="alternatives" class="script-content-section">
+        <span class="script-kicker">Make it yours</span><h2>{{ guide.alternativesHeading }}</h2>
+        {% for item in resource.alternatives %}<article class="fg-variant"><div class="script-section-heading"><div><h3>{{ item.label }}</h3><p>{{ item.description }}</p></div><button type="button" class="script-copy-button" data-copy-target="alternative-{{ loop.index }}" aria-label="Copy {{ item.label | lower }}">Copy</button></div><div class="script-copy-block"><pre id="alternative-{{ loop.index }}">{{ item.script }}</pre></div></article>{% endfor %}
+        <p class="fg-next">Have your own opener? <a href="/cold-call-script-checker/">Check your cold call script</a>.</p>
+      </section>
+
+      <section id="faq" class="script-content-section">
+        <span class="script-kicker">Frequently asked questions</span><h2>{{ guide.faqHeading }}</h2>
+        <div class="script-objection-list">{% for faq in resource.faqs %}<details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>{% endfor %}</div>
+      </section>
+
+      <section id="about-callteam" class="script-content-section">
+        <span class="script-kicker">Editorial and source notes</span><h2>How CallTeam put this script together</h2>
+        <p>{{ guide.provenance }}</p><p class="fg-edition">Prepared by <a href="/about/">CallTeam</a> · <time datetime="{{ resource.publishedDate }}">{{ resource.publishedDate | readableDate }}</time></p>
+        <p><a href="{{ guide.evidenceURL }}">{{ guide.evidenceLabel }}</a>. {{ guide.evidenceNote }}</p>
+        <h3>References</h3><ul class="fg-links">{% for source in resource.sources %}<li><a href="{{ source.url }}">{{ source.title }}</a>. {{ source.note }}</li>{% endfor %}</ul>
+        <h3>Related calling guides</h3><ul class="fg-links">{% for item in resource.guides %}<li><a href="{{ item.url }}">{{ item.title }}</a>. {{ item.description }}</li>{% endfor %}</ul>
+      </section>
+
+      <section id="campaign-help" class="script-content-section">
+        <span class="script-kicker">B2B lead generation with CallTeam</span><h2>{{ guide.serviceHeading }}</h2>
+        <p>{{ guide.serviceText }}</p><a class="card-link" href="{{ guide.serviceURL }}">{{ guide.serviceLabel }} →</a>
+        <div class="script-service-grid fg-services">{% for service in resource.relevantServices %}{% if service.href != guide.serviceURL %}<a href="{{ service.href }}"><h3>{{ service.title }}</h3><p>{{ service.description }}</p></a>{% endif %}{% endfor %}</div>
+      </section>
+    </div>
+  </div>
+</section>

@@ -121,6 +121,8 @@ The strongest scripts define the business idea behind the call, give the opening
 
 CallTeam's [free B2B cold call script library](/resources/cold-call-scripts/) shows how those decisions change across technology, manufacturing, logistics, financial services, healthcare, commerce, and other markets. This guide explains how to build the structure behind those examples without copying one script into every campaign.
 
+To hear how the opener turns into a meeting request, try the [B2B appointment setting cold call script](/resources/cold-call-scripts/b2b-appointment-setting-cold-call-script/). It includes a blank version you can adapt to your own offer.
+
 ## What a B2B cold call script is supposed to do
 
 The first job is not to describe the entire product. The script has to make the reason for contact understandable, test whether that reason belongs in the buyer's world, and create a clean route to the next decision.

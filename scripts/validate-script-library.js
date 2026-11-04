@@ -73,7 +73,7 @@ function resolveInternalUrl(url, sourceFile) {
 }
 
 assert(fs.existsSync(output), "Build output is missing. Run npm run build first.");
-assert(scripts.length === 100, `Expected 100 scripts, found ${scripts.length}.`);
+assert(scripts.length === 102, `Expected 102 scripts, found ${scripts.length}.`);
 assert(new Set(scripts.map((script) => script.id)).size === scripts.length, "Resource IDs must be unique.");
 assert(new Set(scripts.map((script) => script.slug)).size === scripts.length, "Resource slugs must be unique.");
 assert(new Set(scripts.map((script) => script.seoTitle)).size === scripts.length, "SEO titles must be unique.");
@@ -102,7 +102,7 @@ for (const script of scripts) {
   assert(html.includes("script-related-grid"), `${script.slug}: related-script section missing.`);
   assert(html.includes("script-service-grid"), `${script.slug}: service links missing.`);
   assert(html.includes("class=\"site-header\""), `${script.slug}: shared header missing.`);
-  assert(html.includes("<footer>"), `${script.slug}: shared footer missing.`);
+  assert(html.includes('<footer id="site-footer">'), `${script.slug}: shared footer missing.`);
   assert(html.includes("calendly.com/hello-callteam/new-meeting"), `${script.slug}: booking CTA missing.`);
   assert(html.includes('href="/#contact"'), `${script.slug}: contact navigation missing.`);
   assert(html.includes("index, follow"), `${script.slug}: page is not indexable.`);

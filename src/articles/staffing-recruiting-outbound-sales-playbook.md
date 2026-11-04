@@ -149,6 +149,8 @@ Useful signals include active role clusters, a new site, seasonal preparation, c
 
 The evidence still requires a question. A job can be filled, paused, posted continuously, reserved for internal recruiters, or assigned to existing suppliers. Treat the signal as a reason to investigate, not proof that the employer needs an agency.
 
+For an active technical contract, use the [IT staffing cold call script for hiring managers](/resources/cold-call-scripts/it-staffing-cold-call-script-hiring-managers/). It shows how to confirm the first-week requirement and whether the manager can accept a new agency.
+
 ## Map the person who owns the workforce outcome
 
 High-volume staffing often begins with the operating leader who feels missing coverage. Professional recruitment may begin with a department head or talent acquisition. HR may govern employment practices, while procurement manages approved suppliers and commercial terms.

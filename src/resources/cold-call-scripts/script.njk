@@ -28,7 +28,11 @@ eleventyComputed:
       "author": { "@id": "https://www.callteam.ca/#organization" },
       "publisher": { "@id": "https://www.callteam.ca/#organization" },
       "isPartOf": { "@id": "https://www.callteam.ca/#website" },
-      "keywords": {{ resource.primaryKeyword | json | safe }}
+      "keywords": {{ resource.primaryKeyword | json | safe }}{% if resource.fieldGuide %},
+      "@id": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/#article",
+      "mainEntityOfPage": "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/",
+      "isAccessibleForFree": true,
+      "citation": [{% for source in resource.sources %}{{ source.url | json | safe }}{% if not loop.last %}, {% endif %}{% endfor %}]{% endif %}
     },
     {
       "@type": "BreadcrumbList",
@@ -90,8 +94,8 @@ eleventyComputed:
 .script-resource-hero h1 { overflow-wrap: anywhere; }
 </style>
 {% endif %}
-<main class="script-resource-page">
-  <nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
+<main class="script-resource-page{% if resource.fieldGuide %} script-field-guide{% endif %}">
+  {% if resource.fieldGuide %}{% include "components/script-field-guide.njk" %}{% else %}<nav class="container-wide script-breadcrumb" aria-label="Breadcrumb">
     <a href="/resources/outbound-sales-library/">Outbound Sales Library</a>
     <span aria-hidden="true">/</span>
     <a href="/resources/cold-call-scripts/">Cold-Call Scripts</a>
@@ -347,7 +351,7 @@ eleventyComputed:
           {% if industryMasterLinks[resource.slug] %}
           <p>For the full campaign, read the <a href="{{ industryMasterLinks[resource.slug].url }}">{{ industryMasterLinks[resource.slug].title }}</a>.</p>
           {% endif %}
-          <div class="script-service-grid">
+          {% if resource.slug == "recruitment-agency-cold-call-script-global-talent" %}<p>Calling about a domestic technical contract? Use the <a href="/resources/cold-call-scripts/it-staffing-cold-call-script-hiring-managers/">IT staffing cold call script for hiring managers</a> to qualify one open role.</p>{% endif %}<div class="script-service-grid">
             {% for guide in scriptArticleLinks[resource.slug] %}
               <a href="{{ guide.url }}"><h3>{{ guide.title }}</h3><p>{{ guide.description }}</p><span>Read the guide →</span></a>
             {% endfor %}
@@ -370,7 +374,7 @@ eleventyComputed:
         </section>
       </div>
     </div>
-  </section>
+  </section>{% endif %}
 
   <section class="script-related-section">
     <div class="container-wide">
@@ -385,10 +389,12 @@ eleventyComputed:
   </section>
 
   <section class="cta-band script-resource-final-cta">
-    <div class="section-label">Need a team to run the campaign?</div>
+    {% if resource.fieldGuide %}<div class="section-label">Want CallTeam to run the campaign?</div>
+    <h2>{{ resource.fieldGuide.finalHeading }}</h2><p>{{ resource.fieldGuide.finalText }}</p>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a B2B Strategy Call</a>{% else %}<div class="section-label">Need a team to run the campaign?</div>
     <h2>We can customize the script, make the calls and book qualified conversations.</h2>
     <p>Tell us what you sell, who you need to reach and what a good meeting looks like.</p>
-    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
+    <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>{% endif %}
   </section>
 {% if resource.slug in ["msp-cold-call-script-managed-it-services", "microsoft-365-managed-services-cold-call-script", "ucaas-cold-call-script-it-leaders", "sd-wan-cold-call-script-network-it-leaders", "disaster-recovery-services-cold-call-script"] %}<section class="section"><div class="container"><p>Need a team to put an IT prospecting campaign into practice? Explore <a href="/services/msp-lead-generation/">MSP lead generation services</a>, with territory, service fit, provider timing and technical handoff agreed before outreach.</p></div></section>{% endif %}</main>
 
@@ -401,7 +407,7 @@ eleventyComputed:
       button.classList.add('is-copied');
       window.setTimeout(function () { button.textContent = original; button.classList.remove('is-copied'); }, 1800);
     }
-    {% if resource.number >= 91 and resource.number <= 100 %}
+    {% if resource.number >= 91 and resource.number <= 100 or resource.fieldGuide %}
     function manualCopy() {
       var existing = document.getElementById('manual-script-copy');
       if (existing) existing.remove();
