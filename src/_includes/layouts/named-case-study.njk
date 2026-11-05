@@ -131,7 +131,11 @@ pageStyles:
     <div class="container-wide">
       <div class="section-label">Apply the approach</div>
       <h2 id="case-apply-title">{{ applyHeading }}</h2>
-      <p class="cs2-intro">{{ applyCopy }}</p>
+      <p class="cs2-intro">{{ applyCopy }}</p>{% if exampleCall %}
+      <div class="cs2-signal-grid" aria-label="Example call for a similar campaign">
+        <article><span>Example call</span><h3>What to say first</h3><p>{{ exampleCall.opener }}</p></article>
+        <article><span>Example follow-up</span><h3>{{ exampleCall.followHeading }}</h3><p>{{ exampleCall.followUp }}</p></article>
+      </div>{% endif %}
       {% set contextToolCta = campaignTool %}
       {% include "components/contextual-tool-cta.njk" %}
       <div class="cs2-related-grid named-case-related">
