@@ -170,6 +170,8 @@ Name what the session must accomplish. Examples include confirming business fit,
 
 The agenda should tell the buyer why to attend and tell the presenter what not to waste time showing.
 
+For trade prospecting, a request to apply online is a useful next action. The [completed subcontractor bid-list handoff](/resources/cold-call-scripts/subcontractor-cold-call-script-general-contractors/#handoff) records that request separately from an approved application, a bid invitation and a booked meeting.
+
 ## Criterion six: the attendance makes sense
 
 Confirm the accepted time, contact details, attendee roles and whether another person is needed for the meeting's job. Do not demand the CFO for every first conversation, and do not call a meeting qualified when the named buyer never agreed to attend.

@@ -88,6 +88,8 @@ Define:
 
 Narrowing the first market does not set the company's permanent ceiling. It creates a controlled place to learn. Once the team can explain why accounts qualify and convert some of them into useful conversations, it can test an adjacent segment.
 
+Equipment finance brokers can use the [equipment financing cold call script](/resources/cold-call-scripts/equipment-financing-cold-call-script-business-owners/) to turn an owner’s purchase plan into a focused broker introduction. The included brief records the asset, timing and reason to compare.
+
 ## Turn the market into a manageable list
 
 Build only enough accounts to support the next operating cycle. A short researched list is easier to review, contact, and learn from than a large download that becomes stale.

@@ -120,6 +120,8 @@ Treat the statement as information. Acknowledge it, then ask a question that hel
 
 For a staffing example, see how an [IT recruiter responds to a preferred agency list](/resources/cold-call-scripts/it-staffing-cold-call-script-hiring-managers/#objections) before asking to submit anyone.
 
+For a buyer who says they use their bank, the [equipment finance script](/resources/cold-call-scripts/equipment-financing-cold-call-script-business-owners/#objections) asks whether they compare another option for a planned equipment purchase.
+
 ## Research the incumbent situation before calling
 
 Good preparation changes the premise of the call. Public signals can indicate the technology in use, the likely renewal window, a new site, an acquisition, hiring, geographic expansion, regulatory pressure, capacity changes, or an executive arrival. None proves dissatisfaction, but each can create a reason to review coverage.

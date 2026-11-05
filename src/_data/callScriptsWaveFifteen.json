@@ -1678,5 +1678,470 @@
       "finalHeading": "Which offices should your dealership call?",
       "finalText": "Bring your service area, equipment offer and the requirements that make an account worth your sales team’s time."
     }
+  },
+  {
+    "id": "CT-R109",
+    "number": 109,
+    "title": "Equipment Financing Cold Call Script for Business Owners",
+    "seoTitle": "Equipment Financing Cold Call Script for Business Owners",
+    "slug": "equipment-financing-cold-call-script-business-owners",
+    "primaryKeyword": "equipment financing cold call script",
+    "secondaryKeywords": [
+      "equipment leasing sales script",
+      "equipment finance prospecting call",
+      "free equipment financing cold calling script",
+      "equipment finance B2B lead generation"
+    ],
+    "category": "Equipment financing",
+    "industry": "Financial services",
+    "subindustry": "Business equipment finance",
+    "serviceCategory": "B2B lead generation",
+    "buyers": [
+      "Business Owner",
+      "Finance Manager",
+      "Controller"
+    ],
+    "filters": [
+      "executive",
+      "finance",
+      "operations"
+    ],
+    "objective": "Confirm a planned business equipment purchase, find out whether the owner wants to compare financing and agree on a useful broker conversation.",
+    "archetype": "Equipment purchase and financing comparison",
+    "icp": "Businesses planning to buy or replace equipment within the finance provider’s asset, territory and customer criteria.",
+    "scenario": "An equipment finance broker calls an excavation business owner who has a dealer quote and normally uses the bank.",
+    "publishedDate": "2026-11-05",
+    "enhancedSchema": true,
+    "pageStyles": [
+      "/assets/css/script-market-guides.css"
+    ],
+    "metaDescription": "Use this free equipment financing cold call script to reach business owners. Handle “we use our bank,” qualify the purchase and copy the broker handoff.",
+    "opening": "What equipment are you looking to buy or replace in the next six months?",
+    "quickAnswer": "An equipment financing cold call should establish the purchase before discussing terms. Ask what the business needs, when it needs the equipment and whether the owner will compare a financing option. A useful next step has a specific asset, a decision contact and the buyer’s agreement to continue.",
+    "questions": [
+      "What equipment are you looking to buy or replace?",
+      "When do you need it working?",
+      "Do you already have a dealer quote?",
+      "How are you planning to pay for it?",
+      "Who else looks at the financing with you?"
+    ],
+    "bridge": "You’ve got a machine in mind and a date you need it. Our broker can check whether we have an option worth comparing.",
+    "cta": "Would ten minutes with our broker help you look at that purchase?",
+    "fullScript": "You: Hi [Name], it’s [Rep] with [Finance Company]. We arrange financing for business equipment. What equipment are you looking to buy or replace in the next six months?\n\nBuyer: We’re replacing a mini excavator. We normally use our bank.\n\nYou: Got it. Do you ever compare a second option when you buy equipment?\n\nBuyer: If it’s worth looking at, sure.\n\nYou: Have you picked the machine yet?\n\nBuyer: A used one from a dealer. I have the quote.\n\nYou: When do you need it working?\n\nBuyer: March, before our spring excavation jobs start.\n\nYou: What’s the quoted price?\n\nBuyer: About $85,000 Canadian. I’d have to check what that includes.\n\nYou: Who else looks at the financing with you?\n\nBuyer: My bookkeeper checks it, but I make the decision.\n\nYou: What would you want to compare with the bank?\n\nBuyer: The payments. Our winter months are quieter.\n\nYou: Would ten minutes with our broker help you look at that purchase?\n\nBuyer: Just send me your rate first.\n\nYou: The broker would need the purchase details before quoting terms. You mentioned the quieter months. Could we look at the dealer quote together and check what payment options might be available?\n\nBuyer: Okay. Tuesday at ten.\n\nYou: Ten Mountain time?\n\nBuyer: Yes.\n\nYou: What’s the best work email for the invite?\n\nConfirm the calendar date. Put the equipment purchase and payment question in the invite. Any financing offer depends on the provider’s review.\n\nIF THE BANK HANDLES EVERY PURCHASE\nBuyer: We only use our bank. We’re happy with it.\nYou: Understood. I’ll leave it there. Thanks for your time.\n\nIF SOMEONE ELSE DECIDES\nBuyer: Our finance manager handles that.\nYou: Who should I speak with about the equipment purchase?\nUse the contact or process they provide. If they cannot share one, thank them and finish.\n\nIF THE PURCHASE IS LATER\nBuyer: We might replace it next year. Nothing is decided.\nYou: When will you look at that decision again?\nIf they give a date, ask whether they want a call then. Record the answer and keep the meeting field empty.\n\nIF THERE IS NO PURCHASE\nBuyer: We’re keeping what we have.\nYou: Thanks for letting me know. Have a good day.",
+    "whyItWorks": "The equipment question gives the owner a concrete reason to answer. Asking whether they compare options respects the bank relationship and tests whether the call can go anywhere. The second ask uses the buyer’s payment question and dealer quote to give a short broker conversation a clear job.",
+    "personalization": [
+      "Choose an equipment type the finance provider actually serves.",
+      "Check the business location and sector against the campaign criteria.",
+      "Use a public expansion or replacement signal as a question to verify.",
+      "Confirm whether the buyer’s price includes tax, delivery and installation.",
+      "Write down the buyer’s timing and permission before scheduling follow-up."
+    ],
+    "objections": [
+      {
+        "objection": "We use our bank.",
+        "response": "“Do you ever compare a second option when you buy equipment?” Continue if the owner wants a comparison. An exclusive bank relationship with no interest in another option ends the call."
+      },
+      {
+        "objection": "Just tell me your rate.",
+        "response": "“What equipment is the quote for?” Explain what the finance provider needs to review before quoting. If the buyer wants information by email, send the agreed details and record whether they want a follow-up."
+      },
+      {
+        "objection": "The dealer handles the financing.",
+        "response": "“Have you decided to use that offer?” If the decision is still open, ask whether comparing another option would help. If it is settled, thank the buyer and close."
+      },
+      {
+        "objection": "Our finance manager decides.",
+        "response": "“Who should I speak with about this purchase?” Confirm the route to that person and carry forward only the details the buyer gave you."
+      },
+      {
+        "objection": "We’re not buying anything.",
+        "response": "“Understood. Thanks for taking the call.” If the owner volunteers a future purchase, ask when they expect to review it and whether they want contact then."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in equipment financing script",
+        "description": "Use the asset category and financing offer your firm can support.",
+        "script": "Hi [Name], it’s [Rep] with [Finance Company]. We arrange financing for [business equipment]. Is there a purchase coming up that you’re planning for?\n\n[If they mention an existing bank or finance company.]\nDo you compare another option before you decide?\n\n[If they are open to that, ask one at a time.]\nWhich machine are you looking at?\nWhen would you need it?\nHave you received a purchase quote?\nWhat would you want to understand about the financing?\nWho helps you review it?\n\n[Make the next step about the purchase they described.]\nWould a short call with [Broker] help you check [buyer’s question] for [equipment]?\n\n[If they ask for information.]\nWhat would you like to see first?\n\n[If there is no purchase or interest.]\nThanks for clearing that up. I’ll leave it there."
+      },
+      {
+        "label": "Equipment purchase routing call",
+        "description": "Find the owner of a business equipment decision.",
+        "script": "Hi, it’s [Rep] with [Finance Company]. Who looks after financing when you buy business equipment?\n\n[If purchases go through a central team.]\nWhat’s the best way to reach that team about a planned purchase?\n\n[If there is no relevant buying plan.]\nThanks for your help. Have a good day."
+      },
+      {
+        "label": "Equipment finance voicemail",
+        "description": "Give the owner one relevant reason to call back.",
+        "script": "Hi [Name], it’s [Rep] with [Finance Company]. I’m calling about financing for [equipment type]. If you have a business purchase coming up and want to compare an option, my number is [number]. It’s [Rep] at [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do you start an equipment financing cold call?",
+        "answer": "Introduce yourself and your finance company, name the business equipment you serve and ask about a planned purchase. Once the owner confirms an asset, ask about timing and whether they want to compare financing. Those answers determine whether a broker introduction is useful."
+      },
+      {
+        "question": "What should you say when the business already uses a bank?",
+        "answer": "Ask whether the owner compares another option before buying equipment. If they are open to it, learn what they want to compare and who reviews the decision. Respect a clear decision to stay with the bank."
+      },
+      {
+        "question": "What belongs in an equipment finance lead handoff?",
+        "answer": "Record the asset and business use, the buyer’s purchase estimate, required timing, decision contact, financing question and agreed next action. Mark unverified quote details as unknown. Leave credit assessment, rates and approval to the finance provider’s process."
+      },
+      {
+        "question": "Can I use this free script for equipment leasing calls?",
+        "answer": "Yes. Replace the company, equipment and offer with your actual leasing service. Check whether the business wants to explore leasing for the planned asset. Use the full dialogue, blank script and purchase brief without completing a form."
+      },
+      {
+        "question": "Can CallTeam generate B2B leads for equipment finance brokers?",
+        "answer": "CallTeam can scope a calling campaign around the broker’s equipment types, service area and prospect criteria. Callers reach business owners or finance contacts, confirm purchase plans and arrange agreed introductions. The broker handles financial assessment and any offer."
+      }
+    ],
+    "related": [
+      "commercial-insurance-cold-call-script-business-owners",
+      "copier-sales-cold-call-script-managed-print",
+      "b2b-appointment-setting-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "B2B lead generation",
+        "href": "/services/b2b-lead-generation/",
+        "description": "Build a focused prospecting campaign around the assets and businesses your firm serves."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Introduce your broker to a buyer with a purchase and a reason to compare."
+      },
+      {
+        "title": "Managed B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "Give equipment prospecting and agreed follow-up a consistent calling team."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Small business lead generation",
+        "url": "/articles/small-business-lead-generation/",
+        "description": "Choose a manageable market and give every purchase conversation a next owner."
+      },
+      {
+        "title": "Calling a buyer with an existing provider",
+        "url": "/articles/cold-call-prospects-existing-vendor/",
+        "description": "Find out whether there is a reason to consider an additional option."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BDC equipment purchase financing",
+        "url": "https://www.bdc.ca/en/financing/equipment-loan",
+        "note": "Shows a lender’s sequence from project information to a representative’s review and, if approved, an offer. BDC’s product requirements belong to BDC."
+      },
+      {
+        "title": "Equipment Finance Academy prospecting guide",
+        "url": "https://www.equipmentfinanceacademy.com/blog/how-to-prospect-equipment-finance-leads-with-cold-outreach",
+        "note": "Provides practitioner context on selecting business sectors, reaching the equipment decision maker and recording follow-up."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "An equipment finance broker calls a business owner. Find the planned purchase and whether they want a financing comparison.",
+      "heroLabel": "After your name and finance company",
+      "forWho": "An equipment finance broker, lessor or business finance sales rep",
+      "forBuyer": "The owner, controller or finance manager involved in an equipment purchase",
+      "nextStep": "An agreed broker conversation about a specific purchase and financing question",
+      "sectionTitle": "The equipment financing call, with both sides",
+      "sectionLead": "Illustrative CallTeam script. An excavation business owner has a dealer quote, a bank relationship and a question about payments during quieter months.",
+      "qualificationHeading": "Qualify the purchase before asking for a meeting",
+      "qualificationText": "Ask one question at a time. Confirm the business and asset fit your firm’s prospect criteria. Keep the first call focused on the purchase and permission to continue. The finance provider handles documents and credit review through its own process.",
+      "routingId": "equipment-purchase-route",
+      "routingHeading": "Let the purchase decide the next step",
+      "routingRows": [
+        [
+          "Purchase planned and comparison wanted",
+          "Confirm the asset, required timing, decision contact and question for the broker. Agree on the introduction."
+        ],
+        [
+          "Purchase planned, existing offer settled",
+          "Thank the owner and close unless they ask for something specific."
+        ],
+        [
+          "Future purchase with no decision date",
+          "Record what is known. Ask about follow-up only if the buyer identifies a useful time."
+        ],
+        [
+          "No purchase or no interest",
+          "End the call and record the reason."
+        ]
+      ],
+      "worksheetKicker": "The equipment purchase brief",
+      "worksheetHeading": "Give the broker a purchase they can discuss",
+      "worksheetLead": "Illustrative completed example from the call above. The business, purchase and price are fictional. This note records a prospect conversation and the details still to verify.",
+      "worksheetLabels": [
+        "Asset and business use",
+        "Purchase estimate",
+        "Required timing",
+        "Decision contact",
+        "Reason to compare",
+        "Agreed action and open questions"
+      ],
+      "worksheetExample": [
+        "Used mini excavator to replace an existing machine for commercial excavation jobs. Dealer and model still to confirm.",
+        "Owner estimates $85,000 CAD from a dealer quote. Tax, delivery, attachments and the final total have not been checked.",
+        "Needed for spring jobs starting in March. Confirm the year, delivery date and any dealer deadline with the owner.",
+        "Business owner decides. Bookkeeper helps review the financing. Their name and participation in the next call need confirmation.",
+        "Normally uses a bank. Open to another option and wants to understand payments during quieter winter months.",
+        "Ten-minute broker call requested for Tuesday at 10 a.m. Mountain time. Confirm the calendar date and work email. Review the dealer quote and payment question. Financing terms, eligibility and approval remain unassessed."
+      ],
+      "worksheetName": "Blank equipment purchase brief",
+      "worksheetBlank": "Asset and business use — [equipment, new or used, purpose, dealer or seller]\nPurchase estimate — [amount, currency, quote source and items still to verify]\nRequired timing — [delivery target, decision date, year and confirmation source]\nDecision contact — [name, role, other people involved]\nReason to compare — [current financing route and buyer’s question]\nAgreed action — [introduction, information, callback or close]\nFollow-up owner and permission — [person, exact date, time zone and confirmed contact]\nProvider review still required — [quote, terms, eligibility and application status]",
+      "blankCopyLabel": "Copy the blank purchase brief",
+      "handoffLinkLabel": "See the equipment purchase brief",
+      "objectionHeading": "When the bank, dealer or finance manager handles it",
+      "alternativesHeading": "A blank finance script, routing call and voicemail",
+      "faqHeading": "Questions about equipment financing cold calls",
+      "provenance": "CallTeam wrote the dialogue, decision routes and purchase brief using its question-led approach to B2B qualification. The references explain equipment prospecting and a lender’s published review process. The sample call and handoff are illustrative. No financing campaign result is claimed.",
+      "evidenceURL": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+      "evidenceLabel": "Read CallTeam’s qualified appointment standard",
+      "evidenceNote": "Use the buyer’s purchase and stated question to explain why a broker conversation should happen.",
+      "serviceHeading": "Need someone to call business owners for your finance firm?",
+      "serviceText": "CallTeam researches companies within your equipment and territory criteria, reaches the person involved in the purchase and checks whether a financing discussion is welcome. Your broker receives the asset, timing, buyer’s question and agreed action. We define the prospect criteria and handoff before calling.",
+      "serviceLabel": "Explore B2B lead generation for your finance firm",
+      "serviceURL": "/services/b2b-lead-generation/",
+      "finalHeading": "Which equipment buyers should your team reach?",
+      "finalText": "Bring the equipment types you finance, your service area and what your broker needs to know before an introduction."
+    }
+  },
+  {
+    "id": "CT-R110",
+    "number": 110,
+    "title": "Subcontractor Cold Call Script for General Contractors",
+    "seoTitle": "Subcontractor Cold Call Script for General Contractors",
+    "slug": "subcontractor-cold-call-script-general-contractors",
+    "primaryKeyword": "subcontractor cold calling general contractors script",
+    "secondaryKeywords": [
+      "subcontractor cold call script",
+      "how to get on a general contractor bid list",
+      "cold calling general contractors for commercial work",
+      "free construction subcontractor sales script"
+    ],
+    "category": "Subcontractor bid lists",
+    "industry": "Construction",
+    "subindustry": "Commercial trade subcontracting",
+    "serviceCategory": "B2B cold calling",
+    "buyers": [
+      "Estimator",
+      "Preconstruction Manager",
+      "Trade Partner Coordinator"
+    ],
+    "filters": [
+      "operations",
+      "executive"
+    ],
+    "objective": "Reach the person responsible for the trade package, confirm fit and obtain the correct route to prequalification or bid-list consideration.",
+    "archetype": "Trade partner introduction and bid-list routing",
+    "icp": "General contractors running commercial projects within the subcontractor’s trade, territory and delivery capacity.",
+    "scenario": "An electrical subcontractor calls a general contractor’s estimator about commercial tenant improvement work.",
+    "publishedDate": "2026-11-05",
+    "enhancedSchema": true,
+    "pageStyles": [
+      "/assets/css/script-market-guides.css"
+    ],
+    "metaDescription": "Copy this free subcontractor cold call script for general contractors. Reach the estimator, handle “apply online” and prepare a useful bid-list handoff.",
+    "opening": "Who handles bid invitations for [trade] on your commercial projects?",
+    "quickAnswer": "A subcontractor calling a general contractor should name its trade and service area, then ask who handles bid invitations for that scope. Confirm project fit and the required prequalification route. Agree on the next submission or contact and record its status accurately.",
+    "questions": [
+      "Are you considering another contractor for this trade?",
+      "What kinds of projects would we need to cover?",
+      "Which locations do those projects cover?",
+      "What do you need from us before considering us for the bid list?",
+      "Who should receive the information after we submit?"
+    ],
+    "bridge": "We can send examples of the office work you described and follow your prequalification process.",
+    "cta": "Could I send you two relevant jobs so you can see whether we fit?",
+    "fullScript": "You: Hi [Name], it’s [Rep] with [Trade Firm]. We handle commercial electrical work in Calgary. Who handles bid invitations for that trade on your projects?\n\nBuyer: I do. We already have electricians we use.\n\nYou: When their crews are tied up, do you consider another electrical contractor?\n\nBuyer: We’ll look at someone for tenant improvements.\n\nYou: What kind of tenant work?\n\nBuyer: Mainly office fit-outs.\n\nYou: That’s work we do. Our electrical packages usually run from $50,000 to $250,000 Canadian. Which areas do those jobs cover?\n\nBuyer: Calgary and Airdrie.\n\nYou: We cover both. Could I send you two relevant jobs so you can see whether we fit?\n\nBuyer: You need to apply online first.\n\nYou: Happy to. Where do we find the form?\n\nBuyer: Trade Partners on our website, then Prequalify.\n\nYou: Which trade category should we select?\n\nBuyer: Electrical. Put commercial tenant improvements in the scope description.\n\nYou: Once we submit, can I send you those two office jobs with the confirmation?\n\nBuyer: Yes. Include your service area and the size of electrical packages you take on.\n\nYou: What’s the best work email for that?\n\nBuyer: I’ll give you my estimating address.\n\nYou: Who handles questions if we get stuck on the form?\n\nBuyer: Our trade partner coordinator. Their details are on that page.\n\nYou: Thanks. We’ll follow that route and send the project examples after we submit.\n\nUse your own verified trade, territory and capacity. Check the form’s requirements before submitting. The call ends with permission to apply and send examples.\n\nIF SOMEONE ELSE HANDLES THE TRADE\nBuyer: Another estimator handles electrical.\nYou: Who should I contact for that scope?\nAsk for the name and preferred route. Record the referral before making the next call.\n\nIF THEY ALREADY HAVE ENOUGH SUBCONTRACTORS\nBuyer: We’re not adding anyone to that list.\nYou: Understood. Thanks for letting me know.\nClose the record unless the buyer gives you a specific future opening and wants follow-up.\n\nIF THEY ONLY ACCEPT PORTAL SUBMISSIONS\nBuyer: Everything goes through the portal. No emails.\nYou: Got it. Is the trade category listed under electrical?\nUse the published route. Leave the email and meeting steps out.\n\nIF THE PROJECTS DO NOT FIT\nBuyer: Our work is heavy industrial outside your area.\nYou: That’s outside what we cover. Thanks for clearing that up.",
+    "whyItWorks": "The opening names a trade and reaches the person who manages invitations. Project type, location and package size help both sides judge fit. When the buyer requires an online application, the second ask follows that process and connects the submission to relevant examples.",
+    "personalization": [
+      "Confirm the general contractor works in your trade’s project types and territory.",
+      "Use your subcontract value range when describing package size.",
+      "Prepare two projects that match the work the estimator describes.",
+      "Check the GC’s current trade partner page and application instructions.",
+      "Confirm capacity, insurance and safety documents with your own team before submitting them."
+    ],
+    "objections": [
+      {
+        "objection": "We have subcontractors already.",
+        "response": "“When those crews are tied up, do you consider another contractor for this trade?” If they do, ask what scope and locations need coverage. A closed list is a reason to finish."
+      },
+      {
+        "objection": "Apply online.",
+        "response": "“Which trade category should we select?” Get the exact submission route and ask who handles questions. Follow any instruction to keep all communication in the portal."
+      },
+      {
+        "objection": "Send a capability sheet.",
+        "response": "“Which project type should the examples focus on?” Include the requested scope, territory, package range and relevant projects. Confirm where the sheet should go."
+      },
+      {
+        "objection": "We have nothing coming up.",
+        "response": "“Understood. Are you accepting applications for future work?” If they are, follow that route. If they are not, close without pushing for a meeting."
+      },
+      {
+        "objection": "You need to speak to another estimator.",
+        "response": "“Who looks after this trade?” Record the contact and any instruction for reaching them. Do not treat a referral as an invitation to bid."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in subcontractor script",
+        "description": "Replace the trade, territory and project examples with your actual work.",
+        "script": "Hi [Name], it’s [Rep] with [Trade Firm]. We do [specific trade scope] in [area]. Who looks after bid invitations for that work?\n\n[If they already have trade partners.]\nAre you considering anyone else for [scope]?\n\n[If there is an opening, ask one at a time.]\nWhat type of projects do you need covered?\nWhere are those jobs?\nWhat would you need from us to consider adding us?\n\n[If an application comes first.]\nWhere should we submit it?\nWhich trade category fits that work?\n\n[Follow the route they give you.]\nAfter we submit, would you like [relevant project examples] through [approved channel]?\n\n[If the list is closed or the work does not fit.]\nThanks for your time. I’ll leave it there."
+      },
+      {
+        "label": "Reception to estimator script",
+        "description": "Ask for the person responsible for the trade you actually perform.",
+        "script": "Hi, it’s [Rep] with [Trade Firm]. Who handles invitations to bid for [trade] on your commercial projects?\n\n[If there are several estimators.]\nWho looks after [project type] in [area]?\n\n[If they direct you to a website.]\nWhich page explains how a new trade contractor should apply?"
+      },
+      {
+        "label": "Subcontractor voicemail",
+        "description": "Keep the message specific to scope and territory.",
+        "script": "Hi [Name], it’s [Rep] with [Trade Firm]. We handle [trade scope] around [area]. I’m trying to reach the person who considers trade partners for your [project type] work. My number is [number]. Again, [Rep] at [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should a subcontractor say when cold calling a general contractor?",
+        "answer": "State your name, trade firm, scope and service area. Ask who handles invitations to bid for that trade. When you reach that person, confirm the project types and locations they need covered, then ask how they consider a new subcontractor."
+      },
+      {
+        "question": "How do I get on a general contractor’s bid list?",
+        "answer": "Identify the relevant estimator or trade partner contact, confirm your scope fits and follow the GC’s application or prequalification process. Submit the requested information through its specified channel. Ask how you will learn whether you have been accepted and how invitations are issued."
+      },
+      {
+        "question": "What should I say when a general contractor tells me to apply online?",
+        "answer": "Ask for the correct page or portal and the trade category to select. Confirm who handles application questions and whether they want relevant project examples afterwards. If they require portal-only communication, follow that instruction."
+      },
+      {
+        "question": "Does submitting prequalification mean we can bid or have won work?",
+        "answer": "Submission, approval, invitation to bid and contract award are separate events. Record only the stage the GC has confirmed. Each contractor sets its own requirements, so check the current instructions for the specific project and trade."
+      },
+      {
+        "question": "Can CallTeam make B2B prospecting calls for a subcontractor?",
+        "answer": "CallTeam can scope a campaign to relevant general contractors, reach the person responsible for your trade and document the route to consideration. Your team receives the requested information, contact, submission process and agreed action. Your firm handles prequalification, estimates and delivery commitments."
+      }
+    ],
+    "related": [
+      "commercial-roofing-cold-call-script-property-managers",
+      "construction-staffing-cold-call-script-employers",
+      "b2b-appointment-setting-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "Managed B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "Reach the general contractors and estimating contacts that fit your trade."
+      },
+      {
+        "title": "B2B lead generation",
+        "href": "/services/b2b-lead-generation/",
+        "description": "Research suitable commercial contractors and maintain the next action."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Arrange an introduction when the estimator wants a discussion with your team."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Reaching procurement before the buying process",
+        "url": "/articles/reach-procurement-before-buying-process/",
+        "description": "Find the authorised supplier route before a formal opportunity begins."
+      },
+      {
+        "title": "What makes a B2B appointment qualified",
+        "url": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+        "description": "Record the actual next step and the evidence behind it."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BELL Construction trade partner prequalification",
+        "url": "https://bellconstructioncompany.com/careers/trade-partners/prequalify/",
+        "note": "A published GC example connecting required information, trade categories, prequalification and invitations. These are BELL’s procedures."
+      },
+      {
+        "title": "EllisDon subcontractors and bid list",
+        "url": "https://www.ellisdon.com/subcontractors-and-bid-list",
+        "note": "Shows how a Canadian contractor publishes project details, closing dates and estimating contacts. Check each project’s current instructions."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "A trade subcontractor calls a general contractor’s estimator. Find the right bid list and the steps to be considered.",
+      "heroLabel": "After your name, trade and area",
+      "forWho": "A commercial subcontractor selling its own trade work",
+      "forBuyer": "The estimator, preconstruction manager or trade partner coordinator for that scope",
+      "nextStep": "The correct prequalification route or a requested capability sheet",
+      "sectionTitle": "The subcontractor call, with both sides",
+      "sectionLead": "Illustrative CallTeam script. An electrical firm wants to be considered for office fit-outs. The estimator already has trade partners and requires an online application first.",
+      "qualificationHeading": "Qualify the trade, territory and route to the list",
+      "qualificationText": "Describe work your firm can deliver. Use your trade package value when discussing job size. Confirm the project type, location and application requirements before offering capacity or sending documents.",
+      "routingId": "bid-list-status",
+      "routingHeading": "Track four separate steps toward the work",
+      "routingRows": [
+        [
+          "Application submitted",
+          "The form was sent through the required route. Keep the confirmation and any requested follow-up."
+        ],
+        [
+          "Prequalification approved",
+          "The GC confirmed acceptance for the relevant scope. Record conditions and renewal requirements."
+        ],
+        [
+          "Invitation to bid received",
+          "An actual invitation names a package, project and response deadline. Check fit and estimating capacity."
+        ],
+        [
+          "Contract awarded",
+          "The GC confirmed an award through its contracting process. Hand over the agreed scope and commitments to delivery."
+        ]
+      ],
+      "worksheetKicker": "The estimator handoff",
+      "worksheetHeading": "A bid-list handoff your estimating team can use",
+      "worksheetLead": "Illustrative completed example from the conversation above. The firms and package values are fictional. At this point, the application and project examples still need to be sent.",
+      "worksheetLabels": [
+        "Trade and project fit",
+        "Territory and package size",
+        "Contact and authority",
+        "Prequalification route",
+        "Requested evidence",
+        "Current status",
+        "Next owner and action"
+      ],
+      "worksheetExample": [
+        "Commercial electrical work for office tenant improvements. Estimator says the GC will consider another electrical firm for this scope.",
+        "Calgary and Airdrie. Subcontractor described electrical packages of $50,000 to $250,000 CAD. The GC’s next package value is unknown.",
+        "Estimator responsible for electrical bid invitations. Work email requested on the call. Record the confirmed name and address before sending.",
+        "GC website → Trade Partners → Prequalify. Select Electrical and describe commercial tenant improvements. Verify the exact URL and document requirements before uploading.",
+        "Two completed office jobs, service area and electrical package range. Send them to the estimator with the submission confirmation after applying.",
+        "Application requested. Nothing submitted yet. Prequalification approval, bid invitation and contract award remain unconfirmed. No meeting booked.",
+        "Subcontractor’s estimating lead prepares the application and two relevant examples, checks required documents with the firm and sends through the agreed route. Use the listed trade partner coordinator for form questions."
+      ],
+      "worksheetName": "Blank bid-list handoff",
+      "worksheetBlank": "GC and estimating contact — [company, name, scope responsibility, verified work contact]\nTrade and project fit — [trade category, work type, buyer’s requirement]\nTerritory and capacity — [areas, subcontract value range, availability to verify]\nApplication route — [exact URL, trade category, document requirements, questions contact]\nRequested evidence — [project examples or capability sheet, destination and permission]\nCurrent stage — [requested / submitted / approved / invitation received / awarded]\nStage evidence — [buyer confirmation, submission receipt, invitation or contract reference]\nNext action and owner — [person, action, agreed date or internal target]\nOpen questions — [requirements, contact details or capacity still to confirm]",
+      "blankCopyLabel": "Copy the blank bid-list handoff",
+      "handoffLinkLabel": "See the completed estimator handoff",
+      "objectionHeading": "When they have subs, want a form or need another estimator",
+      "alternativesHeading": "A blank trade script, routing call and voicemail",
+      "faqHeading": "Questions about cold calling general contractors",
+      "provenance": "CallTeam created the dialogue and estimator handoff to show its question-led approach in commercial trade prospecting. BELL and EllisDon provide examples of published contractor processes. Each GC controls its own requirements. The fictional call describes an application request and makes no claim of a project win.",
+      "evidenceURL": "/articles/reach-procurement-before-buying-process/",
+      "evidenceLabel": "Read CallTeam’s guide to reaching procurement early",
+      "evidenceNote": "Use the route the buyer gives you and record what that contact actually permits.",
+      "serviceHeading": "Need someone to call general contractors for your trade firm?",
+      "serviceText": "CallTeam researches GCs that fit your trade and territory, reaches the estimating contact and checks how your firm can be considered. Your team receives the project fit, application route, requested examples and next action. When a buyer wants an introduction, we qualify its purpose before arranging it.",
+      "serviceLabel": "Explore B2B cold calling for your subcontracting firm",
+      "serviceURL": "/services/b2b-cold-calling/",
+      "finalHeading": "Which general contractors fit the work you do?",
+      "finalText": "Bring your trade scope, service area, usual package size and two projects your estimator would want a buyer to see."
+    }
   }
 ]

@@ -213,6 +213,8 @@ Use a total-cost view that covers price, implementation, integrations, internal 
 
 For office equipment, the [copier lease-review worksheet](/resources/cold-call-scripts/copier-sales-cold-call-script-managed-print/#handoff) separates site requirements, the supplier review window and contract details that the buyer still needs to verify.
 
+Trade firms can use the [subcontractor cold call script for general contractors](/resources/cold-call-scripts/subcontractor-cold-call-script-general-contractors/) to reach the right estimator and confirm the prequalification route for their scope.
+
 ## Complete a supplier-readiness check before asking for the meeting
 
 The outbound team should know whether the supplier can support the next stage before creating executive interest.

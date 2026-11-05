@@ -149,7 +149,7 @@ test("general builder keeps unknown facts explicit instead of inventing outcomes
 });
 
 test("every selectable draft preserves published wording and attribution", () => {
-  assert.equal(catalog.length, 108);
+  assert.equal(catalog.length, 110);
   for (const item of catalog) {
     const original = published.find(source => source.slug === item.slug);
     assert(original, "Missing published source: " + item.slug);
