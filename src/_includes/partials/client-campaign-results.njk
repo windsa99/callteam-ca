@@ -34,20 +34,26 @@
     bellwether.url
   ) }}
   {% if showAllClientCampaigns %}
+  {% set homeLife = casesBySlug["homelife-realty-lead-reactivation"][0] %}
+  {% set anytimeFitness = casesBySlug["anytime-fitness-membership-reactivation"][0] %}
+  {% set maxWell = casesBySlug["maxwell-realty-canada-appointment-setting"][0] %}
   {{ campaignCard(
-    "HomeLife Realty",
-    "Dozens of webinar registrations",
-    "We called past residential and commercial leads, booked follow-up appointments, and invited prospects to a real estate webinar."
+    homeLife.data.client.name,
+    homeLife.data.caseResults[0].value ~ " webinar registrations and " ~ homeLife.data.caseResults[1].value ~ " follow-up appointments",
+    "We called past residential and commercial leads over a six-month campaign.",
+    homeLife.url
   ) }}
   {{ campaignCard(
-    "Anytime Fitness",
-    "More than 15 sign-ups in six months",
-    "We called former members in Canada with an offer to rejoin."
+    anytimeFitness.data.client.name,
+    anytimeFitness.data.caseResults[0].value ~ " membership sign-ups in " ~ anytimeFitness.data.caseResults[1].value,
+    "We called former members in Canada with an offer to rejoin.",
+    anytimeFitness.url
   ) }}
   {{ campaignCard(
-    "MaxWell Realty Canada",
-    "Booked real estate appointments",
-    "We called on behalf of MaxWell Realty brokerages. The appointments included commercial prospects."
+    maxWell.data.client.name,
+    maxWell.data.caseResults[0].value ~ " appointments booked in " ~ maxWell.data.caseResults[1].value,
+    "We called on behalf of MaxWell Realty brokerages. The appointments included commercial prospects.",
+    maxWell.url
   ) }}
   {% endif %}
 </div>
