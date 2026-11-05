@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+pageStyles: ["/assets/css/client-campaign-proof.css"]
 permalink: "/about/"
 title: "About CallTeam"
 seoTitle: "About CallTeam | CallTeam AI & Global B2B Sales"
@@ -8,7 +9,7 @@ canonicalUrl: "https://www.callteam.ca/about/"
 socialTitle: "About CallTeam | CallTeam AI & Human-Led B2B Sales"
 socialDescription: "See how CallTeam AI supports account research and buyer-signal review while experienced people handle calling, qualification, and appointment setting."
 date: 2026-08-15
-modified: 2026-08-23
+modified: 2026-11-05
 awardPlacements: true
 ---
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
@@ -194,6 +195,38 @@ awardPlacements: true
     </div>
   </section>
 
+  <section id="about-client-logos" class="experience-brands-section" aria-labelledby="about-experience-brands-heading">
+    <div class="container-wide experience-brands-inner">
+      <div class="experience-brands-copy">
+        <h2 id="about-experience-brands-heading">Companies our team has done work for</h2>
+      </div>
+      <div>
+        <ul class="experience-brand-grid" aria-label="Organizations represented in the experience behind CallTeam">
+          <li><img src="/assets/images/experience/maxsold.jpg" alt="MaxSold" decoding="async"></li>
+          <li><img src="/assets/images/experience/homelife.jpg" alt="HomeLife Realty" decoding="async"></li>
+          <li><img src="/assets/images/experience/maxwell.png" alt="MaxWell Realty Canada" decoding="async"></li>
+          <li><img src="/assets/images/experience/mainstreet.png" alt="Mainstreet Research" decoding="async"></li>
+          <li><img src="/assets/images/experience/bellwether.jpg" alt="Bellwether Technologies" decoding="async"></li>
+          <li><img src="/assets/images/experience/wells-fargo.png" alt="Wells Fargo" decoding="async"></li>
+          <li><img src="/assets/images/experience/anytime-fitness.png" alt="Anytime Fitness" decoding="async"></li>
+          <li class="experience-brand-pair" aria-label="CIBC Visa experience">
+            <img src="/assets/images/experience/cibc.png" alt="CIBC" decoding="async">
+            <span class="experience-brand-divider" aria-hidden="true"></span>
+            <img src="/assets/images/experience/visa.png" alt="Visa" decoding="async">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-client-campaigns" class="about-client-campaigns" aria-labelledby="about-client-campaigns-heading">
+    <div class="container-wide">
+      <h2 id="about-client-campaigns-heading" class="client-campaign-heading">Six campaigns our team ran</h2>
+      {% set showAllClientCampaigns = true %}
+      {% include "partials/client-campaign-results.njk" %}
+    </div>
+  </section>
+
 {{ awardPanel("recognition-about", "strip", "Internationally recognised for B2B sales expertise.", "Recognised for B2B outbound calling, lead generation and appointment setting. Explore the awards behind CallTeam’s international recognition.") }}
 
   <section id="what-callteam-does" class="about-definition-section">
@@ -264,8 +297,6 @@ awardPlacements: true
     </div>
   </section>
 
-  {% include "partials/platform-partners.njk" %}
-
   <section class="about-process-section">
     <div class="container-wide">
       <div class="section-label">How the work moves</div>
@@ -306,30 +337,6 @@ awardPlacements: true
     </div>
   </section>
 
-  <section class="experience-brands-section" aria-labelledby="about-experience-brands-heading">
-    <div class="container-wide experience-brands-inner">
-      <div class="experience-brands-copy">
-        <h2 id="about-experience-brands-heading">Experience across recognizable organizations.</h2>
-      </div>
-      <div>
-        <ul class="experience-brand-grid" aria-label="Organizations represented in the experience behind CallTeam">
-          <li><img src="/assets/images/experience/maxsold.jpg" alt="MaxSold" decoding="async"></li>
-          <li><img src="/assets/images/experience/homelife.jpg" alt="HomeLife Realty" decoding="async"></li>
-          <li><img src="/assets/images/experience/maxwell.png" alt="MaxWell Realty Canada" decoding="async"></li>
-          <li><img src="/assets/images/experience/mainstreet.png" alt="Mainstreet Research" decoding="async"></li>
-          <li><img src="/assets/images/experience/bellwether.jpg" alt="Bellwether Technologies" decoding="async"></li>
-          <li><img src="/assets/images/experience/wells-fargo.png" alt="Wells Fargo" decoding="async"></li>
-          <li><img src="/assets/images/experience/anytime-fitness.png" alt="Anytime Fitness" decoding="async"></li>
-          <li class="experience-brand-pair" aria-label="CIBC Visa experience">
-            <img src="/assets/images/experience/cibc.png" alt="CIBC" decoding="async">
-            <span class="experience-brand-divider" aria-hidden="true"></span>
-            <img src="/assets/images/experience/visa.png" alt="Visa" decoding="async">
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
   <section class="about-audience-section">
     <div class="container-wide">
       <div class="section-label">Who CallTeam works with</div>
@@ -363,7 +370,7 @@ awardPlacements: true
     <div class="container-wide">
       <div class="section-label">Case studies and proof</div>
       <h2>See how focused B2B campaigns are built and measured.</h2>
-      <p class="about-section-intro">The case study library explains the market problem, campaign logic, execution model, qualification standard, outcomes, and lessons without exposing confidential client identities.</p>
+      <p class="about-section-intro">See who we called, how we qualified prospects, and what each campaign delivered.</p>
       <div class="about-link-grid">
         <a href="/case-studies/fintech-payment-platform-appointment-setting/"><span>FinTech</span><strong>Payment platform appointment setting</strong><small>Targeting, calling, qualified demos, and pipeline outcomes</small></a>
         <a href="/case-studies/manufacturing-cybersecurity-appointment-setting/"><span>Cybersecurity</span><strong>Manufacturing appointment setting</strong><small>A focused market, technical relevance, and real opportunities</small></a>
@@ -419,4 +426,6 @@ awardPlacements: true
       </div>
     </div>
   </section>
+
+  {% include "partials/platform-partners.njk" %}
 </main>

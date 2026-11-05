@@ -1,0 +1,53 @@
+{% macro campaignCard(name, result, summary, url) %}
+  <article class="client-campaign-card">
+    <h3>{{ name }}</h3>
+    <p class="client-campaign-result">{{ result }}</p>
+    <p>{{ summary }}</p>
+    {% if url %}
+    <a href="{{ url }}">{{ name }} case study</a>
+    {% endif %}
+  </article>
+{% endmacro %}
+
+{% set casesBySlug = collections.namedCaseStudies | groupby("fileSlug") %}
+{% set maxSold = casesBySlug["maxsold-partnership-outreach"][0] %}
+{% set mainstreet = casesBySlug["mainstreet-research-lead-generation"][0] %}
+{% set bellwether = casesBySlug["bellwether-technologies-outbound-client-acquisition"][0] %}
+
+<div class="client-campaign-grid">
+  {{ campaignCard(
+    maxSold.data.client.name,
+    maxSold.data.caseResults[0].value ~ " estate referral partnerships",
+    "We called estate law firms and trust companies for referrals. A separate campaign signed up " ~ maxSold.data.caseResults[1].value ~ " auctioneers in its first six months.",
+    maxSold.url
+  ) }}
+  {{ campaignCard(
+    mainstreet.data.client.name,
+    mainstreet.data.caseResults[0].value ~ " research deals in " ~ mainstreet.data.caseResults[1].value,
+    "We called businesses, agencies, and nonprofits that needed research. We helped bring in Food Banks Canada as a client.",
+    mainstreet.url
+  ) }}
+  {{ campaignCard(
+    bellwether.data.client.name,
+    bellwether.data.caseResults[0].value ~ " new clients over " ~ bellwether.data.caseResults[1].value,
+    "We called organizations that needed telephone town halls, mass texting, or automated phone polling.",
+    bellwether.url
+  ) }}
+  {% if showAllClientCampaigns %}
+  {{ campaignCard(
+    "HomeLife Realty",
+    "Dozens of webinar registrations",
+    "We called past residential and commercial leads, booked follow-up appointments, and invited prospects to a real estate webinar."
+  ) }}
+  {{ campaignCard(
+    "Anytime Fitness",
+    "More than 15 sign-ups in six months",
+    "We called former members in Canada with an offer to rejoin."
+  ) }}
+  {{ campaignCard(
+    "MaxWell Realty Canada",
+    "Booked real estate appointments",
+    "We called on behalf of MaxWell Realty brokerages. The appointments included commercial prospects."
+  ) }}
+  {% endif %}
+</div>

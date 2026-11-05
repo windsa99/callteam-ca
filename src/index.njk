@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css"]
+pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css"]
 hasInlineContact: true
 title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 description: "Done-for-you B2B outbound calling, prospect list building, lead follow-up, qualification, and appointment setting that creates better sales conversations."
 canonicalUrl: "https://www.callteam.ca/"
-modified: "2026-08-23"
+modified: "2026-11-05"
 socialTitle: "B2B Outbound Calling & Appointment Setting | CallTeam"
 socialDescription: "We can build the list or use the leads you already have, make the calls, follow up, qualify the opportunity, and book the conversation."
 faqSchema: |
@@ -200,7 +200,20 @@ awardPlacements: true
     <p>The experience behind CallTeam includes more than 500,000 outbound calls, coaching for 1,000+ sellers, work across 150+ companies and high-pressure Fortune 100/500 sales environments.</p>
   </section>
 
-  {% include "partials/platform-partners.njk" %}
+  <section id="home-client-proof" class="home-client-proof" aria-labelledby="home-client-proof-heading">
+    <div class="container-wide">
+      <h2 id="home-client-proof-heading">Companies our team has done work for</h2>
+      <ul class="experience-brand-grid" aria-label="Selected companies">
+        <li><img src="/assets/images/experience/wells-fargo.png" alt="Wells Fargo" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/images/experience/mainstreet.png" alt="Mainstreet Research" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/images/experience/bellwether.jpg" alt="Bellwether Technologies" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/images/experience/maxwell.png" alt="MaxWell Realty Canada" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/images/experience/homelife.jpg" alt="HomeLife Realty" loading="lazy" decoding="async"></li>
+      </ul>
+      <h2 id="home-client-results" class="client-campaign-heading">What our outbound calls delivered</h2>
+      {% include "partials/client-campaign-results.njk" %}
+    </div>
+  </section>
 
   <section id="home-campaign-results" class="home-campaign-results" aria-labelledby="home-campaign-results-heading">
     <div class="container-wide">
@@ -647,4 +660,6 @@ awardPlacements: true
     {{ bookingRecognition("recognition-home-booking") }}
     <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-light" target="_blank" rel="noopener">Book a Free B2B Strategy Call</a>
   </section>
+
+  {% include "partials/platform-partners.njk" %}
 </main>
