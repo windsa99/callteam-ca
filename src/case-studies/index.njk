@@ -7,7 +7,7 @@ title: "B2B Sales Case Studies"
 seoTitle: "B2B Sales and Appointment Setting Case Studies | CallTeam"
 description: "Explore CallTeam case studies covering B2B outbound calling, appointment setting, outsourced SDR execution, lead reactivation, market entry, and sales improvement."
 canonicalUrl: "https://www.callteam.ca/case-studies/"
-modified: "2026-08-23"
+modified: "2026-11-05"
 socialTitle: "B2B Sales Case Studies | CallTeam"
 socialDescription: "See how focused targeting, human calling, qualification, follow up, and sales execution turn defined markets into measurable commercial outcomes."
 faqSchema: |
@@ -23,14 +23,15 @@ faqSchema: |
         "isPartOf": {
           "@id": "https://www.callteam.ca/#website"
         },
-        "mainEntity": {
-          "@id": "https://www.callteam.ca/case-studies/#case-study-list"
-        }
+        "mainEntity": [
+          { "@id": "https://www.callteam.ca/case-studies/#named-case-study-list" },
+          { "@id": "https://www.callteam.ca/case-studies/#case-study-list" }
+        ]
       },
       {
         "@type": "ItemList",
         "@id": "https://www.callteam.ca/case-studies/#case-study-list",
-        "name": "CallTeam B2B sales case studies",
+        "name": "Anonymized B2B sales case studies",
         "numberOfItems": 8,
         "itemListElement": [
           {
@@ -655,6 +656,30 @@ faqSchema: |
 }
 </style>
 
+{% set namedCases = collections.namedCaseStudies | sort(false, false, "data.caseOrder") %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "{{ canonicalUrl }}#named-case-study-list",
+  "name": "Named outbound case studies",
+  "numberOfItems": {{ namedCases.length }},
+  "itemListElement": [
+    {% for entry in namedCases %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "item": {
+        "@type": "Article",
+        "@id": "{{ entry.data.canonicalUrl }}#article",
+        "url": "{{ entry.data.canonicalUrl }}",
+        "name": {{ entry.data.title | json | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
 <main class="case-hub">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
     <div class="container"><a href="/">Home</a> / <span>Case Studies</span></div>
@@ -668,6 +693,7 @@ faqSchema: |
       <p>Each case study explains the starting condition, the work performed, the operating decisions, the results, and the lessons another sales team can use.</p>
       <div class="case-hub-actions">
         <a href="#featured-case-study" class="btn-primary">View the Featured Case Study</a>
+        <a href="#named-case-studies" class="btn-secondary">Explore Named Case Studies</a>
         <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-secondary" target="_blank" rel="noopener">Discuss Your Sales Problem</a>
       </div>
     </div>
@@ -695,6 +721,30 @@ faqSchema: |
       <article><strong>15</strong><span>qualified product demos</span></article>
       <article><strong>3</strong><span>closed deals</span></article>
       <article><strong>Six figures</strong><span>combined contract value</span></article>
+    </div>
+  </section>
+
+  <section id="named-case-studies" class="case-hub-featured" aria-labelledby="named-case-studies-title">
+    <div class="container-wide">
+      <div class="section-label">Our team’s campaign experience</div>
+      <h2 id="named-case-studies-title">Named companies. Specific outbound results.</h2>
+      <div class="case-hub-card-list">
+        {% for entry in namedCases %}
+        <a class="case-hub-card" href="{{ entry.url }}">
+          <div class="case-hub-card-copy">
+            <div class="case-hub-tags"><span>{{ entry.data.client.name }}</span><span>Outbound calling</span></div>
+            <h3>{{ entry.data.headline }} {{ entry.data.headlineResult }}</h3>
+            <p>{{ entry.data.caseLead }}</p>
+            <span class="case-hub-card-cta">Read the {{ entry.data.client.name }} Case Study →</span>
+          </div>
+          <div class="case-hub-card-results">
+            {% for result in entry.data.caseResults %}
+            <div><strong>{{ result.value }}</strong><span>{{ result.label }}</span></div>
+            {% endfor %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
     </div>
   </section>
 
