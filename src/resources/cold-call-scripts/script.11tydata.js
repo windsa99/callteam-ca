@@ -21,7 +21,7 @@ module.exports = {
     contextToolCta: campaignCtaFor,
     ogType: (data) => data.resource && data.resource.fieldGuide ? "article" : "website",
     pageStyles: (data) => {
-      if (data.resource && data.resource.fieldGuide) return ["/assets/css/script-field-guide.css"];
+      if (data.resource && data.resource.fieldGuide) return ["/assets/css/script-field-guide.css", ...(data.resource.pageStyles || [])];
       return campaignCtaFor(data) ? ["/assets/css/contextual-tools.css"] : [];
     }
   }

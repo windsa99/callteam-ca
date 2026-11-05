@@ -1234,5 +1234,449 @@
       "finalHeading": "Which prospects should get a first call?",
       "finalText": "Bring the email you sent, the list it went to and an example of a conversation your sales team would want to take."
     }
+  },
+  {
+    "id": "CT-R107",
+    "number": 107,
+    "title": "Hotel Sales Cold Call Script for Corporate Accounts",
+    "seoTitle": "Hotel Sales Cold Call Script for Corporate Accounts",
+    "slug": "hotel-sales-cold-call-script-corporate-accounts",
+    "primaryKeyword": "hotel sales cold call script",
+    "secondaryKeywords": [
+      "hotel cold calling script for corporate clients",
+      "free hotel sales call script",
+      "corporate hotel account prospecting",
+      "hotel B2B lead generation"
+    ],
+    "category": "Hotel corporate accounts",
+    "industry": "Hospitality",
+    "subindustry": "Corporate hotel sales",
+    "serviceCategory": "B2B appointment setting",
+    "buyers": [
+      "Travel Coordinator",
+      "Office Manager",
+      "Project Administrator"
+    ],
+    "filters": [
+      "operations",
+      "executive"
+    ],
+    "objective": "Find the person who books work trips, confirm whether a local hotel can be considered and agree on a useful sales introduction.",
+    "archetype": "Local corporate account development",
+    "icp": "Companies sending employees, contractors or visiting customers to a site within the hotel’s service area.",
+    "scenario": "A hotel sales rep calls an office manager whose visiting engineers need rooms near a project site.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "pageStyles": [
+      "/assets/css/script-market-guides.css"
+    ],
+    "metaDescription": "Use this free hotel sales cold call script to find who books corporate stays. Copy the call, handle an existing hotel and prepare a room-night brief.",
+    "opening": "When people visit [Site] for work, who books their rooms?",
+    "quickAnswer": "A hotel sales call starts with the booking process. Ask who arranges rooms, whether another property can be considered and what the next visit requires. Offer a sales introduction when the hotel has a relevant fit and the buyer wants to explore it.",
+    "questions": [
+      "When your usual hotel is full, can you use another one?",
+      "How many rooms would you usually need for a visit?",
+      "How long do those visitors stay?",
+      "What do they need close to the site?",
+      "Who approves adding a hotel to the booking options?"
+    ],
+    "bridge": "Our sales manager can check those dates and the parking with you.",
+    "cta": "Would ten minutes help you decide whether we could cover those visits?",
+    "fullScript": "You: Hi [Name], it’s [Rep] at [Hotel] near [Site]. When people visit [Site] for work, who books their rooms?\n\nBuyer: I do, but we already use a hotel.\n\nYou: Got it. When they’re full, can you use another one?\n\nBuyer: Yes, I can book another hotel nearby.\n\nYou: How many rooms would you usually need?\n\nBuyer: Three, for the engineers who come in.\n\nYou: How long do they stay?\n\nBuyer: Two nights. The next visit should be next month.\n\nYou: What do they need close by?\n\nBuyer: The site. They start early, and they need somewhere to park work trucks.\n\nYou: I’ll need to check the parking. Who approves adding a hotel to your options?\n\nBuyer: I can, as long as it meets our travel policy.\n\nYou: Our sales manager can check the dates and parking with you. Would ten minutes help you decide whether we could cover those visits?\n\nBuyer: Send me something first.\n\nYou: Sure. Is the parking the first thing you need to see?\n\nBuyer: Yes, and the rate for those two nights.\n\nYou: What dates should we check?\n\nBuyer: I’ll have the dates next week.\n\nYou: Then would a short call next Thursday work? You can bring the dates, and we’ll check the room options and parking before quoting a rate.\n\nBuyer: Thursday at ten works.\n\nYou: Ten Mountain time?\n\nBuyer: Yes.\n\nYou: What’s the best work email for the invite?\n\nIF HEAD OFFICE CHOOSES THE HOTELS\nBuyer: Everything goes through our travel team.\nYou: Who handles adding a local hotel to the programme?\nBuyer: The travel manager, through the annual supplier review.\nYou: When does that review open?\nIf they share a route, record it and follow that process. If the programme is closed, finish the call.\n\nIF THEY ONLY WANT INFORMATION\nBuyer: Just email the parking details. I’ll come back if we need rooms.\nYou: Of course. I’ll send the confirmed parking details. What’s the best work email?\nRecord an information request. Leave the meeting field empty.\n\nIF THERE IS NO FIT\nBuyer: We don’t have visitors staying overnight.\nYou: Understood. Thanks for clearing that up. I’ll leave it there.",
+    "whyItWorks": "The first question identifies the booking owner. The second tests whether an established hotel relationship leaves room for another property. Room counts, stay length and site requirements give the hotel a concrete enquiry to assess. The second invitation follows the buyer’s request for parking and a date-specific rate.",
+    "personalization": [
+      "Name the actual worksite and check its distance from the hotel.",
+      "Use the property name the buyer would recognise.",
+      "Verify parking, access times and other amenities before offering them.",
+      "Ask for the dates of one visit before estimating repeat demand.",
+      "Record the company’s route for approving local properties."
+    ],
+    "objections": [
+      {
+        "objection": "We already have a hotel.",
+        "response": "“When they’re full, can you use another one?” If the buyer says yes, ask what a backup property would need to cover. If the existing arrangement covers every stay, close the call."
+      },
+      {
+        "objection": "Head office handles our travel.",
+        "response": "“Who handles adding a local hotel to the programme?” Record the contact or supplier route they provide. A local booker may have no authority to add a property."
+      },
+      {
+        "objection": "Email me your rates.",
+        "response": "“What dates should we check?” Send availability and terms only after the hotel verifies them. If the buyer prefers email, record the requested information and agreed follow-up."
+      },
+      {
+        "objection": "We don’t need another hotel.",
+        "response": "“Understood. Thanks for letting me know.” Close the record when there is no need or the buyer asks you to stop."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in hotel sales script",
+        "description": "Use the property, site and offer your hotel can support.",
+        "script": "Hi [Name], it’s [Rep] at [Hotel] near [Site]. When people visit [Site] for work, who books their rooms?\n\n[Listen. If they use another hotel.]\nWhen that hotel is full, can you use another one?\n\n[If yes, ask one at a time.]\nHow many rooms would you need for a typical visit?\nHow long do they stay?\nWhat would a local hotel need to provide?\nWho approves adding a property?\n\n[If there is a suitable need.]\nOur sales manager can check [buyer’s requirement]. Would ten minutes help you decide whether we could cover [specific visit]?\n\n[If they request information.]\nWhich detail should I send first?\n\n[If no fit.]\nUnderstood. Thanks for your time."
+      },
+      {
+        "label": "Reception or central travel team",
+        "description": "Find the person responsible for the buying process.",
+        "script": "Hi, it’s [Rep] at [Hotel]. Who arranges rooms for people visiting [Site]?\n\n[If head office handles it.]\nWho can tell me how a local hotel is considered for the travel programme?\n\n[If there is a published supplier process.]\nThanks. Where can I find the next review date and submission details?"
+      },
+      {
+        "label": "Hotel sales voicemail",
+        "description": "Leave one specific reason to respond.",
+        "script": "Hi [Name], it’s [Rep] at [Hotel] near [Site]. I’m calling about rooms for people visiting the site for work. If you choose the local hotels, I’d like to check what you need for those visits. You can reach me at [number]. Again, it’s [Rep] at [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do you start a cold call to a corporate hotel account?",
+        "answer": "State your name, hotel and the nearby site. Then ask who books rooms for work visits. Once you reach that person, find out whether they can consider a local property and what an upcoming stay requires."
+      },
+      {
+        "question": "What should a hotel rep say when the company already has a hotel?",
+        "answer": "Ask whether they can use a second hotel when the usual property is full. If they can, qualify the stay and required facilities. A closed hotel programme or fully covered need is a reason to end the call."
+      },
+      {
+        "question": "What belongs in a corporate room-night brief?",
+        "answer": "Record the visit, room count, nights per stay, booking owner, requirements and agreed action. Three rooms for two nights equal six room-nights for that visit. Leave repeat frequency and annual demand unknown until the buyer confirms them."
+      },
+      {
+        "question": "Is this hotel cold calling script free to use?",
+        "answer": "Yes. Copy the full script or the fill-in version without a form. Replace the placeholders with your hotel’s details and verify availability, amenities and rates before making an offer."
+      },
+      {
+        "question": "Can CallTeam make corporate prospecting calls for a hotel?",
+        "answer": "CallTeam can scope a B2B appointment-setting campaign around the hotel’s location, suitable company accounts and booking criteria. Callers identify the travel contact, qualify the stay requirements and record the reason for an agreed sales introduction."
+      }
+    ],
+    "related": [
+      "b2b-appointment-setting-cold-call-script",
+      "cold-call-script-after-unanswered-sales-email",
+      "lead-generation-agency-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Introduce the hotel sales team to a buyer with a relevant stay requirement."
+      },
+      {
+        "title": "Managed B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "Reach the companies and booking contacts around your property."
+      },
+      {
+        "title": "Outsourced SDR services",
+        "href": "/services/outsourced-sdr/",
+        "description": "Add prospecting capacity for a defined list of corporate accounts."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Calling operations leaders",
+        "url": "/articles/cold-call-operations-leaders/",
+        "description": "Ask about the travel or site process the contact actually manages."
+      },
+      {
+        "title": "Reaching procurement before the buying process",
+        "url": "/articles/reach-procurement-before-buying-process/",
+        "description": "Understand the route from a local booker to central supplier approval."
+      }
+    ],
+    "sources": [
+      {
+        "title": "HSMAI on winning corporate transient business",
+        "url": "https://global.hsmai.org/insight/strategies-to-win-in-the-corporate-transient-segment/",
+        "note": "Explains corporate travel buyer needs, preferred hotel selection and the difference between winning programme inclusion and delivering room volume."
+      },
+      {
+        "title": "HSMAI on deploying niche hotel sellers",
+        "url": "https://americas.hsmai.org/insight/recruiting-and-deploying-niche-market-sellers/",
+        "note": "Discusses targeted prospecting and understanding the buyer’s market and requirements."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "A hotel rep calls an office manager who books work trips. Find out whether your property can cover an upcoming stay.",
+      "heroLabel": "After your name and hotel",
+      "forWho": "A hotel sales rep building local corporate accounts",
+      "forBuyer": "The office manager, travel coordinator or project administrator who arranges rooms",
+      "nextStep": "A relevant stay enquiry or an agreed introduction to the hotel sales manager",
+      "sectionTitle": "The corporate hotel call, with both sides",
+      "sectionLead": "Illustrative CallTeam script. A hotel rep calls about visiting engineers, checks the booking authority and follows the buyer’s request for parking and rates.",
+      "qualificationHeading": "Qualify the stay and the booking authority",
+      "qualificationText": "Ask one question and let the buyer answer before moving on. An expected trip is useful context. Dates, availability and a rate still need confirmation before the hotel can quote.",
+      "routingId": "corporate-hotel-booking-route",
+      "routingHeading": "Follow the company’s booking route",
+      "routingRows": [
+        [
+          "Local choice",
+          "Ask whether the contact can add a property and which travel requirements apply."
+        ],
+        [
+          "Central travel programme",
+          "Request the supplier contact or published review route. Record whether the programme is accepting properties."
+        ],
+        [
+          "Existing hotel covers the need",
+          "Close the call unless the buyer identifies a relevant gap or requests information."
+        ]
+      ],
+      "worksheetHeading": "A corporate room-night brief the hotel can act on",
+      "worksheetLead": "Illustrative completed example from the call above. This is a fictional enquiry prepared by CallTeam. The hotel still needs to check the dates, parking and room availability.",
+      "worksheetLabels": [
+        "Visit and room-nights",
+        "Booking owner",
+        "Property requirements",
+        "Approval route",
+        "Unknowns to verify",
+        "Agreed next step"
+      ],
+      "worksheetExample": [
+        "Three engineers visiting the project site next month. Three rooms for two nights equals six room-nights for this visit. Repeat frequency is unknown.",
+        "Office manager arranges the rooms and says they can select another local hotel.",
+        "Close to the worksite, early starts and parking for work trucks. Parking suitability has not been checked.",
+        "Office manager can add a property if it meets the company travel policy. Policy details are still needed.",
+        "Exact stay dates, truck dimensions, parking access, room availability and the applicable rate. No annual room-night estimate.",
+        "Ten-minute call with the hotel sales manager next Thursday at 10 a.m. Mountain time. Confirm the calendar date and work email when booking. Review parking and dates before quoting."
+      ],
+      "worksheetName": "Blank corporate room-night brief",
+      "worksheetBlank": "Visit and worksite — [reason, site, dates and confirmation source]\nRooms × nights — [rooms] × [nights] = [room-nights for this visit]\nRepeat pattern — [buyer-confirmed frequency or unknown]\nBooking owner and approval route — [name, role, local or central authority]\nProperty requirements — [buyer’s words and amenities still to verify]\nAgreed action — [information, referral, callback, meeting or close]\nNext owner and date — [calendar date, time zone and confirmed contact details]",
+      "blankCopyLabel": "Copy the blank room-night brief",
+      "handoffLinkLabel": "See the corporate room-night brief",
+      "objectionHeading": "When they have a hotel or someone else books",
+      "alternativesHeading": "A blank hotel script, routing call and voicemail",
+      "faqHeading": "Questions about hotel corporate sales calls",
+      "provenance": "CallTeam wrote the dialogue, call routes and room-night brief as working examples. They use the company’s question-led qualification approach. The HSMAI references provide industry context for corporate hotel buying. The characters and enquiry are illustrative.",
+      "evidenceURL": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+      "evidenceLabel": "Read CallTeam’s practical standard for a qualified appointment",
+      "evidenceNote": "Use it to distinguish a requested rate sheet from a booked conversation with a clear purpose.",
+      "serviceHeading": "Need someone to call corporate accounts for your hotel?",
+      "serviceText": "CallTeam researches suitable companies around your property, reaches the person who arranges work travel and checks the stay requirements and booking process. The hotel sales team receives the buyer’s reason to meet, the known room needs and the details still to confirm. A campaign starts with your service area and qualification criteria.",
+      "serviceLabel": "Explore B2B appointment setting for your hotel",
+      "serviceURL": "/services/b2b-appointment-setting/",
+      "finalHeading": "Which companies should your hotel call?",
+      "finalText": "Bring your location, the stays you can serve and the questions your sales manager needs answered before an introduction."
+    }
+  },
+  {
+    "id": "CT-R108",
+    "number": 108,
+    "title": "Copier Sales Cold Call Script for Managed Print Services",
+    "seoTitle": "Copier Sales Cold Call Script for Managed Print Services",
+    "slug": "copier-sales-cold-call-script-managed-print",
+    "primaryKeyword": "copier sales cold call script",
+    "secondaryKeywords": [
+      "managed print services cold calling script",
+      "copier lease renewal sales script",
+      "free copier cold calling script",
+      "office equipment B2B lead generation"
+    ],
+    "category": "Copier and managed print sales",
+    "industry": "Office equipment",
+    "subindustry": "Copiers and managed print services",
+    "serviceCategory": "B2B cold calling",
+    "buyers": [
+      "Office Manager",
+      "IT Manager",
+      "Procurement Manager"
+    ],
+    "filters": [
+      "operations",
+      "technology",
+      "finance"
+    ],
+    "objective": "Identify the agreement owner, establish the buyer’s supplier review window and qualify a focused equipment or service conversation.",
+    "archetype": "Equipment agreement and supplier review",
+    "icp": "Offices with business printers or copiers and a relevant supplier review, service concern or planned change.",
+    "scenario": "An office equipment dealer calls an office manager who is reviewing copier suppliers before the current lease ends.",
+    "publishedDate": "2026-11-04",
+    "enhancedSchema": true,
+    "pageStyles": [
+      "/assets/css/script-market-guides.css"
+    ],
+    "metaDescription": "Copy this free copier sales cold call script for managed print services. Ask about the supplier review, handle an existing lease and use the review worksheet.",
+    "opening": "Who looks after the copier agreement at [Office]?",
+    "quickAnswer": "A copier sales call should establish who owns the agreement and when they compare suppliers. Ask about one service or equipment requirement, then agree on the next step. Keep the buyer’s review window, lease expiry and notice terms in separate fields.",
+    "questions": [
+      "When do you normally compare suppliers before the agreement renews?",
+      "Which offices does that agreement cover?",
+      "What would you want to work better with the next supplier?",
+      "Who else needs to look at an equipment or service change?",
+      "What contract dates have you confirmed so far?"
+    ],
+    "bridge": "Our service manager can check whether we can support those offices and the problem you described.",
+    "cta": "Would ten minutes help you see whether we should be part of that review?",
+    "fullScript": "You: Hi [Name], it’s [Rep] at [Dealer]. We supply office copiers and service. Who looks after the copier agreement at [Office]?\n\nBuyer: I do. We’re already under contract.\n\nYou: When do you normally compare suppliers before it renews?\n\nBuyer: We’re starting to look now. I think the lease ends in April.\n\nYou: Which offices does that cover?\n\nBuyer: Calgary and Red Deer. Two copiers here and one there.\n\nYou: What would you want to work better with the next supplier?\n\nBuyer: Getting someone out when a machine is down. Red Deer waits longer.\n\nYou: What happens there while they wait?\n\nBuyer: They send bigger print jobs to Calgary.\n\nYou: Who else needs to look at a change?\n\nBuyer: IT checks the equipment. Finance signs the agreement.\n\nYou: Our service manager can check the Red Deer coverage with you. Would ten minutes help you see whether we should be part of the review?\n\nBuyer: Just send a price.\n\nYou: I can get the team to prepare a quote once they know the equipment and service you need. Is the Red Deer response time the main thing you want addressed?\n\nBuyer: Yes. We need to know someone can actually get there.\n\nYou: Then would a short call with our service manager on Tuesday help? We can check coverage first and agree what the quote needs to include.\n\nBuyer: Tuesday afternoon works.\n\nYou: Would two Mountain time work?\n\nBuyer: Yes.\n\nYou: What’s the best work email for the invite?\n\nIF THE REVIEW IS LATER\nBuyer: We won’t look at this until next September.\nYou: Would it be useful if I called in September, or do you have it covered?\nRecord a callback only if they agree. Ask for the year and a suitable week.\n\nIF HEAD OFFICE OWNS THE AGREEMENT\nBuyer: Procurement handles the whole fleet.\nYou: Who can tell me when they review copier suppliers?\nFollow the route provided. Do not book a local equipment review without the owner’s involvement.\n\nIF THEY DO NOT KNOW THE DATES\nBuyer: I’d have to find the agreement.\nYou: That’s fine. Who usually keeps it?\nRecord the dates as unknown until the buyer confirms them.\n\nIF THE CURRENT ARRANGEMENT WORKS\nBuyer: We’re happy with it and aren’t looking.\nYou: Understood. Thanks for your time. I’ll leave it there.",
+    "whyItWorks": "The opening locates responsibility for the agreement. The supplier review question gives the buyer a way to explain timing without being pushed to replace working equipment. A specific service issue earns a focused second invitation. Recording unverified dates separately prevents a rough recollection from becoming a false renewal deadline.",
+    "personalization": [
+      "Name the office the call concerns.",
+      "Confirm whether the dealer can service each location before offering coverage.",
+      "Use the buyer’s description of the print or service problem.",
+      "Ask whether the devices are leased, owned or covered by separate agreements.",
+      "Record who confirmed a contract date and whether the document has been checked."
+    ],
+    "objections": [
+      {
+        "objection": "We are still in a lease.",
+        "response": "“When do you normally compare suppliers before it renews?” If the buyer has a future review, ask whether a callback then would be useful. Do not assume they can exit the lease early."
+      },
+      {
+        "objection": "Our current supplier is fine.",
+        "response": "“Understood. Thanks for letting me know.” If they have no review or unmet requirement, close the call. A working supplier relationship can remain the right choice."
+      },
+      {
+        "objection": "IT or head office handles it.",
+        "response": "“Who can tell me when they review copier suppliers?” Record the agreement owner and the permitted supplier route. The local office may only report service issues."
+      },
+      {
+        "objection": "Send me your cheapest price.",
+        "response": "“Which equipment and service would the quote need to cover?” Clarify the site, devices and support requirements. Ask the quoting team to state what is included once the scope is confirmed."
+      }
+    ],
+    "alternatives": [
+      {
+        "label": "Fill-in copier sales script",
+        "description": "Adapt the questions to the dealer’s actual service area and offer.",
+        "script": "Hi [Name], it’s [Rep] at [Dealer]. We supply [equipment and service]. Who looks after the copier agreement at [Office]?\n\n[If they already have a supplier.]\nWhen do you normally compare suppliers before it renews?\n\n[If a review is relevant, ask one at a time.]\nWhich sites does the agreement cover?\nWhat would you want to work better?\nWho else needs to look at a change?\n\n[If there is a need you can assess.]\nOur [specialist] can check [buyer’s requirement]. Would ten minutes help you see whether we should be part of that review?\n\n[If the timing is later.]\nWould a call in [buyer’s review month] be useful?\n\n[If they are covered.]\nUnderstood. Thanks for your time."
+      },
+      {
+        "label": "Reception or procurement routing call",
+        "description": "Identify the agreement owner before discussing equipment.",
+        "script": "Hi, it’s [Rep] at [Dealer]. Who handles your copier supplier agreements?\n\n[If a central team owns the agreement.]\nWho can explain when they review print suppliers and how a dealer can be considered?\n\n[If procurement provides a process.]\nThank you. Where can I find the requirements for that review?"
+      },
+      {
+        "label": "Copier sales voicemail",
+        "description": "Keep the message tied to the supplier review.",
+        "script": "Hi [Name], it’s [Rep] at [Dealer]. I’m calling to find out when [Company] next reviews its copier supplier and whether you’re the person who handles that. You can reach me at [number]. Again, [Rep] at [number]."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a useful opening for a copier sales cold call?",
+        "answer": "Give your name, dealership and service, then ask who looks after the copier agreement. Once you reach the owner, ask when they compare suppliers. That establishes responsibility and timing before you discuss equipment."
+      },
+      {
+        "question": "How do you respond when the buyer already has a copier lease?",
+        "answer": "Ask when they review suppliers before renewal. If the review is later, request permission for a callback in that window. Leave lease expiry and notice terms unconfirmed until the buyer checks the agreement."
+      },
+      {
+        "question": "What should a managed print services caller qualify?",
+        "answer": "Identify the sites, equipment scope, agreement owner, service requirement, supplier review window and people involved in a decision. A later assessment can confirm device usage, invoices, service scope and contract details with the buyer’s permission."
+      },
+      {
+        "question": "Can I copy this copier sales script for free?",
+        "answer": "Yes. The full call, fill-in script and blank review worksheet are available without a form. Replace the dealer, office and service details with accurate information before using them."
+      },
+      {
+        "question": "Can CallTeam generate leads for an office equipment dealer?",
+        "answer": "CallTeam can scope a calling campaign to find relevant office accounts, identify agreement owners and qualify supplier review timing. The handoff records the buyer’s requirement, the sites in scope and an agreed next action for the dealer’s sales team."
+      }
+    ],
+    "related": [
+      "msp-cold-call-script-managed-it-services",
+      "software-procurement-advisory-cold-call-script",
+      "b2b-appointment-setting-cold-call-script"
+    ],
+    "relevantServices": [
+      {
+        "title": "Managed B2B cold calling",
+        "href": "/services/b2b-cold-calling/",
+        "description": "Reach agreement owners and establish the next supplier review."
+      },
+      {
+        "title": "B2B appointment setting",
+        "href": "/services/b2b-appointment-setting/",
+        "description": "Book a focused discussion when the buyer has a requirement to assess."
+      },
+      {
+        "title": "Outsourced SDR services",
+        "href": "/services/outsourced-sdr/",
+        "description": "Add consistent prospecting and agreed follow-up for target offices."
+      }
+    ],
+    "guides": [
+      {
+        "title": "Prospecting before a software or service renewal",
+        "url": "/articles/prospect-before-software-service-renewal/",
+        "description": "Separate a known review window from an estimated expiry date."
+      },
+      {
+        "title": "Reaching procurement before the buying process",
+        "url": "/articles/reach-procurement-before-buying-process/",
+        "description": "Include the agreement owner and follow the supplier review route."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Xerox managed print assessment checklist",
+        "url": "https://www.office.xerox.com/latest/MPSFL-05U.PDF",
+        "note": "Lists assessment inputs including site scope, device inventory, usage, service invoices and lease details. These are inputs for a later buyer-approved assessment."
+      }
+    ],
+    "fieldGuide": {
+      "subhead": "A copier dealer calls the office manager who handles the agreement. Find the next supplier review and a reason to talk.",
+      "heroLabel": "After your name and dealership",
+      "forWho": "A copier dealer or managed print services sales rep",
+      "forBuyer": "The office manager, IT contact or procurement owner responsible for the agreement",
+      "nextStep": "A service or equipment review with a purpose the buyer has confirmed",
+      "sectionTitle": "The copier sales call, including the second ask",
+      "sectionLead": "Illustrative CallTeam script. The buyer is reviewing suppliers and describes a service problem at one office. The rep asks for a coverage discussion before preparing a quote.",
+      "qualificationHeading": "Separate supplier timing from contract dates",
+      "qualificationText": "A buyer may know when they want to compare options while being unsure when the lease ends. Ask about each separately. The next conversation should address the stated service or equipment need.",
+      "routingId": "copier-supplier-review-route",
+      "routingHeading": "Choose the next step from the buyer’s answer",
+      "routingRows": [
+        [
+          "Active review and a relevant requirement",
+          "Agree what a specialist will check, who should attend and when to meet."
+        ],
+        [
+          "Future review",
+          "Ask for permission to call in the buyer’s review window. Record the month and year."
+        ],
+        [
+          "Central agreement",
+          "Follow procurement’s supplier route and record the local contact’s role."
+        ],
+        [
+          "Covered or no interest",
+          "Close the record when the buyer has no need or asks for contact to stop."
+        ]
+      ],
+      "worksheetHeading": "A copier lease-review worksheet with the unknowns visible",
+      "worksheetLead": "Illustrative completed example from the call. CallTeam created this fictional record to show what the dealer knows before the meeting and what the buyer still needs to verify.",
+      "worksheetLabels": [
+        "Sites and devices",
+        "Buyer’s requirement",
+        "Supplier review window",
+        "Lease and notice information",
+        "Decision roles",
+        "Agreed next step"
+      ],
+      "worksheetExample": [
+        "Calgary has two copiers. Red Deer has one. Counts were stated by the office manager. Models, usage and separate site agreements are unknown.",
+        "“Red Deer waits longer.” When its copier is down, larger jobs go to Calgary. Actual service commitments and response history still need checking.",
+        "The office manager says the supplier review is starting now. No evaluation deadline was given.",
+        "The buyer thinks the lease ends in April. Year, exact expiry date and document source are unconfirmed. Notice terms are unknown. Ask the agreement owner to verify them.",
+        "Office manager coordinates the review, IT checks equipment and Finance signs. The final supplier-selection process needs confirmation.",
+        "Ten-minute call with the service manager on Tuesday at 2 p.m. Mountain time. Confirm the calendar date and work email. Check Red Deer coverage and agree the scope for a quote."
+      ],
+      "worksheetName": "Blank copier lease-review worksheet",
+      "worksheetBlank": "Site and devices — [one entry per office, count, ownership and known service scope]\nBuyer’s requirement — [their words and the affected work]\nSupplier review window — [month/year, review owner and confirmation source]\nLease expiry — [exact date and year, or unknown]\nNotice terms and date — [verified agreement details, or unknown]\nDate evidence — [who confirmed, document checked, check date]\nDecision roles — [office contact, IT, procurement and sign-off]\nAgreed action — [information, callback, meeting, referral or close]\nNext owner and date — [calendar date, time zone and confirmed contact details]",
+      "blankCopyLabel": "Copy the blank review worksheet",
+      "handoffLinkLabel": "See the lease-review worksheet",
+      "objectionHeading": "When they have a lease, a supplier or a central buyer",
+      "alternativesHeading": "A blank copier script, routing call and voicemail",
+      "faqHeading": "Questions about copier and managed print sales calls",
+      "provenance": "CallTeam wrote the conversation and lease-review worksheet as illustrative sales tools. The Xerox checklist informs the assessment fields. It provides industry context for a later review. The fictional office dialogue is CallTeam’s own example.",
+      "evidenceURL": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+      "evidenceLabel": "Read CallTeam’s practical standard for a qualified appointment",
+      "evidenceNote": "A supplier-review date becomes useful when it is paired with a buyer, a relevant requirement and an agreed next step.",
+      "serviceHeading": "Need someone to call office accounts for your dealership?",
+      "serviceText": "CallTeam researches suitable offices in your service area, reaches the person responsible for the copier agreement and checks the supplier review window. Callers record the site, the buyer’s requirement and the next action they agree to. Your team gets a clear purpose for a booked conversation, with contract details marked for confirmation where needed.",
+      "serviceLabel": "Explore managed B2B cold calling for your dealership",
+      "serviceURL": "/services/b2b-cold-calling/",
+      "finalHeading": "Which offices should your dealership call?",
+      "finalText": "Bring your service area, equipment offer and the requirements that make an account worth your sales team’s time."
+    }
   }
 ]

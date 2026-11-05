@@ -177,6 +177,8 @@ Do not position procurement as an obstacle to get around. Ask the business spons
 
 The [multi-threading guide](/articles/multi-thread-b2b-deal-finance-it-operations/) can help coordinate these roles without bypassing a champion or creating conflicting commitments.
 
+Hotel sales teams can use the [corporate hotel booking questions](/resources/cold-call-scripts/hotel-sales-cold-call-script-corporate-accounts/#qualification) to distinguish a local booking contact from the central travel team that approves properties.
+
 ## Offer market intelligence before a product pitch
 
 Early buyers need to understand what the market can deliver, which models exist, what drives cost and risk, what implementation requires, and how to compare options. Useful supplier input can include a category map, delivery alternatives, total-cost components, common dependencies, reference patterns, and questions for evaluation.
@@ -208,6 +210,8 @@ Clarify assumptions and ranges instead of hiding costs until negotiation. If val
 This transparency supports a stronger commercial conversation and reduces late surprises. It also lets procurement compare offers that use different pricing or delivery models.
 
 Use a total-cost view that covers price, implementation, integrations, internal labor, training, support, consumption, service management, transition, contract flexibility, renewal exposure, and exit. State what is included, excluded, assumed, or still unknown. A low headline price with hidden buyer work is not a credible commercial comparison.
+
+For office equipment, the [copier lease-review worksheet](/resources/cold-call-scripts/copier-sales-cold-call-script-managed-print/#handoff) separates site requirements, the supplier review window and contract details that the buyer still needs to verify.
 
 ## Complete a supplier-readiness check before asking for the meeting
 

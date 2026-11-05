@@ -1,0 +1,22 @@
+/* Keep the spoken opener and both actions together on small screens. */
+@media (max-width: 720px) {
+  .script-field-guide .script-resource-hero { padding: 14px 0 26px; }
+  .script-field-guide .script-resource-hero h1 {
+    font-size: clamp(28px, 7.5vw, 42px);
+    line-height: 1.04;
+    margin: 8px 0 10px;
+  }
+  .script-field-guide .script-resource-lead { font-size: 14.5px; line-height: 1.4; }
+  .script-field-guide .fg-first-line { margin-top: 12px; }
+  .script-field-guide .fg-first-line strong { font-size: 10px; }
+  .script-field-guide .fg-first-line p { font-size: 16px; line-height: 1.4; margin-top: 5px; }
+  .script-field-guide .script-hero-actions { margin-top: 12px; gap: 8px; }
+}
+@media (max-width: 460px) {
+  .script-field-guide .container-wide { padding-left: 14px; padding-right: 14px; }
+  .script-field-guide .script-breadcrumb { font-size: 10px; gap: 5px; padding-top: 10px; padding-bottom: 10px; }
+  .script-field-guide .script-resource-hero .section-label { font-size: 9px; line-height: 1.4; letter-spacing: .06em; }
+  .script-field-guide .script-hero-actions { display: grid; grid-template-columns: 1.1fr 1fr; }
+  .script-field-guide .script-hero-actions .btn-primary,
+  .script-field-guide .script-hero-actions .btn-secondary { padding: 9px 6px; font-size: 12px; min-height: 44px; text-align: center; justify-content: center; }
+}

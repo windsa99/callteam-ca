@@ -187,6 +187,8 @@ The core hypothesis should remain consistent. Changing the level of detail is us
 
 A shop calling a depot can ask who actually chooses the repairer. The [fleet account cold calling script for auto body shops](/resources/cold-call-scripts/fleet-account-cold-calling-script-auto-body-shops/) shows how the next question changes if head office decides.
 
+For a hotel calling about employee travel, the [hotel sales cold call script](/resources/cold-call-scripts/hotel-sales-cold-call-script-corporate-accounts/) shows how to find who books rooms and whether a local property can be considered.
+
 ## Discover the baseline and the exception path
 
 Average performance can hide the reason an Operations buyer cares. Explore what happens when data is incomplete, a person is unavailable, volume spikes, a system fails, a customer changes requirements, or an incident crosses teams.

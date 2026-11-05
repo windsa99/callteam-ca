@@ -168,6 +168,8 @@ ERP and SaaS evaluations may require technical, financial, security, operational
 
 CallTeam's campaign and script experience also includes cybersecurity, payments, private credit technology, logistics, manufacturing systems, healthcare, outsourced professional services, and workforce platforms. The buying cycle changes with implementation risk, regulation, service continuity, and the number of functions involved. Renewal messaging must reflect those mechanics.
 
+Office equipment dealers can use the [copier sales cold call script](/resources/cold-call-scripts/copier-sales-cold-call-script-managed-print/) to ask who owns the agreement and when the buyer compares suppliers. Its worksheet keeps the review window separate from lease expiry and notice terms.
+
 ## Qualify the meeting and multi-thread carefully
 
 Confirm the issue, incumbent, timing confidence, notice constraints, current satisfaction, evaluation steps, decision roles, and desired outcome. If several functions will participate, ask the contact how to involve them constructively.
