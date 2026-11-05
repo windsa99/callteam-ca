@@ -176,6 +176,8 @@ Booked volume answers one administrative question. Held-meeting rate adds attend
 
 A guaranteed meeting is not automatically a qualified SaaS opportunity. The written terms must define account fit, buyer role, meeting purpose, booked versus held treatment, no-shows, rejection window, replacement policy, exclusions, attendance responsibility, and remedy. Extra work, a credit, replacement, discount, or refund are different protections.
 
+If you're reviewing agency quotes, use the [worked SaaS agency comparison](/articles/best-b2b-lead-generation-agencies/#saas-agency-quote-comparison). It shows how the same meeting standard changes the cost comparison.
+
 ## Launch the appointment-setting operating contract
 
 Before the first call, write down the ICP, exclusions, use cases, approved claims, hard disqualifiers, buyer roles, meeting types, qualification evidence, required CRM fields, routing, confirmation steps, seller response time, acceptance rules, no-show handling, and outcome feedback.

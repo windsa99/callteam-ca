@@ -1,8 +1,14 @@
 ---
 authorKey: "harjSingh"
 layout: "layouts/article.njk"
-pageStyles: ["/assets/css/contextual-tools.css"]
+pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/saas-quote-comparison.css"]
 contextualTools:
+  saasProposal:
+    id: "cta-agencies-saas-proposal"
+    accessibleName: "Compare SaaS agency proposals"
+    copy: "Compare your own quotes using the fees, meeting definitions and scope each provider has put in writing."
+    href: "/lead-generation-proposal-comparison/"
+    label: "Compare Your Agency Proposals"
   campaign:
     id: "cta-agencies-campaign"
     accessibleName: "Preview your campaign"
@@ -18,16 +24,16 @@ contextualTools:
 tags: ["articles"]
 title: "Best B2B Lead Generation Agencies in 2026: Six Providers Compared"
 seoTitle: "Best B2B Lead Generation Agencies in 2026"
-description: "Compare six B2B lead generation agencies by services, calling, AI, qualification, handoff, pricing, ideal fit, and the questions buyers should ask."
+description: "Compare six B2B lead generation agencies by pricing, scope and meeting quality. Use a worked SaaS example to compare cost per held, qualified demo."
 date: "2026-08-15"
-modified: "2026-10-26"
+modified: "2026-11-05"
 category: "B2B Lead Generation Agency Comparison"
 permalink: "/articles/best-b2b-lead-generation-agencies/"
 canonicalUrl: "https://www.callteam.ca/articles/best-b2b-lead-generation-agencies/"
 cluster: "B2B Lead Generation"
 articleType: "Provider comparison"
-topics: ["best B2B lead generation agencies","B2B lead generation companies","outsourced lead generation","CallTeam","Belkins","Callbox","CIENCE","SalesHive","Operatix","memoryBlue"]
-quickAnswer: "Compare B2B lead generation agencies by the work transferred, assigned people, channels, qualification, sales handoff and complete cost. Belkins, Callbox, CIENCE, memoryBlue and SalesHive offer different delivery models. CallTeam is a global managed calling partner for campaign-ready B2B companies, starting at US$4,000 monthly for the agreed scope. Use the sourced comparison and separate CallTeam section to assess fit."
+topics: ["best B2B lead generation agencies","B2B lead generation companies","outsourced lead generation","SaaS lead generation agency comparison","CallTeam","Belkins","Callbox","CIENCE","SalesHive","Operatix","memoryBlue"]
+quickAnswer: "Compare B2B lead generation agencies by who does the outreach, what qualifies a meeting, what sales receives and the total cost. For SaaS, divide the full campaign cost by demos that take place and meet the written criteria agreed with sales. The six-provider comparison and worked SaaS example show how to apply that test. CallTeam starts at US$4,000 monthly for the agreed campaign-ready scope."
 comparisonListName: "Six B2B lead generation providers compared in 2026"
 comparisonItems:
   - name: "Belkins"
@@ -63,6 +69,8 @@ cards:
 faqs:
   - question: "How should I compare B2B lead generation agencies?"
     answer: "Start with the function you need transferred, then compare the actual team, channels, qualification, handoff and complete cost. Use a common brief so every proposal addresses the same audience and responsibilities."
+  - question: "How do I calculate cost per qualified SaaS demo?"
+    answer: "Divide the full campaign cost by the number of demos that took place and met the sales team's written criteria. Include setup, outreach, data and other required fees for the same period. For example, US$12,000 divided by 12 held, qualified demos is US$1,000 per demo."
   - question: "When is CallTeam a suitable lead generation agency?"
     answer: "CallTeam suits B2B companies that need research, human calling, follow-up, qualification and scheduling connected to sales. The campaign-ready starting offer is US$4,000 monthly for the agreed scope, with fresh data and additional resources scoped before launch."
   - question: "Is Operatix part of memoryBlue?"
@@ -133,6 +141,49 @@ Dollar figures reproduce the currency notation displayed by each provider. Where
 | [SalesHive](https://saleshive.com/pricing/) | Managed SDR plans with phone-only or phone-and-email options | Custom quote; staffing, channels and volume affect the rate | Which team option and plan match our market? |
 
 CallTeam's current scope and starting price are set out separately below. These rows describe different purchases, so use the questions to narrow your requirements before comparing fees.
+
+<span id="saas-agency-quote-comparison" class="library-anchor-target"></span>
+
+## How to compare lead generation agencies for B2B SaaS
+
+Suppose your SaaS team has a target account list and two sellers who can run demos. Ask each agency to quote the same job for 90 days. Give them the same account criteria and buyer roles, then ask who will call, follow up, qualify the buyer and prepare the handoff.
+
+Agree on what earns a place in the count. A **held, qualified demo** takes place with a relevant buyer from a company that fits. The buyer has confirmed a use case the product can serve, and your sales team accepts the meeting against the written criteria. Use the same standard for both agencies.
+
+### Two quotes for the same SaaS campaign
+
+Compare the total for the same period in the same currency. Include setup, data and other required fees so both figures represent the full proposed cost.
+
+<table class="saas-quote-table">
+  <caption>Illustrative 90-day proposals in US dollars</caption>
+  <thead>
+    <tr><th scope="col">Measure</th><th scope="col">Proposal A</th><th scope="col">Proposal B</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Total campaign cost</th><td>$12,000</td><td>$18,000</td></tr>
+    <tr><th scope="row">Demos booked</th><td>30</td><td>60</td></tr>
+    <tr><th scope="row">Cost per booking</th><td>$400</td><td>$300</td></tr>
+    <tr><th scope="row">Demos held</th><td>18</td><td>27</td></tr>
+    <tr><th scope="row">Held demos accepted by sales</th><td>12</td><td>12</td></tr>
+    <tr><th scope="row">Cost per held, qualified demo</th><td><strong>$1,000</strong></td><td><strong>$1,500</strong></td></tr>
+  </tbody>
+</table>
+
+**Cost per held, qualified demo = total campaign cost ÷ held demos accepted by sales.** In this example, Proposal B costs less per booking. Proposal A costs US$6,000 less for the same 12 demos that took place and met the agreed criteria.
+
+### Three questions to ask both agencies
+
+1. **Who will make the calls?** Ask who is assigned to your accounts and who handles callbacks, confirmation and rescheduling.
+2. **What counts as a qualified demo?** Ask both providers to use your written rules for account fit, buyer role and the purpose of the meeting. Agree how to handle no-shows and meetings your sales team rejects.
+3. **What will my seller get before the demo?** Ask for a redacted sample of the handoff. Look for the buyer's role, the problem they confirmed, the agreed purpose and any questions still open.
+
+### What happened in one CallTeam SaaS campaign
+
+CallTeam's published [SaaS appointment-setting case study](/case-studies/saas-demo-appointment-setting/) reports **11 qualified demos in a 90-day outbound campaign, four sales opportunities and two customers signed within six months**. The case study shows how the team selected accounts and gave each demo a purpose the buyer understood.
+
+{% set contextToolCta = contextualTools.saasProposal %}{% include "components/contextual-tool-cta.njk" %}
+
+For the process behind those decisions, read the [B2B appointment-setting guide for SaaS companies](/articles/b2b-appointment-setting-saas-companies/). It covers qualification, attendance and the handoff to sales.
 
 ## What each model means for the buyer
 

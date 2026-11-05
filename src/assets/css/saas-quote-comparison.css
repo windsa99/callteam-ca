@@ -1,0 +1,44 @@
+.article-page .article-content .saas-quote-table {
+  display: table;
+  table-layout: fixed;
+  margin: 20px 0 24px;
+}
+
+.saas-quote-table caption {
+  padding: 0 0 10px;
+  color: var(--grey-text);
+  font-size: 14px;
+  text-align: left;
+}
+
+.article-page .article-content .saas-quote-table th,
+.article-page .article-content .saas-quote-table td {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.saas-quote-table thead th:first-child {
+  width: 48%;
+}
+
+.article-page .article-content .saas-quote-table td {
+  color: var(--black);
+  font-variant-numeric: tabular-nums;
+}
+
+.article-page .article-content .saas-quote-table tbody th {
+  background: var(--white);
+}
+
+.article-page .article-content .saas-quote-table tbody tr:last-child > * {
+  background: #fff1e7;
+  color: var(--black);
+}
+
+@media (max-width: 560px) {
+  .article-page .article-content .saas-quote-table th,
+  .article-page .article-content .saas-quote-table td {
+    padding: 9px 8px;
+    font-size: 13px;
+  }
+}
