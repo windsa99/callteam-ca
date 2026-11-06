@@ -1,0 +1,292 @@
+---
+layout: layouts/base.njk
+permalink: "/services/webinar-lead-follow-up/"
+title: "Webinar Invitation Calling and Lead Follow-Up"
+seoTitle: "Webinar Lead Follow-Up & Invitation Calling | CallTeam"
+description: "Hire CallTeam to invite B2B webinar prospects by phone, confirm registrations, and follow up with attendees and no-shows to book qualified meetings."
+canonicalUrl: "https://www.callteam.ca/services/webinar-lead-follow-up/"
+socialTitle: "Webinar Invitation Calling and Lead Follow-Up | CallTeam"
+socialDescription: "Give your webinar a calling team before and after it goes live. See how we invite prospects, work registrant lists and hand qualified meetings to sales."
+contentLanguage: "en"
+authorKey: "harjSingh"
+pageStyles:
+  - "/assets/css/event-follow-up.css"
+  - "/assets/css/webinar-calling.css"
+date: "2026-11-06"
+modified: "2026-11-06"
+webinarFaqs:
+  - question: "What do webinar lead follow-up services include?"
+    answer: "CallTeam reviews your registrant and attendance lists, prioritizes people who requested contact, and calls the groups you approve. We qualify interest, schedule suitable meetings and record the outcome and next action in your agreed workflow."
+  - question: "Can you invite prospects and confirm webinar attendance by phone?"
+    answer: "Yes. We can call your approved prospects to explain the topic and help them register. We can also call registered guests to confirm the date, time zone and joining details where reminders make sense."
+  - question: "Can you call people who registered but missed the webinar?"
+    answer: "Yes. We use their registration as the starting point. We can offer the approved replay and ask what they hoped to learn. If they describe a relevant need and agree to a sales conversation, we can book it."
+  - question: "What format should we send the webinar leads in?"
+    answer: "A spreadsheet or CRM export works. Include name, company, role, phone number, event source, registration and attendance status, and any questions or requests your platform captured. Include the account owner so we can coordinate with your sales team."
+  - question: "How soon can follow-up calls begin after the webinar?"
+    answer: "We agree a start date around the event, list availability and your sales calendar. If we prepare before the webinar, we can set priorities and approve the talk tracks while the event team is still planning."
+  - question: "Can we hire CallTeam for one webinar?"
+    answer: "Yes. We can scope invitation calls, post-webinar follow-up, or both for a single event. For a series, we agree how to handle repeat registrants, account ownership and reporting across sessions."
+  - question: "How much does webinar calling cost?"
+    answer: "We quote based on the number of contacts, data preparation, markets and calling hours, the event deadline, and the follow-up work you want covered. Your proposal sets the price, timeline and responsibilities."
+---
+{% set casesBySlug = collections.namedCaseStudies | groupby("fileSlug") %}
+{% set homeLife = casesBySlug["homelife-realty-lead-reactivation"][0] %}
+{% set webinarBooking = "https://calendly.com/hello-callteam/new-meeting" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": {"@id": "{{ site.websiteId }}"},
+      "mainEntity": {"@id": "{{ canonicalUrl }}#service"},
+      "breadcrumb": {"@id": "{{ canonicalUrl }}#breadcrumb"},
+      "author": {"@id": "{{ authors.harjSingh.id }}"},
+      "publisher": {"@id": "{{ site.organizationId }}"},
+      "datePublished": "{{ date | sitemapDate }}",
+      "dateModified": "{{ modified }}",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Service",
+      "@id": "{{ canonicalUrl }}#service",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "serviceType": "B2B webinar invitation calling and lead follow-up",
+      "description": {{ description | json | safe }},
+      "provider": {"@id": "{{ site.organizationId }}"},
+      "areaServed": [
+        {"@type": "Country", "name": "United States"},
+        {"@type": "Country", "name": "Canada"}
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ authors.harjSingh.id }}",
+      "name": {{ authors.harjSingh.name | json | safe }},
+      "url": "{{ site.url }}{{ authors.harjSingh.url }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "Services", "item": "{{ site.url }}/services/"},
+        {"@type": "ListItem", "position": 3, "name": "Webinar Lead Follow-Up", "item": "{{ canonicalUrl }}"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ canonicalUrl }}#faq",
+      "mainEntity": [
+        {% for faq in webinarFaqs %}
+        {
+          "@type": "Question",
+          "name": {{ faq.question | json | safe }},
+          "acceptedAnswer": {"@type": "Answer", "text": {{ faq.answer | json | safe }}}
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="ef-page wf-page">
+  <div class="ef-hero-shell">
+    <nav class="ef-wrap ef-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span aria-hidden="true">/</span>
+      <a href="/services/">Services</a><span aria-hidden="true">/</span>
+      <span aria-current="page">Webinar lead follow-up</span>
+    </nav>
+    <section class="ef-wrap ef-hero" aria-labelledby="wf-title">
+      <div>
+        <p class="ef-eyebrow">B2B webinar calling services</p>
+        <h1 id="wf-title">Webinar invitation calling and <span>lead follow-up.</span></h1>
+        <p class="ef-lead">Have a webinar coming up or a list of registrants waiting to be called? CallTeam makes the calls on your behalf. We invite prospects before the webinar, then follow up with attendees and no-shows to qualify interest and book sales meetings.</p>
+        <div class="ef-actions">
+          <a class="ef-button ef-button-solid" href="{{ webinarBooking }}" target="_blank" rel="noopener">Plan My Webinar Calling Campaign <span aria-hidden="true">↗</span></a>
+        </div>
+        <nav class="wf-paths" aria-label="Choose your webinar campaign">
+          <a href="#webinar-invitations">I have a webinar coming up <span aria-hidden="true">↓</span></a>
+          <a href="#webinar-follow-up">I have a webinar list to call <span aria-hidden="true">↓</span></a>
+        </nav>
+        <p class="ef-byline">Campaign approach by <a href="{{ authors.harjSingh.url }}" rel="author">{{ authors.harjSingh.name }}</a></p>
+      </div>
+      <aside class="ef-event-sheet" aria-label="Sample webinar calling priorities">
+        <div class="ef-sheet-top"><span>Webinar call list</span><span>Example</span></div>
+        <h2>Three contacts.<br>Three reasons to call.</h2>
+        <ol>
+          <li><span aria-hidden="true">01</span><div><strong>Target account</strong><p>Invite the buyer to a session that fits a problem they’re working on.</p></div></li>
+          <li><span aria-hidden="true">02</span><div><strong>Asked for a demo</strong><p>Confirm what they want to see and book with the right salesperson.</p></div></li>
+          <li><span aria-hidden="true">03</span><div><strong>Registered and missed it</strong><p>Offer the replay and ask what they hoped to learn.</p></div></li>
+        </ol>
+        <p class="ef-sheet-bottom">Each call ends with <strong>an outcome and a next action.</strong></p>
+      </aside>
+    </section>
+    <div class="ef-wrap ef-scope-line">
+      <strong>One webinar or an ongoing series.</strong>
+      <p>Human callers for your U.S. and Canadian audiences. Scope the invitations, the follow-up, or both around your event schedule.</p>
+    </div>
+  </div>
+
+  <nav class="ef-nav" aria-label="On this page">
+    <div class="ef-wrap">
+      <a href="#webinar-invitations">Before the webinar</a>
+      <a href="#webinar-follow-up">After the webinar</a>
+      <a href="#webinar-case-study">HomeLife results</a>
+      <a href="#webinar-handoff">Sales handoff</a>
+      <a href="#webinar-intake">What we need</a>
+      <a href="#webinar-faq">Questions</a>
+    </div>
+  </nav>
+
+  <section id="webinar-invitations" class="ef-section" aria-labelledby="webinar-invitations-title">
+    <div class="ef-wrap ef-checklist-layout">
+      <div>
+        <p class="ef-eyebrow">Before the webinar</p>
+        <h2 id="webinar-invitations-title">Invite the people you want in the room.</h2>
+        <p class="ef-body-lead">Give us the audience, topic and date. We’ll agree which accounts and roles to call and what makes the session worth their time.</p>
+        <ol class="ef-checklist wf-invite-steps">
+          <li><span aria-hidden="true">01</span><div><h3>Agree the audience</h3><p>Start with your approved list or agree the target accounts, roles and exclusions with us.</p></div></li>
+          <li><span aria-hidden="true">02</span><div><h3>Make the invitation</h3><p>Explain the topic, answer the practical questions and share the approved registration details with people who want them.</p></div></li>
+          <li><span aria-hidden="true">03</span><div><h3>Confirm registrations</h3><p>Track who registered and agree when to remind them. Make sure guests have the time zone and joining instructions.</p></div></li>
+        </ol>
+      </div>
+      <figure class="ef-handoff-card wf-invite-example">
+        <figcaption class="ef-label">Example webinar invitation call</figcaption>
+        <blockquote>“Hi [name], this is [caller] calling on behalf of [company]. We’re running a short session on [specific problem] for [role] on [date]. Is that something your team is working on? I can send you the registration link.”</blockquote>
+        <p><strong>If they ask for the link</strong></p>
+        <p>Confirm where to send it and what the session covers. Record that they requested the details. Count them as registered when the sign-up appears in your event list.</p>
+      </figure>
+    </div>
+  </section>
+
+  <section id="webinar-follow-up" class="ef-section ef-paper" aria-labelledby="webinar-follow-up-title">
+    <div class="ef-wrap">
+      <div class="ef-heading">
+        <div>
+          <p class="ef-eyebrow">After the webinar</p>
+          <h2 id="webinar-follow-up-title">Call webinar leads based on what they did.</h2>
+        </div>
+        <p>We work from your webinar export and CRM notes. Start with explicit requests, then give attendees and no-shows their own opening and next step.</p>
+      </div>
+      <div class="ef-situation-grid">
+        <article>
+          <p class="ef-label">Priority 01</p>
+          <h3>Asked to speak to sales</h3>
+          <p>Pick up their demo request or question. Confirm the use case, who should attend and what they want from the meeting.</p>
+          <div class="ef-situation-action"><strong>Example opening</strong><p>“You asked about [specific topic] during the webinar. What would you like our team to cover if we set up a call?”</p></div>
+          <p class="ef-next"><span>Possible next step</span>Book a focused demo or discovery call.</p>
+        </article>
+        <article>
+          <p class="ef-label">Priority 02</p>
+          <h3>Attended the session</h3>
+          <p>Ask why the topic mattered. Use a question or poll answer when there’s one on record.</p>
+          <div class="ef-situation-action"><strong>Example opening</strong><p>“Thanks for joining the session on [topic]. Was there a particular issue you were hoping it would help you solve?”</p></div>
+          <p class="ef-next"><span>Possible next step</span>Arrange a call if they have a relevant need, or send the material they asked for.</p>
+        </article>
+        <article>
+          <p class="ef-label">Priority 03</p>
+          <h3>Registered and missed it</h3>
+          <p>Use the fact they registered. Find out what they wanted from the session and offer the approved replay.</p>
+          <div class="ef-situation-action"><strong>Example opening</strong><p>“You registered for [webinar]. Would the recording help, or was there a question you were hoping we’d cover?”</p></div>
+          <p class="ef-next"><span>Possible next step</span>Send the replay, agree a callback, or book a conversation they want to have.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="webinar-case-study" class="ef-section" aria-labelledby="webinar-case-title">
+    <div class="ef-wrap wf-proof">
+      <div>
+        <p class="ef-eyebrow">Client campaign · Six months</p>
+        <h2 id="webinar-case-title">{{ homeLife.data.client.name }}</h2>
+        <p>We called older residential and commercial leads for HomeLife. The webinar gave people a reason to reconnect. For prospects with an active real estate question, we arranged a separate follow-up appointment.</p>
+        <a class="ef-text-link" href="{{ homeLife.url }}">Read the HomeLife Realty case study <span aria-hidden="true">→</span></a>
+      </div>
+      <dl class="wf-proof-metrics">
+        {% for result in homeLife.data.caseResults %}
+        <div>
+          <dt>{{ result.label }}</dt>
+          <dd>{{ result.value }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </div>
+  </section>
+
+  <section id="webinar-handoff" class="ef-section ef-dark" aria-labelledby="webinar-handoff-title">
+    <div class="ef-wrap ef-handoff-layout">
+      <div>
+        <p class="ef-eyebrow">Qualification and handoff</p>
+        <h2 id="webinar-handoff-title">Give sales a reason for every booking.</h2>
+        <p class="ef-body-lead">A qualified webinar meeting needs a relevant account, the right participant and a purpose the buyer agreed to. We confirm the details and pass the conversation notes to the person running the meeting.</p>
+        <p class="ef-specialist">Track registrations, attendance from your platform, and meetings booked and held as separate outcomes. For contacts who need more time, record the agreed follow-up and who owns it.</p>
+      </div>
+      <article class="ef-handoff-card" aria-labelledby="webinar-handoff-example">
+        <div class="ef-sheet-top"><span>CRM handoff</span><span>Example</span></div>
+        <h3 id="webinar-handoff-example">An attendee wants to see a workflow.</h3>
+        <dl>
+          <div><dt>Webinar signal</dt><dd>An operations lead asked how the product handles duplicate CRM records.</dd></div>
+          <div><dt>Confirmed need</dt><dd>Their team is preparing a CRM migration and wants to review how duplicates are flagged.</dd></div>
+          <div><dt>Agreed meeting</dt><dd>A walkthrough with the product specialist. The buyer plans to invite the CRM administrator.</dd></div>
+          <div><dt>Sales handoff</dt><dd>Send the question and agreed meeting time to the account owner. Include what the buyer wants to see first.</dd></div>
+        </dl>
+        <p class="ef-caption">Illustrative meeting brief. Your campaign uses the qualification criteria and handoff fields you approve.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="webinar-intake" class="ef-section ef-paper" aria-labelledby="webinar-intake-title">
+    <div class="ef-wrap ef-scope-layout">
+      <div>
+        <p class="ef-eyebrow">Campaign scope</p>
+        <h2 id="webinar-intake-title">What we need to start calling.</h2>
+        <p class="ef-body-lead">Tell us when the webinar takes place, who you want to reach and what a useful follow-up looks like. We’ll agree the calling window, audience and handoff before launch.</p>
+        <div class="ef-other-needs">
+          <strong>Have a different list?</strong>
+          <p>See <a href="/services/trade-show-lead-follow-up/">Trade Show Lead Follow-Up</a> for booth and conference contacts or <a href="/services/lead-reactivation/">Lead Reactivation</a> for older lists that need a fresh reason to call.</p>
+        </div>
+      </div>
+      <div class="ef-scope-card">
+        <p class="ef-label">Bring to the planning call</p>
+        <ul>
+          <li><strong>Upcoming webinar.</strong> Topic, date and time zone, registration link, target accounts and roles.</li>
+          <li><strong>Completed webinar.</strong> Registrants, attendance status, phone numbers, questions or demo requests, and the replay link if available.</li>
+          <li><strong>Both.</strong> Approved opening, account ownership and exclusions, meeting criteria, calendar and reporting workflow.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="webinar-faq" class="ef-section" aria-labelledby="webinar-faq-title">
+    <div class="ef-wrap ef-faq-layout">
+      <div>
+        <p class="ef-eyebrow">Before you book</p>
+        <h2 id="webinar-faq-title">Webinar calling questions.</h2>
+        <p>How to plan invitations and follow-up around your event date and available lead data.</p>
+      </div>
+      <div class="ef-faqs">
+        {% for faq in webinarFaqs %}
+        <details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="ef-section ef-final ef-paper" aria-labelledby="webinar-plan-title">
+    <div class="ef-wrap">
+      <p class="ef-eyebrow">Plan your next webinar campaign</p>
+      <h2 id="webinar-plan-title">Bring an event date or the list you have.</h2>
+      <p>Tell us roughly how many people you want called. We’ll work through who to call first, what to say and when to hand a conversation over to sales.</p>
+      <a class="ef-button ef-button-solid" href="{{ webinarBooking }}" target="_blank" rel="noopener">Plan My Webinar Calling Campaign <span aria-hidden="true">↗</span></a>
+      <p class="ef-final-secondary"><a href="#contact">Prefer to write? Tell us about your webinar.</a></p>
+    </div>
+  </section>
+</main>
