@@ -43,6 +43,7 @@ pageScripts: ["/assets/js/apollo-alternatives.js"]
     {% for p in guide.providers %}<article class="lp-provider" id="{{ p.id }}" aria-labelledby="{{ p.id }}-title">
       <div class="lp-provider-head"><div><p class="lp-kicker">{{ p.tag }}</p><h3 id="{{ p.id }}-title">Apollo vs {{ p.name }}</h3></div></div>
       <div class="lp-provider-body"><div class="lp-provider-detail"><h4>What you gain</h4><p>{{ p.gain }}</p><h4>What to watch</h4><p>{{ p.gap }}</p><h4>Cost and limits</h4><p>{{ p.cost }}</p></div><aside class="lp-verdict"><p class="lp-kicker">CallTeam verdict</p><p class="lp-verdict-text">{{ p.verdict }}</p><div><strong>Test this before buying</strong><p>{{ p.test }}</p></div></aside></div>
+      {% if p.id == "zoominfo" %}<p class="lp-small">Considering a wider platform purchase? Our <a href="/resources/zoominfo-alternatives/">ZoomInfo alternatives comparison</a> examines the package, contract and options for a small team.</p>{% endif %}
       <p class="lp-sources"><strong>Official sources:</strong> {% for source in p.sources %}<a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.label }} ↗</a>{% if not loop.last %}<span aria-hidden="true"> · </span>{% endif %}{% endfor %}</p>
     </article>{% endfor %}
   </div></section>

@@ -94,6 +94,8 @@ These options can all provide contact details, but they leave different amounts 
 
 Choosing a database? [Compare the best B2B lead generation databases](/resources/b2b-lead-providers/) for the strengths, drawbacks and buying checks behind 10 providers, including Apollo, ZoomInfo and AeroLeads. Use the free scorecard to test the same target accounts before purchasing a larger batch.
 
+Reviewing a ZoomInfo purchase or renewal? Compare [ZoomInfo alternatives for small sales teams](/resources/zoominfo-alternatives/) to check the full commitment, phone access and work each option covers.
+
 | Option | What you receive | Work to account for |
 | --- | --- | --- |
 | Database subscription | Access to search and export available records | Your team selects, reviews and prepares the accounts |

@@ -2,7 +2,7 @@
   "name": "callteam-ca",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run test:attribution && npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && npm run test:dialers && npm run test:lead-buying && npm run test:crm && npm run test:apollo && eleventy && node scripts/test-apollo-alternatives.js --rendered && node scripts/test-crm-guide.js --rendered && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms",
+    "build": "npm run test:attribution && npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && npm run test:dialers && npm run test:lead-buying && npm run test:crm && npm run test:apollo && npm run test:zoominfo && eleventy && node scripts/test-zoominfo-alternatives.js --rendered && node scripts/test-apollo-alternatives.js --rendered && node scripts/test-crm-guide.js --rendered && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js && node scripts/check-article-tool-ctas.js",
     "check:about": "node scripts/validate-about-page.js",
@@ -23,7 +23,8 @@
     "test:dialers": "node scripts/test-dialer-cost.js",
     "test:lead-buying": "node scripts/test-lead-buying.js",
     "test:crm": "node scripts/test-crm-guide.js",
-    "test:apollo": "node scripts/test-apollo-alternatives.js"
+    "test:apollo": "node scripts/test-apollo-alternatives.js",
+    "test:zoominfo": "node scripts/test-zoominfo-alternatives.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

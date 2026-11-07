@@ -1,0 +1,167 @@
+{
+  "reviewed": "November 7, 2026",
+  "reviewedIso": "2026-11-07",
+  "providers": [
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "tag": "Data and outbound in the same purchase",
+      "fit": "You need contact data and email outreach together.",
+      "price": "USD 49/user/month",
+      "priceNote": "Basic annual reference: USD 588/user/year",
+      "allowance": "Published reference: 30,000 credits/user/year; phone actions use multiple credits.",
+      "catch": "Price the phone workflow and required features separately.",
+      "good": "Apollo combines contact search, email sequences and integrations. A small team can buy data and manage outreach in one place.",
+      "limit": "Phone reveals can use several credits. Enrichment and exports can carry their own charges. CRM integrations and calling features depend on the plan, so the entry price may leave out something your team needs.",
+      "cost": "Apollo's published plan reference lists Basic at USD 49 per user monthly on annual billing, with 30,000 annual credits. This is a reference for the named plan. Confirm the current checkout price, phone-credit deductions and add-ons before committing.",
+      "verdict": "Good starting point for a small team that needs data and outreach. Price the phone features and CRM connection before adding seats.",
+      "check": "Take one representative account from search to CRM record to follow-up. Record the credit use and anything that requires another plan.",
+      "sources": [
+        {"label": "Current plans and features", "url": "https://www.apollo.io/pricing"},
+        {"label": "Published plan prices and allowances", "url": "https://www.apollo.io/insights/how-many-apollo-credits-do-i-have-left-before-i-run-a-large-enrichment-batch"}
+      ]
+    },
+    {
+      "id": "uplead",
+      "name": "UpLead",
+      "tag": "A clear price for contact buying",
+      "fit": "Your CRM and dialler already work. You need contacts.",
+      "price": "USD 99/month",
+      "priceNote": "Essentials, monthly billing",
+      "allowance": "170 contact credits/month; available email and mobile direct dial included in the contact unlock.",
+      "catch": "The email accuracy claim does not establish phone accuracy.",
+      "good": "The buying unit is clear: one credit unlocks an available contact for download or CRM export. You can see the entry price and allowance before speaking to sales.",
+      "limit": "The 95% accuracy claim applies to email. It does not tell you how many useful mobile numbers you will find. Team management and some integrations require the quoted Professional plan.",
+      "cost": "Essentials lists USD 99 monthly for 170 credits. Annual billing is USD 888, equivalent to USD 74 monthly, with 2,040 credits. The seven-day trial includes five credits. Confirm the selected plan and renewal terms.",
+      "verdict": "Good choice to test if your CRM and dialler already work. We like the clear pricing. Check mobile coverage on your own buyers before paying for more credits.",
+      "check": "Use the small trial on your real target roles. Track which records have a usable mobile or direct line and which need another route.",
+      "sources": [
+        {"label": "Prices, credits, trial and plan differences", "url": "https://www.uplead.com/pricing/"}
+      ]
+    },
+    {
+      "id": "lead411",
+      "name": "Lead411",
+      "tag": "Published entry price and a larger export allowance",
+      "fit": "You build lists regularly and want a visible entry price.",
+      "price": "USD 49/month",
+      "priceNote": "Spark, monthly billing",
+      "allowance": "1,000 exports/month; direct phone numbers listed in the plan.",
+      "catch": "Spark has an export allowance. Unlimited exports belong to a different offer.",
+      "good": "Spark publishes its price, export allowance and direct-phone access. The trial includes 50 exports, enough to check a small group of target buyers.",
+      "limit": "The broad unlimited-data wording needs a closer look. Spark has a fixed export allowance; unlimited annual exports belong to the quoted Blaze plan. Direct-phone access also leaves mobile coverage to check on your own list.",
+      "cost": "Spark is USD 49 monthly for 1,000 exports, or USD 490 annually for 12,000 exports. Ask which integrations, features and team access the selected offer covers, plus what happens when usage exceeds it.",
+      "verdict": "Strong option to test on a tight budget. The published price and export allowance are appealing. Buy only if the sample covers the buyers you need.",
+      "check": "Search a narrow territory and job function. Check current roles, duplicate records and phone types before extrapolating from the export count.",
+      "sources": [
+        {"label": "Spark, Blaze and trial allowances", "url": "https://www.lead411.com/pricing/"}
+      ]
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "tag": "Targeted reveals while researching buyers",
+      "fit": "You need contact details for a manageable set of named buyers.",
+      "price": "Free: USD 0",
+      "priceNote": "Paid bundle price unconfirmed in our source check",
+      "allowance": "Up to 40 free credits/month. A phone reveal uses 5; an email uses 1.",
+      "catch": "Forty credits cover at most eight phone reveals before other usage.",
+      "good": "The free allowance lets you try contact reveals through its prospecting tools and browser extension. It suits a rep filling in missing details for a few named buyers.",
+      "limit": "Each phone reveal uses five credits, so the allowance can run out quickly. Check any export charge as well. We could not confirm the current paid bundle price from the public selector.",
+      "cost": "The free plan provides up to 40 credits monthly. Phones use five each and emails use one. Monthly unused credits can accumulate up to twice the plan limit; annual unused credits reset at the end of the annual cycle. Confirm the selected paid bundle.",
+      "verdict": "Good for filling gaps in a small list. Phone reveals use up the allowance quickly. Work out your monthly phone cost before paying.",
+      "check": "Reveal and export a few representative contacts. Compare the balance before and after, then estimate the cost of your normal month.",
+      "sources": [
+        {"label": "Reveal costs, free allowance and renewal rules", "url": "https://www.lusha.com/pricing/"},
+        {"label": "Plan and export questions", "url": "https://www.lusha.com/faq/"}
+      ]
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "tag": "A quoted option for specific phone-data needs",
+      "fit": "You can justify paying for the relevant verification features.",
+      "price": "Custom quote",
+      "priceNote": "Standard and Pro; five seats listed as included",
+      "allowance": "1 credit per revealed contact; confirm the purchased allowance.",
+      "catch": "Pro adds premium mobile and on-demand verification features.",
+      "good": "Pro adds premium mobile and on-demand verification features. That gives a calling team something specific to test on accounts it struggles to reach.",
+      "limit": "There is no public subscription price. Five included seats do not tell a two-person team what it must pay. CRM enrichment is listed separately, so ask whether it adds to the bill.",
+      "cost": "Cognism lists one credit per revealed contact, with additional credits available to buy. Previously revealed contacts can be viewed again without another charge. Get the total term, verification tier, allowance and integration costs in writing.",
+      "verdict": "Consider it for valuable accounts where verified mobile data could justify the cost. We dislike having to request a price. Ask for a sample from your target market before taking the quote further.",
+      "check": "Ask the team to show the verification level on your own target contacts and explain what a missing or outdated number costs to resolve.",
+      "sources": [
+        {"label": "Plans, included seats and credit rules", "url": "https://www.cognism.com/pricing"}
+      ]
+    },
+    {
+      "id": "salesintel",
+      "name": "SalesIntel",
+      "tag": "Research requests and visible verification levels",
+      "fit": "Missing contacts and verification quality justify a research service.",
+      "price": "Custom quote",
+      "priceNote": "Confirm the products and contract included",
+      "allowance": "Advertised unlimited users, exports and enrichment; Research on Demand: 10 credits/user/month.",
+      "catch": "Research has an allowance. Advanced intent and other modules can cost extra.",
+      "good": "Research on Demand lets you request missing contacts. Human-, email- and machine-verified labels help you see which checks a record received.",
+      "limit": "An email-verified label covers a different check from human verification. Research requests have a monthly allowance. Engagement products and other add-ons may increase the quote.",
+      "cost": "The pricing page requests a quote and advertises unlimited users, export credits and enrichment. Research on Demand is listed at ten credits per user monthly. Advanced intent and several additional products are marked as add-ons. Ask for the full scope and restrictions.",
+      "verdict": "Useful when your team needs help finding specific buyers. The quoted price and research limits make the total harder to judge. Give them a few missing contacts and assess what comes back.",
+      "check": "Request missing contacts from a few important accounts. Record the turnaround, returned fields and verification level before assessing the quote.",
+      "sources": [
+        {"label": "Pricing scope and research allowance", "url": "https://salesintel.io/pricing/"},
+        {"label": "Verification tiers explained", "url": "https://support.salesintel.io/hc/en-us/articles/4404044888217-Understand-Human-Email-and-Machine-Verified-Records"}
+      ]
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "tag": "Another route to phone and contact lookups",
+      "fit": "You want to compare individual lookups and phone-type filters.",
+      "price": "Phone-plan price unconfirmed",
+      "priceNote": "Check the current phone-enabled offer",
+      "allowance": "Confirm the included phone lookups, exports and team access.",
+      "catch": "An email-only starting price would be the wrong calling comparison.",
+      "good": "Its phone-verification announcement describes mobile, direct and office filters, confidence grades and verification features for eligible Pro, Ultimate and Custom users. The number-type filters help callers choose which route to try.",
+      "limit": "We have not measured how its confidence grades translate into answered calls. We also could not confirm the current phone-enabled subscription price. Both need checking before you commit.",
+      "cost": "Check the current phone-enabled tier, billing term, lookup allowance and export rules. Ask how unsuccessful lookups, repeated searches and team sharing are handled. Keep any email-only price separate from your calling budget.",
+      "verdict": "Worth testing for named buyers and phone lookups. We could not confirm the phone-plan price, so we cannot recommend it on cost. Get the full price and export limits first.",
+      "check": "Search the same people using mobile and office filters. See what is genuinely additional to your CRM and what the selected tier lets you export.",
+      "sources": [
+        {"label": "Current pricing selector", "url": "https://rocketreach.co/pricing"},
+        {"label": "RocketReach's phone-verification announcement", "url": "https://www.prnewswire.com/news-releases/rocketreach-expands-phone-verification-and-grading-through-strategic-partnership-with-trestle-302847228.html"}
+      ]
+    },
+    {
+      "id": "seamless",
+      "name": "Seamless.AI",
+      "tag": "Contact research with a contract to examine",
+      "fit": "You want to evaluate contact research and the quoted paid allowance.",
+      "price": "Free sample; paid quote",
+      "priceNote": "Free credits do not replenish",
+      "allowance": "Free: 50 credits. Current Pro documentation: 10,000/month.",
+      "catch": "Published terms describe annual subscriptions, including monthly billing.",
+      "good": "The free allocation lets you inspect a small set of records. The credit documentation explains the charges: one contact-search research action uses one credit.",
+      "limit": "Monthly payments can still lock you into a year. The published terms require cancellation through the platform at least 60 days before annual renewal. Older claims of 1,000 daily Pro credits refer to legacy plans that are closed to new buyers.",
+      "cost": "The free licence includes 50 non-replenishing credits; current Pro documentation lists 10,000 monthly credits. Obtain the paid price, applicable allowance and order terms. Other features also consume credits, so the balance is not reserved exclusively for contact searches.",
+      "verdict": "Try the free sample. Be cautious if you want a short commitment: the published terms describe annual subscriptions, even with monthly payments. Get the cancellation deadline in writing.",
+      "check": "Ask the salesperson to identify your plan, full obligation and cancellation deadline in the written order. Compare those with the published terms.",
+      "sources": [
+        {"label": "Paid plans and pricing enquiry", "url": "https://seamless.ai/pricing"},
+        {"label": "Current credits and legacy-plan distinction", "url": "https://seamless.ai/customers/education/articles/seamless-ai-credit-and-license-types"},
+        {"label": "Subscription and renewal terms, section 6", "url": "https://seamless.ai/policies/terms-of-use"}
+      ]
+    }
+  ],
+  "quoteText": "Before we book a demo, please confirm:\n\n1. What is the total cost for our team over the full contract, including setup, add-ons and the payment schedule?\n\n2. Which phone data, credits and exports are included? What happens when we run out?\n\n3. Do repeat lookups, refreshed records or CRM exports use more credits?\n\n4. When does the contract renew, and exactly how and when must we cancel?\n\n5. What data can we export and retain when we leave, and which CRM integrations are included?",
+  "faqs": [
+    {"q": "What is the best ZoomInfo alternative for a small sales team?", "a": "Our starting shortlist is Apollo for data with outreach, UpLead for a clear contact-buying unit and Lead411 for a published entry price with a substantial export allowance. Lusha and RocketReach are worth evaluating for targeted lookups. Cognism and SalesIntel need a quote and a specific reason to pay for their verification or research features. Check Seamless.AI's commitment before choosing it for flexibility."},
+    {"q": "Which ZoomInfo alternatives publish their prices?", "a": "UpLead and Lead411 publish entry-plan prices and allowances. Apollo publishes plan-price references, but confirm the current selected offer. Lusha's free allowance is public; its paid bundle price remained unconfirmed in our check. Cognism and SalesIntel require quotes, and RocketReach's current phone-enabled price was unconfirmed. We show those gaps in the comparison."},
+    {"q": "Is ZoomInfo too expensive for a small business?", "a": "That depends on your quote and what the team uses. Ask for the full committed cost and compare it with a narrower package that covers the same essential work. A small business buying mainly contact records has a different requirement from a team using account intelligence, enrichment and several connected workflows."},
+    {"q": "Are there free ZoomInfo alternatives with phone numbers?", "a": "Some providers offer limited samples or free allowances. Lusha publishes a recurring free credit allowance; UpLead and Lead411 offer short trials; Seamless.AI documents a non-replenishing free allocation. Check phone access and export limits before assuming any free offer will support an ongoing calling campaign."},
+    {"q": "Is Apollo better than ZoomInfo for cold calling?", "a": "Apollo is worth testing when its data, outreach and price fit a smaller team's requirements. ZoomInfo may be useful when its broader capabilities already support your business. Compare the same target accounts, the relevant phone types and the complete calling workflow. We have not run a controlled head-to-head phone-accuracy benchmark."},
+    {"q": "Does paying monthly mean I can cancel every month?", "a": "Read the contract term separately from the billing schedule. A provider can collect monthly payments against an annual obligation. Get the total commitment, renewal date and cancellation procedure in writing before you buy."},
+    {"q": "Can LinkedIn Sales Navigator or Clay replace ZoomInfo?", "a": "They can cover parts of a prospecting process. Sales Navigator helps you research people and companies. Clay can organise enrichment across data providers. Compare the specific contact data, calling route, setup effort and other tools you still need before treating either as a full replacement."},
+    {"q": "Can CallTeam call the ZoomInfo leads we already have?", "a": "Yes. Bring your existing list, offer and target market to a free strategy call. We can assess the campaign fit and discuss list preparation, cold calling, follow-up, qualification and appointment handoff. You can keep the data provider that works for your team."}
+  ]
+}
