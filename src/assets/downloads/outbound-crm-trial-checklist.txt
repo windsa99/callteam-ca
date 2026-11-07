@@ -1,0 +1,35 @@
+CALLTEAM CRM TRIAL CHECKLIST
+CRM: ____________________
+Date: ____________________
+Plan and quote: ____________________
+
+[TO TEST] 1. Import without merging the wrong people.
+Use a small sample with two contacts sharing a company number. Keep both people, their number types and the existing record IDs.
+Result / issue / next question: ____________________
+
+[TO TEST] 2. Log the call and see the next action.
+Record a voicemail, a wrong number and a conversation separately. Check that the next rep can understand what happened.
+Result / issue / next question: ____________________
+
+[TO TEST] 3. Find the promised callback.
+Set a callback with a date, time zone and owner. It should appear when due and stay out of the generic unworked queue.
+Result / issue / next question: ____________________
+
+[TO TEST] 4. Stop follow-up when it should stop.
+Use a test record for a stop request or reply. Check the dialling queue, sequence and future tasks, not just one status field.
+Result / issue / next question: ____________________
+
+[TO TEST] 5. Book, reschedule and hand over a meeting.
+Use a controlled test record. Keep qualification notes and the new meeting time together, without duplicate deals or stale reminders.
+Result / issue / next question: ____________________
+
+[TO TEST] 6. Hand the record to another rep.
+Change the owner, check the history and next task, then inspect an export. Find out what happens to notes and recordings if you leave.
+Result / issue / next question: ____________________
+
+DECISION: Keep / shortlist / rule out / test again
+Reason: ____________________
+Subscription, billing term and extras: ____________________
+A tick records a check tried, not a passing result or product score.
+Use test records and numbers you control.
+https://www.callteam.ca/resources/best-crm-for-outbound-sales/

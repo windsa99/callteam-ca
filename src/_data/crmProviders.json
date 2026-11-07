@@ -1,0 +1,184 @@
+{
+  "reviewed": "7 November 2026",
+  "reviewedIso": "2026-11-07",
+  "providers": [
+    {
+      "id": "close",
+      "name": "Close",
+      "tag": "For a team that spends its day calling",
+      "fit": "Calling, email and follow-up in the same CRM.",
+      "calling": "Native calling. Growth adds a power dialler; Scale adds predictive.",
+      "catch": "Power dialling starts on Growth. Calls and numbers still cost extra.",
+      "plan": "Growth",
+      "annualRate": 99,
+      "minSeats": 1,
+      "price": "USD 99/user/month billed annually, or USD 109 on monthly billing.",
+      "costNote": "Calling, phone numbers and optional usage are extra.",
+      "strength": "The contact history, call queue and follow-up live together. Growth includes a power dialler and Workflows, so a small outbound team can do the core job without stitching a CRM to a separate power-dialling product.",
+      "drawback": "Essentials does not include Workflows or the power dialler. Growth's subscription is not the whole phone bill. Moving old contacts is also different from moving every historical call, note and task; check the migration scope.",
+      "verdict": "One of our first trials for a small team that lives on the phone. Pay for the calling workflow you will use. Do not buy Scale just because predictive sounds impressive, and do not rip out a working CRM without counting the migration work.",
+      "check": "Bring a shared company number, a scheduled callback and old call history. Confirm the queue, record matching and import result. We have not measured a seven-CRM productivity winner.",
+      "sources": [
+        {"label": "Plans and usage", "url": "https://close.com/pricing"},
+        {"label": "Workflow steps", "url": "https://help.close.com/feature-guide/workflows/workflow-steps"},
+        {"label": "Historical data imports", "url": "https://help.close.com/getting-started/import-data-into-close/importing-other-data-into-close"}
+      ]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot Sales Hub",
+      "tag": "When sales shares the wider customer record",
+      "fit": "Sales working with marketing and other teams in HubSpot.",
+      "calling": "Native calling with account-level limits. Sequences need an eligible paid seat and plan.",
+      "catch": "Professional has USD 1,500 onboarding. Its 3,000 calling minutes are shared, not per rep.",
+      "plan": "Professional",
+      "annualRate": 90,
+      "minSeats": 1,
+      "price": "USD 90/seat/month paid annually, or USD 100 paid monthly with an annual commitment.",
+      "costNote": "Add USD 1,500 one-time onboarding. 3,000 calling minutes/account/month are shared; extra usage can cost more.",
+      "strength": "A sensible shortlist when sales needs the same contact history as marketing and the rest of the business. Professional includes sequences and broader automation. Keeping those teams on connected records can matter more than the lowest seat price.",
+      "drawback": "The free or discounted Starter headline does not price a Professional outbound workflow. Onboarding adds USD 1,500. Calling minutes are pooled across the account, and country support and extra capacity need checking.",
+      "verdict": "Keep it high on the list if your business already runs on HubSpot. For a few callers who mainly need a queue and callbacks, make Professional justify its cost. A low entry price is not a cheap outbound setup.",
+      "check": "Ask for the first-year bill, assigned Sales Seats, shared minutes and exact sequence rules. Test a reply, a booked meeting and a reschedule. Your existing bundle may change the quote.",
+      "sources": [
+        {"label": "Sales Hub pricing", "url": "https://www.hubspot.com/pricing/sales"},
+        {"label": "Product catalogue and pooled allowances", "url": "https://legal.hubspot.com/hubspot-product-and-services-catalog/products"},
+        {"label": "Sequence requirements", "url": "https://knowledge.hubspot.com/sequences/create-and-edit-sequences"}
+      ]
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "tag": "A clear pipeline with your choice of calling app",
+      "fit": "Teams that want pipeline visibility and structured follow-up.",
+      "calling": "Web calling uses a Marketplace app. Mobile calling has its own supported routes.",
+      "catch": "Budget for the calling app and check what actually gets logged.",
+      "plan": "Growth",
+      "annualRate": 39,
+      "minSeats": 1,
+      "price": "USD 39/seat/month billed annually, or USD 49 on monthly billing.",
+      "costNote": "Separate calling software and usage are not included.",
+      "strength": "Growth adds email sync, automations and follow-up sequences to a visual pipeline. It fits teams that want to see each deal's next action and are comfortable choosing the phone system separately.",
+      "drawback": "A phone icon is not an included power dialler. Pipedrive's web calling relies on a connected app. That means another bill and another place to check when a call outcome, recording or callback goes missing.",
+      "verdict": "A useful shortlist for keeping the pipeline organised. For serious cold calling, judge Pipedrive and the calling app as one purchase. A tidy board is not much use if reps still have to copy their call notes across.",
+      "check": "Test your chosen integration, not a generic demo. Make a callback, update an existing person and import two people sharing a switchboard. We cannot price or judge every connector from the CRM subscription alone.",
+      "sources": [
+        {"label": "Current plans", "url": "https://www.pipedrive.com/en/pricing"},
+        {"label": "USD Growth billing options", "url": "https://www.pipedrive.com/en/blog/pipedrive-vs-infusionsoft-keap"},
+        {"label": "Calling options", "url": "https://support.pipedrive.com/en/article/how-can-i-make-calls-in-pipedrive"},
+        {"label": "Sequences", "url": "https://support.pipedrive.com/en/article/sequences"}
+      ]
+    },
+    {
+      "id": "freshsales",
+      "name": "Freshsales",
+      "tag": "Calling and follow-up at a lower subscription price",
+      "fit": "Small teams comparing built-in phone and sales sequences.",
+      "calling": "Built-in phone, funded by phone credits. Confirm power-dialler eligibility.",
+      "catch": "Freshsales, Freshsales Suite and Freshcaller are different products and configurations.",
+      "plan": "Pro",
+      "annualRate": 39,
+      "minSeats": 1,
+      "price": "USD 39/user/month billed annually, or USD 47 on monthly billing.",
+      "costNote": "Phone numbers and calling credits are extra. Confirm the exact phone package.",
+      "strength": "Pro includes sales sequences with email, call and task steps, alongside built-in phone. That is a relevant starting point when a small team wants organised follow-up without the subscription price of some larger platforms.",
+      "drawback": "Phone credits are separate. More importantly, the power-dialler help page limits that feature to eligible Freshsales Suite accounts. Do not assume that buying Freshsales Pro automatically buys the dialling workflow you saw in a demo.",
+      "verdict": "Worth a trial on price and day-to-day follow-up. Make the vendor show the exact product, plan and phone setup you are buying. Similar product names are not a good enough answer when your team needs to start calling.",
+      "check": "Confirm power-dialler access, number availability and usage charges. Pro currently lists ten sequences per user. Run the same callback and import checks you would run on the more expensive CRMs.",
+      "sources": [
+        {"label": "Pro features and annual price", "url": "https://www.freshworks.com/crm/pricing/"},
+        {"label": "Monthly and annual price list", "url": "https://dam.freshworks.com/m/4bf615e1eea87a7/original/Freshworks-Price-List.pdf"},
+        {"label": "Sequence limits", "url": "https://crmsupport.freshworks.com/support/solutions/articles/50000002443"},
+        {"label": "Power-dialler eligibility", "url": "https://crmsupport.freshworks.com/support/solutions/articles/50000005947"},
+        {"label": "Phone credits", "url": "https://crmsupport.freshworks.com/support/solutions/articles/50000014392-buy-phone-credits"}
+      ]
+    },
+    {
+      "id": "zoho",
+      "name": "Zoho CRM",
+      "tag": "For a team prepared to configure the workflow",
+      "fit": "Budget-conscious teams, especially those already using Zoho.",
+      "calling": "Confirm the telephony service or Zoho Voice configuration and its charges.",
+      "catch": "The CRM seat price does not establish the cost of your phone system or power dialler.",
+      "plan": "Standard",
+      "annualRate": 14,
+      "minSeats": 1,
+      "price": "USD 14/user/month billed annually, or USD 20 on monthly billing.",
+      "costNote": "Phone service, numbers, usage and any advanced dialler are separate buying checks.",
+      "strength": "Standard already supports Cadences for follow-up, so you do not automatically need Professional for a basic sequence. It deserves a look when the team wants a lower CRM subscription or already works with other Zoho products.",
+      "drawback": "A connected phone service still has its own costs and behaviour. Cadence limits vary by edition. Professional adds process controls, but paying for more features will not design your calling queue or stop rules for you.",
+      "verdict": "Good value to investigate if somebody will own the setup. If nobody owns the fields, queues and follow-up rules, a cheaper licence can leave you with the same messy process. Price the phone system before calling it the cheapest option.",
+      "check": "Use full CRM user seats for calling reps. Show how a reply or stop request ends follow-up, and where a callback lands. Confirm the calling integration and account-specific rollout before committing.",
+      "sources": [
+        {"label": "USD prices and editions", "url": "https://www.zoho.com/crm/complete-feature-list.html"},
+        {"label": "Cadences and limits", "url": "https://help.zoho.com/portal/en/kb/crm/automate-business-processes/cadences/articles/cadences"},
+        {"label": "PhoneBridge requirements", "url": "https://help.zoho.com/portal/en/kb/crm/faqs/extensions/articles/faqs-extensions"},
+        {"label": "Zoho Voice pricing", "url": "https://www.zoho.com/voice/pricing.html"}
+      ]
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "tag": "When the wider sales operation needs it",
+      "fit": "Teams with established Salesforce processes or deeper configuration needs.",
+      "calling": "The calling and sales-cadence setup depends on edition and connected products.",
+      "catch": "Starter's USD 25 headline is not a quote for a complete SDR workflow.",
+      "plan": "Configured outbound setup",
+      "annualRate": null,
+      "minSeats": 1,
+      "price": "Starter Suite: USD 25/user/month, monthly or annual billing. Confirm the edition and quote for calling and cadences.",
+      "costNote": "We have not established a complete calling configuration. Ask for the exact edition, phone service and follow-up tools.",
+      "strength": "Salesforce offers extensive configuration and reporting options across a wider sales operation. If the company already uses it, keeping account ownership, opportunities and handoffs in that system may be more useful than introducing another CRM.",
+      "drawback": "The current pricing page and Sales Engagement documentation use different edition labels. We will not bolt a USD 50 add-on onto Starter and pretend that proves a supported setup. Get the configuration and implementation responsibilities in writing.",
+      "verdict": "Choose it for a real business requirement or an established company workflow. For a small team that mainly needs to call, follow up and book meetings, we would test simpler options first. The logo does not make the calls.",
+      "check": "Ask the rep to demonstrate the exact quoted edition: call queue, cadences, meeting handoff and reporting. Who will administer it? What costs extra? We cannot give a reliable configured total from the entry price.",
+      "sources": [
+        {"label": "Current suites and pricing", "url": "https://www.salesforce.com/sales/pricing/"},
+        {"label": "Sales Engagement pricing", "url": "https://www.salesforce.com/sales/engagement-platform/pricing/"},
+        {"label": "Edition requirements", "url": "https://help.salesforce.com/s/articleView?id=sales.hvs_setup_features_by_edition.htm&language=en_US&type=5"}
+      ]
+    },
+    {
+      "id": "monday",
+      "name": "monday CRM",
+      "tag": "Visual workflow and mobile calling",
+      "fit": "Teams coordinating sales tasks and handoffs through a visual workspace.",
+      "calling": "Native Smart Call runs through the mobile app. It is not a browser power dialler.",
+      "catch": "Minimum three paid seats. Smart Call usage consumes AI credits.",
+      "plan": "Pro",
+      "annualRate": 28,
+      "minSeats": 3,
+      "price": "USD 28/seat/month billed annually, or USD 41 on monthly billing. Minimum three seats, then seat buckets.",
+      "costNote": "One user still pays for three seats. Calling consumes credits; other apps can add fees.",
+      "strength": "A visual workspace for leads, deals and team handoffs, with sequences on Pro. Smart Call adds mobile calling and logged call history. That makes it more capable than older reviews saying it has no native calling at all.",
+      "drawback": "Smart Call currently has no browser calling or power dialler. Connected minutes consume five AI credits each; that is not five cents. Plans start at three seats. If you need a desktop calling queue, establish a suitable separate setup.",
+      "verdict": "Shortlist it for visual coordination and mobile calls. For a rep spending all day power dialling from a laptop, we would not buy it on the strength of the board view. Make the actual calling workflow prove itself first.",
+      "check": "Test an incoming callback as well as an outgoing call. With an external verified caller ID, return calls go to that external number and bypass monday's logging. We have not converted AI credits into an assumed dollar rate.",
+      "sources": [
+        {"label": "Plans", "url": "https://monday.com/crm/pricing"},
+        {"label": "Published billing options", "url": "https://monday.com/blog/crm-and-sales/web-based-crm/"},
+        {"label": "Seat minimum and buckets", "url": "https://support.monday.com/hc/en-us/articles/4405633151634-Plans-and-pricing-for-monday-com"},
+        {"label": "Smart Call limitations", "url": "https://support.monday.com/hc/en-us/articles/35893698534674-Get-started-with-monday-Smart-Call"},
+        {"label": "Calling credits", "url": "https://support.monday.com/hc/en-us/articles/38017810762770-monday-Smart-Call-AI-credits"},
+        {"label": "Verified caller ID and callbacks", "url": "https://support.monday.com/hc/en-us/articles/38017700966290-monday-Smart-Call-Verified-caller-ID"}
+      ]
+    }
+  ],
+  "checks": [
+    {"id": "import", "title": "Import without merging the wrong people.", "text": "Use a small sample with two contacts sharing a company number. Keep both people, their number types and the existing record IDs."},
+    {"id": "outcome", "title": "Log the call and see the next action.", "text": "Record a voicemail, a wrong number and a conversation separately. Check that the next rep can understand what happened."},
+    {"id": "callback", "title": "Find the promised callback.", "text": "Set a callback with a date, time zone and owner. It should appear when due and stay out of the generic unworked queue."},
+    {"id": "stop", "title": "Stop follow-up when it should stop.", "text": "Use a test record for a stop request or reply. Check the dialling queue, sequence and future tasks, not just one status field."},
+    {"id": "meeting", "title": "Book, reschedule and hand over a meeting.", "text": "Use a controlled test record. Keep qualification notes and the new meeting time together, without duplicate deals or stale reminders."},
+    {"id": "handoff", "title": "Hand the record to another rep.", "text": "Change the owner, check the history and next task, then inspect an export. Find out what happens to notes and recordings if you leave."}
+  ],
+  "faqs": [
+    {"q": "What is the best CRM for cold calling?", "a": "Start with the calling workflow. Close Growth is worth testing for a native power dialler and automated follow-up. Freshsales Pro deserves a look for built-in phone and sequences, with power-dialler eligibility checked separately. An existing HubSpot, Pipedrive, Zoho or Salesforce setup may be the better choice when it already handles your records and connects to a suitable dialler. There is no universal winner."},
+    {"q": "Which CRM is best for a small outbound sales team?", "a": "Shortlist around the work: Close for calling in the CRM; Pipedrive for a visual pipeline with a separate calling app; Freshsales or Zoho when subscription cost matters. Include HubSpot or Salesforce when the wider business already uses it. For one person considering monday CRM, account for its three-seat minimum. Trial the callback and follow-up workflow before paying annually."},
+    {"q": "Does a CRM with calling include a power dialler?", "a": "Not necessarily. Click-to-call, mobile calling and a power dialler are different workflows. Close places power dialling on Growth. Pipedrive web calling uses a connected app. monday Smart Call is mobile-based and currently lacks power dialling. Ask the vendor to show the mode on the exact plan you are buying."},
+    {"q": "Can I use Apollo instead of a CRM?", "a": "Apollo supports deals, tasks and pipeline reporting as well as prospecting and outreach. It may cover a small team's requirements. Before buying another CRM, check ownership, history, follow-up, reporting and the handoff you need. If you connect a CRM, decide which system owns each field and stage, and test the sync."},
+    {"q": "How much does a CRM for cold calling cost?", "a": "Separate the CRM subscription from the calling setup. This guide shows selected annual-plan subscriptions for one, three and five users. Phone usage, numbers, dialler apps, onboarding and AI credits can be additional costs. HubSpot Professional has required onboarding, and monday CRM has a minimum seat purchase. Salesforce's configured calling cost requires an edition-specific quote."},
+    {"q": "Do I need to change my CRM before hiring a cold calling agency?", "a": "Not automatically. First agree on account ownership, required fields, suppression rules, activity reporting and meeting handoff. Discuss the access or import process with the agency. CallTeam can review that workflow with you; an exact integration should be confirmed for the campaign rather than assumed."},
+    {"q": "Will an AI CRM fix missed follow-ups?", "a": "It can help create tasks or summarise activity, but somebody still needs to own the rules. Test whether a callback keeps its agreed time, a reply ends the correct sequence, and a stop request reaches every calling queue. A generated summary is useful only if it is accurate and the next action reaches the right person."}
+  ]
+}

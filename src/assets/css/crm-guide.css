@@ -1,0 +1,60 @@
+#crm-guide .lp-hero{grid-template-columns:minmax(0,1.35fr) minmax(0,.85fr);gap:56px}
+#crm-guide h1{font-size:clamp(43px,4.9vw,65px)}
+#crm-guide .crm-brands{font-size:12px;line-height:1.9;color:#626262;max-width:620px;margin:22px 0 0}
+#crm-guide .lp-brief h2{font-size:31px}
+#crm-guide .crm-brief-intro{font-size:16px;color:#e0e0e0;margin-top:18px}
+#crm-guide .crm-comparison{min-width:920px}
+#crm-guide .crm-comparison td:nth-child(2){width:23%}
+#crm-guide .crm-comparison td:nth-child(3){width:30%}
+#crm-guide .crm-cost-table{min-width:980px;background:#fff}
+#crm-guide .crm-cost-table th:first-child{width:21%}
+#crm-guide .crm-cost-table td[data-user-count]{width:14%;white-space:nowrap}
+#crm-guide .crm-cost-table td:last-child{width:37%}
+#crm-guide .crm-cost-table tbody td strong{font-family:Archivo,Arial,sans-serif;font-size:21px;letter-spacing:-.035em}
+#crm-guide .crm-cost-table tbody td .crm-quote{font:600 13px/1.7 Inter,Arial,sans-serif;letter-spacing:0}
+#crm-guide .crm-cost-unit{display:block;font-size:11px;color:#666;margin-top:3px}
+#crm-guide .crm-plan{display:block;font:500 11px/1.6 Inter,Arial,sans-serif;color:#666;margin-top:6px}
+#crm-guide .crm-cost-example{border-left:3px solid #ff5a1f;margin-top:26px;padding:5px 0 5px 24px;max-width:950px}
+#crm-guide .crm-cost-example>span{display:block;font-weight:600;font-size:14px;margin-bottom:12px}
+#crm-guide .crm-cost-example p{font-size:14px;color:#555;margin:0 0 10px}
+#crm-guide .crm-cost-example p:last-child{margin:0}
+#crm-guide .crm-mid-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 32px;background:#fff3eb;border-left:3px solid #ff5a1f;margin-top:30px}
+#crm-guide .crm-mid-cta h3{font-size:24px;margin-bottom:12px}
+#crm-guide .crm-mid-cta p{font-size:14px;color:#55473f;margin:0;max-width:680px}
+#crm-guide .crm-mid-cta .lp-button{flex-shrink:0;padding:14px 22px}
+#crm-guide .lp-provider{background:#faf9f7}
+#crm-guide .lp-provider-head h3{font-size:34px}
+#crm-guide .crm-price-strip{font-size:13px;line-height:1.8;padding:16px 20px;background:#fff;border-left:3px solid #ff5a1f;margin:22px 0 0}
+#crm-guide .lp-verdict{background:#fff0e5;border-top:3px solid #ff5a1f}
+#crm-guide .lp-verdict-text{font-size:21px;line-height:1.5}
+#crm-guide .crm-matchups{margin-top:0}
+#crm-guide .crm-apollo{background:#fff;border:1px solid #d8d4ce;border-left:4px solid #ff5a1f;padding:30px 34px;margin-top:38px}
+#crm-guide .crm-apollo h3{color:#ff5a1f;font-size:29px;margin-bottom:18px}
+#crm-guide .crm-apollo>p:not(.lp-kicker):not(.lp-sources){font-size:15px;color:#555;max-width:960px}
+#crm-guide .crm-apollo .lp-text-link{display:inline-block;margin-top:16px}
+#crm-guide .crm-trial{border:1px solid #555;padding:30px}
+#crm-guide .crm-trial-top{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-bottom:24px;border-bottom:1px solid #555}
+#crm-guide .crm-trial-top>div:first-child{width:320px;max-width:100%}
+#crm-guide .crm-trial-top label{font-size:13px;color:#ddd}
+#crm-guide .crm-trial-progress strong{display:block;font:500 24px/1.4 Archivo,Arial,sans-serif;color:#ff9168}
+#crm-guide .crm-trial-progress span{display:block;font-size:11px;color:#bdbdbd;margin-top:7px;max-width:320px}
+#crm-guide .crm-checks{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:36px}
+#crm-guide .crm-checks li{border-bottom:1px solid #444;padding:23px 0}
+#crm-guide .crm-checks label{display:flex;gap:14px;align-items:flex-start;cursor:pointer;margin:0;padding:2px 0}
+#crm-guide .crm-checks input{appearance:auto;accent-color:#ff5a1f;width:20px;height:20px;min-height:20px;padding:0;flex:none;margin:3px 0 0}
+#crm-guide .crm-checks strong{display:block;font-size:16px;line-height:1.5;color:#fff;margin-bottom:8px}
+#crm-guide .crm-checks label>span>span{display:block;font-weight:400;font-size:13px;line-height:1.85;color:#bdbdbd}
+#crm-guide .crm-checks input:checked+span strong{color:#ff9168}
+#crm-guide .crm-trial-actions{display:flex;align-items:center;flex-wrap:wrap;gap:22px;margin-top:25px}
+#crm-guide .crm-download{font-weight:600;font-size:13px;text-underline-offset:5px;color:inherit}
+#crm-guide .crm-reset{border:0;border-bottom:1px solid #999;background:none;color:#ddd;font:500 12px/1.5 Inter,Arial,sans-serif;padding:7px 0;cursor:pointer}
+#crm-guide .crm-status{font-size:12px;color:#ffb394;min-height:20px;margin:12px 0 0}
+#crm-guide .crm-field-kit{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:42px;padding-top:32px;border-top:1px solid #555}
+#crm-guide .crm-field-kit h3{font-size:27px;color:#ff9168;margin-bottom:16px}
+#crm-guide .crm-field-kit p:not(.lp-kicker){font-size:14px;color:#c5c5c5}
+#crm-guide .crm-field-kit pre{white-space:pre-wrap;overflow-wrap:anywhere;font:400 14px/1.9 Inter,Arial,sans-serif;color:#ddd;background:#1b1b1b;border-left:2px solid #ff9168;padding:22px;margin:0 0 12px}
+#crm-guide .crm-bookmark{font-size:13px;line-height:1.8;margin:28px 0 0;padding-top:20px;border-top:1px solid #ddd;color:#555}
+@media(max-width:960px){#crm-guide .lp-hero{gap:30px}#crm-guide .lp-brief{padding:26px}#crm-guide .lp-brief h2{font-size:27px}#crm-guide .crm-mid-cta{flex-direction:column;align-items:flex-start}}
+@media(max-width:760px){#crm-guide .lp-hero{grid-template-columns:1fr}#crm-guide h1{font-size:49px}#crm-guide .lp-brief h2{font-size:29px}#crm-guide .crm-brands{font-size:11px}#crm-guide .crm-trial{padding:22px}#crm-guide .crm-trial-top{align-items:flex-start;flex-direction:column;gap:20px}#crm-guide .crm-trial-top>div:first-child{width:100%}#crm-guide .crm-checks,#crm-guide .crm-field-kit{grid-template-columns:1fr}#crm-guide .crm-field-kit{gap:24px}#crm-guide .crm-checks li{padding:20px 0}#crm-guide .crm-mid-cta{padding:24px}#crm-guide .crm-apollo{padding:24px}#crm-guide .crm-trial-actions{gap:18px}#crm-guide .crm-cost-table td[data-user-count]{width:auto}#crm-guide .lp-provider-head h3{font-size:29px}}
+@media(max-width:390px){#crm-guide h1{font-size:43px}#crm-guide .crm-trial{padding:20px}#crm-guide .crm-checks label{gap:12px}}
+@media print{#crm-guide .crm-js-only,#crm-guide .crm-mid-cta{display:none!important}#crm-guide .crm-checks strong,#crm-guide .crm-checks label>span>span,#crm-guide .crm-field-kit pre{color:#111}#crm-guide .crm-trial{border-color:#777}#crm-guide .crm-cost-table,#crm-guide .crm-comparison{min-width:0;font-size:9px}#crm-guide .crm-cost-table tbody td strong{font-size:12px}#crm-guide .crm-trial-progress{display:none}}

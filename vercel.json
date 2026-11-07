@@ -6,6 +6,12 @@
       "headers": [
         { "key": "Content-Disposition", "value": "attachment; filename=\"CallTeam-Dialer-Trial-Kit.txt\"" }
       ]
+    },
+    {
+      "source": "/assets/downloads/outbound-crm-trial-checklist.txt",
+      "headers": [
+        { "key": "Content-Disposition", "value": "attachment; filename=\"CallTeam-CRM-Trial-Checklist.txt\"" }
+      ]
     }
   ]
 }

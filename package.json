@@ -2,7 +2,7 @@
   "name": "callteam-ca",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run test:attribution && npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && npm run test:dialers && npm run test:lead-buying && eleventy && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms",
+    "build": "npm run test:attribution && npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && npm run test:dialers && npm run test:lead-buying && npm run test:crm && eleventy && node scripts/test-crm-guide.js --rendered && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js && node scripts/check-article-tool-ctas.js",
     "check:about": "node scripts/validate-about-page.js",
@@ -21,7 +21,8 @@
     "test:article-tools": "node scripts/test-article-tool-ctas.js",
     "test:meeting-quality": "node scripts/test-meeting-quality-model.js",
     "test:dialers": "node scripts/test-dialer-cost.js",
-    "test:lead-buying": "node scripts/test-lead-buying.js"
+    "test:lead-buying": "node scripts/test-lead-buying.js",
+    "test:crm": "node scripts/test-crm-guide.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
