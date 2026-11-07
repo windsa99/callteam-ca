@@ -1,60 +1,63 @@
 'use strict';
-const assert=require('node:assert/strict');
-const providers=require('../src/_data/dialerProviders.json').providers;
-const {calculateCost}=require('../src/assets/js/dialer-comparison');
-const base={provider:'close',plan:'growth',billing:'annual',reps:'3',minimum:'1',months:'12',licences:'3',seatPrice:'79',quotePrice:'150',quoteUnit:'seat',seatAddon:'0',teamAddon:'0',phoneCost:'0',usageMode:'total',usageCost:'0',units:'0',unitPrice:'0',setup:'0'};
-let count=0;
-function calc(patch){const r=calculateCost(providers,{...base,...patch});count++;return r;}
-function invoice(patch,expected){const r=calc(patch);assert(!r.error,r.error);for(const [key,value] of Object.entries(expected))assert(Math.abs(r[key]-value)<1e-7,`${patch.provider||'close'} ${key}: ${r[key]} !== ${value}`);}
-// Independent invoice checkpoints: annual equivalents, minimum licences, team add-ons and one-time fees.
-invoice({}, {base:297,monthly:297,fixedTerm:3564,budget:3564});
-invoice({billing:'monthly'}, {base:327,budget:327,months:1});
-invoice({plan:'scale'}, {base:417,budget:5004});
-invoice({provider:'aircall',plan:'professional',reps:'1',minimum:'3'}, {seats:3,base:150,budget:1800});
-invoice({provider:'apollo',plan:'advanced',minimum:'1'}, {base:356,budget:4272});
-invoice({provider:'apollo',plan:'advanced',billing:'monthly',minimum:'1',seatPrice:'99'}, {base:446,budget:446});
-invoice({provider:'mojo',plan:'single',billing:'monthly',minimum:'1',licences:'1'}, {base:119,budget:119});
-invoice({provider:'mojo',plan:'triple',billing:'monthly',minimum:'1'}, {base:447,budget:447});
-invoice({provider:'mojo',plan:'single',billing:'monthly',reps:'1',licences:'1',minimum:'1',teamAddon:'55'}, {base:99,monthly:154,budget:154});
-invoice({provider:'cloudtalk',plan:'essential-parallel',minimum:'1'}, {base:204,budget:2448});
-invoice({provider:'cloudtalk',plan:'expert-power',minimum:'3',reps:'1'}, {base:147,budget:1764});
-invoice({provider:'justcall',plan:'pro',minimum:'2',reps:'1'}, {base:98,budget:1176});
-invoice({provider:'phoneburner',plan:'premium',minimum:'1',reps:'1'}, {base:183,budget:2196});
-invoice({provider:'nooks',plan:'quote',minimum:'2',reps:'1',quotePrice:'500',quoteUnit:'team'}, {seats:2,base:500,budget:6000});
-invoice({provider:'orum',plan:'quote',minimum:'9',reps:'3',months:'24',quotePrice:'100'}, {seats:9,base:900,budget:21600});
-invoice({seatAddon:'10',teamAddon:'20',phoneCost:'6',usageMode:'units',units:'1000',unitPrice:'.0235',setup:'125'}, {base:297,extras:56,usage:23.5,monthly:376.5,fixedTerm:4236,budget:4643});
-// Every supported provider/plan/billing combination, with team sizes, seat floors,
-// per-seat and team quotes, both usage methods, and nonzero extras.
-let combinations=0,configs=0;
-for(const p of providers)for(const plan of p.plans)for(const billing of Object.keys(plan.rates)){
-  configs++;
-  for(const reps of [1,3,10])for(const extraSeats of [0,2,12])for(const quoteUnit of ['seat','team'])for(const usageMode of ['total','units'])for(const extras of [false,true]){
-    const minimum=(plan.min||1)+extraSeats;
-    const patch={provider:p.id,plan:plan.id,billing,reps,minimum,quoteUnit,usageMode,licences:Math.max(1,reps-1),seatAddon:extras?'7.25':'0',teamAddon:extras?'12':'0',phoneCost:extras?'6':'0',setup:extras?'83':'0',usageCost:'25',units:'1000',unitPrice:'.025'};
-    const r=calc(patch);assert(!r.error,`${p.id}/${plan.id}/${billing}: ${r.error}`);
-    assert.equal(r.seats,Math.max(reps,minimum));
-    assert.equal(r.usage,25);assert(r.monthly>=r.base);assert(Number.isFinite(r.budget));
-    assert(Math.abs(r.budget-(r.monthly*r.months+(extras?83:0)))<1e-7);
-    const alternate=calc({...patch,usageMode:usageMode==='total'?'units':'total'});assert.equal(r.budget,alternate.budget);
-    const noSetup=calc({...patch,setup:'0'});assert.equal(Math.round((r.budget-noSetup.budget)*100),extras?8300:0);
-    combinations++;
+const assert = require('node:assert/strict');
+const providers = require('../src/_data/dialerProviders.json').providers;
+const {calculateCost} = require('../src/assets/js/dialer-comparison');
+const base = {provider:'close',plan:'growth',billing:'annual',reps:'3'};
+let checks = 0;
+function calc(patch) { checks++; return calculateCost(providers,{...base,...patch}); }
+// Independent subscription checkpoints: [provider, plan, seat minimum, monthly, annual].
+// Numeric entries are complete per-caller prices; partial and unknown prices are explicit.
+const fixtures = [
+  ['nooks','quote',2,'quote','quote'], ['orum','quote',9,'quote','quote'],
+  ['close','growth',1,109,99], ['close','scale',1,149,139],
+  ['apollo','advanced',null,'partial:149','partial:119'],
+  ['phoneburner','standard',1,165,140], ['phoneburner','professional',1,195,165], ['phoneburner','premium',1,215,183],
+  ['kixie','single',null,'quote','quote'], ['kixie','multi',null,'quote','quote'],
+  ['justcall','pro',2,69,49], ['justcall','proplus',2,109,89], ['justcall','salespro',2,'quote','quote'],
+  ['aircall','professional',3,'unconfirmed',50],
+  ['cloudtalk','essential-power',1,54,44], ['cloudtalk','expert-power',3,69,49],
+  ['cloudtalk','essential-parallel',1,78,68], ['cloudtalk','expert-parallel',3,108,88],
+  ['mojo','single',1,99,undefined], ['mojo','triple',1,149,undefined]
+];
+let configurations=0, scenarios=0;
+for (const [provider,plan,minimum,monthly,annual] of fixtures) {
+  const data=providers.find(p=>p.id===provider).plans.find(p=>p.id===plan);
+  assert.deepEqual(Object.keys(data.rates).sort(),['monthly',...(annual===undefined?[]:['annual'])].sort());
+  for (const [billing,expected] of [['monthly',monthly],['annual',annual]]) {
+    if (expected===undefined) continue;
+    configurations++;
+    for (const reps of [1,3,5,10,100]) {
+      scenarios++;
+      const r=calc({provider,plan,billing,reps}); assert(!r.error,r.error); assert.equal(r.minimum,minimum);
+      if (typeof expected==='number') {
+        const seats=Math.max(reps,minimum), amount=expected*seats;
+        assert.equal(r.kind,'estimate'); assert.equal(r.seats,seats); assert.equal(r.monthly,amount);
+        assert.equal(r.annual,billing==='annual'?amount*12:null);
+        assert.equal(r.licences,provider==='mojo'?reps:0);
+      } else if (expected.startsWith('partial:')) {
+        assert.equal(r.kind,'partial'); assert.equal(r.monthly,Number(expected.split(':')[1]));
+        assert.equal(r.annual,null); assert.equal(r.seats,null);
+      } else {
+        assert.equal(r.kind,expected); assert.equal(r.monthly,null); assert.equal(r.annual,null); assert.equal(r.seats,null);
+      }
+      assert.equal(r.currency,providers.find(p=>p.id===provider).currency);
+    }
   }
 }
-// Missing is not free; invalid values cannot leak an old or infinite estimate.
-for(const field of ['reps','minimum','seatAddon','teamAddon','phoneCost','usageCost','setup'])for(const value of ['', ' ', '-1', 'NaN', 'Infinity', '1e309'])assert(calc({[field]:value}).error,field+' accepted '+value);
-for(const field of ['reps','minimum'])for(const value of ['0','1.5','10001'])assert(calc({[field]:value}).error);
-for(const p of providers)for(const plan of p.plans)for(const billing of Object.keys(plan.rates)){
-  const r=plan.rates[billing],patch={provider:p.id,plan:plan.id,billing,minimum:plan.min||1};
-  if(r===null){assert(calc({...patch,quotePrice:''}).error);assert(calc({...patch,months:''}).error);assert(calc({...patch,months:'0'}).error);if(billing==='annual')assert(calc({...patch,months:'1'}).error);}
-  else if(r.seat===null)assert(calc({...patch,seatPrice:''}).error);
-  if(plan.min>1)assert(calc({...patch,minimum:plan.min-1}).error);
+assert.equal(configurations,38); assert.equal(fixtures.length,providers.reduce((n,p)=>n+p.plans.length,0));
+assert.equal(calc({provider:'aircall',plan:'professional',reps:1}).monthly,150);
+assert.equal(calc({provider:'justcall',plan:'pro',reps:1}).monthly,98);
+assert.equal(calc({provider:'mojo',plan:'triple',billing:'monthly',reps:5}).monthly,745);
+assert.equal(calc({provider:'apollo',plan:'advanced',reps:100}).monthly,119);
+assert.equal(calc({minimum:99,seatAddon:100,usageCost:200,setup:999}).monthly,297); // Removed fields cannot affect the simple result.
+assert.equal(calc({provider:'nooks',plan:'quote',quotePrice:0,months:12}).kind,'quote');
+for (const reps of ['', ' ', null, undefined, true, false, [], {}, '-1', '0', '1.5', '10001', 'NaN', 'Infinity', '1e309']) {
+  const r=calc({reps}); assert.equal(r.kind,'error'); assert.equal(r.monthly,null); assert.equal(r.annual,null);
 }
-for(const field of ['units','unitPrice'])for(const value of ['', '-1','Infinity'])assert(calc({usageMode:'units',[field]:value}).error);
-assert(!calc({usageMode:'total',units:'',unitPrice:''}).error); // inactive fields do not block
-assert(!calc({usageMode:'units',usageCost:'',units:'0',unitPrice:'0'}).error);
-assert(calc({provider:'mojo',plan:'single',billing:'annual'}).error);
-assert(calc({provider:'mojo',plan:'single',billing:'monthly',licences:'4'}).error);
-assert(calc({provider:'unknown'}).error);assert(calc({plan:'unknown'}).error);assert(calc({billing:'unknown'}).error);
-invoice({provider:'nooks',plan:'quote',minimum:'2',quotePrice:'0'}, {base:0,budget:0}); // explicit zero is distinct from unknown
-invoice({reps:'10000',minimum:'10000'}, {base:990000,budget:11880000});
-console.log(`Dialler cost checks passed: ${configs} plan/billing configurations; ${combinations} combinations; ${count} calculations including invoice fixtures and edge cases.`);
+assert.equal(calc({reps:10000}).monthly,990000);
+for (const patch of [{provider:'bad'},{plan:'bad'},{billing:'bad'},{provider:'mojo',plan:'single',billing:'annual'}]) assert.equal(calc(patch).kind,'error');
+const fs=require('node:fs');const template=fs.readFileSync(require('node:path').join(__dirname,'../src/resources/best-cold-calling-dialers.njk'),'utf8');
+const form=template.match(/<form id="dc-form"[\s\S]*?<\/form>/)[0];
+assert.deepEqual([...form.matchAll(/<(?:input|select) id="([^"]+)"/g)].map(x=>x[1]).sort(),['dc-billing','dc-plan','dc-provider','dc-reps']);
+assert(!template.includes('Add numbers, usage and extras'));assert(!template.includes('What will your team<br>actually pay?'));
+console.log(`Simple dialler checks passed: ${configurations} billing configurations, ${scenarios} team-size scenarios, ${checks} calculations. Minimum seats, partial/quote prices, invalid inputs and four-field form verified.`);

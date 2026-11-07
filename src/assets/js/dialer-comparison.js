@@ -1,9 +1,9 @@
 (function () {
   'use strict';
-  function number(value, label, min, max, whole) {
-    if (value === null || value === undefined || String(value).trim() === '') throw new Error('Enter ' + label + '.');
+  function callerCount(value) {
+    if (value === null || value === undefined || String(value).trim() === '') throw new Error('Enter the number of callers.');
     var n = Number(value);
-    if (!Number.isFinite(n) || n < min || n > max || (whole && !Number.isSafeInteger(n))) throw new Error('Use ' + (whole ? 'a whole number' : 'a number') + ' from ' + min + ' to ' + max.toLocaleString('en-CA') + ' for ' + label + '.');
+    if (!['string','number'].includes(typeof value) || !Number.isSafeInteger(n) || n < 1 || n > 10000) throw new Error('Use a whole number from 1 to 10,000 for callers.');
     return n;
   }
   function calculateCost(providers, input) {
@@ -12,33 +12,24 @@
       if (!provider) throw new Error('Choose a provider.');
       var plan = provider.plans.find(function (p) { return p.id === input.plan; });
       if (!plan || !Object.prototype.hasOwnProperty.call(plan.rates, input.billing)) throw new Error('Choose an available plan and billing option.');
-      var rate = plan.rates[input.billing], quoted = rate === null;
-      var reps = number(input.reps, provider.id === 'mojo' ? 'access users' : 'active callers', 1, 10000, true);
-      var minimum = number(input.minimum, 'minimum paid seats', plan.min || 1, 10000, true);
-      var seats = Math.max(reps, minimum), months = quoted ? number(input.months, 'quote commitment in months', input.billing === 'annual' ? 12 : 1, 60, true) : input.billing === 'annual' ? 12 : 1;
-      var seatRate, teamRate;
-      if (quoted) {
-        if (!['seat','team'].includes(input.quoteUnit)) throw new Error('Choose whether the quote is per seat or for the whole team.');
-        var quote = number(input.quotePrice, 'quoted monthly equivalent', 0, 1000000, false);
-        seatRate = input.quoteUnit === 'seat' ? quote : 0;
-        teamRate = input.quoteUnit === 'team' ? quote : 0;
-      } else {
-        seatRate = rate.seat === null ? number(input.seatPrice, 'paid plan price per seat per month', 0, 1000000, false) : rate.seat;
-        teamRate = rate.team;
+      var reps = callerCount(input.reps), rate = plan.rates[input.billing];
+      var result = { kind:'quote', reps:reps, minimum:plan.min, seats:null, licences:0, monthly:null, annual:null, currency:provider.currency, billing:input.billing };
+      if (rate === null) return result;
+      if (rate.seat === null) {
+        result.kind = rate.team > 0 ? 'partial' : 'unconfirmed';
+        if (result.kind === 'partial') result.monthly = rate.team;
+        return result;
       }
-      var licences = provider.id === 'mojo' ? number(input.licences, 'simultaneous dialler licences', 1, reps, true) : 0;
-      var seatAddon = number(input.seatAddon, 'extra cost per paid seat', 0, 1000000, false);
-      var teamAddon = number(input.teamAddon, 'extra cost for the team', 0, 1000000, false);
-      var phoneCost = number(input.phoneCost, 'total extra number cost', 0, 1000000, false);
-      var usageMode = input.usageMode;
-      if (!['total','units'].includes(usageMode)) throw new Error('Choose a usage cost method.');
-      var usage = usageMode === 'total' ? number(input.usageCost, 'monthly usage cost', 0, 10000000, false) : number(input.units, 'billable units', 0, 10000000, false) * number(input.unitPrice, 'cost per billable unit', 0, 1000, false);
-      var setup = number(input.setup, 'one-time fees', 0, 10000000, false);
-      var base = seats * seatRate + teamRate + (rate && rate.dialer || 0) * licences;
-      var recurring = base + seats * seatAddon + teamAddon + phoneCost;
-      var monthly = recurring + usage;
-      return { seats:seats, reps:reps, licences:licences, months:months, base:base, extras:recurring-base, usage:usage, setup:setup, monthly:monthly, fixedTerm:recurring*months, budget:monthly*months+setup, currency:provider.currency, quoted:quoted, minimum:minimum };
-    } catch (e) { return { error:e.message }; }
+      // Do not invent a total when the required seat purchase is unknown.
+      if (plan.min === null) { result.kind = 'unconfirmed'; return result; }
+      result.kind = 'estimate';
+      result.seats = Math.max(reps, plan.min);
+      // Simple Mojo setup: one access account and one concurrent dialler licence per caller.
+      result.licences = provider.id === 'mojo' ? reps : 0;
+      result.monthly = result.seats * rate.seat + rate.team + (rate.dialer || 0) * result.licences;
+      result.annual = input.billing === 'annual' ? result.monthly * 12 : null;
+      return result;
+    } catch (e) { return { kind:'error', error:e.message, monthly:null, annual:null }; }
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = { calculateCost:calculateCost };
   if (typeof document === 'undefined') return;
@@ -50,42 +41,73 @@
   var providers = JSON.parse(document.getElementById('dc-provider-data').textContent);
   var form = document.getElementById('dc-form'), $ = function (id) { return document.getElementById('dc-' + id); };
   page.querySelectorAll('.dc-js-only').forEach(function (n) { n.hidden = false; });
-  function current() { var p = providers.find(function (p) { return p.id === $('provider').value; }); return { provider:p, plan:p.plans.find(function (t) { return t.id === $('plan').value; }) }; }
-  function options(select, items) { select.replaceChildren(); items.forEach(function (item) { var opt=document.createElement('option'); opt.value=item[0]; opt.textContent=item[1]; select.appendChild(opt); }); }
-  function updatePlans() { var p = providers.find(function (p) { return p.id === $('provider').value; }); ['seat-addon','team-addon','phone-cost','usage-cost','units','unit-price','setup'].forEach(function (id) { $(id).value='0'; }); options($('plan'),p.plans.map(function (t) { return [t.id,t.name]; })); updateBilling(); }
-  function updateBilling() { var p=current().plan, old=$('billing').value; options($('billing'),Object.keys(p.rates).map(function (key) { return [key, key==='annual'?'Annual price basis':'Monthly price basis']; })); if (Object.prototype.hasOwnProperty.call(p.rates,old)) $('billing').value=old; else $('billing').value='monthly'; configure(); }
+  function current() {
+    var p = providers.find(function (p) { return p.id === $('provider').value; });
+    return { provider:p, plan:p.plans.find(function (t) { return t.id === $('plan').value; }) };
+  }
+  function options(select, items) {
+    select.replaceChildren();
+    items.forEach(function (item) { var opt=document.createElement('option'); opt.value=item[0]; opt.textContent=item[1]; select.appendChild(opt); });
+  }
+  function updatePlans(billing) {
+    var p = providers.find(function (p) { return p.id === $('provider').value; });
+    options($('plan'),p.plans.map(function (t) { return [t.id,t.name]; }));
+    updateBilling(billing);
+  }
+  function updateBilling(preferred) {
+    var plan=current().plan, previous=preferred || $('billing').value;
+    options($('billing'),Object.keys(plan.rates).map(function (key) { return [key,key==='annual'?'Annual pricing':'Monthly pricing']; }));
+    $('billing').value=Object.prototype.hasOwnProperty.call(plan.rates,previous)?previous:'monthly';
+    configure();
+  }
   function configure() {
-    var c=current(), rate=c.plan.rates[$('billing').value], quote=rate===null;
-    $('minimum').value=c.plan.min===null?'':c.plan.min; $('minimum').min=c.plan.min || 1;
-    $('quote-fields').hidden=!quote; $('seat-price-field').hidden=quote || rate.seat!==null;
-    $('licences-field').hidden=c.provider.id!=='mojo'; $('reps-label').textContent=c.provider.id==='mojo'?'Access users':'Active callers';
-    $('licences').value=$('reps').value;
-    ['quote-price','seat-price','months'].forEach(function (id) { $(id).value=''; });
+    var c=current();
     $('note').textContent=c.plan.note;
-    $('currency').textContent=c.provider.currency==='quote'?'Use the same currency as your quote for every input. No currency conversion.':c.provider.currency==='vendor $'?'Published vendor dollars. Confirm billing currency; use it for all extras. No currency conversion.':'All amounts in USD. No currency conversion.';
-    var label=quote?'Enter the quoted rate below.':rate.seat===null?'Paid seat rate required'+(rate.team?' + USD '+rate.team+'/team/month':''):(c.provider.currency==='USD'?'USD ':'$ ')+rate.seat+'/paid seat/month'+(rate.dialer?' + $ '+rate.dialer+'/dialler licence/month':'');
-    $('preset').textContent=label; $('source').href=c.provider.sources[0].url; $('source').textContent='Check the '+c.provider.name+' source ↗';
+    $('source').href=c.provider.sources[0].url;
+    $('source').textContent='Check '+c.provider.name+' pricing ↗';
     calculate();
   }
-  function read() { var values={}; ['provider','plan','billing','reps','minimum','months','licences','seat-price','quote-unit','quote-price','seat-addon','team-addon','phone-cost','usage-mode','usage-cost','units','unit-price','setup'].forEach(function (key) { values[key.replace(/-([a-z])/g,function (_,v) { return v.toUpperCase(); })]=$(key).value; }); return values; }
-  function money(n,currency) { return (currency==='quote'?'Quote currency ':currency==='vendor $'?'Vendor $ ':'USD ') + n.toLocaleString('en-CA',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+  function money(n,currency) { return (currency==='vendor $'?'Vendor $ ':'USD ') + n.toLocaleString('en-CA',{minimumFractionDigits:2,maximumFractionDigits:2}); }
   function calculate() {
-    $('usage-total-field').hidden=$('usage-mode').value!=='total'; $('usage-units-fields').hidden=$('usage-mode').value!=='units';
-    var r=calculateCost(providers,read()); $('error').textContent=r.error || '';
-    if (r.error) { $('monthly').textContent='Inputs needed'; $('term').textContent='No estimate yet'; $('breakdown').textContent='Complete the fields above. A missing quote is never treated as free.'; $('budget').textContent='—'; return; }
+    var c=current(), r=calculateCost(providers,{provider:c.provider.id,plan:c.plan.id,billing:$('billing').value,reps:$('reps').value});
+    $('error').textContent=r.error || '';
+    $('reps').setAttribute('aria-invalid',String(r.kind==='error'));
+    $('annual-wrap').hidden=true;
+    $('budget').textContent='—';
+    $('monthly').classList.toggle('dc-message',r.kind==='quote' || r.kind==='unconfirmed' || r.kind==='error');
+    $('result-label').textContent='Base subscription estimate';
+    $('result-note').textContent='';
+    if (r.kind==='error') {
+      $('monthly').textContent='Check caller count'; $('basis').textContent=''; $('breakdown').textContent='Enter a valid team size to see the result.'; return;
+    }
+    if (r.kind==='quote' || r.kind==='unconfirmed') {
+      $('monthly').textContent=r.kind==='quote'?'Custom quote required':'Price needs confirmation';
+      $('basis').textContent=r.kind==='quote'?'No public subscription price.':'We have not verified this billing rate.';
+      $('breakdown').textContent=r.minimum===null?'Seat minimum also needs confirmation.':'Published minimum: '+r.minimum+' paid seats.'+(r.reps<r.minimum?' That minimum still applies to your '+r.reps+(r.reps===1?' caller.':' callers.'):'');
+      $('result-note').textContent='Check the current offer with '+c.provider.name+'.'; return;
+    }
     $('monthly').textContent=money(r.monthly,r.currency);
-    $('term').textContent=r.months+'-month planning term';
-    $('budget').textContent=money(r.budget,r.currency);
-    $('breakdown').textContent=r.seats+' paid seats for '+r.reps+(r.licences?' access users · '+r.licences+' dialler licences':' active callers')+'. Base '+money(r.base,r.currency)+'/month. Recurring extras '+money(r.extras,r.currency)+'/month. Usage '+money(r.usage,r.currency)+'/month. One-time fees '+money(r.setup,r.currency)+'. Fixed recurring cost over '+r.months+(r.months===1?' month: ':' months: ')+money(r.fixedTerm,r.currency)+'.'+(r.usage===0?' Usage is set to zero; add expected charges if your allowance does not cover them.':'');
+    $('basis').textContent=r.billing==='annual'?'per month on annual pricing':'per month on monthly pricing';
+    if (r.kind==='partial') {
+      $('result-label').textContent='Advanced Dialer add-on only';
+      $('breakdown').textContent='One team add-on, regardless of the '+r.reps+(r.reps===1?' caller selected.':' callers selected.');
+      $('result-note').textContent='Paid Apollo plan and usage are extra. This is not the total subscription price.'; return;
+    }
+    var rate=c.plan.rates[r.billing];
+    $('breakdown').textContent=r.licences ? 'Assumes one access account and one dialler licence per caller. Sharing licences changes the cost.' : r.seats+' paid '+(r.seats===1?'seat':'seats')+' × '+money(rate.seat,r.currency)+'.'+(r.seats>r.reps?' The '+r.minimum+'-seat minimum applies.':'');
+    if (r.annual!==null) { $('annual-wrap').hidden=false; $('budget').textContent=money(r.annual,r.currency); }
+    $('result-note').textContent='Before tax. Usage and optional extras are excluded.'+(r.currency==='vendor $'?' Confirm billing currency.':'');
   }
-  $('provider').addEventListener('change',updatePlans); $('plan').addEventListener('change',updateBilling); $('billing').addEventListener('change',configure);
-  form.addEventListener('input',calculate); form.addEventListener('change',calculate); form.addEventListener('submit',function (e) { e.preventDefault(); calculate(); });
-  page.querySelectorAll('[data-dc-reps]').forEach(function (button) { button.addEventListener('click',function () { $('reps').value=button.dataset.dcReps; $('licences').value=button.dataset.dcReps; calculate(); }); });
-  form.addEventListener('reset',function (event) { event.preventDefault(); $('provider').value='close'; $('reps').value='3'; $('quote-unit').value='seat'; $('usage-mode').value='total'; updatePlans(); $('billing').value='annual'; configure(); });
+  $('provider').addEventListener('change',function () { updatePlans(); });
+  $('plan').addEventListener('change',function () { updateBilling(); });
+  $('billing').addEventListener('change',configure);
+  $('reps').addEventListener('input',calculate);
+  form.addEventListener('submit',function (e) { e.preventDefault(); calculate(); });
+  form.addEventListener('reset',function (e) { e.preventDefault(); $('provider').value='close'; $('reps').value='3'; updatePlans('annual'); });
   page.querySelectorAll('[data-dc-copy]').forEach(function (button) { button.addEventListener('click',async function () {
     var content=document.getElementById(button.dataset.dcCopy), status=document.getElementById(button.dataset.dcStatus);
     try { if (!navigator.clipboard || !window.isSecureContext) throw new Error('Clipboard unavailable'); await navigator.clipboard.writeText(content.innerText); status.textContent='Copied. Paste it into your notes or a document.'; }
     catch (_) { var range=document.createRange(); range.selectNodeContents(content); var s=window.getSelection(); s.removeAllRanges(); s.addRange(range); status.textContent='Text selected. Use your browser’s Copy command.'; }
   }); });
-  updatePlans();
+  updatePlans('annual');
 }());

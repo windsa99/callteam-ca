@@ -16,29 +16,17 @@
 #dialer-guide .dc-provider-links{display:flex;gap:18px;align-items:center;margin-top:20px}
 #dialer-guide .dc-provider-links a{font-size:12px;font-weight:600}
 #dialer-guide .dc-tool{background:#f5f4f2;border:1px solid #dddcd7}
-#dialer-guide .dc-tool-head{padding:28px 32px;background:#111;color:#fff;display:flex;gap:24px;justify-content:space-between;align-items:center}
-#dialer-guide .dc-tool-head h3{color:#ff9168;font-size:25px}
-#dialer-guide .dc-scenarios{display:flex;gap:8px;flex-wrap:wrap}
-#dialer-guide .dc-scenarios button{border:1px solid #777;color:#fff;background:transparent;padding:9px 12px;border-radius:3px;cursor:pointer;font:600 12px Inter,Arial,sans-serif}
-#dialer-guide .dc-scenarios button:hover{border-color:#ff9168}
-#dialer-guide .dc-tool-body{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:start}
+#dialer-guide .dc-tool-body{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:stretch}
 #dialer-guide #dc-form{padding:32px}
 #dialer-guide .dc-fields{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:20px}
-#dialer-guide .dc-span{grid-column:1 / -1}
-#dialer-guide .dc-preset{border-left:3px solid #ff5a1f;padding:12px 16px;background:#fff;margin-bottom:22px}
-#dialer-guide .dc-preset strong{font-size:15px}
-#dialer-guide .dc-preset p{font-size:12px;margin:8px 0;color:#555}
+#dialer-guide .dc-preset{border-left:3px solid #ff5a1f;padding:12px 16px;background:#fff;margin-bottom:16px}
 #dialer-guide .dc-preset a{font-size:12px}
-#dialer-guide .dc-extra{border-top:1px solid #ccc;padding-top:20px;margin:8px 0 24px}
-#dialer-guide .dc-extra summary{font-size:14px;margin-bottom:16px}
-#dialer-guide .dc-extra .lp-small{margin:0 0 18px}
-#dialer-guide .dc-output{margin:32px 32px 32px 0;padding:28px;background:#111;color:#fff;position:sticky;top:calc(var(--lp-header-offset,76px) + 85px)}
+#dialer-guide .dc-output{margin:0;padding:32px;background:#111;color:#fff}
 #dialer-guide .dc-output .dc-label{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:#ccc}
 #dialer-guide .dc-output strong{display:block;font:500 clamp(28px,3vw,40px)/1.15 Archivo,Arial,sans-serif;color:#ff9168;margin:12px 0 22px;overflow-wrap:anywhere}
 #dialer-guide .dc-output .dc-budget{font-size:26px}
 #dialer-guide .dc-output p{font-size:12px;color:#c4c4c4;margin:12px 0;line-height:1.85}
-#dialer-guide .dc-output .dc-term{border-top:1px solid #555;padding-top:22px}
-#dialer-guide .dc-quiet-button{border:0;border-bottom:1px solid #999;padding:8px 0;margin-left:16px;font:600 12px Inter,Arial,sans-serif;background:transparent;cursor:pointer}
+#dialer-guide .dc-quiet-button{border:0;border-bottom:1px solid #999;padding:8px 0;margin-left:0;font:600 12px Inter,Arial,sans-serif;background:transparent;cursor:pointer}
 #dialer-guide .dc-mid-cta{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:28px 32px;background:#fff3eb;border-left:3px solid #ff5a1f;margin-top:34px}
 #dialer-guide .dc-mid-cta h3{font-size:24px;margin-bottom:12px}
 #dialer-guide .dc-mid-cta p{font-size:14px;color:#55473f;margin:0;max-width:650px}
@@ -53,7 +41,13 @@
 #dialer-guide .dc-copy-status{display:block;font-size:12px;margin-top:12px;color:#ccc}
 #dialer-guide .dc-copy-text p{margin-bottom:14px}
 #dialer-guide .dc-bookmark{font-size:13px;color:#555;border-top:1px solid #ddd;padding-top:20px;margin-top:22px}
-@media(max-width:900px){#dialer-guide .lp-hero{gap:28px}#dialer-guide .dc-tool-body{grid-template-columns:1fr}#dialer-guide .dc-output{position:static;margin:0 32px 32px}#dialer-guide .dc-mid-cta{align-items:flex-start;flex-direction:column}#dialer-guide .dc-shortlist{gap:18px}}
-@media(max-width:760px){#dialer-guide .lp-hero{grid-template-columns:1fr}#dialer-guide h1{font-size:52px}#dialer-guide .dc-shortlist,#dialer-guide .dc-modes{grid-template-columns:1fr}#dialer-guide .dc-shortlist{gap:0}#dialer-guide .dc-tool-head{padding:24px;flex-direction:column;align-items:flex-start}#dialer-guide #dc-form{padding:22px}#dialer-guide .dc-output{margin:0 22px 22px;padding:24px}#dialer-guide .dc-fields{gap:16px}#dialer-guide .dc-mid-cta{padding:24px}#dialer-guide .dc-score{padding:20px}#dialer-guide .dc-copy-text{font-size:13px}#dialer-guide .dc-preset strong{font-size:14px}}
-@media(max-width:390px){#dialer-guide h1{font-size:46px}#dialer-guide .dc-fields{grid-template-columns:1fr}#dialer-guide .dc-span{grid-column:auto}#dialer-guide .dc-output strong{font-size:29px}}
+@media(max-width:900px){#dialer-guide .lp-hero{gap:28px}#dialer-guide .dc-tool-body{grid-template-columns:1fr}#dialer-guide .dc-output{margin:0}#dialer-guide .dc-mid-cta{align-items:flex-start;flex-direction:column}#dialer-guide .dc-shortlist{gap:18px}}
+@media(max-width:760px){#dialer-guide .lp-hero{grid-template-columns:1fr}#dialer-guide h1{font-size:52px}#dialer-guide .dc-shortlist,#dialer-guide .dc-modes{grid-template-columns:1fr}#dialer-guide .dc-shortlist{gap:0}#dialer-guide #dc-form{padding:22px}#dialer-guide .dc-output{margin:0;padding:24px}#dialer-guide .dc-fields{gap:16px}#dialer-guide .dc-mid-cta{padding:24px}#dialer-guide .dc-score{padding:20px}#dialer-guide .dc-copy-text{font-size:13px}}
+@media(max-width:390px){#dialer-guide h1{font-size:46px}#dialer-guide .dc-fields{grid-template-columns:1fr}#dialer-guide .dc-output strong{font-size:29px}}
 @media print{#dialer-guide .dc-js-only,#dialer-guide .dc-mid-cta{display:none!important}#dialer-guide .dc-shortlist{display:block}#dialer-guide .dc-score{border-color:#999}#dialer-guide .dc-copy-text{color:#111}}
+#dialer-guide .dc-preset p{font-size:13px;line-height:1.75;margin:0 0 10px;color:#555}
+#dialer-guide .dc-output .dc-message{font-size:30px;line-height:1.2}
+#dialer-guide .dc-annual{border-top:1px solid #555;margin-top:22px;padding-top:20px}
+#dialer-guide .dc-output .dc-result-note{color:#ddd;border-top:1px solid #555;padding-top:16px}
+#dialer-guide #dc-error:empty{display:none}
+#dialer-guide .dc-output #dc-basis{margin-top:-10px}

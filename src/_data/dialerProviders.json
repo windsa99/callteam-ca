@@ -38,7 +38,7 @@
             "monthly": null,
             "annual": null
           },
-          "note": "Two seats stated in Nooks’ own guide. Confirm seat count, modules, currency and term in your quote."
+          "note": "Ask which calling and coaching features the quoted subscription includes."
         }
       ]
     },
@@ -74,7 +74,7 @@
             "monthly": null,
             "annual": null
           },
-          "note": "Public pricing states nine seats. Confirm any different negotiated offer directly. Coaching and other extras must be entered separately."
+          "note": "Coaching and other add-ons can cost extra. Confirm the package and contract term."
         }
       ]
     },
@@ -90,7 +90,7 @@
       "strength": "Close puts the contact record, follow-up and calling workflow in the same CRM. Growth includes the power dialler; Scale adds predictive dialling. That can remove a separate calling layer when you also need a CRM.",
       "drawback": "Calling usage and phone numbers are additional costs. Growth is USD 109 per user monthly or 99 per month on annual billing; Scale is 149 or 139. If your CRM already works well, account for migration and retraining before buying another one.",
       "verdict": "A sensible starting point for a small sales team building its calling process. We like having the next action close to the call record. Buy Scale when its extra workflow earns its cost, rather than because predictive sounds faster.",
-      "check": "Test queue filters, dispositions, callbacks and shared company numbers. Use the destination-specific rate card. Close’s example minute price is not a universal calling rate; exact usage remains your budget input.",
+      "check": "Test queue filters, dispositions, callbacks and shared company numbers. Use the destination-specific rate card. Close’s example minute price is not a universal calling rate; check usage charges separately from the subscription estimate.",
       "sources": [
         {
           "label": "Plans and dialler tiers",
@@ -116,7 +116,7 @@
               "team": 0
             }
           },
-          "note": "CRM seat price only. Calls, numbers and optional AI usage are extra."
+          "note": "Calls, phone numbers and optional AI usage cost extra."
         },
         {
           "id": "scale",
@@ -132,7 +132,7 @@
               "team": 0
             }
           },
-          "note": "Predictive is on Scale. Calls, numbers and optional AI usage are extra."
+          "note": "Calls, phone numbers and optional AI usage cost extra."
         }
       ]
     },
@@ -148,7 +148,7 @@
       "strength": "Apollo joins prospect research, sequences and calling. Advanced Dialer adds power, parallel and international calling to a paid Apollo plan. For an existing customer, it is worth testing before adding a separate vendor.",
       "drawback": "Advanced costs USD 149 per team per month, or 119 on annual billing, in addition to paid seats. On credit-based dialler plans, a voicemail or answering-machine connection also uses credits. Calls have a 30-second minimum and subsequent 30-second rounding.",
       "verdict": "Check Apollo first if your team already works there. Compare the extra dialler cost with a separate product, then inspect the complete bill. Do not mistake a team add-on for a per-seat charge or for an all-in subscription.",
-      "check": "Enter your current paid-seat price and account-specific credit costs in the calculator. Test voicemail classification, CRM writeback and callbacks. With Apollo’s VoIP receiving method, incoming voicemail is unavailable; its bridged-phone method behaves differently.",
+      "check": "Add your current paid-seat subscription and account-specific credit charges to the Advanced add-on when reviewing the full offer. Test voicemail classification, CRM writeback and callbacks. With Apollo’s VoIP receiving method, incoming voicemail is unavailable; its bridged-phone method behaves differently.",
       "sources": [
         {
           "label": "Advanced Dialer price",
@@ -178,7 +178,7 @@
               "team": 119
             }
           },
-          "note": "Enter your paid Apollo seat price and minimum seats. The Advanced add-on is charged once per team. Usage/credit spend is separate."
+          "note": "The paid Apollo subscription and calling credits are additional. The add-on alone is not the total."
         }
       ]
     },
@@ -224,7 +224,7 @@
               "team": 0
             }
           },
-          "note": "US-site published dollars; confirm billing currency. Browser softphone and in-app callbacks need higher tiers."
+          "note": "Browser softphone and in-app callbacks need higher tiers. Optional reputation products cost extra."
         },
         {
           "id": "professional",
@@ -240,7 +240,7 @@
               "team": 0
             }
           },
-          "note": "Includes browser softphone. In-app callbacks require Premium. Confirm currency and reasonable-use terms."
+          "note": "Includes browser softphone. In-app callbacks require Premium. Check calling limits."
         },
         {
           "id": "premium",
@@ -256,7 +256,7 @@
               "team": 0
             }
           },
-          "note": "Includes in-app callbacks. Optional reputation products and other extras are not budgeted automatically. Confirm currency."
+          "note": "Includes in-app callbacks. Optional reputation products cost extra. Check calling limits."
         }
       ]
     },
@@ -296,7 +296,7 @@
             "monthly": null,
             "annual": null
           },
-          "note": "Enter the written quote, minimum seats and term. Check detection, calling allowances and required add-ons."
+          "note": "Ask which detection features, calling allowances and add-ons the quote includes."
         },
         {
           "id": "multi",
@@ -306,7 +306,7 @@
             "monthly": null,
             "annual": null
           },
-          "note": "Up to four lines. Confirm whether Human Voice Detection is included by name. Minimum seats are quote-dependent."
+          "note": "Up to four lines. Ask whether Human Voice Detection is included in the quote."
         }
       ]
     },
@@ -356,7 +356,7 @@
               "team": 0
             }
           },
-          "note": "At least two paid seats. Usage allowances depend on region and plan; enter expected overage spend."
+          "note": "Calling allowances vary by region and plan. Overage charges may apply."
         },
         {
           "id": "proplus",
@@ -372,7 +372,7 @@
               "team": 0
             }
           },
-          "note": "At least two paid seats. This does not replace SalesPro for unlimited predictive campaigns."
+          "note": "Calling allowances vary. Unlimited predictive campaigns require SalesPro."
         },
         {
           "id": "salespro",
@@ -382,7 +382,7 @@
             "monthly": null,
             "annual": null
           },
-          "note": "Custom price. Enter the written quote and term. Minimum two seats."
+          "note": "Ask for the predictive or dynamic package, usage allowances and contract term."
         }
       ]
     },
@@ -398,7 +398,7 @@
       "strength": "Aircall Professional combines a power dialler with business telephony and CRM integrations. It deserves a look when the team also needs to receive and route calls, rather than only work an outbound queue.",
       "drawback": "Professional is USD 50 per licence per month on annual billing, with three licences minimum. That is USD 1,800 in annual base subscription cost even with one active caller. AI Assist Pro is a separate add-on; do not confuse it with included AI Assist.",
       "verdict": "Consider it when inbound and outbound phone work both matter. For a solo caller who only wants a power dialler, the three-licence floor makes the headline per-seat price less useful.",
-      "check": "One number is included per plan; additional numbers are USD 6 monthly. Check destination allowances and CRM mapping. We have not verified a current monthly Professional rate, so the calculator asks for it instead of guessing.",
+      "check": "One number is included per plan; additional numbers are USD 6 monthly. Check destination allowances and CRM mapping. We have not verified a current monthly Professional rate, so the calculator marks it as needing confirmation.",
       "sources": [
         {
           "label": "Professional and minimum licences",
@@ -428,7 +428,7 @@
               "team": 0
             }
           },
-          "note": "Minimum three licences. Monthly price needs your current offer. One number included; extra numbers USD 6/month. Enter extras below."
+          "note": "Extra numbers and usage may cost more. AI Assist Pro is a separate add-on."
         }
       ]
     },
@@ -474,7 +474,7 @@
               "team": 0
             }
           },
-          "note": "Essential (39 monthly / 29 annual equivalent) + Power (15), in USD per seat. Calling and number extras depend on region."
+          "note": "Base plan and Power add-on included here. Extra numbers and usage depend on region."
         },
         {
           "id": "expert-power",
@@ -490,7 +490,7 @@
               "team": 0
             }
           },
-          "note": "Power included. Minimum three seats. USD rates from the official pricing guides."
+          "note": "Power is included in Expert. Extra numbers and usage depend on region."
         },
         {
           "id": "essential-parallel",
@@ -506,7 +506,7 @@
               "team": 0
             }
           },
-          "note": "Essential (39 / 29) + Parallel (39). Power mode included; do not add another 15."
+          "note": "Base plan and Parallel add-on included here. Power mode is also included."
         },
         {
           "id": "expert-parallel",
@@ -522,7 +522,7 @@
               "team": 0
             }
           },
-          "note": "Expert (69 / 49) + Parallel (39). Minimum three seats. Power mode included."
+          "note": "Expert and Parallel add-on included here. Power mode is also included."
         }
       ]
     },
@@ -565,7 +565,7 @@
               "dialer": 89
             }
           },
-          "note": "10 per access user + 89 per simultaneous dialler licence. Published US-site dollars; confirm currency. Voice/recording extra."
+          "note": "Voice, recording and lead data cost extra."
         },
         {
           "id": "triple",
@@ -578,7 +578,7 @@
               "dialer": 139
             }
           },
-          "note": "10 per access user + 139 per simultaneous dialler licence. Published US-site dollars; confirm currency. Voice/recording extra."
+          "note": "Voice, recording and lead data cost extra."
         }
       ]
     }
