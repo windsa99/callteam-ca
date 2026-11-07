@@ -1,0 +1,254 @@
+{
+  "reviewed": "November 7, 2026",
+  "reviewedIso": "2026-11-07",
+  "providers": [
+    {
+      "id": "uplead",
+      "name": "UpLead",
+      "tag": "Straightforward contact buying",
+      "fit": "You want contact data and already have a calling workflow.",
+      "price": "USD 99/month",
+      "priceNote": "Essentials, monthly billing",
+      "credits": "170 contact credits/month",
+      "catch": "Check whether the unlocked contact includes the mobile number you need.",
+      "gain": "One credit unlocks an available contact for download or CRM export, including available email and mobile direct dial data. That is easier to budget than separate email and phone balances.",
+      "gap": "Check which of your target buyers have the phone type you need. The advertised accuracy guarantee covers email; phone coverage needs its own sample. Include calling, notes and follow-up in the cost comparison.",
+      "cost": "Essentials is USD 99 monthly for 170 credits. Annual billing is USD 74/month equivalent, USD 888/year, with 2,040 credits. Confirm renewal and unused-credit terms.",
+      "verdict": "A sensible shortlist when you want a clear buying unit. The deciding factor is whether it adds reachable buyers in your market.",
+      "test": "Check the same target contacts in both tools. Count additional suitable phone records after removing data you already own.",
+      "sources": [
+        {
+          "label": "Plans, credits and available phone data",
+          "url": "https://www.uplead.com/pricing/"
+        }
+      ]
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "tag": "Quick contact reveals",
+      "fit": "You need occasional phone reveals while researching buyers.",
+      "price": "Free: USD 0",
+      "priceNote": "Paid price depends on plan and credit selection",
+      "credits": "40 free credits; 5 per phone reveal",
+      "catch": "Eight phones at most on the free allowance, before other credit use.",
+      "gain": "Lusha lets you reveal contact details while prospecting. Its shared credits can be spent on different data types, so you can prioritise phones when that is the missing field.",
+      "gap": "The credit total overstates your phone allowance if you read it as a contact count. CRM exports can also use credits. Include the whole route from lookup to usable calling record.",
+      "cost": "The free plan offers up to 40 credits/month. Phones use five each; emails use one. Paid plans use a credit selector. We could not confirm a single current paid bundle price, so check the selected offer.",
+      "verdict": "Useful to test for targeted gaps. Price the phone reveals and exports you need before judging whether the subscription is cheap.",
+      "test": "Reveal a few missing numbers, send them to your CRM and inspect the total credit deduction.",
+      "sources": [
+        {
+          "label": "Pricing and reveal credits",
+          "url": "https://www.lusha.com/pricing/"
+        },
+        {
+          "label": "Plan, export and rollover rules",
+          "url": "https://www.lusha.com/faq/"
+        }
+      ]
+    },
+    {
+      "id": "lead411",
+      "name": "Lead411",
+      "tag": "Export allowance worth checking",
+      "fit": "You need a substantial export allowance at a published price.",
+      "price": "USD 49/month",
+      "priceNote": "Spark, monthly billing",
+      "credits": "1,000 exports/month",
+      "catch": "Check exported records for buyer fit and usable phone data.",
+      "gain": "Spark lists direct phone numbers and an export allowance that makes it worth investigating for regular list building. Use the sample to check your actual industries and territories.",
+      "gap": "A large allowance has little value if the required people or numbers are missing. Confirm the phone types, CRM route and any credits used by features outside the quoted bundle.",
+      "cost": "Spark is USD 49 monthly with 1,000 exports/month, or USD 490 annually with 12,000 exports/year. Ask how annual access, unused exports and extra usage work for your order.",
+      "verdict": "Shortlist it for the allowance. Pay for it only after the sample shows useful coverage.",
+      "test": "Check current roles and phone types in your target market. A direct office line and a mobile are different routes.",
+      "sources": [
+        {
+          "label": "Spark pricing and export allowances",
+          "url": "https://www.lead411.com/pricing/"
+        }
+      ]
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "tag": "Phone verification and a quoted package",
+      "fit": "You want to assess premium phone verification on specific accounts.",
+      "price": "Custom quote",
+      "priceNote": "Standard or Pro; confirm the relevant tier",
+      "credits": "1 credit per revealed contact",
+      "catch": "Premium and on-demand phone verification sit in Pro.",
+      "gain": "Cognism's current Standard and Pro plans give buyers a defined tier choice. Pro adds premium mobile and on-demand verification features for teams with a clear phone-data requirement.",
+      "gap": "Check the verification level attached to each record. Your team needs a quote for the price and allowance. The plans list five included seats; confirm the minimum purchase separately.",
+      "cost": "Request the total subscription, credits, export rights and renewal term. Confirm which contacts qualify for the verification you are buying and what happens when a job change requires another reveal.",
+      "verdict": "Make the quote earn its price on your hard-to-reach accounts. Ask for evidence on the buyers your team actually calls.",
+      "test": "Ask for a sample from your own list and the verification status of each returned phone.",
+      "sources": [
+        {
+          "label": "Current plans, seats and phone verification",
+          "url": "https://www.cognism.com/pricing"
+        }
+      ]
+    },
+    {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "tag": "A broader platform decision",
+      "fit": "Company intelligence and several teams' workflows matter alongside phones.",
+      "price": "Custom quote",
+      "priceNote": "Price the exact products and contract",
+      "credits": "Confirm export and enrichment limits",
+      "catch": "A wider package can cost more than the data task you need done.",
+      "gain": "ZoomInfo combines company and contact intelligence with a wider set of sales and workflow products. Consider the value across the people who will actually use the proposed package.",
+      "gap": "Measure the overlap with your existing data. Get a written offer for the required products, users, exports and integrations so you can judge the full purchase.",
+      "cost": "No standard public price establishes your full setup. Ask about onboarding, contract length, renewal notice, usage limits and what you can retain or export when leaving.",
+      "verdict": "Give it a serious look when the wider business needs the platform. A team filling a narrow phone-data gap should demand a tightly scoped offer.",
+      "test": "Compare one target segment and demonstrate the CRM handoff using the edition named in the quote.",
+      "sources": [
+        {
+          "label": "Products and pricing enquiry",
+          "url": "https://www.zoominfo.com/pricing"
+        }
+      ]
+    },
+    {
+      "id": "salesintel",
+      "name": "SalesIntel",
+      "tag": "Verification tiers and research requests",
+      "fit": "You want to evaluate verified records and research for missing contacts.",
+      "price": "Custom quote",
+      "priceNote": "Confirm the scope of the unlimited allowances",
+      "credits": "Research on Demand: 10/user/month",
+      "catch": "Human-, email- and machine-verified records are different tiers.",
+      "gain": "SalesIntel distinguishes record-verification tiers and offers Research on Demand. Those distinctions help a buyer ask exactly what was checked and request research where useful data is missing.",
+      "gap": "Check whether each sample record is human, email or machine verified. Its current catalogue also includes engagement and dialler products; confirm which products the quote includes.",
+      "cost": "The public offer advertises unlimited users, exports and enrichment credits, with Research on Demand listed at ten per user monthly. Confirm the products, restrictions and contract that apply to your team.",
+      "verdict": "Worth testing when verification and specific research requests matter. Make the sample's verification tier visible before comparing results.",
+      "test": "Request missing buyers from a small account set. Check what returns, the verification tier and the turnaround.",
+      "sources": [
+        {
+          "label": "Pricing and research allowance",
+          "url": "https://salesintel.io/pricing/"
+        },
+        {
+          "label": "What each verification tier means",
+          "url": "https://support.salesintel.io/hc/en-us/articles/4404044888217-Understand-Human-Email-and-Machine-Verified-Records"
+        }
+      ]
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "tag": "Separate mobile, direct and office numbers",
+      "fit": "You want another lookup source with phone-type and confidence filters.",
+      "price": "Phone-plan price unconfirmed",
+      "priceNote": "Verify the current phone-enabled offer",
+      "credits": "Confirm phone lookups and exports",
+      "catch": "Compare the price of the plan that includes phone access.",
+      "gain": "RocketReach's August 2026 announcement describes mobile, direct and office filters, with added phone verification and grading for eligible Pro, Ultimate and Custom plans.",
+      "gap": "Test the confidence grades against your actual buyers. Current phone-enabled pricing remains unconfirmed after our source check.",
+      "cost": "Check the live price, billing term, eligible phone features, lookup allowance and export rules. Ask whether phone and email lookups draw from the same balance.",
+      "verdict": "A reasonable second source to sample. Get the phone allowance and billing term clear before paying.",
+      "test": "Compare the number type and actual person reached. Keep an unknown type labelled unknown.",
+      "sources": [
+        {
+          "label": "Current plan selector",
+          "url": "https://rocketreach.co/pricing"
+        },
+        {
+          "label": "RocketReach's phone-verification announcement",
+          "url": "https://www.prnewswire.com/news-releases/rocketreach-expands-phone-verification-and-grading-through-strategic-partnership-with-trestle-302847228.html"
+        }
+      ]
+    },
+    {
+      "id": "fullenrich",
+      "name": "FullEnrich",
+      "tag": "Add sources to fill specific gaps",
+      "fit": "Apollo's workflow works, but some relevant buyers lack a mobile.",
+      "price": "From USD 29/month",
+      "priceNote": "Pro, 500-credit monthly tier",
+      "credits": "10 credits per mobile number",
+      "catch": "500 credits buy at most 50 mobiles if used only for phones.",
+      "gain": "FullEnrich runs waterfall enrichment across multiple sources. Test it alongside your current system on contacts with missing phone data.",
+      "gap": "Another provider may return numbers you already own. Count the additional useful records. Include other enrichment or search actions when reviewing the credit bill.",
+      "cost": "Its published pricing summary lists 500 credits for USD 29 monthly. Mobile results cost ten credits. The 50-credit trial covers at most five mobiles if used only for phones.",
+      "verdict": "Start with a small set of worthwhile accounts where Apollo has a gap. Judge the purchase by the useful numbers it adds.",
+      "test": "Remove known data from the test objective, preserve the originals and compare the additional returned numbers.",
+      "sources": [
+        {
+          "label": "Pricing and phone-credit rules",
+          "url": "https://fullenrich.com/pricing"
+        },
+        {
+          "label": "Official price tiers",
+          "url": "https://fullenrich.com/pricing.md"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "tag": "Build a maintained enrichment workflow",
+      "fit": "You need custom rules across providers and someone can own the setup.",
+      "price": "Launch from USD 185/month",
+      "priceNote": "Starting price in Clay's plan FAQ",
+      "credits": "Data Credits plus Actions",
+      "catch": "Phone enrichment is excluded from Free; selected bundles vary.",
+      "gain": "Clay combines provider lookups and workflow steps. It can support a process that checks one source, tries another for gaps and sends the result onward. Current plans also include an email sequencer.",
+      "gap": "There is setup and maintenance to own. Bringing your own provider API key can still leave provider charges and Clay Actions. It is easy to underestimate the full workflow cost.",
+      "cost": "Clay's plan FAQ lists Launch from USD 185/month with phone enrichment. Confirm the current Data Credit and Action bundle in the live selector; the free tier excludes phones.",
+      "verdict": "A strong option to investigate when the workflow itself is the problem. For a small one-off list, weigh the setup effort before adding another system.",
+      "test": "Run a small batch end to end. Inspect phone results, Actions, data charges and the final CRM records.",
+      "sources": [
+        {
+          "label": "Plans and phone access",
+          "url": "https://www.clay.com/faq/what-features-are-included-in-the-new-plans-how-do-i-pick-the-right-plan"
+        },
+        {
+          "label": "Actions and Data Credits",
+          "url": "https://www.clay.com/faq/what-are-actions-and-data-credits-how-do-they-work"
+        },
+        {
+          "label": "Live pricing selector",
+          "url": "https://www.clay.com/pricing"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Apollo alternative for cold calling?",
+      "a": "Start with the gap. Compare UpLead, Lusha, Lead411 and RocketReach for contact buying; Cognism and SalesIntel for the relevant verification offers; ZoomInfo for a wider platform purchase. Test FullEnrich or Clay when supplementing an existing workflow makes sense. Your target market and the useful additional numbers decide the shortlist."
+    },
+    {
+      "q": "Should I replace Apollo or add another data provider?",
+      "a": "Keep Apollo if its coverage and outreach workflow meet your needs. Add a source when specific buyers lack useful contact data. Replace it when a sample shows a better fit and the full replacement cost makes sense. Include lost features, integrations and migration work."
+    },
+    {
+      "q": "Are there free Apollo alternatives with phone numbers?",
+      "a": "Some offer limited samples. Lusha's 40 free monthly credits cover at most eight phone reveals at five credits each. FullEnrich's 50 trial credits cover at most five mobiles at ten credits each. Other actions reduce those totals. Actual results depend on coverage of your target buyers."
+    },
+    {
+      "q": "Which Apollo alternative is cheapest?",
+      "a": "Compare the full cost of the calling list: phone-enabled plan, required seats, billing term, export charges and useful new records. A second subscription that returns only data you already have adds cost without improving the list."
+    },
+    {
+      "q": "Does Apollo's phone reveal always return a mobile number?",
+      "a": "No. Apollo's documentation says personal phone results can include mobile, work-direct, home or other types. Keep the returned type visible. A company switchboard, direct office line and mobile give your caller different routes to the buyer."
+    },
+    {
+      "q": "Can I keep Apollo for outreach and use another data source?",
+      "a": "Yes, provided the export, import and integration terms support your workflow. Apollo also offers its own waterfall enrichment. Test field mapping, duplicate handling, suppression records and credit usage before moving a full list."
+    },
+    {
+      "q": "What should I export before cancelling Apollo?",
+      "a": "Check what your contract and plan allow, then preserve the records your team needs: contact and company IDs, source details, notes, ownership, callbacks, stop requests and sequence status. Test the receiving system before ending access. Check that both the records and the follow-up workflow survive the move."
+    },
+    {
+      "q": "Can CallTeam call the leads we already have?",
+      "a": "Bring your list, target market and offer to a free 30-minute call. We can assess the fit, list preparation, calling, follow-up and reporting your campaign needs. You can keep your preferred provider; the work starts with a usable list and a clear campaign brief."
+    }
+  ],
+  "testText": "CALLTEAM: THE 25-CONTACT APOLLO ALTERNATIVE TEST\n\n1. Choose the same 25 buyers, roles and country for both providers.\n2. Record what Apollo already has: mobile, direct, company or missing.\n3. Check the alternative. Separate new useful numbers from numbers you own.\n4. Record credits spent, cash cost and any export charge.\n5. During normal outreach, log wrong numbers separately from no answer.\n\nRESULTS\nProvider and plan:\nDate and target segment:\nAdditional useful contact/number records out of 25:\nCredits and actual cost:\nProblems or unanswered questions:\nDecision: keep Apollo / add this source / replace / test more\n\nTrack buyer conversations separately from numbers found.\nUse a smaller identical sample if the trial allowance is limited.\nKeep test calls within your normal outreach schedule.\n\nCallTeam: https://www.callteam.ca/resources/apollo-alternatives/"
+}

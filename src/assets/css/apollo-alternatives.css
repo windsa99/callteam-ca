@@ -1,0 +1,69 @@
+#apollo-guide .lp-hero{grid-template-columns:minmax(0,1.45fr) minmax(0,.85fr);gap:56px}
+#apollo-guide h1{font-size:clamp(43px,4.8vw,65px)}
+#apollo-guide .aa-brands{font-size:12px;line-height:1.9;color:#626262;max-width:660px;margin:22px 0 0}
+#apollo-guide .lp-brief h2{font-size:38px}
+#apollo-guide .aa-table-wrap{border:1px solid var(--lp-line)}
+#apollo-guide .aa-comparison{min-width:0;table-layout:fixed}
+#apollo-guide .aa-comparison thead th:nth-child(1){width:15%}
+#apollo-guide .aa-comparison thead th:nth-child(2){width:24%}
+#apollo-guide .aa-comparison thead th:nth-child(3){width:34%}
+#apollo-guide .aa-comparison thead th:nth-child(4){width:27%}
+#apollo-guide .aa-comparison tbody th{font-size:18px;overflow-wrap:anywhere}
+#apollo-guide .aa-comparison td{width:auto}
+#apollo-guide .aa-comparison td strong{display:block;font-weight:600;font-size:15px;color:#111}
+#apollo-guide .aa-comparison td span{display:block;font-size:12px;margin-top:5px;color:#5b5b5b}
+#apollo-guide .aa-comparison td .aa-credit{color:#7b2e10;font-weight:600}
+#apollo-guide .aa-comparison .aa-reference{display:block;font:500 10px/1.6 Inter,Arial,sans-serif;letter-spacing:.03em;color:#66594e;margin-top:7px}
+#apollo-guide .aa-baseline-row{background:#fff3eb}
+#apollo-guide .aa-baseline{border-left:3px solid #ff5a1f;padding:4px 0 4px 24px;margin-top:32px;scroll-margin-top:160px}
+#apollo-guide .aa-baseline h3,#apollo-guide .aa-decision-grid h3,#apollo-guide .aa-switch h3{color:#ff5a1f;font-size:26px;margin-bottom:16px}
+#apollo-guide .aa-baseline>p:not(.lp-sources){font-size:14px;color:#555;max-width:960px}
+#apollo-guide .aa-baseline .lp-sources{border:0;padding-top:0;margin-top:12px}
+#apollo-guide .aa-mid-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 32px;background:#fff3eb;border-left:3px solid #ff5a1f;margin-top:32px}
+#apollo-guide .aa-mid-cta h3{font-size:25px;margin-bottom:12px}
+#apollo-guide .aa-mid-cta p{font-size:14px;color:#55473f;margin:0;max-width:620px}
+#apollo-guide .aa-mid-cta .lp-button{flex-shrink:0;padding:14px 22px}
+#apollo-guide .lp-provider-head{padding-bottom:22px}
+#apollo-guide .lp-provider-head h3{font-size:34px}
+#apollo-guide .lp-verdict{background:#fff0e5;border-top:3px solid #ff5a1f}
+#apollo-guide .lp-verdict .lp-kicker{border:0;padding:0}
+#apollo-guide .lp-verdict-text{font-size:21px}
+#apollo-guide .aa-decision-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+#apollo-guide .aa-decision-grid p{font-size:15px;color:#555}
+#apollo-guide .aa-decision-grid .lp-sources{font-size:11px}
+#apollo-guide .aa-switch{background:#f5f4f2;border:1px solid #dddcd7;padding:30px 34px;margin-top:32px;scroll-margin-top:150px}
+#apollo-guide .aa-switch ul{padding-left:21px;margin:0 0 20px;display:grid;grid-template-columns:1fr 1fr;gap:14px 45px}
+#apollo-guide .aa-switch li{font-size:14px;color:#505050;padding-left:4px}
+#apollo-guide .aa-switch>p{font-size:14px;margin:0}
+#apollo-guide .aa-test-layout{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:start}
+#apollo-guide .aa-test-layout pre{white-space:pre-wrap;overflow-wrap:anywhere;font:400 14px/1.85 Inter,Arial,sans-serif;border:1px solid #444;background:#1b1b1b;color:#eee;margin:0 0 22px;padding:26px}
+#apollo-guide .aa-test-layout aside{border-top:3px solid #ff9168;padding-top:24px}
+#apollo-guide .aa-test-layout h3{font-size:28px;color:#ff9168;margin-bottom:20px}
+#apollo-guide .aa-test-layout aside p{font-size:15px;color:#c7c7c7}
+#apollo-guide .aa-test-layout aside p strong{color:#fff}
+#apollo-guide .aa-test-layout .lp-text-link{display:inline-block;font-size:13px}
+#apollo-guide #aa-copy-status{font-size:13px;line-height:1.7;min-height:24px;color:#ffb394;margin:12px 0 0}
+#apollo-guide .aa-return{font-size:13px;line-height:1.8;margin:28px 0 0;padding-top:20px;border-top:1px solid #ddd;color:#555}
+#apollo-guide #free-alternatives{scroll-margin-top:150px}
+@media(max-width:1000px){#apollo-guide .lp-hero{gap:30px}#apollo-guide .aa-comparison th,#apollo-guide .aa-comparison td{padding:16px 14px}#apollo-guide .aa-mid-cta{align-items:flex-start;flex-direction:column}#apollo-guide .aa-test-layout{gap:30px}}
+@media(max-width:760px){
+#apollo-guide .lp-hero{grid-template-columns:1fr}#apollo-guide h1{font-size:48px}#apollo-guide .lp-brief h2{font-size:34px}
+#apollo-guide .aa-decision-grid,#apollo-guide .aa-test-layout{grid-template-columns:1fr;gap:28px}
+#apollo-guide .aa-switch{padding:24px}#apollo-guide .aa-switch ul{grid-template-columns:1fr;gap:14px}
+#apollo-guide .aa-test-layout pre{font-size:13px;padding:20px}#apollo-guide .aa-mid-cta{padding:24px}
+#apollo-guide .lp-provider-head h3{font-size:29px}#apollo-guide .aa-brands{font-size:11px}
+#apollo-guide .aa-comparison{display:block;width:100%;font-size:13px}
+#apollo-guide .aa-comparison caption{display:block;font-size:11px;padding:15px 18px}
+#apollo-guide .aa-comparison thead{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+#apollo-guide .aa-comparison tbody{display:block}
+#apollo-guide .aa-comparison tr{display:block;border-bottom:1px solid #ccc;padding:20px}
+#apollo-guide .aa-comparison tr:last-child{border-bottom:0}
+#apollo-guide .aa-comparison tbody th{display:block;width:100%;font-size:24px;padding:0 0 12px;border:0}
+#apollo-guide .aa-comparison td{display:block;width:100%;padding:10px 0;border:0}
+#apollo-guide .aa-comparison td:last-child{padding-bottom:0}
+#apollo-guide .aa-comparison td:before{content:attr(data-label);display:block;text-transform:uppercase;letter-spacing:.07em;font-size:10px;font-weight:700;color:#7b2e10;margin-bottom:5px}
+#apollo-guide .aa-comparison td strong{font-size:17px}
+#apollo-guide .aa-comparison .aa-reference{font-size:10px}
+}
+@media(max-width:390px){#apollo-guide h1{font-size:42px}#apollo-guide .aa-test-layout pre{padding:17px}#apollo-guide .aa-comparison tr{padding:18px}#apollo-guide .lp-provider-head h3{font-size:27px}}
+@media print{#apollo-guide #aa-copy-test,#apollo-guide #aa-copy-status,#apollo-guide .aa-mid-cta{display:none!important}#apollo-guide .aa-test-layout pre{color:#111;background:#fff}#apollo-guide .aa-test-layout aside p{color:#333}#apollo-guide .aa-test-layout{grid-template-columns:1fr}}
