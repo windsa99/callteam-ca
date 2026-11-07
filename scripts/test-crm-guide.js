@@ -23,7 +23,7 @@ for (const id of ids) {
     assert.equal((text.match(/\[TO TEST\]/g) || []).length, 6 - flags.filter(Boolean).length);
     assert(text.includes("CRM: " + data.providers.find(p => p.id === id).name));
     data.checks.forEach(c => assert(text.includes(c.title) && text.includes(c.text)));
-    assert(text.includes("not a passing result or product score"));
+    assert(text.includes("Tick each task after testing it, then record what worked, what failed and what needs checking."));
     combinations++;
   }
 }

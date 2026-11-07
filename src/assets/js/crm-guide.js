@@ -24,7 +24,7 @@
       }).join("\n\n") +
       "\n\nDECISION: Keep / shortlist / rule out / test again\nReason: ____________________" +
       "\nSubscription, billing term and extras: ____________________" +
-      "\nA tick records a check tried, not a passing result or product score." +
+      "\nTick each task after testing it, then record what worked, what failed and what needs checking." +
       "\nhttps://www.callteam.ca/resources/best-crm-for-outbound-sales/\n";
   }
   async function copyText(win, text) {

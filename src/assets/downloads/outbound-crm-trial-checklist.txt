@@ -16,7 +16,7 @@ Set a callback with a date, time zone and owner. It should appear when due and s
 Result / issue / next question: ____________________
 
 [TO TEST] 4. Stop follow-up when it should stop.
-Use a test record for a stop request or reply. Check the dialling queue, sequence and future tasks, not just one status field.
+Use a test record for a stop request or reply. Confirm that the dialling queue, sequence and future tasks all reflect the change.
 Result / issue / next question: ____________________
 
 [TO TEST] 5. Book, reschedule and hand over a meeting.
@@ -30,6 +30,6 @@ Result / issue / next question: ____________________
 DECISION: Keep / shortlist / rule out / test again
 Reason: ____________________
 Subscription, billing term and extras: ____________________
-A tick records a check tried, not a passing result or product score.
+Tick each task after testing it, then record what worked, what failed and what needs checking.
 Use test records and numbers you control.
 https://www.callteam.ca/resources/best-crm-for-outbound-sales/
