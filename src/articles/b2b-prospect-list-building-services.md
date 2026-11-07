@@ -117,6 +117,8 @@ A good list should let a caller understand the account without starting the rese
 
 Use this sample specification to agree on the information each delivered record should contain.
 
+For phone fields and calling order, use our [guide to buying cold calling leads: mobile vs company numbers](/resources/how-to-buy-cold-calling-leads/). It includes a next-call tool and a free CSV template that keeps the available routes separate.
+
 | Field | What to request | Question it should answer |
 | --- | --- | --- |
 | Account name and website | Trading name, legal entity where relevant, website | Which business is this? |

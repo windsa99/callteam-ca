@@ -112,6 +112,8 @@ A useful voicemail does less. It creates a reason to recognize the caller, under
 
 Decide what the message should do before recording it. The job may be to create recognition for the next dial, support an email, connect a verified buyer signal to the call or invite a callback from an already engaged prospect.
 
+Voicemail, AI screening and a company switchboard need different next steps. Use our [mobile vs company numbers guide and next-call tool](/resources/how-to-buy-cold-calling-leads/) to choose the route before recording another attempt.
+
 Do not ask the same voicemail to introduce the company, explain the platform, qualify the buyer, overcome objections and book a demo. That is not efficiency. It is a podcast nobody subscribed to.
 
 ## Use a five-part voicemail structure

@@ -1,0 +1,13 @@
+{
+  "reviewed": "6 November 2026",
+  "reviewedIso": "2026-11-06",
+  "faqs": [
+    {"q":"Should I buy mobile numbers or company numbers for B2B cold calling?","a":"Start with the buyer and the route you need. A known buyer who works away from a desk is a reason to test mobile coverage. A local company number is useful when you still need to identify who handles the decision. A work direct line is a separate option. Compare useful conversations across similar accounts before buying a larger batch."},
+    {"q":"Is a direct dial the same as a mobile number?","a":"No. A direct number reaches a person without starting at reception. It can be a work line or a mobile. An extension may still require calling the company number and entering the extension. Keep the number type and any extension clear in your records. Leave the type unknown when the source has not established it."},
+    {"q":"Does a verified mobile number guarantee I will reach the buyer?","a":"No. Ask what was verified and when. A number can be correctly classified as mobile while the contact has changed roles or the call is screened. Number type, ownership, current role and whether someone answers are separate checks."},
+    {"q":"Should I buy more leads after the first calling pass?","a":"Review what remains first: scheduled callbacks, unanswered contacts, unworked company numbers and missing contact details at suitable accounts. Buy a small batch to fill a real gap. If the current list targets the wrong companies or roles, correct the brief before purchasing more."},
+    {"q":"What should I say to an AI call-screening assistant?","a":"State your name, company and specific business reason, then follow the prompt. For example: Alex at CallTeam. I am calling to see whether Jordan needs help booking sales meetings. Screening can pass your response to the recipient, but a clear answer does not guarantee the call will be accepted."},
+    {"q":"How should I prepare a purchased lead list for my CRM?","a":"Keep one row per contact with separate fields for company, location, role and each number type. Retain your account and contact IDs, source, check date, last outcome and next action. Flag shared numbers and duplicate people, exclude do-not-call records, then test a small import before adding the full list."},
+    {"q":"How do I know which number type is working?","a":"Track unique contacts attempted, conversations with the intended buyer, useful referrals and held meetings. Keep voicemail, automated screening and wrong numbers separate. Compare similar roles and accounts under similar calling conditions. If one person was reached through more than one route, record that overlap instead of counting them as two new people."}
+  ]
+}
