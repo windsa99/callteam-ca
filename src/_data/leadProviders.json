@@ -1,0 +1,188 @@
+{
+  "reviewed": "6 November 2026",
+  "reviewedIso": "2026-11-06",
+  "providers": [
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "website": "https://www.apollo.io/",
+      "tag": "Data and outreach together",
+      "fit": "You want to find prospects and run outreach in the same system.",
+      "billing": "Plan subscription plus action-based credits. Check the rates in your account.",
+      "catch": "A phone reveal is not a promise of a mobile number.",
+      "strength": "Apollo combines prospect search, enrichment and outreach tools. That is useful when you want fewer handoffs between finding someone and contacting them. Its phone documentation also distinguishes company HQ numbers from contact numbers; HQ numbers do not use phone credits.",
+      "drawback": "The phone-reveal action can return different number types. Do not budget as though every selected person will produce a usable mobile. Unused credits expire, and an extra credit subscription can keep renewing until you remove it.",
+      "unknown": "How many people in your exact territory and buying roles have usable mobiles. A large search result tells you who matches the filters, not who you can reach by phone.",
+      "verdict": "Shortlist Apollo when you need both data and outreach. If you already have a CRM and dialler, judge Apollo on the contacts it adds to that workflow. Buying more credits is not a fix for a poorly chosen list.",
+      "check": "Reveal a small batch first. Inspect the actual number type, then export it into your CRM. Exporting a saved contact does not automatically fill missing phone fields.",
+      "sources": [
+        {
+          "label": "Plans and credit terms",
+          "url": "https://www.apollo.io/pricing"
+        },
+        {
+          "label": "Phone reveal documentation",
+          "url": "https://knowledge.apollo.io/hc/en-us/articles/31969477982221-Access-a-Prospect-s-Phone-Number"
+        },
+        {
+          "label": "CSV export behaviour",
+          "url": "https://knowledge.apollo.io/hc/en-us/articles/4409237712141-Export-Contacts-to-a-CSV"
+        }
+      ]
+    },
+    {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "website": "https://www.zoominfo.com/",
+      "tag": "A broader sales data platform",
+      "fit": "Several teams need prospecting, enrichment and buying signals.",
+      "billing": "Custom quote. A standard public dollar price is not listed.",
+      "catch": "You need the actual quote to compare the full commitment.",
+      "strength": "ZoomInfo brings prospecting, account signals, enrichment and connected sales workflows into a broad platform. That gives a team with several data problems more to evaluate than a downloadable contact list.",
+      "drawback": "Its pricing page does not publish a standard price or a complete package of seats, exports and contract terms. We do not like making a buying decision around a demo before the total cost is clear. Ask for the commercial details early.",
+      "unknown": "Your quoted price, included workflows, integration work and actual coverage of the people you sell to. We have no controlled evidence here that its numbers will outperform the other five providers in your market.",
+      "verdict": "Evaluate ZoomInfo when multiple teams will use the platform. If your immediate need is a few hundred people to call, make the proposal justify the extra scope. A bigger platform only helps if you use it.",
+      "check": "Request the same target-account sample you give the other suppliers. Put seats, exports, add-ons, implementation, renewal and cancellation terms in one written quote.",
+      "sources": [
+        {
+          "label": "Pricing and package scope",
+          "url": "https://www.zoominfo.com/pricing"
+        },
+        {
+          "label": "Outbound prospecting",
+          "url": "https://www.zoominfo.com/solutions/outbound-prospecting"
+        }
+      ]
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "website": "https://www.cognism.com/",
+      "tag": "Premium mobile data to test",
+      "fit": "Phone outreach matters enough to evaluate a premium mobile-data package.",
+      "billing": "Custom quote with credits. Standard and Pro list five included seats.",
+      "catch": "Premium mobile features sit in Pro. Check coverage before paying for them.",
+      "strength": "Cognism describes premium mobile data and on-demand verification in its Pro plan. Those are relevant features for a team that spends real time calling. Its current model uses credits to reveal contacts; previously revealed contacts remain available during the contract. A changed job can require another credit.",
+      "drawback": "The public page does not give you a dollar price or enough detail to calculate your own cost per usable mobile. Five included seats may also be more than a small team needs. Included seats are not proof of a mandatory minimum purchase.",
+      "unknown": "How much of your target list has premium mobile coverage, which contacts have been phone verified, and the turnaround and allowance for verification requests. Do not treat every mobile in the database as phone verified.",
+      "verdict": "Put it in the test when mobiles are central to the campaign. Pay for demonstrated coverage of your buyers. The phrase premium data does not tell you how many of your target people you will reach.",
+      "check": "Ask for a sample showing number type and verification status separately. Get the credit allowance, top-up costs and Pro-only features in writing.",
+      "sources": [
+        {
+          "label": "Current plans and credit model",
+          "url": "https://www.cognism.com/pricing"
+        },
+        {
+          "label": "Data and verification claims",
+          "url": "https://www.cognism.com/our-data"
+        }
+      ]
+    },
+    {
+      "id": "uplead",
+      "name": "UpLead",
+      "website": "https://www.uplead.com/",
+      "tag": "A straightforward contact-credit model",
+      "fit": "You want contact data to use in an existing sales workflow.",
+      "billing": "One credit unlocks one contact. Public monthly and annual plans.",
+      "catch": "Available phone data still needs checking. Some workflow features require a higher plan.",
+      "strength": "UpLead uses a simple unit: one credit unlocks a contact and the available email and phone information. Its help centre says downloading an already unlocked contact again does not cost another credit. That makes the basic export model easier to understand.",
+      "drawback": "Suppression lists and enrichment are listed in Plus, while team features and full API access sit in the annual-only Professional plan. Check your working requirements before choosing the entry plan. The seven-day trial provides five credits, which is too small to establish dependable market-wide accuracy.",
+      "unknown": "The share of your selected people with a usable mobile, and how fresh their roles are. An email verification claim is not evidence of phone accuracy. Fresh enrichment can also be a different paid action from re-exporting saved data.",
+      "verdict": "UpLead makes the basic contact-purchase model easy to follow. Confirm the fields you need actually exist. One contact credit is still not a guarantee of one useful conversation.",
+      "check": "Test the export in your CRM, including phone type. Ask how suppression, re-enrichment and additional users affect the plan you would buy.",
+      "sources": [
+        {
+          "label": "Plans and feature boundaries",
+          "url": "https://www.uplead.com/pricing/"
+        },
+        {
+          "label": "What a credit unlocks",
+          "url": "https://support.uplead.com/en/articles/5621272-what-is-a-credit"
+        },
+        {
+          "label": "Fresh enrichment charges",
+          "url": "https://support.uplead.com/en/articles/10696522-contact-enrichment-enhancing-contact-details-with-uplead"
+        }
+      ]
+    },
+    {
+      "id": "lusha",
+      "name": "Lusha",
+      "website": "https://www.lusha.com/",
+      "tag": "Selective contact reveals",
+      "fit": "You want to research prospects, then reveal selected contact details.",
+      "billing": "Action-based credits. Phone, email and export actions can cost different amounts.",
+      "catch": "Price the complete workflow, including export and extra-source lookups.",
+      "strength": "Lusha lets you search and filter in its app and extension before spending credits on selected details. Its October 2026 credit guide lists one credit for an email reveal and five for an ordinary phone reveal. Re-viewing previously revealed data is free.",
+      "drawback": "The same guide lists separate charges for exports and higher rates when extra sources find phone data. That makes a headline credit allowance less useful than it first looks. Rates can also differ by account pricing version.",
+      "unknown": "Your actual cost to reveal and move a usable contact into your CRM, and the phone coverage of your target roles. A normal reveal and an extra-source lookup are not necessarily priced alike.",
+      "verdict": "Evaluate Lusha against the full cost of selective research. Before you commit, price the exact sequence your reps will repeat: find, reveal, export and, if needed, enrich. Credit counts alone can hide that difference.",
+      "check": "Run a few records through the whole workflow and compare the credit balance before and after. Use your account's rate card when calculating a larger batch.",
+      "sources": [
+        {
+          "label": "Plans and allowances",
+          "url": "https://www.lusha.com/pricing/"
+        },
+        {
+          "label": "October 2026 credit guide",
+          "url": "https://www.lusha.com/blog/how-lusha-credits-work/"
+        }
+      ]
+    },
+    {
+      "id": "lead411",
+      "name": "Lead411",
+      "website": "https://www.lead411.com/",
+      "tag": "An export-based option to sample",
+      "fit": "You want to test a contact database with direct phone numbers included.",
+      "billing": "Published export allowances; unlimited annual exports are advertised on Blaze.",
+      "catch": "Its plan cards and FAQ give conflicting messages about export limits.",
+      "strength": "Lead411 publishes an entry plan with an export allowance and direct phone numbers included. Its seven-day trial lists 50 exports. That provides a practical way to inspect a small sample before making a larger purchase.",
+      "drawback": "The Spark card lists 1,000 monthly exports, while a FAQ on the same page says there are no data caps or daily limits. We do not like that ambiguity. Do not read unlimited marketing as a promise for every plan. Ask which written limit governs your subscription.",
+      "unknown": "How many of your target contacts have mobiles versus other direct lines, how accurate those records are, and what the exact plan permits. Direct dial describes the route to a person; it does not automatically mean mobile.",
+      "verdict": "Test Lead411 when export volume is a priority. Resolve the plan wording first. A generous allowance only has value when the records fit your market and your calling workflow.",
+      "check": "Get export limits, extra-export costs, renewal terms and phone inclusions confirmed for the named plan. Record the answer alongside the sample results.",
+      "sources": [
+        {
+          "label": "Plan cards, trial and pricing FAQ",
+          "url": "https://www.lead411.com/pricing/"
+        },
+        {
+          "label": "Product questions",
+          "url": "https://www.lead411.com/knowledge_faqs/"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Where should I buy B2B leads?",
+      "a": "Shortlist providers against the job you need done. Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411 offer different combinations of contact data and sales tools. Test the same target accounts and buying roles before committing. A database record is a prospect, not a person who has expressed interest in buying."
+    },
+    {
+      "q": "What is the best Apollo alternative?",
+      "a": "It depends on the gap you are trying to fill. Compare ZoomInfo for a broader platform, Cognism for its premium mobile-data offer, and UpLead, Lusha or Lead411 for different contact-purchase workflows. These are reasons to test, not evidence that one provider has better data for your market."
+    },
+    {
+      "q": "Should I buy mobile numbers or company numbers for cold calling?",
+      "a": "Buy the route that fits the buyer and the campaign. A mobile can reach someone away from the office; a company line can help you identify the responsible person at a local business. Keep the number types separate and compare qualified conversations across similar accounts. Do not assume either type always wins."
+    },
+    {
+      "q": "Does verified data mean the number will work?",
+      "a": "No. Check what the provider verified, how it was checked and when. Email verification, phone verification and a mobile label describe different things. None guarantees that the person still holds the role, answers the phone or wants your offer."
+    },
+    {
+      "q": "Can I buy leads once without a subscription?",
+      "a": "Check the provider's current billing terms. A monthly plan is still a recurring subscription. Confirm cancellation, credit expiry, export rights and whether you can keep using downloaded records after the plan ends. Do not assume one month of use means a one-time purchase."
+    },
+    {
+      "q": "When should I buy more leads?",
+      "a": "When the usable queue for the right accounts and roles is running low. First check unworked company numbers, missing fields, duplicates and existing follow-ups. If those records are poor fits, buy a better-targeted sample. If they are good fits, work the useful routes you already have before paying to replace them."
+    },
+    {
+      "q": "How do I compare lead costs fairly?",
+      "a": "Use the same sample requirements and cost period. Divide the data cost allocated to that sample by unique contacts that meet your definition of usable. Include relevant seats, reveals, exports and extra enrichment. Track conversations and meetings separately; a usable record is not a sales result."
+    }
+  ]
+}

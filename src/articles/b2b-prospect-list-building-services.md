@@ -92,6 +92,8 @@ CallTeam can help [prepare prospect lists and connect them to human outreach](/a
 
 These options can all provide contact details, but they leave different amounts of work with your team. Ask the supplier to show where selection, checking and ongoing updates happen.
 
+Choosing a database? [Compare Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411](/resources/b2b-lead-providers/) for the strengths, drawbacks and buying checks behind each offer. Use the free scorecard to test the same target accounts before purchasing a larger batch.
+
 | Option | What you receive | Work to account for |
 | --- | --- | --- |
 | Database subscription | Access to search and export available records | Your team selects, reviews and prepares the accounts |

@@ -1,0 +1,93 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/b2b-lead-providers/"
+title: "Where to Buy B2B Leads: 6 Providers Compared"
+seoTitle: "Where to Buy B2B Leads: Apollo & 5 Alternatives | CallTeam"
+description: "Compare Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411. Clear strengths, drawbacks, credit traps and a free scorecard to test B2B lead providers."
+canonicalUrl: "https://www.callteam.ca/resources/b2b-lead-providers/"
+modified: "2026-11-06"
+contentLanguage: "en-CA"
+pageStyles: ["/assets/css/lead-providers.css"]
+pageScripts: ["/assets/js/lead-providers.js"]
+---
+{% set guide = leadProviders %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"dateModified":"{{ guide.reviewedIso }}","inLanguage":"en-CA","isPartOf":{"@id":"{{ site.websiteId }}"},"publisher":{"@id":"{{ site.organizationId }}"},"breadcrumb":{"@id":"{{ canonicalUrl }}#breadcrumb"},"about":[{% for p in guide.providers %}{"@type":"Organization","name":{{ p.name | json | safe }},"url":"{{ p.website }}"}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"BreadcrumbList","@id":"{{ canonicalUrl }}#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Outbound Sales Library","item":"{{ site.url }}/resources/outbound-sales-library/"},{"@type":"ListItem","position":3,"name":"B2B lead providers","item":"{{ canonicalUrl }}"}]},{"@type":"FAQPage","@id":"{{ canonicalUrl }}#questions","mainEntity":[{% for faq in guide.faqs %}{"@type":"Question","name":{{ faq.q | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.a | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}]}
+</script>
+<main class="lp-page" id="lead-provider-guide">
+  <div class="lp-hero-shell">
+    <div class="lp-wrap">
+      <nav class="lp-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span>/</span><span aria-current="page">B2B lead providers</span></nav>
+      <div class="lp-hero">
+        <div>
+          <p class="lp-kicker">The CallTeam buying desk</p>
+          <h1>Where to buy <span>B2B leads.</span><small>6 providers compared.</small></h1>
+          <p class="lp-lede">Apollo. ZoomInfo. Cognism. UpLead. Lusha. Lead411.</p>
+          <p class="lp-intro">What they offer. Where the trade-offs are. What you still need to test before paying for another list.</p>
+          <div class="lp-actions"><a class="lp-button" href="#comparison">Compare the six providers <span aria-hidden="true">↓</span></a><a class="lp-text-link" href="#test-plan">Get the free test scorecard ↗</a></div>
+        </div>
+        <aside class="lp-brief" aria-labelledby="lp-brief-title">
+          <p class="lp-kicker">Before you buy another list</p>
+          <h2 id="lp-brief-title">100 contacts.<br>How many can you actually use?</h2>
+          <ol><li><span>01</span><div><strong>Right company. Right person.</strong><p>Does the record fit the job you sell?</p></div></li><li><span>02</span><div><strong>A route to reach them.</strong><p>Mobile, direct line or company number?</p></div></li><li><span>03</span><div><strong>A cost you can explain.</strong><p>Count useful contacts after the checks.</p></div></li></ol>
+          <a href="#cost-check">Work out your cost per usable contact →</a>
+        </aside>
+      </div>
+      <p class="lp-direct-answer"><strong>The short answer:</strong> shortlist by workflow, then test the same buyers. No database is automatically the right choice for every territory, industry and role. You are buying prospect records. You still need to earn the conversation.</p>
+      <p class="lp-method"><strong>Sources checked {{ guide.reviewed }}.</strong> CallTeam uses Apollo and lists it as a technology partner. We have not run a controlled six-provider benchmark. Product details come from the official sources linked below; the verdicts are our assessment. Provider links go directly to their websites.</p>
+    </div>
+  </div>
+  <nav class="lp-jump" aria-label="On this page"><div class="lp-wrap"><a href="#comparison">Quick comparison</a><a href="#provider-verdicts">Our verdicts</a><a href="#compare-two">Compare two</a><a href="#test-plan">Free scorecard</a><a href="#cost-check">Cost calculator</a><a href="#questions">Questions</a></div></nav>
+
+  <section class="lp-section" id="comparison"><div class="lp-wrap">
+    <div class="lp-heading"><p class="lp-kicker">01 / Make your shortlist</p><h2>Which B2B lead provider<br>fits the job?</h2><p>Start here. Then read the trade-off that could change your decision.</p></div>
+    <p class="lp-scroll-hint">On a small screen, swipe the table to see every column.</p>
+    <div class="lp-table-scroll" tabindex="0" role="region" aria-labelledby="lp-table-caption"><table class="lp-table"><caption id="lp-table-caption">Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411: use cases and buying checks</caption><thead><tr><th scope="col">Provider</th><th scope="col">Worth considering when</th><th scope="col">How you pay</th><th scope="col">The catch to check</th></tr></thead><tbody>{% for p in guide.providers %}<tr><th scope="row"><a href="#{{ p.id }}">{{ p.name }} <span aria-hidden="true">↗</span></a></th><td>{{ p.fit }}</td><td>{{ p.billing }}</td><td>{{ p.catch }}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="lp-small">This is a shortlist, not a ranking. Plan terms change. Use the official pricing links in each review and confirm currency, billing period and the total commitment in your quote.</p>
+    <div class="lp-note"><strong>Do not compare credits as if they are the same currency.</strong><p>A credit might unlock a contact, reveal a phone or move a record into your CRM. Ask what you will spend to finish the job.</p></div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="provider-verdicts"><div class="lp-wrap">
+    <div class="lp-heading"><p class="lp-kicker">02 / The useful differences</p><h2>Six providers.<br>Six honest verdicts.</h2><p>Published features are one thing. Whether they help your campaign is the test.</p></div>
+    <div class="lp-provider-nav" aria-label="Jump to a provider">{% for p in guide.providers %}<a href="#{{ p.id }}">{{ p.name }}</a>{% endfor %}</div>
+    {% for p in guide.providers %}<article class="lp-provider" id="{{ p.id }}" aria-labelledby="{{ p.id }}-title">
+      <div class="lp-provider-head"><div><p class="lp-kicker">{{ p.tag }}</p><h3 id="{{ p.id }}-title">{{ p.name }}</h3></div><a class="lp-source" href="{{ p.sources[0].url }}" target="_blank" rel="noopener">Check current plans ↗</a></div>
+      <div class="lp-provider-body"><div class="lp-provider-detail"><h4>What it is good at</h4><p>{{ p.strength }}</p><h4>What we do not like</h4><p>{{ p.drawback }}</p><h4>What we still do not know</h4><p>{{ p.unknown }}</p></div><aside class="lp-verdict"><p class="lp-kicker">CallTeam verdict</p><p class="lp-verdict-text">{{ p.verdict }}</p><div><strong>Before you buy</strong><p>{{ p.check }}</p></div></aside></div>
+      <p class="lp-sources"><strong>Official sources:</strong> {% for source in p.sources %}<a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.label }} ↗</a>{% if not loop.last %}<span aria-hidden="true"> · </span>{% endif %}{% endfor %}</p>
+    </article>{% endfor %}
+  </div></section>
+
+  <section class="lp-section" id="compare-two"><div class="lp-wrap">
+    <div class="lp-heading"><p class="lp-kicker">03 / Down to two?</p><h2>Compare your finalists.</h2><p>Choose two names to put the buying checks next to each other.</p></div>
+    <div class="lp-js-only" hidden>
+      <div class="lp-selectors"><div><label for="lp-left">First provider</label><select id="lp-left">{% for p in guide.providers %}<option value="{{ p.id }}"{% if p.id == 'apollo' %} selected{% endif %}>{{ p.name }}</option>{% endfor %}</select></div><div><label for="lp-right">Second provider</label><select id="lp-right">{% for p in guide.providers %}<option value="{{ p.id }}"{% if p.id == 'zoominfo' %} selected{% endif %}>{{ p.name }}</option>{% endfor %}</select></div></div>
+      <p class="lp-small" id="lp-selection-status" role="status"></p><div class="lp-pair" id="lp-pair"></div>
+    </div>
+    <noscript><p>The full comparison and all six reviews above work without JavaScript.</p></noscript>
+    <div class="lp-matchups">
+      <div><h3>Apollo vs ZoomInfo</h3><p>Is your problem finding and contacting prospects, or coordinating several teams and data workflows? Price the work you will actually use, then compare the same sample. Platform breadth does not establish better phone data.</p></div>
+      <div><h3>Apollo vs Cognism</h3><p>If mobiles are the reason you are shopping, compare usable mobile coverage for the same roles and territory. Check the verification status and cost of those specific records before paying for a premium package.</p></div>
+      <div><h3>Apollo vs UpLead</h3><p>Decide whether you need outreach software alongside the data. If your CRM and dialler are already working, compare the cost and effort of adding useful contacts to them.</p></div>
+      <div><h3>Lusha vs Lead411</h3><p>Translate reveal charges and export allowances into the same finished task: usable records in your CRM. Test both on the same accounts. The largest allowance is not necessarily the best purchase.</p></div>
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-dark" id="test-plan"><div class="lp-wrap">
+    <div class="lp-heading"><p class="lp-kicker">04 / Free. No email required.</p><h2>Give every provider<br>the same test.</h2><p>Use the scorecard to compare a small working sample. No random demo contacts. No cherry-picked success stories.</p></div>
+    <ol class="lp-test-steps"><li><strong>Choose the accounts yourself.</strong><p>Start with 50 target companies as a practical pilot, not a statistically conclusive benchmark. Specify the same geography, company fit and buying roles. Record accounts each provider cannot cover.</p></li><li><strong>Inspect before importing.</strong><p>Check the company, current role, number type and duplicate people. Separate a missing phone from a wrong phone. Flag shared company numbers so two reps do not call the same switchboard at once.</p></li><li><strong>Work a controlled batch.</strong><p>Keep the offer, caller, attempt policy and calling windows comparable. Do not call the same person twice to test two suppliers. Mark overlapping records and avoid double-counting outcomes.</p></li><li><strong>Buy the next batch from the evidence.</strong><p>Record useful conversations and held meetings separately from data quality. An unanswered call is not proof of a bad number. Small samples give direction; they do not establish a universal winner.</p></li></ol>
+    <div class="lp-download-row"><div><h3>A scorecard your team can actually use.</h3><p>Account coverage, phone types, wrong numbers, duplicates, usable contacts, cost and sales outcomes.</p></div><div><a class="lp-button" href="/assets/downloads/b2b-lead-provider-test-scorecard.csv" download="CallTeam-Lead-Provider-Test-Scorecard.csv">Download the free CSV <span aria-hidden="true">↓</span></a><p class="lp-small">Blank comparison template for Excel or Google Sheets. The website calculator does the maths.</p></div></div>
+    <details class="lp-supplier-questions"><summary>Questions to send the supplier</summary><div id="lp-supplier-copy"><p>Can you show coverage for these accounts and roles, with missing records included?</p><p>Which numbers are mobile, work direct or company HQ? What was verified, and when?</p><p>What will we pay to reveal, enrich and export this batch? What costs extra?</p><p>What happens with wrong records, unused credits, renewal, cancellation and downloaded data after cancellation?</p></div><button class="lp-button lp-js-only" id="lp-copy" type="button" hidden>Copy these questions</button><span id="lp-copy-status" role="status"></span></details>
+  </div></section>
+
+  <section class="lp-section" id="cost-check"><div class="lp-wrap">
+    <div class="lp-heading"><p class="lp-kicker">05 / Make the maths honest</p><h2>What does a usable<br>contact actually cost?</h2><p>Define usable before comparing: a unique person at a suitable company, in the right role, with the contact route your campaign requires. Remove suppressed contacts. A phone label alone is not a completed quality check.</p></div>
+    <div class="lp-calculator lp-js-only" hidden><form id="lp-cost-form" action="#cost-check" method="get" novalidate><p class="lp-small">Illustrative starting values. Replace them with your sample results.</p><div class="lp-input-grid"><div><label for="lp-currency">Currency</label><select id="lp-currency"><option value="USD">USD</option><option value="CAD">CAD</option><option value="GBP">GBP</option><option value="EUR">EUR</option></select></div><div><label for="lp-cost">Data cost for this sample</label><input id="lp-cost" type="number" min="0" step="0.01" inputmode="decimal" value="100" required></div><div><label for="lp-exported">Contacts exported</label><input id="lp-exported" type="number" min="1" step="1" inputmode="numeric" value="50" required></div><div><label for="lp-usable">Usable unique contacts</label><input id="lp-usable" type="number" min="0" step="1" inputmode="numeric" value="35" required></div></div><p class="lp-small" id="lp-cost-help">Allocate subscription and seat costs to the same sample period. Add reveals, exports and extra enrichment. This is data cost, excluding rep time and dialler costs. Currency selection labels your inputs; it does not convert them.</p><button class="lp-button" type="submit">Calculate my contact cost →</button><p id="lp-cost-error" class="lp-error" role="alert"></p></form><div class="lp-result" aria-live="polite" aria-atomic="true"><span>Cost per usable contact</span><strong id="lp-cost-result">USD 2.86</strong><p id="lp-yield-result">35 of 50 contacts usable · 70%</p><p id="lp-result-note">Data cost ÷ usable unique contacts. A usable contact is not a meeting or a customer.</p></div></div>
+    <noscript><p><strong>Formula:</strong> sample data cost ÷ usable unique contacts. For example, a $100 sample with 35 usable contacts costs $2.86 per usable contact. If none are usable, report no usable contacts rather than a zero cost.</p></noscript>
+    <div class="lp-field-note"><p class="lp-kicker">A calling decision you will recognise</p><h3>Out of mobiles. Still have company numbers.</h3><p>Your first mobile pass is finished. There are still relevant accounts with company numbers in the CRM. That does not automatically mean you need 200 new contacts.</p><p>Split the queue into mobile, work direct, company number and missing phone. Keep callbacks and do-not-call records out of the retry queue. Test the unworked company numbers where the account fit is strong, then use the gaps to decide what to buy.</p><p>For the next purchase, use the sectors, locations and roles that produced useful conversations. Buy missing coverage. Do not pay twice for the same company and call it growth.</p><a class="lp-text-link" href="/articles/b2b-prospect-list-building-services/">See what a usable prospect list needs →</a></div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="questions"><div class="lp-wrap lp-faq-wrap"><div class="lp-heading"><p class="lp-kicker">06 / Before you commit</p><h2>Questions sales teams ask<br>before buying leads.</h2></div><div class="lp-faqs">{% for faq in guide.faqs %}<details><summary>{{ faq.q }}</summary><p>{{ faq.a }}</p></details>{% endfor %}</div></div></section>
+
+  <section class="lp-section lp-close"><div class="lp-wrap"><div class="lp-close-grid"><div><p class="lp-kicker">The next decision</p><h2>The list is one part.<br>Who is working it?</h2><p>If you need help choosing accounts, building the list, calling and following up, that is the work CallTeam does. Bring your market and your current setup. We will talk through the next practical move.</p><div class="lp-actions"><a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="lead-provider-close">Book a free 30-minute call ↗</a><a class="lp-text-link" href="/b2b-outbound-campaign-planner/">See how we would run your campaign →</a></div></div><aside><h3>Keep building the campaign.</h3><a href="/resources/cold-calling-script-examples/">Free cold calling scripts <span>What to say once you reach them →</span></a><a href="/ai-lead-generation-services/">AI-assisted lead generation <span>Research and list building connected to outreach →</span></a><a href="/case-studies/">CallTeam case studies <span>See the work behind the advice →</span></a></aside></div><p class="lp-small lp-editorial-note">Published by CallTeam. Provider specifications are linked to official sources. Review the current plan terms before purchase.</p></div></section>
+</main>
+<script id="lp-provider-data" type="application/json">{{ guide.providers | json | safe }}</script>
