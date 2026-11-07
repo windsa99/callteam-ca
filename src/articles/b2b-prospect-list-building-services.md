@@ -92,7 +92,7 @@ CallTeam can help [prepare prospect lists and connect them to human outreach](/a
 
 These options can all provide contact details, but they leave different amounts of work with your team. Ask the supplier to show where selection, checking and ongoing updates happen.
 
-Choosing a database? [Compare Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411](/resources/b2b-lead-providers/) for the strengths, drawbacks and buying checks behind each offer. Use the free scorecard to test the same target accounts before purchasing a larger batch.
+Choosing a database? [Compare the best B2B lead generation databases](/resources/b2b-lead-providers/) for the strengths, drawbacks and buying checks behind 10 providers, including Apollo, ZoomInfo and AeroLeads. Use the free scorecard to test the same target accounts before purchasing a larger batch.
 
 | Option | What you receive | Work to account for |
 | --- | --- | --- |

@@ -102,7 +102,7 @@ Discovery tools help users translate market criteria into companies and people. 
 
 The result is a prospect universe, not a list of qualified buyers. Coverage can be uneven by country, sector, company size, and job function. Buyers should test a sample against accounts they already understand instead of accepting a database-size claim as proof of relevance.
 
-For a provider shortlist, use CallTeam's [B2B lead database comparison: Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411](/resources/b2b-lead-providers/). It covers credit models, phone-data limitations and the checks to run before moving a sample into your CRM.
+For a provider shortlist, use CallTeam's [10 best B2B lead generation databases comparison](/resources/b2b-lead-providers/), covering Apollo, ZoomInfo, AeroLeads and seven other providers. It covers credit models, phone-data limitations and the checks to run before moving a sample into your CRM.
 
 ### Data enrichment and verification
 

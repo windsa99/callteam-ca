@@ -17,3 +17,8 @@
 .lp-provider-detail h4{color:var(--lp-accent);font-size:19px}
 .lp-matchups h3,.lp-field-note h3,.lp-pair-card h3{color:var(--lp-accent)}
 .lp-dark .lp-download-row h3,.lp-brief h2{color:#ff9168}
+
+/* Database selection criteria belong only to the provider comparison. */
+#lead-provider-guide .lp-database-criteria{border-left:3px solid var(--lp-accent);padding:4px 0 4px 24px;margin:0 0 30px;max-width:960px}
+#lead-provider-guide .lp-database-criteria h3{font-size:21px;color:var(--lp-accent);margin-bottom:12px}
+#lead-provider-guide .lp-database-criteria p{font-size:15px;color:var(--lp-muted);margin:0}

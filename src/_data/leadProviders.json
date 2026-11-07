@@ -40,7 +40,7 @@
       "catch": "You need the actual quote to compare the full commitment.",
       "strength": "ZoomInfo brings prospecting, account signals, enrichment and connected sales workflows into a broad platform. That gives a team with several data problems more to evaluate than a downloadable contact list.",
       "drawback": "Its pricing page does not publish a standard price or a complete package of seats, exports and contract terms. We do not like making a buying decision around a demo before the total cost is clear. Ask for the commercial details early.",
-      "unknown": "Your quoted price, included workflows, integration work and actual coverage of the people you sell to. We have no controlled evidence here that its numbers will outperform the other five providers in your market.",
+      "unknown": "Your quoted price, included workflows, integration work and actual coverage of the people you sell to. We have no controlled evidence here that its numbers will outperform the other providers in your market.",
       "verdict": "Evaluate ZoomInfo when multiple teams will use the platform. If your immediate need is a few hundred people to call, make the proposal justify the extra scope. A bigger platform only helps if you use it.",
       "check": "Request the same target-account sample you give the other suppliers. Put seats, exports, add-ons, implementation, renewal and cancellation terms in one written quote.",
       "sources": [
@@ -153,20 +153,126 @@
           "url": "https://www.lead411.com/knowledge_faqs/"
         }
       ]
+    },
+    {
+      "id": "rocketreach",
+      "name": "RocketReach",
+      "website": "https://rocketreach.co/",
+      "tag": "Phone types and confidence filters",
+      "fit": "You want contact lookups with phone-type and confidence filters.",
+      "billing": "Phone access depends on plan. Confirm current lookup and export allowances.",
+      "catch": "A confidence grade does not establish coverage of your buyers.",
+      "sourceAction": "Read the phone-data update",
+      "strength": "RocketReach’s August 2026 announcement describes mobile, direct-dial and office-phone filters, plus phone confidence grades. These can help a caller separate number types before buying data. The announcement names Pro, Ultimate and Custom as plans with access to the added phone verification.",
+      "drawback": "Phone verification is described for Pro, Ultimate and Custom. Check phone access before comparing headline plan prices. Confidence grades do not establish that a contact still holds the role you need.",
+      "unknown": "Current dollar prices and credit limits were not independently verified for this review. Your target-account phone coverage also needs a sample test. The provider’s verification claims are not a CallTeam benchmark of connection rates.",
+      "verdict": "Worth a sample test when you want more control over the phone records you select. Check who the numbers reach, then confirm phone access and the export allowance on your actual plan.",
+      "check": "Filter a sample by the phone route your campaign needs. Record missing contacts as well as successful matches. Ask for the full cost to export that sample.",
+      "sources": [
+        {
+          "label": "RocketReach phone verification announcement",
+          "url": "https://www.prnewswire.com/news-releases/rocketreach-expands-phone-verification-and-grading-through-strategic-partnership-with-trestle-302847228.html"
+        }
+      ]
+    },
+    {
+      "id": "salesintel",
+      "name": "SalesIntel",
+      "website": "https://salesintel.io/",
+      "tag": "Contact data with research support",
+      "fit": "You need contact data, enrichment and research support for missing buyers.",
+      "billing": "Custom quote. The pricing page advertises unlimited users, exports and enrichment credits.",
+      "catch": "Human, email and machine verification are different record categories.",
+      "strength": "SalesIntel combines a contact database with enrichment and Research on Demand. Its documentation distinguishes human-verified, email-verified and machine-verified records. That distinction gives you something specific to check when a sales team needs phone data, rather than treating every verified label as equivalent.",
+      "drawback": "You still need a quote to understand the purchase. Unlimited exports do not mean every research request or additional product is included. We would not pay a premium for human verification without checking which records in our sample carry that status.",
+      "unknown": "Your actual price, contract scope, research allowance and usable mobile coverage. The advertised verification process does not establish that SalesIntel will outperform another database in your territory.",
+      "verdict": "Worth testing when phone data and research support matter. Ask for a sample from your actual market and check its verification tier. A human-verified record and an email-verified record are not the same purchase.",
+      "check": "Get the included products and research allowance in writing. Inspect verification status on individual records, then test the phone fields your callers will use.",
+      "sources": [
+        {
+          "label": "Pricing and included products",
+          "url": "https://salesintel.io/pricing/"
+        },
+        {
+          "label": "Verification categories explained",
+          "url": "https://support.salesintel.io/hc/en-us/articles/4404044888217-Understand-Human-Email-and-Machine-Verified-Records"
+        }
+      ]
+    },
+    {
+      "id": "seamless-ai",
+      "name": "Seamless.AI",
+      "website": "https://seamless.ai/",
+      "tag": "Contact research and enrichment",
+      "fit": "You want contact research and enrichment in a connected workflow.",
+      "billing": "Contact research consumes Universal Credits. Confirm the paid allowance and package in your quote.",
+      "catch": "Its Credit Back Protection program excludes phone numbers.",
+      "sourceAction": "Check the credit rules",
+      "strength": "Seamless.AI uses Universal Credits for contact research, with one credit used to research one contact. Its documentation also describes enrichment and automation uses for those credits. That is relevant if your team needs to find people and fill gaps in existing records.",
+      "drawback": "An export allowance and a research allowance are different things. Its Credit Back Protection program covers qualifying invalid emails subject to conditions, but excludes phone numbers. We would not treat that protection as evidence of reliable calling data.",
+      "unknown": "The paid credit allowance, included products and total commitment in your proposed package. We have not verified which supplier will return more usable phone records for your target market.",
+      "verdict": "Shortlist it if contact search and enrichment fit your workflow. Get the credit allowance and included products in writing. Judge it on usable buyer contacts. Unlimited exports and email credit protection do not tell you how good its phone data is.",
+      "check": "Ask which actions consume the same credit balance. Separate contact phones from company phones in a sample export and inspect the fields before importing.",
+      "sources": [
+        {
+          "label": "Credit and licence types",
+          "url": "https://seamless.ai/customers/education/articles/seamless-ai-credit-and-license-types"
+        },
+        {
+          "label": "Credit Back Protection terms",
+          "url": "https://seamless.ai/policies/credit-back-protection-program"
+        },
+        {
+          "label": "CSV export options",
+          "url": "https://seamless.ai/customers/education/articles/downloading-a-csv-on-dynamic-layout"
+        }
+      ]
+    },
+    {
+      "id": "aeroleads",
+      "name": "AeroLeads",
+      "website": "https://aeroleads.com/",
+      "tag": "One-time data purchases",
+      "fit": "You want a focused contact purchase without a recurring subscription.",
+      "billing": "One-time credit packs. Saving a contact costs 1 credit, plus 5 if a phone is included.",
+      "catch": "A saved contact uses a credit even without an email. Phone availability still needs checking.",
+      "strength": "AeroLeads offers B2B contact search and enrichment, with filters for roles, companies and contact availability. Its pricing page lists one-time packs with no auto-renewal. That is a useful option when you need a batch of records rather than an ongoing subscription.",
+      "drawback": "A phone-included contact costs six credits in total. Do not mistake a 2,000-credit pack for 2,000 phone contacts. Credits have a 12-month validity period, and saving a record without an email still uses a credit.",
+      "unknown": "How many of your target buyers have a usable mobile or direct number, and whether the person still owns that number. An available-phone filter does not answer those questions.",
+      "verdict": "Worth testing for a focused list without a recurring subscription. Filter for the fields you need before saving. For calling, budget six credits per phone-included contact, then check whether the number reaches the person.",
+      "check": "Test a small export before spending the pack. Keep company numbers and personal contact numbers separate, and remove records already in your CRM.",
+      "sources": [
+        {
+          "label": "One-time packs and credit rules",
+          "url": "https://aeroleads.com/pricing"
+        },
+        {
+          "label": "Search, filters and enrichment",
+          "url": "https://aeroleads.com/"
+        }
+      ]
     }
   ],
   "faqs": [
     {
+      "q": "What is a B2B lead generation database?",
+      "a": "It is a searchable collection of companies and professional contacts. Sales teams use filters such as industry, location and job title to find potential buyers and obtain available contact details. A contact database supplies prospect records. It does not supply proof that those people want to buy."
+    },
+    {
       "q": "Where should I buy B2B leads?",
-      "a": "Shortlist providers against the job you need done. Apollo, ZoomInfo, Cognism, UpLead, Lusha and Lead411 offer different combinations of contact data and sales tools. Test the same target accounts and buying roles before committing. A database record is a prospect, not a person who has expressed interest in buying."
+      "a": "Start with the job you need done. Apollo combines data and outreach. UpLead uses a contact-credit model. AeroLeads offers one-time credit packs. ZoomInfo offers a broader platform; Cognism and SalesIntel give phone-focused teams verification features to evaluate. Compare the same target accounts before buying a larger batch."
+    },
+    {
+      "q": "What is the best lead database for a small B2B sales team?",
+      "a": "Our starting shortlist is Apollo if you need outreach tools with the data, UpLead if you want contacts for an existing workflow, and AeroLeads if you prefer a one-time purchase. Check target coverage, phone access, export costs and the full commitment. A small team needs usable records more than a large feature list."
+    },
+    {
+      "q": "Which lead generation database is best for cold calling?",
+      "a": "Choose by usable phone coverage in your actual market. Cognism’s premium mobile features, SalesIntel’s verification tiers and RocketReach’s phone-type filters give you specific things to test. Compare them with the other providers using the same accounts, roles and calling conditions. We have not established a universal phone-data winner."
     },
     {
       "q": "What is the best Apollo alternative?",
-      "a": "It depends on the gap you are trying to fill. Compare ZoomInfo for a broader platform, Cognism for its premium mobile-data offer, and UpLead, Lusha or Lead411 for different contact-purchase workflows. These are reasons to test, not evidence that one provider has better data for your market."
-    },
-    {
-      "q": "Should I buy mobile numbers or company numbers for cold calling?",
-      "a": "Buy the route that fits the buyer and the campaign. A mobile can reach someone away from the office; a company line can help you identify the responsible person at a local business. Keep the number types separate and compare qualified conversations across similar accounts. Do not assume either type always wins."
+      "a": "Match the alternative to the problem. Consider ZoomInfo for broader team workflows, Cognism or SalesIntel for their verification offers, UpLead or AeroLeads for different purchasing models, and RocketReach for phone-type filters. Lusha, Lead411 and Seamless.AI also belong in a shortlist when their research, export or enrichment approach fits. Test the gap Apollo is leaving in your own campaign."
     },
     {
       "q": "Does verified data mean the number will work?",
@@ -174,11 +280,7 @@
     },
     {
       "q": "Can I buy leads once without a subscription?",
-      "a": "Check the provider's current billing terms. A monthly plan is still a recurring subscription. Confirm cancellation, credit expiry, export rights and whether you can keep using downloaded records after the plan ends. Do not assume one month of use means a one-time purchase."
-    },
-    {
-      "q": "When should I buy more leads?",
-      "a": "When the usable queue for the right accounts and roles is running low. First check unworked company numbers, missing fields, duplicates and existing follow-ups. If those records are poor fits, buy a better-targeted sample. If they are good fits, work the useful routes you already have before paying to replace them."
+      "a": "Yes. AeroLeads currently advertises one-time credit packs without auto-renewal. Check credit expiry, phone charges and usage terms before buying. A monthly subscription from another provider is a different arrangement: confirm cancellation and what happens to unused credits and downloaded records."
     },
     {
       "q": "How do I compare lead costs fairly?",
