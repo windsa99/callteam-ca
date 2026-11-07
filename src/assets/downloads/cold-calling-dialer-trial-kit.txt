@@ -1,0 +1,59 @@
+CALLTEAM | FREE COLD CALLING DIALLER TRIAL KIT
+https://www.callteam.ca/resources/best-cold-calling-dialers/
+
+Copy this blank kit for each trial. Compare similar calling blocks; a short trial is not a controlled performance benchmark. Keep unique contacts, attempts, conversations and held meetings separate.
+
+DIALLER TRIAL SCORECARD
+Provider / plan / mode:
+Trial dates / reviewer:
+CRM and integration:
+Calling market / time windows:
+Number types / buyer roles:
+Active callers / paid seats / simultaneous lines:
+
+
+INPUT AND COST
+Unique contacts attempted:
+Total call attempts (including retries):
+Billable units / actual charges / currency:
+Required subscription / add-ons / term:
+Setup and CRM cleanup time:
+
+
+CALL QUALITY
+Intended-buyer conversations:
+Useful conversations (define this before the trial):
+Voicemail / screening outcomes:
+Missed human answers / connection problems:
+Simultaneous-answer handling and retry behaviour:
+Inbound callback result:
+Wrong-number and stop-request handling:
+
+
+CRM AND FOLLOW-UP
+Incorrect contact matches / duplicate activities:
+Missing or inaccurate notes / dispositions:
+Callback tasks and recordings checked:
+Held meetings (separate from conversations):
+
+
+DECISION
+What worked:
+What failed and can it be fixed:
+Written answers still needed:
+Keep / extend trial / reject:
+Next review date:
+
+QUESTIONS TO ASK SALES
+
+1. Quote the exact dialler-enabled plan, currency, minimum paid seats, billing term and payment schedule. What renews automatically, and when must we cancel?
+
+2. Which features are included: power, parallel, predictive, human detection, coaching, recording and callbacks? Which require an add-on or different tier?
+
+3. What costs extra for numbers, destinations, minutes, credits, voicemail connections and inbound calls? What is the rounding rule? What does “unlimited” exclude?
+
+4. What happens when two people answer at once, a screening assistant answers, or no rep is free? Show us the call log and retry behaviour.
+
+5. Show our exact CRM fields, dispositions, duplicate handling and callback tasks. What requires another connector or subscription?
+
+6. Can we reduce seats mid-term? What happens to our numbers, recordings, notes and unused credits when we leave? Put the answers in the offer.

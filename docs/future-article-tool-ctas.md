@@ -63,3 +63,15 @@ The frozen legacy manifest records the 138 articles published before this rule. 
 The existing article layout, reusable button component, shared CSS, header, footer, booking links and form code are unchanged. The policy adds publishing checks; it does not append buttons to every rendered page.
 
 Preview fixtures live under `tests/fixtures/article-tool-ctas/`, outside the website input directory. Build them only in an isolated QA copy. Never move test articles into the production source tree or publish the preview build.
+
+## Relevant free resources in future guides
+
+Choose resource links from the reader's next task, as requested for the lead-buying and dialler guides. Do not append the full tool catalogue to every page. These editorial links supplement the Article Engine fields above; they do not replace required booking or campaign/ROI buttons.
+
+- Preparing what to say: `/resources/cold-call-scripts/` for the free industry/situation library; `/resources/cold-calling-script-examples/` for a general opening and replies.
+- Reviewing an existing opening: `/cold-call-script-checker/`. Describe it as a wording check, not a predictor of meetings or sales.
+- Assessing the complete campaign budget and customer economics: `/b2b-lead-generation-roi-calculator/`. Distinguish this from a product subscription calculator.
+- Planning targeting and execution: `/b2b-outbound-campaign-planner/`.
+- Reviewing meeting qualification or handoff: `/b2b-meeting-quality-check/` when that is the actual subject.
+
+Use a short card or contextual sentence after the relevant advice. Match the site's fonts and orange palette. Avoid duplicate generic invitations, forced keyword links and links to unfinished pages. Verify each selected destination and tool before release. The standalone lead-buying and dialler pages use `components/free-calling-resources.njk` with the scoped `guide-resources.css` for the script library/checker pair.
