@@ -83,7 +83,7 @@
       "costNote": "Phone numbers and calling credits are extra. Confirm the exact phone package.",
       "strength": "Pro includes sales sequences with email, call and task steps, alongside built-in phone. That is a relevant starting point when a small team wants organised follow-up without the subscription price of some larger platforms.",
       "drawback": "Phone credits are separate. The power-dialler help page limits access to eligible Freshsales Suite accounts, so confirm eligibility for the product and plan in your quote.",
-      "verdict": "Put it on your trial list if subscription cost matters. Confirm whether the quote covers Freshsales, Freshsales Suite or Freshcaller, and ask which calling features it includes.",
+      "verdict": "Start with Freshsales Pro when you need built-in calling and sequences at a lower subscription cost. Confirm which phone features and credits the quote includes.",
       "check": "Confirm power-dialler access, number availability and usage charges. Pro currently lists ten sequences per user. Run the same callback and import checks you would run on the more expensive CRMs.",
       "sources": [
         {"label": "Pro features and annual price", "url": "https://www.freshworks.com/crm/pricing/"},
@@ -105,7 +105,7 @@
       "minSeats": 1,
       "price": "USD 14/user/month billed annually, or USD 20 on monthly billing.",
       "costNote": "Phone service, numbers, usage and any advanced dialler are separate buying checks.",
-      "strength": "Standard already supports Cadences for follow-up, so you do not automatically need Professional for a basic sequence. It deserves a look when the team wants a lower CRM subscription or already works with other Zoho products.",
+      "strength": "Standard includes Cadences for follow-up. It suits teams seeking a lower subscription price or already working with other Zoho products.",
       "drawback": "A connected phone service has its own costs and behaviour. Cadence limits vary by edition, and Professional adds process controls. Include time to configure the calling queue and rules for ending follow-up.",
       "verdict": "Consider it if you already use Zoho or can assign someone to configure the fields, calling queues and follow-up rules. Include the phone system and setup work when comparing costs.",
       "check": "Use full CRM user seats for calling reps. Show how a reply or stop request ends follow-up, and where a callback lands. Confirm the calling integration and account-specific rollout before committing.",
@@ -152,7 +152,7 @@
       "costNote": "One user still pays for three seats. Calling consumes credits; other apps can add fees.",
       "strength": "A visual workspace for leads, deals and team handoffs, with sequences on Pro. Smart Call adds mobile calling and logged call history.",
       "drawback": "Smart Call currently has no browser calling or power dialler. Connected minutes consume five AI credits each, and plans start at three paid seats. Confirm the cost of those credits and the setup required for a desktop calling queue.",
-      "verdict": "Consider it for visual coordination and mobile calls. If your reps power dial from laptops, require a demonstration of the complete desktop calling setup before buying.",
+      "verdict": "Choose it for visual coordination and mobile calls. Reps power dialling from laptops need a separate desktop calling setup.",
       "check": "Test an incoming callback as well as an outgoing call. With an external verified caller ID, return calls go to that external number and bypass monday's logging.",
       "sources": [
         {"label": "Plans", "url": "https://monday.com/crm/pricing"},
@@ -173,7 +173,7 @@
     {"id": "handoff", "title": "Hand the record to another rep.", "text": "Change the owner, check the history and next task, then inspect an export. Find out what happens to notes and recordings if you leave."}
   ],
   "faqs": [
-    {"q": "What is the best CRM for cold calling?", "a": "Start with the calling workflow. Close Growth is worth testing for a native power dialler and automated follow-up. Freshsales Pro deserves a look for built-in phone and sequences, with power-dialler eligibility checked separately. An existing HubSpot, Pipedrive, Zoho or Salesforce setup may be the better choice when it already handles your records and connects to a suitable dialler. There is no universal winner."},
+    {"q": "What is the best CRM for cold calling?", "a": "Choose Close Growth for a native power dialler and automated follow-up. Compare Freshsales Pro for built-in phone and sequences; check power-dialler access separately. Keep your existing HubSpot, Pipedrive, Zoho or Salesforce setup if it already handles records and connects to the dialler you need."},
     {"q": "Which CRM is best for a small outbound sales team?", "a": "Shortlist around the work: Close for calling in the CRM; Pipedrive for a visual pipeline with a separate calling app; Freshsales or Zoho when subscription cost matters. Include HubSpot or Salesforce when the wider business already uses it. For one person considering monday CRM, account for its three-seat minimum. Trial the callback and follow-up workflow before paying annually."},
     {"q": "Does a CRM with calling include a power dialler?", "a": "Not necessarily. Click-to-call, mobile calling and a power dialler are different workflows. Close places power dialling on Growth. Pipedrive web calling uses a connected app. monday Smart Call is mobile-based and currently lacks power dialling. Ask the vendor to show the mode on the exact plan you are buying."},
     {"q": "Can I use Apollo instead of a CRM?", "a": "Apollo supports deals, tasks and pipeline reporting as well as prospecting and outreach. It may cover a small team's requirements. Before buying another CRM, check ownership, history, follow-up, reporting and the handoff you need. If you connect a CRM, decide which system owns each field and stage, and test the sync."},

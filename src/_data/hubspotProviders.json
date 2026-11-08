@@ -1,0 +1,258 @@
+[
+  {
+    "id": "pipedrive",
+    "name": "Pipedrive",
+    "plan": "Growth",
+    "annualRate": 24,
+    "tag": "A simpler pipeline",
+    "fit": "Your team mainly needs deals, email sync and reliable follow-up.",
+    "price": "$24 / user / month*",
+    "billing": "Growth, annual billing; see price note below",
+    "catch": "Web calling needs another provider. LeadBooster, documents and campaigns can add to the bill.",
+    "good": "Growth includes full email sync, tracking, automations and follow-up sequences. The visual pipeline gives reps a straightforward way to manage deals and the next activity.",
+    "limit": "Browser calling needs a connected phone provider. Marketing campaigns and advanced document tools are separate add-ons.",
+    "cost": "Growth is listed at $24 per user per month, billed annually; see the price difference noted above. LeadBooster, Smart Docs, Projects and Campaigns cost extra.",
+    "verdict": "Choose Growth for a straightforward sales pipeline and email follow-up. Budget separately for the phone system and marketing tools you need.",
+    "check": "Import a live deal, send an email and assign its next call. Check that the rep can see all three without rebuilding the record.",
+    "sources": [
+      {
+        "label": "Current USD pricing",
+        "url": "https://www.pipedrive.com/en/pricing"
+      },
+      {
+        "label": "Sequences",
+        "url": "https://support.pipedrive.com/en/article/sequences"
+      },
+      {
+        "label": "Calling options",
+        "url": "https://support.pipedrive.com/en/article/how-can-i-make-calls-in-pipedrive"
+      },
+      {
+        "label": "Add-on billing",
+        "url": "https://support.pipedrive.com/en/article/how-does-pricing-work-in-pipedrive"
+      },
+      {
+        "label": "Older published price",
+        "url": "https://www.pipedrive.com/en/blog/pipedrive-vs-infusionsoft-keap"
+      }
+    ]
+  },
+  {
+    "id": "close",
+    "name": "Close",
+    "plan": "Growth",
+    "annualRate": 99,
+    "tag": "Calls inside the CRM",
+    "fit": "Reps spend much of the day calling and following up.",
+    "price": "$99 / user / month",
+    "billing": "Growth, annual billing; $109 monthly",
+    "catch": "The cheaper Essentials plan has no automated workflows. Phone numbers and usage cost extra.",
+    "good": "Growth combines the pipeline, email, automated workflows and a power dialler. Calls and follow-up can stay on the same lead record, which suits a busy calling team.",
+    "limit": "Existing HubSpot activities need a separate migration from your contacts. Plan how to move the history and rebuild your automations.",
+    "cost": "Growth costs $99 per user per month on annual billing, or $109 month to month. Essentials costs $35 or $49 on those terms but leaves out workflows. Add numbers, calling, SMS and optional AI usage.",
+    "verdict": "Choose Close Growth if your reps spend the day calling and following up. The power dialler and workflows are built in. Phone usage costs extra.",
+    "check": "Test an unanswered call, a scheduled callback and a handoff to another rep. Confirm that the history and next task survive the migration.",
+    "sources": [
+      {
+        "label": "Plans and extra charges",
+        "url": "https://close.com/pricing"
+      },
+      {
+        "label": "Workflow steps",
+        "url": "https://help.close.com/feature-guide/workflows"
+      },
+      {
+        "label": "Migrating existing history",
+        "url": "https://help.close.com/getting-started/import-data-into-close/migration-from-another-crm"
+      }
+    ]
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho CRM",
+    "plan": "Standard",
+    "annualRate": 14,
+    "tag": "A tight subscription budget",
+    "fit": "You want email, workflows and follow-up at a low seat price.",
+    "price": "$14 / user / month",
+    "billing": "Standard, annual billing; $20 monthly",
+    "catch": "Someone must own the configuration. Calling numbers and usage consume paid credits.",
+    "good": "Standard already includes email integration, workflow rules and Cadences for follow-up. You do not need Professional simply to get a sequence of sales activities.",
+    "limit": "Cadence and automation limits depend on the edition. Someone must own field setup and follow-up rules.",
+    "cost": "Standard is $14 per user monthly on annual billing or $20 month to month. Built-in telephony charges for numbers and usage. Supporting Team User licences have restricted access and do not replace full sales licences.",
+    "verdict": "Start with Standard when subscription cost is the priority. It already covers email, workflows and Cadences. Upgrade when you hit a limit that affects the work.",
+    "check": "Have the person who will maintain Zoho build one follow-up sequence. Check how replies stop it and who receives the next task.",
+    "sources": [
+      {
+        "label": "USD plans",
+        "url": "https://www.zoho.com/en-us/crm/zohocrm-pricing.html"
+      },
+      {
+        "label": "Cadence limits",
+        "url": "https://help.zoho.com/portal/en/kb/crm/automate-business-processes/cadences/articles/cadences"
+      },
+      {
+        "label": "Telephony charges",
+        "url": "https://help.zoho.com/portal/en/kb/crm/connect-with-customers/telephony/articles/configuring-built-in-telephony-in-zoho-crm"
+      }
+    ]
+  },
+  {
+    "id": "freshsales",
+    "name": "Freshsales",
+    "plan": "Pro",
+    "annualRate": 39,
+    "tag": "Sales email and phone together",
+    "fit": "You want a sales CRM with built-in calling and sequences.",
+    "price": "$39 / user / month",
+    "billing": "Pro, annual billing; $47 monthly",
+    "catch": "Growth's $9 annual rate excludes sales sequences. Phone usage needs paid credits.",
+    "good": "Freshsales combines contact and deal management with email and phone tools. Pro adds sales sequences and more automation, making it the relevant tier for repeated follow-up.",
+    "limit": "Pro allows ten sales sequences per user. Phone credits sit outside the licence price.",
+    "cost": "Pro costs $39 per user per month on annual billing, or $47 month to month. Growth costs $9 or $11 on those terms. Phone numbers, inbound and outbound calls, and some calling features consume prepaid credits.",
+    "verdict": "Choose Pro for built-in calling and sales sequences at a lower licence cost than HubSpot Professional. The cheaper Growth plan leaves out sequences.",
+    "check": "Run a short calling session, inspect credit use and check the follow-up record. Include an old HubSpot note and completed activity in the migration sample.",
+    "sources": [
+      {
+        "label": "US pricing and features",
+        "url": "https://www.freshworks.com/crm/pricing/?region=united-states"
+      },
+      {
+        "label": "Sequence configuration",
+        "url": "https://crmsupport.freshworks.com/support/solutions/articles/50000002443"
+      },
+      {
+        "label": "Phone credits",
+        "url": "https://crmsupport.freshworks.com/support/solutions/articles/50000002652"
+      }
+    ]
+  },
+  {
+    "id": "monday",
+    "name": "monday CRM",
+    "plan": "Pro",
+    "annualRate": 28,
+    "tag": "Visual team coordination",
+    "fit": "The team wants configurable boards and shared sales processes.",
+    "price": "$28 / seat / month",
+    "billing": "Pro, annual billing; $41 monthly",
+    "catch": "Three-seat minimum, then seat buckets. Smart Call is mobile-only and uses AI credits.",
+    "good": "monday CRM gives teams flexible boards, ownership and automation. Pro includes sequences. Its Smart Call feature supports native calls in the mobile app with recording and summaries.",
+    "limit": "Smart Call has no browser calling or power dialler. Reps calling from laptops need a separate phone integration.",
+    "cost": "Pro costs $28 per seat per month on annual billing, or $41 monthly. Standard costs $17 or $25 on those terms. Four users pay for five seats; six pay for ten. Smart Call uses five AI credits per connected minute. Confirm the price of extra credits.",
+    "verdict": "Good for shared pipelines and visual coordination. For a team power dialling from laptops, the extra phone setup makes it a less direct choice.",
+    "check": "Price your next hire as well as today's headcount. Have a rep complete a real call and update the deal from the device they use all day.",
+    "sources": [
+      {
+        "label": "CRM prices",
+        "url": "https://monday.com/crm/pricing"
+      },
+      {
+        "label": "Seat buckets",
+        "url": "https://support.monday.com/hc/en-us/articles/4405633151634-Plans-and-pricing-for-monday-com"
+      },
+      {
+        "label": "Smart Call limits",
+        "url": "https://support.monday.com/hc/en-us/articles/35893698534674-Get-started-with-monday-Smart-Call"
+      },
+      {
+        "label": "Calling credits",
+        "url": "https://support.monday.com/hc/en-us/articles/38017810762770-monday-Smart-Call-AI-credits"
+      }
+    ]
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "plan": "Pro Suite",
+    "annualRate": 100,
+    "tag": "More process control",
+    "fit": "Your business needs custom sales processes and app integrations.",
+    "price": "$100 / user / month",
+    "billing": "Pro Suite, annual contract; Starter is $25",
+    "catch": "Sales cadences and API access can add charges. Configuration needs an owner.",
+    "good": "Starter offers basic CRM at a published price. Pro Suite adds more customization, quoting, forecasting and app integrations for a business with a defined sales process.",
+    "limit": "Pro is four times Starter's seat price. It is easy to build a substantial bill around additional sales tools and administration. Confirm the exact edition needed for every integration.",
+    "cost": "Starter is $25 per user monthly. Pro Suite is $100 with an annual contract. Its pricing table lists API access at another $25 per user monthly. Sales Engagement starts at $50 extra per user monthly, billed annually; confirm edition eligibility in the quote.",
+    "verdict": "Starter is fairly priced for basic CRM work. Buy Pro when its customization and integrations solve a specific business need. The Salesforce name alone is a poor reason to pay more.",
+    "check": "Ask for one quote covering the CRM, sales cadences, phone system, API needs and implementation. Get your own workflow demonstrated on that configuration.",
+    "sources": [
+      {
+        "label": "Sales plans and API pricing",
+        "url": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "label": "Pro Suite features",
+        "url": "https://www.salesforce.com/small-business/pro-suite/"
+      },
+      {
+        "label": "Sales Engagement pricing",
+        "url": "https://www.salesforce.com/sales/engagement-platform/pricing/"
+      }
+    ]
+  },
+  {
+    "id": "dynamics",
+    "name": "Microsoft Dynamics 365 Sales",
+    "plan": "Enterprise",
+    "annualRate": 105,
+    "tag": "A Microsoft-based business",
+    "fit": "Microsoft already runs the business and you have someone to manage setup.",
+    "price": "$105 / user / month",
+    "billing": "Enterprise, paid yearly; Professional is $65",
+    "catch": "Teams calling has separate licence and phone requirements. Setup adds work.",
+    "good": "Dynamics connects sales records with the Microsoft environment. Enterprise includes Sales Accelerator for up to 1,500 sequence-connected records a month, supporting organized follow-up.",
+    "limit": "Professional has more limited automation. Teams calling needs separately licensed and configured phone service.",
+    "cost": "Sales Professional is $65 per user monthly, Enterprise $105 and Premium $150, paid yearly. Phone service and some Power Platform capabilities need additional licences. The ten-seat minimum on Relationship Sales belongs to that separate LinkedIn bundle.",
+    "verdict": "Dynamics suits a Microsoft-based business with someone responsible for the CRM. Budget for setup and administration. For a simple calling team, start with the easier options.",
+    "check": "Test email sync and Teams calling with your actual licences. Confirm who will maintain permissions, fields and follow-up rules after launch.",
+    "sources": [
+      {
+        "label": "USD sales plans",
+        "url": "https://www.microsoft.com/en-us/dynamics-365/products/sales/pricing"
+      },
+      {
+        "label": "Sales Accelerator capacity",
+        "url": "https://learn.microsoft.com/en-us/dynamics365/sales/digital-selling"
+      },
+      {
+        "label": "Teams dialler requirements",
+        "url": "https://learn.microsoft.com/en-us/dynamics365/sales/configure-microsoft-teams-dialer"
+      }
+    ]
+  },
+  {
+    "id": "attio",
+    "name": "Attio",
+    "plan": "Pro",
+    "annualRate": 79,
+    "tag": "Flexible customer records",
+    "fit": "You want a configurable CRM for relationships and email follow-up.",
+    "price": "$79 / user / month",
+    "billing": "Pro, annual billing; $99 monthly",
+    "catch": "Sequences require Pro. Call Intelligence does not include an outbound phone service.",
+    "good": "Attio offers flexible records, synced mailboxes and automation. Pro adds email sequences and more access controls. Its HubSpot migration route can bring across more than a basic CSV import.",
+    "limit": "Attio describes sequences for warm leads, existing customers and expected messages. Phone calls need a separate integration. Check the workspace credit allowance for the automation and enrichment you plan to use.",
+    "cost": "Free supports up to three seats. Plus costs $35 per user per month on annual billing, or $44 monthly. Pro costs $79 or $99 on those terms. All workspace members use the same plan. Calling providers and extra credits add charges.",
+    "verdict": "Choose Attio for flexible customer records and relationship management. Daily cold calling needs a separate phone service, and Pro costs $79 per user on annual billing.",
+    "check": "Move a small sample with linked companies, notes and deals. Test the phone integration and check which activities appear on the right record.",
+    "sources": [
+      {
+        "label": "Current plans and credits",
+        "url": "https://attio.com/pricing"
+      },
+      {
+        "label": "Sequence access and intended use",
+        "url": "https://attio.com/help/reference/automations/sequences/create-a-sequence"
+      },
+      {
+        "label": "Phone integration",
+        "url": "https://attio.com/help/reference/apps/communication-apps/aircall-app"
+      },
+      {
+        "label": "HubSpot migration",
+        "url": "https://attio.com/help/reference/imports-exports/migrate-data-from-another-crm"
+      }
+    ]
+  }
+]

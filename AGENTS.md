@@ -46,3 +46,14 @@ The 138 previously published articles are identified by source path and permalin
 For policy changes, run `node scripts/test-article-editorial-profiles.js`, `npm run test:article-tools`, `npm run build`, and `npm run check:library`. Test campaign-only, ROI-only and combined sample articles in an isolated copy outside production sources. Compare the clean production build with its baseline and require every existing output file to remain identical when the release is intended to affect future publishing only.
 
 Standalone service and landing pages keep contextual placements chosen for their own purpose; they are not automatically modified by the Article Engine rule.
+
+## Comparison guide voice and disclosures
+
+User preference confirmed 8 November 2026:
+
+- Use plain, professional, blunt English. Give a clear recommendation tied to the buyer's needs. Cut repeated cautions, defensive explanations, hesitant filler and canned transitions such as "why this matters" or "that distinction matters".
+- Do not disclose which vendors or software CallTeam uses in public page copy. Do not add tool-use or technology-partner statements to comparison introductions or verdicts.
+- Omit generic benchmark disclaimers and repeated explanations of what the guide is or is not. Do not invent firsthand tests, benchmark results or universal winners.
+- Keep specific facts that change the buying decision: published prices, billing terms, minimum seats, usage charges, add-ons, feature limits and material unknowns. Explain these once where they help the reader.
+- Link product facts to official sources and keep an accurate checked date. Any genuinely material commercial disclosure still belongs in a short, relevant note.
+- Preserve SEO targeting, useful cross-links, free resources and booking calls to action when tightening copy. Test affected tools and links before publication.

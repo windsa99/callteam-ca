@@ -165,8 +165,8 @@
       "sourceAction": "Read the phone-data update",
       "strength": "RocketReach’s August 2026 announcement describes mobile, direct-dial and office-phone filters, plus phone confidence grades. These can help a caller separate number types before buying data. The announcement names Pro, Ultimate and Custom as plans with access to the added phone verification.",
       "drawback": "Phone verification is described for Pro, Ultimate and Custom. Check phone access before comparing headline plan prices. Confidence grades do not establish that a contact still holds the role you need.",
-      "unknown": "Current dollar prices and credit limits were not independently verified for this review. Your target-account phone coverage also needs a sample test. The provider’s verification claims are not a CallTeam benchmark of connection rates.",
-      "verdict": "Worth a sample test when you want more control over the phone records you select. Check who the numbers reach, then confirm phone access and the export allowance on your actual plan.",
+      "unknown": "Current prices and credit limits are unconfirmed. Get the phone-plan price and test coverage on your target accounts.",
+      "verdict": "Useful for selecting phone records by type and confidence grade. Check who the numbers reach, then confirm the phone and export allowances on your plan.",
       "check": "Filter a sample by the phone route your campaign needs. Record missing contacts as well as successful matches. Ask for the full cost to export that sample.",
       "sources": [
         {
@@ -186,7 +186,7 @@
       "strength": "SalesIntel combines a contact database with enrichment and Research on Demand. Its documentation distinguishes human-verified, email-verified and machine-verified records. That distinction gives you something specific to check when a sales team needs phone data, rather than treating every verified label as equivalent.",
       "drawback": "You still need a quote to understand the purchase. Unlimited exports do not mean every research request or additional product is included. We would not pay a premium for human verification without checking which records in our sample carry that status.",
       "unknown": "Your actual price, contract scope, research allowance and usable mobile coverage. The advertised verification process does not establish that SalesIntel will outperform another database in your territory.",
-      "verdict": "Worth testing when phone data and research support matter. Ask for a sample from your actual market and check its verification tier. A human-verified record and an email-verified record are not the same purchase.",
+      "verdict": "Choose it when phone data and research support are priorities. Ask for a sample from your market and check which records received human verification.",
       "check": "Get the included products and research allowance in writing. Inspect verification status on individual records, then test the phone fields your callers will use.",
       "sources": [
         {
@@ -239,7 +239,7 @@
       "strength": "AeroLeads offers B2B contact search and enrichment, with filters for roles, companies and contact availability. Its pricing page lists one-time packs with no auto-renewal. That is a useful option when you need a batch of records rather than an ongoing subscription.",
       "drawback": "A phone-included contact costs six credits in total. Do not mistake a 2,000-credit pack for 2,000 phone contacts. Credits have a 12-month validity period, and saving a record without an email still uses a credit.",
       "unknown": "How many of your target buyers have a usable mobile or direct number, and whether the person still owns that number. An available-phone filter does not answer those questions.",
-      "verdict": "Worth testing for a focused list without a recurring subscription. Filter for the fields you need before saving. For calling, budget six credits per phone-included contact, then check whether the number reaches the person.",
+      "verdict": "A practical option for a focused list without a recurring subscription. Filter for the fields you need before saving. Budget six credits per phone-included contact, then check who the number reaches.",
       "check": "Test a small export before spending the pack. Keep company numbers and personal contact numbers separate, and remove records already in your CRM.",
       "sources": [
         {

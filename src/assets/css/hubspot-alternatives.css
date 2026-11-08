@@ -1,0 +1,109 @@
+#hubspot-guide .lp-hero{grid-template-columns:minmax(0,1.45fr) minmax(0,.85fr);gap:56px}
+#hubspot-guide h1{font-size:clamp(43px,4.8vw,65px)}
+#hubspot-guide .hs-brands{font-size:12px;line-height:1.9;color:#626262;max-width:660px;margin:22px 0 0}
+#hubspot-guide .lp-brief h2{font-size:38px}
+#hubspot-guide .hs-table-wrap{border:1px solid var(--lp-line)}
+#hubspot-guide .hs-comparison{min-width:0;table-layout:fixed}
+#hubspot-guide .hs-comparison thead th:nth-child(1){width:15%}
+#hubspot-guide .hs-comparison thead th:nth-child(2){width:24%}
+#hubspot-guide .hs-comparison thead th:nth-child(3){width:34%}
+#hubspot-guide .hs-comparison thead th:nth-child(4){width:27%}
+#hubspot-guide .hs-comparison tbody th{font-size:18px;overflow-wrap:anywhere}
+#hubspot-guide .hs-comparison td{width:auto}
+#hubspot-guide .hs-comparison td strong{display:block;font-weight:600;font-size:15px;color:#111}
+#hubspot-guide .hs-comparison td span{display:block;font-size:12px;margin-top:5px;color:#5b5b5b}
+#hubspot-guide .hs-comparison td .hs-allowance{color:#7b2e10;font-weight:600}
+#hubspot-guide .hs-comparison .hs-reference{display:block;font:500 10px/1.6 Inter,Arial,sans-serif;letter-spacing:.03em;color:#66594e;margin-top:7px}
+#hubspot-guide .hs-reference-row{background:#fff3eb}
+#hubspot-guide .hs-baseline{border-left:3px solid #ff5a1f;padding:4px 0 4px 24px;margin-top:32px;scroll-margin-top:160px}
+#hubspot-guide .hs-baseline h3,#hubspot-guide .hs-decision-grid h3,#hubspot-guide .hs-switch h3{color:#ff5a1f;font-size:26px;margin-bottom:16px}
+#hubspot-guide .hs-baseline>p:not(.lp-sources){font-size:14px;color:#555;max-width:960px}
+#hubspot-guide .hs-baseline .lp-sources{border:0;padding-top:0;margin-top:12px}
+#hubspot-guide .hs-mid-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 32px;background:#fff3eb;border-left:3px solid #ff5a1f;margin-top:32px}
+#hubspot-guide .hs-mid-cta h3{font-size:25px;margin-bottom:12px}
+#hubspot-guide .hs-mid-cta p{font-size:14px;color:#55473f;margin:0;max-width:620px}
+#hubspot-guide .hs-mid-cta .lp-button{flex-shrink:0;padding:14px 22px}
+#hubspot-guide .lp-provider-head{padding-bottom:22px}
+#hubspot-guide .lp-provider-head h3{font-size:34px}
+#hubspot-guide .lp-verdict{background:#fff0e5;border-top:3px solid #ff5a1f}
+#hubspot-guide .lp-verdict .lp-kicker{border:0;padding:0}
+#hubspot-guide .lp-verdict-text{font-size:21px}
+#hubspot-guide .hs-decision-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+#hubspot-guide .hs-decision-grid p{font-size:15px;color:#555}
+#hubspot-guide .hs-decision-grid .lp-sources{font-size:11px}
+#hubspot-guide .hs-switch{background:#f5f4f2;border:1px solid #dddcd7;padding:30px 34px;margin-top:32px;scroll-margin-top:150px}
+#hubspot-guide .hs-switch ul{padding-left:21px;margin:0 0 20px;display:grid;grid-template-columns:1fr 1fr;gap:14px 45px}
+#hubspot-guide .hs-switch li{font-size:14px;color:#505050;padding-left:4px}
+#hubspot-guide .hs-switch>p{font-size:14px;margin:0}
+#hubspot-guide .hs-copy-layout{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:start}
+#hubspot-guide .hs-copy-layout pre{white-space:pre-wrap;overflow-wrap:anywhere;font:400 14px/1.85 Inter,Arial,sans-serif;border:1px solid #444;background:#1b1b1b;color:#eee;margin:0 0 22px;padding:26px}
+#hubspot-guide .hs-copy-layout aside{border-top:3px solid #ff9168;padding-top:24px}
+#hubspot-guide .hs-copy-layout h3{font-size:28px;color:#ff9168;margin-bottom:20px}
+#hubspot-guide .hs-copy-layout aside p{font-size:15px;color:#c7c7c7}
+#hubspot-guide .hs-copy-layout aside p strong{color:#fff}
+#hubspot-guide .hs-copy-layout .lp-text-link{display:inline-block;font-size:13px}
+#hubspot-guide #hs-copy-status{font-size:13px;line-height:1.7;min-height:24px;color:#ffb394;margin:12px 0 0}
+#hubspot-guide .hs-return{font-size:13px;line-height:1.8;margin:28px 0 0;padding-top:20px;border-top:1px solid #ddd;color:#555}
+#hubspot-guide #free-alternatives{scroll-margin-top:150px}
+@media(max-width:1000px){#hubspot-guide .lp-hero{gap:30px}#hubspot-guide .hs-comparison th,#hubspot-guide .hs-comparison td{padding:16px 14px}#hubspot-guide .hs-mid-cta{align-items:flex-start;flex-direction:column}#hubspot-guide .hs-copy-layout{gap:30px}}
+@media(max-width:760px){
+#hubspot-guide .lp-hero{grid-template-columns:1fr}#hubspot-guide h1{font-size:48px}#hubspot-guide .lp-brief h2{font-size:34px}
+#hubspot-guide .hs-decision-grid,#hubspot-guide .hs-copy-layout{grid-template-columns:1fr;gap:28px}
+#hubspot-guide .hs-switch{padding:24px}#hubspot-guide .hs-switch ul{grid-template-columns:1fr;gap:14px}
+#hubspot-guide .hs-copy-layout pre{font-size:13px;padding:20px}#hubspot-guide .hs-mid-cta{padding:24px}
+#hubspot-guide .lp-provider-head h3{font-size:29px}#hubspot-guide .hs-brands{font-size:11px}
+#hubspot-guide .hs-comparison{display:block;width:100%;font-size:13px}
+#hubspot-guide .hs-comparison caption{display:block;font-size:11px;padding:15px 18px}
+#hubspot-guide .hs-comparison thead{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+#hubspot-guide .hs-comparison tbody{display:block}
+#hubspot-guide .hs-comparison tr{display:block;border-bottom:1px solid #ccc;padding:20px}
+#hubspot-guide .hs-comparison tr:last-child{border-bottom:0}
+#hubspot-guide .hs-comparison tbody th{display:block;width:100%;font-size:24px;padding:0 0 12px;border:0}
+#hubspot-guide .hs-comparison td{display:block;width:100%;padding:10px 0;border:0}
+#hubspot-guide .hs-comparison td:last-child{padding-bottom:0}
+#hubspot-guide .hs-comparison td:before{content:attr(data-label);display:block;text-transform:uppercase;letter-spacing:.07em;font-size:10px;font-weight:700;color:#7b2e10;margin-bottom:5px}
+#hubspot-guide .hs-comparison td strong{font-size:17px}
+#hubspot-guide .hs-comparison .hs-reference{font-size:10px}
+}
+@media(max-width:390px){#hubspot-guide h1{font-size:42px}#hubspot-guide .hs-copy-layout pre{padding:17px}#hubspot-guide .hs-comparison tr{padding:18px}#hubspot-guide .lp-provider-head h3{font-size:27px}}
+@media print{#hubspot-guide #hs-copy-questions,#hubspot-guide #hs-copy-status,#hubspot-guide .hs-mid-cta{display:none!important}#hubspot-guide .hs-copy-layout pre{color:#111;background:#fff}#hubspot-guide .hs-copy-layout aside p{color:#333}#hubspot-guide .hs-copy-layout{grid-template-columns:1fr}}
+
+#hubspot-guide h1 small{font-size:.57em;line-height:1.16;margin-top:13px}
+#hubspot-guide .lp-brief h2{font-size:35px;color:#ff9168}
+#hubspot-guide .hs-two-col{display:grid;grid-template-columns:1fr 1fr;gap:42px}
+#hubspot-guide .hs-two-col h3,#hubspot-guide .hs-price-note h3{font-size:27px;color:#ff5a1f;margin-bottom:18px}
+#hubspot-guide .hs-two-col p,#hubspot-guide .hs-price-note p{font-size:15px;color:#505050}
+#hubspot-guide .hs-price-note{padding:28px 32px;background:#fff;border:1px solid #dddcd7;border-left:3px solid #ff5a1f;margin-top:32px}
+#hubspot-guide .hs-price-note p:last-child{margin-bottom:0}
+#hubspot-guide .hs-decisions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+#hubspot-guide .hs-decisions>div{border-top:3px solid #ff5a1f;padding-top:22px}
+#hubspot-guide .hs-decisions span{font:600 11px Inter,Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:#87300e}
+#hubspot-guide .hs-decisions h3{font-size:27px;margin:14px 0 18px}
+#hubspot-guide .hs-decisions p{font-size:15px;color:#555}
+#hubspot-guide .hs-after{margin-top:38px;padding-top:32px;border-top:1px solid #dddcd7}
+#hubspot-guide .hs-related{font-size:14px;margin:28px 0 0}
+#hubspot-guide .lp-jump{top:var(--lp-header-offset,76px)}
+#hubspot-guide [id]{scroll-margin-top:calc(var(--lp-header-offset,76px) + 85px)}
+#hubspot-guide .lp-provider-head h3{color:#ff5a1f}
+@media(max-width:760px){#hubspot-guide .hs-two-col,#hubspot-guide .hs-decisions{grid-template-columns:1fr;gap:25px}#hubspot-guide .hs-price-note{padding:24px}#hubspot-guide .lp-brief h2{font-size:32px}#hubspot-guide .hs-decisions h3{font-size:25px}}
+
+#hubspot-guide .hs-mode{display:block;font:500 11px/1.6 Inter,Arial,sans-serif;color:#60554e;margin-top:8px}
+#hubspot-guide .hs-review-mode{font:500 12px/1.6 Inter,Arial,sans-serif;color:#66564e;padding-top:8px}
+#hubspot-guide .hs-two{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+#hubspot-guide .hs-two h3,#hubspot-guide .hs-example h3{font-size:27px;color:#ff5a1f;margin-bottom:17px}
+#hubspot-guide .hs-two p{font-size:15px;color:#505050}
+#hubspot-guide .hs-cost-scroll{overflow-x:auto;overscroll-behavior-x:contain}
+#hubspot-guide .hs-costs{min-width:650px;table-layout:fixed}
+#hubspot-guide .hs-costs th:first-child{width:31%}
+#hubspot-guide .hs-costs td{font:600 16px/1.6 Inter,Arial,sans-serif;color:#111;vertical-align:middle;width:23%}
+#hubspot-guide .hs-costs th span{display:block;font:400 11px/1.6 Inter,Arial,sans-serif;color:#666;margin-top:5px}
+#hubspot-guide .hs-cost-notes{margin:22px 0 0}
+#hubspot-guide .hs-cost-notes p{font-size:13px;color:#555;margin-bottom:12px}
+#hubspot-guide .hs-example{background:#fff3eb;border-left:3px solid #ff5a1f;padding:28px 32px;margin-top:30px}
+#hubspot-guide .hs-example p{font-size:15px;color:#55473f;margin:0}
+#hubspot-guide .hs-decisions .lp-kicker{font-size:10px;color:#a33a0e}
+#hubspot-guide .hs-table-wrap:focus-visible{outline:3px solid #ff5a1f;outline-offset:4px}
+@media(max-width:760px){#hubspot-guide .hs-two{grid-template-columns:1fr;gap:28px}#hubspot-guide .hs-example{padding:24px}#hubspot-guide .lp-provider-head{align-items:flex-start;gap:15px}#hubspot-guide .hs-review-mode{max-width:125px;text-align:right}#hubspot-guide .hs-costs td{font-size:14px}}
+@media(max-width:390px){#hubspot-guide .lp-provider-head{display:block}#hubspot-guide .hs-review-mode{display:block;max-width:none;text-align:left}}
+
+#hubspot-guide .hs-costs{min-width:690px}#hubspot-guide .hs-costs th:first-child{width:34%}#hubspot-guide .hs-costs td{width:22%;font-size:15px}#hubspot-guide .hs-costs td:nth-child(3){font-size:12px;font-weight:400}#hubspot-guide .hs-plan-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:30px 0}#hubspot-guide .hs-plan-grid>div{padding:23px;background:#fff;border:1px solid #dddcd7}#hubspot-guide .hs-plan-grid h3{font-size:23px;margin-bottom:15px;color:#ff5a1f}#hubspot-guide .hs-plan-grid strong{font:700 29px Archivo,Arial,sans-serif;display:block;margin-bottom:9px}#hubspot-guide .hs-plan-grid p{font-size:13px;color:#555}#hubspot-guide .hs-plan-grid span{font-size:11px;display:block;color:#666}#hubspot-guide .hs-plan-grid .hs-pro{border-top:3px solid #ff5a1f;background:#fff3eb}#hubspot-guide .hs-costs td:last-child{font-weight:700}#hubspot-guide .hs-cost-footnote{font-size:12px;line-height:1.8;color:#555;margin-top:18px}#hubspot-guide .hs-migration-list{padding-left:22px;font-size:15px;color:#505050}#hubspot-guide .hs-migration-list li{margin-bottom:12px;padding-left:3px}@media(max-width:1000px){#hubspot-guide .hs-plan-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){#hubspot-guide .hs-plan-grid{grid-template-columns:1fr}#hubspot-guide .hs-plan-grid>div{padding:22px}#hubspot-guide .hs-costs td{font-size:14px}}
