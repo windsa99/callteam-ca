@@ -1,0 +1,231 @@
+[
+  {
+    "id": "trellus",
+    "name": "Trellus",
+    "tag": "Keep your existing workflow",
+    "mode": "Power + parallel",
+    "plan": "Power + Parallel",
+    "monthlyCents": 14999,
+    "minSeats": 1,
+    "price": "$149.99 / seat / month",
+    "billing": "Monthly; no seat minimum",
+    "fit": "Add parallel calling inside a supported CRM or sales platform.",
+    "catch": "Usage allowances apply. Team analytics and real-time coaching need a Business quote.",
+    "good": "Trellus lets a caller start with one paid seat and work from a supported platform. The parallel plan supports up to five lines and includes extra phone numbers with spam remediation.",
+    "limit": "Trellus labels its calling limits as standard or high. Ask for the exact allowance and extra-usage rates on your order. There is an interactive tour, but no free calling trial.",
+    "cost": "Power is $99.99 per seat monthly. Power + Parallel is $149.99. Business pricing is quoted. Calling credits can depend on duration, destination and connected call legs, including voicemail, under eligible credit-based terms.",
+    "verdict": "A sensible first check for a small team keeping its CRM. The entry price is clear; the usage allowance needs equal attention. Buy one seat first if the supported workflow fits.",
+    "check": "Have the rep complete a call, log the outcome and schedule a callback in your exact CRM. Ask what happens when included usage runs out.",
+    "sources": [
+      {
+        "label": "Plans and platform limits",
+        "url": "https://www.trellus.ai/pricing"
+      },
+      {
+        "label": "Calling allowances and billing terms",
+        "url": "https://www.trellus.ai/terms"
+      }
+    ]
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "tag": "Already paying for Apollo?",
+    "mode": "Power + parallel add-on",
+    "plan": "Advanced Dialer add-on",
+    "monthlyCents": 14900,
+    "teamAddon": true,
+    "price": "$149 / team / month + paid seats",
+    "billing": "Add-on: $119/month on annual billing",
+    "fit": "Keep contact data and calling in the same platform.",
+    "catch": "Paid Apollo subscriptions and calling credits still count. The add-on price alone is incomplete.",
+    "good": "Apollo brings contact research, calling tasks and outreach into one place. Its Advanced Dialer is sold at team level and adds power, parallel and international dialling.",
+    "limit": "You still pay for Apollo seats and calling credits. Check recording, CRM integration and reporting on the plan you will buy.",
+    "cost": "Advanced Dialer is $149 per team monthly, or $119 per month with annual billing. Add your paid Apollo seats and usage. Basic dialling is included in paid plans and consumes credits; power and parallel require the add-on.",
+    "verdict": "If Apollo already holds your calling list, test its dialler before buying another platform. A second subscription needs to solve a specific problem that remains after that test.",
+    "check": "Run a complete calling session and inspect credit consumption, call notes and callback tasks. Compare the extra cost against your current Apollo bill.",
+    "sources": [
+      {
+        "label": "Dialler features and team add-on pricing",
+        "url": "https://www.apollo.io/product/dialer"
+      },
+      {
+        "label": "Apollo plans and account rules",
+        "url": "https://www.apollo.io/pricing"
+      }
+    ]
+  },
+  {
+    "id": "close",
+    "name": "Close",
+    "tag": "A CRM and calling setup together",
+    "mode": "Power on Growth",
+    "plan": "Growth",
+    "monthlyCents": 10900,
+    "minSeats": 1,
+    "price": "$109 / user / month",
+    "billing": "$99/user/month on annual billing",
+    "fit": "Your team also needs a CRM for calls, notes and follow-up.",
+    "catch": "Calling and numbers cost extra. Predictive dialling needs Scale.",
+    "good": "Growth puts a power dialler inside the CRM. Calls, notes, follow-up and pipeline management share the same lead record.",
+    "limit": "Moving contacts, history and workflows takes work. Include that migration cost before switching CRMs. Growth provides power dialling; predictive dialling needs Scale.",
+    "cost": "Growth is $109 per user monthly or $99 per month on annual billing. Scale is $149 monthly or $139 on annual billing. Phone numbers and calling usage are additional charges.",
+    "verdict": "Strong choice when the CRM needs replacing too. If your existing CRM works well, price the migration and a separate dialler before moving everyone into Close.",
+    "check": "Test a missed call, a promised callback and a follow-up handoff. Make sure each stays visible to the person who owns it.",
+    "sources": [
+      {
+        "label": "Close plans, dialling modes and usage charges",
+        "url": "https://close.com/pricing"
+      }
+    ]
+  },
+  {
+    "id": "cloudtalk",
+    "name": "CloudTalk",
+    "tag": "Phone system plus parallel calling",
+    "mode": "Power + parallel",
+    "plan": "Essential + Parallel",
+    "monthlyCents": 7800,
+    "minSeats": 1,
+    "price": "$78 / user / month",
+    "billing": "$68/user/month on annual billing",
+    "fit": "You need business calling and a parallel dialler in one setup.",
+    "catch": "The dialler is an add-on. Country coverage, numbers and extra usage change the total.",
+    "good": "CloudTalk publishes the combined Essential and Parallel price in its dialler guide. Parallel supports up to ten lines and includes power mode, so callers can slow down for accounts that need more attention.",
+    "limit": "The base phone plan does not include this dialler. Confirm the combined price, calling destinations and CRM integration. More lines also mean more simultaneous calls to manage.",
+    "cost": "Essential + Parallel is $78 per user monthly or $68 on annual billing. Parallel is listed as a $39 add-on. The official guide also lists Starter + Power at $49 monthly for teams that only need single-line power calling.",
+    "verdict": "Worth pricing early when you need a phone system as well as outbound calling. Start with the fewest simultaneous lines that improve the session. Ten available lines do not make ten the right setting.",
+    "check": "Confirm included destinations, fair-use limits, number charges and what happens when two prospects answer together.",
+    "sources": [
+      {
+        "label": "Combined dialler prices in USD",
+        "url": "https://www.cloudtalk.io/auto-dialer-pricing/"
+      },
+      {
+        "label": "Phone-plan costs and allowances",
+        "url": "https://www.cloudtalk.io/voip-pricing/"
+      }
+    ]
+  },
+  {
+    "id": "justcall",
+    "name": "JustCall",
+    "tag": "Power calling with a business phone system",
+    "mode": "Power on Pro",
+    "plan": "Pro",
+    "monthlyCents": 6900,
+    "minSeats": 2,
+    "price": "$69 / user / month; 2-seat minimum",
+    "billing": "$49/user/month on annual billing",
+    "fit": "At least two users need calling and shared phone workflows.",
+    "catch": "A solo caller pays for two seats. Dynamic and predictive dialling require quoted SalesPro.",
+    "good": "Pro includes the Power Dialer alongside the wider phone platform. Published regional prices make the subscription easier to compare before arranging a sales conversation.",
+    "limit": "The minimum purchase is two seats. Sales Dialer also needs a positive prepaid balance, even for calls within a bundle. Check both the plan allowance and the calling balance before a session.",
+    "cost": "US Pro pricing is $69 per seat monthly or $49 on annual billing. Two monthly seats cost $138 before extras. Additional numbers, usage and features such as answering-machine detection can add charges. Dynamic and predictive modes need a SalesPro quote.",
+    "verdict": "Reasonable to compare for two or more callers who need power dialling. The two-seat floor is an immediate drawback for one caller. Get SalesPro pricing before treating it as a predictive alternative.",
+    "check": "Ask which calling allowance covers your Sales Dialer sessions and what an active manager account costs.",
+    "sources": [
+      {
+        "label": "Regional plan prices and extra charges",
+        "url": "https://help.justcall.io/en/articles/10323630-understanding-justcall-pricing-a-comprehensive-guide-to-plans-and-costs"
+      },
+      {
+        "label": "JustCall plans and dialling features",
+        "url": "https://justcall.io/pricing/"
+      },
+      {
+        "label": "Minimum seats and prepaid calling balance",
+        "url": "https://help.justcall.io/en/articles/8492570-faqs-billing-pricing"
+      },
+      {
+        "label": "Power, dynamic and predictive plan access",
+        "url": "https://help.justcall.io/en/articles/8492573-faqs-sales-dialer"
+      }
+    ]
+  },
+  {
+    "id": "phoneburner",
+    "name": "PhoneBurner",
+    "tag": "One conversation at a time",
+    "mode": "Single-line power",
+    "plan": "Professional",
+    "monthlyCents": 19500,
+    "minSeats": 1,
+    "price": "$195 / user / month",
+    "billing": "Professional: $165/month on annual billing",
+    "fit": "Your callers want a dedicated power-dialling workflow.",
+    "catch": "Standard is cheaper but lacks the browser softphone. In-app callbacks require Premium.",
+    "good": "PhoneBurner gives callers a single-line power dialler with call outcomes and follow-up in the same workflow. Professional adds browser calling and coaching tools.",
+    "limit": "At $195 per caller monthly, Professional adds up quickly. Check the connection method and callback experience before buying the cheaper Standard plan. Call transcription and other features also vary by tier.",
+    "cost": "Standard is $165 monthly, Professional $195 and Premium $215 per user. Professional is $165 per month when billed annually. We use Professional in the team-cost table because it includes the browser softphone; Premium adds in-app callbacks.",
+    "verdict": "Consider it for a deliberate power-calling workflow. Compare the tier you need closely with cheaper power options. Paying for unused features is still wasted money on a transparent price page.",
+    "check": "Return a call to the number used in your trial. Confirm where it rings and where the callback history appears.",
+    "sources": [
+      {
+        "label": "PhoneBurner prices and feature tiers",
+        "url": "https://www.phoneburner.com/pricing"
+      },
+      {
+        "label": "Browser softphone access by plan",
+        "url": "https://support.phoneburner.com/hc/en-us/articles/36410902719252-QuickStart-Start-Dialing"
+      }
+    ]
+  },
+  {
+    "id": "salesfinity",
+    "name": "Salesfinity",
+    "tag": "A published-price parallel option",
+    "mode": "Parallel, up to 5 lines",
+    "plan": "Gold",
+    "monthlyCents": 29900,
+    "minSeats": 1,
+    "quoteAbove": 5,
+    "price": "$299 / licence / month",
+    "billing": "Gold: $249/month on annual billing",
+    "fit": "You want dedicated parallel calling with a public starting price.",
+    "catch": "International calling adds $50/licence. Six or more licences go through sales.",
+    "good": "Gold offers parallel calling and the current pricing page makes the monthly and annual options explicit. Teams buying up to five licences can purchase online.",
+    "limit": "Gold charges extra for the sequencer, AI usage and calling outside the included US/Canada region. Teams buying six or more licences must go through sales.",
+    "cost": "Gold is $299 per licence month to month with 30 days' notice, or $249 on annual billing. The sequencer adds $60 per licence. International calling adds $50. Enterprise is $299 per licence on a 12-month plan and bundles more features.",
+    "verdict": "A useful Nooks comparison because you can see the starting price. The bigger bundle only earns its cost when it replaces work or subscriptions you actually use. Check annual commitment before comparing the two $299 offers.",
+    "check": "Specify countries, licences, data and AI usage in the quote. For ten callers, request the team offer rather than assuming the self-serve purchase applies.",
+    "sources": [
+      {
+        "label": "Current monthly and annual offers",
+        "url": "https://salesfinity.ai/pricing"
+      },
+      {
+        "label": "Plan feature comparison",
+        "url": "https://salesfinity.ai/pricing/features"
+      },
+      {
+        "label": "USD currency and international pricing",
+        "url": "https://salesfinity.ai/blog/best-auto-dialer-for-the-uk-market"
+      }
+    ]
+  },
+  {
+    "id": "orum",
+    "name": "Orum",
+    "tag": "A larger team purchase",
+    "mode": "Power + parallel",
+    "plan": "Quoted package",
+    "quoteOnly": true,
+    "minSeats": 9,
+    "price": "Quote required; 9-seat minimum",
+    "billing": "No public dollar price",
+    "fit": "A calling team can use at least nine paid seats.",
+    "catch": "The seat floor limits small-team value. AI coaching is an add-on.",
+    "good": "Orum combines power and parallel calling with team salesfloor features. Its pricing page publishes the nine-seat minimum, which helps rule it in or out early.",
+    "limit": "A five-caller team would pay for at least nine seats. AI coaching and webhooks are add-ons. Get those charges included in the quote.",
+    "cost": "Orum lists a minimum of nine seats and asks buyers to request pricing. We cannot calculate a credible team total without that offer. Ask for every required licence and add-on on the same quote.",
+    "verdict": "For five callers, start elsewhere. For ten busy callers, it belongs in a direct trial against Nooks and the published-price parallel options. The seat minimum makes it a larger purchase from day one.",
+    "check": "Have a rep and a manager test the calling workflow together. Request the price of the exact coaching and integration features they use.",
+    "sources": [
+      {
+        "label": "Seat minimum, features and add-ons",
+        "url": "https://www.orum.com/pricing"
+      }
+    ]
+  }
+]

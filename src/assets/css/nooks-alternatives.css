@@ -1,0 +1,107 @@
+#nooks-guide .lp-hero{grid-template-columns:minmax(0,1.45fr) minmax(0,.85fr);gap:56px}
+#nooks-guide h1{font-size:clamp(43px,4.8vw,65px)}
+#nooks-guide .nk-brands{font-size:12px;line-height:1.9;color:#626262;max-width:660px;margin:22px 0 0}
+#nooks-guide .lp-brief h2{font-size:38px}
+#nooks-guide .nk-table-wrap{border:1px solid var(--lp-line)}
+#nooks-guide .nk-comparison{min-width:0;table-layout:fixed}
+#nooks-guide .nk-comparison thead th:nth-child(1){width:15%}
+#nooks-guide .nk-comparison thead th:nth-child(2){width:24%}
+#nooks-guide .nk-comparison thead th:nth-child(3){width:34%}
+#nooks-guide .nk-comparison thead th:nth-child(4){width:27%}
+#nooks-guide .nk-comparison tbody th{font-size:18px;overflow-wrap:anywhere}
+#nooks-guide .nk-comparison td{width:auto}
+#nooks-guide .nk-comparison td strong{display:block;font-weight:600;font-size:15px;color:#111}
+#nooks-guide .nk-comparison td span{display:block;font-size:12px;margin-top:5px;color:#5b5b5b}
+#nooks-guide .nk-comparison td .nk-allowance{color:#7b2e10;font-weight:600}
+#nooks-guide .nk-comparison .nk-reference{display:block;font:500 10px/1.6 Inter,Arial,sans-serif;letter-spacing:.03em;color:#66594e;margin-top:7px}
+#nooks-guide .nk-reference-row{background:#fff3eb}
+#nooks-guide .nk-baseline{border-left:3px solid #ff5a1f;padding:4px 0 4px 24px;margin-top:32px;scroll-margin-top:160px}
+#nooks-guide .nk-baseline h3,#nooks-guide .nk-decision-grid h3,#nooks-guide .nk-switch h3{color:#ff5a1f;font-size:26px;margin-bottom:16px}
+#nooks-guide .nk-baseline>p:not(.lp-sources){font-size:14px;color:#555;max-width:960px}
+#nooks-guide .nk-baseline .lp-sources{border:0;padding-top:0;margin-top:12px}
+#nooks-guide .nk-mid-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 32px;background:#fff3eb;border-left:3px solid #ff5a1f;margin-top:32px}
+#nooks-guide .nk-mid-cta h3{font-size:25px;margin-bottom:12px}
+#nooks-guide .nk-mid-cta p{font-size:14px;color:#55473f;margin:0;max-width:620px}
+#nooks-guide .nk-mid-cta .lp-button{flex-shrink:0;padding:14px 22px}
+#nooks-guide .lp-provider-head{padding-bottom:22px}
+#nooks-guide .lp-provider-head h3{font-size:34px}
+#nooks-guide .lp-verdict{background:#fff0e5;border-top:3px solid #ff5a1f}
+#nooks-guide .lp-verdict .lp-kicker{border:0;padding:0}
+#nooks-guide .lp-verdict-text{font-size:21px}
+#nooks-guide .nk-decision-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+#nooks-guide .nk-decision-grid p{font-size:15px;color:#555}
+#nooks-guide .nk-decision-grid .lp-sources{font-size:11px}
+#nooks-guide .nk-switch{background:#f5f4f2;border:1px solid #dddcd7;padding:30px 34px;margin-top:32px;scroll-margin-top:150px}
+#nooks-guide .nk-switch ul{padding-left:21px;margin:0 0 20px;display:grid;grid-template-columns:1fr 1fr;gap:14px 45px}
+#nooks-guide .nk-switch li{font-size:14px;color:#505050;padding-left:4px}
+#nooks-guide .nk-switch>p{font-size:14px;margin:0}
+#nooks-guide .nk-copy-layout{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:start}
+#nooks-guide .nk-copy-layout pre{white-space:pre-wrap;overflow-wrap:anywhere;font:400 14px/1.85 Inter,Arial,sans-serif;border:1px solid #444;background:#1b1b1b;color:#eee;margin:0 0 22px;padding:26px}
+#nooks-guide .nk-copy-layout aside{border-top:3px solid #ff9168;padding-top:24px}
+#nooks-guide .nk-copy-layout h3{font-size:28px;color:#ff9168;margin-bottom:20px}
+#nooks-guide .nk-copy-layout aside p{font-size:15px;color:#c7c7c7}
+#nooks-guide .nk-copy-layout aside p strong{color:#fff}
+#nooks-guide .nk-copy-layout .lp-text-link{display:inline-block;font-size:13px}
+#nooks-guide #nk-copy-status{font-size:13px;line-height:1.7;min-height:24px;color:#ffb394;margin:12px 0 0}
+#nooks-guide .nk-return{font-size:13px;line-height:1.8;margin:28px 0 0;padding-top:20px;border-top:1px solid #ddd;color:#555}
+#nooks-guide #free-alternatives{scroll-margin-top:150px}
+@media(max-width:1000px){#nooks-guide .lp-hero{gap:30px}#nooks-guide .nk-comparison th,#nooks-guide .nk-comparison td{padding:16px 14px}#nooks-guide .nk-mid-cta{align-items:flex-start;flex-direction:column}#nooks-guide .nk-copy-layout{gap:30px}}
+@media(max-width:760px){
+#nooks-guide .lp-hero{grid-template-columns:1fr}#nooks-guide h1{font-size:48px}#nooks-guide .lp-brief h2{font-size:34px}
+#nooks-guide .nk-decision-grid,#nooks-guide .nk-copy-layout{grid-template-columns:1fr;gap:28px}
+#nooks-guide .nk-switch{padding:24px}#nooks-guide .nk-switch ul{grid-template-columns:1fr;gap:14px}
+#nooks-guide .nk-copy-layout pre{font-size:13px;padding:20px}#nooks-guide .nk-mid-cta{padding:24px}
+#nooks-guide .lp-provider-head h3{font-size:29px}#nooks-guide .nk-brands{font-size:11px}
+#nooks-guide .nk-comparison{display:block;width:100%;font-size:13px}
+#nooks-guide .nk-comparison caption{display:block;font-size:11px;padding:15px 18px}
+#nooks-guide .nk-comparison thead{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+#nooks-guide .nk-comparison tbody{display:block}
+#nooks-guide .nk-comparison tr{display:block;border-bottom:1px solid #ccc;padding:20px}
+#nooks-guide .nk-comparison tr:last-child{border-bottom:0}
+#nooks-guide .nk-comparison tbody th{display:block;width:100%;font-size:24px;padding:0 0 12px;border:0}
+#nooks-guide .nk-comparison td{display:block;width:100%;padding:10px 0;border:0}
+#nooks-guide .nk-comparison td:last-child{padding-bottom:0}
+#nooks-guide .nk-comparison td:before{content:attr(data-label);display:block;text-transform:uppercase;letter-spacing:.07em;font-size:10px;font-weight:700;color:#7b2e10;margin-bottom:5px}
+#nooks-guide .nk-comparison td strong{font-size:17px}
+#nooks-guide .nk-comparison .nk-reference{font-size:10px}
+}
+@media(max-width:390px){#nooks-guide h1{font-size:42px}#nooks-guide .nk-copy-layout pre{padding:17px}#nooks-guide .nk-comparison tr{padding:18px}#nooks-guide .lp-provider-head h3{font-size:27px}}
+@media print{#nooks-guide #nk-copy-questions,#nooks-guide #nk-copy-status,#nooks-guide .nk-mid-cta{display:none!important}#nooks-guide .nk-copy-layout pre{color:#111;background:#fff}#nooks-guide .nk-copy-layout aside p{color:#333}#nooks-guide .nk-copy-layout{grid-template-columns:1fr}}
+
+#nooks-guide h1 small{font-size:.57em;line-height:1.16;margin-top:13px}
+#nooks-guide .lp-brief h2{font-size:35px;color:#ff9168}
+#nooks-guide .nk-two-col{display:grid;grid-template-columns:1fr 1fr;gap:42px}
+#nooks-guide .nk-two-col h3,#nooks-guide .nk-price-note h3{font-size:27px;color:#ff5a1f;margin-bottom:18px}
+#nooks-guide .nk-two-col p,#nooks-guide .nk-price-note p{font-size:15px;color:#505050}
+#nooks-guide .nk-price-note{padding:28px 32px;background:#fff;border:1px solid #dddcd7;border-left:3px solid #ff5a1f;margin-top:32px}
+#nooks-guide .nk-price-note p:last-child{margin-bottom:0}
+#nooks-guide .nk-decisions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+#nooks-guide .nk-decisions>div{border-top:3px solid #ff5a1f;padding-top:22px}
+#nooks-guide .nk-decisions span{font:600 11px Inter,Arial,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:#87300e}
+#nooks-guide .nk-decisions h3{font-size:27px;margin:14px 0 18px}
+#nooks-guide .nk-decisions p{font-size:15px;color:#555}
+#nooks-guide .nk-after{margin-top:38px;padding-top:32px;border-top:1px solid #dddcd7}
+#nooks-guide .nk-related{font-size:14px;margin:28px 0 0}
+#nooks-guide .lp-jump{top:var(--lp-header-offset,76px)}
+#nooks-guide [id]{scroll-margin-top:calc(var(--lp-header-offset,76px) + 85px)}
+#nooks-guide .lp-provider-head h3{color:#ff5a1f}
+@media(max-width:760px){#nooks-guide .nk-two-col,#nooks-guide .nk-decisions{grid-template-columns:1fr;gap:25px}#nooks-guide .nk-price-note{padding:24px}#nooks-guide .lp-brief h2{font-size:32px}#nooks-guide .nk-decisions h3{font-size:25px}}
+
+#nooks-guide .nk-mode{display:block;font:500 11px/1.6 Inter,Arial,sans-serif;color:#60554e;margin-top:8px}
+#nooks-guide .nk-review-mode{font:500 12px/1.6 Inter,Arial,sans-serif;color:#66564e;padding-top:8px}
+#nooks-guide .nk-two{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+#nooks-guide .nk-two h3,#nooks-guide .nk-example h3{font-size:27px;color:#ff5a1f;margin-bottom:17px}
+#nooks-guide .nk-two p{font-size:15px;color:#505050}
+#nooks-guide .nk-cost-scroll{overflow-x:auto;overscroll-behavior-x:contain}
+#nooks-guide .nk-costs{min-width:650px;table-layout:fixed}
+#nooks-guide .nk-costs th:first-child{width:31%}
+#nooks-guide .nk-costs td{font:600 16px/1.6 Inter,Arial,sans-serif;color:#111;vertical-align:middle;width:23%}
+#nooks-guide .nk-costs th span{display:block;font:400 11px/1.6 Inter,Arial,sans-serif;color:#666;margin-top:5px}
+#nooks-guide .nk-cost-notes{margin:22px 0 0}
+#nooks-guide .nk-cost-notes p{font-size:13px;color:#555;margin-bottom:12px}
+#nooks-guide .nk-example{background:#fff3eb;border-left:3px solid #ff5a1f;padding:28px 32px;margin-top:30px}
+#nooks-guide .nk-example p{font-size:15px;color:#55473f;margin:0}
+#nooks-guide .nk-decisions .lp-kicker{font-size:10px;color:#a33a0e}
+#nooks-guide .nk-table-wrap:focus-visible{outline:3px solid #ff5a1f;outline-offset:4px}
+@media(max-width:760px){#nooks-guide .nk-two{grid-template-columns:1fr;gap:28px}#nooks-guide .nk-example{padding:24px}#nooks-guide .lp-provider-head{align-items:flex-start;gap:15px}#nooks-guide .nk-review-mode{max-width:125px;text-align:right}#nooks-guide .nk-costs td{font-size:14px}}
+@media(max-width:390px){#nooks-guide .lp-provider-head{display:block}#nooks-guide .nk-review-mode{display:block;max-width:none;text-align:left}}
