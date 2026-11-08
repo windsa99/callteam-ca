@@ -1,0 +1,253 @@
+{
+  "reviewed": "8 November 2026",
+  "reviewedIso": "2026-11-08",
+  "providers": [
+    {
+      "id": "bigin",
+      "name": "Bigin by Zoho",
+      "plan": "Express",
+      "rate": 7,
+      "billing": "Annual billing",
+      "minimum": 1,
+      "fit": "A first pipeline after spreadsheets",
+      "catch": "Express includes three team pipelines; more require an upgrade.",
+      "good": "Bigin keeps contacts, deals and next steps together. Express includes email integration, three team pipelines and automations, with less setup than the full Zoho CRM.",
+      "weak": "The free record allowance counts entries across pipelines, contacts, activities and notes. It fills sooner than a 500-contact limit. More pipelines and advanced automation require a higher plan.",
+      "verdict": "A strong first choice for a simple sales process on a small budget. Move to Zoho CRM when you need broader controls.",
+      "extra": "Express is $7 per user per month billed annually, or $9 month to month. Phone service and paid add-ons can add to the subscription.",
+      "sources": [
+        [
+          "Plans and record limits",
+          "https://www.bigin.com/pricing.html"
+        ],
+        [
+          "Bigin records and product questions",
+          "https://www.bigin.com/articles/faqs-about-bigin.html"
+        ]
+      ]
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "plan": "Lite",
+      "rate": 14,
+      "billing": "Annual billing",
+      "minimum": 1,
+      "fit": "Seeing deals and the next activity",
+      "catch": "Full email sync and automation require Growth.",
+      "good": "Pipedrive makes an active sales pipeline easy to inspect. Lite covers deals, contacts, calendars and activities. A small team can see who owns the deal and what should happen next.",
+      "weak": "Lite leaves full email sync and automation to Growth. LeadBooster, documents and campaigns can add separate charges.",
+      "verdict": "Choose Pipedrive to manage active deals. Trial the tier with the email features your team needs.",
+      "extra": "Lite is $14 per seat per month billed annually. Growth and optional add-ons cost more.",
+      "sources": [
+        [
+          "Current plans and prices",
+          "https://www.pipedrive.com/en/pricing"
+        ],
+        [
+          "Billing and add-ons",
+          "https://support.pipedrive.com/en/article/how-does-pricing-work-in-pipedrive"
+        ]
+      ]
+    },
+    {
+      "id": "less-annoying",
+      "name": "Less Annoying CRM",
+      "plan": "Single plan",
+      "rate": 15,
+      "billing": "Monthly billing",
+      "minimum": 1,
+      "fit": "Contacts and follow-up with simple billing",
+      "catch": "Bulk email campaigns need a separate connected tool.",
+      "good": "One plan covers contacts, tasks, pipelines, email logging, automations and support. There are no feature tiers to work through.",
+      "weak": "Bulk marketing campaigns need a connected email platform. Include that cost and check the integrations you need.",
+      "verdict": "A strong first CRM for clear records and dependable follow-up. Flat monthly pricing keeps the budget simple.",
+      "extra": "$15 per user per month, plus applicable tax, with a 30-day trial.",
+      "sources": [
+        [
+          "Pricing",
+          "https://lessannoyingcrm.com/pricing"
+        ],
+        [
+          "Current product features",
+          "https://lessannoyingcrm.com/tour-v2"
+        ],
+        [
+          "Automations",
+          "https://lessannoyingcrm.com/blog/product-update-save-time-with-automations"
+        ]
+      ]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "plan": "Sales Hub Starter",
+      "rate": 20,
+      "billing": "Standard monthly price",
+      "minimum": 1,
+      "fit": "A shared starting point for enquiries and sales",
+      "catch": "Sales sequences require Professional or Enterprise.",
+      "good": "HubSpot Free brings contacts, forms and sales follow-up together for one or two people. The wider platform lets sales, marketing and service share customer information.",
+      "weak": "Free is limited to two users and 1,000 contacts. Sales sequences require Professional or Enterprise, which raises the budget substantially.",
+      "verdict": "Start with Free if it covers your work. Upgrade for a feature you need. Basic contact management is a poor reason to buy Professional.",
+      "extra": "The table uses the standard $20 per seat monthly Starter price. Temporary new-customer discounts are excluded. Other Hubs, advanced features and usage can increase the bill.",
+      "sources": [
+        [
+          "Sales Hub pricing",
+          "https://www.hubspot.com/pricing/sales"
+        ],
+        [
+          "Free CRM limits",
+          "https://www.hubspot.com/pricing/crm?selectedPackage=free"
+        ],
+        [
+          "Standard product catalogue",
+          "https://legal.hubspot.com/hubspot-product-and-services-catalog/products"
+        ]
+      ]
+    },
+    {
+      "id": "zoho",
+      "name": "Zoho CRM",
+      "plan": "Standard",
+      "rate": 14,
+      "billing": "Annual billing",
+      "minimum": 1,
+      "fit": "More control on a modest subscription budget",
+      "catch": "Someone must own the fields, views and setup.",
+      "good": "Standard includes email integration, pipelines, web forms, workflows and customisation. A separate free edition supports three users.",
+      "weak": "Zoho needs more setup than Bigin. Unused fields and complicated rules cost staff time. Phone numbers and calling usage are extra.",
+      "verdict": "Choose Zoho for its flexibility and put one person in charge of setup. Build a simple process before adding automation.",
+      "extra": "Standard is $14 per user per month billed annually, or $20 month to month. Telephony and other Zoho products cost extra.",
+      "sources": [
+        [
+          "USD plans and free edition",
+          "https://www.zoho.com/en-us/crm/zohocrm-pricing.html"
+        ]
+      ]
+    },
+    {
+      "id": "freshsales",
+      "name": "Freshsales",
+      "plan": "Growth",
+      "rate": 9,
+      "billing": "Annual billing",
+      "minimum": 1,
+      "fit": "Built-in communication at a low entry price",
+      "catch": "Sales sequences require Pro; calling usage is extra.",
+      "good": "Growth combines contact records, email, phone, custom fields and basic workflows at a low starting price.",
+      "weak": "Sales sequences require Pro. Calling credits and destinations affect the bill even with a built-in phone.",
+      "verdict": "A useful budget option when you want calls and email inside the CRM. Choose Pro if sales sequences will save regular manual work.",
+      "extra": "Growth is $9 per user per month billed annually. Pro is $39 on the same basis. Phone credits and optional add-ons are separate.",
+      "sources": [
+        [
+          "Freshsales plans",
+          "https://www.freshworks.com/crm/pricing/"
+        ],
+        [
+          "Detailed feature and free-plan comparison",
+          "https://www.freshworks.com/crm/pricing-compare/"
+        ]
+      ]
+    },
+    {
+      "id": "monday",
+      "name": "monday CRM",
+      "plan": "Basic",
+      "rate": 12,
+      "billing": "Annual billing; 3-seat minimum",
+      "minimum": 3,
+      "fit": "A team that likes visual boards",
+      "catch": "A solo user still pays for three seats.",
+      "good": "monday CRM uses visual boards to organise contacts, deals and shared work. It suits teams that want to shape their own workflow.",
+      "weak": "Basic has tighter contact and board limits. Email and automation needs can require Standard or Pro. Someone must maintain the boards.",
+      "verdict": "Buy it if your team works well with boards. For a solo owner, the three-seat minimum is poor value.",
+      "extra": "Basic is $12 per paid seat per month billed annually, with a three-seat minimum. Standard starts at $17 on annual billing. Four users require the five-seat package.",
+      "sources": [
+        [
+          "CRM plans and limits",
+          "https://monday.com/crm/pricing"
+        ],
+        [
+          "Seat packages and billing",
+          "https://support.monday.com/hc/en-us/articles/4405633151634-Plans-and-pricing-for-monday-com"
+        ]
+      ]
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "plan": "Starter Suite",
+      "rate": 25,
+      "billing": "Monthly or annual billing",
+      "minimum": 1,
+      "fit": "A business with a clear Salesforce growth plan",
+      "catch": "Pro is a substantial price jump.",
+      "good": "Starter combines sales, marketing and service basics. It gives a business an entry point into Salesforce.",
+      "weak": "More customisation, AppExchange access and advanced sales features can require Pro at four times the seat price.",
+      "verdict": "Choose Salesforce when you have a clear need for its wider platform. For contacts, deal stages and reminders, start with the simpler options.",
+      "extra": "Starter is $25 per user per month, billed monthly or annually. Pro is $100 per user per month with annual billing. Payment-processing transaction fees are separate from CRM-seat prices.",
+      "sources": [
+        [
+          "Small-business pricing and feature tiers",
+          "https://www.salesforce.com/small-business/pricing/"
+        ]
+      ]
+    },
+    {
+      "id": "close",
+      "name": "Close",
+      "plan": "Essentials",
+      "rate": 35,
+      "billing": "Annual billing",
+      "minimum": 1,
+      "fit": "A small team selling by phone and email",
+      "catch": "Workflows and the power dialler require Growth.",
+      "good": "Essentials brings calls, email, SMS, tasks and lead records together. It suits a small team that spends much of the day speaking to prospects.",
+      "weak": "Phone numbers, calls and SMS cost extra. Automated workflows and the power dialler require Growth.",
+      "verdict": "A strong choice when calling is daily work. Pay for Growth when its power dialler and workflows save enough time to cover the upgrade.",
+      "extra": "Essentials is $35 per user per month billed annually, or $49 month to month. Solo is limited to one user: $9 per month billed annually, or $19 month to month.",
+      "sources": [
+        [
+          "Plans, calling features and usage charges",
+          "https://close.com/pricing"
+        ]
+      ]
+    }
+  ],
+  "resource": "FIRST CRM: FIRST-WEEK SETUP\n1. Import 20 real contacts before moving the full list.\n2. Give every active enquiry one owner and a dated next action.\n3. Use a short pipeline: New enquiry, Conversation started, Quote sent, Won, Lost. Adjust it to your actual sales process.\n4. Connect email and check that a real interaction lands on the right record.\n5. Save an overdue-follow-up view. Open it every working day.\n6. Export the sample records and check contacts, notes and open tasks.\n7. Review the week's missing follow-ups before adding more fields or automation.",
+  "faqs": [
+    {
+      "q": "What is the best CRM for a small business?",
+      "a": "Shortlist Bigin or Less Annoying CRM for a simple first setup, Pipedrive for active deal management, and HubSpot for connected enquiries and sales. Close suits teams that sell mainly by phone."
+    },
+    {
+      "q": "What is the best free CRM for a small business?",
+      "a": "HubSpot Free supports two users and 1,000 contacts. Zoho CRM and Freshsales offer free editions for up to three users. Bigin Free supports one user and 500 records across several record types. Compare the limits against your actual team and workflow before importing the full list."
+    },
+    {
+      "q": "How much does a CRM cost for a three-person business?",
+      "a": "The paid plans in our table range from USD $21 a month equivalent for Bigin Express to $105 for Close Essentials, before tax and extras. Several require annual billing; HubSpot uses its standard monthly rate. Free editions may cover a basic workflow."
+    },
+    {
+      "q": "Should a small business choose HubSpot or Pipedrive?",
+      "a": "Start with HubSpot when contact capture, forms and a shared sales-and-marketing record are important. Start with Pipedrive when the main job is managing deals and next activities. Pipedrive Lite leaves full email sync and automation to Growth; HubSpot's more advanced sales features also require an upgrade."
+    },
+    {
+      "q": "What is the difference between Bigin and Zoho CRM?",
+      "a": "Bigin is a separate product with a simpler pipeline focus. Zoho CRM offers broader customisation and sales controls. Start with Bigin for a straightforward first CRM; choose Zoho CRM when you need the additional configuration and have someone to maintain it."
+    },
+    {
+      "q": "Is monday CRM free for one person?",
+      "a": "monday CRM has a trial and a minimum of three paid seats. At the Basic annual-billing rate, one user still creates a $36 monthly-equivalent subscription. The free monday work-management plan is a separate product."
+    },
+    {
+      "q": "Can Apollo replace a small-business CRM?",
+      "a": "Apollo includes deals, tasks and pipelines alongside prospecting and outreach. It can cover a simple sales process. Check enquiry capture, ownership, email history, next actions and exports before using it as your main customer record."
+    },
+    {
+      "q": "Can CallTeam work with leads in our CRM?",
+      "a": "Yes. CallTeam can prepare a B2B calling campaign, call prospects, follow up and hand over qualified appointments. Bring your current CRM or list. We will agree how campaign updates and next steps should be recorded."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "reviewed": "8 November 2026",
+  "reviewedIso": "2026-11-08",
+  "modes": [
+    {
+      "id": "preview",
+      "name": "Preview / click-to-call",
+      "operation": "Read the record, then start one call when you are ready.",
+      "fit": "Named accounts, promised callbacks and complex conversations.",
+      "tradeoff": "More preparation time between calls.",
+      "verdict": "Use it when each account deserves attention."
+    },
+    {
+      "id": "power",
+      "name": "Single-line power",
+      "operation": "Work through a list one number at a time, with automatic advance and pause controls.",
+      "fit": "A solo caller or small team with a mixed B2B list.",
+      "tradeoff": "You still spend time on ringing and voicemail.",
+      "verdict": "Our starting point for most small-team trials."
+    },
+    {
+      "id": "parallel",
+      "name": "Parallel",
+      "operation": "Start several calls for a rep and connect a detected live answer.",
+      "fit": "Prepared lists where waiting for answers consumes the session.",
+      "tradeoff": "Simultaneous answers, cancelled calls and detection delays need attention.",
+      "verdict": "Test fewer lines first. Keep the extra speed only if results improve."
+    },
+    {
+      "id": "predictive",
+      "name": "Predictive",
+      "operation": "Adjust the dialling pace around expected answers and available callers.",
+      "fit": "Several callers working the same repeatable queue together.",
+      "tradeoff": "A person can answer when nobody is free. Staffing and pacing matter.",
+      "verdict": "Buy it for concurrent calling capacity you actually have."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Close: power vs predictive",
+      "mode": "Growth has power; Scale has predictive.",
+      "view": "Close bases predictive pacing on available callers and answer behaviour. Its own guidance says one caller is unlikely to go above 1x and suggests at least four logged-in callers to exploit the mode. A solo user should not upgrade purely for predictive dialling.",
+      "url": "https://help.close.com/feature-guide/power-predictive-dialing/using-the-predictive-dialer"
+    },
+    {
+      "name": "Apollo: power and parallel",
+      "mode": "Advanced Dialer adds both modes to paid Apollo subscriptions.",
+      "view": "Useful when prospecting and calling share a workflow. Budget for the dialler add-on, paid Apollo seats and calling credits.",
+      "url": "https://www.apollo.io/product/dialer"
+    },
+    {
+      "name": "Nooks: power, parallel and adaptive modes",
+      "mode": "Standard parallel uses multiple lines; Adaptive and Turbo adjust them.",
+      "view": "Nooks changes active lines using pickup predictions in its adaptive modes. Access requires a parallel seat, a standard Nooks number and workspace Data Sharing opt-in. Ask for the complete quote and a demonstration of simultaneous-answer handling.",
+      "url": "https://support.nooks.ai/articles/3845888418-adaptive-and-turbo-dialing"
+    },
+    {
+      "name": "Orum: power and parallel",
+      "mode": "Parallel connects the first detected human and cancels other attempts.",
+      "view": "Orum lists a nine-seat minimum and no public dollar rate. Three callers would still need to buy nine seats. Get the full quote before arranging a trial.",
+      "url": "https://www.orum.com/pricing"
+    },
+    {
+      "name": "Aircall: power inside a phone system",
+      "mode": "Power Dialer is included in Professional.",
+      "view": "Useful when you need inbound routing and outbound calling together. Essentials does not include the power dialler. Professional has a three-licence minimum.",
+      "url": "https://aircall.io/pricing/"
+    },
+    {
+      "name": "JustCall: power and predictive/parallel",
+      "mode": "Pro includes power; SalesPro lists predictive/parallel.",
+      "view": "Ask JustCall to demonstrate its multi-line behaviour and quote SalesPro. Check the handoff when several prospects answer together.",
+      "url": "https://justcall.io/pricing/"
+    },
+    {
+      "name": "CloudTalk: preview, power and parallel",
+      "mode": "Power is included in Expert or sold as an add-on; parallel is an add-on.",
+      "view": "A phone platform with optional dialling modes. Get the required mode priced with the base plan, in the currency you will pay.",
+      "url": "https://www.cloudtalk.io/pricing/"
+    }
+  ],
+  "resource": "DIALLING-MODE SESSION BRIEF\nList and buyer type:\nMode and active callers:\nWhat must the caller read before each call?\nHow will we handle a switchboard or screening assistant?\nWhat happens if two people answer together?\nWhere will inbound callbacks go?\nWho owns notes, stop requests and the next action?\nAfter the session: compare intended-buyer conversations per caller-hour, completed follow-ups and missed human answers. Track held meetings separately as they happen.",
+  "faqs": [
+    {
+      "q": "What is the difference between an auto dialer and a predictive dialer?",
+      "a": "Auto dialler is the broad category of software that automates calling from a list. Predictive software adjusts that pace to expected answers and caller availability. It can start calls before a caller is free, so someone may answer with nobody ready to speak."
+    },
+    {
+      "q": "What is the difference between a power dialer and a predictive dialer?",
+      "a": "Single-line power dialling moves one caller through one number at a time. Predictive dialling adjusts the calling pace using answer patterns and available callers. Power gives the rep more direct control; predictive needs a queue and staffing that suit its pacing."
+    },
+    {
+      "q": "Is a parallel dialer the same as a predictive dialer?",
+      "a": "The terms describe different behaviours, but products can overlap. Parallel usually means several calls for a rep at once. Predictive describes how the system adjusts its pace. Some parallel products now use adaptive predictions. Ask how calls start, who receives an answer and what happens when several people answer."
+    },
+    {
+      "q": "What is a progressive dialer?",
+      "a": "Progressive dialling generally starts the next call when a caller is available. Vendors sometimes use power and progressive for similar workflows. Check the pause, wrap-up and next-call controls in the actual product."
+    },
+    {
+      "q": "Should a solo caller use a predictive dialer?",
+      "a": "Start with preview or single-line power. A solo caller cannot take two live answers at once. Close's predictive documentation says a lone user is unlikely to exceed 1x pacing, so paying for its predictive tier alone is difficult to justify for one caller."
+    },
+    {
+      "q": "Does Apollo have a predictive dialer?",
+      "a": "Apollo markets power and parallel modes in its Advanced Dialer. Do not assume the parallel label means the same team-based pacing as another vendor's predictive product. Test the handoff and how Apollo handles simultaneous answers."
+    },
+    {
+      "q": "Is an AI dialer an AI voice agent?",
+      "a": "An AI dialler can use software to detect answers, create notes or coach a human caller. An AI voice agent speaks to the prospect itself. Ask who conducts the conversation before comparing either product's price or results."
+    },
+    {
+      "q": "Can CallTeam run the cold calling instead?",
+      "a": "Yes. CallTeam can prepare the list, make B2B calls, follow up and hand over qualified appointments. Bring your target market, offer and current setup. We will discuss the campaign and how results should be recorded."
+    }
+  ]
+}
