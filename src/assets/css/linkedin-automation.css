@@ -1,0 +1,18 @@
+/* LinkedIn automation comparison only. */
+#simple-guide.la-page .la-workspace-cost{border:1px solid #d8d4ce;border-top:0;background:#fff;padding:27px 30px}
+#simple-guide.la-page .la-workspace-cost h3{font:700 25px/1.25 Archivo,Arial,sans-serif;color:#ff5a1f;margin:0 0 16px}
+#simple-guide.la-page .la-workspace-cost p{font-size:15px;line-height:1.85;color:#505050;max-width:950px}
+#simple-guide.la-page .la-workspace-cost a{font-size:13px}
+#simple-guide.la-page .la-price-issue{padding:14px 18px;background:#fff3eb;border-left:3px solid #ff5a1f;font-size:14px}
+#simple-guide.la-page .la-call-verdict{margin-bottom:36px}
+#simple-guide.la-page .la-call-steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:30px 42px;counter-reset:call-steps}
+#simple-guide.la-page .la-call-steps li{counter-increment:call-steps;border-top:1px solid #d8d4ce;padding-top:24px}
+#simple-guide.la-page .la-call-steps h3{font:700 26px/1.25 Archivo,Arial,sans-serif;color:#ff5a1f;margin:0 0 16px}
+#simple-guide.la-page .la-call-steps h3:before{content:counter(call-steps) ". ";color:#9d360f}
+#simple-guide.la-page .la-call-steps p{font-size:15px;line-height:1.85;color:#505050}
+#simple-guide.la-page .la-call-example{margin-top:35px;padding:30px;background:#fff;border-left:3px solid #ff5a1f}
+#simple-guide.la-page .la-call-example blockquote{margin:15px 0;font:600 23px/1.6 Inter,Arial,sans-serif;color:#111}
+#simple-guide.la-page .la-call-example p:last-child{font-size:14px;color:#555;max-width:900px}
+@media(max-width:760px){#simple-guide.la-page .la-call-steps{grid-template-columns:1fr;gap:20px}#simple-guide.la-page .la-call-example,#simple-guide.la-page .la-workspace-cost{padding:22px}#simple-guide.la-page .la-call-example blockquote{font-size:19px}#simple-guide.la-page .sg-costs td{font-size:20px}}
+@media(max-width:480px){#simple-guide.la-page .lp-provider-head{flex-direction:column;gap:12px}#simple-guide.la-page .lp-provider-head h3{overflow-wrap:anywhere}#simple-guide.la-page .lp-source{max-width:none}}
+@media(max-width:390px){#simple-guide.la-page .lp-provider-head h3{font-size:27px}}

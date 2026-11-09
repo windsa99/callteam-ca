@@ -64,7 +64,7 @@ pageScripts: ["/assets/js/lead-providers.js"]
 
   <section class="lp-section" id="compare-two"><div class="lp-wrap">
     <div class="lp-heading"><p class="lp-kicker">03 / Down to two?</p><h2>Compare your finalists.</h2><p>Choose two names to put the buying checks next to each other.</p></div>
-    <p class="lp-small">Considering LinkedIn for prospecting? Our <a href="/resources/linkedin-sales-navigator-lead-generation/">Sales Navigator vs Apollo guide</a> compares buyer research, contact access and the steps needed before calling.</p>
+    <p class="lp-small">Considering LinkedIn for prospecting? Our <a href="/resources/linkedin-sales-navigator-lead-generation/">Sales Navigator vs Apollo guide</a> compares buyer research, contact access and the steps needed before calling.</p><p class="lp-small">Adding LinkedIn outreach to the list? Compare <a href="/resources/best-linkedin-automation-tools/">eight LinkedIn automation tools</a>, including Dripify, Expandi and HeyReach, with the cost for your sending accounts.</p>
     <div class="lp-js-only" hidden>
       <div class="lp-selectors"><div><label for="lp-left">First provider</label><select id="lp-left">{% for p in guide.providers %}<option value="{{ p.id }}"{% if p.id == 'apollo' %} selected{% endif %}>{{ p.name }}</option>{% endfor %}</select></div><div><label for="lp-right">Second provider</label><select id="lp-right">{% for p in guide.providers %}<option value="{{ p.id }}"{% if p.id == 'zoominfo' %} selected{% endif %}>{{ p.name }}</option>{% endfor %}</select></div></div>
       <p class="lp-small" id="lp-selection-status" role="status"></p><div class="lp-pair" id="lp-pair"></div>

@@ -1,0 +1,1478 @@
+{
+  "pass1": [
+    {
+      "url": "https://www.callteam.ca/",
+      "status": 206,
+      "final": "https://www.callteam.ca/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/ai-lead-generation-services/",
+      "status": 206,
+      "final": "https://www.callteam.ca/ai-lead-generation-services/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/ai-gtm/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/ai-gtm/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/b2b-appointment-setting/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/b2b-appointment-setting/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/lead-reactivation/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/lead-reactivation/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/outsourced-sdr/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/outsourced-sdr/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/us-market-entry-sales/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/us-market-entry-sales/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/sdr-training/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/sdr-training/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/sales-execution-lab/",
+      "status": 206,
+      "final": "https://www.callteam.ca/sales-execution-lab/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/90-day-revenue-engine/",
+      "status": 206,
+      "final": "https://www.callteam.ca/90-day-revenue-engine/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/case-studies/",
+      "status": 206,
+      "final": "https://www.callteam.ca/case-studies/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/about/",
+      "status": 206,
+      "final": "https://www.callteam.ca/about/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/pricing/",
+      "status": 206,
+      "final": "https://www.callteam.ca/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-sales-library/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-sales-library/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+      "status": 206,
+      "final": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/cold-call-script-checker/",
+      "status": 206,
+      "final": "https://www.callteam.ca/cold-call-script-checker/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-meeting-quality-check/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-meeting-quality-check/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://calendly.com/hello-callteam/new-meeting",
+      "status": 200,
+      "final": "https://calendly.com/hello-callteam/new-meeting",
+      "bytes": 2569
+    },
+    {
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "status": 200,
+      "final": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/linkedin-sales-navigator-lead-generation/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/linkedin-sales-navigator-lead-generation/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://dripify.com/pricing/",
+      "status": 200,
+      "final": "https://dripify.com/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/5914465-how-to-resume-a-sequence-for-a-lead-that-replied-to-your-message",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/5914465-how-to-resume-a-sequence-for-a-lead-that-replied-to-your-message",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/5612509-how-to-add-leads-from-sales-navigator-if-you-have-a-free-linkedin-account",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/5612509-how-to-add-leads-from-sales-navigator-if-you-have-a-free-linkedin-account",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/pricing/",
+      "status": 200,
+      "final": "https://expandi.io/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/blog/b2b-prospecting-tool/",
+      "status": 200,
+      "final": "https://expandi.io/blog/b2b-prospecting-tool/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/workspaces/",
+      "status": 200,
+      "final": "https://expandi.io/workspaces/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace",
+      "status": 200,
+      "final": "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.expandi.io/en/articles/5405300-bulk-pause-and-continue",
+      "status": 200,
+      "final": "https://help.expandi.io/en/articles/5405300-bulk-pause-and-continue",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.heyreach.io/pricing",
+      "status": 200,
+      "final": "https://www.heyreach.io/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/9897768-multiple-linkedin-senders-in-one-campaign-sender-rotation",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/9897768-multiple-linkedin-senders-in-one-campaign-sender-rotation",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/10475396-leads-screen-overview",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/10475396-leads-screen-overview",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/14723622-how-to-upgrade-downgrade-or-cancel-your-heyreach-subscription",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/14723622-how-to-upgrade-downgrade-or-cancel-your-heyreach-subscription",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.heyreach.io/terms-of-service",
+      "status": 200,
+      "final": "https://www.heyreach.io/terms-of-service",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.waalaxy.com/pricing",
+      "status": 206,
+      "final": "https://www.waalaxy.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/15587366-waalaxy-is-now-fully-cloud-based",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/15587366-waalaxy-is-now-fully-cloud-based",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.linkedhelper.com/pricing",
+      "status": 206,
+      "final": "https://www.linkedhelper.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360016768020-Licensing-Standard-and-PRO-licenses-Pricing-and-discounts",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360016768020-Licensing-Standard-and-PRO-licenses-Pricing-and-discounts",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360017905660-Check-for-replies",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360017905660-Check-for-replies",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360015588519-How-to-avoid-duplicates",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360015588519-How-to-avoid-duplicates",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.linkedhelper.com/features/workspaces",
+      "status": 206,
+      "final": "https://www.linkedhelper.com/features/workspaces",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.dux-soup.com/pricing",
+      "status": 200,
+      "final": "https://www.dux-soup.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/736-fixed-seat-plans-pricing",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/736-fixed-seat-plans-pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/835-flexible-seat-plans-pricing",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/835-flexible-seat-plans-pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/14665160-meet-alfred-help-center-pricing-plan-and-features",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/14665160-meet-alfred-help-center-pricing-plan-and-features",
+      "bytes": 8192
+    },
+    {
+      "url": "https://meetalfred.com/pricing",
+      "status": 200,
+      "final": "https://meetalfred.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/3426173-how-meet-alfred-s-automation-works",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/3426173-how-meet-alfred-s-automation-works",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/12293897-chained-linkedin-message-step",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/12293897-chained-linkedin-message-step",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/14495322-how-to-connect-the-native-hubspot-integration-on-meet-alfred",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/14495322-how-to-connect-the-native-hubspot-integration-on-meet-alfred",
+      "bytes": 8192
+    },
+    {
+      "url": "https://phantombuster.com/pricing",
+      "status": 206,
+      "final": "https://phantombuster.com/pricing",
+      "bytes": 3622
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/4494623647250-What-Each-PhantomBuster-Plan-Includes-Features-Limits-and-Pricing",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/4494623647250-What-Each-PhantomBuster-Plan-Includes-Features-Limits-and-Pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/26971043420050-How-to-Use-the-LinkedIn-Outreach",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/26971043420050-How-to-Use-the-LinkedIn-Outreach",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/25970708553746-What-Are-Workflows-in-PhantomBuster-and-How-Do-They-Work",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/25970708553746-What-Are-Workflows-in-PhantomBuster-and-How-Do-They-Work",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/b2b-lead-providers/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/b2b-lead-providers/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.gong.io/files/gong-guide-how-to-master-cold-calls.pdf",
+      "status": 200,
+      "final": "https://www.gong.io/files/gong-guide-how-to-master-cold-calls.pdf",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/best-crm-for-small-businesses/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/best-crm-for-small-businesses/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/b2b-cold-calling/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/b2b-cold-calling/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/apollo-alternatives/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/apollo-alternatives/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+      "status": 206,
+      "final": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/global-100-award-2027/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/global-100-award-2027/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/global-excellence-2027/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/global-excellence-2027/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/",
+      "bytes": 8192
+    }
+  ],
+  "pass2_initial": [
+    {
+      "url": "https://www.callteam.ca/",
+      "status": 206,
+      "final": "https://www.callteam.ca/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/ai-lead-generation-services/",
+      "status": 206,
+      "final": "https://www.callteam.ca/ai-lead-generation-services/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/ai-gtm/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/ai-gtm/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/b2b-appointment-setting/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/b2b-appointment-setting/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/lead-reactivation/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/lead-reactivation/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/outsourced-sdr/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/outsourced-sdr/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/us-market-entry-sales/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/us-market-entry-sales/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/sdr-training/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/sdr-training/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/sales-execution-lab/",
+      "status": 206,
+      "final": "https://www.callteam.ca/sales-execution-lab/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/90-day-revenue-engine/",
+      "status": 206,
+      "final": "https://www.callteam.ca/90-day-revenue-engine/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/case-studies/",
+      "status": 206,
+      "final": "https://www.callteam.ca/case-studies/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/about/",
+      "status": 206,
+      "final": "https://www.callteam.ca/about/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/pricing/",
+      "status": 206,
+      "final": "https://www.callteam.ca/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-sales-library/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-sales-library/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+      "status": 206,
+      "final": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/cold-call-script-checker/",
+      "status": 206,
+      "final": "https://www.callteam.ca/cold-call-script-checker/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-meeting-quality-check/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-meeting-quality-check/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://calendly.com/hello-callteam/new-meeting",
+      "status": 200,
+      "final": "https://calendly.com/hello-callteam/new-meeting",
+      "bytes": 2569
+    },
+    {
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "status": 200,
+      "final": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/linkedin-sales-navigator-lead-generation/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/linkedin-sales-navigator-lead-generation/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://dripify.com/pricing/",
+      "status": 200,
+      "final": "https://dripify.com/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/5914465-how-to-resume-a-sequence-for-a-lead-that-replied-to-your-message",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/5914465-how-to-resume-a-sequence-for-a-lead-that-replied-to-your-message",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/5612509-how-to-add-leads-from-sales-navigator-if-you-have-a-free-linkedin-account",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/5612509-how-to-add-leads-from-sales-navigator-if-you-have-a-free-linkedin-account",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/pricing/",
+      "status": 200,
+      "final": "https://expandi.io/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/blog/b2b-prospecting-tool/",
+      "status": 200,
+      "final": "https://expandi.io/blog/b2b-prospecting-tool/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/workspaces/",
+      "status": 200,
+      "final": "https://expandi.io/workspaces/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace",
+      "status": 200,
+      "final": "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.expandi.io/en/articles/5405300-bulk-pause-and-continue",
+      "status": 200,
+      "final": "https://help.expandi.io/en/articles/5405300-bulk-pause-and-continue",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.heyreach.io/pricing",
+      "status": 200,
+      "final": "https://www.heyreach.io/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/9897768-multiple-linkedin-senders-in-one-campaign-sender-rotation",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/9897768-multiple-linkedin-senders-in-one-campaign-sender-rotation",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/10475396-leads-screen-overview",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/10475396-leads-screen-overview",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/14723622-how-to-upgrade-downgrade-or-cancel-your-heyreach-subscription",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/14723622-how-to-upgrade-downgrade-or-cancel-your-heyreach-subscription",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.heyreach.io/terms-of-service",
+      "status": 200,
+      "final": "https://www.heyreach.io/terms-of-service",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.waalaxy.com/pricing",
+      "status": 206,
+      "final": "https://www.waalaxy.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/15587366-waalaxy-is-now-fully-cloud-based",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/15587366-waalaxy-is-now-fully-cloud-based",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.linkedhelper.com/pricing",
+      "status": 206,
+      "final": "https://www.linkedhelper.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360016768020-Licensing-Standard-and-PRO-licenses-Pricing-and-discounts",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360016768020-Licensing-Standard-and-PRO-licenses-Pricing-and-discounts",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360017905660-Check-for-replies",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360017905660-Check-for-replies",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360015588519-How-to-avoid-duplicates",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360015588519-How-to-avoid-duplicates",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.linkedhelper.com/features/workspaces",
+      "status": 206,
+      "final": "https://www.linkedhelper.com/features/workspaces",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.dux-soup.com/pricing",
+      "status": 200,
+      "final": "https://www.dux-soup.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/736-fixed-seat-plans-pricing",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/736-fixed-seat-plans-pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/835-flexible-seat-plans-pricing",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/835-flexible-seat-plans-pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "status": "transport-error",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "status": "transport-error",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/14665160-meet-alfred-help-center-pricing-plan-and-features",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/14665160-meet-alfred-help-center-pricing-plan-and-features",
+      "bytes": 8192
+    },
+    {
+      "url": "https://meetalfred.com/pricing",
+      "status": 200,
+      "final": "https://meetalfred.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/3426173-how-meet-alfred-s-automation-works",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/3426173-how-meet-alfred-s-automation-works",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/12293897-chained-linkedin-message-step",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/12293897-chained-linkedin-message-step",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/14495322-how-to-connect-the-native-hubspot-integration-on-meet-alfred",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/14495322-how-to-connect-the-native-hubspot-integration-on-meet-alfred",
+      "bytes": 8192
+    },
+    {
+      "url": "https://phantombuster.com/pricing",
+      "status": 206,
+      "final": "https://phantombuster.com/pricing",
+      "bytes": 3622
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/4494623647250-What-Each-PhantomBuster-Plan-Includes-Features-Limits-and-Pricing",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/4494623647250-What-Each-PhantomBuster-Plan-Includes-Features-Limits-and-Pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/26971043420050-How-to-Use-the-LinkedIn-Outreach",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/26971043420050-How-to-Use-the-LinkedIn-Outreach",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/25970708553746-What-Are-Workflows-in-PhantomBuster-and-How-Do-They-Work",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/25970708553746-What-Are-Workflows-in-PhantomBuster-and-How-Do-They-Work",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/b2b-lead-providers/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/b2b-lead-providers/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.gong.io/files/gong-guide-how-to-master-cold-calls.pdf",
+      "status": 200,
+      "final": "https://www.gong.io/files/gong-guide-how-to-master-cold-calls.pdf",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/best-crm-for-small-businesses/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/best-crm-for-small-businesses/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/b2b-cold-calling/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/b2b-cold-calling/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/apollo-alternatives/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/apollo-alternatives/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+      "status": 206,
+      "final": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/global-100-award-2027/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/global-100-award-2027/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/global-excellence-2027/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/global-excellence-2027/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/",
+      "bytes": 8192
+    }
+  ],
+  "pass2_timeout_rechecks": [
+    {
+      "url": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "bytes": 8192
+    }
+  ],
+  "pass2_final": [
+    {
+      "url": "https://www.callteam.ca/",
+      "status": 206,
+      "final": "https://www.callteam.ca/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/ai-lead-generation-services/",
+      "status": 206,
+      "final": "https://www.callteam.ca/ai-lead-generation-services/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/ai-gtm/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/ai-gtm/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/b2b-appointment-setting/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/b2b-appointment-setting/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/lead-reactivation/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/lead-reactivation/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/outsourced-sdr/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/outsourced-sdr/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/us-market-entry-sales/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/us-market-entry-sales/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/sdr-training/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/sdr-training/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/sales-execution-lab/",
+      "status": 206,
+      "final": "https://www.callteam.ca/sales-execution-lab/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/90-day-revenue-engine/",
+      "status": 206,
+      "final": "https://www.callteam.ca/90-day-revenue-engine/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/case-studies/",
+      "status": 206,
+      "final": "https://www.callteam.ca/case-studies/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/about/",
+      "status": 206,
+      "final": "https://www.callteam.ca/about/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/pricing/",
+      "status": 206,
+      "final": "https://www.callteam.ca/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-sales-library/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-sales-library/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+      "status": 206,
+      "final": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/cold-call-scripts/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/cold-call-script-checker/",
+      "status": 206,
+      "final": "https://www.callteam.ca/cold-call-script-checker/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/b2b-meeting-quality-check/",
+      "status": 206,
+      "final": "https://www.callteam.ca/b2b-meeting-quality-check/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://calendly.com/hello-callteam/new-meeting",
+      "status": 200,
+      "final": "https://calendly.com/hello-callteam/new-meeting",
+      "bytes": 2569
+    },
+    {
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "status": 200,
+      "final": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/linkedin-sales-navigator-lead-generation/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/linkedin-sales-navigator-lead-generation/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://dripify.com/pricing/",
+      "status": 200,
+      "final": "https://dripify.com/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/5914465-how-to-resume-a-sequence-for-a-lead-that-replied-to-your-message",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/5914465-how-to-resume-a-sequence-for-a-lead-that-replied-to-your-message",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.dripify.com/en/articles/5612509-how-to-add-leads-from-sales-navigator-if-you-have-a-free-linkedin-account",
+      "status": 200,
+      "final": "https://help.dripify.com/en/articles/5612509-how-to-add-leads-from-sales-navigator-if-you-have-a-free-linkedin-account",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/pricing/",
+      "status": 200,
+      "final": "https://expandi.io/pricing/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/blog/b2b-prospecting-tool/",
+      "status": 200,
+      "final": "https://expandi.io/blog/b2b-prospecting-tool/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://expandi.io/workspaces/",
+      "status": 200,
+      "final": "https://expandi.io/workspaces/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace",
+      "status": 200,
+      "final": "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.expandi.io/en/articles/5405300-bulk-pause-and-continue",
+      "status": 200,
+      "final": "https://help.expandi.io/en/articles/5405300-bulk-pause-and-continue",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.heyreach.io/pricing",
+      "status": 200,
+      "final": "https://www.heyreach.io/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/9897768-multiple-linkedin-senders-in-one-campaign-sender-rotation",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/9897768-multiple-linkedin-senders-in-one-campaign-sender-rotation",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/11782284-how-to-invite-team-members-and-manage-role-based-permissions-in-heyreach",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/10475396-leads-screen-overview",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/10475396-leads-screen-overview",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.heyreach.io/en/articles/14723622-how-to-upgrade-downgrade-or-cancel-your-heyreach-subscription",
+      "status": 200,
+      "final": "https://help.heyreach.io/en/articles/14723622-how-to-upgrade-downgrade-or-cancel-your-heyreach-subscription",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.heyreach.io/terms-of-service",
+      "status": 200,
+      "final": "https://www.heyreach.io/terms-of-service",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.waalaxy.com/pricing",
+      "status": 206,
+      "final": "https://www.waalaxy.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox",
+      "bytes": 8192
+    },
+    {
+      "url": "https://intercom.help/waalaxy/en/articles/15587366-waalaxy-is-now-fully-cloud-based",
+      "status": 200,
+      "final": "https://intercom.help/waalaxy/en/articles/15587366-waalaxy-is-now-fully-cloud-based",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.linkedhelper.com/pricing",
+      "status": 206,
+      "final": "https://www.linkedhelper.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360016768020-Licensing-Standard-and-PRO-licenses-Pricing-and-discounts",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360016768020-Licensing-Standard-and-PRO-licenses-Pricing-and-discounts",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360017905660-Check-for-replies",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360017905660-Check-for-replies",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.linkedhelper.com/hc/en-us/articles/360015588519-How-to-avoid-duplicates",
+      "status": 206,
+      "final": "https://support.linkedhelper.com/hc/en-us/articles/360015588519-How-to-avoid-duplicates",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.linkedhelper.com/features/workspaces",
+      "status": 206,
+      "final": "https://www.linkedhelper.com/features/workspaces",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.dux-soup.com/pricing",
+      "status": 200,
+      "final": "https://www.dux-soup.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/736-fixed-seat-plans-pricing",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/736-fixed-seat-plans-pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/835-flexible-seat-plans-pricing",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/835-flexible-seat-plans-pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/702-meet-stacked-the-new-dux-soup-experience",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "status": 200,
+      "final": "https://support.dux-soup.com/article/242-shared-team-campaigns-for-monthly-and-annual-turbo-team-license-holders",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/14665160-meet-alfred-help-center-pricing-plan-and-features",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/14665160-meet-alfred-help-center-pricing-plan-and-features",
+      "bytes": 8192
+    },
+    {
+      "url": "https://meetalfred.com/pricing",
+      "status": 200,
+      "final": "https://meetalfred.com/pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/3426173-how-meet-alfred-s-automation-works",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/3426173-how-meet-alfred-s-automation-works",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/12293897-chained-linkedin-message-step",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/12293897-chained-linkedin-message-step",
+      "bytes": 8192
+    },
+    {
+      "url": "https://help.meetalfred.com/en/articles/14495322-how-to-connect-the-native-hubspot-integration-on-meet-alfred",
+      "status": 200,
+      "final": "https://help.meetalfred.com/en/articles/14495322-how-to-connect-the-native-hubspot-integration-on-meet-alfred",
+      "bytes": 8192
+    },
+    {
+      "url": "https://phantombuster.com/pricing",
+      "status": 206,
+      "final": "https://phantombuster.com/pricing",
+      "bytes": 3622
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/4494623647250-What-Each-PhantomBuster-Plan-Includes-Features-Limits-and-Pricing",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/4494623647250-What-Each-PhantomBuster-Plan-Includes-Features-Limits-and-Pricing",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/26971043420050-How-to-Use-the-LinkedIn-Outreach",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/26971043420050-How-to-Use-the-LinkedIn-Outreach",
+      "bytes": 8192
+    },
+    {
+      "url": "https://support.phantombuster.com/hc/en-us/articles/25970708553746-What-Are-Workflows-in-PhantomBuster-and-How-Do-They-Work",
+      "status": 206,
+      "final": "https://support.phantombuster.com/hc/en-us/articles/25970708553746-What-Are-Workflows-in-PhantomBuster-and-How-Do-They-Work",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/b2b-lead-providers/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/b2b-lead-providers/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.gong.io/files/gong-guide-how-to-master-cold-calls.pdf",
+      "status": 200,
+      "final": "https://www.gong.io/files/gong-guide-how-to-master-cold-calls.pdf",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/best-crm-for-small-businesses/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/best-crm-for-small-businesses/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/services/b2b-cold-calling/",
+      "status": 206,
+      "final": "https://www.callteam.ca/services/b2b-cold-calling/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/resources/apollo-alternatives/",
+      "status": 206,
+      "final": "https://www.callteam.ca/resources/apollo-alternatives/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+      "status": 206,
+      "final": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/global-100-award-2027/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/global-100-award-2027/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/global-excellence-2027/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/global-excellence-2027/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+      "status": 206,
+      "final": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+      "bytes": 8192
+    },
+    {
+      "url": "https://www.callteam.ca/articles/",
+      "status": 206,
+      "final": "https://www.callteam.ca/articles/",
+      "bytes": 8192
+    }
+  ]
+}
