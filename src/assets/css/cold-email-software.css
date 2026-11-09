@@ -1,0 +1,21 @@
+/* Cold-email guide only. Shared CallTeam typography and colours stay intact. */
+#simple-guide.ce-page .ce-prices th:first-child{width:19%}
+#simple-guide.ce-page .ce-prices td strong{font:700 25px/1.3 Archivo,Arial,sans-serif;display:block}
+#simple-guide.ce-page .ce-prices td strong.ce-price-note{font-size:16px;line-height:1.5}
+#simple-guide.ce-page .ce-budget-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+#simple-guide.ce-page .ce-budget{border:1px solid #d8d4ce;border-top:3px solid #ff5a1f;background:#fff;padding:28px;display:flex;flex-direction:column}
+#simple-guide.ce-page .ce-budget h3{font:700 27px/1.2 Archivo,Arial,sans-serif;color:#ff5a1f;margin:0 0 16px}
+#simple-guide.ce-page .ce-budget p{font-size:14px;color:#505050;line-height:1.8}
+#simple-guide.ce-page .ce-budget table{border-collapse:collapse;width:100%;margin:15px 0 20px}
+#simple-guide.ce-page .ce-budget caption{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;overflow:hidden}
+#simple-guide.ce-page .ce-budget th{font:500 13px/1.6 Inter,Arial,sans-serif;text-align:left;width:70%;padding:14px 10px 14px 0;border-bottom:1px solid #e5e0dc}
+#simple-guide.ce-page .ce-budget td{font:700 24px/1.3 Archivo,Arial,sans-serif;text-align:right;color:#111;padding:14px 0;border-bottom:1px solid #e5e0dc;white-space:nowrap}
+#simple-guide.ce-page .ce-budget td small{display:block;font:400 10px/1.5 Inter,Arial,sans-serif;color:#666}
+#simple-guide.ce-page .ce-budget .ce-budget-take{margin-top:auto;padding-top:15px;color:#222;border-top:2px solid #ff9168}
+#simple-guide.ce-page .ce-budget-rule{background:#fff3eb;border-left:3px solid #ff5a1f;padding:24px 30px;margin-top:35px}
+#simple-guide.ce-page .ce-budget-rule h3{font:700 24px/1.3 Archivo,Arial,sans-serif;color:#a83910;margin:0 0 14px}
+#simple-guide.ce-page .ce-budget-rule p{font-size:15px;margin:8px 0;color:#333}
+#simple-guide.ce-page .lp-provider-head h3{font-size:clamp(24px,2.7vw,34px)}
+@media(max-width:1000px){#simple-guide.ce-page .ce-budget-grid{grid-template-columns:1fr}#simple-guide.ce-page .ce-budget{padding:26px}#simple-guide.ce-page .ce-budget table{max-width:650px}#simple-guide.ce-page .ce-budget .ce-budget-take{margin-bottom:0}}
+@media(max-width:760px){#simple-guide.ce-page .lp-provider-head{flex-direction:column;align-items:flex-start;gap:16px}#simple-guide.ce-page .lp-source{max-width:none}#simple-guide.ce-page .ce-prices tbody th:first-child{width:100%}#simple-guide.ce-page .ce-budget-rule{padding:22px}#simple-guide.ce-page .sg-table td{overflow-wrap:break-word}}
+@media(max-width:390px){#simple-guide.ce-page h1{font-size:36px}#simple-guide.ce-page .lp-provider-head h3{font-size:24px}}

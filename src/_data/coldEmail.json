@@ -1,0 +1,399 @@
+{
+  "reviewed": "8 November 2026",
+  "reviewedIso": "2026-11-08",
+  "quickAnswer": "Have your list already? Compare Instantly, Smartlead and QuickMail. Need to find contacts and email them? Look at Apollo, Saleshandy and Snov.io. For a team sharing campaigns, lemlist Email includes unlimited users. Start with how many people need access and how many emails you plan to send.",
+  "providers": [
+    {
+      "id": "instantly",
+      "name": "Instantly",
+      "plan": "Growth",
+      "fit": "A solo seller sending cold emails",
+      "monthly": "$47",
+      "unit": "per workspace / month",
+      "annual": "$37.60/month equivalent",
+      "annualTotal": "$451.20/year",
+      "monthlyValue": 47,
+      "annualValue": 37.6,
+      "capacity": "1,000 uploaded contacts; 5,000 emails/month. Unlimited connected email accounts.",
+      "extra": "Team access and replies from the built-in inbox, Unibox, require Hypergrowth. Data and email accounts cost extra.",
+      "good": "You can connect several email accounts without a software fee for each one. Growth suits a small campaign. Hypergrowth allows 25,000 uploaded contacts and 125,000 emails a month.",
+      "weak": "Growth leaves out team access and replying from Unibox. You need Hypergrowth at $107 a month for those features. Each separate client workspace also needs its own subscription.",
+      "verdict": "Growth makes sense for a solo seller. A team sharing campaigns and replies should start its budget at Hypergrowth. For an agency, those separate client subscriptions can get expensive.",
+      "sources": [
+        [
+          "Pricing",
+          "https://instantly.ai/pricing"
+        ],
+        [
+          "Plan limits",
+          "https://help.instantly.ai/en/articles/7920548-outbound-plans-comparison"
+        ],
+        [
+          "Client workspaces",
+          "https://help.instantly.ai/en/articles/6718773-manage-workspaces-and-team-members"
+        ]
+      ]
+    },
+    {
+      "id": "smartlead",
+      "name": "Smartlead",
+      "plan": "Base",
+      "fit": "Teams and agencies using several email accounts",
+      "monthly": "$39",
+      "unit": "per account / month",
+      "annual": "$32/month equivalent",
+      "annualTotal": "$384/year",
+      "monthlyValue": 39,
+      "annualValue": 32,
+      "capacity": "2,000 contacts; 6,000 emails/month. Unlimited connected mailboxes.",
+      "extra": "Team members require Pro at $94/month. Client workspaces add $29/month each on Pro.",
+      "good": "Smartlead spreads sending across your connected email accounts. Pro adds shared replies, unlimited team members, 30,000 contacts and 90,000 monthly emails. Agencies can keep each client in a separate workspace.",
+      "weak": "Base does not include team access. Pro plus three client workspaces costs $181 a month, before email accounts, domains and extra data.",
+      "verdict": "A good fit for agencies managing several clients. Budget for Pro and the client fees from the start. The $39 Base price will not cover a shared sales team.",
+      "sources": [
+        [
+          "Pricing and client fees",
+          "https://www.smartlead.ai/pricing"
+        ],
+        [
+          "Team access",
+          "https://helpcenter.smartlead.ai/en/articles/14-how-do-i-add-team-members"
+        ]
+      ]
+    },
+    {
+      "id": "lemlist",
+      "name": "lemlist",
+      "plan": "Email · 50,000 sends",
+      "fit": "A team sharing email campaigns",
+      "monthly": "$69",
+      "unit": "per team / month",
+      "annual": "$55/month equivalent",
+      "annualTotal": "$660/year",
+      "monthlyValue": 69,
+      "annualValue": 55,
+      "capacity": "50,000 emails/month; unlimited users and email senders on Email.",
+      "extra": "Multichannel starts at $109/user/month. Contact data, domains and email accounts can add costs.",
+      "good": "The Email plan lets you add users without paying per person. It connects to your CRM and includes tools to help emails reach inboxes. Choose a higher sending limit when you need more emails.",
+      "weak": "Multichannel charges per user. Three people at $109 each cost $327 a month. That is a big jump if your team mainly sends email.",
+      "verdict": "The $69 Email plan is a strong choice for a shared team. Buy Multichannel only if you will use the extra channels. An AI label is a poor reason to pay more.",
+      "sources": [
+        [
+          "Pricing",
+          "https://www.lemlist.com/pricing"
+        ],
+        [
+          "Email and Multichannel plans",
+          "https://help.lemlist.com/en/articles/6643849-lemlist-plans-how-to-choose-the-right-one"
+        ]
+      ]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "plan": "Basic",
+      "fit": "Finding contacts and sending follow-up emails",
+      "monthly": "Confirm at checkout",
+      "unit": "per user; current monthly rate unconfirmed",
+      "annual": "$49/user/month equivalent",
+      "annualTotal": "$588/user/year",
+      "monthlyValue": null,
+      "annualValue": 49,
+      "capacity": "Contact search and email sequences; one connected email account per Basic user.",
+      "extra": "Phone numbers and extra contact details use credits. More connected email accounts require a higher plan.",
+      "good": "Apollo lets you find contacts, email them and track sales activity in one place. Professional supports unlimited Google and Microsoft email accounts, plus five accounts from other providers per user.",
+      "weak": "Basic allows one connected email account per user. Everyone on the same account must use the same plan. The annual Basic rate is $49 per user per month; confirm the monthly billing price at checkout.",
+      "verdict": "Good value when you need both contacts and email outreach. If you already pay for Apollo, try its sequences first. Add another sender when you can name the feature you are missing.",
+      "sources": [
+        [
+          "Pricing and credit terms",
+          "https://www.apollo.io/pricing"
+        ],
+        [
+          "Published annual rates",
+          "https://www.apollo.io/insights/billing-prospects-and-leads"
+        ],
+        [
+          "Mailbox limits",
+          "https://knowledge.apollo.io/hc/en-us/articles/4409127806093-Link-Your-Mailbox-to-Apollo"
+        ]
+      ]
+    },
+    {
+      "id": "reply",
+      "name": "Reply.io",
+      "plan": "Email Volume · 1,000 contacts",
+      "fit": "Teams combining email with other sales channels",
+      "monthly": "$59",
+      "unit": "per month; one user included",
+      "annual": "$49/month equivalent",
+      "annualTotal": "$588/year",
+      "monthlyValue": 59,
+      "annualValue": 49,
+      "capacity": "1,000 active contacts/month. Fair-use rules allow 25 connected email accounts on this plan.",
+      "extra": "Unlimited users start at 10,000 active contacts: $179/month. Calls/SMS and data can add charges.",
+      "good": "Reply offers email plans and plans that combine email with calls and other sales steps. The 10,000-contact Email Volume plan includes unlimited users.",
+      "weak": "Plans below 10,000 active contacts include one user. The unlimited-mailbox offer has fair-use limits. A contact can count again when follow-ups continue into the next billing month.",
+      "verdict": "Useful when several reps need to coordinate their follow-ups. Email-only teams should compare the $179 shared-team plan carefully. Cheaper options here also let everyone log in.",
+      "sources": [
+        [
+          "Pricing",
+          "https://reply.io/pricing/"
+        ],
+        [
+          "User allowances",
+          "https://support.reply.io/hc/reply-help-center/articles/seat-system-in-reply"
+        ],
+        [
+          "Fair-use limits",
+          "https://support.reply.io/hc/reply-help-center/articles/existing-limits-in-reply"
+        ]
+      ]
+    },
+    {
+      "id": "saleshandy",
+      "name": "Saleshandy",
+      "plan": "Starter",
+      "fit": "Finding leads and sending emails in one tool",
+      "monthly": "$41",
+      "unit": "per account / month; one user",
+      "annual": "$34/month equivalent",
+      "annualTotal": "$408/year",
+      "monthlyValue": 41,
+      "annualValue": 34,
+      "capacity": "2,000 active prospects; 6,000 emails/month. One user on Starter.",
+      "extra": "Pro is $99/month for up to ten users. Purchased mailboxes and extra lead credits add to the bill.",
+      "good": "Saleshandy combines email campaigns with credits for finding leads. Pro includes up to ten users and 100,000 monthly emails. You do not pay a separate software fee for each connected email account.",
+      "weak": "Starter gives access to one person. A three-person team needs Pro, even for a small campaign. You can store unlimited prospects, but the number active in campaigns is capped.",
+      "verdict": "Worth buying when your team needs both lead data and email sending. For three reps, compare the $99 Pro plan. Paying for ten available logins is useful only if the rest of the plan fits.",
+      "sources": [
+        [
+          "Current prices and allowances",
+          "https://www.saleshandy.com/pricing"
+        ],
+        [
+          "Plan documentation",
+          "https://docs.saleshandy.com/en/articles/11325097-saleshandy-plans-pricing-new"
+        ]
+      ]
+    },
+    {
+      "id": "mailshake",
+      "name": "Mailshake",
+      "plan": "Starter",
+      "fit": "A seller running a small email campaign",
+      "monthly": "$29",
+      "unit": "per user / month",
+      "annual": "$25/user/month equivalent",
+      "annualTotal": "$300/user/year",
+      "monthlyValue": 29,
+      "annualValue": 25,
+      "capacity": "One sending address; 1,500 emails/month. Automated sequences and A/B tests.",
+      "extra": "Email Outreach is $49/user/month with two addresses. Data Finder and supplied mailboxes cost extra.",
+      "good": "Starter covers automated follow-ups, message testing and email verification. Email Outreach adds a shared inbox, sending across multiple accounts and CRM connections.",
+      "weak": "The 1,500-email limit includes follow-ups, so a short sequence can use it quickly. Each extra user raises the bill. Lead data and ready-to-use email accounts cost extra.",
+      "verdict": "A fair option for one person running a small campaign. For a team, add up the user fees first. A plan that charges one price for the whole team may cost less.",
+      "sources": [
+        [
+          "Plans and extras",
+          "https://mailshake.com/pricing/"
+        ],
+        [
+          "Per-user billing",
+          "https://docs.mailshake.com/article/56-pricing-explained"
+        ]
+      ]
+    },
+    {
+      "id": "woodpecker",
+      "name": "Woodpecker",
+      "plan": "Email",
+      "fit": "Teams that change follow-ups based on replies",
+      "monthly": "Price needs confirmation",
+      "unit": "current plan price unconfirmed",
+      "annual": "Confirm the annual total",
+      "annualTotal": "",
+      "monthlyValue": null,
+      "annualValue": null,
+      "capacity": "Email includes unlimited users and connected accounts. Choose a plan by the number of emails you will send.",
+      "extra": "CRM connections, API access and the agency panel cost extra. The pricing page and older help use different billing rules.",
+      "good": "Woodpecker can change the next step based on a reply and handle out-of-office messages. Email includes team access, a shared inbox, verification and three warm-ups.",
+      "weak": "The billing FAQ still quotes $35 for 500 contacted prospects. The newer pricing page counts emails sent instead. The old price does not confirm what the current plan costs.",
+      "verdict": "Useful follow-up features. Messy pricing information. Ask for one total covering emails, CRM connections and client access. You should be able to compare the bill before paying.",
+      "sources": [
+        [
+          "Current pricing screen",
+          "https://woodpecker.co/pricing/"
+        ],
+        [
+          "Current billing unit",
+          "https://woodpecker.co/help-center/en/articles/5267741-billing-glossary"
+        ],
+        [
+          "Conflicting billing FAQ",
+          "https://woodpecker.co/help-center/en/articles/5234070-billing-faq"
+        ]
+      ]
+    },
+    {
+      "id": "quickmail",
+      "name": "QuickMail",
+      "plan": "Starter",
+      "fit": "A small team that already has a contact list",
+      "monthly": "$49",
+      "unit": "per workspace / month",
+      "annual": "No annual rate confirmed",
+      "annualTotal": "Monthly plans shown",
+      "monthlyValue": 49,
+      "annualValue": null,
+      "capacity": "Unlimited users and senders; one workspace; 1,000 contacts and 5,000 emails/month.",
+      "extra": "Growth is $99/month. Agency is $299 with two workspaces; each extra workspace costs $49/month.",
+      "good": "Several reps can use Starter without paying per user. Growth raises the limits to 25,000 contacts and 100,000 emails a month.",
+      "weak": "Starter holds only 1,000 contacts. Three separate client workspaces cost $348 a month. You still pay for the email accounts you connect.",
+      "verdict": "A strong option for a team that already has its list. Move to Growth for larger campaigns. Agency is for keeping client accounts separate.",
+      "sources": [
+        [
+          "Pricing, workspaces and cancellation",
+          "https://quickmail.com/pricing"
+        ]
+      ]
+    },
+    {
+      "id": "snov",
+      "name": "Snov.io",
+      "plan": "Starter",
+      "fit": "Finding email addresses and contacting prospects",
+      "monthly": "$39",
+      "unit": "per team / month",
+      "annual": "$29.25/month equivalent",
+      "annualTotal": "$351/year",
+      "monthlyValue": 39,
+      "annualValue": 29.25,
+      "capacity": "Unlimited users; 1,000 credits; 5,000 recipients; three email warm-ups.",
+      "extra": "Finding and checking email addresses uses credits. Adding phone numbers or other contact details can cost more.",
+      "good": "Starter lets the whole team find contacts, check email addresses and send sequences. Follow-ups to the same person do not use another recipient allowance within that billing period.",
+      "weak": "The plan lets you email 5,000 people, but it does not include finding 5,000 new addresses. Finding and checking addresses share a smaller credit allowance. Phone numbers have separate limits and charges.",
+      "verdict": "Good value for a small team that wants data and sending together. If you are building a fresh list, count the lookup credits first. You can run out before reaching the email limit.",
+      "sources": [
+        [
+          "Prices and allowance definitions",
+          "https://snov.io/pricing"
+        ],
+        [
+          "Free and paid plan limits",
+          "https://snov.io/knowledgebase/whats-the-difference-between-free-trial-and-premium-plans/"
+        ]
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "title": "One seller",
+      "description": "One person, one email account and a list of 1,000 contacts. Send 3,000 emails in a month, including follow-ups.",
+      "rows": [
+        {
+          "name": "Smartlead Base",
+          "price": 39
+        },
+        {
+          "name": "Snov.io Starter",
+          "price": 39
+        },
+        {
+          "name": "Saleshandy Starter",
+          "price": 41
+        },
+        {
+          "name": "QuickMail Starter",
+          "price": 49
+        },
+        {
+          "name": "lemlist Email",
+          "price": 69
+        }
+      ],
+      "take": "Mailshake Starter allows 1,500 emails. You would need a higher plan for this campaign."
+    },
+    {
+      "title": "Three-person sales team",
+      "description": "Three people with their own logins and email accounts. Together, they email 1,000 contacts and send 3,000 messages a month.",
+      "rows": [
+        {
+          "name": "Snov.io Starter",
+          "price": 39
+        },
+        {
+          "name": "QuickMail Starter",
+          "price": 49
+        },
+        {
+          "name": "lemlist Email",
+          "price": 69
+        },
+        {
+          "name": "Smartlead Pro",
+          "price": 94
+        },
+        {
+          "name": "Saleshandy Pro",
+          "price": 99
+        }
+      ],
+      "take": "Smartlead and Saleshandy need a higher plan to give all three people access, even at this email volume."
+    },
+    {
+      "title": "Agency with three clients",
+      "description": "Keep three clients in separate workspaces. Each has 1,000 contacts and sends 3,000 emails a month. Total: 9,000 emails.",
+      "rows": [
+        {
+          "name": "Smartlead Pro + 3 client spaces",
+          "price": 181
+        },
+        {
+          "name": "lemlist: 3 Email teams",
+          "price": 207
+        },
+        {
+          "name": "QuickMail Agency + 1 extra space",
+          "price": 348
+        }
+      ],
+      "take": "A workspace keeps a client’s campaigns and access separate. Check who can see each client’s records."
+    }
+  ],
+  "resource": "COLD EMAIL SOFTWARE: FIVE TRIAL CHECKS\n\n1. ADD UP THE COST\nPeople who need access: ___  Email accounts: ___\nContacts: ___  Emails per month: ___\nSoftware: ___  Email accounts/domains: ___  Lead data/extras: ___\nYearly payment, if required: ___\n\n2. TEST A REPLY\nSend yourself a test email and reply. Check that the right person sees the answer and automatic follow-ups stop.\n\n3. PASS A LEAD TO A CALLER\nCreate a call task. Check that the caller can see the contact, past emails and next step.\n\n4. CHECK THE LIMITS\nWhat uses a credit? When does a contact count again? What does another user or client workspace cost?\n\n5. KEEP YOUR RECORDS\nTry an export. Keep reply history, callbacks and do-not-contact records. Check how to cancel and when the plan renews.",
+  "faqs": [
+    {
+      "q": "What is the best cold email software for B2B sales?",
+      "a": "It depends on how you sell. Instantly and Smartlead focus on cold email sending. Apollo combines contact data and sequences. For shared team access, compare lemlist, QuickMail and Snov.io. Use the cost examples above to match the plan to your team and campaign."
+    },
+    {
+      "q": "Which cold email software is cheapest?",
+      "a": "Mailshake Starter has the lowest confirmed monthly starting price here: $29 per user for one sending address and 1,500 emails. More emails or more users can change the answer. Compare the plan that covers your whole campaign."
+    },
+    {
+      "q": "Can I use Apollo for cold email instead of Instantly or Smartlead?",
+      "a": "Yes. Apollo includes email sequences and contact data. Check how many email accounts you can connect and how your team handles replies. Pay for a separate sender when Apollo leaves a gap you need to fill."
+    },
+    {
+      "q": "Does “unlimited mailboxes” mean free email accounts?",
+      "a": "No. It means you can connect email accounts to the software. You still need the accounts and domains, which may cost extra. Some plans also limit how many accounts you can connect or warm up at once."
+    },
+    {
+      "q": "Do follow-up emails count towards the sending limit?",
+      "a": "Yes, on plans that count emails sent. One opening email and two follow-ups to 1,000 people can use 3,000 sends. Other plans count people contacted. Check whether the same person counts again in a new billing month."
+    },
+    {
+      "q": "Is there free cold email software?",
+      "a": "Apollo and Snov.io offer limited free access. Other tools offer trials. Before relying on a free plan, check how many emails it allows and whether you can send follow-ups and manage replies."
+    },
+    {
+      "q": "Should I pay for an AI email writer or warm-up tool?",
+      "a": "Pay for a feature you will use. Test whether the AI writer produces accurate messages you would send. Check what warm-up includes. Neither feature guarantees that emails reach the inbox or turn into meetings."
+    },
+    {
+      "q": "Can CallTeam call the leads in my email campaign?",
+      "a": "Yes. CallTeam can prepare the calling list, reach the right people, qualify interest and follow up alongside your emails. Bring your offer, target market and list to a free 30-minute call. We will discuss who to call and what happens next."
+    }
+  ]
+}
