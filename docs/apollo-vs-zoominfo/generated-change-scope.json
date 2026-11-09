@@ -1,0 +1,14 @@
+{
+  "changed": [
+    "sitemap.xml",
+    "resources/b2b-lead-providers/index.html",
+    "resources/apollo-alternatives/index.html",
+    "resources/outbound-sales-library/index.html",
+    "resources/zoominfo-alternatives/index.html"
+  ],
+  "added": [
+    "assets/css/apollo-vs-zoominfo.css",
+    "resources/apollo-vs-zoominfo/index.html"
+  ],
+  "removed": []
+}

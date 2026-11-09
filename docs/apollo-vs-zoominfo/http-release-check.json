@@ -1,0 +1,252 @@
+[
+  {
+    "url": "https://www.callteam.ca/",
+    "status": 200,
+    "final": "https://www.callteam.ca/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/"
+  },
+  {
+    "url": "https://www.callteam.ca/ai-lead-generation-services/",
+    "status": 200,
+    "final": "https://www.callteam.ca/ai-lead-generation-services/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/ai-gtm/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/ai-gtm/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/b2b-appointment-setting/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/b2b-appointment-setting/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/lead-reactivation/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/lead-reactivation/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/outsourced-sdr/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/outsourced-sdr/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/us-market-entry-sales/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/us-market-entry-sales/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/sdr-training/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/sdr-training/"
+  },
+  {
+    "url": "https://www.callteam.ca/sales-execution-lab/",
+    "status": 200,
+    "final": "https://www.callteam.ca/sales-execution-lab/"
+  },
+  {
+    "url": "https://www.callteam.ca/90-day-revenue-engine/",
+    "status": 200,
+    "final": "https://www.callteam.ca/90-day-revenue-engine/"
+  },
+  {
+    "url": "https://www.callteam.ca/case-studies/",
+    "status": 200,
+    "final": "https://www.callteam.ca/case-studies/"
+  },
+  {
+    "url": "https://www.callteam.ca/about/",
+    "status": 200,
+    "final": "https://www.callteam.ca/about/"
+  },
+  {
+    "url": "https://www.callteam.ca/awards/",
+    "status": 200,
+    "final": "https://www.callteam.ca/awards/"
+  },
+  {
+    "url": "https://www.callteam.ca/pricing/",
+    "status": 200,
+    "final": "https://www.callteam.ca/pricing/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/outbound-sales-library/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/outbound-sales-library/"
+  },
+  {
+    "url": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/",
+    "status": 200,
+    "final": "https://www.callteam.ca/b2b-lead-generation-roi-calculator/"
+  },
+  {
+    "url": "https://www.callteam.ca/b2b-outbound-campaign-planner/",
+    "status": 200,
+    "final": "https://www.callteam.ca/b2b-outbound-campaign-planner/"
+  },
+  {
+    "url": "https://www.callteam.ca/lead-generation-proposal-comparison/",
+    "status": 200,
+    "final": "https://www.callteam.ca/lead-generation-proposal-comparison/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/cold-call-scripts/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/cold-call-scripts/"
+  },
+  {
+    "url": "https://www.callteam.ca/cold-call-script-checker/",
+    "status": 200,
+    "final": "https://www.callteam.ca/cold-call-script-checker/"
+  },
+  {
+    "url": "https://www.callteam.ca/b2b-meeting-quality-check/",
+    "status": 200,
+    "final": "https://www.callteam.ca/b2b-meeting-quality-check/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/outbound-playbooks/industries/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/outbound-playbooks/industries/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/outbound-playbooks/buyers/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/outbound-playbooks/buyers/"
+  },
+  {
+    "url": "https://www.callteam.ca/articles/cold-call-objection-handling/",
+    "status": 200,
+    "final": "https://www.callteam.ca/articles/cold-call-objection-handling/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/outbound-campaign-strategy/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/outbound-campaign-strategy/"
+  },
+  {
+    "url": "https://calendly.com/hello-callteam/new-meeting",
+    "status": 200,
+    "final": "https://calendly.com/hello-callteam/new-meeting"
+  },
+  {
+    "url": "https://www.apollo.io/pricing",
+    "status": 200,
+    "final": "https://www.apollo.io/pricing"
+  },
+  {
+    "url": "https://www.zoominfo.com/pricing",
+    "status": 200,
+    "final": "https://www.zoominfo.com/pricing"
+  },
+  {
+    "url": "https://www.zoominfo.com/features/contact-company-search",
+    "status": 200,
+    "final": "https://www.zoominfo.com/features/contact-company-search"
+  },
+  {
+    "url": "https://www.apollo.io/product/dialer",
+    "status": 200,
+    "final": "https://www.apollo.io/product/dialer"
+  },
+  {
+    "url": "https://knowledge.apollo.io/hc/en-us/articles/4677130104333-Customize-and-Manage-Your-Apollo-Plan",
+    "status": 200,
+    "final": "https://knowledge.apollo.io/hc/en-us/articles/4677130104333-Customize-and-Manage-Your-Apollo-Plan"
+  },
+  {
+    "url": "https://zoominfotechnologiesinc.gcs-web.com/static-files/6c350fee-34b0-40f1-a15f-c81353e40350",
+    "status": 200,
+    "final": "https://zoominfotechnologiesinc.gcs-web.com/static-files/6c350fee-34b0-40f1-a15f-c81353e40350"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/how-to-buy-cold-calling-leads/"
+  },
+  {
+    "url": "https://knowledge.apollo.io/hc/en-us/articles/4738396786701-Request-Contact-Data-in-Apollo",
+    "status": 200,
+    "final": "https://knowledge.apollo.io/hc/en-us/articles/4738396786701-Request-Contact-Data-in-Apollo"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/apollo-alternatives/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/apollo-alternatives/"
+  },
+  {
+    "url": "https://knowledge.apollo.io/hc/en-us/articles/9527776320781-Review-Credit-Usage-in-Apollo",
+    "status": 200,
+    "final": "https://knowledge.apollo.io/hc/en-us/articles/9527776320781-Review-Credit-Usage-in-Apollo"
+  },
+  {
+    "url": "https://www.zoominfo.com/products/sales",
+    "status": 200,
+    "final": "https://www.zoominfo.com/products/sales"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/best-crm-for-outbound-sales/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/best-cold-calling-dialers/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/best-cold-calling-dialers/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/best-cold-email-software/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/best-cold-email-software/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/b2b-lead-providers/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/b2b-lead-providers/"
+  },
+  {
+    "url": "https://www.callteam.ca/resources/zoominfo-alternatives/",
+    "status": 200,
+    "final": "https://www.callteam.ca/resources/zoominfo-alternatives/"
+  },
+  {
+    "url": "https://www.callteam.ca/services/b2b-cold-calling/",
+    "status": 200,
+    "final": "https://www.callteam.ca/services/b2b-cold-calling/"
+  },
+  {
+    "url": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/",
+    "status": 200,
+    "final": "https://www.callteam.ca/case-studies/saas-demo-appointment-setting/"
+  },
+  {
+    "url": "https://www.callteam.ca/articles/international-elite-100-award-2026/",
+    "status": 200,
+    "final": "https://www.callteam.ca/articles/international-elite-100-award-2026/"
+  },
+  {
+    "url": "https://www.callteam.ca/articles/global-100-award-2027/",
+    "status": 200,
+    "final": "https://www.callteam.ca/articles/global-100-award-2027/"
+  },
+  {
+    "url": "https://www.callteam.ca/awards/global-excellence-2027/",
+    "status": 200,
+    "final": "https://www.callteam.ca/awards/global-excellence-2027/"
+  },
+  {
+    "url": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/",
+    "status": 200,
+    "final": "https://www.callteam.ca/awards/corporate-livewire-global-awards-2026-27/"
+  },
+  {
+    "url": "https://www.callteam.ca/articles/",
+    "status": 200,
+    "final": "https://www.callteam.ca/articles/"
+  }
+]

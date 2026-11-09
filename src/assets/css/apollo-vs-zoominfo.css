@@ -1,0 +1,28 @@
+/* Scoped comparison styles; use CallTeam's shared type and colours. */
+#simple-guide.az-page .az-hero-note{font-size:13px;color:#cfcfcf;margin-top:20px}
+#simple-guide.az-page .az-compare th:first-child{width:24%}
+#simple-guide.az-page .az-plans th:first-child{width:22%}
+#simple-guide.az-page .az-plans td strong{display:block;font:700 23px/1.35 Archivo,Arial,sans-serif}
+#simple-guide.az-page .az-plans .az-quote{font-size:16px}
+#simple-guide.az-page .az-subheading{font:700 28px/1.2 Archivo,Arial,sans-serif;color:#ff5a1f;margin:40px 0 20px}
+#simple-guide.az-page .az-verdict-pair{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:32px}
+#simple-guide.az-page .az-verdict-pair>article{border-top:3px solid #ff5a1f;background:#fff3eb;padding:28px}
+#simple-guide.az-page .az-verdict-pair h3{color:var(--lp-accent);font-size:24px;margin:0 0 18px}
+#simple-guide.az-page .az-verdict-pair p{font-size:15px;color:#423c38}
+#simple-guide.az-page .az-verdict-pair p:last-child{margin-bottom:0}
+#simple-guide.az-page .az-numbers{margin:0;padding:0;list-style:none}
+#simple-guide.az-page .az-numbers li{padding:17px 0;border-bottom:1px solid #d8d4ce;font-size:15px;color:#4d4d4d}
+#simple-guide.az-page .az-numbers li strong{display:block;color:#111;margin-bottom:5px}
+#simple-guide.az-page .az-credit-example{border-left:3px solid #ff5a1f;background:#fff;padding:26px 30px;margin-top:28px}
+#simple-guide.az-page .az-credit-example h3{font-size:23px;color:var(--lp-accent);margin-bottom:12px}
+#simple-guide.az-page .az-credit-example p{font-size:15px;color:#444;margin:8px 0 0}
+#simple-guide.az-page .az-decision-list{display:grid;grid-template-columns:1fr 1fr;gap:0 42px}
+#simple-guide.az-page .az-decision-list article{padding:27px 0;border-top:1px solid #d8d4ce}
+#simple-guide.az-page .az-decision-list h3{font-size:24px;margin-bottom:12px}
+#simple-guide.az-page .az-choice{font:700 18px/1.45 Archivo,Arial,sans-serif;color:#111;margin-bottom:12px}
+#simple-guide.az-page .az-decision-list article>p:last-child{font-size:15px;color:#555;margin-bottom:0}
+#simple-guide.az-page .az-inline-sources{font-size:12px;color:#666;margin:20px 0 0}
+#simple-guide.az-page .az-team-costs td{font-size:20px}
+#simple-guide.az-page .az-team-costs td.az-no-price{font-size:14px}
+@media(max-width:760px){#simple-guide.az-page .az-verdict-pair,#simple-guide.az-page .az-decision-list{grid-template-columns:1fr;gap:24px}#simple-guide.az-page .az-decision-list{gap:0}#simple-guide.az-page .az-plans tbody th:first-child,#simple-guide.az-page .az-compare tbody th:first-child{width:100%}#simple-guide.az-page .az-verdict-pair>article{padding:24px}#simple-guide.az-page .az-credit-example{padding:22px}#simple-guide.az-page .az-team-costs td{display:block;width:100%;font-size:22px}#simple-guide.az-page .az-team-costs td.az-no-price{font-size:16px}}
+@media(max-width:390px){#simple-guide.az-page h1{font-size:42px}#simple-guide.az-page h1 small{font-size:24px}}
