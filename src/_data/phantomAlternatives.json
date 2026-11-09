@@ -1,0 +1,319 @@
+{
+  "reviewed": "8 November 2026",
+  "reviewedIso": "2026-11-08",
+  "quickAnswer": "Evaboot is the focused pick for Sales Navigator exports. Apify covers broader extraction, while Clay and TexAu handle enrichment. For outreach, compare Dripify and Expandi for LinkedIn plus email, HeyReach for shared campaigns, and Waalaxy for prebuilt sequences. Keep PhantomBuster if it already delivers usable records at a reasonable cost.",
+  "baselinePlans": [
+    {
+      "name": "Start",
+      "monthly": 69,
+      "annualEquivalent": 56,
+      "annualPayment": "672",
+      "hours": 20,
+      "slots": 5,
+      "credits": "500"
+    },
+    {
+      "name": "Grow",
+      "monthly": 159,
+      "annualEquivalent": 128,
+      "annualPayment": "1,536",
+      "hours": 80,
+      "slots": 15,
+      "credits": "2,500"
+    },
+    {
+      "name": "Scale",
+      "monthly": 439,
+      "annualEquivalent": 352,
+      "annualPayment": "4,224",
+      "hours": 300,
+      "slots": 50,
+      "credits": "10,000"
+    }
+  ],
+  "providers": [
+    {
+      "id": "evaboot",
+      "name": "Evaboot",
+      "fit": "Exporting Sales Navigator searches with emails",
+      "loss": "No phone lookup, sending or broad web extraction.",
+      "shortVerdict": "Good value for a focused export job.",
+      "plan": "100-credit tier",
+      "monthly": "$9",
+      "unit": "Shared credit balance / month",
+      "annual": "No standard annual discount verified.",
+      "extra": "An active Sales Navigator subscription is required separately.",
+      "good": "Evaboot exports and cleans Sales Navigator results, filters mismatches and includes an email when found. The volume tiers share the same features, so you can choose by the number of exports you need.",
+      "weak": "An exported lead still costs a credit when no email is found. Evaboot supplies no phone numbers. A calling campaign needs a separate source for the missing numbers.",
+      "costDetail": "$49 a month buys 1,000 credits; $99 buys 3,000. One exported lead uses one credit. Add the Sales Navigator bill if you do not already have it.",
+      "verdict": "Good choice for regular Sales Navigator exports. The extra automation in a larger platform adds little if you only need the list.",
+      "sources": [
+        [
+          "Pricing and export limits",
+          "https://evaboot.com/pricing"
+        ],
+        [
+          "Sales Navigator export",
+          "https://evaboot.com/"
+        ]
+      ]
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "fit": "Web extraction and custom recurring data jobs",
+      "loss": "You must choose and maintain individual scrapers.",
+      "shortVerdict": "Useful flexibility when someone owns the technical work.",
+      "plan": "Starter",
+      "monthly": "$19",
+      "unit": "Platform / month, including $19 usage",
+      "annual": "10% subscription discount; annual usage pool.",
+      "extra": "Actor fees, compute, proxies and enabled overages consume budget.",
+      "good": "Apify offers ready-made scrapers, called Actors, plus the option to build your own. It suits collection jobs across different sites and scheduled runs feeding a spreadsheet or CRM workflow.",
+      "weak": "Actors have different authors, prices and output quality. Choosing the platform leaves you with another buying decision: which Actor can deliver the fields and freshness you need? Phone data depends on the specific source and scraper.",
+      "costDetail": "The subscription includes a usage allowance. When overage is enabled, charges can continue beyond that allowance. Set a spending limit before scheduling repeated runs.",
+      "verdict": "Apify suits teams with someone who can maintain the scrapers. Count that time in the cost. A cheap export is poor value when sales has to repair it.",
+      "sources": [
+        [
+          "Pricing",
+          "https://apify.com/pricing"
+        ],
+        [
+          "Billing and usage",
+          "https://docs.apify.com/account/billing"
+        ],
+        [
+          "Annual subscriptions",
+          "https://docs.apify.com/account/subscription-changes"
+        ]
+      ]
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "fit": "Combining data sources, research and phone enrichment",
+      "loss": "LinkedIn message automation needs another tool.",
+      "shortVerdict": "Strong for recurring enrichment; excessive for a basic list.",
+      "plan": "Launch",
+      "monthly": "$185",
+      "unit": "Workspace / month, starting tier",
+      "annual": "Advertised from $167/month equivalent.",
+      "extra": "Data Credits and Actions are separate. CRM auto-sync starts on Growth.",
+      "good": "Clay can try several data providers, research accounts and prepare records for outreach. Launch includes phone enrichment and email-campaign capability. It fits a team regularly filling gaps across different sources.",
+      "weak": "You have to build and maintain the workflow. Bringing your own provider key still consumes Actions, and that provider's bill remains. One Data Credit does not equal one complete contact.",
+      "costDetail": "Growth starts at $495 monthly for features including CRM auto-sync. Data Credit top-ups cost 30% more than subscription credits. Actions need a capacity upgrade when you exhaust them.",
+      "verdict": "Choose Clay for recurring enrichment across several sources. A direct data purchase is simpler for a modest weekly calling list.",
+      "sources": [
+        [
+          "Pricing",
+          "https://www.clay.com/pricing"
+        ],
+        [
+          "Actions and Data Credits",
+          "https://university.clay.com/docs/actions-data-credits"
+        ],
+        [
+          "Plan features",
+          "https://www.clay.com/faq/what-features-are-included-in-the-new-plans-how-do-i-pick-the-right-plan"
+        ]
+      ]
+    },
+    {
+      "id": "texau",
+      "name": "TexAu",
+      "fit": "Enriching prospects and moving records into sales tools",
+      "loss": "Some older LinkedIn actions belong to its previous product.",
+      "shortVerdict": "Check the cost of a finished record before upgrading.",
+      "plan": "Solo",
+      "monthly": "$99",
+      "unit": "One member / month; 2,500 credits",
+      "annual": "$948/year; $79/month equivalent.",
+      "extra": "Several successful actions can be charged for one enriched lead.",
+      "good": "TexAu's current product brings together enrichment, verification, scoring and integrations. Its action library includes phone lookups and sending records to CRMs and outreach tools.",
+      "weak": "Older TexAu tutorials describe V2 Desktop actions. Buyers of the current product need to check their specific replacement workflow. Finding an email and verifying it are separate paid actions; 2,500 credits do not promise 2,500 finished leads.",
+      "costDetail": "Starter is $249 monthly for three members; Teams is $649 for five. Extra members on those tiers cost $99 monthly. The phone-lookup charge is not clear on the pricing page.",
+      "verdict": "Worth considering when enrichment and CRM updates take too much time. Ask for the credit cost of your exact workflow. A few hundred records alone are a weak reason to buy Teams.",
+      "sources": [
+        [
+          "Annual pricing and credits",
+          "https://texau.com/pricing"
+        ],
+        [
+          "Monthly plans",
+          "https://texau.com/about"
+        ],
+        [
+          "Current action library",
+          "https://texau.com/library"
+        ],
+        [
+          "Legacy V2 example",
+          "https://texau.com/automations/linkedin/linkedin-auto-message"
+        ]
+      ]
+    },
+    {
+      "id": "dripify",
+      "name": "Dripify",
+      "fit": "LinkedIn and email sequences with an inbox",
+      "loss": "General multi-site collection jobs need another product.",
+      "shortVerdict": "A clear shortlist option for everyday follow-ups.",
+      "plan": "Pro",
+      "monthly": "$79",
+      "unit": "Per sending seat / month",
+      "annual": "$708/year per seat; $59/month equivalent.",
+      "extra": "Advanced adds team controls. Extra email credits are paid separately.",
+      "good": "Dripify combines LinkedIn and email steps, campaign reporting and reply handling. Pro covers a straightforward outreach routine without building a collection of separate data automations.",
+      "weak": "Each connected LinkedIn account needs a seat. Advanced gates team management and A/B testing. Imports and email finding do not replace a source of verified mobile numbers.",
+      "costDetail": "Advanced is $99 monthly. One Advanced owner plus two Pro senders costs $257 a month. Extra email credits start at $29 for 1,000.",
+      "verdict": "Choose Pro when follow-ups are the job you need done. Give the owner Advanced when you need team controls. Paying the higher rate for every sender only makes sense when they will use its extra features.",
+      "sources": [
+        [
+          "Pricing",
+          "https://dripify.com/pricing/"
+        ],
+        [
+          "Mixed team plans",
+          "https://help.dripify.com/en/articles/10259944-managing-multiple-teams-in-dripify"
+        ],
+        [
+          "Team management",
+          "https://dripify.com/features/team-management/"
+        ]
+      ]
+    },
+    {
+      "id": "heyreach",
+      "name": "HeyReach",
+      "fit": "Shared LinkedIn campaigns across several senders",
+      "loss": "Email sending and wider collection require connected tools.",
+      "shortVerdict": "The shared campaign and inbox are the reason to pay.",
+      "plan": "Growth, 1–9 senders",
+      "monthly": "$79",
+      "unit": "Per LinkedIn sender / month",
+      "annual": "$759/year for one sender.",
+      "extra": "Included enrichment credits are one-time. Email software is separate.",
+      "good": "HeyReach distributes campaigns across connected LinkedIn accounts and brings replies into a shared inbox. That gives a team a practical way to organise sending and take responsibility for conversations.",
+      "weak": "It replaces the outreach portion of a PhantomBuster workflow. Email campaigns need another platform. CSV exports omit custom variables, so check what happens to research context when moving records.",
+      "costDetail": "Three Growth senders cost $237 monthly. Agency with 25 senders costs $999 monthly. The $2,999 Unlimited plan has a published 300-sender cap.",
+      "verdict": "Growth is the sensible starting point for a few senders. Pay for Agency when you need its client-management features.",
+      "sources": [
+        [
+          "Pricing and sender caps",
+          "https://www.heyreach.io/pricing"
+        ],
+        [
+          "Email credits",
+          "https://help.heyreach.io/en/articles/12855506-how-do-the-email-credits-work-in-heyreach"
+        ],
+        [
+          "Export fields",
+          "https://help.heyreach.io/en/articles/10475396-leads-screen-overview"
+        ]
+      ]
+    },
+    {
+      "id": "expandi",
+      "name": "Expandi",
+      "fit": "Conditional LinkedIn and email outreach",
+      "loss": "It does not replace broad extraction and enrichment workflows.",
+      "shortVerdict": "Pay for branching campaigns only if you need them.",
+      "plan": "Business",
+      "monthly": "$99",
+      "unit": "Per LinkedIn account / month",
+      "annual": "Advertised $79/month equivalent; confirm invoice total.",
+      "extra": "Image, GIF and video personalisation cost extra. Agency pricing is quoted.",
+      "good": "Expandi can change a sequence according to prospect activity. LinkedIn and email steps, tags and exclusions suit outreach with several possible paths.",
+      "weak": "Disconnecting a LinkedIn account leaves its paid seat active; remove the seat to reduce the next bill.",
+      "costDetail": "The annual offer uses both 20% off and two months free. Those calculate differently. Get the annual invoice amount before paying.",
+      "verdict": "Choose Expandi for campaigns with useful branching rules. For basic invitations and reminders, the cost is hard to justify. Skip image and video extras unless they improve the message.",
+      "sources": [
+        [
+          "Pricing",
+          "https://expandi.io/pricing/"
+        ],
+        [
+          "Advertised annual rate",
+          "https://expandi.io/blog/b2b-prospecting-tool/"
+        ],
+        [
+          "Seat billing",
+          "https://help.expandi.io/en/articles/10261458-manage-subscriptions-seats-for-your-linkedin-accounts-workspace"
+        ]
+      ]
+    },
+    {
+      "id": "waalaxy",
+      "name": "Waalaxy",
+      "fit": "Prebuilt LinkedIn prospecting sequences",
+      "loss": "Custom sequences and cross-platform extraction are limited.",
+      "shortVerdict": "Start with the features you will use; extras add up quickly.",
+      "plan": "Pro",
+      "monthly": "€39",
+      "unit": "EUR per user / month",
+      "annual": "€228/year; €19/month equivalent.",
+      "extra": "Business for email costs €139 monthly. Optional Inbox adds €20.",
+      "good": "Waalaxy's ready-made sequences make campaign setup straightforward. Pro includes 300 monthly invitations; Advanced raises the listed allowance to 800. Business adds email sequences.",
+      "weak": "Sequence steps cannot be freely rearranged into any custom workflow. Team members share one plan tier and billing term. Inbox must be purchased across the team rather than for a single member.",
+      "costDetail": "Advanced is €99 monthly or €588 yearly. Business plus Inbox costs €159 monthly, or €948 paid yearly. Extra email credits are recurring purchases. Unused monthly credits do not roll over.",
+      "verdict": "Pro covers a basic LinkedIn campaign. Business and Inbox are poor team-wide purchases when only one person needs the extra features.",
+      "sources": [
+        [
+          "Pricing",
+          "https://www.waalaxy.com/pricing"
+        ],
+        [
+          "Monthly prices and sequence limits",
+          "https://www.waalaxy.com/blog/linkedin-automation-software/waalaxy-alternatives"
+        ],
+        [
+          "Inbox costs",
+          "https://intercom.help/waalaxy/en/articles/6752157-what-is-the-waalaxy-inbox"
+        ],
+        [
+          "Team rules",
+          "https://intercom.help/waalaxy/en/articles/6414125-what-s-the-team-feature"
+        ],
+        [
+          "Credit purchases",
+          "https://intercom.help/waalaxy/en/articles/6413101-what-are-the-different-subscriptions"
+        ]
+      ]
+    }
+  ],
+  "resource": "PHANTOMBUSTER REPLACEMENT CHECKLIST\n\n1. JOB: Which exact export, enrichment or outreach task must the replacement perform?\n2. OUTPUT: Does a small test return the right people, required contact fields and usable export columns?\n3. BILL: What is the total for seats, credits, usage, add-ons and required subscriptions?\n4. HANDOFF: Who owns replies and callbacks? Can we preserve exclusions, history and CRM fields?\n5. DECISION: Keep, change plan or switch? Record the reason, next review date and person responsible.",
+  "faqs": [
+    {
+      "q": "What is the best PhantomBuster alternative?",
+      "a": "For Sales Navigator exports, start with Evaboot. Apify covers broader extraction jobs; Clay and TexAu focus on enrichment. For outreach, compare Dripify, Expandi, HeyReach and Waalaxy against the sending and inbox features you need."
+    },
+    {
+      "q": "Are there free PhantomBuster alternatives?",
+      "a": "Apify's Free plan includes $5 in monthly usage. Clay offers 100 Data Credits and 500 Actions monthly on Free; phone enrichment requires a paid plan. Check the trial's export and usage limits before committing to a larger workflow."
+    },
+    {
+      "q": "Is there a cheaper alternative to PhantomBuster?",
+      "a": "For a narrow job, yes: Evaboot's entry export tier and Apify's Starter subscription are below PhantomBuster Start's $69 monthly fee. Add required subscriptions and usage before comparing totals. An outreach tool priced per sender can cost more as the team grows."
+    },
+    {
+      "q": "Is Clay better than PhantomBuster for lead generation?",
+      "a": "Clay is a strong option for combining contact-data providers and researching accounts. PhantomBuster can suit existing collection and outreach automations. Compare the work needed to produce the same useful records, including setup, usage and CRM handoff."
+    },
+    {
+      "q": "Can Apify replace all my PhantomBuster workflows?",
+      "a": "Match an Actor to each workflow: source, required fields, schedule and export. Some tasks need more than one Actor or additional tools."
+    },
+    {
+      "q": "Should I choose Dripify or HeyReach instead of PhantomBuster?",
+      "a": "Consider Dripify for LinkedIn and email sequences. Consider HeyReach when several LinkedIn senders need shared campaigns and replies. Keep a separate solution for collection or enrichment work those sending tools do not cover."
+    },
+    {
+      "q": "Can PhantomBuster find mobile or direct phone numbers?",
+      "a": "Its Chrome lead panel can reveal phone numbers when available on standard LinkedIn profiles. The panel is unavailable on Sales Navigator pages. Test coverage and number type for your buyers; the email-credit allowance is not a promise of that many mobile numbers."
+    },
+    {
+      "q": "Can CallTeam call the leads I export?",
+      "a": "Yes. We can review your list, prepare the campaign, call prospects, handle follow-up and book qualified appointments. Bring your target market and the records you already have."
+    }
+  ]
+}

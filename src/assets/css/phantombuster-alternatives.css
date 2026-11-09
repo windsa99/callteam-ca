@@ -1,0 +1,14 @@
+/* Scoped to the PhantomBuster alternatives guide. */
+#simple-guide.pb-page .pb-baseline-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+#simple-guide.pb-page .pb-plan{background:#fff;border:1px solid #d8d4ce;border-top:3px solid #ff5a1f;padding:28px}
+#simple-guide.pb-page .pb-plan h3{font:700 27px/1.2 Archivo,Arial,sans-serif;color:#111;margin:0 0 15px}
+#simple-guide.pb-page .pb-plan p{font-size:15px;color:#505050;line-height:1.9}
+#simple-guide.pb-page .pb-plan .pb-price{font:700 38px/1.3 Archivo,Arial,sans-serif;color:#ff5a1f;margin:0 0 15px}
+#simple-guide.pb-page .pb-price span{font:400 14px Inter,Arial,sans-serif;color:#555;margin-left:5px}
+#simple-guide.pb-page .pb-plan .pb-annual{font-size:13px;border-top:1px solid #ddd;padding-top:16px;margin-top:20px}
+#simple-guide.pb-page .pb-verdict-strip{margin-top:35px;padding:26px 30px;background:#fff3eb;border-left:3px solid #ff5a1f}
+#simple-guide.pb-page .pb-verdict-strip>p:last-child{font:600 20px/1.65 Inter,Arial,sans-serif;color:#222;margin-bottom:0;max-width:1000px}
+#simple-guide.pb-page .pb-prices td strong{font:700 23px/1.4 Archivo,Arial,sans-serif}
+#simple-guide.pb-page .lp-provider-head h3{font-size:clamp(24px,2.8vw,35px)}
+@media(max-width:760px){#simple-guide.pb-page .pb-baseline-grid{grid-template-columns:1fr;gap:18px}#simple-guide.pb-page .pb-plan{padding:24px}#simple-guide.pb-page .lp-provider-head{flex-direction:column;align-items:flex-start;gap:15px}#simple-guide.pb-page .lp-source{max-width:none}#simple-guide.pb-page .pb-verdict-strip{padding:22px}#simple-guide.pb-page .pb-verdict-strip>p:last-child{font-size:18px}}
+@media(max-width:390px){#simple-guide.pb-page h1{font-size:36px}#simple-guide.pb-page .lp-provider-head h3{font-size:24px}}

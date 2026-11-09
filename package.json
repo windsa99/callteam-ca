@@ -2,7 +2,7 @@
   "name": "callteam-ca",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run test:attribution && npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && npm run test:dialers && npm run test:lead-buying && npm run test:crm && npm run test:apollo && npm run test:zoominfo && npm run test:navigator && npm run test:nooks && npm run test:hubspot && eleventy && node scripts/test-hubspot-alternatives.js --rendered && node scripts/test-nooks-alternatives.js --rendered && node scripts/test-sales-navigator.js --rendered && node scripts/test-zoominfo-alternatives.js --rendered && node scripts/test-apollo-alternatives.js --rendered && node scripts/test-crm-guide.js --rendered && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms && npm run test:buying-guides && npm run test:linkedin-automation",
+    "build": "npm run test:attribution && npm run check:articles && npm run test:roi && npm run test:campaign && npm run test:meeting-quality && npm run test:dialers && npm run test:lead-buying && npm run test:crm && npm run test:apollo && npm run test:zoominfo && npm run test:navigator && npm run test:nooks && npm run test:hubspot && eleventy && node scripts/test-hubspot-alternatives.js --rendered && node scripts/test-nooks-alternatives.js --rendered && node scripts/test-sales-navigator.js --rendered && node scripts/test-zoominfo-alternatives.js --rendered && node scripts/test-apollo-alternatives.js --rendered && node scripts/test-crm-guide.js --rendered && node scripts/check-article-tool-ctas.js --rendered && node scripts/test-article-authorship.js && npm run check:forms && npm run test:buying-guides && npm run test:linkedin-automation && npm run test:phantombuster",
     "start": "eleventy --serve",
     "check:articles": "node scripts/validate-article-engine.js && node scripts/check-article-tool-ctas.js",
     "check:about": "node scripts/validate-about-page.js",
@@ -29,7 +29,8 @@
     "test:nooks": "node scripts/test-nooks-alternatives.js",
     "test:hubspot": "node scripts/test-hubspot-alternatives.js",
     "test:buying-guides": "node scripts/test-simple-buying-guides.js",
-    "test:linkedin-automation": "node scripts/test-linkedin-automation.js"
+    "test:linkedin-automation": "node scripts/test-linkedin-automation.js",
+    "test:phantombuster": "node scripts/test-phantombuster-alternatives.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
