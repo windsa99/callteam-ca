@@ -1,0 +1,59 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/apollo-vs-clay/"
+title: "Apollo vs Clay: Pricing, Phone Data and Our Verdict"
+seoTitle: "Apollo vs Clay: Pricing, Credits & Verdict | CallTeam"
+description: "Compare Apollo vs Clay on pricing, phone numbers, data credits and outreach. See costs for 1, 3 and 5 users and when paying for both makes sense."
+canonicalUrl: "https://www.callteam.ca/resources/apollo-vs-clay/"
+modified: "2026-11-10"
+contentLanguage: "en-CA"
+ogType: "article"
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/simple-buying-guide.css", "/assets/css/guide-resources.css", "/assets/css/decision-guides.css"]
+pageScripts: ["/assets/js/simple-buying-guide.js"]
+---
+{% set guide = apolloClayComparison %}
+{% import "components/decision-guide.njk" as g %}
+{% include "components/apollo-clay-schema.njk" %}
+<main class="lp-page dg-page" id="simple-guide">
+{{ g.hero(guide) }}
+<section class="lp-section" id="comparison"><div class="lp-wrap">
+{{ g.heading('01','Choose around the work','Apollo vs Clay:<br>what can each one do?','Compare how each platform handles prospecting, research and outreach.') }}
+{{ g.table('Apollo.io and Clay compared for prospecting, contact data and outreach',['Your task','Apollo','Clay'],guide.comparisonRows) }}
+{{ g.sources([['Apollo plans','https://www.apollo.io/pricing'],['Apollo waterfall enrichment','https://knowledge.apollo.io/hc/en-us/articles/34071121664781-Use-Waterfall-Enrichment'],['Clay features and plans','https://www.clay.com/pricing'],['Clay Sequencer capabilities','https://university.clay.com/docs/getting-started-with-sequencer']]) }}
+<div class="dg-callout sg-after"><h3>Test Apollo's waterfall before adding Clay.</h3><p>If missing contact details are the problem, try Apollo's other data sources first. Apollo-integrated sources use Apollo credits. Providers connected with your own API key bill separately.</p><p>For a dedicated email tool, see our <a href="/resources/best-cold-email-software/">cold email software comparison</a>.</p></div>
+<p class="dg-related">Still choosing among several providers? See our <a href="/resources/b2b-lead-providers/">B2B lead database comparison</a> or <a href="/resources/apollo-alternatives/">Apollo alternatives</a>. If ZoomInfo is the other finalist, use <a href="/resources/apollo-vs-zoominfo/">Apollo vs ZoomInfo</a>.</p>
+</div></section>
+<section class="lp-section lp-paper" id="costs"><div class="lp-wrap">
+{{ g.heading('02','Published subscription prices','Apollo vs Clay pricing:<br>what will you pay?','USD before tax and extra usage. Annual prices are advertised monthly equivalents with an annual commitment. The allowances below apply to the monthly plans.') }}
+{{ g.table('Selected Apollo and Clay plans; monthly-plan allowances and advertised annual-billing rates',['Plan and billing unit','Monthly billing','Annual billing / month','Monthly allowance','Main reason to consider it'],guide.planRows) }}
+{{ g.sources([['Apollo pricing','https://www.apollo.io/pricing'],['Clay pricing','https://www.clay.com/pricing']]) }}
+<p class="lp-small">Clay's Free plan and trial exclude phone enrichment. Launch is the starting paid comparison for phone data. Email accounts and domains can add costs on either platform.</p>
+<p class="lp-small">Apollo's annual Basic and Professional plans grant 30,000 and 48,000 credits per user upfront. Clay's annual Launch and Growth allowances are 30,000 and 72,000 Data Credits, with 180,000 and 480,000 Actions per year.</p>
+<h3 class="dg-subheading">What do one, three or five users cost?</h3>
+<p>Monthly billing for the plans above. Clay includes unlimited users in a workspace; adding people does not increase its included data or Actions.</p>
+{{ g.table('Monthly subscription totals for one, three or five users',['Plan','1 user','3 users','5 users'],guide.teamRows) }}
+<p class="sg-note"><strong>Apollo does not let you mix Basic and Professional seats.</strong> Price the whole team's upgrade, even if only one person needs the extra features.</p>
+<div class="sg-two sg-after"><div><h3>Clay's CRM connection costs $310 more per month.</h3><p>CRM integrations and broader automation require Growth at $495/month. Launch starts at $185 on monthly billing.</p><p>Skip that upgrade for an occasional list export. Pay the extra $310 only when regular automation saves enough work.</p>{{ g.sources([['Clay plan and trial limits','https://university.clay.com/docs/plans-and-billing']]) }}</div><div><h3>Budget for the calling setup.</h3><p>Apollo's Advanced Dialer add-on lists an introductory $149/team/month on monthly billing, with usage extra.</p><p>For Clay, compare <a href="/resources/best-cold-calling-dialers/">cold calling diallers and their costs</a> to complete the calling setup.</p>{{ g.sources([['Apollo calling plans','https://www.apollo.io/product/dialer']]) }}</div></div>
+</div></section>
+<section class="lp-section" id="phone-data"><div class="lp-wrap">
+{{ g.heading('03','What the allowance actually buys','Phone numbers and credits:<br>price the finished contact.','Count correct contacts with usable numbers when comparing the cost.') }}
+<div class="sg-two"><div><h3>Apollo phone reveals use several credits.</h3><p>Apollo lists eight credits for a native phone-number reveal. That makes 500 reveals a 4,000-credit phone budget, before other chargeable work.</p><p>API enrichment can add a demographic or email credit. Waterfall charges vary by provider and action. Unused credits expire at the end of your billing cycle.</p>{{ g.sources([['Apollo people-enrichment charges','https://docs.apollo.io/reference/people-enrichment'],['Apollo waterfall credit rules','https://docs.apollo.io/docs/enrich-phone-and-email-using-data-waterfall']]) }}</div><div><h3>Clay has two separate usage allowances.</h3><p>Data Credits pay for purchased data and supported AI work. Actions cover the workflow steps. A single contact can need several lookups, research steps and exports.</p><p>Using your own provider account can remove Clay's Data Credit charge for that lookup. The provider's bill and Clay Actions still apply.</p><p>Data Credit top-ups carry a 30% premium. Extra Actions require a capacity upgrade. Avoid paying more to repeat low-value steps.</p>{{ g.sources([['Clay Actions and Data Credits','https://university.clay.com/docs/actions-data-credits']]) }}</div></div>
+<div class="dg-callout"><h3>Failed lookups can still cost money.</h3><p>Charges and refunds depend on the provider and action. A result that flags an email as invalid can still cost credits. Repeat runs can add charges too.</p><p>Check the billing log after a small test. Remove low-value steps before buying more credits.</p>{{ g.sources([['Clay credit refunds','https://university.clay.com/docs/credit-refunds'],['Apollo credit rules by action','https://docs.apollo.io/docs/enrich-phone-and-email-using-data-waterfall']]) }}</div>
+<p class="dg-related"><strong>Our view:</strong> reject a setup that spends heavily on contacts your team would never call. Filter companies and roles before paying for phone data.</p>
+</div></section>
+<section class="lp-section lp-paper" id="verdict"><div class="lp-wrap">
+{{ g.heading('04','The CallTeam verdict','Which should you buy<br>and when should you use both?','') }}
+<div class="sg-brand-grid">{% for d in guide.decisions %}<article class="sg-brand"><p class="lp-kicker">{{ d[0] }}</p><h3>{{ d[1] }}</h3><p>{{ d[2] }}</p></article>{% endfor %}</div>
+<div class="dg-callout" id="using-both"><h3>Three Apollo Professional users plus Clay Launch: ${{ guide.combinedMonthly }}/month.</h3><p>That is $297 for Apollo and $185 for Clay on monthly billing. Choosing Clay Growth takes the base total to ${{ guide.combinedGrowthMonthly }}/month. Provider accounts, calling and extra usage can add to it.</p><p>Clay's Apollo integration can find and enrich people, then add existing Apollo contacts to sequences. You need an Apollo account with the required API access.</p><p>Test one batch before scaling. Check duplicate records, ownership, phone fields and credit charges on both sides.</p>{{ g.sources([['Clay and Apollo integration','https://university.clay.com/docs/apollo-io-integration-overview']]) }}</div>
+{{ g.midcta(guide,'Already have a list worth calling?','CallTeam can make the calls, handle follow-up and book qualified meetings alongside your email campaign.') }}
+</div></section>
+<section class="lp-section" id="trial"><div class="lp-wrap">
+{{ g.heading('05','A useful buying test','Compare the same 25 contacts<br>before buying more capacity.','Use real prospects from the roles and locations you sell to.') }}
+<div class="sg-flow"><div><h3>Check the person and number.</h3><p>Match the name, current employer and role. Record missing data, duplicates and wrong numbers. An unanswered call belongs in its own category.</p></div><div><h3>Record the complete cost.</h3><p>Note credits, Actions, provider charges and time spent fixing the output. Use the finished records your team can work when comparing value.</p></div><div><h3>Send the records into the calling queue.</h3><p>Check phone fields, account ownership and follow-up notes. If someone must repair every export, include that work in the buying decision.</p></div></div>
+<p class="dg-related">Use the <a href="/resources/apollo-alternatives/#contact-test">free 25-contact comparison checklist</a> to record the results. For choosing a mobile or company line, see <a href="/resources/how-to-buy-cold-calling-leads/">which number to call first</a>.</p>
+<p>Prepare your opening with our <a href="/resources/cold-call-scripts/">free cold calling scripts</a> and <a href="/cold-call-script-checker/">script checker</a>. Record call outcomes so each follow-up builds on the conversation.</p>
+</div></section>
+{{ g.resource(guide,'06') }}
+{{ g.faqs(guide,'07') }}
+{{ g.close(guide) }}
+</main>

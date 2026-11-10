@@ -1,0 +1,189 @@
+{
+  "slug": "apollo-vs-clay",
+  "shortTitle": "Apollo vs Clay",
+  "category": "Prospecting and contact data",
+  "h1": "Apollo <span>vs Clay.</span><small>Compare prices, phone data and the work involved.</small>",
+  "intro": "Compare subscription costs, phone data and setup work before you buy. See when Apollo is enough, when Clay earns its cost and when to use both.",
+  "brands": [
+    "Apollo.io",
+    "Clay"
+  ],
+  "panelLabel": "Before adding another subscription",
+  "panelTitle": "What would the<br>second tool fix?",
+  "panel": [
+    [
+      "Missing contacts",
+      "Can it find useful numbers your current setup misses?"
+    ],
+    [
+      "Repeated research",
+      "Will it save someone the same manual work every week?"
+    ],
+    [
+      "Unworked leads",
+      "If the list is ready, someone needs to call it."
+    ]
+  ],
+  "quickAnswer": "Start with Apollo for prospecting, email and calls. Buy Clay for research and data work you repeat across several sources. Pay for both only if Clay adds useful contacts or saves enough time.",
+  "reviewed": "10 November 2026",
+  "reviewedIso": "2026-11-10",
+  "jump": [
+    [
+      "comparison",
+      "Side by side"
+    ],
+    [
+      "costs",
+      "Prices & team costs"
+    ],
+    [
+      "phone-data",
+      "Phone data & credits"
+    ],
+    [
+      "verdict",
+      "Our verdict"
+    ],
+    [
+      "buying-questions",
+      "Free buying check"
+    ],
+    [
+      "questions",
+      "FAQs"
+    ]
+  ],
+  "comparisonRows": [
+    [
+      "Find target buyers",
+      "Search Apollo's contact and company database, then save prospects for outreach.",
+      "Build prospect lists through Audiences, provider searches and connected data sources."
+    ],
+    [
+      "Fill missing emails and phones",
+      "Waterfall enrichment can try other providers after Apollo. You choose the sources and their order.",
+      "Combine provider lookups in a workflow. Costs depend on the data source and Actions used."
+    ],
+    [
+      "Research accounts",
+      "AI research and enrichment can add context to records before outreach.",
+      "Claygent and workflow steps support custom research, qualification and routing."
+    ],
+    [
+      "Send email sequences",
+      "Sequencing sits alongside the contact database and rep activity.",
+      "Clay has a native email sequencer. Its documented sequences support up to four emails."
+    ],
+    [
+      "Make calls",
+      "Paid plans include the US dialler with usage charges. Advanced calling is a separate add-on.",
+      "Its Sequencer has no dialler or rep task assignment. Calling needs another tool or a calling team."
+    ],
+    [
+      "Maintain the setup",
+      "Manage seats, data usage, sequences and CRM settings.",
+      "Someone must own the tables, provider choices, spending and records sent to other systems."
+    ]
+  ],
+  "plans": [
+    {
+      "name": "Apollo Basic",
+      "basis": "Per user",
+      "monthly": 65,
+      "annualRate": 49,
+      "monthlyCredits": "2,500 credits per user",
+      "annualCredits": "30,000 credits per user/year",
+      "fit": "Core prospecting and sequences"
+    },
+    {
+      "name": "Apollo Professional",
+      "basis": "Per user",
+      "monthly": 99,
+      "annualRate": 79,
+      "monthlyCredits": "4,000 credits per user",
+      "annualCredits": "48,000 credits per user/year",
+      "fit": "More credits, call recording and advanced features"
+    },
+    {
+      "name": "Clay Launch",
+      "basis": "Per workspace",
+      "monthly": 185,
+      "annualRate": 167,
+      "monthlyCredits": "2,500 Data Credits + 15,000 Actions",
+      "annualCredits": "30,000 Data Credits + 180,000 Actions/year",
+      "fit": "Phone enrichment and prospecting workflows"
+    },
+    {
+      "name": "Clay Growth",
+      "basis": "Per workspace",
+      "monthly": 495,
+      "annualRate": 446,
+      "monthlyCredits": "6,000 Data Credits + 40,000 Actions",
+      "annualCredits": "72,000 Data Credits + 480,000 Actions/year",
+      "fit": "CRM integrations and broader automation"
+    }
+  ],
+  "decisions": [
+    [
+      "Choose Apollo",
+      "Use one tool for daily outbound.",
+      "You need contacts, email follow-up and calling together. Buy the lowest plan that covers the work. Skip upgrades for features your reps will not use."
+    ],
+    [
+      "Choose Clay",
+      "Buy it for research you repeat.",
+      "You regularly combine sources or research accounts. Assign someone to maintain the workflow and watch the bill. Skip Clay if you only need an occasional contact list."
+    ],
+    [
+      "Use both",
+      "Make the second subscription earn its place.",
+      "Keep both when Clay adds useful contacts or saves enough research time to cover its cost. Reject the second subscription if it just repeats Apollo lookups."
+    ],
+    [
+      "Skip the extra tool",
+      "Put a ready list to work.",
+      "Your list already has suitable contacts. Put the budget into calls and follow-up. More enrichment will not fix missed callbacks."
+    ]
+  ],
+  "resourceTitle": "Five questions before you buy or renew.",
+  "resourceIntro": "Copy these questions for your next purchase, plan change or renewal.",
+  "resource": "1. What does a sample of the same 25 target contacts add to our existing calling list? Count useful new numbers and missing or incorrect records.\n\n2. What did the complete sample use in credits, Actions and paid provider accounts, including failed lookups and reruns?\n\n3. What is the monthly bill for the required users, data allowance, CRM connection and calling setup?\n\n4. Who will maintain the workflow, check duplicates and fix records that arrive incorrectly?\n\n5. Does the extra useful data or time saved justify keeping this subscription? What would make us cancel it?",
+  "resourceAside": "Compare the finished calling list.",
+  "resourceNote": "Compare usable contacts, the full bill and the time spent fixing the results.",
+  "ctaTitle": "You have the contacts.<br>Let CallTeam make the calls.",
+  "ctaText": "Bring your Apollo list or Clay output. CallTeam can run the calling campaign, qualify interest, handle follow-up and book meetings.",
+  "faqs": [
+    {
+      "q": "Is Clay better than Apollo for lead generation?",
+      "a": "Choose Clay for recurring research across data sources. Choose Apollo for finding prospects and running email and phone outreach in one place."
+    },
+    {
+      "q": "Can Clay replace Apollo?",
+      "a": "Clay covers prospect research, enrichment and email campaigns. To replace Apollo completely, budget for a separate calling tool and a way to manage rep follow-up."
+    },
+    {
+      "q": "Can Apollo replace Clay?",
+      "a": "Yes, when Apollo covers your contact searches, enrichment and outreach. Test any custom research or routing you still need before cancelling Clay."
+    },
+    {
+      "q": "Is Apollo cheaper than Clay?",
+      "a": "Apollo Basic starts cheaper for one user. Its seat cost grows with your team. Clay charges by workspace plan and usage. Compare the required features and data volume with the subscription price."
+    },
+    {
+      "q": "Do I need an Apollo account to use Clay?",
+      "a": "No. Clay supports many data providers. You need an Apollo account and the required API access only when using its Apollo integration."
+    },
+    {
+      "q": "Can I use Apollo and Clay together?",
+      "a": "Yes. Clay can find and enrich people through Apollo and add existing Apollo contacts to sequences. Test the connection, credit charges and records with a small batch."
+    },
+    {
+      "q": "Which has more accurate phone numbers, Apollo or Clay?",
+      "a": "Test the same buyers with the providers you plan to use. Count correct contacts and working numbers. Keep unanswered calls separate from wrong numbers."
+    },
+    {
+      "q": "Can CallTeam call leads from Apollo or Clay?",
+      "a": "Yes. Book a free call to discuss your list, target market, offer and meeting requirements. We can handle the calling and follow-up."
+    }
+  ]
+}
