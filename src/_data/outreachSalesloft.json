@@ -1,0 +1,55 @@
+{
+  "slug": "outreach-vs-salesloft",
+  "shortTitle": "Outreach vs Salesloft",
+  "category": "Sales engagement software",
+  "h1": "Outreach <span>vs Salesloft.</span><small>Compare pricing, calling and what you actually need.</small>",
+  "intro": "Both organise sales follow-up across email, calls and tasks. Compare the useful features, extra charges and simpler options before committing your team.",
+  "brands": ["Outreach", "Salesloft", "Apollo", "Close", "lemlist"],
+  "panelLabel": "Before you book the demo",
+  "panelTitle": "What are you<br>paying to improve?",
+  "panel": [
+    ["A rep’s working day", "Can they call, handle replies and follow up without losing context?"],
+    ["A manager’s decisions", "Will someone use the coaching and deal reports every week?"],
+    ["The full cost", "Include calling, AI usage, setup and any extra subscriptions."]
+  ],
+  "quickAnswer": "Choose Outreach when sequences, coaching and deal management will all get used. Salesloft suits teams working from shared cadences and daily task priorities. For basic calling and follow-up, skip both and compare Apollo, Close or lemlist.",
+  "reviewed": "10 November 2026",
+  "reviewedIso": "2026-11-10",
+  "jump": [["comparison", "Side by side"], ["costs", "Prices & extras"], ["verdict", "Our verdict"], ["alternatives", "Simpler options"], ["buying-questions", "Free questions"], ["questions", "FAQs"]],
+  "comparisonRows": [
+    ["Email and call sequences", "Start with Amplify Core for multichannel sequences. Plus adds the broader coaching and deal tools.", "Cadence combines email, phone and other tasks. Rhythm helps reps prioritise their work."],
+    ["Calling inside the platform", "Voice access is included. Minutes and numbers have separate charges. Native sequential dialling works through call tasks.", "The Dialer is an add-on. A phone step in a cadence does not include the calling subscription."],
+    ["Conversation intelligence", "Essentials focuses on coaching and deal insight. Choose Plus to combine that with Core’s sequencing.", "New implementations use Clari Copilot. Both subscriptions and the integration entitlement must be in the contract."],
+    ["Forecasting", "Amplify Pro includes forecasting.", "Forecasting is an add-on."]
+  ],
+  "costRows": [
+    ["Base subscription", "No public per-seat rate.", "No public per-seat rate."],
+    ["US and Canada calling", "US Standard: <strong>$10/user/month</strong> Includes 1,000 minutes and one US/Canada number. US Premium: <strong>$20/user/month</strong> Unlimited minutes under reasonable-use terms, plus one number.", "Unlimited Calling module: <strong>Quote required</strong> North America covers +1 destinations. Extra destinations and fair-use overages can add charges."],
+    ["AI and agent usage", "Published pay-as-you-go overage: <strong>$1.40/credit</strong>", "Account Agent and Coaching Agent are add-ons with separate prices and usage allowances."],
+    ["Local numbers", "The named US plans include one local number per user. Ask for the rate for additional numbers.", "LocalDial: <strong>$1 to provision + $1/month per number</strong> Unlimited LocalDial U.S. excludes Canadian and international numbers."],
+    ["Setup and additional products", "Price the CRM configuration, training, extra connectors and support you need.", "Include implementation and any Clari Copilot subscription required for your coaching setup."]
+  ],
+  "decisions": [
+    ["Outreach", "Buy it for work your team will actually do.", "Outreach makes sense when reps run sequences and managers use coaching, deal reviews or forecasts every week. Skip it if nobody will own the setup and AI budget. Those features need someone to manage them."],
+    ["Salesloft", "Pay for the daily process you need.", "Salesloft fits a team that works from shared cadences and reviews rep activity. Reject an expensive bundle when the extra coaching and management tools will sit unused. Size alone does not make that spend sensible."],
+    ["Choose a simpler tool", "A high price needs a clear payoff.", "If a cheaper tool handles your calls, follow-ups and CRM updates, choose it. Make the expensive platform show what the extra money buys. A longer feature list is a weak reason to pay more."],
+    ["Keep your current system", "Unworked leads need a caller.", "If the CRM is organised but call tasks sit untouched, fix who makes the calls and handles follow-up. More software will not clear that queue. Bring in calling support when the team lacks the time or people."]
+  ],
+  "resourceTitle": "Five questions to send before the demo.",
+  "resourceIntro": "Copy these into an email. Reuse them for a new purchase, an upgrade or a renewal.",
+  "resource": "1. What is the total first-year price for our reps and managers, including minimum seats, setup, required products and taxes?\n\n2. Which calling destinations, minutes and numbers are included? What triggers extra charges?\n\n3. Which AI actions use credits, when do credits reset, and what can keep spending after the allowance runs out?\n\n4. Can you show our CRM receiving a reply, call outcome and callback, with the right owner and no duplicate record?\n\n5. What can we export when we leave, what notice is required, and how can the price change at renewal?",
+  "resourceAside": "Ask for one complete price.",
+  "resourceNote": "Send both vendors the same team size, calling countries and required features. Use their written answers to compare the first year and renewal.",
+  "ctaTitle": "Have the leads?<br>Let CallTeam make the calls.",
+  "ctaText": "We can prepare the calling campaign, reach the right people, qualify interest and book meetings. Bring your target market and current follow-up process. We’ll work out where calling support fits.",
+  "faqs": [
+    {"q": "Is Outreach better than Salesloft?", "a": "For sequences plus broader deal management, start with Outreach. For shared cadences and daily rep priorities, start with Salesloft. Choose the one that handles your campaign and CRM handoff well at a cost you can justify."},
+    {"q": "How much do Outreach and Salesloft cost per user?", "a": "Both require a quote for the platform subscription. Add calling, AI usage, setup and any extra products to compare the full cost. Their published calling charges cover only part of the bill."},
+    {"q": "Are Outreach and Salesloft CRMs?", "a": "They are sales engagement platforms that work alongside a CRM. They organise outreach and follow-up, with additional coaching and sales-management features. Compare the record ownership, pipeline and reporting your CRM already handles before adding either."},
+    {"q": "Do Outreach and Salesloft include a dialler?", "a": "Outreach includes Voice access and charges for calling usage or subscriptions. Salesloft sells Dialer access as an add-on. Ask for the countries, number allowance and call method in the proposed package."},
+    {"q": "Which works better with HubSpot?", "a": "Start with Salesloft if you need two-way sync for people, accounts and opportunities. Outreach’s HubSpot integration focuses on contact sync and one-way email logging. Test the records and fields your team needs before signing."},
+    {"q": "Can Apollo replace Outreach or Salesloft?", "a": "Yes, for teams whose main needs are prospect data, sequences and calling. Check the required CRM controls and coaching before moving. Phone-data credits and advanced dialling can add to the subscription."},
+    {"q": "Do small sales teams need either platform?", "a": "A small team with a simple calling queue and email follow-up can usually start with less software. Choose Outreach or Salesloft when shared processes and management tools solve a specific problem worth paying for."},
+    {"q": "Can CallTeam make calls alongside our email sequences?", "a": "Yes. We can agree a calling campaign around your target accounts, follow-up and qualification needs. Before launch, we set how outcomes and next steps reach your team so calls and emails stay coordinated."}
+  ]
+}

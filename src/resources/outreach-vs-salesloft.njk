@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/outreach-vs-salesloft/"
+title: "Outreach vs Salesloft: Pricing, Features and Our Verdict"
+seoTitle: "Outreach vs Salesloft: Pricing & Verdict | CallTeam"
+description: "Compare Outreach vs Salesloft on pricing, calling, AI charges and CRM sync. See simpler alternatives, team costs and CallTeam’s blunt buying verdict."
+canonicalUrl: "https://www.callteam.ca/resources/outreach-vs-salesloft/"
+modified: "2026-11-10"
+contentLanguage: "en-CA"
+ogType: "article"
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/simple-buying-guide.css", "/assets/css/guide-resources.css", "/assets/css/decision-guides.css"]
+pageScripts: ["/assets/js/simple-buying-guide.js"]
+---
+{% set guide = outreachSalesloftComparison %}
+{% import "components/decision-guide.njk" as g %}
+{% include "components/outreach-salesloft-schema.njk" %}
+<main class="lp-page dg-page" id="simple-guide">
+{{ g.hero(guide) }}
+<section class="lp-section" id="comparison"><div class="lp-wrap">
+{{ g.heading('01','The useful differences','Outreach vs Salesloft:<br>what does each one do?','Compare the workflow, CRM connection and features included in the package you would buy.') }}
+{{ g.table('Outreach and Salesloft: features, package differences and buying fit',['Buying question','Outreach','Salesloft'],guide.comparisonRows) }}
+{{ g.sources([['Outreach packages','https://www.outreach.ai/pricing'],['Salesloft packages','https://help.salesloft.com/s/article/Salesloft-Packages-and-Availability'],['Salesloft Cadence','https://help.salesloft.com/s/article/Salesloft-Cadence'],['Outreach sequential dialling','https://support.outreach.io/support/solutions/articles/159000429165-configure-sequential-dialing']]) }}
+<p class="sg-note"><strong>Salesloft’s package information is inconsistent.</strong> It lists Advanced and Elite, while an FAQ on the same page still mentions Premier. The written quote needs to settle what you get.</p>
+<div class="sg-two sg-after"><div><h3>Salesloft has the stronger HubSpot starting point.</h3><p>Salesloft documents two-way sync for people, accounts and opportunities, with activity logging into HubSpot. Outreach uses HubSpot Data Sync for contacts; its email logging runs from Outreach to HubSpot.</p><p>For deeper record sync, try Salesloft first. Test a reply, company change and opportunity update.</p>{{ g.sources([['Salesloft HubSpot sync','https://help.salesloft.com/s/article/HubSpot-Admin-Guide'],['Outreach and HubSpot','https://support.outreach.io/support/solutions/articles/159000425625-hubspot-and-outreach-faq'],['Outreach contact sync','https://support.outreach.io/support/solutions/articles/159000426013-can-i-connect-outreach-and-hubspot-via-data-sync-by-hubspot-']]) }}</div><div><h3>Salesforce and Dynamics need setup too.</h3><p>Both vendors document Salesforce and Microsoft Dynamics connections. Permissions, field mappings and sync rules need an owner.</p><p>Salesloft’s Deals feature requires Salesforce. HubSpot and Dynamics buyers should leave it out of their value comparison.</p>{{ g.sources([['Outreach CRM connections','https://support.outreach.io/support/solutions/articles/159000426014-outreach-crm-connection-overview'],['Salesloft CRM setup','https://help.salesloft.com/s/article/Manage-CRM-Sync']]) }}</div></div>
+<p class="dg-related">Still choosing the CRM? Start with our <a href="/resources/best-crm-for-outbound-sales/">best CRM for outbound sales</a> comparison. For recording and coaching alone, see <a href="/resources/gong-alternatives/">Gong alternatives</a>.</p>
+</div></section>
+<section class="lp-section lp-paper" id="costs"><div class="lp-wrap">
+{{ g.heading('02','Pricing and extra charges','Outreach vs Salesloft pricing:<br>what will you pay?','Neither publishes a complete platform seat price. Buyers should be able to check a starting price without a sales call. These published charges cover extras, before tax.') }}
+{{ g.table('Published charges and quote-only costs; calling prices are additional to the platform',['Cost to compare','Outreach','Salesloft'],guide.costRows) }}
+<p class="lp-small">Outreach’s rate pages show dollar signs without naming the currency. Confirm currency in its quote. Salesloft’s standard terms default to USD unless the order or invoice says otherwise.</p>
+{{ g.sources([['Outreach Voice rates','https://www.outreach.ai/outreach-voice-pricing'],['Outreach AI overage rate','https://www.outreach.ai/pay-as-you-go'],['Salesloft Dialer rates','https://help.salesloft.com/s/article/Dialer-Pricing-Guide'],['Salesloft billing terms','https://www.salesloft.com/legal/msa-2026-02-10']]) }}
+<div class="sg-two sg-after"><div><h3>Outreach can keep charging after credits run out.</h3><p>At the published overage rate, another 1,000 credits costs <strong>$1,400</strong>. Outreach says consumption continues after prepaid credits run out and bills the overage monthly.</p><p>Admin permissions and usage alerts need attention. There is no hard per-user credit cap in the documented controls.</p>{{ g.sources([['Outreach credit controls','https://support.outreach.io/support/solutions/articles/159000432352-can-i-setup-per-user-ai-credit-limits-or-is-it-total-account-wide-']]) }}</div><div><h3>Salesloft’s “unlimited” calling has a limit.</h3><p>Its fair-use threshold is pooled at <strong>3,000 minutes per licensed user/month</strong>. Five licensed users share 15,000 minutes. Exceeding the threshold in two months within a rolling year can trigger extra charges.</p><p>Get the excess-usage rate and destination coverage with the calling quote.</p>{{ g.sources([['Salesloft calling terms','https://www.salesloft.com/legal/product-specific-terms']]) }}</div></div>
+<div class="dg-callout"><h3>Price the coaching setup you saw in the demo.</h3><p>For new implementations from July 2026, Salesloft’s conversation intelligence requires both Salesloft and Clari Copilot subscriptions, with the integration in the contract. Confirm whether your commercial quote bundles that cost.</p>{{ g.sources([['Salesloft conversation intelligence requirements','https://help.salesloft.com/s/article/Conversation-Intelligence-in-Salesloft?language=en_US']]) }}</div>
+<p class="dg-related"><strong>Our view:</strong> walk away if the vendor will not give you an itemised first-year total. You should know what the purchase will cost.</p>
+</div></section>
+<section class="lp-section" id="verdict"><div class="lp-wrap">
+{{ g.heading('03','The CallTeam verdict','Which platform should you buy<br>and when should you walk away?','Here is where we would spend the money, and where we would keep it.') }}
+<div class="sg-brand-grid">{% for d in guide.decisions %}<article class="sg-brand"><p class="lp-kicker">{{ d[0] }}</p><h3>{{ d[1] }}</h3><p>{{ d[2] }}</p></article>{% endfor %}</div>
+{{ g.midcta(guide,'Already have leads and an email sequence?','Hire CallTeam to make the calls, handle follow-up and book qualified meetings alongside your campaign.') }}
+</div></section>
+<section class="lp-section lp-paper" id="alternatives"><div class="lp-wrap">
+{{ g.heading('04','A useful price reference','Apollo, Close or lemlist:<br>could a simpler option do the job?','USD base subscriptions on annual billing. The first three columns show monthly equivalents. Calling usage, data, email accounts and optional features can add cost.') }}
+{{ g.table('Published annual-billing subscription rates for one, three and five users',['Plan','1 user / month','3 users / month','5 users / month','5 users / year'],guide.alternativeCostRows) }}
+{{ g.sources([['Apollo pricing','https://www.apollo.io/pricing'],['Close pricing','https://close.com/pricing'],['lemlist pricing','https://www.lemlist.com/pricing']]) }}
+<div class="sg-brand-grid"><article class="sg-brand"><h3>Apollo: start with data and outreach.</h3><p>Professional combines contact data with sequences and calling tools. Data credits and advanced dialling affect the full cost.</p><p><strong>Our verdict:</strong> start here if you need leads and outreach together. If a sample misses your buyers’ phone numbers, add a better data source or choose another provider.</p><a href="/resources/apollo-alternatives/">Compare Apollo and other data options →</a></article><article class="sg-brand"><h3>Close: put calling inside the CRM.</h3><p>Growth includes workflows and a power dialler. Calls and phone numbers add usage charges. Predictive dialling and live coaching sit in Scale.</p><p><strong>Our verdict:</strong> choose Growth for CRM-led calling. Leave Scale alone unless you will use its extra controls, predictive dialler or live coaching.</p><a href="/resources/best-crm-for-outbound-sales/">Compare outbound CRM options →</a></article><article class="sg-brand"><h3>lemlist: combine campaign channels.</h3><p>Multichannel includes five email senders per user and an in-app dialler. Data enrichment and channel add-ons can increase the bill.</p><p><strong>Our verdict:</strong> buy it for campaigns that use several channels. For email alone, skip Multichannel and compare the Email plan.</p><a href="/resources/best-cold-email-software/">Compare email software and limits →</a></article><article class="sg-brand"><h3>Buying mainly for the dialler?</h3><p>If the problem is a slow calling queue, compare dedicated diallers. Test callbacks, voicemail and switchboards before paying for parallel calling.</p><p>A rep working a short, researched account list needs time to listen and take useful notes between calls.</p><a href="/resources/best-cold-calling-dialers/">Compare dedicated cold calling diallers →</a></article></div>
+</div></section>
+<section class="lp-section" id="trial"><div class="lp-wrap">
+{{ g.heading('05','Make the demo prove something','Test one campaign<br>from first email to callback.','Use a test contact you control. Ask each vendor to run the same short sequence in the package it has quoted.') }}
+<div class="sg-flow"><div><h3>Send an email and reply.</h3><p>Check that the reply reaches the right rep and the next automated email stops. Show the team how to handle a referral or a request to stop contact.</p></div><div><h3>Make a call and set a callback.</h3><p>Use a call task, record the outcome and set a follow-up time. The next rep should see who answered, what was said and what to do next.</p></div><div><h3>Check the CRM and manager view.</h3><p>Confirm the owner, notes and next action arrive without duplicates. Ask the manager to find the call and review it using only the features in the quote.</p></div></div>
+<div class="lp-note"><strong>Switching from an existing platform?</strong><p>Export a small sample of contacts, activity history, sequences and recordings first. Check what the replacement can import and which rules need rebuilding before moving the team.</p></div>
+<p class="dg-related">A calling step needs a clear reason to contact the buyer. Prepare with our <a href="/resources/cold-call-scripts/">free cold calling scripts</a> and <a href="/cold-call-script-checker/">script checker</a>. If the team needs help delivering it, explore <a href="/services/sdr-training/">SDR training</a> or <a href="/services/outsourced-sdr/">managed SDR support</a>.</p>
+</div></section>
+{{ g.resource(guide,'06') }}
+{{ g.faqs(guide,'07') }}
+{{ g.close(guide) }}
+</main>
