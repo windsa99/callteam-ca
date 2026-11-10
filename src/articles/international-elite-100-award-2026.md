@@ -139,3 +139,5 @@ You can also [read CallTeam campaign case studies](/case-studies/) and [explore 
 CallTeam has also won [Best Global B2B Outbound Sales Execution Company 2027](/awards/global-excellence-2027/) in Acquisition International’s Global Excellence Awards. Read the announcement for our B2B sales execution recognition.
 
 Corporate LiveWire has also named CallTeam [Business-to-Business Sales Specialists of the Year](/awards/corporate-livewire-global-awards-2026-27/) in its Global Awards 2026/27. Explore our fourth award and the published campaigns behind our B2B sales work.
+
+<p><small>Directory listing: <a href="https://www.designrush.com/agency/call-centers" rel="sponsored nofollow">Listed on DesignRush</a>.</small></p>
