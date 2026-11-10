@@ -1,0 +1,429 @@
+{
+  "slug": "gong-alternatives",
+  "shortTitle": "Gong alternatives",
+  "category": "Call recording and sales coaching",
+  "h1": "10 best <span>Gong alternatives.</span><small>Compare prices, call recording and coaching.</small>",
+  "intro": "Choose a tool for meeting notes, call coaching or managing sales opportunities. Compare each Gong competitor’s price, useful features and extra charges.",
+  "brands": [
+    "Gong",
+    "Avoma",
+    "Fathom",
+    "Fireflies",
+    "tl;dv",
+    "Sybill",
+    "Jiminny",
+    "ZoomInfo Chorus",
+    "Salesloft",
+    "Outreach",
+    "Dialpad Sell"
+  ],
+  "panelLabel": "Before another software demo",
+  "panelTitle": "What will your team<br>use every week?",
+  "panel": [
+    [
+      "Recording and notes",
+      "Keep an accurate record and cut the admin after a call."
+    ],
+    [
+      "Coaching",
+      "Find a weak moment, practise a better response and review the next call."
+    ],
+    [
+      "Sales management",
+      "Track deal risks, follow-up and forecasts across the team."
+    ]
+  ],
+  "quickAnswer": "Start with Fathom or Fireflies for meeting records. Compare tl;dv and Avoma for regular coaching. Dialpad Sell suits teams that also need a phone system. Keep Gong when managers use its coaching and deal data every week.",
+  "reviewed": "10 November 2026",
+  "reviewedIso": "2026-11-10",
+  "jump": [
+    [
+      "comparison",
+      "Compare 10"
+    ],
+    [
+      "costs",
+      "Prices for your team"
+    ],
+    [
+      "verdicts",
+      "CallTeam verdicts"
+    ],
+    [
+      "switching",
+      "Before you switch"
+    ],
+    [
+      "buying-questions",
+      "Free buying questions"
+    ],
+    [
+      "questions",
+      "FAQs"
+    ]
+  ],
+  "comparisonRows": [
+    [
+      "<a href=\"#gong-price\">Gong</a><small>The baseline</small>",
+      "Custom quote",
+      "Custom quote",
+      "User licences + platform fee. Coaching, forecasting and selected AI usage affect the package."
+    ],
+    [
+      "<a href=\"#avoma\">Avoma</a><small>Startup + Conversation Intelligence</small>",
+      "$48",
+      "$64",
+      "Recording plus structured coaching. Revenue Intelligence costs another $29 annual / $35 monthly per assigned seat."
+    ],
+    [
+      "<a href=\"#fathom\">Fathom</a><small>Business</small>",
+      "$25",
+      "$34",
+      "Meeting scorecards and CRM field updates. Two-user minimum; ordinary phone calls are unsupported."
+    ],
+    [
+      "<a href=\"#fireflies\">Fireflies</a><small>Business</small>",
+      "$19",
+      "$29",
+      "Conversation analytics and sales workflows. Advanced AI uses extra credits."
+    ],
+    [
+      "<a href=\"#tldv\">tl;dv</a><small>Business</small>",
+      "$29",
+      "$39",
+      "Playbooks, coaching and reports across meetings. Check the supported recording sources."
+    ],
+    [
+      "<a href=\"#sybill\">Sybill</a><small>Pro / Business</small>",
+      "$30 / $90",
+      "$36 / $108",
+      "Notes and follow-up on Pro. CRM Autofill and fuller deal context require Business."
+    ],
+    [
+      "<a href=\"#jiminny\">Jiminny</a><small>Coaching package by quote</small>",
+      "Custom quote",
+      "12-month contract",
+      "Rep and manager seat types, plus setup. Monthly payment does not remove the annual commitment."
+    ],
+    [
+      "<a href=\"#chorus\">ZoomInfo Chorus</a>",
+      "Custom quote",
+      "Ask sales",
+      "Coaching and deal intelligence. No public Chorus subscription price."
+    ],
+    [
+      "<a href=\"#salesloft\">Salesloft</a><small>Conversation Intelligence</small>",
+      "Custom quote",
+      "Ask sales",
+      "New integrated setups require Salesloft and Clari Copilot subscriptions."
+    ],
+    [
+      "<a href=\"#outreach\">Outreach</a><small>Amplify Essentials / Kaia</small>",
+      "Custom quote",
+      "Ask sales",
+      "Live assistance and coaching. Seats and AI usage both affect cost."
+    ],
+    [
+      "<a href=\"#dialpad\">Dialpad Sell</a><small>Premium</small>",
+      "$79",
+      "Annual-only plan",
+      "Phone system, AI scorecards and coaching. Calling extras and number packages can add cost."
+    ]
+  ],
+  "costPlans": [
+    {
+      "name": "Fireflies Business",
+      "rate": 19,
+      "minimum": 1
+    },
+    {
+      "name": "Fathom Business",
+      "rate": 25,
+      "minimum": 2
+    },
+    {
+      "name": "tl;dv Business",
+      "rate": 29,
+      "minimum": 1
+    },
+    {
+      "name": "Sybill Pro",
+      "rate": 30,
+      "minimum": 1
+    },
+    {
+      "name": "Avoma Startup + coaching",
+      "rate": 48,
+      "minimum": 1
+    },
+    {
+      "name": "Dialpad Sell Premium",
+      "rate": 79,
+      "minimum": 1
+    },
+    {
+      "name": "Sybill Business",
+      "rate": 90,
+      "minimum": 1
+    }
+  ],
+  "providers": [
+    {
+      "id": "avoma",
+      "name": "Avoma vs Gong",
+      "fit": "Structured coaching with published add-on prices",
+      "price": "Startup records the calls. Conversation Intelligence adds scoring and coaching; Revenue Intelligence adds forecasting.",
+      "good": "Custom scorecards, automated call reviews and coaching suggestions give managers a clear review process. Free viewers can watch and comment. Paid add-ons can be assigned to the people who need them.",
+      "weak": "The $19 annual-billing headline buys the base recorder. A recorder with coaching costs $48; adding Revenue Intelligence brings it to $77. Bulk historical imports can also carry a fee.",
+      "verdict": "Worth paying for when managers use scorecards and review calls every week. Buy only the add-ons those people need.",
+      "sources": [
+        [
+          "Plans and add-ons",
+          "https://www.avoma.com/pricing"
+        ],
+        [
+          "Seat and billing rules",
+          "https://help.avoma.com/avoma-pricing-recorder-seats-free-users-add-ons"
+        ],
+        [
+          "Coaching features",
+          "https://help.avoma.com/what-is-covered-in-the-conversation-intelligence-add-on"
+        ]
+      ]
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom vs Gong",
+      "fit": "Discovery calls, demos and meeting reviews",
+      "price": "Business adds AI scorecards, CRM field sync and a shared view of meetings on a deal.",
+      "good": "The free plan records and transcribes meetings. Business adds team review tools, with recordings and notes grouped by deal.",
+      "weak": "Business requires two paid users. Its supported-platform guide excludes ordinary phone calls, including Zoom Phone.",
+      "verdict": "A good choice for coaching demos and discovery meetings. Cold calling teams need a recorder that supports their dialler.",
+      "sources": [
+        [
+          "Plans and minimum seats",
+          "https://www.fathom.ai/pricing"
+        ],
+        [
+          "Supported recording sources",
+          "https://help.fathom.video/en/articles/296576"
+        ],
+        [
+          "AI scorecards",
+          "https://help.fathom.video/en/articles/7906049"
+        ]
+      ]
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies vs Gong",
+      "fit": "Meeting records, analytics and flexible sales workflows",
+      "price": "Business includes conversation analytics; advanced AI actions have a separate credit bill.",
+      "good": "It brings meetings, supported dialler calls and uploaded recordings into one searchable library. Sales tools add scorecards, CRM updates and deal insights.",
+      "weak": "The 30 included AI credits are a one-time allowance. Extra credit packs start at $5/month for 50 credits. Automatic subscriptions and upgrades can increase the bill; check those settings before enabling AI workflows.",
+      "verdict": "Good value for call review. Budget for the AI tasks you enable and keep automatic credit upgrades under control.",
+      "sources": [
+        [
+          "Pricing",
+          "https://fireflies.ai/pricing"
+        ],
+        [
+          "Sales features",
+          "https://guide.fireflies.ai/articles/2790601073-fireflies-for-sales-your-ai-platform-for-everything-after-the-call"
+        ],
+        [
+          "Credit costs and automatic billing",
+          "https://guide.fireflies.ai/articles/2114151875-learn-about-ai-credits%2B"
+        ]
+      ]
+    },
+    {
+      "id": "tldv",
+      "name": "tl;dv vs Gong",
+      "fit": "Coaching, playbook checks and reports across meetings",
+      "price": "Business includes the coaching tools and unlimited multi-meeting AI questions, without usage-based AI fees.",
+      "good": "Managers can find patterns across meetings, check how closely reps follow a sales playbook and schedule reports.",
+      "weak": "Pro limits multi-meeting questions and leaves out the full coaching package. Business still has recording limits, including a three-hour meeting cap.",
+      "verdict": "Shortlist Business for weekly coaching and reports across meetings. If you only need notes, start with a lower tier.",
+      "sources": [
+        [
+          "Current plans and limits",
+          "https://tldv.io/app/pricing/"
+        ],
+        [
+          "Business coaching features",
+          "https://tldv.io/blog/tldv-honest-review/"
+        ]
+      ]
+    },
+    {
+      "id": "sybill",
+      "name": "Sybill vs Gong",
+      "fit": "Less admin after sales conversations",
+      "price": "Pro covers notes and follow-up. Business adds CRM context, deal workspaces and Autofill for ten CRM fields.",
+      "good": "Meeting summaries and follow-up drafts reduce the admin after a call. Ask Sybill lets managers review sales conversations and deal details.",
+      "weak": "Business costs three times the Pro subscription. AI tasks have weekly credit allowances, and extra packs cost $100 for 5,000 credits. Basic recording and summaries continue when AI credits run out.",
+      "verdict": "Start with Pro if the main problem is admin. Pay for Business only when the CRM automation saves enough work to justify the jump.",
+      "sources": [
+        [
+          "Pricing and features",
+          "https://www.sybill.ai/pricing"
+        ],
+        [
+          "Plan and credit guide",
+          "https://help.sybill.ai/en/articles/15384825-sybill-plans-pricing-overview-ai-credits-guide"
+        ],
+        [
+          "Manager review workflows",
+          "https://www.sybill.ai/blogs/ai-agents-for-sales-managers"
+        ]
+      ]
+    },
+    {
+      "id": "jiminny",
+      "name": "Jiminny vs Gong",
+      "fit": "Managers running a regular coaching programme",
+      "price": "Custom quote, a 12-month minimum and a one-time setup fee. No platform fee or usage credits.",
+      "good": "Call libraries, scorecards and team insights support organised coaching. Deal-risk views help managers connect the conversation to the opportunity. Separate seat types cover recorders, managers and listeners.",
+      "weak": "Dollar rates and the setup fee are missing from its current pricing page. Monthly billing still carries a year-long commitment.",
+      "verdict": "Consider it for a team with regular manager-led coaching. Get the setup fee and full annual price before the demo.",
+      "sources": [
+        [
+          "Current pricing and contract",
+          "https://jiminny.com/pricing"
+        ],
+        [
+          "Coaching and deal features",
+          "https://jiminny.com/"
+        ],
+        [
+          "Team coaching insights",
+          "https://help.jiminny.com/en/articles/9527235-get-the-data-you-need-from-team-insights"
+        ]
+      ]
+    },
+    {
+      "id": "chorus",
+      "name": "ZoomInfo Chorus vs Gong",
+      "fit": "Coaching connected to account and deal context",
+      "price": "Chorus requires a quote. ZoomInfo's public pricing does not supply a Chorus dollar total.",
+      "good": "Scorecards, coaching initiatives and smart playlists help managers review calls. Deal-risk signals and account context can support opportunity reviews.",
+      "weak": "The public pages leave the subscription cost and minimum purchase unanswered. Get Chorus seats, data access and required integrations itemised in the same offer.",
+      "verdict": "Shortlist it for coaching that uses ZoomInfo’s account context. Demand an itemised quote before deciding it offers better value than Gong.",
+      "sources": [
+        [
+          "ZoomInfo pricing",
+          "https://www.zoominfo.com/pricing"
+        ],
+        [
+          "Chorus coaching",
+          "https://www.zoominfo.com/products/chorus/sales-coaching"
+        ],
+        [
+          "Chorus deal intelligence",
+          "https://www.zoominfo.com/products/chorus/revenue-intelligence"
+        ]
+      ]
+    },
+    {
+      "id": "salesloft",
+      "name": "Salesloft vs Gong",
+      "fit": "Teams that want coaching inside their outreach workflow",
+      "price": "For new integrated setups, price Salesloft, Clari Copilot and the Conversation Intelligence integration together.",
+      "good": "Call summaries, scorecards and live prompts keep coaching close to a rep’s follow-up work.",
+      "weak": "There is no public dollar price. New implementations from July 2026 require both subscriptions. Dialling and forecasting are listed separately as add-ons.",
+      "verdict": "Compare the package if your team already works in Salesloft. Buying both subscriptions just to record meetings is poor value.",
+      "sources": [
+        [
+          "Request pricing",
+          "https://www.salesloft.com/see-it-live"
+        ],
+        [
+          "Current Conversation Intelligence requirements",
+          "https://help.salesloft.com/s/article/Conversation-Intelligence-in-Salesloft?language=en_US"
+        ],
+        [
+          "Packages and add-ons",
+          "https://help.salesloft.com/s/article/Salesloft-Packages-and-Availability"
+        ]
+      ]
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach Kaia vs Gong",
+      "fit": "Live assistance and connected sales follow-up",
+      "price": "Amplify Essentials covers conversation intelligence. Plus adds sequencing; Pro adds forecasting. All require a quote.",
+      "good": "Live prompts can surface useful information during a meeting. Managers get recordings and automated scores to review afterwards.",
+      "weak": "AI usage, selected connectors and implementation can add to the seat bill. Public package descriptions do not give a dollar total.",
+      "verdict": "Useful when reps need live guidance and connected follow-up. Ask sales for the expected AI bill as well as seat prices.",
+      "sources": [
+        [
+          "Current packages and pricing model",
+          "https://www.outreach.ai/pricing"
+        ],
+        [
+          "Amplify credits and features",
+          "https://support.outreach.io/support/solutions/articles/159000425192"
+        ]
+      ]
+    },
+    {
+      "id": "dialpad",
+      "name": "Dialpad Sell vs Gong",
+      "fit": "Calling and coaching in the same system",
+      "price": "Annual rates: Essentials $39, Advanced $59 and Premium $79 per user/month. Premium includes AI scorecards and Coaching Hub.",
+      "good": "Recording, transcripts and CRM logging sit alongside the phone system. Advanced adds live guidance; Premium brings scorecards and playbooks into the calling workflow.",
+      "weak": "Local-dialling number packages and selected extras cost more. Replacing a working phone system also creates migration work.",
+      "verdict": "Strong value when the team needs both calling and structured reviews. If the phone setup already works, compare the cost and effort of adding coaching to it first.",
+      "sources": [
+        [
+          "Sell plans and billing",
+          "https://www.dialpad.com/pricing/"
+        ],
+        [
+          "Included features and add-ons",
+          "https://help.dialpad.com/hc/en-us/articles/54823174886939-Dialpad-Feature-Comparison"
+        ]
+      ]
+    }
+  ],
+  "resourceTitle": "Five questions before you buy.",
+  "resourceIntro": "Copy these into a vendor email or keep them beside your renewal quote. No signup required.",
+  "resource": "1. What is the full first-year cost for our recording users and managers, including platform fees, setup, AI usage and required add-ons?\n2. Can you capture calls from our exact dialler and meeting tools, and save the right notes and fields in our CRM?\n3. Show us how a manager reviews a real call, scores it and gives the rep a useful next step. Which plan includes that?\n4. Can we export our recordings, transcripts and coaching records? What will transfer from our current tool, and what costs extra?\n5. What is the minimum term, when can we reduce seats, and what price and notice period apply at renewal?",
+  "resourceAside": "Get the answers in the quote.",
+  "resourceNote": "Use the same questions for every shortlisted vendor. A written price and a working example make the decision much easier.",
+  "faqs": [
+    {
+      "q": "What is the best Gong alternative?",
+      "a": "Fathom suits meeting capture and demo reviews. Fireflies adds flexible sales tools. Compare Avoma and tl;dv for regular coaching, or Dialpad Sell if you also need a phone system. For forecasting, compare the specific management features your team needs."
+    },
+    {
+      "q": "How much does Gong cost?",
+      "a": "Gong publishes its pricing structure, but no dollar rate. It charges per-user licences plus a platform fee. Additional applications and selected AI usage can affect the total. Ask for an itemised quote for the seats and features your team needs."
+    },
+    {
+      "q": "Is there a free Gong alternative?",
+      "a": "Fathom's free plan is a practical starting point for recording and transcribing meetings. Fireflies also has a free plan, with 400 minutes of team storage and limited AI summaries. Free meeting tools cover a narrower job than a paid coaching and forecasting platform."
+    },
+    {
+      "q": "Is Avoma cheaper than Gong?",
+      "a": "Avoma Startup plus Conversation Intelligence costs $48 per recorder/month on annual billing when that person has both licences. Compare that setup with your Gong quote to decide which costs less."
+    },
+    {
+      "q": "Can Fathom replace Gong for cold call coaching?",
+      "a": "Use Fathom for demos and discovery meetings. Its support guide excludes ordinary phone calls, including Zoom Phone. For coaching dialler calls, choose a compatible recorder."
+    },
+    {
+      "q": "Is Chorus cheaper than Gong?",
+      "a": "Neither publishes enough pricing to settle that. Compare quotes for the same number of reps and managers, required features, setup and contract term."
+    },
+    {
+      "q": "Which Gong alternatives include forecasting?",
+      "a": "Avoma offers a separate Revenue Intelligence add-on with forecasting. Outreach places forecasting in Amplify Pro, and Salesloft lists it as an add-on. Check the exact forecasting task: deal summaries, manager forecasts and consolidated revenue projections are different capabilities."
+    },
+    {
+      "q": "Can CallTeam coach our salespeople or run the calls?",
+      "a": "Yes. CallTeam can review calls, improve scripts and practise openings, objections and qualification with your team. We can also prepare and run a cold calling campaign, follow up with buyers and book qualified meetings."
+    }
+  ]
+}
