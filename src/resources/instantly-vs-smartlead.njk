@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/instantly-vs-smartlead/"
+title: "Instantly vs Smartlead: Pricing, Limits and Our Verdict"
+seoTitle: "Instantly vs Smartlead: Pricing & Limits | CallTeam"
+description: "Compare Instantly vs Smartlead on prices, contacts, email limits and team access. See mailbox costs, agency fees and CallTeam's clear buying verdict."
+canonicalUrl: "https://www.callteam.ca/resources/instantly-vs-smartlead/"
+modified: "2026-11-10"
+contentLanguage: "en-CA"
+ogType: "article"
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/simple-buying-guide.css", "/assets/css/guide-resources.css", "/assets/css/decision-guides.css"]
+pageScripts: ["/assets/js/simple-buying-guide.js"]
+---
+{% set guide = decisionGuides.email %}
+{% import "components/decision-guide.njk" as g %}
+{% include "components/decision-guide-schema.njk" %}
+<main class="lp-page dg-page" id="simple-guide">
+{{ g.hero(guide) }}
+<section class="lp-section" id="comparison"><div class="lp-wrap">
+{{ g.heading('01','The useful differences','Instantly vs Smartlead:<br>which fits your campaign?','Both connect email accounts, run sequences and help manage replies. The differences show up in plan limits, team access and the extra products you buy.') }}
+{{ g.table('Instantly and Smartlead: monthly-billed plans and buying differences',['Buying question','Instantly','Smartlead'],guide.comparisonRows) }}
+{{ g.sources([['Instantly plan comparison','https://help.instantly.ai/en/articles/7920548-outbound-plans-comparison'],['Smartlead plans','https://helpcenter.smartlead.ai/en/articles/439-smartlead-pricing-plans'],['Smartlead team access','https://helpcenter.smartlead.ai/en/articles/14-how-do-i-add-team-members']]) }}
+<p class="dg-related">Want other options? Compare Apollo, lemlist, Reply.io, Saleshandy, Snov.io and more in our <a href="/resources/best-cold-email-software/">best cold email software guide</a>.</p>
+</div></section>
+<section class="lp-section lp-paper" id="costs"><div class="lp-wrap">
+{{ g.heading('02','Read the limits beside the price','Instantly and Smartlead pricing.<br>What each plan allows.','All amounts are USD before tax. Annual prices are the advertised monthly equivalent with annual billing. Mailboxes, domains and optional data products are separate.') }}
+{{ g.table('Published sending subscriptions, contact capacity and monthly email allowances',['Plan','Monthly billing','Annual monthly rate','Contact capacity','Emails / month'],guide.priceRows) }}
+{{ g.sources([['Instantly pricing','https://instantly.ai/pricing'],['Smartlead pricing','https://www.smartlead.ai/pricing']]) }}
+<div class="sg-two sg-after"><div><h3>Contacts are stored capacity.</h3><p>Instantly counts contacts in draft, paused and completed campaigns against the uploaded limit. Removing contacts from campaigns frees space; deleting them from a separate list does not.</p><p>Smartlead counts unique addresses, including contacts used across campaigns. Its contact limit does not renew each month. Smart and Prime advertise unlimited storage.</p>{{ g.sources([['Instantly contact limits','https://help.instantly.ai/en/articles/7918680-uploaded-contacts-limits'],['Smartlead contact and email quotas','https://helpcenter.smartlead.ai/en/articles/392-managing-lead-credits-and-email-credits-quota-in-smartlead']]) }}</div><div><h3>Sending capacity can disappear quickly.</h3><p>A list of 1,000 people with an opening email and three follow-ups can use up to 4,000 sends before replies. Build your budget around the full sequence.</p><p>Smartlead’s Unlimited Smart plan still has a 150,000-email monthly cap. A large send allowance also needs a suitable mailbox setup and a list worth contacting.</p></div></div>
+<div class="dg-callout"><h3>The entry price is a solo price.</h3><p>Instantly Growth and Smartlead Base leave out independent team invitations. A team that shares campaign work should budget from Hypergrowth or Pro, respectively.</p></div>
+</div></section>
+<section class="lp-section" id="real-cost"><div class="lp-wrap">
+{{ g.heading('03','Add the actual sending setup','What will the full setup cost?','Example: one team workspace, ten fresh Google mailboxes and two domains. Software uses monthly billing. Data and optional testing products cost extra.') }}
+{{ g.table('Illustrative setup using each provider’s published mailbox and domain prices',['Cost','Instantly Hypergrowth','Smartlead Pro'],guide.budgetRows) }}
+<p class="lp-small">Mailbox prices use Instantly’s Google setup and SmartSenders’ Zapmail Standard option. Other mailbox providers have different prices.</p>
+{{ g.sources([['Instantly Google mailbox setup','https://help.instantly.ai/en/articles/9361043-done-for-you-google-email-setup'],['SmartSenders mailbox prices','https://helpcenter.smartlead.ai/en/articles/266-smartsenders-pricing']]) }}
+<p class="sg-note"><strong>Keep control of your domains.</strong> SmartSenders says purchased domains expire after 12 months, along with their mailboxes. They cannot be renewed or transferred outside Smartlead. For a long-running campaign, connect mailboxes and domains you control. <a href="https://helpcenter.smartlead.ai/en/articles/256-smartsenders-faqs-and-troubleshooting-everything-you-need-to-know" target="_blank" rel="noopener">Read the purchase terms ↗</a></p>
+<div class="sg-two sg-after"><div><h3>Prospect data has its own bill.</h3><p>Instantly sells separate data credits. Email searches, verification and AI replies use credits at different rates. Check the charge for each task before buying.</p><p>Smartlead’s prospect-email allowance costs another $59/month on Base and Pro. Smart and Prime include larger allowances. List verification is separate.</p>{{ g.sources([['Instantly data-credit rules','https://help.instantly.ai/en/articles/11381241-data-credit-system'],['Smartlead data allowances','https://www.smartlead.ai/faq']]) }}</div><div><h3>Client spaces add up.</h3><p>Instantly charges a separate subscription for each workspace. Three Hypergrowth workspaces cost <strong>$321/month</strong> before the sending accounts.</p><p>Smartlead Pro plus three paid client spaces costs <strong>$181/month</strong>. Check the permissions and capacity each client needs.</p>{{ g.sources([['Instantly workspace billing','https://help.instantly.ai/en/articles/6718773-manage-workspaces-and-team-members'],['Smartlead client fees','https://www.smartlead.ai/pricing']]) }}</div></div>
+{{ g.midcta(guide,'Already emailing suitable prospects?','CallTeam can add the calls, follow up with the right people and book qualified meetings.') }}
+</div></section>
+<section class="lp-section lp-paper" id="verdict"><div class="lp-wrap">
+{{ g.heading('04','The CallTeam verdict','Which one would<br>we shortlist for your team?','Pay for the capacity and access the campaign needs. Buying the largest plan does not improve the offer or the list.') }}
+<div class="sg-brand-grid">{% for d in guide.decisions %}<article class="sg-brand"><p class="lp-kicker">{{ d[0] }}</p><h3>{{ d[1] }}</h3><p>{{ d[2] }}</p></article>{% endfor %}</div>
+<div class="lp-note"><strong>Run a small campaign before buying a year.</strong><p>Test authentication, contact handling, reply assignment, exports and suppression of people who opt out. Choose the workflow your team can run consistently.</p></div>
+</div></section>
+<section class="lp-section" id="calling"><div class="lp-wrap">
+{{ g.heading('05','Give the campaign a calling plan','How cold calling can support<br>Instantly or Smartlead campaigns.','A useful call can confirm the right contact, uncover a timing issue or move a conversation forward when email has stalled.') }}
+<div class="sg-flow"><div><h3>Choose accounts worth calling.</h3><p>Use company fit, role and a clear reason to speak. An email open alone is a weak reason to move someone to the top of the list.</p></div><div><h3>Use the context naturally.</h3><p>Say why you called and ask a useful question. If an email is relevant, mention it briefly. Do not make the prospect search for it before explaining the point.</p></div><div><h3>Keep one clear next step.</h3><p>Record the result, respect stop requests and assign follow-up. Pause or adjust the email sequence when a conversation changes the plan.</p></div></div>
+<p class="dg-related">Prepare with our <a href="/resources/cold-call-scripts/">free cold calling scripts</a>, compare <a href="/resources/best-cold-calling-dialers/">cold calling diallers</a>, or use the <a href="/resources/best-crm-for-outbound-sales/">outbound CRM guide</a> to organise follow-up.</p>
+</div></section>
+{{ g.resource(guide,'06') }}
+{{ g.faqs(guide,'07') }}
+{{ g.close(guide) }}
+</main>

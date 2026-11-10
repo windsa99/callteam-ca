@@ -1,0 +1,310 @@
+{
+  "slug": "salesforce-alternatives",
+  "shortTitle": "Salesforce alternatives",
+  "category": "CRM replacement",
+  "h1": "8 best <span>Salesforce alternatives.</span><small>What will you actually pay?</small>",
+  "intro": "Compare Salesforce competitors on price, daily sales work and the cost of switching. Choose a CRM your team can use and afford to maintain.",
+  "brands": [
+    "Salesforce",
+    "Pipedrive",
+    "HubSpot",
+    "Close",
+    "Zoho CRM",
+    "Freshsales",
+    "monday CRM",
+    "Microsoft Dynamics 365",
+    "Copper"
+  ],
+  "panelLabel": "Before another CRM contract",
+  "panelTitle": "Does Salesforce<br>earn its cost?",
+  "panel": [
+    [
+      "Name the features you need.",
+      "List the permissions, reports and workflows your team actually uses."
+    ],
+    [
+      "Include the work around it.",
+      "Setup, integrations and administration belong in the budget."
+    ],
+    [
+      "Prove the replacement works.",
+      "Test a complete sales process before moving the team."
+    ]
+  ],
+  "quickAnswer": "Start with Pipedrive for a straightforward pipeline, Close for a team built around calling, or Zoho CRM for lower-cost configuration. Salesforce earns its place when complex workflows, access controls and integrations justify the cost of running it.",
+  "jump": [
+    [
+      "comparison",
+      "Compare 8"
+    ],
+    [
+      "costs",
+      "Prices & team costs"
+    ],
+    [
+      "keep-salesforce",
+      "Keep or switch?"
+    ],
+    [
+      "verdicts",
+      "Blunt verdicts"
+    ],
+    [
+      "switching",
+      "Switching costs"
+    ],
+    [
+      "buying-questions",
+      "Free questions"
+    ],
+    [
+      "questions",
+      "FAQs"
+    ]
+  ],
+  "resourceTitle": "Five questions before you switch CRMs.",
+  "resourceIntro": "Copy these into your next CRM demo, renewal discussion or migration brief.",
+  "resource": "1. Which Salesforce fields, workflows, permissions and reports must the replacement support?\n2. Can we move accounts, contacts, deals, notes, activities and their relationships?\n3. What will seats, setup, integrations, calling and ongoing support cost in year one?\n4. Can a rep complete a real call, follow-up and handoff in the trial?\n5. Who owns the migration, checks the imported records and approves the cutover?",
+  "resourceAside": "Use the same brief for every quote.",
+  "resourceNote": "Keep the answers with the plan and price you were offered. Reuse them at renewal so unused features do not quietly become permanent costs.",
+  "ctaTitle": "Your CRM has the leads.<br>Let CallTeam make the calls.",
+  "ctaText": "Hire CallTeam to reach suitable buyers, qualify interest and follow up. We agree on the meeting criteria and the information your sales team needs before the campaign starts.",
+  "providers": [
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "fit": "Clear pipeline and follow-up",
+      "plan": "Growth",
+      "annualRate": 39,
+      "onboarding": 0,
+      "minimum": 1,
+      "price": "Growth: USD $39/user/month, billed annually.",
+      "good": "Pipeline views, email sync and automated follow-ups cover the daily work of many sales teams.",
+      "weak": "A separate calling tool may still be needed. More detailed permissions and customisation can push you into a higher tier.",
+      "verdict": "Choose it for a straightforward pipeline and follow-up process. Include the calling tool in your budget.",
+      "sources": [
+        [
+          "Plans",
+          "https://www.pipedrive.com/en/pricing"
+        ],
+        [
+          "Features by tier",
+          "https://support.pipedrive.com/en/article/new-pipedrive-plans"
+        ]
+      ]
+    },
+    {
+      "id": "close",
+      "name": "Close",
+      "fit": "Reps who call and follow up",
+      "plan": "Growth",
+      "annualRate": 99,
+      "onboarding": 0,
+      "minimum": 1,
+      "price": "Growth: USD $99/user/month, billed annually.",
+      "good": "Growth puts a power dialler, email and follow-up workflows beside the customer record. Reps can work through their list without moving between a CRM and a separate dialler.",
+      "weak": "Calls, SMS, phone numbers and some AI use cost extra. Predictive dialling and more advanced controls require Scale.",
+      "verdict": "Worth the higher seat price when calling is central to the job. It is harder to justify if your reps barely use the phone.",
+      "sources": [
+        [
+          "Plans",
+          "https://close.com/pricing"
+        ],
+        [
+          "Usage charges",
+          "https://help.close.com/account-management/variable-usage-costs-calling-sms-phone-numbers-ai-tools"
+        ]
+      ]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot Sales Hub",
+      "fit": "Sales and marketing sharing context",
+      "plan": "Professional",
+      "annualRate": 90,
+      "onboarding": 1500,
+      "minimum": 1,
+      "price": "Professional: USD $90/user/month, billed annually.",
+      "good": "Sales sequences and a shared customer record keep sales and marketing activity together.",
+      "weak": "Professional has a $1,500 required onboarding fee. Other hubs add subscriptions. Paying Professional monthly still comes with an annual commitment.",
+      "verdict": "Choose it when sales and marketing need the same system. Several HubSpot subscriptions can recreate the budget problem you wanted to leave behind.",
+      "sources": [
+        [
+          "Sales Hub pricing and onboarding",
+          "https://www.hubspot.com/pricing/sales"
+        ]
+      ]
+    },
+    {
+      "id": "zoho",
+      "name": "Zoho CRM",
+      "fit": "Configurable sales processes on a tighter budget",
+      "plan": "Professional",
+      "annualRate": 23,
+      "onboarding": 0,
+      "minimum": 1,
+      "price": "Professional: USD $23/user/month, billed annually.",
+      "good": "Process automation, inventory features and customisation give Professional a broad set of capabilities for the price. Higher tiers add more advanced controls.",
+      "weak": "Someone still needs to configure the system and keep the data organised. Check the edition needed for territory management and permissions before comparing costs.",
+      "verdict": "One of the stronger options when you need flexibility without a large licence bill. Give a named person responsibility for the setup.",
+      "sources": [
+        [
+          "US pricing",
+          "https://www.zoho.com/en-us/crm/zohocrm-pricing.html"
+        ],
+        [
+          "Edition guide",
+          "https://help.zoho.com/portal/en/kb/crm/getting-started/articles/choose-your-path-edition-and-role-guide"
+        ]
+      ]
+    },
+    {
+      "id": "freshsales",
+      "name": "Freshsales",
+      "fit": "Sequences and territory management",
+      "plan": "Pro",
+      "annualRate": 39,
+      "onboarding": 0,
+      "minimum": 1,
+      "price": "Pro: USD $39/user/month, billed annually.",
+      "good": "Pro includes sales sequences, contact scoring and territory management. The plan suits teams that need organised follow-up without building a heavily customised system.",
+      "weak": "The $9 Growth headline does not include Pro’s sequences. Custom modules, field-level permissions and a sandbox sit in Enterprise.",
+      "verdict": "Choose Pro for sequences and territory management. Budget for that tier from the start.",
+      "sources": [
+        [
+          "Plans and add-ons",
+          "https://www.freshworks.com/crm/pricing/"
+        ]
+      ]
+    },
+    {
+      "id": "monday",
+      "name": "monday CRM",
+      "fit": "Visual workflows and team handoffs",
+      "plan": "Standard",
+      "annualRate": 17,
+      "onboarding": 0,
+      "minimum": 3,
+      "price": "Standard: USD $17/user/month, billed annually.",
+      "good": "Flexible boards make deal progress and team handoffs easy to follow. Standard has a low annual seat price, with a three-seat minimum.",
+      "weak": "There is a three-seat minimum and seats are sold in groups. Standard includes 250 custom automations per month; a busy process can outgrow that allowance.",
+      "verdict": "Good for a visual process with modest automation. Check your record structure and monthly actions before moving a complex Salesforce setup into boards.",
+      "sources": [
+        [
+          "Plans and limits",
+          "https://monday.com/crm/pricing"
+        ],
+        [
+          "Seat billing",
+          "https://support.monday.com/hc/en-us/articles/4405633151634-Plans-and-pricing-for-monday-com"
+        ]
+      ]
+    },
+    {
+      "id": "dynamics",
+      "name": "Microsoft Dynamics 365 Sales",
+      "fit": "A configurable CRM around Microsoft",
+      "plan": "Enterprise",
+      "annualRate": 105,
+      "onboarding": 0,
+      "minimum": 1,
+      "price": "Enterprise: USD $105/user/month, billed annually.",
+      "good": "Microsoft 365 integration and advanced customisation make it a credible alternative for businesses that need a substantial sales platform.",
+      "weak": "Configuration, integrations and administration still take work. Some agent capabilities bring Azure or usage-credit costs.",
+      "verdict": "Choose it for Microsoft integration and complex sales processes. If you want less CRM administration, look elsewhere.",
+      "sources": [
+        [
+          "Sales pricing and credit terms",
+          "https://www.microsoft.com/en-us/dynamics-365/products/sales/pricing"
+        ]
+      ]
+    },
+    {
+      "id": "copper",
+      "name": "Copper",
+      "fit": "Relationship-driven sales in Google Workspace",
+      "plan": "Professional",
+      "annualRate": 59,
+      "onboarding": 0,
+      "minimum": 1,
+      "price": "Professional: USD $59/user/month, billed annually.",
+      "good": "Copper keeps relationship and pipeline work close to Gmail and Google Workspace. Professional adds workflows, bulk email, reporting and integrations.",
+      "weak": "Professional has a 15,000-contact limit. Email series and unlimited contacts require Business at $99 per seat/month on annual billing.",
+      "verdict": "A good fit for a team selling through relationships in Gmail. A large outbound database can make the next tier necessary sooner than expected.",
+      "sources": [
+        [
+          "Plans and contact limits",
+          "https://www.copper.com/pricing"
+        ]
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Salesforce alternative?",
+      "a": "Pipedrive is a strong shortlist for a straightforward pipeline, Close for calling-led sales, and Zoho CRM for lower-cost customisation. HubSpot fits teams joining sales and marketing. The best choice depends on the workflows and controls you need to keep."
+    },
+    {
+      "q": "Is Salesforce worth the price?",
+      "a": "Salesforce earns its price when you need complex permissions, integrations and workflows, with someone responsible for the setup. For calling leads, following up and tracking deals, start with a simpler CRM."
+    },
+    {
+      "q": "Are there cheaper alternatives to Salesforce?",
+      "a": "Yes. The selected Zoho, monday, Pipedrive and Freshsales plans have lower annual seat prices than Salesforce Core. Salesforce also offers a $25 Starter plan. Compare the features you need and include setup, integrations and usage in the budget."
+    },
+    {
+      "q": "Is HubSpot cheaper than Salesforce?",
+      "a": "Five HubSpot Sales Hub Professional seats cost $6,900 in year one at the annual rate, including required onboarding. Five Salesforce Core seats cost $11,700 before setup and extras. Compare the required features and any additional HubSpot subscriptions."
+    },
+    {
+      "q": "Which Salesforce alternative is useful for cold calling?",
+      "a": "Close Growth includes a power dialler and follow-up workflows. Calls and numbers cost extra. If your current CRM works well, adding a compatible dialler may be easier than replacing the CRM."
+    },
+    {
+      "q": "How much does it cost to move away from Salesforce?",
+      "a": "There is no single migration price. Get a quote covering data export and mapping, activities, custom fields, integrations, permissions, training and the transition period. Add those costs to the new subscription before deciding."
+    },
+    {
+      "q": "What happened to Salesforce Enterprise and Unlimited?",
+      "a": "Salesforce’s current pricing page says Core replaces Enterprise, Advanced replaces Unlimited and Max replaces Agentforce 1. Check the edition and terms on your own renewal quote."
+    },
+    {
+      "q": "What should we export before leaving Salesforce?",
+      "a": "Keep accounts, contacts, leads, opportunities, notes, activities, attachments and the IDs that connect them. Confirm which records the replacement can import, and check a sample before moving the full database."
+    }
+  ],
+  "salesforcePlans": [
+    [
+      "Starter Suite",
+      "$25",
+      "Monthly or annual",
+      "$1,500"
+    ],
+    [
+      "Pro Suite",
+      "$100",
+      "Annual",
+      "$6,000"
+    ],
+    [
+      "Core",
+      "$195",
+      "Annual",
+      "$11,700"
+    ],
+    [
+      "Advanced",
+      "$395",
+      "Annual",
+      "$23,700"
+    ],
+    [
+      "Max",
+      "$550",
+      "Annual",
+      "$33,000"
+    ]
+  ],
+  "reviewed": "10 November 2026",
+  "reviewedIso": "2026-11-10"
+}

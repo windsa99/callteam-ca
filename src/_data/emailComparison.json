@@ -1,0 +1,306 @@
+{
+  "slug": "instantly-vs-smartlead",
+  "shortTitle": "Instantly vs Smartlead",
+  "category": "Cold email software",
+  "h1": "Instantly vs <span>Smartlead.</span><small>Compare the bill before you buy.</small>",
+  "intro": "Compare prices, contact limits, sending allowances and team access. See what the software includes and what mailboxes, domains and extra data add to the cost.",
+  "brands": [
+    "Instantly",
+    "Smartlead"
+  ],
+  "panelLabel": "Before you buy more capacity",
+  "panelTitle": "What does your<br>campaign need?",
+  "panel": [
+    [
+      "Count contacts and follow-ups.",
+      "A sending limit includes more than the first email."
+    ],
+    [
+      "Decide who handles replies.",
+      "Both entry plans leave out independent team access."
+    ],
+    [
+      "Add the other subscriptions.",
+      "Mailboxes, domains and prospect data can change the bill."
+    ]
+  ],
+  "quickAnswer": "Start with Smartlead Base for a solo campaign: it costs less and holds more contacts. For teams, Smartlead Pro offers more contact storage; Instantly Hypergrowth allows more monthly sends. Both include CRM access.",
+  "jump": [
+    [
+      "comparison",
+      "Quick comparison"
+    ],
+    [
+      "costs",
+      "Prices & limits"
+    ],
+    [
+      "real-cost",
+      "Full cost example"
+    ],
+    [
+      "verdict",
+      "Our verdict"
+    ],
+    [
+      "calling",
+      "Add calling"
+    ],
+    [
+      "buying-questions",
+      "Free questions"
+    ],
+    [
+      "questions",
+      "FAQs"
+    ]
+  ],
+  "resourceTitle": "Five questions before you buy email software.",
+  "resourceIntro": "Use this short brief when choosing a plan or reviewing a renewal.",
+  "resource": "1. How many contacts will we keep in campaigns at once?\n2. How many emails will we send after counting follow-ups and replies?\n3. Who needs to manage replies, and which plan gives each person access?\n4. What will software, mailboxes, domains, data and client workspaces cost together?\n5. Who will call suitable prospects and own the next step?",
+  "resourceAside": "Keep the plan tied to the campaign.",
+  "resourceNote": "Write down the contacts, people and monthly sends you actually expect. Review those numbers before buying more capacity.",
+  "ctaTitle": "Already sending emails?<br>Let CallTeam make the calls.",
+  "ctaText": "Give CallTeam the target accounts, your offer and the useful campaign context. We can call suitable prospects, qualify interest, follow up and book meetings for your sales team.",
+  "reviewed": "10 November 2026",
+  "reviewedIso": "2026-11-10",
+  "comparisonRows": [
+    [
+      "Solo entry price",
+      "$47/month for Growth",
+      "$39/month for Base"
+    ],
+    [
+      "First team plan",
+      "$107/month for Hypergrowth",
+      "$94/month for Pro"
+    ],
+    [
+      "Contact capacity on team plan",
+      "25,000 uploaded campaign contacts",
+      "30,000 stored contacts"
+    ],
+    [
+      "Monthly sends on team plan",
+      "125,000",
+      "90,000"
+    ],
+    [
+      "Reply handling",
+      "Growth previews Unibox replies; Hypergrowth lets you reply there and invite teammates.",
+      "Master Inbox is included; independent team members require Pro."
+    ],
+    [
+      "CRM access",
+      "Included from Hypergrowth.",
+      "Included from Pro."
+    ],
+    [
+      "Separate client spaces",
+      "Each workspace needs its own subscription.",
+      "Client access is $29/client/month from Pro; Prime includes three."
+    ],
+    [
+      "Lead data",
+      "Separate credit plan or bundle.",
+      "SmartProspect is $59/month extra on Base/Pro; higher tiers include an allowance."
+    ]
+  ],
+  "plans": [
+    [
+      "Instantly Growth",
+      47,
+      37.6,
+      "1,000 uploaded",
+      "5,000",
+      "Solo; no team invitations"
+    ],
+    [
+      "Instantly Hypergrowth",
+      107,
+      85.58,
+      "25,000 uploaded",
+      "125,000",
+      "Team access and CRM included"
+    ],
+    [
+      "Instantly Light Speed",
+      358,
+      286.3,
+      "100,000 uploaded",
+      "500,000",
+      "Larger limits and SISR infrastructure"
+    ],
+    [
+      "Smartlead Base",
+      39,
+      32,
+      "2,000 stored",
+      "6,000",
+      "Solo operator"
+    ],
+    [
+      "Smartlead Pro",
+      94,
+      78,
+      "30,000 stored",
+      "90,000",
+      "Team access; client portals extra"
+    ],
+    [
+      "Smartlead Unlimited Smart",
+      174,
+      144,
+      "Unlimited storage",
+      "150,000",
+      "50,000 prospect emails/month included"
+    ],
+    [
+      "Smartlead Unlimited Prime",
+      379,
+      315,
+      "Unlimited storage",
+      "500,000",
+      "Three client spaces; larger data allowance"
+    ]
+  ],
+  "priceRows": [
+    [
+      "Instantly Growth",
+      "<strong>$47</strong>",
+      "<strong>$37.60</strong>",
+      "1,000 uploaded",
+      "5,000"
+    ],
+    [
+      "Instantly Hypergrowth",
+      "<strong>$107</strong>",
+      "<strong>$85.58</strong>",
+      "25,000 uploaded",
+      "125,000"
+    ],
+    [
+      "Instantly Light Speed",
+      "<strong>$358</strong>",
+      "<strong>$286.30</strong>",
+      "100,000 uploaded",
+      "500,000"
+    ],
+    [
+      "Smartlead Base",
+      "<strong>$39</strong>",
+      "<strong>$32.00</strong>",
+      "2,000 stored",
+      "6,000"
+    ],
+    [
+      "Smartlead Pro",
+      "<strong>$94</strong>",
+      "<strong>$78.00</strong>",
+      "30,000 stored",
+      "90,000"
+    ],
+    [
+      "Smartlead Unlimited Smart",
+      "<strong>$174</strong>",
+      "<strong>$144.00</strong>",
+      "Unlimited storage",
+      "150,000"
+    ],
+    [
+      "Smartlead Unlimited Prime",
+      "<strong>$379</strong>",
+      "<strong>$315.00</strong>",
+      "Unlimited storage",
+      "500,000"
+    ]
+  ],
+  "budgetRows": [
+    [
+      "Software, monthly billing",
+      "$107",
+      "$94"
+    ],
+    [
+      "10 fresh Google mailboxes",
+      "$50/month",
+      "$45/month"
+    ],
+    [
+      "Recurring monthly total",
+      "<strong>$157</strong>",
+      "<strong>$139</strong>"
+    ],
+    [
+      "Two purchased domains",
+      "$30/year",
+      "$26 for 12 months"
+    ],
+    [
+      "First-year budget at monthly software rates",
+      "<strong>$1,914</strong>",
+      "<strong>$1,694</strong>"
+    ]
+  ],
+  "decisions": [
+    [
+      "A small solo campaign",
+      "Choose Smartlead Base for the lower entry cost.",
+      "It offers more storage and sends than Instantly Growth for less money. Pay extra for Growth only if you prefer its workflow and its limits cover your campaign."
+    ],
+    [
+      "A team sharing campaigns and replies",
+      "Choose around contacts and sending volume.",
+      "Smartlead Pro holds 5,000 more contacts. Instantly Hypergrowth allows 35,000 more monthly sends. Test reply assignment with your team before choosing."
+    ],
+    [
+      "Several client accounts",
+      "Price the workspace structure first.",
+      "Instantly bills each workspace separately. Smartlead Pro plus three paid client spaces is $181 a month before mailboxes and data. Check which client permissions you need before building everything in one shared account."
+    ],
+    [
+      "A large contact library",
+      "Choose Smartlead Smart for contact storage.",
+      "The $174 monthly plan holds unlimited contacts but caps sending at 150,000 emails a month. Skip the upgrade if a lower tier holds your active list."
+    ],
+    [
+      "500,000 monthly emails",
+      "Compare Light Speed and Prime on the extras.",
+      "Instantly costs $358 a month; Smartlead Prime costs $379. Prime adds unlimited contact storage and three client spaces. Choose it if those extras replace costs you would otherwise pay."
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "Is Instantly or Smartlead better?",
+      "a": "Smartlead Base is a strong starting point for a solo campaign with an existing list. For teams, compare Smartlead Pro with Instantly Hypergrowth; both include CRM access. Instantly allows more monthly sends on that tier, while Smartlead Pro has more contact capacity."
+    },
+    {
+      "q": "Is Smartlead cheaper than Instantly?",
+      "a": "The entry plans are $39 versus $47 a month. The first shared-team plans are $94 versus $107. Different contact and send limits, client spaces, mailboxes and data charges can change the total."
+    },
+    {
+      "q": "Are mailboxes included in unlimited email accounts?",
+      "a": "No. Unlimited connections let you connect email accounts to the software. You still supply or purchase the mailboxes and domains used to send messages."
+    },
+    {
+      "q": "Do contact limits reset every month?",
+      "a": "No. Instantly’s uploaded contact limit is campaign storage capacity. Smartlead counts unique contact addresses against the applicable storage limit. Monthly email-send allowances are separate from those contact limits."
+    },
+    {
+      "q": "Do follow-up emails use the sending allowance?",
+      "a": "Yes. Include every planned follow-up when estimating sends. Smartlead also counts replies against email credits. Buying a higher allowance does not establish a suitable sending rate for each mailbox."
+    },
+    {
+      "q": "Which platform is better for agencies?",
+      "a": "Compare client separation and access before choosing. Instantly requires a subscription for each workspace. Smartlead offers paid client workspaces from Pro, and Prime includes three. The less expensive setup depends on your clients, permissions and sending needs."
+    },
+    {
+      "q": "Which gets better email deliverability?",
+      "a": "Run a small pilot with your sending setup. Review authentication, bounce rates, placement checks and genuine replies. Choose from those results; warmup and a higher send allowance do not guarantee inbox placement."
+    },
+    {
+      "q": "How can cold calling support an email campaign?",
+      "a": "Use calls to reach suitable accounts, confirm who handles the decision and ask a relevant question. Give the caller the email context and record outcomes in the CRM. CallTeam can handle the calls, follow-up and meeting handoff."
+    }
+  ]
+}

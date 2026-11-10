@@ -28,7 +28,8 @@ pageScripts: ["/assets/js/crm-guide.js"]
 
   <div class="lp-wrap"><p class="lp-note">Moving out of spreadsheets? Our <a href="/resources/best-crm-for-small-businesses/">best CRM for small businesses guide</a> covers first-CRM choices, small-team costs and a simple setup plan.</p></div>
 
-  <section class="lp-section" id="comparison"><div class="lp-wrap">
+  <div class="lp-wrap"><p class="lp-small">Weighing a Salesforce renewal? Compare <a href="/resources/salesforce-alternatives/">Salesforce alternatives and first-year costs for one, three or five users</a>.</p></div>
+<section class="lp-section" id="comparison"><div class="lp-wrap">
     <div class="lp-heading"><p class="lp-kicker">01 / The short answer</p><h2>Which CRM fits<br>your sales team's day?</h2><p>Start with the calling setup your team needs. Compare the required plan, connected phone apps and additional fees.</p></div>
     <p class="lp-scroll-hint">Swipe the table to see the calling setup, limits and extra costs.</p>
     <div class="lp-table-scroll" tabindex="0" role="region" aria-labelledby="crm-table-caption"><table class="lp-table crm-comparison"><caption id="crm-table-caption">Seven CRMs for cold calling and outbound sales: who they suit and what to check</caption><thead><tr><th scope="col">CRM</th><th scope="col">Useful for</th><th scope="col">How calling fits</th><th scope="col">Limits and extra costs</th></tr></thead><tbody>{% for p in guide.providers %}<tr><th scope="row"><a href="#{{ p.id }}">{{ p.name }} <span aria-hidden="true">↗</span></a></th><td>{{ p.fit }}</td><td>{{ p.calling }}</td><td>{{ p.catch }}</td></tr>{% endfor %}</tbody></table></div>

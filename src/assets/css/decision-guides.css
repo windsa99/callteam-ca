@@ -1,0 +1,20 @@
+/* Styles scoped to these three buying guides. */
+#simple-guide.dg-page .dg-price{padding:19px 24px;margin:0;background:#fff3eb;font:600 15px/1.7 Inter,Arial,sans-serif;color:#111;border-bottom:1px solid #e5d5ca}
+#simple-guide.dg-page .dg-reviews .lp-provider-head h3{color:var(--lp-accent)}
+#simple-guide.dg-page .dg-reviews .lp-verdict-text{font-size:20px;line-height:1.5}
+#simple-guide.dg-page .dg-table th:first-child{width:22%}
+#simple-guide.dg-page .dg-table td strong{display:block;font:700 20px/1.4 Archivo,Arial,sans-serif}
+#simple-guide.dg-page .dg-table .dg-total{font:700 19px/1.5 Archivo,Arial,sans-serif}
+#simple-guide.dg-page .dg-subheading{font:700 28px/1.25 Archivo,Arial,sans-serif;color:#ff5a1f;margin:38px 0 20px}
+#simple-guide.dg-page .dg-decision{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin:32px 0}
+#simple-guide.dg-page .dg-decision>div{background:#fff3eb;border-top:3px solid #ff5a1f;padding:28px}
+#simple-guide.dg-page .dg-decision h3{font:700 25px/1.25 Archivo,Arial,sans-serif;color:#ff5a1f;margin:0 0 16px}
+#simple-guide.dg-page .dg-decision p{font-size:15px;color:#444;line-height:1.8}
+#simple-guide.dg-page .dg-decision ul,#simple-guide.dg-page .dg-steps{padding-left:22px;font-size:15px;line-height:1.8;color:#444}
+#simple-guide.dg-page .dg-decision li,#simple-guide.dg-page .dg-steps li{margin:10px 0}
+#simple-guide.dg-page .dg-callout{background:#fff;border-left:3px solid #ff5a1f;padding:27px;margin-top:30px}
+#simple-guide.dg-page .dg-callout h3{font:700 25px/1.3 Archivo,Arial,sans-serif;color:#ff5a1f;margin:0 0 12px}
+#simple-guide.dg-page .dg-callout p{font-size:15px;color:#444;margin-bottom:0}
+#simple-guide.dg-page .dg-related{font-size:14px;line-height:1.8;margin-top:26px;color:#555}
+@media(max-width:760px){#simple-guide.dg-page .dg-decision{grid-template-columns:1fr;gap:22px}#simple-guide.dg-page .dg-decision>div{padding:24px}#simple-guide.dg-page .dg-table tbody th:first-child{width:100%}#simple-guide.dg-page .dg-price{padding:20px}#simple-guide.dg-page .lp-jump .lp-wrap{gap:22px}#simple-guide.dg-page .dg-reviews .lp-verdict-text{font-size:19px}}
+@media(max-width:390px){#simple-guide.dg-page h1{font-size:40px}#simple-guide.dg-page h1 small{font-size:24px}}

@@ -1,0 +1,362 @@
+{
+  "slug": "orum-alternatives",
+  "shortTitle": "Orum alternatives",
+  "category": "Dialler buying decision",
+  "h1": "8 best <span>Orum alternatives.</span><small>Compare the cost of making calls.</small>",
+  "intro": "See which Orum competitors offer parallel calling, which use one line, and what your team will pay before usage and extras.",
+  "brands": [
+    "Orum",
+    "Nooks",
+    "Trellus",
+    "Apollo",
+    "Close",
+    "JustCall",
+    "CloudTalk",
+    "Kixie",
+    "Aircall"
+  ],
+  "panelLabel": "Orum starts at nine seats",
+  "panelTitle": "How many people<br>will actually call?",
+  "panel": [
+    [
+      "Count active callers.",
+      "A larger paid-seat commitment can make a small team expensive."
+    ],
+    [
+      "Choose the calling method.",
+      "Power, parallel and predictive solve different problems."
+    ],
+    [
+      "Check the complete bill.",
+      "Include your CRM, numbers, usage, coaching and data."
+    ]
+  ],
+  "quickAnswer": "For fewer than nine callers, compare Trellus, CloudTalk or an existing Apollo subscription before accepting Orum’s minimum. Close suits teams that also need a CRM. Orum and Nooks deserve a trial when an established calling team will use their shared salesfloor and coaching features.",
+  "jump": [
+    [
+      "comparison",
+      "Compare 8"
+    ],
+    [
+      "costs",
+      "Orum & team costs"
+    ],
+    [
+      "verdicts",
+      "Blunt verdicts"
+    ],
+    [
+      "trial",
+      "What to test"
+    ],
+    [
+      "buying-questions",
+      "Free questions"
+    ],
+    [
+      "questions",
+      "FAQs"
+    ]
+  ],
+  "resourceTitle": "Five questions for a dialler quote.",
+  "resourceIntro": "Use these before a demo or renewal. Keep the answers beside the price.",
+  "resource": "1. What is the full annual cost for our actual number of callers, including minimum seats?\n2. Which plan includes the calling mode we need, and what are its usage limits?\n3. What do numbers, calling, coaching, data, onboarding and integrations add to the bill?\n4. What happens when two prospects answer, someone calls back or a rep removes a contact?\n5. Can we test the workflow in our CRM and confirm the cancellation and renewal terms?",
+  "resourceAside": "Ask for the itemised total.",
+  "resourceNote": "Recording and AI notes are useful only if your team uses them. Keep optional features separate so you can see what removing them saves.",
+  "ctaTitle": "Have the leads?<br>Let CallTeam make the calls.",
+  "ctaText": "CallTeam can prepare the list, reach the right people, handle follow-up and book qualified meetings. Bring your offer and target market, and we will map out the calling work.",
+  "reviewed": "10 November 2026",
+  "reviewedIso": "2026-11-10",
+  "providers": [
+    {
+      "id": "trellus",
+      "name": "Trellus",
+      "fit": "Parallel calling without a large seat commitment",
+      "mode": "Parallel",
+      "price": "USD $149.99/seat/month. Power is $99.99/seat/month.",
+      "good": "It adds calling inside supported CRM and sales engagement workflows through a browser extension. Parallel can dial up to five lines on eligible setups, with no seat minimum.",
+      "weak": "Compatibility and line counts depend on the workflow. Team analytics and advanced coaching sit in its quoted Business offering; check the calling allowance.",
+      "verdict": "Start here for parallel calling with a published price and no seat minimum. Test it in your CRM before paying.",
+      "sources": [
+        [
+          "Parallel plans",
+          "https://www.trellus.ai/parallel-dialer"
+        ],
+        [
+          "Power and seat rules",
+          "https://www.trellus.ai/power-dialer"
+        ]
+      ]
+    },
+    {
+      "id": "nooks",
+      "name": "Nooks",
+      "fit": "A team that wants parallel calling and live coaching",
+      "mode": "Power + parallel",
+      "price": "Quote required. Nooks’ own product review lists a two-seat minimum.",
+      "good": "Parallel calling, CRM sync, a virtual salesfloor and coaching can suit teams that run regular shared calling sessions.",
+      "weak": "The pricing page gives no dollar price. Get the seat minimum, products, usage and contract term in writing.",
+      "verdict": "Shortlist it for shared calling sessions and live coaching. Ask for the full price before a demo; basic recording and notes do not justify a premium.",
+      "sources": [
+        [
+          "Pricing",
+          "https://www.nooks.ai/pricing"
+        ],
+        [
+          "Published seat minimum",
+          "https://www.nooks.ai/blog-posts/nooks-review-top-rated-outbound-dialer-software"
+        ]
+      ]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "fit": "Keep data, sequences and calling together",
+      "mode": "Power + parallel add-on",
+      "price": "Advanced Dialer: USD $149/team/month, or $119 on annual billing, plus paid seats and usage.",
+      "good": "A team already paying for Apollo can try a calling workflow alongside its contacts and sequences. The dialler add-on is charged per team.",
+      "weak": "The add-on price excludes the underlying paid plans and calling credits. Connected calls can use credits even when they reach voicemail.",
+      "verdict": "Check this before buying a second calling platform. It is attractive when Apollo already covers your prospecting, but the total bill still includes seats, data and calls.",
+      "sources": [
+        [
+          "Dialler features and prices",
+          "https://www.apollo.io/product/dialer"
+        ],
+        [
+          "Paid plans",
+          "https://www.apollo.io/pricing"
+        ],
+        [
+          "Usage rules",
+          "https://knowledge.apollo.io/hc/en-us/articles/9527776320781-Review-Credit-Usage-in-Apollo"
+        ]
+      ]
+    },
+    {
+      "id": "close",
+      "name": "Close",
+      "fit": "A CRM built around calling and follow-up",
+      "mode": "Power; predictive on Scale",
+      "price": "Growth: USD $109/seat/month, or $99 with annual billing. Scale: $149/seat/month, or $139 with annual billing.",
+      "good": "Growth includes a power dialler, email and follow-up workflows in the CRM. Scale adds predictive dialling for teams that need it.",
+      "weak": "Calls and phone numbers cost extra. Moving to Close also means a CRM migration if your records and processes live elsewhere.",
+      "verdict": "Strong value when you need the CRM as well as calling. Keeping a working CRM and adding a compatible dialler may cost less effort.",
+      "sources": [
+        [
+          "Plans",
+          "https://close.com/pricing"
+        ],
+        [
+          "Usage and number charges",
+          "https://help.close.com/account-management/variable-usage-costs-calling-sms-phone-numbers-ai-tools"
+        ]
+      ]
+    },
+    {
+      "id": "justcall",
+      "name": "JustCall",
+      "fit": "Calling alongside an existing CRM",
+      "mode": "Power on Pro",
+      "price": "Pro: USD $69/licence monthly or $49 on annual billing. Two-licence minimum.",
+      "good": "Pro includes a single-line power dialler and CRM integrations. The price is visible, making the entry cost easier to compare.",
+      "weak": "Parallel and predictive dialling require a separate SalesPro quote. The published Pro price does not buy those modes.",
+      "verdict": "Choose Pro when single-line power calling covers the job. For parallel calling, get the SalesPro quote first.",
+      "sources": [
+        [
+          "Plans and minimums",
+          "https://justcall.io/pricing/"
+        ],
+        [
+          "Billing guide",
+          "https://help.justcall.io/en/articles/10323630-understanding-justcall-pricing-a-comprehensive-guide-to-plans-and-costs"
+        ]
+      ]
+    },
+    {
+      "id": "cloudtalk",
+      "name": "CloudTalk",
+      "fit": "Parallel calling with a published combined price",
+      "mode": "Power + parallel add-on",
+      "price": "Essential + Parallel Dialer: USD $78/user/month, or $68 with annual billing.",
+      "good": "The published combined price includes the base Essential plan and Parallel Dialer. It supports up to ten parallel lines, with power calling also available.",
+      "weak": "Calling regions, fair-use limits and number charges still affect the bill. Moving to Expert for other features raises the combined price to $108 monthly or $88 with annual billing.",
+      "verdict": "Put it on the shortlist for parallel calling with a published price. Test call connections and confirm coverage for your calling destinations.",
+      "sources": [
+        [
+          "Combined dialler prices",
+          "https://www.cloudtalk.io/auto-dialer-pricing/"
+        ],
+        [
+          "Calling plans and limits",
+          "https://www.cloudtalk.io/pricing/"
+        ]
+      ]
+    },
+    {
+      "id": "kixie",
+      "name": "Kixie",
+      "fit": "Multi-line calling in a connected sales workflow",
+      "mode": "Single-line or up to four lines",
+      "price": "Quote required for current plans.",
+      "good": "Kixie offers single-line and multi-line tiers, with up to four lines on Multi-Line. It can fit teams that want calling connected to their existing sales tools.",
+      "weak": "There is no public dollar price on the current pricing page. Human-voice detection and other premium features need an itemised quote.",
+      "verdict": "Get the Multi-Line price before booking a demo. Four-line calling has value, but Kixie gives you no public price to judge the deal.",
+      "sources": [
+        [
+          "Plans and premium features",
+          "https://www.kixie.com/pricing/"
+        ]
+      ]
+    },
+    {
+      "id": "aircall",
+      "name": "Aircall",
+      "fit": "Sales and inbound calls in one phone system",
+      "mode": "Single-line power",
+      "price": "Professional: USD $50/licence/month, billed annually. Three-licence minimum.",
+      "good": "Professional includes power dialling alongside a broader business phone system. That can suit teams handling inbound calls as well as outbound follow-up.",
+      "weak": "Additional numbers are $6/month, and international calling can cost extra. AI Assist Pro adds $49/user/month. This is single-line power calling.",
+      "verdict": "Choose it when sales also needs an inbound phone system. A team buying parallel outbound calling should skip this plan.",
+      "sources": [
+        [
+          "Professional pricing and extras",
+          "https://aircall.io/pricing/"
+        ]
+      ]
+    }
+  ],
+  "comparisonRows": [
+    [
+      "<a href=\"#costs\">Orum</a><small>Power + parallel</small>",
+      "Quote required",
+      "9 seats; annual billing",
+      "AI Coaching and Webhooks are add-ons."
+    ],
+    [
+      "<a href=\"#trellus\">Trellus</a><small>Parallel</small>",
+      "$149.99/seat/month",
+      "No seat minimum",
+      "Eligible parallel workflows; team features can need Business."
+    ],
+    [
+      "<a href=\"#nooks\">Nooks</a><small>Power + parallel</small>",
+      "Quote required",
+      "Own review lists 2 seats",
+      "Get a complete offer before comparing cost."
+    ],
+    [
+      "<a href=\"#apollo\">Apollo</a><small>Power + parallel add-on</small>",
+      "$149/team/month",
+      "Paid Apollo seats also required",
+      "Add seat costs and calling credits."
+    ],
+    [
+      "<a href=\"#close\">Close</a><small>Power; predictive on Scale</small>",
+      "$109/seat/month",
+      "Growth plan for power",
+      "Scale predictive is $149 monthly; usage extra."
+    ],
+    [
+      "<a href=\"#justcall\">JustCall</a><small>Power on Pro</small>",
+      "$69/licence/month",
+      "Minimum 2 licences",
+      "Pro is power; parallel requires a SalesPro quote."
+    ],
+    [
+      "<a href=\"#cloudtalk\">CloudTalk</a><small>Power + parallel add-on</small>",
+      "$78/user/month",
+      "Essential + Parallel Dialer",
+      "Annual rate $68; check destinations and usage limits."
+    ],
+    [
+      "<a href=\"#kixie\">Kixie</a><small>Single-line or up to four lines</small>",
+      "Quote required",
+      "Minimum not shown publicly",
+      "Multi-Line supports up to four lines."
+    ],
+    [
+      "<a href=\"#aircall\">Aircall</a><small>Single-line power</small>",
+      "$50/licence/month",
+      "Annual billing; minimum 3",
+      "Professional is single-line power."
+    ]
+  ],
+  "budgetRows": [
+    [
+      "Orum",
+      "Quote for at least 9 seats",
+      "Quote for 10 seats",
+      "Annual contract; extras depend on offer"
+    ],
+    [
+      "Trellus Parallel",
+      "$749.95",
+      "$1,499.90",
+      "Monthly billing; supported workflows"
+    ],
+    [
+      "CloudTalk Essential + Parallel",
+      "$390",
+      "$780",
+      "Monthly billing; usage and number charges depend on setup"
+    ],
+    [
+      "Apollo Basic + Advanced Dialer",
+      "$474",
+      "$799",
+      "Monthly seats at $65 + one $149 team add-on; credits extra"
+    ],
+    [
+      "Close Growth",
+      "$545",
+      "$1,090",
+      "Monthly billing; single-line power; calls/numbers extra"
+    ],
+    [
+      "JustCall Pro",
+      "$345",
+      "$690",
+      "Monthly billing; single-line power; allowance rules apply"
+    ],
+    [
+      "Aircall Professional",
+      "$250",
+      "$500",
+      "Annual monthly equivalent; $3,000 / $6,000 annual subscription"
+    ]
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Orum alternative?",
+      "a": "Trellus is a useful first comparison for parallel calling with a published price. Apollo deserves a test if your team already uses its data and sequences. Close fits teams that also need a CRM. Nooks is a closer team-platform comparison, with a custom quote."
+    },
+    {
+      "q": "How much does Orum cost?",
+      "a": "Orum does not publish a dollar price. Its pricing page lists a nine-seat minimum, and its homepage describes annual per-user billing. Request the full cost including coaching, numbers, usage and any other required products."
+    },
+    {
+      "q": "Is Orum suitable for a five-person sales team?",
+      "a": "Five callers would pay for at least nine seats. Start with a lower-minimum option unless Orum’s team features justify those four extra seats."
+    },
+    {
+      "q": "Is Nooks cheaper than Orum?",
+      "a": "Neither publishes a standard dollar price, so a reliable cost comparison needs two itemised quotes. Nooks’ own review lists a two-seat minimum; Orum’s pricing page lists nine. Confirm the current minimum and contract in each offer."
+    },
+    {
+      "q": "Which Orum alternatives publish parallel dialler prices?",
+      "a": "Trellus lists Parallel at $149.99 per seat/month. CloudTalk lists Essential plus Parallel at $78 per user/month, or $68 with annual billing. Apollo’s Advanced Dialer is $149 per team/month, or $119 per team/month with annual billing, on top of paid seats and usage."
+    },
+    {
+      "q": "Can a power dialler replace Orum?",
+      "a": "Yes, if one call at a time fits your list and sales process. Power diallers move through the queue without placing several calls for one rep at once. Compare the time saved with the quality of conversations and follow-up."
+    },
+    {
+      "q": "Does a parallel dialler guarantee more meetings?",
+      "a": "No. It can reduce time spent waiting for answers, but the list, offer, conversation and follow-up still determine the result. Compare qualified conversations, callbacks and held meetings during the trial."
+    },
+    {
+      "q": "Can CallTeam make the calls instead?",
+      "a": "Yes. CallTeam provides human-led B2B cold calling and appointment setting, including list preparation, qualification, follow-up and meeting handoff. The campaign starts with an agreed target market and offer."
+    }
+  ]
+}
