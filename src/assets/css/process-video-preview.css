@@ -83,7 +83,19 @@
   gap: 36px;
   align-items: start;
 }
+.ct-process-context {
+  max-width: 760px;
+  margin-top: 28px;
+}
+.ct-process-context .ct-process-preview {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1fr);
+  align-items: center;
+}
 @media (max-width: 760px) {
   .ct-home-video-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .ct-process-preview__body { padding: 18px; }
+}
+@media (max-width: 560px) {
+  .ct-process-context .ct-process-preview { grid-template-columns: minmax(0, 1fr); }
 }

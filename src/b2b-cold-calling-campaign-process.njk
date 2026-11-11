@@ -11,10 +11,13 @@ socialTitle: "Your first 60 days with CallTeam"
 socialDescription: "300 targeted prospects. A clear calling plan. See how follow-ups and fresh contacts move through a managed B2B campaign."
 authorKey: "harjSingh"
 pageStyles:
+  - "/assets/css/process-video-preview.css"
   - "/assets/css/campaign-process.css"
 date: "2026-10-18"
-modified: "2026-10-18"
+modified: "2026-11-11"
 ---
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+
 {% set plan = campaignProcess %}
 <script type="application/ld+json">
 {
@@ -55,7 +58,11 @@ modified: "2026-10-18"
   <section id="process-start" class="process-section"><div class="process-wrap process-split">
     <div><p class="process-eyebrow">01 / Before the first dial</p><h2>A focused list.<br>A clear reason to call.</h2><p class="process-body-lead">We agree who belongs in the campaign, what we will say and what makes a meeting worth your time.</p><p>CallTeam’s managed cold calling process connects prospect selection, repeated call attempts, qualification and sales handoff. Each contact keeps a recorded outcome and a next action.</p><p>Bring an existing list, or include prospect research and list building in your scope. We prepare the buyer roles, contact details and account context before calling.</p></div>
     <div class="process-definition"><p class="process-label">What we count</p><div class="process-people" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div><h3>3 people. 1 company.</h3><p>A prospect is an individual decision-maker or relevant contact. Three people at one company count as three prospects.</p><div class="process-definition-rule"><strong>A qualified meeting comes later.</strong><p>We establish fit, a business reason and the buyer’s agreement to meet.</p></div></div>
-  </div></section>
+  </div>
+    <div class="process-wrap"><div class="ct-process-context">
+      {{ processVideoPreview("See the calling process in 78 seconds", "Follow one account from the campaign brief to the meeting handoff.", "first-60-days") }}
+    </div></div>
+  </section>
 
   <section id="process-month-one" class="process-section process-paper"><div class="process-wrap">
     <div class="process-heading"><div><p class="process-eyebrow">02 / Month one</p><h2>Start calling.<br>Keep the follow-up moving.</h2></div><p>In this example, 300 prospects enter over four weekly batches. Repeat attempts and agreed callbacks run alongside first calls.</p></div>

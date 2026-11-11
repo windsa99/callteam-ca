@@ -1,13 +1,14 @@
 ---
 layout: layouts/base.njk
 pageStyles:
+  - "/assets/css/process-video-preview.css"
   - /assets/css/contextual-tools.css
 permalink: "/services/b2b-appointment-setting/"
 title: "B2B Appointment Setting Services"
 seoTitle: "B2B Appointment Setting Services | CallTeam"
 description: "Human-led B2B appointment setting with prospect research, outbound calling, follow-up, qualification, confirmation, and useful sales handoffs."
 canonicalUrl: "https://www.callteam.ca/services/b2b-appointment-setting/"
-modified: "2026-11-05"
+modified: "2026-11-11"
 socialTitle: "B2B Appointment Setting Services | CallTeam"
 socialDescription: "Protect the sales calendar with better targeting, human conversations, an agreed qualification standard, and a clear handoff."
 faqSchema: |
@@ -105,6 +106,8 @@ faqSchema: |
   }
 awardPlacements: true
 ---
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
 
 
@@ -261,6 +264,10 @@ awardPlacements: true
         </div>
       </div>
     </div>
+
+    <div class="container-wide"><div class="ct-process-context">
+      {{ processVideoPreview("See what happens before the meeting", "Watch prospect selection, calling and qualification lead to a useful handoff.", "appointment-setting") }}
+    </div></div>
   </section>
 
   <!-- US campaign example link: cta-appointment-us-example -->
