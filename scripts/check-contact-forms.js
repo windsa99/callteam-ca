@@ -21,6 +21,10 @@ function checkPage(html, filename) {
     .replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, "");
   const forms = [...markup.matchAll(/(<form\b[^>]*>)([\s\S]*?)<\/form\s*>/gi)]
     .map((match) => ({ attrs: attributes(match[1]), body: match[2] }));
+  if (filename === path.join("chrome-extension-privacy", "index.html")) {
+    assert.equal(forms.length, 0, `${filename}: the extension privacy notice must be form-free`);
+    return;
+  }
   const contact = forms.filter(({ attrs }) => (attrs.class || "").split(/\s+/).includes("contact-form"));
   assert.equal(contact.length, 1, `${filename}: expected exactly one shared contact form`);
   const { attrs, body } = contact[0];
@@ -78,7 +82,7 @@ if (require.main === module) {
   const files = htmlFiles(directory);
   assert(files.length > 0, "No generated pages found; build the site first");
   for (const file of files) checkPage(fs.readFileSync(file, "utf8"), path.relative(directory, file));
-  console.log(`Contact markup guard passed: ${files.length} pages share one endpoint, four required fields and an empty hidden honeypot. Formspree server settings require separate verification.`);
+  console.log(`Contact markup guard passed for ${files.length} pages. Shared forms use one endpoint, four required fields and an empty hidden honeypot. Formspree server settings require separate verification.`);
 }
 
 module.exports = { checkPage };
