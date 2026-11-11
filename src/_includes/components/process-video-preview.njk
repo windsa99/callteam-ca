@@ -1,0 +1,14 @@
+{% macro processVideoPreview(heading, description, placement) %}
+<a class="ct-process-preview" href="/videos/callteam-process-demo/" data-process-video-placement="{{ placement }}">
+  <span class="ct-process-preview__image">
+    <img src="/assets/video/callteam-process-demo-poster.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async">
+    <span class="ct-process-preview__play" aria-hidden="true">▶</span>
+    <span class="ct-process-preview__duration">78 seconds</span>
+  </span>
+  <span class="ct-process-preview__body">
+    <strong>{{ heading }}</strong>
+    <span>{{ description }}</span>
+    <span class="ct-process-preview__link">Watch the demonstration <span aria-hidden="true">→</span></span>
+  </span>
+</a>
+{% endmacro %}

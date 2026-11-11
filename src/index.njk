@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css"]
+pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css", "/assets/css/process-video-preview.css"]
 hasInlineContact: true
 title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 description: "Done-for-you B2B outbound calling, prospect list building, lead follow-up, qualification, and appointment setting that creates better sales conversations."
 canonicalUrl: "https://www.callteam.ca/"
-modified: "2026-11-05"
+modified: "2026-11-11"
 socialTitle: "B2B Outbound Calling & Appointment Setting | CallTeam"
 socialDescription: "We can build the list or use the leads you already have, make the calls, follow up, qualify the opportunity, and book the conversation."
 faqSchema: |
@@ -147,6 +147,7 @@ faqSchema: |
 awardPlacements: true
 ---
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
 
 
 <main class="home-outbound-page">
@@ -158,7 +159,7 @@ awardPlacements: true
       <p>No hiring another SDR. No good list sitting untouched. No calendar filled with meetings that never should have been booked.</p>
       <div class="home-cta-row">
         <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener" aria-describedby="home-strategy-call-note">Book a Free B2B Strategy Call</a>
-        <a href="#qualified-conversation-engine" class="btn-secondary">See How the Calling Works</a>
+        <a href="/videos/callteam-process-demo/" class="btn-secondary" data-process-video-placement="homepage-hero">Watch How We Work · 78 sec</a>
       </div>
       <div class="home-hero-note" id="home-strategy-call-note"><span aria-hidden="true"></span>We’ll review your market, identify the right buyers and explain how we would run the outreach.</div>
     </div>
@@ -240,8 +241,13 @@ awardPlacements: true
     <div class="container">
       <div class="section-label">What CallTeam does</div>
       <h2>A real team that can call for you.</h2>
+      <div class="ct-home-video-grid">
+      <div>
       <p>CallTeam provides done-for-you B2B outbound calling and appointment setting. In simple terms, we take responsibility for the work between a list of possible buyers and a qualified sales conversation.</p>
       <p>If you have no list, we can help build one. If you already have leads, we can call them. If old CRM contacts have gone quiet, we can follow up. If inbound, event, webinar, referral, or target-account leads need a human conversation, we can work through them. We agree on who to contact, what to say, what counts as qualified, and how a good opportunity reaches your team.</p>
+      </div>
+      {{ processVideoPreview("Watch how CallTeam works", "From prospect selection to a qualified meeting handoff.", "homepage-preview") }}
+      </div>
       <div class="home-truth-line">You do not need another database full of names. You need the right people contacted, followed up, qualified, and moved toward a real next step.</div>
     </div>
   </section>
