@@ -38,6 +38,7 @@
       <section id="complete-script" class="script-content-section">
         <div class="script-section-heading"><div><span>Say it out loud</span><h2>{{ guide.sectionTitle }}</h2></div><button type="button" class="script-copy-button" data-copy-target="full-script">Copy script</button></div>
         <p>{{ guide.sectionLead }}</p>
+        {{ scriptInstall("script-copy") }}
         <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
         <p class="fg-next"><a href="#alternatives">Use the fill-in version for your own call</a> · <a href="#handoff">{{ guide.handoffLinkLabel or 'Copy the handoff note' }}</a></p>
       </section>

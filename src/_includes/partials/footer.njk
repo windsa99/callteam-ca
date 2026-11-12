@@ -1,3 +1,4 @@
+{% from "components/chrome-extension.njk" import storeBadge with context %}
 <footer id="site-footer">
   <div class="footer-top">
     <div class="footer-brand">
@@ -5,6 +6,10 @@
       <img src="/assets/images/callteam-logo.png" alt="{{ site.name }}" class="footer-logo-image">
       </a>
       <p>Human-led B2B outbound, qualification, appointment setting, sales execution, and revenue systems.</p>
+      <div class="ct-footer-extension">
+        <a class="ct-footer-extension-title" href="/cold-call-script-chrome-extension/">Our free Cold Call Script Picker</a>
+        {{ storeBadge("footer") }}
+      </div>
       <a class="ct-footer-recognition" href="/awards/">Internationally recognised for B2B outbound calling & appointment setting.</a>
       <div class="ct-footer-awards ct-footer-awards--four" aria-label="CallTeam award winners">
         {% for key, award in awards %}
@@ -32,6 +37,7 @@
       <!-- /Campaign preview link -->
       <a href="/lead-generation-proposal-comparison/">Compare Agency Proposals</a>
       <a href="/resources/cold-call-scripts/">Cold-Call Scripts</a>
+      <a href="/cold-call-script-chrome-extension/">Free Chrome Extension</a>
       <a href="/cold-call-script-checker/">Check Your Cold Call Script</a>
       <a href="/b2b-meeting-quality-check/">Meeting Quality Check</a>
       <a href="/resources/outbound-playbooks/industries/">Industry Playbooks</a>

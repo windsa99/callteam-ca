@@ -14000,3 +14000,11 @@ footer .flinks a:hover {
     box-shadow: 0 0 0 2px rgba(255, 90, 42, 0.11);
   }
 }
+
+/* Official Chrome Web Store badge in the shared footer. */
+#site-footer .ct-footer-extension{margin:20px 0 26px;max-width:240px}
+#site-footer .ct-footer-extension .ctce-badge{display:block;margin:0;line-height:0;max-width:100%}
+#site-footer .ct-footer-extension img{display:block;width:200px;height:auto;max-width:100%}
+#site-footer .ct-footer-extension a:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+
+#site-footer .ct-footer-extension-title{display:block;margin-bottom:10px;color:#fff;font:600 12px/1.6 Inter,Arial,sans-serif;text-decoration:none}

@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/contextual-tools.css"]
+pageStyles: ["/assets/css/chrome-extension.css", "/assets/css/contextual-tools.css"]
 permalink: "/services/sdr-training/"
 title: "SDR Training Services"
 seoTitle: "SDR Training Services and Cold Call Coaching | CallTeam"
@@ -78,6 +78,8 @@ faqSchema: |
     ]
   }
 ---
+{% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
+
 
 <main class="training-page">
   <nav class="breadcrumb-trail" aria-label="Breadcrumb">
@@ -392,6 +394,7 @@ faqSchema: |
     </div>
   </section>
 
+  <section class="ctce-training-slot"><div class="container-wide">{{ productCard("sdr-training", "Give your reps a script they can keep open.", "Use the free Chrome extension during practice and calling blocks. Search by buyer or industry, then adapt the wording to your offer.") }}</div></section>
   <section class="training-related-section">
     <div class="container-wide">
       <div class="section-label">Related CallTeam services</div>

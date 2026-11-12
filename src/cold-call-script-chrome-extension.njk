@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+permalink: "/cold-call-script-chrome-extension/"
+title: "Free Cold Call Script Chrome Extension"
+seoTitle: "Free Cold Call Script Chrome Extension | CallTeam"
+description: "Keep 110 free B2B cold calling scripts beside your dialler. Search by buyer or industry, copy openers and objection replies, and add CallTeam to Chrome."
+canonicalUrl: "https://www.callteam.ca/cold-call-script-chrome-extension/"
+pageStyles: ["/assets/css/chrome-extension.css"]
+date: "2026-11-12"
+modified: "2026-11-12"
+socialTitle: "110 cold-call scripts. Right beside your dialler."
+socialDescription: "Free B2B cold call scripts in your Chrome sidebar. Search by buyer or industry, copy an opener and find an objection reply."
+socialImage: "https://www.callteam.ca/assets/images/callteam-chrome-script-picker.png"
+socialImageWidth: 1280
+socialImageHeight: 800
+socialImageAlt: "CallTeam Cold Call Script Picker open in the Chrome side panel"
+---
+{% from "components/chrome-extension.njk" import storeBadge with context %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ seoTitle | json | safe }},"description":{{ description | json | safe }},"isPartOf":{"@id":"{{ site.websiteId }}"},"mainEntity":{"@id":"{{ canonicalUrl }}#extension"},"publisher":{"@id":"{{ site.organizationId }}"}},
+{"@type":"SoftwareApplication","@id":"{{ canonicalUrl }}#extension","name":{{ chromeExtension.name | json | safe }},"url":"{{ canonicalUrl }}","downloadUrl":"{{ chromeExtension.storeUrl }}","installUrl":"{{ chromeExtension.storeUrl }}","applicationCategory":"BusinessApplication","operatingSystem":"Windows, macOS, Linux, ChromeOS","softwareRequirements":"Desktop Google Chrome with side panel support","softwareVersion":"{{ chromeExtension.version }}","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":{{ description | json | safe }},"screenshot":"{{ site.url }}{{ chromeExtension.screenshot }}","featureList":["110 B2B cold calling scripts","Search by buyer, industry or keyword","Copy openers and objection replies","Read full talk tracks in the Chrome side panel","Open matching CallTeam script pages"],"publisher":{"@id":"{{ site.organizationId }}"}},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Cold Call Script Chrome Extension","item":"{{ canonicalUrl }}"}]},
+{"@type":"FAQPage","mainEntity":[{% for f in chromeExtension.faqs %}{"@type":"Question","name":{{ f.q | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ f.a | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+]}
+</script>
+<main class="ctce-page"><div class="ctce-wrap">
+<nav class="ctce-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/resources/cold-call-scripts/">Cold call scripts</a> / <span>Chrome extension</span></nav>
+<section class="ctce-hero" aria-labelledby="chrome-title"><div>
+<p class="ctce-kicker">Free cold call script Chrome extension</p>
+<h1 id="chrome-title">110 cold-call scripts.<span>Right beside your dialler.</span></h1>
+<p class="ctce-lead">Find your buyer or industry. Copy an opener, handle an objection and keep the conversation moving.</p>
+<p>CallTeam Cold Call Script Picker is a free Chrome extension for B2B cold calling. It keeps 110 scripts open in your sidebar while you work through your calls.</p>
+<div class="ctce-actions"><a class="btn-primary" href="{{ chromeExtension.storeUrl }}" target="_blank" rel="noopener" data-chrome-placement="product-hero">Add to Chrome — Free</a><a href="#how-it-works">See how it works ↓</a></div>
+{{ storeBadge("product-hero-badge") }}
+<ul class="ctce-bullets"><li>110 B2B scripts</li><li>No signup</li><li>Desktop Chrome</li></ul>
+<p class="ctce-small">On your phone? <a href="/resources/cold-call-scripts/">Browse the free scripts on our website.</a></p>
+</div><figure class="ctce-product-shot"><button class="ctce-shot-link" type="button" data-ctce-enlarge aria-label="Enlarge the extension interface screenshot"><span class="ctce-shot-frame"><img src="{{ chromeExtension.detailScreenshot }}" width="1363" height="2120" alt="CallTeam extension interface showing 110 scripts, buyer and industry filters, and the cybersecurity cold call opener"></span></button><figcaption>The extension interface, with the cybersecurity script open. <button type="button" data-ctce-enlarge>Enlarge screenshot ↗</button></figcaption></figure></section>
+
+<section class="ctce-section" id="how-it-works"><p class="ctce-kicker">Ready for your next calling block</p><h2>Install it. Open the sidebar. Find your script.</h2>
+<ol class="ctce-steps"><li><span class="ctce-number">01</span><h3>Add it to Chrome</h3><p>Open the official store listing in desktop Chrome. Select <strong>Add to Chrome</strong> and confirm the installation.</p></li><li><span class="ctce-number">02</span><h3>Open your side panel</h3><p>Find CallTeam Cold Call Script Picker in Chrome’s Extensions menu. Pin it for easy access, then select its icon beside your dialler or CRM tab.</p></li><li><span class="ctce-number">03</span><h3>Choose your next line</h3><p>Search for a buyer, industry or keyword. Pick a script, copy an opener and expand an objection reply when you need it.</p></li></ol></section>
+
+<section class="ctce-section ctce-example" id="script-example"><div><p class="ctce-kicker">One practical example</p><h2>Calling an IT leader about security?</h2><p>Search for <strong>cybersecurity IT director</strong>. Choose the risk assessment script and read the opening question before you dial.</p><p>If the buyer says their MSP handles security, open the matching objection response. Adapt the wording to your own offer and listen to the answer.</p><p>The full script page adds buyer roles, qualification questions and follow-up context.</p><a href="/resources/cold-call-scripts/cybersecurity-risk-assessment-cold-call-script/">Read the cybersecurity call script →</a></div>
+<div class="ctce-example-panel"><small>Example from the included script library</small><div class="ctce-example-query">Search: cybersecurity IT director</div><h3>The opening question</h3><blockquote>“When was the last time an independent team tested whether the controls would actually hold up during an incident?”</blockquote><details open><summary>“Our MSP handles security.”</summary><p>“That is fine—we often complement MSPs. The question is whether the same provider operating the environment should also be the only party validating it.”</p></details></div></section>
+
+<section class="ctce-section" id="features"><p class="ctce-kicker">What you get</p><h2>Practical B2B scripts within reach.</h2><div class="ctce-features"><div class="ctce-feature"><h3>Find the right conversation</h3><p>Search across 110 cold calling scripts by buyer, industry or keyword. Choose the example that fits your offer and the person you are calling.</p></div><div class="ctce-feature"><h3>Copy the wording you need</h3><p>Use an opener, objection reply or full talk track. Replace names and placeholders with your details before using it.</p></div><div class="ctce-feature"><h3>Keep your working tab open</h3><p>The side panel sits beside your CRM or dialler in desktop Chrome. It does not connect to those tools or make calls for you.</p></div><div class="ctce-feature"><h3>Go deeper when you need to</h3><p>Open the matching CallTeam page for targeting notes and follow-up questions. Use our <a href="/cold-call-script-checker/">free Script Checker</a> to review your own opening.</p></div></div></section>
+
+<section class="ctce-section ctce-built" id="built-by-callteam"><div><p class="ctce-kicker">Built by CallTeam</p><h2>From B2B lead generation to the next conversation.</h2><p>CallTeam provides <a href="/services/b2b-cold-calling/">human cold calling</a>, prospect research, follow-up and <a href="/services/b2b-appointment-setting/">B2B appointment setting</a>. Our work connects a target account list with a useful sales conversation and a clear meeting handoff.</p><p>This extension puts our published script library into a tool salespeople can use during their calling day. Our <a href="/services/sdr-training/">SDR training</a> helps teams practise the delivery, questions and judgement behind those words.</p><a href="/about/">Learn about CallTeam →</a></div><aside class="ctce-proof"><h3>See the campaign work.</h3><p>Our manufacturing cybersecurity case study explains how targeting, relevant conversations and qualification supported appointment setting in a technical market.</p><p><a href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the cybersecurity case study →</a></p><p><a href="/case-studies/">Explore CallTeam’s published case studies →</a></p><p class="ctce-small">These case studies describe campaign services. They do not measure results from the extension.</p></aside></section>
+
+<section class="ctce-section" id="extension-faq"><p class="ctce-kicker">Before you install</p><h2>Cold Call Script Picker questions.</h2><div class="ctce-faqs">{% for f in chromeExtension.faqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}</div><div class="ctce-actions"><a class="btn-primary" href="{{ chromeExtension.storeUrl }}" target="_blank" rel="noopener" data-chrome-placement="product-final">Add to Chrome — Free</a>{{ storeBadge("product-final-badge") }}</div></section>
+<section class="ctce-commercial"><h2>Want CallTeam to make the calls?</h2><p>We can build the prospect list or work the leads you already have. Tell us your offer and target market. We’ll discuss the calling, follow-up and qualification your campaign needs.</p><div class="ctce-actions"><a class="btn-primary" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-cta-location="chrome-extension-campaign">Book a Free Strategy Call</a><a href="/b2b-outbound-campaign-planner/">Preview your outbound campaign →</a></div></section>
+<p class="ctce-trademark">CallTeam Cold Call Script Picker is made by CallTeam. Google Chrome is a trademark of Google LLC.</p>
+</div></main>
+<dialog class="ctce-image-dialog" id="ctce-screenshot-dialog" aria-labelledby="ctce-image-title"><div class="ctce-dialog-heading"><h2 id="ctce-image-title">Inside the Script Picker</h2><button type="button" data-ctce-close aria-label="Close enlarged screenshot">Close ×</button></div><div class="ctce-full-shot"><img src="{{ chromeExtension.detailScreenshot }}" width="1363" height="2120" alt="Full extension interface showing search, opener, objection replies and full talk track controls"></div></dialog>
+<script src="/assets/js/chrome-extension-preview.js" defer></script>

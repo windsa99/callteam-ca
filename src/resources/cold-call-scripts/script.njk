@@ -13,6 +13,8 @@ eleventyComputed:
   description: "{{ resource.metaDescription | safe }}"
   canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/{{ resource.slug }}/"
 ---
+{% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
+
 
 <script type="application/ld+json">
 {
@@ -178,6 +180,7 @@ eleventyComputed:
             <div><span>Copy, customize and call</span><h2>The complete {{ resource.title }}</h2></div>
             <button type="button" class="script-copy-button" data-copy-target="full-script">{{ resource.copyLabel or 'Copy Script' }}</button>
           </div>
+          {{ scriptInstall("script-copy") }}
           <div class="script-copy-block"><pre id="full-script">{{ resource.fullScript }}</pre></div>
           <div class="script-inline-conversion">
             <div>

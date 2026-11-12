@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css", "/assets/css/process-video-preview.css"]
+pageStyles: ["/assets/css/chrome-extension.css", "/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css", "/assets/css/process-video-preview.css"]
 hasInlineContact: true
 title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
@@ -146,6 +146,8 @@ faqSchema: |
   }
 awardPlacements: true
 ---
+{% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
+
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
 {% from "components/process-video-preview.njk" import processVideoPreview %}
 
@@ -161,6 +163,7 @@ awardPlacements: true
         <a href="https://calendly.com/hello-callteam/new-meeting" class="btn-primary" target="_blank" rel="noopener" aria-describedby="home-strategy-call-note">Book a Free B2B Strategy Call</a>
         <a href="/videos/callteam-process-demo/" class="btn-secondary" data-process-video-placement="homepage-hero">Watch How We Work · 78 sec</a>
       </div>
+      <div class="ctce-hero-link" id="chrome-home-hero" data-chrome-promo="home-hero">{{ storeBadge("home-hero") }}<a href="{{ chromeExtension.url }}">Our free Cold Call Script Picker →</a></div>
       <div class="home-hero-note" id="home-strategy-call-note"><span aria-hidden="true"></span>We’ll review your market, identify the right buyers and explain how we would run the outreach.</div>
     </div>
 
@@ -619,6 +622,7 @@ awardPlacements: true
         <a href="/resources/cold-call-scripts/cloud-migration-cold-call-script-for-cios/"><span>Cloud infrastructure</span><strong>Cloud Migration Script for CIOs</strong><small>Open an executive conversation around cost, risk, resilience and timing.</small></a>
         <a href="/resources/cold-call-scripts/ai-voice-agent-cold-call-script/"><span>AI automation</span><strong>AI Voice Agent Cold Call Script</strong><small>Qualify repetitive call flows while protecting complex human conversations.</small></a>
       </div>
+      {{ productCard("home-scripts", "Keep these scripts beside your dialler.", "Search 110 B2B scripts in Chrome. Copy an opener or objection reply while your calling tab stays open.") }}
       <p class="home-script-preview-link"><a href="/resources/cold-call-scripts/" class="btn-primary">Browse All Free Cold Call Scripts</a></p>
     </div>
   </section>

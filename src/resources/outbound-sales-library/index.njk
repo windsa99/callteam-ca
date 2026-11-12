@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+pageStyles: ["/assets/css/chrome-extension.css"]
 title: "B2B Outbound Sales Library | CallTeam"
 seoTitle: "B2B Outbound Sales Library: Scripts and Playbooks | CallTeam"
 description: "Search CallTeam's B2B outbound sales library for cold-call scripts, industry and buyer playbooks, objection handling, qualification and campaign strategy."
@@ -8,6 +9,8 @@ permalink: "/resources/outbound-sales-library/"
 modified: "2026-11-11"
 awardPlacements: true
 ---
+{% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
+
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
 
 
@@ -82,6 +85,7 @@ awardPlacements: true
         <p>Use the collection closest to the task. Cross-links connect the strategy, people, talk track, resistance and quality standard behind it.</p>
       </div>
       <div class="library-route-grid">
+        <article class="library-route-card ctce-library-card" id="chrome-library" data-chrome-promo="library"><span>Free Chrome extension</span><h3><a href="{{ chromeExtension.url }}">Cold Call Script Picker</a></h3><p>Keep 110 B2B scripts beside your dialler. Find a buyer or industry, copy an opener and read an objection reply.</p>{{ storeBadge("library") }}<a class="ctce-library-details" href="{{ chromeExtension.url }}">See the free Chrome extension →</a></article>
         <a href="/resources/cold-call-scripts/" class="library-route-card library-route-featured"><span>01 · Talk tracks</span><h3>Cold-Call Scripts</h3><p>{{ callScripts.length }} complete, copyable B2B scripts with targeting, qualification, objections and campaign context.</p><strong>Browse the scripts →</strong></a>
         <a href="/resources/outbound-playbooks/industries/" class="library-route-card"><span>02 · Markets</span><h3>Industry Playbooks</h3><p>Plan the message, triggers, discovery path and next step around how a specific market operates.</p><strong>Browse industry playbooks →</strong></a>
         <a href="/resources/outbound-playbooks/buyers/" class="library-route-card"><span>03 · People</span><h3>Buyer Playbooks</h3><p>Reach CFOs, CIOs, operations leaders, procurement and multi-person buying committees.</p><strong>Browse buyer playbooks →</strong></a>

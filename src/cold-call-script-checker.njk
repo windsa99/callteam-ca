@@ -8,6 +8,7 @@ canonicalUrl: "https://www.callteam.ca/cold-call-script-checker/"
 socialTitle: "Check your cold call opening. | CallTeam"
 socialDescription: "Bring your draft. Check the wording, choose useful CallTeam resources and build an opening you can practise. Free, with no email required."
 pageStyles:
+  - "/assets/css/chrome-extension.css"
   - "/assets/css/script-checker.css"
 pageScripts:
   - "/assets/js/script-check-model.js"
@@ -15,6 +16,8 @@ pageScripts:
 date: "2026-10-15"
 modified: "2026-10-15"
 ---
+{% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
+
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
@@ -58,6 +61,7 @@ modified: "2026-10-15"
       <div id="sc-draft-panel" class="sc-draft-editor" data-clarity-mask="true" hidden><div class="sc-editor-heading"><div><p class="sc-eyebrow">Your editable draft</p><h3>Make every line yours.</h3></div><p id="sc-draft-source"></p></div><ul id="sc-draft-notes" class="sc-draft-notes"></ul><div class="sc-field"><label for="sc-draft-opening">Your opening</label><textarea id="sc-draft-opening" rows="6" maxlength="8000" aria-describedby="sc-draft-help"></textarea></div><div class="sc-draft-pair"><div class="sc-field"><label for="sc-draft-followup">Your follow-up question</label><textarea id="sc-draft-followup" rows="4" maxlength="8000" aria-describedby="sc-draft-help"></textarea></div><div class="sc-field"><label for="sc-draft-meeting">Your meeting request</label><textarea id="sc-draft-meeting" rows="4" maxlength="8000" aria-describedby="sc-draft-help"></textarea></div></div><p id="sc-draft-help" class="sc-draft-help">Replace placeholders, check your claims and adjust the wording to the buyer’s answers. A meeting request should follow a relevant conversation.</p><p id="sc-draft-status" class="sc-status" role="status" aria-live="polite" aria-atomic="true"></p></div>
       <div class="sc-save-actions"><button id="sc-copy" class="sc-button sc-button-secondary" type="button">Copy review and draft <span aria-hidden="true">↗</span></button><button id="sc-download" class="sc-text-button" type="button">Download .txt <span aria-hidden="true">↓</span></button><p id="sc-copy-status" class="sc-status" role="status" aria-live="polite"></p></div>
       <p class="sc-result-limit">A wording check cannot establish buyer fit or predict booking rates. Review the suggestions, practise the draft and use real conversations to decide what works.</p>
+      <aside class="ctce-inline" id="chrome-checker-results" data-chrome-promo="checker-results"><div><strong>Need examples while you call?</strong><span>Keep CallTeam’s script library in your Chrome sidebar.</span><a href="{{ chromeExtension.url }}">Open the free Script Picker →</a></div>{{ storeBadge("checker-results") }}</aside>
       <div class="sc-result-cta"><div><h3>Ready to put this draft to work?</h3><p>Talk through the audience, offer and next step with CallTeam.</p></div><a class="sc-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-sc-booking>Talk Through My Campaign <span aria-hidden="true">↗</span></a></div>
     </section>
   </div></section>

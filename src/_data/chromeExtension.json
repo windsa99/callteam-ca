@@ -1,0 +1,32 @@
+{
+  "name": "CallTeam Cold Call Script Picker",
+  "url": "/cold-call-script-chrome-extension/",
+  "storeUrl": "https://chromewebstore.google.com/detail/eaicbldblehknneghjbgecgbjhnengnl",
+  "scriptCount": 110,
+  "version": "1.0.0",
+  "badge": "/assets/images/chrome-web-store-badge.png",
+  "screenshot": "/assets/images/callteam-chrome-script-picker.png",
+  "faqs": [
+    {
+      "q": "Is the CallTeam Chrome extension free?",
+      "a": "Yes. CallTeam Cold Call Script Picker is free to install and use. It includes 110 B2B cold calling scripts. No CallTeam account or email signup is required."
+    },
+    {
+      "q": "What can I do with the script picker?",
+      "a": "Search by buyer, industry or keyword. Read and copy an opener, an objection reply or the full talk track. Open the matching CallTeam page for targeting notes, examples and follow-up questions."
+    },
+    {
+      "q": "Does it work beside my CRM or dialler?",
+      "a": "The extension opens in the side panel of desktop Google Chrome, beside the page you are using. It does not connect to your CRM, read contacts, place calls or record conversations."
+    },
+    {
+      "q": "Can I use it on my phone?",
+      "a": "This extension is for desktop Google Chrome. On a phone or another browser, use the free script library on CallTeam.ca."
+    },
+    {
+      "q": "Can I change a script for my own business?",
+      "a": "Yes. Copy the wording and adapt it to your offer, buyer and evidence. Replace the placeholders and practise it out loud. The Script Checker can help you review an opening before you call."
+    }
+  ],
+  "detailScreenshot": "/assets/images/callteam-script-picker-detail.jpg"
+}
