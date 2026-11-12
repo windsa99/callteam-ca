@@ -1,0 +1,28 @@
+{% macro player(lesson, id) %}
+<video id="{{ id }}" controls playsinline preload="none" width="1080" height="1920" poster="/assets/video/{{ lesson.asset }}-poster.jpg" aria-label="{{ lesson.title }}">
+  <source src="/assets/video/{{ lesson.asset }}.mp4" type="video/mp4">
+  <track src="/assets/video/{{ lesson.asset }}-en.vtt" kind="captions" srclang="en" label="English">
+  <a href="/assets/video/{{ lesson.asset }}.mp4">Watch the captioned video</a>
+</video>
+{% endmacro %}
+{% macro schema(lesson, main) %}
+<script type="application/ld+json">{
+ "@context":"https://schema.org", "@type":"VideoObject",
+ "@id":"https://www.callteam.ca{{ lesson.url }}#video",
+ "name":{{ lesson.title | json | safe }}, "description":{{ lesson.description | json | safe }},
+ "thumbnailUrl":["https://www.callteam.ca/assets/video/{{ lesson.asset }}-poster.jpg"],
+ "contentUrl":"https://www.callteam.ca/assets/video/{{ lesson.asset }}.mp4",
+ "duration":{{ lesson.durationISO | json | safe }}, "uploadDate":{{ lesson.uploadDate | json | safe }}, "inLanguage":"en",
+ "transcript":{{ lesson.transcript | json | safe }},
+ "creator":{"@id":"https://www.callteam.ca/#organization"},
+ "publisher":{"@id":"https://www.callteam.ca/#organization"},
+ "isPartOf":{"@id":"https://www.callteam.ca{{ lesson.url }}#webpage"}{% if main %},
+ "mainEntityOfPage":{"@id":"https://www.callteam.ca{{ lesson.url }}#webpage"}{% endif %}
+}</script>
+{% endmacro %}
+{% macro transcript(lesson, id) %}
+<details class="ctl-transcript" id="{{ id }}"><summary>Read the video transcript</summary><p>{{ lesson.transcript }}</p></details>
+{% endmacro %}
+{% macro copy(id, label) %}
+<button class="ctl-copy" type="button" data-copy-target="{{ id }}" hidden>{{ label }}</button><span class="ctl-copy-status" role="status" aria-live="polite"></span>
+{% endmacro %}

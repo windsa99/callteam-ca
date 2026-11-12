@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+permalink: "/videos/cold-call-opener-example/"
+title: "Cold Call Opener Example: Hear the First 15 Seconds"
+seoTitle: "Cold Call Opener Video: First 15 Seconds | CallTeam"
+description: "Watch a B2B cold call opener for sales leaders. Copy the script, learn where to pause and see how CallTeam connects cold calling with lead generation."
+canonicalUrl: "https://www.callteam.ca/videos/cold-call-opener-example/"
+modified: "2026-11-12"
+contentLanguage: "en-CA"
+socialImage: "https://www.callteam.ca/assets/video/callteam-cold-call-opener-poster.jpg"
+socialImageWidth: 540
+socialImageHeight: 960
+socialImageAlt: "Cold call opener video: the first 15 seconds, an illustrative CallTeam example."
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/calling-lessons.css"]
+pageScripts: ["/assets/js/calling-lessons.js"]
+---
+{% from "components/calling-lesson.njk" import player, schema, transcript, copy %}
+{% set lesson = callingLessons.opener %}
+{{ schema(lesson, true) }}
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"mainEntity":{"@id":"{{ canonicalUrl }}#video"},"isPartOf":{"@id":"{{ site.websiteId }}"},"publisher":{"@id":"{{ site.organizationId }}"},"inLanguage":"en-CA"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Cold Call Scripts","item":"{{ site.url }}/resources/cold-call-scripts/"},{"@type":"ListItem","position":3,"name":"Cold Call Opener Video","item":"{{ canonicalUrl }}"}]}]}</script>
+<main class="lp-page ctl-watch-page" id="main-content">
+ <section class="lp-hero-shell"><div class="lp-wrap">
+  <nav class="lp-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/resources/cold-call-scripts/">Cold call scripts</a><span>/</span><span aria-current="page">Opener demonstration</span></nav>
+  <div class="ctl-watch-hero">
+   <div><p class="lp-kicker">Hear it. Practise it. Make the call.</p><h1>Cold call opener:<span>the first 15 seconds.</span></h1><p class="lp-intro">Hear a B2B cold call opener for a sales leader whose team may be missing target accounts.</p><p>Alex asks who makes the first call, then waits for the answer. This {{ lesson.label }} shows the opening and the next question in an illustrative conversation.</p><div class="lp-actions"><a class="lp-button" href="#copy-opener">Copy the opening lines ↓</a><a class="lp-text-link" href="#opener-transcript">Read the transcript</a></div></div>
+   <figure>{{ player(lesson, "opener-video") }}<figcaption>{{ lesson.label }} · English narration and captions</figcaption></figure>
+  </div>
+ </div></section>
+ <section class="lp-section" id="copy-opener"><div class="lp-wrap ctl-watch-grid">
+  <div class="ctl-script"><p class="lp-kicker">Say it out loud</p><h2>Copy the opening exchange</h2><div id="opener-words"><p><b>Alex:</b> Hi Sam, Alex at CallTeam. When there is a company you would like to win, who makes the first call?</p><p><b>Buyer:</b> Our reps do.</p><p><b>Alex:</b> When they are busy closing deals, do they still get through that list?</p></div>{{ copy("opener-words", "Copy the opening exchange") }}<p>Replace Sam with your buyer’s name. Leave a pause after each question.</p><a class="lp-text-link" href="/resources/cold-call-scripts/#full-call">Read the full script and buyer replies →</a></div>
+  <div><p class="lp-kicker">Use the answer to choose your next line</p><h2>Where to pause.<br>What to listen for.</h2><p><strong>When this opener fits:</strong> you provide outbound sales support and are calling a sales leader about accounts their team wants to win. For another offer, name a task that buyer actually owns.</p><ol class="ctl-steps"><li><strong>“Who makes the first call?” → Pause.</strong>Stop speaking after the question. Listen for who owns the outreach. If another person handles it, ask who you should speak with.</li><li><strong>“Our reps do.” → Ask about coverage.</strong>“When they are busy closing deals, do they still get through that list?” Pause again. Let the buyer tell you whether anything is being missed.</li><li><strong>“Some accounts get pushed back.” → Ask “Which ones?”</strong>A named account group gives the conversation a direction. If the buyer says the list is covered, thank them and finish the call.</li></ol><a class="lp-text-link" href="/articles/how-to-write-a-b2b-cold-call-script/">Write a script for your own offer →</a></div>
+ </div></section>
+ <section class="lp-section lp-paper"><div class="lp-wrap"><div class="lp-heading"><p class="lp-kicker">Prepare the next part of the call</p><h2>Choose the prospect.<br>Handle the response.</h2></div><div class="ctl-watch-links">
+  <a href="/articles/b2b-prospect-list-building-services/#prospect-lesson"><strong>Who should you call first?</strong><span>Watch the two-prospect comparison and check the fit.</span></a>
+  <a href="/articles/send-me-information-sales-objection/#information-lesson"><strong>“Send me information.”</strong><span>Hear the response and copy a useful follow-up question.</span></a>
+  <a href="/cold-call-script-checker/"><strong>Check your own opener.</strong><span>Review the wording before your next calling session.</span></a>
+ </div></div></section>
+ <section class="lp-section"><div class="lp-wrap">{{ transcript(lesson, "opener-transcript") }}</div></section>
+ <section class="lp-section lp-paper" aria-labelledby="opener-about-title"><div class="lp-wrap ctl-watch-grid">
+  <div><p class="lp-kicker">About CallTeam</p><h2 id="opener-about-title">B2B lead generation.<br>Human cold calling.</h2></div>
+  <div><p>CallTeam helps businesses reach suitable buyers through prospect research, human cold calling, follow-up and <a href="/services/b2b-appointment-setting/">B2B appointment setting</a>. Our <a href="/services/outsourced-sdr/">outsourced SDR services</a> connect the target account list, call script, qualification and meeting handoff.</p><p>Before calling, we agree on the offer, buyer roles and what makes a meeting useful. The salesperson receives the buyer’s context and agreed next step. This lesson shows one part of that approach.</p><p><a class="lp-text-link" href="/case-studies/">Review our published campaign case studies →</a></p><a class="lp-text-link" href="/about/">Learn about CallTeam’s experience and services →</a></div>
+ </div></section>
+ <section class="lp-section lp-dark"><div class="lp-wrap"><p class="lp-kicker">Put a team behind the calls</p><h2>Want CallTeam to work your list?</h2><p>Bring your offer and target market. We’ll discuss the opening, follow-up and what makes a meeting worth taking.</p><div class="lp-actions"><a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="opener-video-final">Book a Free Strategy Call ↗</a><a class="lp-text-link" href="/b2b-outbound-campaign-planner/">See How We’d Run Your Campaign →</a></div></div></section>
+</main>

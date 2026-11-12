@@ -1,0 +1,27 @@
+{% from "components/calling-lesson.njk" import player, schema, transcript, copy %}
+{% set lesson = callingLessons[callingLesson] %}
+<div class="container ctl-article-lesson">
+<aside class="ct-process-short ctl-panel" id="{{ callingLesson }}-lesson" aria-labelledby="{{ callingLesson }}-lesson-title">
+ <div class="ct-process-short-copy">
+  <p class="ctl-eyebrow">Watch the example · {{ lesson.label }}</p>
+  <h2 id="{{ callingLesson }}-lesson-title">{{ lesson.title }}</h2>
+  {% if callingLesson == "information" %}
+  <p>Ask one question before you send the email.</p>
+  <blockquote id="information-words">Sure. What would be most useful: how the approval process works, or an example from a similar company?</blockquote>
+  {{ copy("information-words", "Copy the response") }}
+  <p><strong>Then:</strong> send the item they chose. Ask whether a follow-up would help. Schedule it only if they agree.</p>
+  <p><strong>CRM status:</strong> information requested. Record what they asked for and any agreed follow-up.</p>
+  <p class="ctl-related">For an agreed callback, <a href="/b2b-cold-calling-campaign-process/#callback-lesson">hear the “call me next week” example</a>.</p>
+  {% else %}
+  <p><strong>The brief:</strong> controllers at distributors with several locations. Topic: invoice approvals.</p>
+  <dl class="ctl-prospects"><div><dt>Prospect A</dt><dd>One location. CEO mobile available. Outside the brief.</dd></div><div><dt>Prospect B</dt><dd>Three locations. Named controller. Company number available.</dd></div></dl>
+  <p><strong>Call B first.</strong> Check exclusions and existing CRM records, then ask for the controller. Confirm who owns invoice approvals during the conversation.</p>
+  <p class="ctl-related">Ready to call? <a href="/videos/cold-call-opener-example/">Hear an opening question and how to pause</a>.</p>
+  {% endif %}
+  <p class="ctl-note">Illustrative example · English narration and captions</p>
+ </div>
+ {{ player(lesson, callingLesson + "-video") }}
+ <div class="ctl-panel-transcript">{{ transcript(lesson, callingLesson + "-transcript") }}</div>
+</aside>
+</div>
+{{ schema(lesson, false) }}

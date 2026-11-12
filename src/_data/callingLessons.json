@@ -1,0 +1,35 @@
+{
+  "opener": {
+    "asset": "callteam-cold-call-opener",
+    "title": "Cold Call Opener: The First 15 Seconds",
+    "url": "/videos/cold-call-opener-example/",
+    "description": "Hear a B2B cold call opener, the pause and the buyer response. Copy the wording and practise the delivery.",
+    "duration": 35.01,
+    "durationISO": "PT35.01S",
+    "label": "35-second lesson",
+    "uploadDate": "2026-11-12T02:05:01+00:00",
+    "transcript": "Your cold call opener needs to start a conversation. Here is an example. Hi Sam, Alex at CallTeam. When there is a company you would like to win, who makes the first call? Then pause. The buyer says, Our reps do. You ask, When they are busy closing deals, do they still get through that list? Now listen. If accounts are being missed, ask which ones. If the team has it covered, thank them and move on. Practise the opening until it sounds like you."
+  },
+  "information": {
+    "asset": "callteam-send-me-information",
+    "title": "What to Say When They Say “Send Me Information”",
+    "url": "/articles/send-me-information-sales-objection/",
+    "description": "Hear how to clarify an information request, send one useful item and agree a follow-up.",
+    "duration": 35.18,
+    "durationISO": "PT35.18S",
+    "label": "35-second lesson",
+    "uploadDate": "2026-11-12T02:05:01+00:00",
+    "transcript": "Send me information. Start by agreeing. Sure. What would be most useful: how the approval process works, or an example from a similar company? Let the buyer choose. Say they want the example. Send that one item with a short note about what you discussed. Then ask, Would a quick call Thursday help you decide whether it fits? Only schedule the follow-up if they agree. If they just want the information, send what you promised. Record the request accurately. An information request is not a booked meeting."
+  },
+  "prospect": {
+    "asset": "callteam-which-prospect-first",
+    "title": "Which Prospect Should You Call First?",
+    "url": "/articles/b2b-prospect-list-building-services/",
+    "description": "Compare two illustrative prospects and choose who to call first using account fit, buyer role and the campaign brief.",
+    "duration": 36.07,
+    "durationISO": "PT36.07S",
+    "label": "36-second lesson",
+    "uploadDate": "2026-11-12T02:05:01+00:00",
+    "transcript": "Which prospect should you call first? Start with the campaign brief. We are targeting controllers at distributors with several locations. Prospect A has one location and a chief executive's mobile number. Prospect B has three locations, a named controller and a company phone number. Call B first. It fits the brief and gives you a relevant person to ask for. The easy mobile number does not make A a better prospect. Check your exclusions and existing records before dialing. Then use the conversation to confirm who owns invoice approvals."
+  }
+}

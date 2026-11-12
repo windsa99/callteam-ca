@@ -135,7 +135,7 @@ ogType: article
     </div>
   </header>{% endif %}
 
-  {% if cards and cards.length > 0 %}
+{% if callingLesson %}{% include "components/article-calling-lesson.njk" %}{% endif %}  {% if cards and cards.length > 0 %}
   <section class="article-takeaways" aria-labelledby="takeaways-heading">
     <div class="container article-takeaways-inner">
       <div class="article-takeaways-heading">

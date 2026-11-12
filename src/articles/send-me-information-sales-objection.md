@@ -1,12 +1,15 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+callingLesson: "information"
+pageStyles: ["/assets/css/process-short.css", "/assets/css/calling-lessons.css"]
+pageScripts: ["/assets/js/calling-lessons.js"]
 tags: ["articles"]
 title: "What to Say When a Prospect Says Send Me Information"
 seoTitle: "Send Me Information Sales Objection: What to Say | CallTeam"
 description: "Use this B2B response to the send me information sales objection, clarify buyer interest, send relevant material, and secure a useful follow-up."
 date: "2026-08-18"
-modified: "2026-08-18"
+modified: "2026-11-12"
 category: "Send Me Information Objection"
 permalink: "/articles/send-me-information-sales-objection/"
 canonicalUrl: "https://www.callteam.ca/articles/send-me-information-sales-objection/"

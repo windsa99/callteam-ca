@@ -1,3 +1,7 @@
+# CallTeam brand consistency
+
+User-confirmed standard, 12 November 2026: use Archivo for headings and Inter for body copy, from the shared site font import. Use the existing `--orange: #FF5A1F` token for orange headlines, smaller headings, labels, text accents and buttons. Do not introduce rust, brown-orange or other replacement shades such as #A7350D or #8E3211 in new page styles. Scope corrections to the pages authorized for the current task; do not recolor unrelated published pages. Verify the computed fonts and accent colours before publishing. Keep existing shared header, footer, layout and button conventions. A new standalone landing/watch page does not need an added Harj Singh byline unless requested.
+
 # Article publishing
 
 For newly created articles in `src/articles/`, include this quoted front-matter field:
