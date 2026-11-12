@@ -1,0 +1,13 @@
+{% macro processShort(id, asset, title) %}
+<aside class="ct-process-short" id="{{ id }}" aria-labelledby="{{ id }}-title">
+  <div class="ct-process-short-copy">
+    <h3 id="{{ id }}-title">{{ title }}</h3>
+    {{ caller() }}
+  </div>
+  <video controls playsinline preload="none" width="1080" height="1920"
+    poster="/assets/video/{{ asset }}-poster.jpg" aria-labelledby="{{ id }}-title">
+    <source src="/assets/video/{{ asset }}.mp4" type="video/mp4">
+    <a href="/assets/video/{{ asset }}.mp4">Watch the captioned video</a>
+  </video>
+</aside>
+{% endmacro %}

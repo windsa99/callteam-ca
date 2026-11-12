@@ -11,11 +11,13 @@ socialTitle: "Your first 60 days with CallTeam"
 socialDescription: "300 targeted prospects. A clear calling plan. See how follow-ups and fresh contacts move through a managed B2B campaign."
 authorKey: "harjSingh"
 pageStyles:
+  - "/assets/css/process-short.css"
   - "/assets/css/process-video-preview.css"
   - "/assets/css/campaign-process.css"
 date: "2026-10-18"
 modified: "2026-11-11"
 ---
+{% from "components/process-short.njk" import processShort %}
 {% from "components/process-video-preview.njk" import processVideoPreview %}
 
 {% set plan = campaignProcess %}
@@ -85,6 +87,11 @@ modified: "2026-11-11"
       <article class="process-status-meeting"><span class="process-status-dot" aria-hidden="true"></span><p class="process-label">Qualified meeting</p><h3>Prepare your salesperson.</h3><p>Confirm the purpose, buyer and time. Pass the conversation notes and track the meeting’s next step.</p><strong>Next: a sales handoff with context</strong></article>
       <article><span class="process-status-dot" aria-hidden="true"></span><p class="process-label">Closed or removed</p><h3>Keep the list useful.</h3><p>Remove unsuitable records, clear declines and opt-outs. Pause completed sequences where appropriate.</p><strong>Next: close or pause active outreach</strong></article>
     </div>
+    {% call processShort("callback-lesson", "callteam-call-me-next-week", "What to say when a buyer says ‘Call me next week’") %}
+      <p><strong>Say:</strong> “Sure. Would Tuesday at ten Eastern work? We can pick up on how invoice approvals work across your branches.”</p>
+      <p><strong>Log:</strong> Tuesday at 10 a.m. Eastern. Topic: invoice approvals. Outcome: callback agreed.</p>
+      <p><strong>When you call back:</strong> “You asked me to call back about invoice approvals. Is now still a good time?”</p>
+    {% endcall %}
     <div class="process-rule"><strong>A booked meeting changes the work.</strong><p>The contact moves into confirmation and sales handoff. We stop the prospecting sequence and focus on the agreed conversation.</p></div>
   </div></section>
 
