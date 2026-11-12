@@ -1,0 +1,35 @@
+{% macro extensionLesson(key, placement) %}
+{% set lesson = extensionVideos[key] %}
+{% from "components/chrome-extension.njk" import storeBadge with context %}
+<section class="ctev-panel" id="extension-{{ key }}-video" aria-labelledby="extension-{{ key }}-title" data-extension-video="{{ key }}">
+ <div class="ctev-copy">
+  <p class="ctev-eyebrow">Watch the Script Picker · {{ lesson.label }}</p>
+  <h2 id="extension-{{ key }}-title">{{ lesson.title }}</h2>
+  <ol>{% for step in lesson.steps %}<li>{{ step }}</li>{% endfor %}</ol>
+  {% if key == "information" %}
+  <blockquote id="extension-information-words">Sure. Should I send an approval-routing example or an overview of the process?</blockquote>
+  <button class="ctl-copy" type="button" data-copy-target="extension-information-words" hidden>Copy the response</button><span class="ctl-copy-status" role="status" aria-live="polite"></span>
+  <p>Send the item they choose. Schedule a follow-up only if they agree. Record the request as <strong>information requested</strong>.</p>
+  <p class="ctev-small">Illustrative adaptation of the accounts payable script. <a href="/assets/video/callteam-send-me-information.mp4">Watch the original coaching example (35 seconds)</a>.</p>
+  {% else %}<p>Keep the words beside your dialer. Make them fit your business and the person you are calling.</p>{% endif %}
+  <div class="ctev-actions">{{ storeBadge(placement + "-video") }}<a href="/cold-call-script-chrome-extension/">Explore the free Chrome extension →</a></div>
+ </div>
+ <figure class="ctev-media">
+  <video controls playsinline preload="none" width="1080" height="1920" poster="/assets/video/{{ lesson.asset }}-poster.jpg" aria-label="{{ lesson.title }}">
+   <source src="{{ lesson.videoUrl }}" type="video/mp4">
+   <track src="/assets/video/{{ lesson.asset }}-en.vtt" kind="captions" srclang="en" label="English">
+   <a href="{{ lesson.videoUrl }}">Watch the captioned video</a>
+  </video>
+  <figcaption>Press play · Sound and captions</figcaption>
+ </figure>
+ <details class="ctev-transcript"><summary>Read the video transcript</summary><p>{{ lesson.transcript }}</p></details>
+</section>
+{% if lesson.videoUrl and lesson.durationISO and lesson.uploadDate %}<script type="application/ld+json">{
+ "@context":"https://schema.org","@type":"VideoObject","@id":"https://www.callteam.ca{{ lesson.url }}#extension-{{ key }}-video",
+ "name":{{ lesson.title | json | safe }},"description":{{ lesson.description | json | safe }},
+ "thumbnailUrl":["https://www.callteam.ca/assets/video/{{ lesson.asset }}-poster.jpg"],
+ "contentUrl":{{ lesson.videoUrl | json | safe }},"duration":{{ lesson.durationISO | json | safe }},
+ "uploadDate":{{ lesson.uploadDate | json | safe }},"inLanguage":"en","transcript":{{ lesson.transcript | json | safe }},
+ "creator":{"@id":"https://www.callteam.ca/#organization"},"publisher":{"@id":"https://www.callteam.ca/#organization"}
+}</script>{% endif %}
+{% endmacro %}

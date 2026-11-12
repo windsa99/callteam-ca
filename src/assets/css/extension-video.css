@@ -1,0 +1,10 @@
+/* Only opt-in extension demonstration placements. */
+.ctev-panel{display:grid;grid-template-columns:minmax(0,1fr) 216px;align-items:center;gap:24px 36px;padding:28px;border:1px solid #e8ddd1;border-radius:16px;background:#fffcf8;color:#14212b;margin-block:28px;scroll-margin-top:100px}
+.ctev-panel .ctev-eyebrow{font:700 11px/1.5 Inter,Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin:0 0 12px}
+.ctev-panel h2{font:700 clamp(24px,3vw,32px)/1.15 Archivo,Arial,sans-serif;letter-spacing:-.03em;margin:0 0 18px}
+.ctev-panel p,.ctev-panel li{font:400 15px/1.65 Inter,Arial,sans-serif}.ctev-panel ol{padding-left:22px;margin:0 0 14px}.ctev-panel li{padding-bottom:6px}.ctev-panel p{margin:0 0 14px}
+.ctev-panel blockquote{font:600 16px/1.6 Inter,Arial,sans-serif;border-left:3px solid var(--orange);padding:5px 0 5px 15px;margin:14px 0}
+.ctev-panel a{color:var(--orange);text-underline-offset:3px}.ctev-actions{display:flex;gap:14px 20px;flex-wrap:wrap;align-items:center;margin-top:18px}.ctev-actions .ctce-badge{display:block;width:220px;max-width:100%;margin:0}.ctev-actions .ctce-badge img{display:block;width:100%;height:auto}.ctev-actions>a:not(.ctce-badge){font-size:13px;font-weight:600}
+.ctev-media{margin:0!important;width:216px;justify-self:center}.ctev-media video{display:block;width:100%;height:auto;aspect-ratio:9/16;border-radius:10px;background:#14212b}.ctev-media figcaption{font:400 11px/1.5 Inter,Arial,sans-serif;text-align:center;margin-top:8px;color:#555}
+.ctev-transcript{grid-column:1/-1;border-top:1px solid #e8ddd1;padding-top:12px}.ctev-transcript summary{cursor:pointer;font:600 14px/1.5 Inter,Arial,sans-serif}.ctev-transcript p{font-size:14px;margin-top:12px}.ctev-panel p.ctev-small{font-size:12px}.ctev-article{padding-top:20px;scroll-margin-top:100px}.ctev-training{padding-block:20px}
+@media(max-width:640px){.ctev-panel{grid-template-columns:minmax(0,1fr);gap:18px;padding:20px}.ctev-copy{display:contents}.ctev-panel h2{margin:0}.ctev-panel .ctev-eyebrow{margin:0}.ctev-media{grid-row:3}.ctev-transcript{grid-column:auto}}

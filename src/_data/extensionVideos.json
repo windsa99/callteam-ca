@@ -1,0 +1,53 @@
+{
+  "find": {
+    "asset": "callteam-extension-find-your-script",
+    "title": "Find your cold-call script before the next dial.",
+    "description": "See how to search the free CallTeam Chrome extension by buyer or industry, choose a script and copy an opener.",
+    "url": "/cold-call-script-chrome-extension/",
+    "transcript": "Find a cold-call script before your next dial. Open CallTeam's free Chrome extension. Search for your buyer or industry. Try cybersecurity and IT director. Choose the risk assessment script, then copy the opener. Replace the names and adapt it to your offer. One hundred and ten scripts, right beside your dialer. Get the free Script Picker at CallTeam dot C A.",
+    "steps": [
+      "Search for your buyer or industry.",
+      "Choose a script and copy the opener.",
+      "Replace the placeholders and practise it aloud."
+    ],
+    "videoUrl": "https://storage.googleapis.com/vizard-agent-prod/artifacts/150973/CallTeam-Extension-Find-Your-Script_58647f4b.mp4",
+    "duration": 25.4,
+    "durationISO": "PT25.40S",
+    "label": "25-second demonstration",
+    "uploadDate": "2026-11-12T00:00:00Z"
+  },
+  "information": {
+    "asset": "callteam-extension-send-information",
+    "title": "“Send me information”: choose a useful reply.",
+    "description": "Watch an accounts payable example: find an objection reply in the Script Picker, adapt the question and agree on useful follow-up.",
+    "url": "/articles/send-me-information-sales-objection/",
+    "transcript": "They say, send me information. Agree, then find out what would help. In CallTeam's Script Picker, open the accounts payable script and expand, send me a demo. The reply asks which part of the workflow matters. Adapt it: should I send an approval-routing example or an overview of the process? Send what they choose. Ask whether a follow-up would help, and book it only if they agree. Keep the wording beside you with CallTeam's free Chrome extension.",
+    "steps": [
+      "Choose the accounts payable script.",
+      "Open “Send me a demo” under Objection replies.",
+      "Adapt the reply to the information the buyer requested."
+    ],
+    "videoUrl": "https://storage.googleapis.com/vizard-agent-prod/artifacts/150973/CallTeam-Extension-Send-Information_66f3738c.mp4",
+    "duration": 32.3,
+    "durationISO": "PT32.30S",
+    "label": "32-second demonstration",
+    "uploadDate": "2026-11-12T00:00:00Z"
+  },
+  "prepare": {
+    "asset": "callteam-extension-prepare-your-call",
+    "title": "Prepare your next cold call in three steps.",
+    "description": "Use the CallTeam Chrome sidebar to review an opener, objection replies and a follow-up question before calling.",
+    "url": "/resources/cold-call-scripts/",
+    "transcript": "Take thirty seconds to prepare your next cold call. First, know who you are calling and why the account fits. Second, choose a matching script in CallTeam's Chrome sidebar. Read the opener aloud and replace the placeholders. Third, scan the objection replies and full talk track. Pick one follow-up question you can ask naturally. Keep the sidebar open beside your dialer, then listen to the buyer. Get the free Script Picker at CallTeam dot C A.",
+    "steps": [
+      "Know the buyer and why the account fits.",
+      "Adapt the opener to your offer.",
+      "Choose one follow-up question, then listen."
+    ],
+    "videoUrl": "https://storage.googleapis.com/vizard-agent-prod/artifacts/150973/CallTeam-Extension-Prepare-Your-Call_b04fe490.mp4",
+    "duration": 31.3,
+    "durationISO": "PT31.30S",
+    "label": "31-second demonstration",
+    "uploadDate": "2026-11-12T00:00:00Z"
+  }
+}

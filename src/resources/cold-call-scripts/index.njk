@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/chrome-extension.css", "/assets/css/contextual-tools.css", "/assets/css/cold-calling-hub.css", "/assets/css/calling-lessons.css"]
+pageStyles: ["/assets/css/extension-video.css", "/assets/css/chrome-extension.css", "/assets/css/contextual-tools.css", "/assets/css/cold-calling-hub.css", "/assets/css/calling-lessons.css"]
 title: "A B2B Cold Calling Script You Can Use Today"
 eleventyComputed:
   seoTitle: "B2B Cold Calling Script Template & {{ callScripts.length }} Free Scripts | CallTeam"
@@ -8,6 +8,7 @@ eleventyComputed:
 canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/"
 modified: "2026-11-12"
 ---
+{% from "components/extension-video.njk" import extensionLesson with context %}
 {% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
 
 
@@ -145,7 +146,7 @@ modified: "2026-11-12"
         <p id="script-result-count" aria-live="polite">Showing all {{ callScripts.length }} scripts</p>
       </div>
 
-      <aside class="ctce-hub-promo" id="chrome-scripts-hub" data-chrome-promo="scripts-hub"><div><strong>Take all 110 scripts into Chrome.</strong><p>Keep the library beside your dialer. <a href="{{ chromeExtension.url }}">See the free Script Picker →</a></p></div>{{ storeBadge("scripts-hub") }}</aside>
+      <div id="chrome-scripts-hub">{{ extensionLesson("prepare", "scripts-hub") }}</div>
       <div class="script-library-controls" role="search" aria-label="Filter the cold call script library">
         <label class="script-search">
           <span class="sr-only">Search scripts</span>

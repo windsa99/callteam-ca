@@ -5,7 +5,7 @@ title: "Free Cold Call Script Chrome Extension"
 seoTitle: "Free Cold Call Script Chrome Extension | CallTeam"
 description: "Keep 110 free B2B cold calling scripts beside your dialer. Search by buyer or industry, copy openers and objection replies, and add CallTeam to Chrome."
 canonicalUrl: "https://www.callteam.ca/cold-call-script-chrome-extension/"
-pageStyles: ["/assets/css/chrome-extension.css"]
+pageStyles: ["/assets/css/extension-video.css", "/assets/css/chrome-extension.css"]
 date: "2026-11-12"
 modified: "2026-11-12"
 socialTitle: "110 cold-call scripts. Right beside your dialer."
@@ -15,6 +15,7 @@ socialImageWidth: 1280
 socialImageHeight: 800
 socialImageAlt: "CallTeam Cold Call Script Picker open in the Chrome side panel"
 ---
+{% from "components/extension-video.njk" import extensionLesson with context %}
 {% from "components/chrome-extension.njk" import storeBadge with context %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
@@ -31,12 +32,13 @@ socialImageAlt: "CallTeam Cold Call Script Picker open in the Chrome side panel"
 <h1 id="chrome-title">110 cold-call scripts.<span>Right beside your dialer.</span></h1>
 <p class="ctce-lead">Find your buyer or industry. Copy an opener, handle an objection and keep the conversation moving.</p>
 <p>CallTeam Cold Call Script Picker is a free Chrome extension for B2B cold calling. It keeps 110 scripts open in your sidebar while you work through your calls.</p>
-<div class="ctce-actions"><a class="btn-primary" href="{{ chromeExtension.storeUrl }}" target="_blank" rel="noopener" data-chrome-placement="product-hero">Add to Chrome — Free</a><a href="#how-it-works">See how it works ↓</a></div>
+<div class="ctce-actions"><a class="btn-primary" href="{{ chromeExtension.storeUrl }}" target="_blank" rel="noopener" data-chrome-placement="product-hero">Add to Chrome — Free</a><a href="#extension-find-video">Watch how it works ↓</a></div>
 {{ storeBadge("product-hero-badge") }}
 <ul class="ctce-bullets"><li>110 B2B scripts</li><li>No signup</li><li>Desktop Chrome</li></ul>
 <p class="ctce-small">On your phone? <a href="/resources/cold-call-scripts/">Browse the free scripts on our website.</a></p>
 </div><figure class="ctce-product-shot"><button class="ctce-shot-link" type="button" data-ctce-enlarge aria-label="Enlarge the extension interface screenshot"><span class="ctce-shot-frame"><img src="{{ chromeExtension.detailScreenshot }}" width="1363" height="2120" alt="CallTeam extension interface showing 110 scripts, buyer and industry filters, and the cybersecurity cold call opener"></span></button><figcaption>The extension interface, with the cybersecurity script open. <button type="button" data-ctce-enlarge>Enlarge screenshot ↗</button></figcaption></figure></section>
 
+{{ extensionLesson("find", "product") }}
 <section class="ctce-section" id="how-it-works"><p class="ctce-kicker">Ready for your next calling block</p><h2>Install it. Open the sidebar. Find your script.</h2>
 <ol class="ctce-steps"><li><span class="ctce-number">01</span><h3>Add it to Chrome</h3><p>Open the official store listing in desktop Chrome. Select <strong>Add to Chrome</strong> and confirm the installation.</p></li><li><span class="ctce-number">02</span><h3>Open your side panel</h3><p>Find CallTeam Cold Call Script Picker in Chrome’s Extensions menu. Pin it for easy access, then select its icon beside your dialer or CRM tab.</p></li><li><span class="ctce-number">03</span><h3>Choose your next line</h3><p>Search for a buyer, industry or keyword. Pick a script, copy an opener and expand an objection reply when you need it.</p></li></ol></section>
 

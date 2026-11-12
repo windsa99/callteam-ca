@@ -1,8 +1,9 @@
 ---
 authorKey: "harjSingh"
 layout: layouts/article.njk
+extensionVideo: "information"
 callingLesson: "information"
-pageStyles: ["/assets/css/process-short.css", "/assets/css/calling-lessons.css"]
+pageStyles: ["/assets/css/extension-video.css", "/assets/css/process-short.css", "/assets/css/calling-lessons.css"]
 pageScripts: ["/assets/js/calling-lessons.js"]
 tags: ["articles"]
 title: "What to Say When a Prospect Says Send Me Information"

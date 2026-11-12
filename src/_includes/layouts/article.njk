@@ -135,7 +135,7 @@ ogType: article
     </div>
   </header>{% endif %}
 
-{% if callingLesson %}{% include "components/article-calling-lesson.njk" %}{% endif %}  {% if cards and cards.length > 0 %}
+{% if extensionVideo %}{% from "components/extension-video.njk" import extensionLesson with context %}<div class="container ctev-article" id="{{ callingLesson }}-lesson">{{ extensionLesson(extensionVideo, "information-article") }}</div>{% elif callingLesson %}{% include "components/article-calling-lesson.njk" %}{% endif %}  {% if cards and cards.length > 0 %}
   <section class="article-takeaways" aria-labelledby="takeaways-heading">
     <div class="container article-takeaways-inner">
       <div class="article-takeaways-heading">
