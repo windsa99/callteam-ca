@@ -18,7 +18,7 @@
   "jump": [["comparison", "Side by side"], ["costs", "Prices & extras"], ["verdict", "Our verdict"], ["alternatives", "Simpler options"], ["buying-questions", "Free questions"], ["questions", "FAQs"]],
   "comparisonRows": [
     ["Email and call sequences", "Start with Amplify Core for multichannel sequences. Plus adds the broader coaching and deal tools.", "Cadence combines email, phone and other tasks. Rhythm helps reps prioritise their work."],
-    ["Calling inside the platform", "Voice access is included. Minutes and numbers have separate charges. Native sequential dialling works through call tasks.", "The Dialer is an add-on. A phone step in a cadence does not include the calling subscription."],
+    ["Calling inside the platform", "Voice access is included. Minutes and numbers have separate charges. Native sequential dialing works through call tasks.", "The Dialer is an add-on. A phone step in a cadence does not include the calling subscription."],
     ["Conversation intelligence", "Essentials focuses on coaching and deal insight. Choose Plus to combine that with Core’s sequencing.", "New implementations use Clari Copilot. Both subscriptions and the integration entitlement must be in the contract."],
     ["Forecasting", "Amplify Pro includes forecasting.", "Forecasting is an add-on."]
   ],
@@ -46,9 +46,9 @@
     {"q": "Is Outreach better than Salesloft?", "a": "For sequences plus broader deal management, start with Outreach. For shared cadences and daily rep priorities, start with Salesloft. Choose the one that handles your campaign and CRM handoff well at a cost you can justify."},
     {"q": "How much do Outreach and Salesloft cost per user?", "a": "Both require a quote for the platform subscription. Add calling, AI usage, setup and any extra products to compare the full cost. Their published calling charges cover only part of the bill."},
     {"q": "Are Outreach and Salesloft CRMs?", "a": "They are sales engagement platforms that work alongside a CRM. They organise outreach and follow-up, with additional coaching and sales-management features. Compare the record ownership, pipeline and reporting your CRM already handles before adding either."},
-    {"q": "Do Outreach and Salesloft include a dialler?", "a": "Outreach includes Voice access and charges for calling usage or subscriptions. Salesloft sells Dialer access as an add-on. Ask for the countries, number allowance and call method in the proposed package."},
+    {"q": "Do Outreach and Salesloft include a dialer?", "a": "Outreach includes Voice access and charges for calling usage or subscriptions. Salesloft sells Dialer access as an add-on. Ask for the countries, number allowance and call method in the proposed package."},
     {"q": "Which works better with HubSpot?", "a": "Start with Salesloft if you need two-way sync for people, accounts and opportunities. Outreach’s HubSpot integration focuses on contact sync and one-way email logging. Test the records and fields your team needs before signing."},
-    {"q": "Can Apollo replace Outreach or Salesloft?", "a": "Yes, for teams whose main needs are prospect data, sequences and calling. Check the required CRM controls and coaching before moving. Phone-data credits and advanced dialling can add to the subscription."},
+    {"q": "Can Apollo replace Outreach or Salesloft?", "a": "Yes, for teams whose main needs are prospect data, sequences and calling. Check the required CRM controls and coaching before moving. Phone-data credits and advanced dialing can add to the subscription."},
     {"q": "Do small sales teams need either platform?", "a": "A small team with a simple calling queue and email follow-up can usually start with less software. Choose Outreach or Salesloft when shared processes and management tools solve a specific problem worth paying for."},
     {"q": "Can CallTeam make calls alongside our email sequences?", "a": "Yes. We can agree a calling campaign around your target accounts, follow-up and qualification needs. Before launch, we set how outcomes and next steps reach your team so calls and emails stay coordinated."}
   ]

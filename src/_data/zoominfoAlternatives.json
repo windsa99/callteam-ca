@@ -25,7 +25,7 @@
       "id": "uplead",
       "name": "UpLead",
       "tag": "A clear price for contact buying",
-      "fit": "Your CRM and dialler already work. You need contacts.",
+      "fit": "Your CRM and dialer already work. You need contacts.",
       "price": "USD 99/month",
       "priceNote": "Essentials, monthly billing",
       "allowance": "170 contact credits/month; available email and mobile direct dial included in the contact unlock.",
@@ -33,7 +33,7 @@
       "good": "The buying unit is clear: one credit unlocks an available contact for download or CRM export. You can see the entry price and allowance before speaking to sales.",
       "limit": "The 95% accuracy claim applies to email. It does not tell you how many useful mobile numbers you will find. Team management and some integrations require the quoted Professional plan.",
       "cost": "Essentials lists USD 99 monthly for 170 credits. Annual billing is USD 888, equivalent to USD 74 monthly, with 2,040 credits. The seven-day trial includes five credits. Confirm the selected plan and renewal terms.",
-      "verdict": "A straightforward choice if your CRM and dialler already work. The pricing is clear. Check mobile coverage on your buyers before buying more credits.",
+      "verdict": "A straightforward choice if your CRM and dialer already work. The pricing is clear. Check mobile coverage on your buyers before buying more credits.",
       "check": "Use the small trial on your real target roles. Track which records have a usable mobile or direct line and which need another route.",
       "sources": [
         {"label": "Prices, credits, trial and plan differences", "url": "https://www.uplead.com/pricing/"}

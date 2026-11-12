@@ -198,7 +198,7 @@
       "price": "Business adds AI scorecards, CRM field sync and a shared view of meetings on a deal.",
       "good": "The free plan records and transcribes meetings. Business adds team review tools, with recordings and notes grouped by deal.",
       "weak": "Business requires two paid users. Its supported-platform guide excludes ordinary phone calls, including Zoom Phone.",
-      "verdict": "A good choice for coaching demos and discovery meetings. Cold calling teams need a recorder that supports their dialler.",
+      "verdict": "A good choice for coaching demos and discovery meetings. Cold calling teams need a recorder that supports their dialer.",
       "sources": [
         [
           "Plans and minimum seats",
@@ -219,7 +219,7 @@
       "name": "Fireflies vs Gong",
       "fit": "Meeting records, analytics and flexible sales workflows",
       "price": "Business includes conversation analytics; advanced AI actions have a separate credit bill.",
-      "good": "It brings meetings, supported dialler calls and uploaded recordings into one searchable library. Sales tools add scorecards, CRM updates and deal insights.",
+      "good": "It brings meetings, supported dialer calls and uploaded recordings into one searchable library. Sales tools add scorecards, CRM updates and deal insights.",
       "weak": "The 30 included AI credits are a one-time allowance. Extra credit packs start at $5/month for 50 credits. Automatic subscriptions and upgrades can increase the bill; check those settings before enabling AI workflows.",
       "verdict": "Good value for call review. Budget for the AI tasks you enable and keep automatic credit upgrades under control.",
       "sources": [
@@ -331,7 +331,7 @@
       "fit": "Teams that want coaching inside their outreach workflow",
       "price": "For new integrated setups, price Salesloft, Clari Copilot and the Conversation Intelligence integration together.",
       "good": "Call summaries, scorecards and live prompts keep coaching close to a rep’s follow-up work.",
-      "weak": "There is no public dollar price. New implementations from July 2026 require both subscriptions. Dialling and forecasting are listed separately as add-ons.",
+      "weak": "There is no public dollar price. New implementations from July 2026 require both subscriptions. Dialing and forecasting are listed separately as add-ons.",
       "verdict": "Compare the package if your team already works in Salesloft. Buying both subscriptions just to record meetings is poor value.",
       "sources": [
         [
@@ -373,7 +373,7 @@
       "fit": "Calling and coaching in the same system",
       "price": "Annual rates: Essentials $39, Advanced $59 and Premium $79 per user/month. Premium includes AI scorecards and Coaching Hub.",
       "good": "Recording, transcripts and CRM logging sit alongside the phone system. Advanced adds live guidance; Premium brings scorecards and playbooks into the calling workflow.",
-      "weak": "Local-dialling number packages and selected extras cost more. Replacing a working phone system also creates migration work.",
+      "weak": "Local-dialing number packages and selected extras cost more. Replacing a working phone system also creates migration work.",
       "verdict": "Strong value when the team needs both calling and structured reviews. If the phone setup already works, compare the cost and effort of adding coaching to it first.",
       "sources": [
         [
@@ -389,7 +389,7 @@
   ],
   "resourceTitle": "Five questions before you buy.",
   "resourceIntro": "Copy these into a vendor email or keep them beside your renewal quote. No signup required.",
-  "resource": "1. What is the full first-year cost for our recording users and managers, including platform fees, setup, AI usage and required add-ons?\n2. Can you capture calls from our exact dialler and meeting tools, and save the right notes and fields in our CRM?\n3. Show us how a manager reviews a real call, scores it and gives the rep a useful next step. Which plan includes that?\n4. Can we export our recordings, transcripts and coaching records? What will transfer from our current tool, and what costs extra?\n5. What is the minimum term, when can we reduce seats, and what price and notice period apply at renewal?",
+  "resource": "1. What is the full first-year cost for our recording users and managers, including platform fees, setup, AI usage and required add-ons?\n2. Can you capture calls from our exact dialer and meeting tools, and save the right notes and fields in our CRM?\n3. Show us how a manager reviews a real call, scores it and gives the rep a useful next step. Which plan includes that?\n4. Can we export our recordings, transcripts and coaching records? What will transfer from our current tool, and what costs extra?\n5. What is the minimum term, when can we reduce seats, and what price and notice period apply at renewal?",
   "resourceAside": "Get the answers in the quote.",
   "resourceNote": "Use the same questions for every shortlisted vendor. A written price and a working example make the decision much easier.",
   "faqs": [
@@ -411,7 +411,7 @@
     },
     {
       "q": "Can Fathom replace Gong for cold call coaching?",
-      "a": "Use Fathom for demos and discovery meetings. Its support guide excludes ordinary phone calls, including Zoom Phone. For coaching dialler calls, choose a compatible recorder."
+      "a": "Use Fathom for demos and discovery meetings. Its support guide excludes ordinary phone calls, including Zoom Phone. For coaching dialer calls, choose a compatible recorder."
     },
     {
       "q": "Is Chorus cheaper than Gong?",

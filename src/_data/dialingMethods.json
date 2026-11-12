@@ -29,7 +29,7 @@
     {
       "id": "predictive",
       "name": "Predictive",
-      "operation": "Adjust the dialling pace around expected answers and available callers.",
+      "operation": "Adjust the dialing pace around expected answers and available callers.",
       "fit": "Several callers working the same repeatable queue together.",
       "tradeoff": "A person can answer when nobody is free. Staffing and pacing matter.",
       "verdict": "Buy it for concurrent calling capacity you actually have."
@@ -39,13 +39,13 @@
     {
       "name": "Close: power vs predictive",
       "mode": "Growth has power; Scale has predictive.",
-      "view": "Close bases predictive pacing on available callers and answer behaviour. Its own guidance says one caller is unlikely to go above 1x and suggests at least four logged-in callers to exploit the mode. A solo user should not upgrade purely for predictive dialling.",
+      "view": "Close bases predictive pacing on available callers and answer behaviour. Its own guidance says one caller is unlikely to go above 1x and suggests at least four logged-in callers to exploit the mode. A solo user should not upgrade purely for predictive dialing.",
       "url": "https://help.close.com/feature-guide/power-predictive-dialing/using-the-predictive-dialer"
     },
     {
       "name": "Apollo: power and parallel",
       "mode": "Advanced Dialer adds both modes to paid Apollo subscriptions.",
-      "view": "Useful when prospecting and calling share a workflow. Budget for the dialler add-on, paid Apollo seats and calling credits.",
+      "view": "Useful when prospecting and calling share a workflow. Budget for the dialer add-on, paid Apollo seats and calling credits.",
       "url": "https://www.apollo.io/product/dialer"
     },
     {
@@ -63,7 +63,7 @@
     {
       "name": "Aircall: power inside a phone system",
       "mode": "Power Dialer is included in Professional.",
-      "view": "Useful when you need inbound routing and outbound calling together. Essentials does not include the power dialler. Professional has a three-licence minimum.",
+      "view": "Useful when you need inbound routing and outbound calling together. Essentials does not include the power dialer. Professional has a three-licence minimum.",
       "url": "https://aircall.io/pricing/"
     },
     {
@@ -75,19 +75,19 @@
     {
       "name": "CloudTalk: preview, power and parallel",
       "mode": "Power is included in Expert or sold as an add-on; parallel is an add-on.",
-      "view": "A phone platform with optional dialling modes. Get the required mode priced with the base plan, in the currency you will pay.",
+      "view": "A phone platform with optional dialing modes. Get the required mode priced with the base plan, in the currency you will pay.",
       "url": "https://www.cloudtalk.io/pricing/"
     }
   ],
-  "resource": "DIALLING-MODE SESSION BRIEF\nList and buyer type:\nMode and active callers:\nWhat must the caller read before each call?\nHow will we handle a switchboard or screening assistant?\nWhat happens if two people answer together?\nWhere will inbound callbacks go?\nWho owns notes, stop requests and the next action?\nAfter the session: compare intended-buyer conversations per caller-hour, completed follow-ups and missed human answers. Track held meetings separately as they happen.",
+  "resource": "DIALING-MODE SESSION BRIEF\nList and buyer type:\nMode and active callers:\nWhat must the caller read before each call?\nHow will we handle a switchboard or screening assistant?\nWhat happens if two people answer together?\nWhere will inbound callbacks go?\nWho owns notes, stop requests and the next action?\nAfter the session: compare intended-buyer conversations per caller-hour, completed follow-ups and missed human answers. Track held meetings separately as they happen.",
   "faqs": [
     {
       "q": "What is the difference between an auto dialer and a predictive dialer?",
-      "a": "Auto dialler is the broad category of software that automates calling from a list. Predictive software adjusts that pace to expected answers and caller availability. It can start calls before a caller is free, so someone may answer with nobody ready to speak."
+      "a": "Auto dialer is the broad category of software that automates calling from a list. Predictive software adjusts that pace to expected answers and caller availability. It can start calls before a caller is free, so someone may answer with nobody ready to speak."
     },
     {
       "q": "What is the difference between a power dialer and a predictive dialer?",
-      "a": "Single-line power dialling moves one caller through one number at a time. Predictive dialling adjusts the calling pace using answer patterns and available callers. Power gives the rep more direct control; predictive needs a queue and staffing that suit its pacing."
+      "a": "Single-line power dialing moves one caller through one number at a time. Predictive dialing adjusts the calling pace using answer patterns and available callers. Power gives the rep more direct control; predictive needs a queue and staffing that suit its pacing."
     },
     {
       "q": "Is a parallel dialer the same as a predictive dialer?",
@@ -95,7 +95,7 @@
     },
     {
       "q": "What is a progressive dialer?",
-      "a": "Progressive dialling generally starts the next call when a caller is available. Vendors sometimes use power and progressive for similar workflows. Check the pause, wrap-up and next-call controls in the actual product."
+      "a": "Progressive dialing generally starts the next call when a caller is available. Vendors sometimes use power and progressive for similar workflows. Check the pause, wrap-up and next-call controls in the actual product."
     },
     {
       "q": "Should a solo caller use a predictive dialer?",
@@ -107,7 +107,7 @@
     },
     {
       "q": "Is an AI dialer an AI voice agent?",
-      "a": "An AI dialler can use software to detect answers, create notes or coach a human caller. An AI voice agent speaks to the prospect itself. Ask who conducts the conversation before comparing either product's price or results."
+      "a": "An AI dialer can use software to detect answers, create notes or coach a human caller. An AI voice agent speaks to the prospect itself. Ask who conducts the conversation before comparing either product's price or results."
     },
     {
       "q": "Can CallTeam run the cold calling instead?",

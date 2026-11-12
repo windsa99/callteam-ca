@@ -24,7 +24,7 @@
       if (plan.min === null) { result.kind = 'unconfirmed'; return result; }
       result.kind = 'estimate';
       result.seats = Math.max(reps, plan.min);
-      // Simple Mojo setup: one access account and one concurrent dialler licence per caller.
+      // Simple Mojo setup: one access account and one concurrent dialer licence per caller.
       result.licences = provider.id === 'mojo' ? reps : 0;
       result.monthly = result.seats * rate.seat + rate.team + (rate.dialer || 0) * result.licences;
       result.annual = input.billing === 'annual' ? result.monthly * 12 : null;
@@ -94,7 +94,7 @@
       $('result-note').textContent='Paid Apollo plan and usage are extra. This is not the total subscription price.'; return;
     }
     var rate=c.plan.rates[r.billing];
-    $('breakdown').textContent=r.licences ? 'Assumes one access account and one dialler licence per caller. Sharing licences changes the cost.' : r.seats+' paid '+(r.seats===1?'seat':'seats')+' × '+money(rate.seat,r.currency)+'.'+(r.seats>r.reps?' The '+r.minimum+'-seat minimum applies.':'');
+    $('breakdown').textContent=r.licences ? 'Assumes one access account and one dialer licence per caller. Sharing licences changes the cost.' : r.seats+' paid '+(r.seats===1?'seat':'seats')+' × '+money(rate.seat,r.currency)+'.'+(r.seats>r.reps?' The '+r.minimum+'-seat minimum applies.':'');
     if (r.annual!==null) { $('annual-wrap').hidden=false; $('budget').textContent=money(r.annual,r.currency); }
     $('result-note').textContent='Before tax. Usage and optional extras are excluded.'+(r.currency==='vendor $'?' Confirm billing currency.':'');
   }

@@ -13,7 +13,7 @@
       "strength": "Apollo combines prospect search, enrichment and outreach tools. That is useful when you want fewer handoffs between finding someone and contacting them. Its phone documentation also distinguishes company HQ numbers from contact numbers; HQ numbers do not use phone credits.",
       "drawback": "The phone-reveal action can return different number types. Do not budget as though every selected person will produce a usable mobile. Unused credits expire, and an extra credit subscription can keep renewing until you remove it.",
       "unknown": "How many people in your exact territory and buying roles have usable mobiles. A large search result tells you who matches the filters, not who you can reach by phone.",
-      "verdict": "Shortlist Apollo when you need both data and outreach. If you already have a CRM and dialler, judge Apollo on the contacts it adds to that workflow. Buying more credits is not a fix for a poorly chosen list.",
+      "verdict": "Shortlist Apollo when you need both data and outreach. If you already have a CRM and dialer, judge Apollo on the contacts it adds to that workflow. Buying more credits is not a fix for a poorly chosen list.",
       "check": "Reveal a small batch first. Inspect the actual number type, then export it into your CRM. Exporting a saved contact does not automatically fill missing phone fields.",
       "sources": [
         {

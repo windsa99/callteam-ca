@@ -1,9 +1,9 @@
-CALLTEAM | FREE COLD CALLING DIALLER TRIAL KIT
+CALLTEAM | FREE COLD CALLING DIALER TRIAL KIT
 https://www.callteam.ca/resources/best-cold-calling-dialers/
 
 Copy this blank kit for each trial. Compare similar calling blocks; a short trial is not a controlled performance benchmark. Keep unique contacts, attempts, conversations and held meetings separate.
 
-DIALLER TRIAL SCORECARD
+DIALER TRIAL SCORECARD
 Provider / plan / mode:
 Trial dates / reviewer:
 CRM and integration:
@@ -46,7 +46,7 @@ Next review date:
 
 QUESTIONS TO ASK SALES
 
-1. Quote the exact dialler-enabled plan, currency, minimum paid seats, billing term and payment schedule. What renews automatically, and when must we cancel?
+1. Quote the exact dialer-enabled plan, currency, minimum paid seats, billing term and payment schedule. What renews automatically, and when must we cancel?
 
 2. Which features are included: power, parallel, predictive, human detection, coaching, recording and callbacks? Which require an add-on or different tier?
 

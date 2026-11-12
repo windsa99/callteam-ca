@@ -47,10 +47,10 @@
     "price": "$99 / user / month",
     "billing": "Growth, annual billing; $109 monthly",
     "catch": "The cheaper Essentials plan has no automated workflows. Phone numbers and usage cost extra.",
-    "good": "Growth combines the pipeline, email, automated workflows and a power dialler. Calls and follow-up can stay on the same lead record, which suits a busy calling team.",
+    "good": "Growth combines the pipeline, email, automated workflows and a power dialer. Calls and follow-up can stay on the same lead record, which suits a busy calling team.",
     "limit": "Existing HubSpot activities need a separate migration from your contacts. Plan how to move the history and rebuild your automations.",
     "cost": "Growth costs $99 per user per month on annual billing, or $109 month to month. Essentials costs $35 or $49 on those terms but leaves out workflows. Add numbers, calling, SMS and optional AI usage.",
-    "verdict": "Choose Close Growth if your reps spend the day calling and following up. The power dialler and workflows are built in. Phone usage costs extra.",
+    "verdict": "Choose Close Growth if your reps spend the day calling and following up. The power dialer and workflows are built in. Phone usage costs extra.",
     "check": "Test an unanswered call, a scheduled callback and a handoff to another rep. Confirm that the history and next task survive the migration.",
     "sources": [
       {
@@ -138,9 +138,9 @@
     "billing": "Pro, annual billing; $41 monthly",
     "catch": "Three-seat minimum, then seat buckets. Smart Call is mobile-only and uses AI credits.",
     "good": "monday CRM gives teams flexible boards, ownership and automation. Pro includes sequences. Its Smart Call feature supports native calls in the mobile app with recording and summaries.",
-    "limit": "Smart Call has no browser calling or power dialler. Reps calling from laptops need a separate phone integration.",
+    "limit": "Smart Call has no browser calling or power dialer. Reps calling from laptops need a separate phone integration.",
     "cost": "Pro costs $28 per seat per month on annual billing, or $41 monthly. Standard costs $17 or $25 on those terms. Four users pay for five seats; six pay for ten. Smart Call uses five AI credits per connected minute. Confirm the price of extra credits.",
-    "verdict": "Good for shared pipelines and visual coordination. For a team power dialling from laptops, the extra phone setup makes it a less direct choice.",
+    "verdict": "Good for shared pipelines and visual coordination. For a team power dialing from laptops, the extra phone setup makes it a less direct choice.",
     "check": "Price your next hire as well as today's headcount. Have a rep complete a real call and update the deal from the device they use all day.",
     "sources": [
       {
@@ -216,7 +216,7 @@
         "url": "https://learn.microsoft.com/en-us/dynamics365/sales/digital-selling"
       },
       {
-        "label": "Teams dialler requirements",
+        "label": "Teams dialer requirements",
         "url": "https://learn.microsoft.com/en-us/dynamics365/sales/configure-microsoft-teams-dialer"
       }
     ]

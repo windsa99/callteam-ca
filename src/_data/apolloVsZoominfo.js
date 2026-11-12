@@ -16,7 +16,7 @@ module.exports = {
   ],
   situations: [
     { title: 'You are starting with one to five sellers.', choice: 'Test Apollo first.', text: 'You can price the seats and try the data and outreach together. Move up a plan only for a feature or allowance your team needs.' },
-    { title: 'Your CRM and dialler already work.', choice: 'Buy the useful data.', text: 'Check which missing target contacts each provider can supply and what it costs to move those records into your current setup.' },
+    { title: 'Your CRM and dialer already work.', choice: 'Buy the useful data.', text: 'Check which missing target contacts each provider can supply and what it costs to move those records into your current setup.' },
     { title: 'You sell into complex accounts.', choice: 'Give ZoomInfo a proper look.', text: 'Organisation charts and account signals can help a team work a buying committee. A five-person team selling large contracts may use these features more than a fifty-person team selling a simple offer.' },
     { title: 'Your target market is hard to cover.', choice: 'Let the sample decide.', text: 'Compare the same roles, industries and territories to see whether the extra cost gets you buyers you would otherwise miss.' },
     { title: 'You are facing a renewal.', choice: 'Review what the team used.', text: 'Remove unused seats and features before accepting a higher bill. If you plan to switch, include the time and cost of moving your data.' }

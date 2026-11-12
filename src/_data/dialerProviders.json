@@ -8,7 +8,7 @@
       "fit": "Teams running regular call blocks with coaching.",
       "modes": "Power and parallel",
       "price": "Quote required. Its own product guide states a two-seat minimum; confirm your offer.",
-      "catch": "No public dollar price. Check which coaching and advanced dialling features the quote includes.",
+      "catch": "No public dollar price. Check which coaching and advanced dialing features the quote includes.",
       "currency": "quote",
       "tag": "Calling and coaching together",
       "strength": "Nooks combines parallel calling, CRM activity logging and a virtual sales floor. That is a useful shortlist for managers who need to hear calls and coach a team during regular prospecting sessions.",
@@ -45,14 +45,14 @@
     {
       "id": "orum",
       "name": "Orum",
-      "fit": "Larger calling teams wanting dedicated parallel dialling.",
+      "fit": "Larger calling teams wanting dedicated parallel dialing.",
       "modes": "Power, parallel and click-to-call",
       "price": "Quote required. Public pricing states a nine-seat minimum.",
       "catch": "A small team may pay for more capacity than it uses. Coaching is an add-on.",
       "currency": "quote",
-      "tag": "Dedicated team dialling",
+      "tag": "Dedicated team dialing",
       "strength": "Orum offers power and parallel workflows with CRM connections and a trial. Its public pricing makes the nine-seat minimum visible, which helps a buyer rule the standard offer in or out early.",
-      "drawback": "The dollar price still needs a quote. Its parallel-dialler documentation says the first detected answer reaches the rep and other calls are cancelled; the rep does not hear the initial greeting. That makes answer handling a real trial question.",
+      "drawback": "The dollar price still needs a quote. Its parallel-dialer documentation says the first detected answer reaches the rep and other calls are cancelled; the rep does not hear the initial greeting. That makes answer handling a real trial question.",
       "verdict": "Shortlist it when you have a team and enough suitable calling work to use it. If you have two callers, start with the minimum commitment. A strong product can still be the wrong purchase for your team size.",
       "check": "Ask what happens to cancelled calls when two people answer, how those contacts re-enter the queue and how callbacks reach a rep. Include coaching and any required data products in the quote.",
       "sources": [
@@ -84,16 +84,16 @@
       "fit": "A sales team that wants its CRM and calling in one place.",
       "modes": "Power on Growth; predictive on Scale",
       "price": "USD 109/seat monthly or 99 on annual billing for Growth. Scale: USD 149 or 139. Usage extra.",
-      "catch": "The low-priced CRM entry plans do not include these diallers.",
+      "catch": "The low-priced CRM entry plans do not include these dialers.",
       "currency": "USD",
       "tag": "CRM and calling in one workflow",
-      "strength": "Close puts the contact record, follow-up and calling workflow in the same CRM. Growth includes the power dialler; Scale adds predictive dialling. That can remove a separate calling layer when you also need a CRM.",
+      "strength": "Close puts the contact record, follow-up and calling workflow in the same CRM. Growth includes the power dialer; Scale adds predictive dialing. That can remove a separate calling layer when you also need a CRM.",
       "drawback": "Calling usage and phone numbers are additional costs. Growth is USD 109 per user monthly or 99 per month on annual billing; Scale is 149 or 139. If your CRM already works well, account for migration and retraining before buying another one.",
-      "verdict": "Start with Close when a small team needs calling and follow-up in one CRM. Upgrade to Scale when predictive dialling solves a clear workload problem.",
+      "verdict": "Start with Close when a small team needs calling and follow-up in one CRM. Upgrade to Scale when predictive dialing solves a clear workload problem.",
       "check": "Test queue filters, dispositions, callbacks and shared company numbers. Use the destination-specific rate card. Close’s example minute price is not a universal calling rate; check usage charges separately from the subscription estimate.",
       "sources": [
         {
-          "label": "Plans and dialler tiers",
+          "label": "Plans and dialer tiers",
           "url": "https://close.com/pricing"
         },
         {
@@ -146,8 +146,8 @@
       "currency": "USD",
       "tag": "Use the platform you already pay for",
       "strength": "Apollo joins prospect research, sequences and calling. Advanced Dialer adds power, parallel and international calling to a paid Apollo plan. For an existing customer, it is worth testing before adding a separate vendor.",
-      "drawback": "Advanced costs USD 149 per team per month, or 119 on annual billing, in addition to paid seats. On credit-based dialler plans, a voicemail or answering-machine connection also uses credits. Calls have a 30-second minimum and subsequent 30-second rounding.",
-      "verdict": "Check Apollo first if your team already works there. Compare the extra dialler cost with a separate product, then inspect the complete bill. Do not mistake a team add-on for a per-seat charge or for an all-in subscription.",
+      "drawback": "Advanced costs USD 149 per team per month, or 119 on annual billing, in addition to paid seats. On credit-based dialer plans, a voicemail or answering-machine connection also uses credits. Calls have a 30-second minimum and subsequent 30-second rounding.",
+      "verdict": "Check Apollo first if your team already works there. Compare the extra dialer cost with a separate product, then inspect the complete bill. Do not mistake a team add-on for a per-seat charge or for an all-in subscription.",
       "check": "Add your current paid-seat subscription and account-specific credit charges to the Advanced add-on when reviewing the full offer. Test voicemail classification, CRM writeback and callbacks. With Apollo’s VoIP receiving method, incoming voicemail is unavailable; its bridged-phone method behaves differently.",
       "sources": [
         {
@@ -191,10 +191,10 @@
       "catch": "Browser softphone requires Professional. In-app callbacks require Premium. US-site dollar prices; confirm currency.",
       "currency": "vendor $",
       "tag": "One conversation at a time",
-      "strength": "PhoneBurner centres its product on single-line power dialling, with US/Canada calling and no per-minute fees advertised across its plans. Individual subscriptions are supported, which makes it accessible to a solo caller.",
+      "strength": "PhoneBurner centres its product on single-line power dialing, with US/Canada calling and no per-minute fees advertised across its plans. Individual subscriptions are supported, which makes it accessible to a solo caller.",
       "drawback": "The tier matters. Standard is $165 monthly or 140 on annual billing; Professional is 195/165; Premium is 215/183. Browser softphone starts on Professional, while answering callbacks in the app requires Premium. Number-reputation services can cost extra.",
       "verdict": "Choose it for a focused power-calling workflow. Price the tier that includes your browser calling and callback requirements.",
-      "check": "Trial your connection method and callback route. Confirm the US-site dollar currency, supported destinations and reasonable-use terms. Its advertised unlimited dialling does not establish unrestricted international calling or a guaranteed answer rate.",
+      "check": "Trial your connection method and callback route. Confirm the US-site dollar currency, supported destinations and reasonable-use terms. Its advertised unlimited dialing does not establish unrestricted international calling or a guaranteed answer rate.",
       "sources": [
         {
           "label": "Current plans",
@@ -269,9 +269,9 @@
       "catch": "Human Voice Detection is labelled a premium add-on in one place and checked in the feature table.",
       "currency": "quote",
       "tag": "Calling around your existing CRM",
-      "strength": "Kixie offers single-line and multi-line power diallers alongside CRM integration and business calling features. That makes it relevant when you want to keep your existing sales system.",
+      "strength": "Kixie offers single-line and multi-line power dialers alongside CRM integration and business calling features. That makes it relevant when you want to keep your existing sales system.",
       "drawback": "The current pricing page does not publish dollar amounts. Its Multi-Line card calls AI Human Voice Detection a premium add-on, while the comparison table shows a checkmark. That is not clear enough to budget from. Unlimited-minute terms also exclude certain destinations and call types.",
-      "verdict": "Choose it when its CRM integration supports the way your reps work. Get the dialler mode, detection features, paid seats and extras itemized in the quote.",
+      "verdict": "Choose it when its CRM integration supports the way your reps work. Get the dialer mode, detection features, paid seats and extras itemized in the quote.",
       "check": "Check the exact CRM objects, dispositions and callback logging you need. Get the seat minimum and renewal rules in writing. Published billing guidance restricts seat reductions on contracts; deleting a user is not necessarily a saving.",
       "sources": [
         {
@@ -319,7 +319,7 @@
       "catch": "The public Pro price does not buy unlimited predictive campaigns.",
       "currency": "USD",
       "tag": "Calling and messaging in one platform",
-      "strength": "JustCall combines sales calling, messaging and CRM integrations. Pro includes power dialling, with published monthly and annual prices that make the first budget check straightforward.",
+      "strength": "JustCall combines sales calling, messaging and CRM integrations. Pro includes power dialing, with published monthly and annual prices that make the first budget check straightforward.",
       "drawback": "All plans require at least two paid seats. Active admins also count as paid users. Pro is USD 69 per seat monthly or 49 on annual billing. Unlimited predictive and dynamic campaigns require custom-priced SalesPro. Limited trial campaigns on other plans are not the same entitlement.",
       "verdict": "Compare it for a team that needs several communication channels. A solo caller pays for two seats. For predictive calling, get the SalesPro quote first.",
       "check": "Check regional calling allowances, overage credits and which users an add-on bills. Test list import, recordings and CRM notes. Confirm which trial features remain after the trial ends.",
@@ -392,12 +392,12 @@
       "fit": "Teams needing business telephony plus outbound calling.",
       "modes": "Power on Professional",
       "price": "Professional: USD 50/licence/month on annual billing. Minimum three licences: USD 150/month equivalent.",
-      "catch": "Essentials’ entry price is not the power-dialler price. Monthly Professional rate needs confirmation.",
+      "catch": "Essentials’ entry price is not the power-dialer price. Monthly Professional rate needs confirmation.",
       "currency": "USD",
       "tag": "A business phone system that can prospect",
-      "strength": "Aircall Professional combines a power dialler with business telephony and CRM integrations. It deserves a look when the team also needs to receive and route calls, rather than only work an outbound queue.",
+      "strength": "Aircall Professional combines a power dialer with business telephony and CRM integrations. It deserves a look when the team also needs to receive and route calls, rather than only work an outbound queue.",
       "drawback": "Professional is USD 50 per licence per month on annual billing, with three licences minimum. That is USD 1,800 in annual base subscription cost even with one active caller. AI Assist Pro is a separate add-on; do not confuse it with included AI Assist.",
-      "verdict": "Consider it when inbound and outbound phone work both matter. For a solo caller who only wants a power dialler, the three-licence floor makes the headline per-seat price less useful.",
+      "verdict": "Consider it when inbound and outbound phone work both matter. For a solo caller who only wants a power dialer, the three-licence floor makes the headline per-seat price less useful.",
       "check": "One number is included per plan; additional numbers are USD 6 monthly. Check destination allowances and CRM mapping. We have not verified a current monthly Professional rate, so the calculator marks it as needing confirmation.",
       "sources": [
         {
@@ -435,19 +435,19 @@
     {
       "id": "cloudtalk",
       "name": "CloudTalk",
-      "fit": "Teams wanting to choose a phone plan and dialling add-on.",
+      "fit": "Teams wanting to choose a phone plan and dialing add-on.",
       "modes": "Power; parallel up to ten lines",
       "price": "Essential + Power: USD 54/seat monthly or 44 on annual billing. Essential + Parallel: USD 78 or 68.",
       "catch": "The add-on needs a base plan. Expert has a three-seat minimum.",
       "currency": "USD",
       "tag": "Modular calling setup",
-      "strength": "CloudTalk offers power and parallel dialling as modular options. Its USD pricing guide lists the Power add-on at 15 per user monthly and Parallel at 39; parallel includes power mode, so you do not need to stack both add-ons.",
+      "strength": "CloudTalk offers power and parallel dialing as modular options. Its USD pricing guide lists the Power add-on at 15 per user monthly and Parallel at 39; parallel includes power mode, so you do not need to stack both add-ons.",
       "drawback": "The base phone plan is additional. Essential plus Power totals USD 54 per user monthly or 44 on annual billing. Expert includes Power at 69/49 but needs three users. Regional allowances, extra numbers and usage still affect the bill.",
       "verdict": "Useful flexibility if you calculate the whole package. A USD 39 parallel add-on is not a USD 39 complete calling system. Start with the CRM integration you need, then select the base plan and mode.",
       "check": "Our presets use CloudTalk’s official USD guides; its pricing page can display other currencies. Confirm the market, allowance, seat minimum and exact integration. Test concurrent answers before turning up the number of lines.",
       "sources": [
         {
-          "label": "USD dialler pricing guide",
+          "label": "USD dialer pricing guide",
           "url": "https://www.cloudtalk.io/auto-dialer-pricing/"
         },
         {
@@ -531,17 +531,17 @@
       "name": "Mojo",
       "fit": "Callers bringing a ready list and wanting single or triple lines.",
       "modes": "Single-line or triple-line",
-      "price": "$10/user/month Agent Access + $89 single-line or $139 triple-line dialler licence. Solo: $99 or $149.",
+      "price": "$10/user/month Agent Access + $89 single-line or $139 triple-line dialer licence. Solo: $99 or $149.",
       "catch": "Voice, recording and data are extras. US-site dollar prices; confirm currency.",
       "currency": "vendor $",
       "tag": "Simple licence maths, extras to check",
-      "strength": "Mojo publishes separate access and dialler costs. A solo caller pays $10 Agent Access plus $89 for a single-line licence or $139 for triple-line. It includes a Lead Manager and supports imported lists.",
-      "drawback": "The dialler price alone leaves out required Agent Access. Mojo Voice is another $30 per dialling licence monthly, and recording is $25 per agent. Its property-focused data products are not a substitute for a B2B decision-maker database.",
+      "strength": "Mojo publishes separate access and dialer costs. A solo caller pays $10 Agent Access plus $89 for a single-line licence or $139 for triple-line. It includes a Lead Manager and supports imported lists.",
+      "drawback": "The dialer price alone leaves out required Agent Access. Mojo Voice is another $30 per dialing licence monthly, and recording is $25 per agent. Its property-focused data products are not a substitute for a B2B decision-maker database.",
       "verdict": "A practical choice for working a prepared calling list. Check the connection to your CRM and how callbacks are handled before committing.",
       "check": "Count access users separately from simultaneous callers. Confirm currency, calling destinations and any external integration costs. Test an inbound callback and check the recording retention you need; the add-on page specifies up to 90 days.",
       "sources": [
         {
-          "label": "Access and dialler pricing",
+          "label": "Access and dialer pricing",
           "url": "https://www.mojosells.com/pricing/"
         },
         {
@@ -585,27 +585,27 @@
   ],
   "faqs": [
     {
-      "q": "What is the best cold calling dialler for a small sales team?",
+      "q": "What is the best cold calling dialer for a small sales team?",
       "a": "Start with the workflow you need and the minimum purchase. Close is worth considering when you also need a CRM. PhoneBurner and Mojo support individual callers. JustCall has a two-seat minimum, Aircall Professional needs three, and Orum’s public pricing specifies nine. Test your list and callbacks before choosing."
     },
     {
-      "q": "What is the difference between a power, parallel and predictive dialler?",
-      "a": "Power usually moves a rep through a list one call at a time. Parallel calls several numbers for a rep and connects a detected answer. Predictive adjusts dialling around expected answers and available agents. Vendors use these labels differently; ask what happens when two people answer and nobody is available."
+      "q": "What is the difference between a power, parallel and predictive dialer?",
+      "a": "Power usually moves a rep through a list one call at a time. Parallel calls several numbers for a rep and connects a detected answer. Predictive adjusts dialing around expected answers and available agents. Vendors use these labels differently; ask what happens when two people answer and nobody is available."
     },
     {
-      "q": "Does Apollo include a dialler?",
-      "a": "Paid Apollo plans have basic dialler access. Advanced Dialer adds features including power and parallel calling at USD 149 per team monthly or USD 119 per team per month on annual billing. Paid Apollo seats and applicable usage charges are additional."
+      "q": "Does Apollo include a dialer?",
+      "a": "Paid Apollo plans have basic dialer access. Advanced Dialer adds features including power and parallel calling at USD 149 per team monthly or USD 119 per team per month on annual billing. Paid Apollo seats and applicable usage charges are additional."
     },
     {
-      "q": "Is an AI dialler the same as an AI cold calling agent?",
-      "a": "No. A dialler may use AI to detect answers, write notes or coach a human. An autonomous voice agent speaks to the prospect itself. This guide focuses on tools for human callers. A feature labelled AI does not establish that it replaces a rep or handles every screening assistant correctly."
+      "q": "Is an AI dialer the same as an AI cold calling agent?",
+      "a": "No. A dialer may use AI to detect answers, write notes or coach a human. An autonomous voice agent speaks to the prospect itself. This guide focuses on tools for human callers. A feature labelled AI does not establish that it replaces a rep or handles every screening assistant correctly."
     },
     {
       "q": "Do unanswered calls and voicemail cost money?",
-      "a": "It depends on the provider and plan. Apollo’s credit-based dialler charges for connections to people, voicemail and answering machines, but not no-answer, busy, failed or cancelled calls. Other providers use minute charges or included allowances. Ask for the exact billable event, rounding and destination rate."
+      "a": "It depends on the provider and plan. Apollo’s credit-based dialer charges for connections to people, voicemail and answering machines, but not no-answer, busy, failed or cancelled calls. Other providers use minute charges or included allowances. Ask for the exact billable event, rounding and destination rate."
     },
     {
-      "q": "Will a dialler stop my number being labelled spam?",
+      "q": "Will a dialer stop my number being labelled spam?",
       "a": "No provider feature should be treated as a guarantee. Ask what its monitoring, registration or remediation actually covers. Test inbound callbacks and the numbers you use, then review complaint patterns, wrong numbers and repeated attempts. More caller IDs do not fix an unsuitable list."
     },
     {

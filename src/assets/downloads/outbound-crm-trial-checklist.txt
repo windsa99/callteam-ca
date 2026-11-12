@@ -16,7 +16,7 @@ Set a callback with a date, time zone and owner. It should appear when due and s
 Result / issue / next question: ____________________
 
 [TO TEST] 4. Stop follow-up when it should stop.
-Use a test record for a stop request or reply. Confirm that the dialling queue, sequence and future tasks all reflect the change.
+Use a test record for a stop request or reply. Confirm that the dialing queue, sequence and future tasks all reflect the change.
 Result / issue / next question: ____________________
 
 [TO TEST] 5. Book, reschedule and hand over a meeting.

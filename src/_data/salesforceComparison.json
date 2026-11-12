@@ -102,8 +102,8 @@
       "onboarding": 0,
       "minimum": 1,
       "price": "Growth: USD $99/user/month, billed annually.",
-      "good": "Growth puts a power dialler, email and follow-up workflows beside the customer record. Reps can work through their list without moving between a CRM and a separate dialler.",
-      "weak": "Calls, SMS, phone numbers and some AI use cost extra. Predictive dialling and more advanced controls require Scale.",
+      "good": "Growth puts a power dialer, email and follow-up workflows beside the customer record. Reps can work through their list without moving between a CRM and a separate dialer.",
+      "weak": "Calls, SMS, phone numbers and some AI use cost extra. Predictive dialing and more advanced controls require Scale.",
       "verdict": "Worth the higher seat price when calling is central to the job. It is harder to justify if your reps barely use the phone.",
       "sources": [
         [
@@ -258,7 +258,7 @@
     },
     {
       "q": "Which Salesforce alternative is useful for cold calling?",
-      "a": "Close Growth includes a power dialler and follow-up workflows. Calls and numbers cost extra. If your current CRM works well, adding a compatible dialler may be easier than replacing the CRM."
+      "a": "Close Growth includes a power dialer and follow-up workflows. Calls and numbers cost extra. If your current CRM works well, adding a compatible dialer may be easier than replacing the CRM."
     },
     {
       "q": "How much does it cost to move away from Salesforce?",

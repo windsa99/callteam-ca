@@ -1,7 +1,7 @@
 {
   "slug": "orum-alternatives",
   "shortTitle": "Orum alternatives",
-  "category": "Dialler buying decision",
+  "category": "Dialer buying decision",
   "h1": "8 best <span>Orum alternatives.</span><small>Compare the cost of making calls.</small>",
   "intro": "See which Orum competitors offer parallel calling, which use one line, and what your team will pay before usage and extras.",
   "brands": [
@@ -58,7 +58,7 @@
       "FAQs"
     ]
   ],
-  "resourceTitle": "Five questions for a dialler quote.",
+  "resourceTitle": "Five questions for a dialer quote.",
   "resourceIntro": "Use these before a demo or renewal. Keep the answers beside the price.",
   "resource": "1. What is the full annual cost for our actual number of callers, including minimum seats?\n2. Which plan includes the calling mode we need, and what are its usage limits?\n3. What do numbers, calling, coaching, data, onboarding and integrations add to the bill?\n4. What happens when two prospects answer, someone calls back or a rep removes a contact?\n5. Can we test the workflow in our CRM and confirm the cancellation and renewal terms?",
   "resourceAside": "Ask for the itemised total.",
@@ -114,12 +114,12 @@
       "fit": "Keep data, sequences and calling together",
       "mode": "Power + parallel add-on",
       "price": "Advanced Dialer: USD $149/team/month, or $119 on annual billing, plus paid seats and usage.",
-      "good": "A team already paying for Apollo can try a calling workflow alongside its contacts and sequences. The dialler add-on is charged per team.",
+      "good": "A team already paying for Apollo can try a calling workflow alongside its contacts and sequences. The dialer add-on is charged per team.",
       "weak": "The add-on price excludes the underlying paid plans and calling credits. Connected calls can use credits even when they reach voicemail.",
       "verdict": "Check this before buying a second calling platform. It is attractive when Apollo already covers your prospecting, but the total bill still includes seats, data and calls.",
       "sources": [
         [
-          "Dialler features and prices",
+          "Dialer features and prices",
           "https://www.apollo.io/product/dialer"
         ],
         [
@@ -138,9 +138,9 @@
       "fit": "A CRM built around calling and follow-up",
       "mode": "Power; predictive on Scale",
       "price": "Growth: USD $109/seat/month, or $99 with annual billing. Scale: $149/seat/month, or $139 with annual billing.",
-      "good": "Growth includes a power dialler, email and follow-up workflows in the CRM. Scale adds predictive dialling for teams that need it.",
+      "good": "Growth includes a power dialer, email and follow-up workflows in the CRM. Scale adds predictive dialing for teams that need it.",
       "weak": "Calls and phone numbers cost extra. Moving to Close also means a CRM migration if your records and processes live elsewhere.",
-      "verdict": "Strong value when you need the CRM as well as calling. Keeping a working CRM and adding a compatible dialler may cost less effort.",
+      "verdict": "Strong value when you need the CRM as well as calling. Keeping a working CRM and adding a compatible dialer may cost less effort.",
       "sources": [
         [
           "Plans",
@@ -158,8 +158,8 @@
       "fit": "Calling alongside an existing CRM",
       "mode": "Power on Pro",
       "price": "Pro: USD $69/licence monthly or $49 on annual billing. Two-licence minimum.",
-      "good": "Pro includes a single-line power dialler and CRM integrations. The price is visible, making the entry cost easier to compare.",
-      "weak": "Parallel and predictive dialling require a separate SalesPro quote. The published Pro price does not buy those modes.",
+      "good": "Pro includes a single-line power dialer and CRM integrations. The price is visible, making the entry cost easier to compare.",
+      "weak": "Parallel and predictive dialing require a separate SalesPro quote. The published Pro price does not buy those modes.",
       "verdict": "Choose Pro when single-line power calling covers the job. For parallel calling, get the SalesPro quote first.",
       "sources": [
         [
@@ -183,7 +183,7 @@
       "verdict": "Put it on the shortlist for parallel calling with a published price. Test call connections and confirm coverage for your calling destinations.",
       "sources": [
         [
-          "Combined dialler prices",
+          "Combined dialer prices",
           "https://www.cloudtalk.io/auto-dialer-pricing/"
         ],
         [
@@ -214,7 +214,7 @@
       "fit": "Sales and inbound calls in one phone system",
       "mode": "Single-line power",
       "price": "Professional: USD $50/licence/month, billed annually. Three-licence minimum.",
-      "good": "Professional includes power dialling alongside a broader business phone system. That can suit teams handling inbound calls as well as outbound follow-up.",
+      "good": "Professional includes power dialing alongside a broader business phone system. That can suit teams handling inbound calls as well as outbound follow-up.",
       "weak": "Additional numbers are $6/month, and international calling can cost extra. AI Assist Pro adds $49/user/month. This is single-line power calling.",
       "verdict": "Choose it when sales also needs an inbound phone system. A team buying parallel outbound calling should skip this plan.",
       "sources": [
@@ -343,15 +343,15 @@
       "a": "Neither publishes a standard dollar price, so a reliable cost comparison needs two itemised quotes. Nooks’ own review lists a two-seat minimum; Orum’s pricing page lists nine. Confirm the current minimum and contract in each offer."
     },
     {
-      "q": "Which Orum alternatives publish parallel dialler prices?",
+      "q": "Which Orum alternatives publish parallel dialer prices?",
       "a": "Trellus lists Parallel at $149.99 per seat/month. CloudTalk lists Essential plus Parallel at $78 per user/month, or $68 with annual billing. Apollo’s Advanced Dialer is $149 per team/month, or $119 per team/month with annual billing, on top of paid seats and usage."
     },
     {
-      "q": "Can a power dialler replace Orum?",
-      "a": "Yes, if one call at a time fits your list and sales process. Power diallers move through the queue without placing several calls for one rep at once. Compare the time saved with the quality of conversations and follow-up."
+      "q": "Can a power dialer replace Orum?",
+      "a": "Yes, if one call at a time fits your list and sales process. Power dialers move through the queue without placing several calls for one rep at once. Compare the time saved with the quality of conversations and follow-up."
     },
     {
-      "q": "Does a parallel dialler guarantee more meetings?",
+      "q": "Does a parallel dialer guarantee more meetings?",
       "a": "No. It can reduce time spent waiting for answers, but the list, offer, conversation and follow-up still determine the result. Compare qualified conversations, callbacks and held meetings during the trial."
     },
     {
