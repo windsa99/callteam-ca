@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-pageStyles: ["/assets/css/chrome-extension.css", "/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css", "/assets/css/process-video-preview.css"]
+pageStyles: ["/assets/css/chrome-extension.css", "/assets/css/contextual-tools.css", "/assets/css/home-campaign-proof.css", "/assets/css/client-campaign-proof.css", "/assets/css/process-video-preview.css", "/assets/css/home-simple-process.css"]
 hasInlineContact: true
 title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
@@ -118,7 +118,7 @@ faqSchema: |
           {
             "@type": "Question",
             "name": "How is CallTeam pricing determined?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on the campaign scope, list and research work, calling and follow-up needs, reporting, systems, market complexity, and level of management required. A strategy call is used to understand the work before a recommendation is made." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Programs start at US$4,000 per month. Final pricing depends on campaign scope, prospect research, calling, follow-up and reporting needs. See our pricing and what’s included." }
           },
           {
             "@type": "Question",
@@ -296,51 +296,43 @@ awardPlacements: true
     </div>
   </section>
 
-  <section id="qualified-conversation-engine" class="home-engine-section">
+  <section id="qualified-conversation-engine" class="home-engine-section home-simple-process" aria-labelledby="home-process-title">
     <div class="container-wide">
-      <div class="section-label">The CallTeam Qualified Conversation Engine</div>
-      <h2>A managed system for turning lead data into real sales conversations.</h2>
-      <p class="home-section-intro">The work is not a straight line from “list” to “meeting.” Every call produces information. Good campaigns use that information to improve the next call, the next message, and the next account priority.</p>
-
-      <div class="home-control-panel" role="img" aria-label="The CallTeam Qualified Conversation Engine moves offer, ideal customer profile, lead data, and buying signals through targeting, human calling, follow-up, qualification, and booked conversations. Market feedback improves the next campaign cycle.">
-        <div class="home-panel-head">
-          <div><span class="home-live-dot"></span> Qualified Conversation Engine</div>
-          <strong>Human calling + AI-assisted intelligence</strong>
-        </div>
-        <div class="home-panel-inputs">
-          <span>Offer</span><span>Ideal buyer</span><span>Your leads</span><span>New prospect data</span><span>Buying signals</span>
-        </div>
-        <div class="home-panel-flow">
-          <div class="home-panel-block">
-            <small>01 · Target</small>
-            <strong>Build and prepare</strong>
-            <p>Account fit, decision-makers, verified data, priorities, and call reasons.</p>
+      <div class="section-label">How CallTeam works</div>
+      <h2 id="home-process-title">How our B2B appointment setting works</h2>
+      <ol class="home-process-steps" role="list">
+        <li>
+          <span class="home-process-number" aria-hidden="true">01</span>
+          <div>
+            <h3>Find the right buyers</h3>
+            <p>We build your prospect list or work with the leads you already have.</p>
           </div>
-          <div class="home-panel-arrow">→</div>
-          <div class="home-panel-block execution">
-            <small>02 · Execute</small>
-            <strong>Call and follow up</strong>
-            <p>Human-led conversations, clear talk tracks, steady follow-up, and useful notes.</p>
+        </li>
+        <li>
+          <span class="home-process-number" aria-hidden="true">02</span>
+          <div>
+            <h3>Call and follow up</h3>
+            <p>We speak with decision-makers, handle questions and follow up.</p>
           </div>
-          <div class="home-panel-arrow">→</div>
-          <div class="home-panel-block qualification">
-            <small>03 · Qualify</small>
-            <strong>Protect the calendar</strong>
-            <div class="home-mini-gates"><span>Fit</span><span>Role</span><span>Need</span><span>Timing</span><span>Next step</span></div>
+        </li>
+        <li>
+          <span class="home-process-number" aria-hidden="true">03</span>
+          <div>
+            <h3>Qualify the opportunity</h3>
+            <p>We check fit, need and timing before booking a meeting.</p>
           </div>
-          <div class="home-panel-arrow">→</div>
-          <div class="home-panel-block outcome">
-            <small>04 · Hand off</small>
-            <strong>Qualified conversation</strong>
-            <p>Meeting, context, call notes, needs, objections, and the agreed next step.</p>
+        </li>
+        <li>
+          <span class="home-process-number" aria-hidden="true">04</span>
+          <div>
+            <h3>Hand over the details</h3>
+            <p>Your team gets the meeting, call notes and agreed next step.</p>
           </div>
-        </div>
-        <div class="home-panel-intelligence">
-          <div><small>Market response</small><strong>Objections · Referrals · Timing · Language · Competitors</strong></div>
-          <div><small>Campaign improvement</small><strong>Refine the list · Message · Priority · Qualification</strong></div>
-        </div>
-        <div class="home-panel-feedback"><span>↻</span> Every real conversation becomes evidence for the next campaign decision.</div>
-        <div class="home-panel-rail"><span>AI-assisted research</span><span>Human-led calling</span><span>Structured follow-up</span><span>Transparent qualification</span></div>
+        </li>
+      </ol>
+      <div class="home-process-bottom">
+        <p>We use what prospects tell us to improve targeting and future calls.</p>
+        <a href="/b2b-cold-calling-campaign-process/">See your first 60 days with CallTeam <span aria-hidden="true">→</span></a>
       </div>
     </div>
   </section>
@@ -657,7 +649,7 @@ awardPlacements: true
         <details><summary>What reporting do we receive?</summary><p>Reporting is matched to the engagement and can include activity, connection outcomes, call dispositions, objections, referrals, qualification notes, follow-up status, meetings booked, and market feedback. The goal is to show what happened and what the campaign is learning.</p></details>
         <details><summary>How much calling volume is included?</summary><p>Calling volume depends on list size, research needs, contact quality, follow-up depth, market, talk-track complexity, and campaign goals. CallTeam scopes the right operating level after reviewing the work instead of forcing every client into one activity package.</p></details>
         <details><summary>How long does campaign setup take?</summary><p>Setup time depends on how clear the offer, target market, list, data, talk track, CRM process, and qualification rules already are. A focused campaign with approved inputs can move faster than a campaign that needs targeting and list building from the ground up.</p></details>
-        <details><summary>How is CallTeam pricing determined?</summary><p>Pricing depends on the campaign scope, list and research work, calling and follow-up needs, reporting, systems, market complexity, and level of management required. A strategy call is used to understand the work before a recommendation is made.</p></details>
+        <details><summary>How is CallTeam pricing determined?</summary><p>Programs start at US$4,000 per month. Final pricing depends on campaign scope, prospect research, calling, follow-up and reporting needs. <a href="/pricing/">See our pricing and what’s included.</a></p></details>
         <details><summary>Is CallTeam an outsourced SDR service or a call centre?</summary><p>CallTeam can provide the front-end work many companies expect from an outsourced SDR service, including prospecting, calling, follow-up, qualification, and appointment setting. It is not positioned as a generic high-volume call centre. The work is built around the client's offer, market, qualification standard, and sales handoff.</p></details>
         <details><summary>How does AI support the outbound calling process?</summary><p>AI can support account research, list enrichment, lead prioritization, call preparation, message comparison, note organization, and campaign learning. Experienced people make the calls, listen, respond, qualify, and use judgment in the live conversation.</p></details>
         <details><summary>Does CallTeam guarantee appointments?</summary><p>No honest provider can control every buyer, list, market, offer, timing issue, or competitive condition. CallTeam builds and runs the agreed process, measures the work, shares what the market is saying, and improves the campaign using real evidence. Specific commercial commitments belong in the engagement agreement.</p></details>
