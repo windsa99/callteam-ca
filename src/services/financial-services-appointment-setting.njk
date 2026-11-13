@@ -1,0 +1,171 @@
+---
+layout: layouts/base.njk
+permalink: "/services/financial-services-appointment-setting/"
+title: "B2B Financial Services Appointment Setting | CallTeam"
+seoTitle: "B2B Financial Services Appointment Setting | CallTeam"
+description: "Hire CallTeam for B2B financial services appointment setting. Human calling and qualified meetings for financial research, outsourced finance and advisory firms."
+canonicalUrl: "https://www.callteam.ca/services/financial-services-appointment-setting/"
+contentLanguage: "en-CA"
+modified: "2026-11-13"
+pageStyles:
+  - "/assets/css/commercial-services.css"
+  - "/assets/css/process-video-preview.css"
+  - "/assets/css/outbound-buyer-pages.css"
+---
+{% set service = financialAppointmentSetting %}
+{% include "commercial/market-schema.njk" %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+<main class="mp-page buyer-finance" id="financial-services">
+  <div class="mp-hero-shell">
+    <div class="mp-wrap">
+      <nav class="mp-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <a href="/services/">Services</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Financial services appointment setting</span>
+      </nav>
+      <div class="mp-hero">
+        <div>
+          <p class="mp-kicker">Managed outbound for specialist finance firms</p>
+          <h1>B2B financial services <span>appointment setting</span></h1>
+          <p class="mp-lead">We call the people who buy financial research, outsourced finance and specialist advisory work. Your sales team gets qualified appointments and the notes it needs to start the conversation.</p>
+          <div class="mp-actions">
+            <a class="mp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="finance-hero">Plan My Financial Services Campaign</a>
+            <a class="mp-text-link" href="#qualification">See what qualifies a meeting <span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="mp-small">For firms selling to businesses in Canada and the US.</p>
+        </div>
+        <aside class="mp-pipeline buyer-finance-proof" aria-labelledby="finance-hero-proof">
+          <p class="mp-kicker">From a CallTeam campaign</p>
+          <h2 id="finance-hero-proof"><strong>18</strong> booked meetings in the first 90 days</h2>
+          <p>We reached finance buyers for an outsourced analyst and financial research provider.</p>
+          <a href="/case-studies/financial-services-appointment-setting/">Read the financial services case study <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <nav class="mp-jump" aria-label="On this page">
+    <div class="mp-wrap">
+      <a href="#buyers">Who we call</a><a href="#qualification">What qualifies</a><a href="#delivery">What we handle</a><a href="#proof">Campaign proof</a><a href="#pricing">Pricing</a><a href="#questions">FAQs</a>
+    </div>
+  </nav>
+
+  <section class="mp-section buyer-first-section" id="buyers">
+    <div class="mp-wrap">
+      <div class="mp-heading">
+        <h2>Who we call for your firm</h2>
+        <p>We build the list around the service you sell and the person responsible for that work.</p>
+      </div>
+      <div class="mp-scope-grid">
+        {% for route in service.routes %}
+        <article>
+          <h3>{{ route.offer }}</h3>
+          <p>{{ route.buyer }}</p>
+          <p class="mp-output"><strong>Sample opening question</strong> {{ route.question }}</p>
+        </article>
+        {% endfor %}
+      </div>
+      <p class="mp-caption">Selling payments, lending or other financial technology? See our <a href="/services/fintech-lead-generation/">fintech lead generation service</a>.</p>
+    </div>
+  </section>
+
+  <section class="mp-section mp-paper" id="qualification">
+    <div class="mp-wrap mp-split">
+      <div>
+        <p class="mp-kicker">Before a meeting goes on your calendar</p>
+        <h2>What qualifies a meeting</h2>
+        <p>We agree on these four checks with you before calling.</p>
+        <ul class="mp-checks">
+          <li><strong>Account fit.</strong> Your firm can serve the business and the work it needs.</li>
+          <li><strong>Buyer relevance.</strong> The person owns the work or can bring in the right decision-maker.</li>
+          <li><strong>Business reason.</strong> The buyer confirms a workload, upcoming project or issue your team can discuss.</li>
+          <li><strong>Agreed next step.</strong> The buyer understands the purpose, who should join and what happens next.</li>
+        </ul>
+        <p>If timing is wrong, we record the next follow-up. If there’s no fit, we record the reason and move on.</p>
+        <a class="mp-text-link" href="/b2b-meeting-quality-check/">Use the Free Meeting Quality Check <span aria-hidden="true">→</span></a>
+      </div>
+      <aside class="mp-note">
+        <p class="mp-label">Illustrative CRM handoff</p>
+        <h3>Analyst capacity for an advisory firm</h3>
+        <dl>
+          <div><dt>Contact</dt><dd>Vice president who assigns analyst work at a mid-market advisory firm.</dd></div>
+          <div><dt>Reason</dt><dd>Two live mandates are stretching the team’s modelling and comparable-company work.</dd></div>
+          <div><dt>Meeting</dt><dd>Review the type of work an outside analyst could take on and the turnaround the team needs.</dd></div>
+          <div><dt>Still open</dt><dd>Who approves outside support, the work they can share and the budget for it.</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="mp-section" id="delivery">
+    <div class="mp-wrap">
+      <div class="mp-heading">
+        <h2>What CallTeam handles for you</h2>
+        <p>Hire CallTeam when your senior staff need to stay focused on clients and sales conversations.</p>
+      </div>
+      <div class="mp-fit-grid">
+        <div>
+          <h3>What we do each week</h3>
+          <ul class="mp-checks">
+            <li>Agree on account criteria and exclude clients, active deals and contacts you want left alone.</li>
+            <li>Use your approved message and contact rules. Send technical questions to your specialists.</li>
+            <li>Call, follow up, confirm meetings and pass notes to the right seller.</li>
+            <li>Review bookings, attendance and sales feedback with your team.</li>
+          </ul>
+        </div>
+        <aside class="mp-fit-note">
+          <h3>When the buyer already has an analyst team</h3>
+          <p><strong>Buyer:</strong> “We have our own analyst team.”</p>
+          <p><strong>Caller:</strong> “When a deal team needs a model by tomorrow, who decides what can wait?”</p>
+          <p>Bring your own opening to the <a href="/cold-call-script-checker/">free Cold Call Script Checker</a> or <a href="/videos/cold-call-opener-example/">hear a CallTeam opener</a>.</p>
+        </aside>
+      </div>
+      <p class="mp-caption">Your specialists run the sales meeting, answer detailed questions and own proposals. See how we agree on <a href="/articles/appointment-setting-crm-integration/">CRM ownership and handoff</a>.</p>
+    </div>
+  </section>
+
+  <section class="mp-section mp-proof" id="proof">
+    <div class="mp-wrap mp-split">
+      <div>
+        <p class="mp-kicker">Published CallTeam campaign</p>
+        <h2>How we booked meetings for an analyst support firm</h2>
+        <p>The client sold financial research and outsourced analyst support. We called investment banking and advisory teams about concrete work, including modelling, comparable-company analysis and pitch materials.</p>
+        <p>We asked how buyers covered peaks in deal work. That gave them a concrete reason to discuss when they might bring in outside analysts.</p>
+        <a class="mp-text-link" href="/case-studies/financial-services-appointment-setting/">Read the campaign case study <span aria-hidden="true">→</span></a>
+      </div>
+      {{ processVideoPreview("See how CallTeam runs a campaign", "See how we choose accounts, start calls and pass qualified meetings to sales.", "financial-services-appointment-setting") }}
+    </div>
+  </section>
+
+  <section class="mp-section" id="pricing">
+    <div class="mp-wrap mp-split">
+      <div>
+        <p class="mp-kicker">CallTeam pricing</p>
+        <h2>Financial services appointment setting pricing</h2>
+        <p class="mp-price">From US$4,000 <span>per month</span></p>
+        <p>The starting program assumes an established offer, a defined market, usable account or contact data and sellers who can take meetings.</p>
+        <p>New research, licensed data and added markets or calling capacity affect the quote. Most programs begin with an initial three-month engagement.</p>
+        <a class="mp-text-link" href="/pricing/">See starting scope and pricing <span aria-hidden="true">→</span></a>
+      </div>
+      <aside class="mp-tool">
+        <h3>Plan your first campaign</h3>
+        <p>Bring your offer and target buyer. Get a starting call angle and questions to qualify the first conversation.</p>
+        <a class="mp-button" href="/b2b-outbound-campaign-planner/">See How We’d Run Your Campaign <span aria-hidden="true">→</span></a>
+      </aside>
+    </div>
+  </section>
+
+  {% set faqHeading = "Financial services appointment setting FAQs" %}
+  {% set faqIntro = "What to expect before you hire CallTeam." %}
+  {% include "commercial/faq.njk" %}
+
+  <section class="mp-final" aria-labelledby="finance-booking-title">
+    <div class="mp-wrap">
+      <h2 id="finance-booking-title">Talk through your financial services campaign</h2>
+      <p>Bring the work you sell and one example of a client you’d like to win. We’ll discuss who to call, what to ask and what makes a meeting worth your time.</p>
+      <a class="mp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="finance-final">Book a Free 30-Minute Strategy Call</a>
+      <a class="mp-final-text" href="/services/b2b-appointment-setting/">See CallTeam’s broader appointment setting service <span aria-hidden="true">→</span></a>
+      <p class="mp-small buyer-final-proof">Get to know <a href="/about/">the team behind the calls</a> and see <a href="/awards/">our awards for outbound calling and appointment setting</a>.</p>
+    </div>
+  </section>
+</main>

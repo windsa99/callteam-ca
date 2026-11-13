@@ -1,0 +1,151 @@
+.buyer-comparison .lp-hero {
+  align-items: start;
+  padding-top: 34px;
+  padding-bottom: 20px;
+}
+
+.buyer-comparison .lp-method {
+  margin-top: 14px;
+  padding-bottom: 20px;
+}
+
+.buyer-comparison .lp-kicker {
+  color: var(--lp-ink);
+}
+
+.buyer-comparison .lp-button {
+  color: var(--lp-ink) !important;
+}
+
+.buyer-comparison .lp-button:hover {
+  background: var(--orange);
+  border-color: var(--lp-ink);
+}
+
+.buyer-comparison .lp-brief h2 {
+  color: white;
+}
+
+.buyer-quick-verdict {
+  margin: 15px 0 0;
+}
+
+.buyer-quick-verdict > div {
+  padding: 11px 0 0;
+  margin-top: 11px;
+  border-top: 1px solid #444;
+}
+
+.buyer-quick-verdict dt {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.buyer-quick-verdict dd {
+  margin: 3px 0 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #d1d1cc;
+}
+
+.buyer-comparison .buyer-first-section,
+.buyer-finance .buyer-first-section {
+  padding-top: 44px;
+}
+
+.buyer-comparison .buyer-with-video {
+  align-items: start;
+}
+
+.buyer-checks {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.buyer-checks li {
+  padding-left: 5px;
+  margin-bottom: 13px;
+}
+
+.buyer-checks li::marker {
+  color: var(--orange);
+}
+
+.buyer-comparison .buyer-proof-pair {
+  margin-top: 30px;
+}
+
+.buyer-comparison .buyer-proof-pair h3 {
+  margin-bottom: 12px;
+}
+
+.buyer-source-list {
+  padding-left: 20px;
+}
+
+.buyer-source-list li {
+  margin-bottom: 9px;
+}
+
+.buyer-comparison .gr-resources {
+  margin: 0;
+  padding-top: 0;
+  border: 0;
+}
+
+.buyer-finance .mp-hero {
+  align-items: center;
+}
+
+.buyer-finance .buyer-finance-proof {
+  border-top: 4px solid var(--orange);
+}
+
+.buyer-finance .buyer-finance-proof .mp-kicker {
+  margin-bottom: 13px;
+}
+
+.buyer-finance .buyer-finance-proof h2 {
+  margin: 0 0 18px;
+  max-width: 315px;
+}
+
+.buyer-finance .buyer-finance-proof strong {
+  display: block;
+  color: var(--orange);
+  font-size: 2.35em;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.buyer-finance .buyer-finance-proof p:not(.mp-kicker),
+.buyer-finance .buyer-finance-proof a {
+  font-size: 14px;
+}
+
+.buyer-finance .mp-proof h2 {
+  margin-bottom: 20px;
+}
+
+.buyer-finance .mp-proof .ct-process-preview {
+  color: var(--mp-ink);
+}
+
+.buyer-finance .buyer-final-proof {
+  margin: 20px auto 0;
+}
+
+@media (max-width: 760px) {
+  .buyer-comparison .lp-hero {
+    padding-top: 26px;
+  }
+
+  .buyer-finance .mp-hero {
+    padding-bottom: 30px;
+  }
+
+  .buyer-comparison .buyer-first-section,
+  .buyer-finance .buyer-first-section {
+    padding-top: 33px;
+  }
+}

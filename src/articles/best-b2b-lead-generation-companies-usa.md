@@ -190,6 +190,8 @@ Televerde's pipeline service includes SDR work and nurturing to move marketing i
 
 For a mixed inbound and outbound program, request the routing rules, response responsibilities and qualification evidence. Those details help determine whether a broader service model solves the gap your team has today.
 
+If those are your final two options, [compare Televerde and memoryBlue on SDR delivery, quote terms and sales handoff](/compare/televerde-vs-memoryblue/).
+
 ## Define the US campaign before requesting quotes
 
 Specify the states or regions, company criteria, buyer roles, sales cycle and time zones. Explain whether the brief concerns US prospects, US-located callers or both, because those are different requirements.

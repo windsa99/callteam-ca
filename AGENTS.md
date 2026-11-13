@@ -51,6 +51,8 @@ For policy changes, run `node scripts/test-article-editorial-profiles.js`, `npm 
 
 Standalone service and landing pages keep contextual placements chosen for their own purpose; they are not automatically modified by the Article Engine rule.
 
+For future articles and landing pages, use the existing 78-second CallTeam process video where it shows something the reader is deciding about, such as account selection, qualification or the sales handoff. Place it beside that explanation or a relevant case study. Use the shared process video preview component and verify its link and video playback before publishing.
+
 ## Comparison guide voice and disclosures
 
 User preference confirmed 8 November 2026:
