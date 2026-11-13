@@ -15,18 +15,18 @@ module.exports = {
     ]
   },
   canada: {
-    name: 'B2B Lead Generation Company in Canada',
+    name: 'B2B Lead Generation Services in Canada',
     serviceType: 'Managed B2B lead generation for Canadian and Canada-to-US campaigns',
-    summary: 'Calgary-based CallTeam helps B2B companies reach buyers in Canada and the United States through scoped account research, human calling, follow-up, meeting qualification and CRM handoff.',
+    summary: 'Calgary-based CallTeam researches accounts, calls buyers, follows up and books qualified B2B meetings across Canada and the United States.',
     countries: ['Canada', 'United States'],
     faq: [
-      {q: 'Is CallTeam a Canadian B2B lead generation company?', a: 'CallTeam is based in Calgary and supports Canadian, US and selected global B2B markets. A Canadian base does not mean every campaign participant is located in Canada. Confirm the assigned team, working hours and any caller-location requirements in your proposal.'},
-      {q: 'Which Canadian markets can a campaign target?', a: 'We agree the provinces, industries, company sizes and buyer roles before building the account group. Calling coverage and callbacks are planned around the local time of the buyers and the availability of your sales team. A focused territory can be more useful than an undifferentiated national list.'},
-      {q: 'Can CallTeam help a Canadian company sell into the US?', a: 'Yes. Scope a separate US account group, buyer profile, messaging, contact requirements and reporting view. This page covers coordination alongside a Canadian campaign. Our US market entry service goes deeper into testing an unfamiliar American segment.'},
-      {q: 'Do you provide French-language lead generation?', a: 'This page describes English-language campaigns. If French is essential, confirm availability for calls, written follow-up, qualification and the receiving sales meeting before agreeing the scope. French delivery is not assumed or promised here.'},
-      {q: 'Are your Canadian campaign prices in CAD or USD?', a: 'The published starting fee is US$4,000 per month for a campaign-ready managed programme. It is quoted in US dollars. Currency, applicable taxes, payment terms, data requirements and any added resources are confirmed in the written proposal. Most programmes begin with an initial three-month engagement.'},
-      {q: 'Can you use our Canadian prospect list?', a: 'We can assess your accounts and contacts against the agreed market, required fields, prior relationships and suppression records. Fresh research, validation and licensed data can be scoped if the list needs more work. Agree data access, permitted use, exports and ownership terms before launch.'},
-      {q: 'How will we know whether the leads are useful?', a: 'Define company fit, buyer role, business relevance and meeting purpose before outreach. Keep bookings, attendance, sales acceptance and opportunities separate. The CRM handoff should show what is known, what needs discovery and who owns the next action.'}
+      {q: 'Is CallTeam a Canadian B2B lead generation company?', a: 'Yes. CallTeam is based in Calgary. Your proposal names the hours and delivery arrangements for your campaign, including any caller location requirements.'},
+      {q: 'Which Canadian markets can a campaign target?', a: 'We can scope one province, several provinces or a national campaign. Tell us where you can deliver and which industries and roles your team wants to reach.'},
+      {q: 'Can CallTeam help a Canadian company sell into the US?', a: 'Yes. We can run US outreach alongside a Canadian campaign. Your sales team can see which territory each conversation or appointment came from.'},
+      {q: 'Do you provide French-language lead generation?', a: 'We offer English-language outreach. If you need French, ask us to confirm the assigned caller and the language of the follow-ups and meeting notes in your proposal.'},
+      {q: 'Are your Canadian campaign prices in CAD or USD?', a: 'The published starting price is US$4,000 per month. The written proposal confirms billing currency and any additional costs for your campaign.'},
+      {q: 'Can you use our Canadian prospect list?', a: 'Yes. We review account fit, contact fields, duplicates and exclusions before calling. If data is missing or out of date, we can quote additional research.'},
+      {q: 'How will we know whether the leads are useful?', a: 'Agree on what a useful meeting looks like before we dial. Review bookings, attendance and sales acceptance separately so you can see which conversations were worth your sellers’ time.'}
     ]
   }
 };
