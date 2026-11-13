@@ -122,7 +122,7 @@ ogType: article
       <h1>{{ title }}</h1>
       <p class="article-deck">{{ description }}</p>
       <div class="article-byline">
-        {% if articleAuthor %}<span>Written by <a href="{{ articleAuthor.url }}" rel="author">{{ articleAuthor.name }}</a></span><span>Published by <a href="/">CallTeam</a></span>{% else %}<span>Published by <a href="/">CallTeam</a></span>{% endif %}
+        {% if articleAuthor and showAuthorByline != false %}<span>Written by <a href="{{ articleAuthor.url }}" rel="author">{{ articleAuthor.name }}</a></span>{% endif %}<span>Published by <a href="/">CallTeam</a></span>
         {% if reviewedBy %}<span>Reviewed by {{ reviewedBy }}</span>{% endif %}
         <span>Published <time datetime="{{ date }}">{{ date | readableDate }}</time></span>
         <span>Updated <time datetime="{{ modified or date }}">{{ (modified or date) | readableDate }}</time></span>

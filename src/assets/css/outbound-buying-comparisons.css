@@ -1,0 +1,73 @@
+.outbound-buying-comparison .canada-provider-grid a {
+  color: #242424;
+}
+
+.outbound-buying-comparison .canada-provider-grid a:hover {
+  color: var(--orange);
+}
+
+.outbound-buying-video {
+  max-width: 540px;
+  margin: 24px 0 30px;
+}
+
+.article-content .outbound-buying-video .ct-process-preview {
+  color: #151515;
+  text-decoration: none;
+}
+
+.article-content .saas-agency-questions {
+  margin-block: 10px 0;
+}
+
+.article-content .saas-agency-questions > li + li {
+  margin-block-start: 12px;
+}
+
+.article-content .saas-agency-questions + h3 {
+  margin-block: 24px 10px;
+}
+
+.outbound-buying-quote {
+  padding: 12px 0 28px;
+}
+
+.outbound-buying-quote .canada-provider-grid {
+  overflow-x: auto;
+}
+
+.outbound-buying-quote .saas-quote-table {
+  min-width: 0;
+}
+
+.outbound-buying-quote h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 560px) {
+  .outbound-buying-quote .canada-provider-grid thead {
+    position: static;
+    width: auto;
+    height: auto;
+    clip-path: none;
+  }
+
+  .outbound-buying-quote .canada-provider-grid tbody {
+    display: table-row-group;
+  }
+
+  .outbound-buying-quote .canada-provider-grid tbody tr {
+    display: table-row;
+  }
+
+  .outbound-buying-quote .canada-provider-grid tbody th,
+  .outbound-buying-quote .canada-provider-grid td {
+    display: table-cell;
+    padding: 7px;
+    font-size: 12px;
+  }
+
+  .outbound-buying-quote .canada-provider-grid td::before {
+    content: none;
+  }
+}

@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const assert = require("assert");
+const matter = require("gray-matter");
 
 const root = path.resolve(__dirname, "..");
 const authors = require(path.join(root, "src/_data/authors.json"));
@@ -25,13 +26,16 @@ for (const filename of articles) {
   const html = fs.readFileSync(path.join(root, "_site", permalink, "index.html"), "utf8");
   const byline = html.match(/<div class="article-byline">([\s\S]*?)<\/div>/)?.[1];
   assert(byline, `${filename}: missing byline`);
-  assert.strictEqual((byline.match(/Written by /g) || []).length, 1, `${filename}: duplicate or absent author`);
-  assert(byline.includes(`Written by <a href="${author.url}" rel="author">${author.name}</a>`), `${filename}: incorrect linked author`);
+  const showAuthorByline = matter(source).data.showAuthorByline !== false;
+  const authorLink = `Written by <a href="${author.url}" rel="author">${author.name}</a>`;
+  assert.strictEqual((byline.match(/Written by /g) || []).length, showAuthorByline ? 1 : 0,
+    `${filename}: unexpected visible author count`);
+  assert.strictEqual(byline.includes(authorLink), showAuthorByline, `${filename}: incorrect linked author`);
   assert(byline.includes('Published by <a href="/">CallTeam</a>'), `${filename}: publisher missing`);
   const article = nodes(html).find((node) => node["@type"] === "BlogPosting");
   assert.deepStrictEqual(article.author, {
     "@type": "Person", "@id": author.id, name: author.name, url: site.url + author.url
-  }, `${filename}: visible author and schema must agree`);
+  }, `${filename}: registered author and schema must agree`);
   assert.strictEqual(article.publisher["@id"], site.organizationId, `${filename}: publisher changed`);
   assert(html.includes('name="_gotcha"') && html.includes('action="https://formspree.io/f/xbdvejea"'), `${filename}: shared form guard missing`);
 }
