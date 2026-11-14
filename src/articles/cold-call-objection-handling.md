@@ -317,6 +317,8 @@ The prospect's willingness to explain is evidence. That willingness does not pro
 
 ## Know when to stop
 
+If the person asks where you got their number, start with [these four contact-source replies](/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call/#four-cold-call-responses).
+
 A clear request not to call again is not an objection-handling exercise. Record it immediately and follow the applicable suppression process.
 
 Stop when the buyer confirms there is no relevant use case, the company fails the campaign criteria, the person does not want to continue, or the caller lacks the expertise to answer a material concern safely. A qualified technical follow-up is safer than improvising around security, regulation, pricing, or contract terms.

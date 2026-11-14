@@ -1,0 +1,17 @@
+﻿Field,Quote A,Quote B,What to enter
+Supplier,,,Name of the company sending the quote
+Currency,,,Use the same currency for the two totals
+Comparison period,,,Use the same dates or campaign length
+Setup fee,,,Cost to launch in the first term
+Agency fee,,,Monthly fees and billable meeting fees for the period
+Data and tools,,,Required costs billed separately
+Internal time,,,Cost of sales prep and campaign management omitted from the quote
+Total cost,,,"Sum setup, agency fee, data and tools, and internal time for the period"
+Billing trigger,,,"Booked, held or accepted, using the supplier definition"
+No-shows and rejections,,,"Credit, replacement, deadline and who follows up"
+Booked meetings,,,Appointments booked from the same group
+Held meetings,,,Meetings in that group attended by the intended buyer
+Sales-accepted meetings,,,Held meetings in that group signed off by sales
+Cost per booked meeting,,,Total cost divided by booked meetings. Leave blank if zero booked.
+Cost per held meeting,,,Total cost divided by held meetings. Leave blank if zero held.
+Cost per sales-accepted meeting,,,Total cost divided by sales-accepted meetings. Leave blank if zero accepted.

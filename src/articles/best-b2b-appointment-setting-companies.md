@@ -196,7 +196,7 @@ These anonymized examples provide a method and timeframe to inspect. Choose the 
 
 A meeting commitment needs a precise remedy. Continuing work, replacing a representative, replacing an appointment and refunding a fee each protect something different. Read the relevant conditions with the qualification standard instead of treating every advertised guarantee as equivalent.
 
-For a simple cost illustration, a $6,000 program producing ten held meetings costs $600 per held meeting. If only six meet your agreed sales standard, the same fee represents $1,000 per held qualified meeting. Those are arithmetic examples, not provider benchmarks or forecasts.
+If the quotes charge for different outcomes, use the [retainer vs. pay-per-meeting cost example](/articles/b2b-appointment-setting-cost/#appointment-setting-cost-example) to compare what you pay per booked, held and sales-accepted meeting.
 
 Include your sellers' preparation, follow-up and management time when judging the overall investment. The [Proposal Comparison tool](/lead-generation-proposal-comparison/) can organize quoted scope and fees, while the [ROI calculator](/b2b-lead-generation-roi-calculator/) lets you use your own customer and conversion assumptions.
 

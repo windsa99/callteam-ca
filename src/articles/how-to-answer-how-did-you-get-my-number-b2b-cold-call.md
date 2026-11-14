@@ -1,12 +1,16 @@
 ---
 authorKey: "harjSingh"
+showAuthorByline: false
 layout: layouts/article.njk
 tags: ["articles"]
+pageStyles: ["/assets/css/article-field-resources.css"]
+articleIntroInclude: "components/contact-source-replies.njk"
+pageScripts: ["/assets/js/simple-buying-guide.js"]
 title: "How to Answer ‘How Did You Get My Number?’ on a B2B Cold Call"
 seoTitle: "How to Answer ‘How Did You Get My Number?’ on a Cold Call"
-description: "Answer the how-did-you-get-my-number objection clearly. Explain the contact source, business reason, privacy boundary and opt-out without getting defensive."
+description: "Use four cold call responses when someone asks how you got their number. Learn what to say about the source and what to record when they ask you to stop."
 date: "2026-08-25"
-modified: "2026-08-25"
+modified: "2026-11-14"
 category: "B2B Cold Call Privacy Objections"
 permalink: "/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call/"
 canonicalUrl: "https://www.callteam.ca/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call/"
@@ -17,17 +21,15 @@ libraryIndustry: "Cross-industry B2B"
 libraryBuyers: ["Executives", "Business Owners", "Technology Buyers", "Operations Leaders"]
 libraryProblems: ["Contact-source concern", "Mobile number outreach", "Privacy objection", "Do-not-contact request"]
 topics: ["how did you get my number cold call", "where did you get my number objection", "privacy objection cold call", "how to answer contact source question", "B2B cold call mobile number", "sales call opt out"]
-quickAnswer: "Answer ‘How did you get my number?’ by pausing, naming the source as specifically as you can, explaining why the account and role were selected and offering to stop. Do not joke, dodge the question or race back into the pitch. If the number source cannot be explained, end the call and fix the data process. If the person asks not to be called, record and honor the request."
-cardsHeading: "What the contact-source answer must protect."
+quickAnswer: "Name the source of the number first. If the person is open to hearing more, give one business reason for the call. If they ask you to stop, end the call and record the request before you dial again."
+cardsHeading: "What to do after you answer"
 cards:
-  - title: "The truth"
-    text: "Name the actual source or source category. Never invent a referral, relationship or public listing."
-  - title: "The buyer's control"
-    text: "Let the person decide whether the explanation earns another question, a different channel or an immediate stop."
-  - title: "The client's reputation"
-    text: "A calm correction can protect the account. Evasion can turn one bad record into a public trust problem."
-  - title: "The compliance process"
-    text: "Treat an opt-out as an operational instruction, not a sales objection that needs a clever comeback."
+  - title: "Continue"
+    text: "Give the business reason if the person invites it."
+  - title: "Correct"
+    text: "Update the record when a buyer identifies the wrong number or volunteers a better business contact route."
+  - title: "Stop"
+    text: "End the conversation when asked, and record the restriction where the calling team will see it."
 relatedService:
   title: "SDR Training Services"
   url: "/services/sdr-training/"
@@ -51,26 +53,22 @@ relatedResources:
     linkText: "Build a responsible calling system"
   - title: "How to Get Past a B2B Gatekeeper"
     url: "/articles/how-to-get-past-b2b-gatekeeper-without-sounding-deceptive/"
-    text: "Use honest routing language with receptionists and assistants instead of disguising the commercial purpose."
+    text: "Give receptionists and assistants a clear business reason to route the call."
     label: "Call conduct"
     linkText: "Use the gatekeeper scripts"
 faqs:
   - question: "What should I say when someone asks how I got their number?"
-    answer: "State the real source or source category, explain why you believed the role was relevant and ask whether the person wants you to continue or remove the number. Keep the answer short and exact."
-  - question: "What if the phone number came from a data provider?"
-    answer: "Say that the business contact came from a third-party business data source, then follow the campaign's approved disclosure language. If the person wants more detail or removal, use the documented process."
-  - question: "What if I accidentally called a personal mobile number?"
-    answer: "Apologize, do not continue the pitch and ask whether the person wants the number removed. Record the correction immediately and investigate how the number entered the campaign."
-  - question: "Is ‘How did you get my number?’ always an objection?"
-    answer: "No. The person may be curious, concerned, angry or checking whether the caller is legitimate. Answer the question before deciding whether any business conversation remains."
-  - question: "Should I keep pitching after someone asks not to be called?"
-    answer: "No. A do-not-contact request is not an invitation to overcome another objection. Confirm the request, end politely and make sure the suppression is applied according to the campaign process."
-  - question: "Are B2B cold calling rules the same everywhere?"
-    answer: "No. Rules vary by country, region, call type, number type, technology and campaign purpose. Get qualified legal advice for the markets you call and keep current suppression, identification and recordkeeping procedures."
-  - question: "When should a company outsource B2B calling that uses third-party contact data?"
-    answer: "Outsource when the campaign needs disciplined data review, suppression, caller training and consistent answers across many contacts or markets. The provider should explain where business contact information came from, respect buyer control and document every restriction. Keep the work internal when the data source cannot be identified, market rules have not been reviewed or the company expects callers to hide how a number was obtained. Unclear sourcing is not an objection script problem."
-  - question: "How does CallTeam answer ‘How did you get my number?’ during a campaign?"
-    answer: "CallTeam prepares a source-accurate response before calling and trains human callers to answer directly. The caller identifies the business source category, explains the reason for contact, offers control and listens for whether the buyer wants to continue, redirect or stop. Sales receives only properly qualified conversations and the CRM records the source question, response and restriction. We remove bad data, honor opt-outs and stop when the contact route cannot be defended."
+    answer: "Give the specific source you can verify. If the person is comfortable continuing, explain why you called their company or role in one sentence."
+  - question: "What if a data provider supplied the number?"
+    answer: "Name the provider when you can verify it and your process allows it. If you need to route a request for more detail, explain the next step."
+  - question: "What if I called a personal mobile by mistake?"
+    answer: "Acknowledge the mistake, end the call and correct the contact record. Follow your team’s rules for removing the personal number from the calling list."
+  - question: "What if I do not know the source of the number?"
+    answer: "Say you cannot verify the source. End the call, flag the record and leave it out of the calling queue until it has been reviewed."
+  - question: "What if someone asks me to stop calling?"
+    answer: "Confirm the request and end the conversation. Record the restriction in the field your calling system uses and follow the team’s do-not-contact process."
+  - question: "Are B2B calling rules the same in every country?"
+    answer: "Rules vary by market, calling method and number type. Check the guidance for the markets you call and give reps a local process to follow."
 sources:
   - name: "US Federal Trade Commission: Complying with the Telemarketing Sales Rule"
     url: "https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule"
@@ -87,13 +85,13 @@ readNext:
     url: "/articles/adapt-b2b-cold-call-global-markets/"
   - title: "Outbound Appointment Setting"
     url: "/articles/outbound-appointment-setting/"
-callTeamTakeHeading: "Tell the truth, explain the reason and let the buyer control the next ten seconds."
-callTeamTakeA: "A contact-source question is not the moment for a joke about the internet, a fake referral or an even faster product pitch. The buyer is asking whether the call is legitimate and whether the caller respects the boundary. A specific answer may preserve the conversation. A vague answer confirms the worst version of the story."
-callTeamTakeB: "CallTeam requires an approved source explanation, account reason, suppression process and escalation path before launch. Human callers can pause, hear whether the person is curious or upset and act accordingly. When the data is wrong, we correct it. When the person says stop, the campaign stops contacting that number."
-aboutHeading: "About CallTeam and responsible global B2B cold calling"
-aboutCopyA: "CallTeam is a global B2B lead generation, human cold-calling and appointment-setting company with more than 20 years of sales experience. We support founders, revenue leaders and sales teams across SaaS, cybersecurity, fintech, healthcare, manufacturing, logistics, HR technology, professional services and other markets. Every campaign begins with a defined audience, supported geography, relevant buyer roles, an approved reason for calling and clear contact rules. The goal is not to reach people at any cost. It is to create qualified conversations while protecting the buyer, the client's name and the accuracy of the campaign record."
-aboutCopyB: "CallTeam AI GTM supports account research, data review, buyer mapping, message preparation and campaign analysis. The CallTeam Buyer Signal Radar helps prioritize verified changes such as expansion, hiring, leadership moves, projects, renewals and operating pressure. Human callers remain responsible for the live exchange. They identify themselves, answer contact-source questions, explain why the account was selected, handle resistance and recognize when the conversation must end. Before outreach, the team agrees on source language, mobile-number handling, suppression, escalation and jurisdiction-specific controls with the client and advisers. AI can prepare context; it cannot grant permission or ignore a person's instruction."
-aboutCopyC: "Clients can combine appointment booking, outsourced SDR execution, lead reactivation, US market entry, SDR training and outbound management across North America and global markets. Operations include data provenance, list review, approved calling windows, caller identification, internal do-not-contact handling, CRM notes and quality review. Requirements vary by jurisdiction, number type, technology and purpose, so no article replaces advice for a specific program. CallTeam's standard is straightforward: know why the record is present, say who is calling, give the business reason, answer questions honestly and make removal work. Responsible process does not weaken outbound sales. It removes the avoidable behavior that makes legitimate business conversations harder for everyone."
+callTeamTakeHeading: "Make the source visible to the caller."
+callTeamTakeA: "The rep should be able to see where the current number came from while the record is open. Audit a few old imports and merged records before calling a new list."
+callTeamTakeB: "Check one removal from the original call note through the next import. Fix the process if the number can still return to a live calling queue."
+aboutHeading: "CallTeam cold calling and SDR training"
+aboutCopyA: "CallTeam runs B2B calling campaigns and trains SDR teams. We help callers answer common objections, listen for the buyer’s concern and record the outcome."
+aboutCopyB: "Before launch, we agree on calling rules and contact restrictions with the client. A rep needs a clear route for source questions that require review."
+aboutCopyC: "When a conversation qualifies for sales, we pass along the business reason for meeting and any limits on follow-up agreed during the call."
 aboutLinks:
   - title: "Explore SDR training services"
     url: "/services/sdr-training/"
@@ -101,105 +99,63 @@ aboutLinks:
     url: "/services/outsourced-sdr/"
   - title: "Learn about CallTeam"
     url: "/about/"
-ctaHeading: "Want CallTeam to run the campaign?"
-ctaText: "Book a free B2B strategy call to define the audience, data process, approved contact-source answer, qualification and suppression workflow."
+ctaHeading: "Prepare your team for live objections"
+ctaText: "Book a free B2B strategy call to discuss your list, caller training and the way your team handles contact-source questions."
 ctaUrl: "https://calendly.com/hello-callteam/new-meeting"
 ---
 
-"How did you get my number?" is not a cue to speak faster. It is a direct question about trust, privacy and whether the person wants the conversation to continue.
+Someone who asks where you got their number may want one fact before deciding whether to keep talking. Give them the source first. If they ask who you are, give your name and company before saying anything about the offer.
 
-Answer it before doing anything else. If the source is defensible, say what it is. If the data is wrong, admit it and fix it.
+## Hear what the person is asking
 
-## First, hear the question behind the question
+Listen for the difference between “Where did you find me?” and “Why are you calling my private number?” The first asks where the number came from. The second tells you the person may want calls at that number to stop. Give a short answer and pause.
 
-The buyer may be curious, surprised, worried about a personal mobile number, angry about repeated calls or testing whether the caller is legitimate. Tone and wording matter.
+If they say they have been called several times, acknowledge that directly. Check the contact history after the call and look for duplicate records or more than one campaign using the same number. If different campaigns share the number, check which teams can still call it.
 
-Do not assume every person is inviting an objection response. A firm "Remove this number" is an instruction. A calmer "Where did you find me?" may only need a transparent answer.
+## Name the exact source when you can verify it
 
-Listen for whether the concern is the source, the number type, the frequency or the company's identity. Answer the issue the person raised. A long explanation of data practices does not help somebody who is simply saying, "This is my private line."
+Say “your company directory” if that is where the number was listed. If the number came from a business data provider, use your team’s approved source description. If a colleague gave you the number, check that the record says who provided it before calling it a referral.
 
-## Use a four-part response
+A person may ask for the provider’s name or a way to correct the listing. If the answer is available and approved for sharing, give it. When you need to route the request, use the documented process and say what will happen next. “It’s on the internet” is too vague to help someone find or fix the record.
 
-The response should include the source, selection reason, boundary and choice:
+## End the call when the source is unclear
 
-> We use [specific source or approved source category] for business contact information. I selected you because [role and account reason]. I understand you may not want a call here. Would you like me to explain the business reason in twenty seconds, use another channel or remove the number?
+If the CRM shows a number with no usable source, say, “I can’t verify where this number came from. I’ll flag it for review and end the call here.” Mark the number for review before picking up the next record. Check old imports and merged records before returning it to a calling list.
 
-Do not bury the source beneath a company speech. Answer the question in the first sentence.
+Never claim there was a form fill, a referral or a public listing you cannot verify. Even a number that looks like a work line can be an old or shared contact. Review [how to choose between mobile and company numbers](/resources/how-to-buy-cold-calling-leads/) before you set up the next list.
 
-## Script for a public business number
+## Confirm a request to stop
 
-> I found the number on [company directory, professional profile or other specific public source]. I called because your role appears to own [business issue]. If I have the wrong person or this is not a suitable number, I will correct it.
+If someone says “Take me off your list,” say “Understood. I’ll record your request and stop here.” End the call and apply the agreed do-not-contact process. If another team might still dial the number, make sure the restriction reaches every list or system that uses it under your process.
 
-Only say public when you can identify the public source. "It was somewhere online" sounds like the caller found the number taped under a bus seat.
+A volunteered switchboard or work email can help correct a bad record. Confirm what the person offered and record the limits they gave you. Leave a stop request in the designated restriction field so the next caller can see it before dialing.
 
-## Script for a third-party business data source
+## Continue only when the person is open to it
 
-Follow the client's approved disclosure language and the provider agreement:
+After giving the source, state one business reason and pause. For example, if a prospect looks after fleet operations, you might say, “I called about backup repair capacity when your regular shop is full. Is that something your team handles?” If they say no, take the answer and close politely.
 
-> The contact was provided through a third-party business data source we use for B2B outreach. I selected your account because [verified reason] and your role appeared relevant. If this number should not be used, I can record that now.
+Skip jokes about tracking someone down. They add friction when the buyer is deciding whether the call is legitimate. If you often hear the question right after your opener, review whether you identified yourself clearly and whether the reason for your call sounded specific. Use the [free cold call script checker](/cold-call-script-checker/) to review that opener. For other replies, use the [cold call objection guide](/articles/cold-call-objection-handling/).
 
-If the person requests the provider name, removal process or more detail, do not improvise. Use the documented answer or escalation path.
+## Give callers the facts before they dial
 
-## Script for an accidental personal number
+For each list, agree on its origin, the contact routes the team can use and the words callers can say about the source. Put the description in a field reps can see during the call. If there are several sources, have them practice identifying which one applies to a sample record.
 
-When the person says the number is personal and the campaign did not intend to call it, stop selling:
+Run a short role-play before the first dialing session. Give one rep a public listing, another a business data record and another an unknown source. Then change the buyer’s reaction from curiosity to a request to stop. Score whether the rep answers the actual question, uses verifiable details and follows the right next step.
 
-> I am sorry. We had this recorded as a business contact number. I will mark it for removal and end the call. Thank you for correcting it.
+Review the calling rules for your market, number type and calling method before launch. The FTC, CRTC and ICO links below are starting points for teams calling into the United States, Canada and the United Kingdom. Keep the local instructions in the same place callers find the copyable replies.
 
-Then apply the suppression and investigate the record. An apology followed by a pitch is not an apology.
+## What to record after a contact-source question
 
-## Script when the buyer sounds concerned but stays open
+Write down what the person asked, the source you gave, what they corrected and what you did next. Record a new business route only if it was offered or cleared through the team’s process. Mark removal requests immediately and assign someone to verify the blocked record stays out of future imports.
 
-> Fair question. We identified [Account] because [verified event or fit], and your role appeared connected to [issue]. The contact came from [source]. I can give you the reason for the call briefly, and you can decide whether we continue.
+> Example CRM note: Prospect said this was a personal mobile. Record had been classified as a work number. Ended the call and applied the do-not-call restriction. List owner to review the imported source.
 
-If the buyer agrees, use one plain problem statement and one question. Do not treat permission for twenty seconds as permission for the keynote address.
+Record the buyer’s exact wording when the scope of a restriction is unclear. “Please stop calling this mobile” gives the list owner a specific number to block. “Take me off your list” needs to reach the team responsible for contact restrictions. Use the approved review process when the request covers more than one campaign.
 
-If the buyer declines but does not request removal, follow the approved campaign disposition. Do not use the softer ending as permission to hunt for another mobile number. The route may be a public business channel, a timed follow-up or a clean close.
+For a buyer who chooses to continue, the handoff should include their role, their business reason for meeting and any contact limits they set. Tell sales what channel the buyer agreed to use so they can follow up without restarting the problem.
 
-## Know the three paths after the answer
+## How CallTeam prepares callers for this question
 
-**Continue:** The person accepts the explanation and wants to hear the business reason. Ask one relevant question.
+We review the caller’s wording and CRM outcome together. If the same source concern keeps coming up, we sample the affected records and listen to the introduction. That shows us whether to fix the list or change the opener before the next round of calls.
 
-**Redirect:** The number or contact is wrong, but the person offers a business channel or correct owner. Confirm the correction without pressing for more private information.
-
-**Stop:** The person requests removal, sounds unsafe, identifies a personal number that should not be used or the source cannot be explained. End the call and trigger the process.
-
-The broader [objection handling guide](/articles/cold-call-objection-handling/) explains how to clarify meaning without turning a boundary into a debate.
-
-## Do not use these responses
-
-Avoid "I have my ways," "It is all public," "Marketing gave it to me" and "Before I answer, let me tell you why I called." Each response makes the caller sound evasive.
-
-Never invent a referral or say the buyer submitted a form unless the record proves it. A caller who cannot see the source should not guess which story feels safest.
-
-## Build the answer before the campaign
-
-Every list should have a documented origin, permitted use, relevant market, review process, suppression workflow and approved explanation. Callers need to know which source category applies to the record in front of them.
-
-Rules vary. The FTC explains that most US business-to-business calls are exempt from its Telemarketing Sales Rule, with exceptions, while other federal and state rules may still apply. Canadian B2B calls are exempt from National DNCL rules but remain subject to other Unsolicited Telecommunications Rules. UK live B2B marketing calls have screening, identification and objection requirements described by the ICO.
-
-This guide is operational guidance, not legal advice. Get qualified advice for each jurisdiction, call type, number type and technology used.
-
-## CallTeam field card: contact-source response
-
-Keep this beside the dialer:
-
-1. Pause and acknowledge the question.
-2. Name the real source or approved source category.
-3. Explain the account and role reason.
-4. Offer continue, redirect or remove.
-5. Record the outcome immediately.
-
-If step two is impossible, do not freestyle. Stop and escalate the data issue.
-
-## How CallTeam handles contact-source questions in live outreach
-
-CallTeam verifies the approved data source, market rules, suppression process and exact caller response before a campaign starts. Human callers answer the question plainly, give the buyer control and decide whether the conversation can responsibly continue. If relevance is confirmed, sales receives the business context, source concern and agreed meeting purpose. Wrong numbers are corrected, unsupported records are removed and opt-outs are suppressed. We do not move a questionable contact to another channel to pretend the restriction disappeared.
-
-**CallTeam field observation:** In real calls, the question often becomes sharper when the opening was vague. A direct source answer plus a clear business reason can settle the concern quickly. Dodging it usually turns simple curiosity into distrust.
-
-## Record facts and honor the choice
-
-The CRM note should capture the source category, concern, correction, new business channel if volunteered, opt-out status and action taken. A removal must feed the suppression process, not sit inside free-text notes waiting for the next caller to miss it.
-
-CallTeam builds governed lists, prepares the approved response, makes the human calls and books qualified meetings when buyers choose to continue. **Want CallTeam to run the campaign?** [Book a B2B strategy call](https://calendly.com/hello-callteam/new-meeting) to define the audience, data controls and live conversation path.
+If you coach SDRs, use the [four replies](#four-cold-call-responses) as a short practice drill. Have reps give the source in their first sentence, then practice pausing after the answer. Our [SDR training](/services/sdr-training/) can add call review, role-play and feedback for the team that handles this live.

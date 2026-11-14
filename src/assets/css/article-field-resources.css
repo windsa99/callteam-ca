@@ -1,0 +1,103 @@
+.article-field-resource {
+  padding: 26px 0;
+  scroll-margin-top: 9rem;
+}
+
+.article-field-resource h2 {
+  margin: 0 0 12px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.article-field-resource p {
+  margin: 12px 0;
+}
+
+.article-field-resource p a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-cost-example {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: clamp(13px, 2vw, 16px);
+  font-variant-numeric: tabular-nums;
+}
+
+.article-cost-example caption {
+  padding: 8px 0;
+  text-align: left;
+  font-weight: 700;
+}
+
+.article-cost-example th,
+.article-cost-example td {
+  padding: 10px clamp(6px, 2vw, 16px);
+  border-bottom: 1px solid #dedbd7;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.article-cost-example thead th {
+  background: var(--black);
+  color: var(--white);
+}
+
+.article-cost-example thead th:first-child {
+  width: 46%;
+}
+
+.article-cost-example tbody tr:last-child,
+.contact-source-replies > div {
+  background: #fff3eb;
+}
+
+.article-field-resource h2,
+.contact-source-replies > div,
+.article-page #quote-worksheet {
+  scroll-margin-top: 9rem;
+}
+
+.contact-source-replies {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.contact-source-replies > div {
+  padding: 16px;
+  border-left: 3px solid var(--orange);
+}
+
+.contact-source-replies h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.contact-source-replies blockquote {
+  margin: 0;
+  color: var(--black);
+}
+
+.article-field-resource-status {
+  display: block;
+  margin-top: 8px;
+}
+
+@media (max-width: 620px) {
+  .contact-source-replies {
+    grid-template-columns: 1fr;
+  }
+}
+
+.article-page .article-cost-video {
+  max-width: 540px;
+  margin: 20px 0;
+}
+
+.article-page .article-cost-video .ct-process-preview {
+  color: var(--black);
+  text-decoration: none;
+}
