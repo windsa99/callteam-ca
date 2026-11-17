@@ -1,3 +1,6 @@
+#simple-guide .lpr-brief h2 {
+  font-size: clamp(24px, 2.6vw, 34px);
+}
 .lpr-page .lpr-brief ul {
   display: grid;
   gap: 17px;
@@ -5,6 +8,9 @@
   margin: 22px 0 0;
   font-size: 15px;
   line-height: 1.65;
+}
+.lpr-page .lpr-brief li {
+  display: list-item;
 }
 .lpr-page .lpr-brief li::marker {
   color: #ff9168;
