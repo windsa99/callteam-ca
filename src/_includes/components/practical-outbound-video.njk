@@ -1,0 +1,18 @@
+{% if guide.video %}
+<div class="po-video">
+  <div>
+    <h2>{{ guide.video.title }}</h2>
+    <p>{{ guide.video.copy }}</p>
+  </div>
+  <a class="ct-process-preview" href="{{ guide.video.url }}" data-process-video-placement="{{ guide.slug }}">
+    <span class="ct-process-preview__image">
+      <img src="{{ guide.video.poster }}" alt="" width="{{ guide.video.width }}" height="{{ guide.video.height }}" loading="lazy" decoding="async">
+      <span class="ct-process-preview__play" aria-hidden="true">▶</span>
+    </span>
+    <span class="ct-process-preview__body">
+      <strong>{{ guide.video.label }}</strong>
+      <span class="ct-process-preview__link">Watch the video <span aria-hidden="true">→</span></span>
+    </span>
+  </a>
+</div>
+{% endif %}

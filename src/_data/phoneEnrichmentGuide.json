@@ -1,0 +1,229 @@
+{
+  "slug": "best-waterfall-enrichment-tools",
+  "shortTitle": "Phone Number Enrichment",
+  "checkedIso": "2026-11-16",
+  "checkedDate": "November 16, 2026",
+  "intro": "Already have the right names and companies? Compare five ways to find their phone numbers and see what a usable number actually costs.",
+  "verdict": "Start with the waterfall in the account you already pay for. Compare it with FullEnrich or BetterContact on the same missing numbers. Add Clay when you need to control several sources and run the same workflow regularly.",
+  "comparisonJump": "Compare five tools",
+  "checkJump": "Copy the 50-contact test",
+  "comparisonTitle": "Compare five phone number enrichment tools",
+  "comparisonIntro": "A waterfall checks data sources in order until it finds a number that meets your rules.",
+  "caption": "Published price or billing method for phone enrichment. Prices are monthly before tax.",
+  "headers": [
+    "Tool",
+    "Price or usage",
+    "Best fit",
+    "Check before you buy"
+  ],
+  "rows": [
+    [
+      "<a href='#apollo-waterfall'>Apollo Waterfall Enrichment</a>",
+      "Included and extra credits depend on your plan and sources",
+      "Run the test from your existing Apollo list",
+      "Apollo-integrated sources and your own API connections have different billing"
+    ],
+    [
+      "<a href='#fullenrich'>FullEnrich</a>",
+      "US$29 for 500 credits or US$55 for 1,000",
+      "A managed waterfall with clear mobile allowances",
+      "10 credits per returned mobile. Work emails share the allowance"
+    ],
+    [
+      "<a href='#bettercontact'>BetterContact</a>",
+      "$15 for 200 credits or $49 for 1,000",
+      "A small batch and a vendor-defined likelihood score",
+      "10 credits per mobile. Count right-person outcomes yourself"
+    ],
+    [
+      "<a href='#findymail'>Findymail</a>",
+      "$99 Individual prospecting plan",
+      "A team that needs both work emails and mobile lookups",
+      "Phone finder is listed as non-EU. Check rolling usage limits"
+    ],
+    [
+      "<a href='#clay'>Clay</a>",
+      "Launch starts at US$185 on monthly billing",
+      "Choose the sources and order, then run the same process again",
+      "The workflow uses Actions. Purchased data can use Data Credits"
+    ]
+  ],
+  "names": [
+    "Waterfall enrichment",
+    "Apollo",
+    "FullEnrich",
+    "BetterContact",
+    "Findymail",
+    "Clay"
+  ],
+  "video": {
+    "position": "early",
+    "title": "Choose the prospect before you buy the number",
+    "copy": "This CallTeam example compares two prospects. One has a mobile number. The other fits the campaign and has a company line. See who gets the first call.",
+    "url": "/articles/b2b-prospect-list-building-services/#prospect-lesson",
+    "poster": "/assets/video/callteam-which-prospect-first-poster.jpg",
+    "width": 540,
+    "height": 960,
+    "label": "Which prospect should you call first?"
+  },
+  "detailTitle": "When each enrichment tool earns its price",
+  "details": [
+    {
+      "id": "apollo-waterfall",
+      "title": "Apollo Waterfall Enrichment: start with what you have",
+      "what": "Apollo can look beyond its own data. Apollo-integrated sources spend Apollo credits. A provider you connect with your own API key bills through its own account.",
+      "action": "Turn on only the data you need.",
+      "why": "A trial on missing phones tells you whether the extra provider returns anything you can use. Review the source and charges in the results before buying more credits.",
+      "sources": [
+        [
+          "Apollo setup and billing",
+          "https://knowledge.apollo.io/hc/en-us/articles/34071121664781-Use-Waterfall-Enrichment"
+        ]
+      ]
+    },
+    {
+      "id": "fullenrich",
+      "title": "FullEnrich: a straightforward batch of mobile lookups",
+      "what": "Each returned mobile uses 10 credits, and a work email uses one. A batch that uses both draws from the same balance.",
+      "action": "Pick it when you want to upload a list and let the provider handle the lookups.",
+      "why": "Start with the smaller pack if it covers your sample. Check your territory and buyer roles before moving the rest of the list.",
+      "sources": [
+        [
+          "FullEnrich plans and phone credits",
+          "https://fullenrich.com/pricing"
+        ]
+      ]
+    },
+    {
+      "id": "bettercontact",
+      "title": "BetterContact: a low-cost first test",
+      "what": "The 200-credit Starter plan can cover up to 20 chargeable mobiles. BetterContact describes those results as numbers it scores as more likely to connect.",
+      "action": "Use the score to decide which numbers to call first.",
+      "why": "A high score is BetterContact’s estimate. Check who owns the number and count actual conversations in the trial.",
+      "sources": [
+        [
+          "BetterContact price, credits and scoring",
+          "https://bettercontact.rocks/pricing/"
+        ]
+      ]
+    },
+    {
+      "id": "findymail",
+      "title": "Findymail: look at it when email is part of the job",
+      "what": "Findymail lists a $99 Individual prospecting plan with rolling usage windows. Its separate credit-based offer shows 10 credits per phone, and its main phone finder is listed for non-EU numbers.",
+      "action": "Ask what the plan covers in your target market.",
+      "why": "For a phone-only batch, ask how many of your records you can run at once. If you need EU mobiles, ask the vendor to confirm coverage before spending.",
+      "sources": [
+        [
+          "Findymail plans and phone coverage",
+          "https://www.findymail.com/pricing/"
+        ]
+      ]
+    },
+    {
+      "id": "clay",
+      "title": "Clay: pay for control when you need it regularly",
+      "what": "Clay Launch includes phone enrichment. Clay separates the Actions that run the workflow from the Data Credits used to buy information. Your own provider key can shift data billing to that provider while Clay still uses Actions.",
+      "action": "Buy it when the repeated workflow saves enough work.",
+      "why": "For one small batch, get a dedicated tool’s quote first. If you need to choose source order, filter rows or route results every week, price the whole workflow.",
+      "sources": [
+        [
+          "Clay plans and billing",
+          "https://www.clay.com/pricing"
+        ],
+        [
+          "How Clay counts usage",
+          "https://university.clay.com/docs/actions-data-credits"
+        ]
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "fullenrich-vs-bettercontact",
+      "title": "FullEnrich vs. BetterContact: what does the same budget get?",
+      "intro": "At 1,000 monthly credits, FullEnrich lists US$55 and BetterContact lists $49. Both plans can cover up to 100 returned, chargeable mobiles if you spend all credits on phones.",
+      "copy": [
+        "Run your sample first. If both send the same useful numbers, compare the bill and how easily you can export the results. If one fills more gaps, divide each bill by the number of useful additions.",
+        "Check the current plan before paying: <a href='https://fullenrich.com/pricing'>FullEnrich pricing</a> and <a href='https://bettercontact.rocks/pricing/'>BetterContact pricing</a>."
+      ]
+    },
+    {
+      "id": "cost-per-usable-number",
+      "title": "What did a usable phone number actually cost?",
+      "intro": "Say you spend $55 and get 50 numbers back. Eight are duplicates and seven belong to someone else. You confirm the remaining 35 reach the right people. That’s $55 ÷ 35 = $1.57 per usable number.",
+      "copy": [
+        "Mark a number as usable after your team has evidence it reaches the intended buyer. Keep unconfirmed numbers in a separate column. A number that rings can still reach the wrong person.",
+        "Track the extra numbers your second provider added. If most are already in your CRM, the cheaper subscription can still cost more for each new number.",
+        "Use the <a href='/resources/b2b-lead-providers/'>B2B lead database guide</a> when you still need to find the right people. Use <a href='/resources/apollo-vs-clay/'>Apollo vs Clay</a> for a wider platform decision."
+      ]
+    },
+    {
+      "id": "company-number-first",
+      "title": "When a company number is enough",
+      "intro": "If you know the buyer’s role and a company line can get you there, try that route before buying several mobile lookups for the account.",
+      "copy": [
+        "Store a mobile, direct work line and company switchboard separately. A shared company number can help you reach more than one person, so flag it at account level.",
+        "If a buyer is wrong for the offer, move on before enriching another field. For the next pass, use the <a href='/resources/how-to-buy-cold-calling-leads/'>mobile-versus-company-number guide</a> and its free CSV."
+      ]
+    }
+  ],
+  "checkTitle": "Copy the 50-contact comparison",
+  "checkIntro": "Take the same 50 records with missing phones to each finalist. Use a smaller identical batch if the credit allowance requires it.",
+  "checkText": [
+    "Market and buyer roles:",
+    "Same contact IDs sent to each provider:",
+    "Total fees and credits used:",
+    "New numbers after duplicates:",
+    "Wrong party or disconnected:",
+    "Right person confirmed:",
+    "Right-person conversations:",
+    "Cost ÷ new usable numbers:"
+  ],
+  "checkButton": "Copy the comparison",
+  "faqs": [
+    {
+      "q": "What is waterfall enrichment for phone numbers?",
+      "a": "It checks data sources in an agreed order. When a source returns an acceptable result, the workflow moves on to the next contact. You can set separate rules for phone numbers and emails."
+    },
+    {
+      "q": "What is the difference between FullEnrich and Apollo?",
+      "a": "Apollo lets you source or enrich contacts in the same workspace. FullEnrich offers a managed waterfall for filling gaps on your list. Compare both on the exact same missing-phone records."
+    },
+    {
+      "q": "What is the difference between FullEnrich and BetterContact?",
+      "a": "Both list 10 credits per mobile and publish monthly plans. Compare their actual bill and unique usable numbers on your own list. BetterContact also uses a vendor-defined likelihood score for its chargeable phone results."
+    },
+    {
+      "q": "Can Clay replace a managed phone waterfall?",
+      "a": "Clay can run a configurable waterfall with providers in your chosen order. Include the platform plan, Actions, purchased data and any separate provider fees before you decide."
+    },
+    {
+      "q": "Does a verified mobile mean the buyer will answer?",
+      "a": "Verification depends on the vendor’s method. Check whether phone ownership was confirmed. Track answers and right-person conversations separately."
+    }
+  ],
+  "ctaTitle": "Need someone to work the list?",
+  "ctaText": "CallTeam can research the target accounts, prepare the list, make the calls and handle follow-up. We record outcomes and send sales the reason for each qualified meeting.",
+  "service": [
+    "See CallTeam’s cold calling service",
+    "/services/b2b-cold-calling/"
+  ],
+  "related": [
+    [
+      "See a real calling campaign",
+      "/case-studies/saas-demo-appointment-setting/",
+      "Review the list, calls and reported results"
+    ],
+    [
+      "Free cold call scripts",
+      "/resources/cold-call-scripts/",
+      "Pick a script for your buyer"
+    ],
+    [
+      "Check your opening",
+      "/cold-call-script-checker/",
+      "Review the first line before you dial"
+    ]
+  ]
+}

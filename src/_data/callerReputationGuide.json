@@ -1,0 +1,122 @@
+{
+  "slug": "business-calls-showing-as-spam-likely",
+  "shortTitle": "Spam Likely on Business Calls",
+  "checkedIso": "2026-11-16",
+  "checkedDate": "November 16, 2026",
+  "intro": "Find out why an outbound business number shows Spam Likely, Spam Risk or Potential Spam. See where to register a US number, how to challenge a wrong label and when paid monitoring is worth it.",
+  "verdict": "Reproduce the warning on a test phone. Register the business number if needed, then report a label that persists to the provider responsible.",
+  "comparisonJump": "Find the right support route",
+  "checkJump": "Copy the dispute checklist",
+  "comparisonTitle": "Where to report a Spam Likely label",
+  "comparisonIntro": "Use these routes for US business numbers. For a Canadian number, ask your phone provider which registration or review process applies.",
+  "caption": "US caller reputation services and the problems they handle",
+  "headers": ["Service", "Use it for", "Where to start"],
+  "rows": [
+    ["<a href='#free-caller-registry'>Free Caller Registry</a>", "Register legitimate business numbers with participating analytics providers", "Use for initial US registration. Review the confirmation from each provider"],
+    ["<a href='#hiya'>Hiya</a>", "Business registration and review of a wrong spam label", "Register, then follow Hiya’s review instructions if the label persists"],
+    ["<a href='#first-orion'>First Orion</a>", "Registration and appeals when First Orion handles the label", "Use its support process and document where you see the issue"],
+    ["<a href='#tns'>TNS Call Guardian</a>", "Report a blocked or mislabeled number through TNS", "Choose the business-number option in the feedback form"],
+    ["<a href='#fcc'>FCC complaints</a>", "Report that your own number is spoofed, blocked or labelled as spam", "Use the FCC options when you need to report the problem in the US"]
+  ],
+  "names": ["Business caller reputation", "Spam Likely", "Free Caller Registry", "Hiya", "First Orion", "TNS Call Guardian"],
+  "video": {
+    "position": "service",
+    "title": "See how CallTeam runs an outbound campaign",
+    "copy": "This 78-second walkthrough shows how we select accounts, make calls, qualify interest and hand meetings to your sales team.",
+    "url": "/videos/callteam-process-demo/",
+    "poster": "/assets/video/callteam-process-demo-poster.jpg",
+    "width": 1920,
+    "height": 1080,
+    "label": "How CallTeam works · 78 seconds"
+  },
+  "detailTitle": "When to use the registry, carrier or analytics provider",
+  "details": [
+    {
+      "id": "free-caller-registry",
+      "title": "Free Caller Registry: register the business number",
+      "what": "Free Caller Registry shares registration information with First Orion, Hiya and TNS. Each provider reviews it independently. The registry says a filing gives no guarantee of redress.",
+      "action": "Keep the registration confirmations.",
+      "why": "Each confirmation tells you who received the filing and gives you a record to share if you need to escalate.",
+      "sources": [["Free Caller Registry and its terms","https://freecallerregistry.com/fcr/"]]
+    },
+    {
+      "id": "hiya",
+      "title": "Hiya: register first, then request a review",
+      "what": "Hiya offers free business number registration. Its help page provides a one-time review route for a label that persists after registration.",
+      "action": "Use the business path when the number belongs to your company.",
+      "why": "Hiya also publishes a registration page for Canadian businesses.",
+      "sources": [["Hiya’s incorrect-label guidance","https://support.hiya.com/hc/en-us/articles/115014815387-Reporting-calls-mislabeled-as-spam-or-incorrect-caller-ID"],["Hiya business registration in Canada","https://www.hiya.com/en-ca/products/connect/number-registration"]]
+    },
+    {
+      "id": "first-orion",
+      "title": "First Orion: use the appeal path for its labels",
+      "what": "First Orion documents business registration and describes how to request remediation for a label you believe is wrong. Its guidance explains why results can differ across carriers.",
+      "action": "Ask which networks your registration covers.",
+      "why": "First Orion explains where it can share your registration. Take a label outside that coverage to the provider that handles it.",
+      "sources": [["First Orion’s mislabeling process","https://support.firstorionenterprise.com/hc/en-us/articles/35369471948301-What-do-I-do-if-my-phone-number-is-labeled-incorrectly"]]
+    },
+    {
+      "id": "tns",
+      "title": "TNS Call Guardian: report a business number",
+      "what": "The TNS feedback form lets a business report that its outgoing number was blocked or mislabeled.",
+      "action": "Choose the business-number option.",
+      "why": "The form distinguishes between blocking and a label that appears when the call comes through.",
+      "sources": [["TNS business feedback form","https://reportarobocall.com/trf/"]]
+    },
+    {
+      "id": "fcc",
+      "title": "FCC: report a spoofed, blocked or mislabeled number",
+      "what": "The FCC’s complaint guidance covers cases where someone is spoofing your number or where your own number is blocked or marked as possible spam.",
+      "action": "Check your provider’s call records first.",
+      "why": "If people complain about calls you never made, ask the provider to check for spoofing or account misuse. A carrier or analytics ticket can still be necessary for a display issue.",
+      "sources": [["FCC phone complaint options","https://consumercomplaints.fcc.gov/hc/en-us/articles/115002234203-Unwanted-Calls-Texts-Phone"]]
+    }
+  ],
+  "sections": [
+    {
+      "id": "confirm-the-label",
+      "title": "Confirm what people see when you call",
+      "intro": "Make a test call from the actual campaign number to phones you control or have permission to use. Test on more than one receiving network. Record the exact text, date and time.",
+      "caption": "Three common symptoms and what to check first",
+      "headers": ["What you see", "What to do"],
+      "rows": [
+        ["Spam warning on one network","Capture the label and use that network’s or analytics provider’s dispute route."],
+        ["Wrong company name with no spam warning","Ask your phone provider how to correct the displayed business name."],
+        ["Calls attributed to your number that you did not make","Check call logs and ask your provider to investigate spoofing or account misuse."]
+      ],
+      "copy": [
+        "Check that callers use the intended business number and that callbacks reach a named person or an identified business voicemail.",
+        "Give your provider examples from both affected and unaffected networks. If calls fail to ring, ask it to inspect the call route too."
+      ]
+    },
+    {
+      "id": "when-to-pay",
+      "title": "When is paid number reputation monitoring worth it?",
+      "intro": "Pay for monitoring when you manage enough numbers that checking each one by hand takes too much time.",
+      "copy": [
+        "Ask what networks a paid service covers, how often it checks and what evidence you can export. Branded calling can help identify your business on supported phones. Price monitoring, branding and any dispute help separately.",
+        "Review the campaign while the ticket is open. Remove wrong numbers, apply stop requests across lists and give callbacks an owner. Check whether your team is repeatedly contacting people who already gave a clear answer.",
+        "If a buyer is screening calls, use our <a href='/resources/how-to-buy-cold-calling-leads/#call-next'>guide to choosing the next call route</a>. If you are buying calling software, ask how a <a href='/resources/best-cold-calling-dialers/'>dialer</a> handles caller ID, callbacks, recording and suppression."
+      ]
+    }
+  ],
+  "checkTitle": "Copy the caller ID dispute checklist",
+  "checkIntro": "Use one note per business number. Provide it to your phone or analytics provider when you ask for a review.",
+  "checkText": ["Business name and outbound number:", "Sending provider or dialer:", "Receiving carrier and device:", "Exact label or failed-call symptom:", "Date, time and time zone:", "Screenshot or test details:", "Registration date and reference:", "Support ticket ID and follow-up date:", "Result of the retest:"],
+  "checkButton": "Copy the checklist",
+  "faqs": [
+    {"q":"Why does my business number show Spam Likely?","a":"Carriers and call protection services can use signals such as call patterns, number history and recipient reports. Confirm which number and receiving network show the warning."},
+    {"q":"Will Free Caller Registry remove the Spam Likely label?","a":"Registration shares business information with participating services. Each service decides how to use it. Check the affected network again and file a dispute if needed."},
+    {"q":"How long does a caller ID dispute take?","a":"It varies by provider and case. Keep the ticket number, ask for an expected review date and repeat the same test when you receive a response."},
+    {"q":"Does correcting the business name remove a spam label?","a":"Displayed name and spam warning are handled separately. Ask your phone provider to fix an incorrect name. Use the relevant label review process for a spam warning."},
+    {"q":"Should a Canadian business use the same process?","a":"Start with the provider that supplies your number and the carrier where the problem appears. Ask which registry and review route cover your number. Hiya offers Canadian business registration information."}
+  ],
+  "ctaTitle": "Need help running your outbound calls?",
+  "ctaText": "CallTeam can build a targeted list, make the calls and manage follow-up. We keep track of wrong numbers, stop requests and agreed callbacks. Start with the audience, your offer and what your sales team needs from each meeting.",
+  "service": ["See CallTeam’s cold calling service", "/services/b2b-cold-calling/"],
+  "related": [
+    ["Prepare a relevant opener", "/resources/cold-call-scripts/", "Find a free script for your buyer"],
+    ["Check where your campaign is getting stuck", "/b2b-lead-generation-audit/", "Review list quality, follow-up and ownership"],
+    ["See how we would run your campaign", "/b2b-outbound-campaign-planner/", "Plan your buyers, opening and next step"]
+  ]
+}

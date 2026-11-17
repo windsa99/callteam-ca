@@ -1,0 +1,112 @@
+{
+  "slug": "best-ai-cold-call-roleplay-tools",
+  "shortTitle": "AI Cold Call Roleplay",
+  "checkedIso": "2026-11-16",
+  "checkedDate": "November 16, 2026",
+  "intro": "Compare Hyperbound, Yoodli, PitchMonster and Gong AI Trainer for SDR practice. See what you can try, what needs a quote and how to tell whether the feedback is worth paying for.",
+  "verdict": "Try Hyperbound’s free outbound scenarios first. Start with Yoodli if one rep needs delivery practice. Compare PitchMonster for assigned onboarding. Ask about Gong AI Trainer if your team already works in Gong and has access to Enable.",
+  "comparisonJump": "Compare four tools",
+  "checkJump": "Copy the trial scorecard",
+  "comparisonTitle": "Compare four AI cold call roleplay tools",
+  "comparisonIntro": "Before booking a demo, decide whether every rep needs a seat and who will review their practice.",
+  "caption": "AI cold call practice options, with free access and team price visibility",
+  "headers": ["Product", "Try first", "Team price", "Where it fits"],
+  "rows": [
+    ["<a href='#hyperbound'>Hyperbound</a>", "Free prebuilt outbound and objection scenarios", "Practice and Perform use per-user quotes", "Custom AI buyers and sales scorecards; real-call scoring sits in Perform"],
+    ["<a href='#yoodli'>Yoodli</a>", "Starter includes five lifetime sessions", "Business is per seat, billed annually. Request a quote", "Individual delivery practice; team plans add custom exercises and reporting"],
+    ["<a href='#pitchmonster'>PitchMonster</a>", "Ask for a demo using your buyer and opener", "Two quoted plans per seat. Standard term is 12 months", "Assigned phone practice and certification with reusable scorecards"],
+    ["<a href='#gong-ai-trainer'>Gong AI Trainer</a>", "Ask your Gong admin about access to Enable", "Gong quotes licences and a platform fee", "Practice based on customer interactions your organisation already captured"]
+  ],
+  "names": ["AI sales roleplay", "Hyperbound", "Yoodli", "PitchMonster", "Gong AI Trainer"],
+  "video": {
+    "position": "early",
+    "title": "Give every simulator the same opener",
+    "copy": "Hear the question and the pause in this CallTeam example. Use the same wording in each trial so you can judge how the simulated buyer reacts.",
+    "url": "/videos/cold-call-opener-example/",
+    "poster": "/assets/video/callteam-cold-call-opener-poster.jpg",
+    "width": 540,
+    "height": 960,
+    "label": "Cold call opener: the first 15 seconds"
+  },
+  "detailTitle": "Which AI roleplay tool should your team buy?",
+  "details": [
+    {
+      "id": "hyperbound",
+      "title": "Hyperbound: try the outbound pack first",
+      "what": "The free plan lists prebuilt roleplays and example scorecards. Practice adds custom AI buyers and scorecards. Perform adds real-call scoring and broader coaching features.",
+      "action": "Price the Practice plan on its own.",
+      "why": "Upgrade to Perform when your managers need to score live calls as well as practice sessions.",
+      "sources": [["Hyperbound plans and features","https://www.hyperbound.ai/pricing"]]
+    },
+    {
+      "id": "yoodli",
+      "title": "Yoodli: start with one rep’s delivery",
+      "what": "The individual Starter plan has five lifetime sessions. Pro allows up to ten per week. Business adds custom roleplays, rubrics, dashboards and admin controls.",
+      "action": "Try it with one caller before involving the whole team.",
+      "why": "Check whether the feedback catches a moment when the rep talked over the buyer or missed a question.",
+      "sources": [["Yoodli limits and team plans","https://yoodli.ai/pricing"]]
+    },
+    {
+      "id": "pitchmonster",
+      "title": "PitchMonster: ask it to reproduce your onboarding",
+      "what": "The roleplay plan includes custom scenarios, scorecards and certifications. The larger plan includes call analysis and a Gong integration. PitchMonster lists a standard 12-month contract and shorter options.",
+      "action": "Get the shorter term priced first.",
+      "why": "Ask managers to assign a scenario, inspect a weak attempt and see whether the rep improves on the retry. Test those steps before committing to a year.",
+      "sources": [["PitchMonster plans, seats and terms","https://www.pitchmonster.io/pricing"]]
+    },
+    {
+      "id": "gong-ai-trainer",
+      "title": "Gong AI Trainer: check what your Gong contract covers",
+      "what": "Gong documents AI Trainer on Enable. Managers can set up training modules and practice with AI buyer personas based on customer interactions already captured in Gong. A scenario can use an automatic scorecard.",
+      "action": "Get your own access and renewal costs in writing.",
+      "why": "Ask for the cost of adding Enable to your current contract. Include the platform fee and licences in a quote for a new Gong rollout.",
+      "sources": [["Gong AI Trainer requirements","https://help.gong.io/docs/practice-customer-calls-with-ai-trainer"],["Gong licensing and platform fee","https://www.gong.io/pricing"]]
+    }
+  ],
+  "sections": [
+    {
+      "id": "three-cold-call-scenarios",
+      "title": "Run the same three cold call scenarios",
+      "intro": "Use a real buyer role and offer with made-up names. Give each simulator the same brief and run each situation twice.",
+      "caption": "A short trial for SDRs and their coaches",
+      "headers": ["Buyer says", "What a useful simulation should expose"],
+      "rows": [
+        ["“I’ve got 15 seconds.”","The rep asks one clear question, stops speaking and hears the buyer’s answer."],
+        ["“Send me information.”","The rep asks what would be useful. The scorecard leaves room for the buyer to decline a follow-up."],
+        ["“How did you get my number?”","The rep explains the source plainly. When the buyer asks to stop, the rep ends the call."]
+      ],
+      "copy": [
+        "Rehearse from the <a href='/articles/send-me-information-sales-objection/#information-lesson'>send-me-information video</a> and the <a href='/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call/#four-cold-call-responses'>four contact-source replies</a>. Ask the manager and the tool to score the same attempt.",
+        "Ask the vendor how it retains and deletes recordings before uploading client calls. Check where managers can view attempts and how to export progress."
+      ]
+    },
+    {
+      "id": "gong-vs-hyperbound",
+      "title": "Gong AI Trainer vs. Hyperbound: which should you try first?",
+      "intro": "Give both vendors one exercise based on an objection your team hears. In Gong, check how the exercise draws from past calls. In Hyperbound, check what a manager can change about the buyer and scorecard.",
+      "copy": [
+        "For either tool, check whether a manager can point to the moment the rep missed a cue. An overall score is easier to act on when it shows the line or pause that earned it.",
+        "For replacing your recording or conversation intelligence stack, use <a href='/resources/gong-alternatives/'>10 Best Gong Alternatives</a>. For reviewing live calls with a manager, use the <a href='/articles/cold-call-coaching-scorecard/'>cold call coaching scorecard</a>."
+      ]
+    }
+  ],
+  "checkTitle": "Copy the five-minute roleplay scorecard",
+  "checkIntro": "Score each item Yes, Partly or Missed. Ask the rep to fix one thing on the second attempt.",
+  "checkText": ["Buyer and scenario:", "Did the rep state a relevant reason for the call?", "Did the rep pause and listen after the first question?", "Did the response address what the buyer actually said?", "Did the rep agree a next step or end the call cleanly?", "One line or pause to change:", "Second attempt: what improved?"],
+  "checkButton": "Copy the scorecard",
+  "faqs": [
+    {"q":"What is AI cold call roleplay?","a":"A rep speaks to a simulated buyer and practices how to open, handle objections and end the call. Some products grade the attempt against a team rubric."},
+    {"q":"What is the best free AI tool to practice cold calls?","a":"Start with Hyperbound’s free prebuilt outbound scenarios or Yoodli Starter’s five lifetime sessions. Try the same exercise and compare the feedback before choosing a paid plan."},
+    {"q":"Does Gong have AI sales roleplay?","a":"Yes. Gong documents AI Trainer on Enable. Check access and pricing with your administrator or Gong."},
+    {"q":"How does PitchMonster compare with Yoodli?","a":"Compare PitchMonster for assigned sales practice and certification. Start with Yoodli for one rep’s delivery practice, then price Business if you need custom exercises and team management."},
+    {"q":"Can AI roleplay replace a sales coach?","a":"Use it to give reps more practice between coaching sessions. A manager can then listen to the rep’s live calls, test whether the change carried over and coach the next improvement."}
+  ],
+  "ctaTitle": "Want live coaching or a team to make the calls?",
+  "ctaText": "CallTeam can review recordings, coach your SDRs on hard objections and set a standard for a qualified conversation. If your team needs coverage, we can prepare the list, make the calls and follow up for you.",
+  "service": ["See CallTeam’s SDR training", "/services/sdr-training/"],
+  "related": [
+    ["Free cold call scripts", "/resources/cold-call-scripts/", "Choose a realistic practice script"],
+    ["Check your opener", "/cold-call-script-checker/", "Review the words before you practise"],
+    ["Hire CallTeam to make the calls", "/services/b2b-cold-calling/", "See how the managed service works"]
+  ]
+}

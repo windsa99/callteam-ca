@@ -1,0 +1,132 @@
+{% import "components/decision-guide.njk" as g %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "mainEntity": { "@id": "{{ canonicalUrl }}#guide" },
+      "breadcrumb": { "@id": "{{ canonicalUrl }}#breadcrumb" },
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ canonicalUrl }}#guide",
+      "headline": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "dateModified": "{{ guide.checkedIso }}",
+      "author": { "@id": "{{ site.organizationId }}" },
+      "publisher": { "@id": "{{ site.organizationId }}" },
+      "mainEntityOfPage": { "@id": "{{ canonicalUrl }}#webpage" },
+      "about": [{% for name in guide.names %}{ "@type": "Thing", "name": {{ name | json | safe }} }{% if not loop.last %}, {% endif %}{% endfor %}],
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
+        { "@type": "ListItem", "position": 3, "name": {{ guide.shortTitle | json | safe }}, "item": "{{ canonicalUrl }}" }
+      ]
+    }
+  ]
+}
+</script>
+<main class="lp-page dg-page po-guide" id="simple-guide">
+  <header class="lp-hero-shell">
+    <div class="lp-wrap">
+      <nav class="lp-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a><span>/</span><a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span>/</span><span aria-current="page">{{ guide.shortTitle }}</span>
+      </nav>
+      <div class="po-intro">
+        <h1>{{ title }}</h1>
+        <p class="lp-intro">{{ guide.intro }}</p>
+        <p class="lp-direct-answer"><strong>CallTeam’s verdict:</strong> {{ guide.verdict }}</p>
+        <p class="lp-method">Checked {{ guide.checkedDate }}.</p>
+        <nav class="po-links" aria-label="On this page">
+          <a href="#comparison">{{ guide.comparisonJump }}</a>
+          <a href="#field-check">{{ guide.checkJump }}</a>
+          <a href="#questions">Common questions</a>
+          <a href="#hire-callteam">Work with CallTeam</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="lp-section" id="comparison">
+    <div class="lp-wrap">
+      <div class="lp-heading"><h2>{{ guide.comparisonTitle }}</h2><p>{{ guide.comparisonIntro }}</p></div>
+      {{ g.table(guide.caption, guide.headers, guide.rows) }}
+      {% if guide.video.position == 'early' %}{% include "components/practical-outbound-video.njk" %}{% endif %}
+    </div>
+  </section>
+
+  <section class="lp-section lp-paper" id="details">
+    <div class="lp-wrap">
+      <div class="lp-heading"><h2>{{ guide.detailTitle }}</h2></div>
+      <div class="dg-reviews">
+        {% for item in guide.details %}
+        <article class="lp-provider" id="{{ item.id }}">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.what }}</p>
+          <p><strong>{{ item.action }}</strong> {{ item.why }}</p>
+          {{ g.sources(item.sources) }}
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% for section in guide.sections %}
+  <section class="lp-section" id="{{ section.id }}">
+    <div class="lp-wrap">
+      <div class="lp-heading"><h2>{{ section.title }}</h2><p>{{ section.intro }}</p></div>
+      {% if section.rows %}{{ g.table(section.caption, section.headers, section.rows) }}{% endif %}
+      <div class="po-copy">
+        {% for line in section.copy %}<p>{{ line | safe }}</p>{% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+
+  <section class="lp-section lp-dark" id="field-check">
+    <div class="lp-wrap">
+      <div class="lp-heading"><h2>{{ guide.checkTitle }}</h2><p>{{ guide.checkIntro }}</p></div>
+      <div class="sg-copy-layout">
+        <pre id="sg-resource-text" tabindex="0" aria-label="{{ guide.checkTitle }}">{{ guide.checkText | join('\n') }}</pre>
+        <aside><button id="sg-copy-resource" class="lp-button" type="button" hidden>{{ guide.checkButton }}</button><p id="sg-copy-status" role="status"></p></aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section" id="questions">
+    <div class="lp-wrap lp-faq-wrap">
+      <div class="lp-heading"><h2>Common questions</h2></div>
+      <div class="lp-faqs">
+        {% for faq in guide.faqs %}<details><summary>{{ faq.q }}</summary><p>{{ faq.a }}</p></details>{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section lp-paper lp-close" id="hire-callteam">
+    <div class="lp-wrap">
+      <div class="lp-close-grid">
+        <div>
+          <h2>{{ guide.ctaTitle }}</h2>
+          <p>{{ guide.ctaText }}</p>
+          <div class="lp-actions"><a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="{{ guide.slug }}-final">Book a free 30-minute call ↗</a><a class="lp-text-link" href="{{ guide.service[1] }}">{{ guide.service[0] }} →</a></div>
+        </div>
+        <aside aria-label="Related CallTeam resources">
+          {% for item in guide.related %}<a href="{{ item[1] }}">{{ item[0] }}<span>{{ item[2] }} →</span></a>{% endfor %}
+        </aside>
+      </div>
+      {% if guide.video.position == 'service' %}{% include "components/practical-outbound-video.njk" %}{% endif %}
+    </div>
+  </section>
+</main>
