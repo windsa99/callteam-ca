@@ -1,0 +1,109 @@
+.salesroads-page .lp-hero {
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 64px);
+  padding: 42px 0 40px;
+}
+
+.salesroads-page h1 span {
+  display: inline;
+}
+
+.salesroads-page .salesroads-case-brief {
+  padding: clamp(22px, 3.1vw, 36px);
+}
+
+.salesroads-page .salesroads-hero-result {
+  margin: 16px 0 12px;
+  font: 900 clamp(32px, 4.25vw, 48px)/1.05 Archivo, Arial, sans-serif;
+  letter-spacing: -.04em;
+}
+
+.salesroads-page .salesroads-case-brief > a {
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.salesroads-page .salesroads-first-section {
+  padding-top: 42px;
+}
+
+.salesroads-page .salesroads-first-section .lp-heading {
+  margin-bottom: 24px;
+}
+
+.salesroads-page .salesroads-table td strong {
+  display: block;
+  margin-bottom: 4px;
+  font: 700 19px/1.25 Archivo, Arial, sans-serif;
+}
+
+.salesroads-page .salesroads-billing {
+  margin-top: 28px;
+  padding: clamp(18px, 3vw, 30px);
+  background: #fff3eb;
+  border-left: 3px solid var(--orange, var(--lp-accent));
+}
+
+.salesroads-page .salesroads-billing h3 {
+  margin-bottom: 12px;
+}
+
+.salesroads-page .salesroads-billing p:last-child {
+  margin-bottom: 0;
+}
+
+.salesroads-page .salesroads-process {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.salesroads-page .salesroads-process > div,
+.salesroads-page .salesroads-case {
+  padding: clamp(20px, 3vw, 30px);
+  background: #fff;
+  border: 1px solid var(--lp-line);
+  border-top: 3px solid var(--orange, var(--lp-accent));
+}
+
+.salesroads-page .salesroads-process h3 {
+  margin-bottom: 14px;
+}
+
+.salesroads-page .salesroads-process p {
+  margin-bottom: 0;
+}
+
+.salesroads-page .salesroads-proof {
+  align-items: start;
+}
+
+.salesroads-page .salesroads-next-step {
+  margin: 24px 0 0;
+}
+
+.salesroads-page .salesroads-case a,
+.salesroads-page .salesroads-next-step a,
+.salesroads-page .salesroads-sources a {
+  text-underline-offset: 4px;
+}
+
+.salesroads-page .salesroads-sources {
+  padding: 42px 0;
+}
+
+.salesroads-page .salesroads-sources ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 760px) {
+  .salesroads-page .lp-hero,
+  .salesroads-page .salesroads-process {
+    grid-template-columns: 1fr;
+  }
+
+  #simple-guide.salesroads-page .salesroads-table td::before {
+    color: var(--lp-muted);
+  }
+}

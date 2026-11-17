@@ -1,0 +1,127 @@
+.callbox-page .lp-hero {
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 64px);
+  padding: 42px 0 40px;
+}
+
+.callbox-page h1 span {
+  display: inline;
+}
+
+.callbox-page .lp-intro strong {
+  white-space: nowrap;
+}
+
+.callbox-page .callbox-price-brief {
+  padding: clamp(22px, 3.1vw, 36px);
+}
+
+.callbox-page .callbox-hero-price {
+  margin: 12px 0;
+  font: 900 clamp(42px, 5.1vw, 60px)/1 Archivo, Arial, sans-serif;
+  letter-spacing: -.045em;
+}
+
+.callbox-page .callbox-hero-price span,
+.callbox-page .callbox-pod-estimates dd span {
+  display: block;
+  margin-top: 6px;
+  font: 600 14px/1.4 Inter, Arial, sans-serif;
+  letter-spacing: normal;
+}
+
+.callbox-page .callbox-price-brief > a {
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.callbox-page .callbox-first-section {
+  padding-top: 42px;
+}
+
+.callbox-page .callbox-first-section .lp-heading {
+  margin-bottom: 24px;
+}
+
+.callbox-page .callbox-table td strong {
+  display: block;
+  margin-bottom: 4px;
+  font: 700 19px/1.25 Archivo, Arial, sans-serif;
+}
+
+.callbox-page .callbox-pod-estimates {
+  margin-top: 28px;
+  padding: clamp(18px, 3vw, 30px);
+  background: #fff3eb;
+  border-left: 3px solid var(--orange, var(--lp-accent));
+}
+
+.callbox-page .callbox-pod-estimates dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+
+.callbox-page .callbox-pod-estimates dl > div {
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid var(--lp-line);
+}
+
+.callbox-page .callbox-pod-estimates dt {
+  font-weight: 600;
+}
+
+.callbox-page .callbox-pod-estimates dd {
+  margin: 6px 0 0;
+  font: 700 clamp(21px, 3.1vw, 32px)/1.1 Archivo, Arial, sans-serif;
+}
+
+.callbox-page .callbox-pod-estimates p {
+  margin-bottom: 0;
+  color: var(--lp-muted);
+}
+
+.callbox-page .callbox-proof {
+  align-items: start;
+}
+
+.callbox-page .callbox-case {
+  padding: clamp(20px, 3vw, 32px);
+  background: #fff;
+  border: 1px solid var(--lp-line);
+  border-top: 3px solid var(--orange, var(--lp-accent));
+}
+
+.callbox-page .callbox-channel-note,
+.callbox-page .callbox-quote-link {
+  margin: 24px 0 0;
+}
+
+.callbox-page .callbox-case a,
+.callbox-page .callbox-channel-note a,
+.callbox-page .callbox-quote-link a,
+.callbox-page .callbox-sources a {
+  text-underline-offset: 4px;
+}
+
+.callbox-page .callbox-sources {
+  padding: 42px 0;
+}
+
+.callbox-page .callbox-sources ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 760px) {
+  .callbox-page .lp-hero,
+  .callbox-page .callbox-pod-estimates dl {
+    grid-template-columns: 1fr;
+  }
+
+  #simple-guide.callbox-page .callbox-table td::before {
+    color: var(--lp-muted);
+  }
+}

@@ -1,0 +1,209 @@
+---
+layout: layouts/base.njk
+permalink: "/compare/callteam-vs-belkins/"
+title: "CallTeam vs Belkins: Pricing and Appointment Setting"
+seoTitle: "CallTeam vs Belkins: Pricing and Appointment Setting"
+description: "Compare CallTeam managed cold calling with Belkins’ monthly retainer and pay-per-appointment package. See starting prices, setup fees and what sales receives."
+canonicalUrl: "https://www.callteam.ca/compare/callteam-vs-belkins/"
+contentLanguage: "en-CA"
+ogType: "article"
+modified: "2026-11-17"
+pageStyles:
+  - "/assets/css/lead-providers.css"
+  - "/assets/css/simple-buying-guide.css"
+  - "/assets/css/process-video-preview.css"
+  - "/assets/css/belkins-comparison.css"
+---
+{% set guide = belkinsComparison %}
+{% set prices = guide.prices %}
+{% set sources = guide.sources %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "breadcrumb": { "@id": "{{ canonicalUrl }}#breadcrumb" },
+      "mainEntity": { "@id": "{{ canonicalUrl }}#article" },
+      "inLanguage": "{{ contentLanguage }}"
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ canonicalUrl }}#article",
+      "headline": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "mainEntityOfPage": { "@id": "{{ canonicalUrl }}#webpage" },
+      "author": { "@id": "{{ site.organizationId }}" },
+      "publisher": { "@id": "{{ site.organizationId }}" },
+      "dateModified": "{{ modified }}",
+      "inLanguage": "{{ contentLanguage }}",
+      "about": [
+        { "@id": "{{ site.organizationId }}" },
+        { "@type": "Organization", "name": "Belkins", "url": "https://belkins.io/" }
+      ],
+      "citation": [{% for key, source in sources %}{{ source.url | json | safe }}{% if not loop.last %}, {% endif %}{% endfor %}]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
+        { "@type": "ListItem", "position": 3, "name": "CallTeam vs Belkins", "item": "{{ canonicalUrl }}" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="lp-page belkins-page" id="simple-guide">
+  <div class="lp-hero-shell"><div class="lp-wrap">
+    <nav class="lp-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span aria-hidden="true">/</span>
+      <a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span aria-hidden="true">/</span>
+      <span aria-current="page">CallTeam vs Belkins</span>
+    </nav>
+    <div class="lp-hero">
+      <div>
+        <h1>CallTeam vs <span>Belkins</span>
+          <small>Pricing and appointment setting</small>
+        </h1>
+        <p class="lp-intro">Choose CallTeam to build your prospect list, call buyers and follow up. We qualify meetings and brief your sales team. Belkins fits teams that want a wider managed program or its email and LinkedIn appointment package.</p>
+        <div class="lp-actions">
+          <a class="lp-button" href="#comparison">Compare prices and scope <span aria-hidden="true">↓</span></a>
+          <a class="lp-text-link" href="#proof">See the 78-second demo <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <aside class="lp-brief belkins-price-brief" aria-labelledby="starter-price-heading">
+        <h2 id="starter-price-heading">Belkins’ starter package</h2>
+        <p class="belkins-hero-price">{{ prices.starterTotal }}</p>
+        <p>At the published starting rate for {{ prices.starterAppointments }} appointments, including {{ prices.setupFee }} for setup.</p>
+        <a href="#starter-package">See the calculation <span aria-hidden="true">↓</span></a>
+      </aside>
+    </div>
+  </div></div>
+
+  <nav class="lp-jump" aria-label="On this page"><div class="lp-wrap">
+    <a href="#comparison">Price table</a><a href="#proof">Demo and results</a><a href="#choose">When to buy</a><a href="#compare-quotes">Compare quotes</a><a href="#questions">FAQs</a>
+  </div></nav>
+
+  <section class="lp-section belkins-first-section" id="comparison"><div class="lp-wrap">
+    <div class="lp-heading"><h2>CallTeam vs Belkins pricing</h2>
+      <p>CallTeam sells managed calling. Prices and terms checked <time datetime="{{ guide.checkedDate }}">{{ guide.checkedLabel }}</time>.</p>
+    </div>
+    <div class="sg-table-wrap">
+      <table class="lp-table sg-table belkins-table" role="table">
+        <caption>Starting prices, outreach channels and sales handoff</caption>
+        <thead><tr role="row"><th scope="col" role="columnheader">What to compare</th><th scope="col" role="columnheader">CallTeam managed calling</th><th scope="col" role="columnheader">Belkins managed retainer</th><th scope="col" role="columnheader">Belkins pay per appointment</th></tr></thead>
+        <tbody>
+          <tr role="row">
+            <th scope="row" role="rowheader">Starting price</th>
+            <td role="cell" data-label="CallTeam managed calling"><strong>From {{ prices.callTeamMonthly }} per month</strong>. We quote list building and data if you need them.</td>
+            <td role="cell" data-label="Belkins managed retainer"><strong>{{ prices.belkinsMonthly }} per month</strong>. Belkins quotes the package you need.</td>
+            <td role="cell" data-label="Belkins pay per appointment"><strong>{{ prices.appointmentRate }} per appointment</strong> plus a one-time setup fee. Minimum {{ prices.starterAppointments }} appointments.</td>
+          </tr>
+          <tr role="row">
+            <th scope="row" role="rowheader">Outreach</th>
+            <td role="cell" data-label="CallTeam managed calling">Human cold calling, callbacks and agreed follow-up.</td>
+            <td role="cell" data-label="Belkins managed retainer">Email and LinkedIn. Calling coverage depends on the plan.</td>
+            <td role="cell" data-label="Belkins pay per appointment">Email and LinkedIn. Belkins handles replies and booking.</td>
+          </tr>
+          <tr role="row">
+            <th scope="row" role="rowheader">Targeting and setup</th>
+            <td role="cell" data-label="CallTeam managed calling">We agree on buyer roles, who to exclude and how to open the call.</td>
+            <td role="cell" data-label="Belkins managed retainer">Lead research, outreach setup and campaign management as scoped.</td>
+            <td role="cell" data-label="Belkins pay per appointment">Targeting and messaging for the campaign. Detailed account research sits outside this package.</td>
+          </tr>
+          <tr role="row">
+            <th scope="row" role="rowheader">What sales receives</th>
+            <td role="cell" data-label="CallTeam managed calling">A qualified booking and notes on the buyer’s reason for meeting, timing and agreed next step in your CRM.</td>
+            <td role="cell" data-label="Belkins managed retainer">Booked meetings and reporting. Confirm which details the team will enter in your CRM.</td>
+            <td role="cell" data-label="Belkins pay per appointment">Bookings in your calendar and monthly reporting. Your team manages the CRM.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sg-sources belkins-table-sources"><a href="/pricing/">CallTeam’s starting scope</a> · <a href="{{ sources.belkinsRate.url }}">Belkins’ published starting retainer</a> · <a href="{{ sources.belkinsAppointments.url }}">Belkins’ appointment package</a>. Confirm the currency on your Belkins quote.</p>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="proof"><div class="lp-wrap">
+    <div class="lp-heading"><h2>See the work behind a CallTeam appointment</h2></div>
+    <div class="belkins-proof-grid">
+      {{ processVideoPreview('How CallTeam works', 'See how we pick accounts, qualify a buyer and hand the meeting to sales.', 'callteam-vs-belkins') }}
+      <article class="belkins-case">
+        <h3>11 qualified SaaS demos in 90 days</h3>
+        <p>We called property and site-selection teams and asked how they pulled together market data. We booked demos with buyers who had a clear use for the platform.</p>
+        <p>The campaign led to four sales opportunities and two customers within six months.</p>
+        <a href="/case-studies/saas-demo-appointment-setting/">Read the campaign and qualification criteria <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+    <div class="belkins-handoff">
+      <h3>Sample CRM handoff</h3>
+      <dl>
+        <div><dt>Buyer</dt><dd>Research director at a commercial property firm.</dd></div>
+        <div><dt>Reason to meet</dt><dd>The team pulls property and demographic data from three sources before advising clients.</dd></div>
+        <div><dt>Agreed next step</dt><dd>Compare two markets during the demo. The buyer will invite the analyst who prepares reports.</dd></div>
+        <div><dt>Open question</dt><dd>Sales still needs to confirm who signs off on software.</dd></div>
+      </dl>
+      <a href="/articles/how-to-hand-off-qualified-appointment-from-sdr-to-sales/">See the sales handoff guide <span aria-hidden="true">→</span></a>
+    </div>
+  </div></section>
+
+  <section class="lp-section" id="choose"><div class="lp-wrap">
+    <div class="lp-heading"><h2>Which offer should you buy?</h2></div>
+    <div class="belkins-offers">
+      <article class="lp-pair-card">
+        <h3>CallTeam for a managed calling campaign</h3>
+        <p>A call can tell us when a meeting would be useful. If a buyer wants to talk after their budget review, we agree when to call back and record what they want to discuss. <a class="belkins-inline-link" href="/services/b2b-appointment-setting/">See our appointment-setting service</a>.</p>
+      </article>
+      <article class="lp-pair-card">
+        <h3>Belkins for several channels under one retainer</h3>
+        <p>Choose the managed program if you want research, messaging and outreach run together. Belkins lists calling tied to buying signals on Growth. Growth Plus adds cold calling and voicemail.</p>
+        <p>Get a price for the calling plan you need. Belkins lists HubSpot integration as an optional add-on. It describes a six-month agreement with a three-month checkpoint. Ask what the checkpoint lets you change.</p>
+        <a href="{{ sources.belkinsPlans.url }}">Check Belkins’ managed plans <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="lp-pair-card" id="starter-package">
+        <h3>Belkins if you want to buy appointments</h3>
+        <p>Choose the package if email and LinkedIn can reach your buyers and your team can take over at booking. Belkins works to rebook no-shows and keeps those slots in your package.</p>
+        <p class="belkins-calculation">{{ prices.starterAppointments }} × {{ prices.appointmentRate }} + {{ prices.setupFee }} = <strong>{{ prices.starterTotal }}</strong></p>
+        <p>That’s <strong>{{ prices.starterUnitCost }} per appointment including setup</strong> at the starting rate. The package has a six-month delivery window from launch.</p>
+      </article>
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="compare-quotes"><div class="lp-wrap">
+    <div class="lp-heading"><h2>Ask both agencies to quote the same work</h2>
+      <p>Give both agencies the same buyer profile. Ask what list work they’ll handle and request a sample note for your seller.</p>
+    </div>
+    <dl class="belkins-quote-list">
+      <div><dt>Set the scope</dt><dd>List the channels you need. Give each agency the same rules for callbacks, email replies and CRM updates.</dd></div>
+      <div><dt>Set the meeting standard</dt><dd>Count a meeting once it takes place and sales accepts it. Agree on the buyer’s role, the problem they want to discuss and what happens when they miss the meeting.</dd></div>
+      <div><dt>Price the same period</dt><dd>Add setup, data, tools and recurring fees for that period. Divide the total by the meetings sales accepted. Include any contract payments due beyond the period when budgeting the purchase.</dd></div>
+    </dl>
+    <div class="lp-actions">
+      <a class="lp-button" href="/lead-generation-proposal-comparison/">Compare your agency quotes <span aria-hidden="true">→</span></a>
+      <a class="lp-text-link" href="/b2b-meeting-quality-check/">Check your meeting criteria <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="sg-mid-cta">
+      <p><strong>Want CallTeam to price your campaign?</strong> Tell us what you sell, who you want to reach and what a good meeting looks like.</p>
+      <a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="callteam-vs-belkins">Book a free 30-minute call <span aria-hidden="true">↗</span></a>
+    </div>
+  </div></section>
+
+  <section class="lp-section" id="questions"><div class="lp-wrap lp-faq-wrap">
+    <div class="lp-heading"><h2>CallTeam vs Belkins FAQs</h2></div>
+    <div class="lp-faqs">{% for faq in guide.faqs %}<details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>{% endfor %}</div>
+  </div></section>
+
+  <section class="lp-section lp-paper belkins-sources" id="sources"><div class="lp-wrap">
+    <div class="lp-heading"><h2>Sources</h2></div>
+    <ul>{% for key, source in sources %}<li><a href="{{ source.url }}">{{ source.label }}</a></li>{% endfor %}</ul>
+    <p>For a wider comparison, see the <a href="/resources/b2b-lead-generation-pricing-report/">B2B lead generation pricing report</a>.</p>
+  </div></section>
+</main>

@@ -1,0 +1,191 @@
+---
+layout: layouts/base.njk
+permalink: "/compare/callteam-vs-salesroads/"
+title: "CallTeam vs SalesRoads: Pricing and Outsourced SDRs"
+seoTitle: "CallTeam vs SalesRoads: Pricing and Outsourced SDRs"
+description: "Compare SalesRoads’ dedicated SDR plans and four-week billing with CallTeam’s list building, human calling, follow-up and qualified meetings."
+canonicalUrl: "https://www.callteam.ca/compare/callteam-vs-salesroads/"
+contentLanguage: "en-CA"
+ogType: "article"
+modified: "2026-11-17"
+pageStyles:
+  - "/assets/css/lead-providers.css"
+  - "/assets/css/simple-buying-guide.css"
+  - "/assets/css/process-video-preview.css"
+  - "/assets/css/salesroads-comparison.css"
+---
+{% set guide = salesroadsComparison %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "isPartOf": { "@id": "{{ site.websiteId }}" },
+      "breadcrumb": { "@id": "{{ canonicalUrl }}#breadcrumb" },
+      "mainEntity": { "@id": "{{ canonicalUrl }}#article" },
+      "inLanguage": "{{ contentLanguage }}"
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ canonicalUrl }}#article",
+      "headline": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "mainEntityOfPage": { "@id": "{{ canonicalUrl }}#webpage" },
+      "author": { "@id": "{{ site.organizationId }}" },
+      "publisher": { "@id": "{{ site.organizationId }}" },
+      "dateModified": "{{ modified }}",
+      "inLanguage": "{{ contentLanguage }}",
+      "about": [
+        { "@id": "{{ site.organizationId }}" },
+        { "@type": "Organization", "name": "SalesRoads", "url": "https://salesroads.com/" }
+      ],
+      "citation": [{% for key, source in guide.sources %}{{ source.url | json | safe }}{% if not loop.last %}, {% endif %}{% endfor %}]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/" },
+        { "@type": "ListItem", "position": 3, "name": "CallTeam vs SalesRoads", "item": "{{ canonicalUrl }}" }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="lp-page salesroads-page" id="simple-guide">
+  <div class="lp-hero-shell"><div class="lp-wrap">
+    <nav class="lp-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span aria-hidden="true">/</span>
+      <a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span aria-hidden="true">/</span>
+      <span aria-current="page">CallTeam vs SalesRoads</span>
+    </nav>
+    <div class="lp-hero">
+      <div>
+        <h1>CallTeam vs <span>SalesRoads</span>
+          <small>Pricing and outsourced SDRs</small>
+        </h1>
+        <p class="lp-intro">Choose CallTeam to build and run your outbound campaign. We find contacts, call, follow up and give your sellers the facts behind each qualified meeting. SalesRoads fits teams that want a dedicated prospecting rep backed by a strategist and coach.</p>
+        <div class="lp-actions">
+          <a class="lp-button" href="#comparison">Compare the two offers <span aria-hidden="true">↓</span></a>
+          <a class="lp-text-link" href="#delivery">See how CallTeam runs a campaign <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <aside class="lp-brief salesroads-case-brief" aria-labelledby="salesroads-case-heading">
+        <h2 id="salesroads-case-heading">Manufacturing campaign</h2>
+        <p class="salesroads-hero-result">9 qualified appointments</p>
+        <p>Booked in 90 days. Three advanced to sales opportunities.</p>
+        <a href="#results">See how we got there <span aria-hidden="true">↓</span></a>
+      </aside>
+    </div>
+  </div></div>
+
+  <nav class="lp-jump" aria-label="On this page"><div class="lp-wrap">
+    <a href="#comparison">Compare offers</a><a href="#pricing">Billing</a><a href="#delivery">Campaign delivery</a><a href="#results">Results</a><a href="#questions">FAQs</a>
+  </div></nav>
+
+  <section class="lp-section salesroads-first-section" id="comparison"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>What you get with each service</h2>
+      <p>CallTeam offers managed calling and publishes this comparison. Prices and scope checked <time datetime="{{ guide.checkedDate }}">{{ guide.checkedLabel }}</time>.</p>
+    </div>
+    <div class="sg-table-wrap">
+      <table class="lp-table sg-table salesroads-table" role="table">
+        <caption>Service, starting price, outreach and sales handoff</caption>
+        <thead><tr role="row"><th scope="col" role="columnheader">What to compare</th><th scope="col" role="columnheader">CallTeam</th><th scope="col" role="columnheader">SalesRoads</th></tr></thead>
+        <tbody>
+          <tr role="row">
+            <th scope="row" role="rowheader">What you buy</th>
+            <td role="cell" data-label="CallTeam">A managed outbound campaign. We can research the audience, build the list and run the outreach.</td>
+            <td role="cell" data-label="SalesRoads">Dedicated sales development reps (SDRs) with prospect research, coaching, a strategist and campaign systems.</td>
+          </tr>
+          <tr role="row">
+            <th scope="row" role="rowheader">Starting price</th>
+            <td role="cell" data-label="CallTeam"><strong>{{ guide.callTeamMonthly }} per month</strong> with an offer and accounts ready to call. We quote list building and data as part of your campaign.</td>
+            <td role="cell" data-label="SalesRoads"><strong>{{ guide.salesroadsFourWeekRate }} per four weeks</strong> for one SDR on its main pricing page.</td>
+          </tr>
+          <tr role="row">
+            <th scope="row" role="rowheader">Outreach</th>
+            <td role="cell" data-label="CallTeam">Human cold calling, scheduled callbacks and email follow-up where agreed.</td>
+            <td role="cell" data-label="SalesRoads">Outbound calling and personalized email. Its dedicated program includes a playbook and prospect data.</td>
+          </tr>
+          <tr role="row">
+            <th scope="row" role="rowheader">What sales receives</th>
+            <td role="cell" data-label="CallTeam">A qualified appointment with the buyer’s reason to meet, current approach and agreed next step in your CRM.</td>
+            <td role="cell" data-label="SalesRoads">Qualified meetings on appointment-setting plans, CRM integration and a performance dashboard.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sg-sources"><a href="/pricing/">CallTeam pricing</a> · <a href="{{ guide.sources.salesroadsPricing.url }}">SalesRoads pricing and inclusions</a></p>
+    <div class="salesroads-billing" id="pricing">
+      <h3>Four-week billing means {{ guide.fourWeekPeriods }} invoices in 52 weeks</h3>
+      <p>At the dedicated SDR rate, a continuous 52-week run would cost <strong>{{ guide.salesroadsYear }}</strong>. That works out to about <strong>{{ guide.salesroadsMonthlyEquivalent }} per calendar month</strong>.</p>
+      <p>SalesRoads also lists <strong>{{ guide.fractionalAppointmentRate }} fractional</strong> and <strong>{{ guide.fullAppointmentRate }} full SDR</strong> on its <a href="{{ guide.sources.salesroadsAppointments.url }}">appointment-setting page</a>, both per four weeks. Ask which rate and scope apply to your campaign.</p>
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="delivery"><div class="lp-wrap">
+    <div class="lp-heading"><h2>How CallTeam earns a qualified meeting</h2></div>
+    <div class="salesroads-process">
+      <div>
+        <h3>Find people with a reason to talk</h3>
+        <p>Tell us what you sell and who benefits. We can research companies, find the people who own the problem and build a fresh list around that brief.</p>
+      </div>
+      <div>
+        <h3>Use the call to learn what’s happening</h3>
+        <p>Ask how the buyer handles the work today, where it breaks down and when they would consider a change. Their answers tell us whether to book, call later or move on.</p>
+      </div>
+      <div>
+        <h3>Follow up on the buyer’s timing</h3>
+        <p>If a buyer says their contract renews next quarter, we record the timing and agree when to call back. We send what they asked for, confirm the meeting and try to rebook missed slots.</p>
+      </div>
+      <div>
+        <h3>Give sales a useful opening</h3>
+        <p>Your rep gets the buyer’s role, what they want to discuss and any open questions. They can start the meeting with the issue the buyer raised.</p>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="lp-section" id="results"><div class="lp-wrap">
+    <div class="lp-heading"><h2>How factory uptime led to sales conversations</h2></div>
+    <div class="sg-two salesroads-proof">
+      {{ processVideoPreview('See how CallTeam qualifies and follows up', 'Watch the steps from choosing accounts to briefing your salesperson.', 'callteam-vs-salesroads') }}
+      <article class="salesroads-case">
+        <h3>Three opportunities from nine qualified appointments</h3>
+        <p>In a 90-day cybersecurity campaign, we called manufacturing leaders about downtime and recovery. One buyer entered near-term talks about changing providers. Two opportunities needed longer follow-up.</p>
+        <a href="/case-studies/manufacturing-cybersecurity-appointment-setting/">Read the manufacturing cybersecurity case study <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="choose"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>Compare both quotes on the same work</h2>
+      <p>Give both providers the same buyer profile and ask for the full price, including any data and setup fees. Once the campaign runs, divide that spend by the meetings that took place and met your criteria.</p>
+    </div>
+    <div class="sg-mid-cta">
+      <p><strong>Want CallTeam to take this on?</strong> Bring your offer and target market. We’ll map the list, calling and follow-up you need.</p>
+      <a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="callteam-vs-salesroads">Book a free 30-minute call <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="salesroads-next-step"><a href="/b2b-outbound-campaign-planner/">See how we’d run your campaign <span aria-hidden="true">→</span></a></p>
+  </div></section>
+
+  <section class="lp-section" id="questions"><div class="lp-wrap lp-faq-wrap">
+    <div class="lp-heading"><h2>CallTeam vs SalesRoads FAQs</h2></div>
+    <div class="lp-faqs">{% for faq in guide.faqs %}<details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>{% endfor %}</div>
+  </div></section>
+
+  <section class="lp-section lp-paper salesroads-sources" id="sources"><div class="lp-wrap">
+    <div class="lp-heading"><h2>Sources</h2></div>
+    <ul>{% for key, source in guide.sources %}<li><a href="{{ source.url }}">{{ source.label }}</a></li>{% endfor %}</ul>
+    <p>For more options, see the <a href="/resources/b2b-lead-generation-pricing-report/">B2B lead generation pricing report</a>.</p>
+  </div></section>
+</main>
