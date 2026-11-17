@@ -193,6 +193,8 @@ Agree how sales will report acceptance, attendance and the next commercial step.
 
 ## Compare the full agency cost
 
+See the [2027 B2B lead generation pricing report](/resources/b2b-lead-generation-pricing-report/) for published agency fees, billing cycles and minimum terms.
+
 Use the same currency, evaluation period, data requirements and staffing assumptions for each proposal. Separate one-time setup charges, recurring service fees, software, variable payments and work your own team must perform.
 
 For example, 13 four-week billing periods cover 52 weeks, while a calendar-month agreement normally has 12 monthly charges in a year. That arithmetic matters for a long-running engagement, although the actual contract determines what you pay and for how long.
