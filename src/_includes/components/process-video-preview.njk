@@ -1,32 +1,15 @@
+{% from "components/inline-video.njk" import videoPlayer, inlineWatch %}
 {% macro processVideoPreview(heading, description, placement) %}
-<a class="ct-process-preview" href="/videos/callteam-process-demo/" data-process-video-placement="{{ placement }}">
-  <span class="ct-process-preview__image">
-    <img src="/assets/video/callteam-process-demo-poster.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async">
-    <span class="ct-process-preview__play" aria-hidden="true">▶</span>
-    <span class="ct-process-preview__duration">78 seconds</span>
-  </span>
-  <span class="ct-process-preview__body">
-    <strong>{{ heading }}</strong>
-    <span>{{ description }}</span>
-    <span class="ct-process-preview__link">Watch the demonstration <span aria-hidden="true">→</span></span>
-  </span>
-</a>
-{% endmacro %}
-
-{% macro processVideoInline(heading, description, placement) %}
-<figure class="ct-process-preview ct-process-inline">
-  <video controls playsinline preload="none" width="1920" height="1080"
-    poster="/assets/video/callteam-process-demo-poster.jpg"
-    aria-label="CallTeam’s 78-second calling process"
-    data-process-video-placement="{{ placement }}">
-    <source src="/assets/video/callteam-process-demo.mp4" type="video/mp4">
-    <track src="/assets/video/callteam-process-demo-en.vtt" kind="captions" srclang="en" label="English">
-    <a href="/videos/callteam-process-demo/">Watch the CallTeam demo</a>
-  </video>
+<figure class="ct-process-preview ct-process-inline" id="{{ placement }}-video">
+  {{ videoPlayer("callteam-process-demo", 1920, 1080, "CallTeam’s 78-second calling process", {poster: true, captions: true, placement: placement}) }}
   <figcaption class="ct-process-preview__body">
     <strong>{{ heading }}</strong>
     <span>{{ description }}</span>
     <a href="/videos/callteam-process-demo/#transcript">Read the transcript</a>
   </figcaption>
 </figure>
+{% endmacro %}
+
+{% macro processVideoWatch(label, placement) %}
+  {{ inlineWatch(label, "callteam-process-demo", 1920, 1080, true, placement) }}
 {% endmacro %}

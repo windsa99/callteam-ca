@@ -1,0 +1,20 @@
+{% macro videoPlayer(asset, width, height, label, options) -%}
+{% if options.poster %}<div class="ct-inline-media">{% endif %}
+<video controls playsinline preload="none" width="{{ width }}" height="{{ height }}"
+  aria-label="{{ label }}"{% if options.id %} id="{{ options.id }}"{% endif %}
+  {% if options.placement %}data-process-video-placement="{{ options.placement }}"{% endif %}
+  {% if options.poster %}poster="/assets/video/{{ asset }}-poster.jpg"{% endif %}>
+  <source src="/assets/video/{{ asset }}.mp4" type="video/mp4">
+  {% if options.captions %}<track src="/assets/video/{{ asset }}-en.vtt" kind="captions" srclang="en" label="English">{% endif %}
+  <a href="/assets/video/{{ asset }}.mp4">Open the video file</a>
+</video>
+{% if options.poster %}  <button class="ct-inline-start" type="button" data-inline-start aria-label="Play {{ label }}" hidden><span aria-hidden="true">▶</span></button>
+</div>{% endif %}
+{%- endmacro %}
+
+{% macro inlineWatch(label, asset, width, height, captions, placement) %}
+<details class="ct-inline-watch">
+  <summary data-inline-watch>{{ label }}</summary>
+  {{ videoPlayer(asset, width, height, label, {captions: captions, placement: placement}) }}
+</details>
+{% endmacro %}

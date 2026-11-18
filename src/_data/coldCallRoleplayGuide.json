@@ -23,7 +23,7 @@
     "title": "Give every simulator the same opener",
     "copy": "Hear the question and the pause in this CallTeam example. Use the same wording in each trial so you can judge how the simulated buyer reacts.",
     "url": "/videos/cold-call-opener-example/",
-    "poster": "/assets/video/callteam-cold-call-opener-poster.jpg",
+    "asset": "callteam-cold-call-opener",
     "width": 540,
     "height": 960,
     "label": "Cold call opener: the first 15 seconds"

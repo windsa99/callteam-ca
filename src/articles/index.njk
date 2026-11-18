@@ -7,6 +7,7 @@ canonicalUrl: "https://www.callteam.ca/articles/"
 permalink: "/articles/"
 modified: "2026-11-11"
 ---
+{% from "components/process-video-preview.njk" import processVideoWatch %}
 
 <script type="application/ld+json">
 {
@@ -168,7 +169,7 @@ modified: "2026-11-11"
         <span class="article-card-label">78-second demonstration</span>
         <h3>How CallTeam Works</h3>
         <p>Follow a prospect through human calling, qualification and the notes your sales team receives.</p>
-        <a href="/videos/callteam-process-demo/" class="card-link" data-process-video-placement="articles-index">Watch how CallTeam works →</a>
+        {{ processVideoWatch("Watch how CallTeam works · 78 sec", "articles-index") }}
       </article>
       {% for article in collections.articles | reverse %}
         {% if article.data.cluster == "B2B Appointment Setting" %}

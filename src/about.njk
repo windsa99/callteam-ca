@@ -12,6 +12,7 @@ date: 2026-08-15
 modified: "2026-11-11"
 awardPlacements: true
 ---
+{% from "components/process-video-preview.njk" import processVideoWatch %}
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
 
 <script type="application/ld+json">
@@ -307,7 +308,7 @@ awardPlacements: true
         <article><span>03</span><h3>Create the conversation</h3><p>Make the calls, listen, handle objections, follow up, qualify the opportunity, and protect the quality of the calendar.</p></article>
         <article><span>04</span><h3>Transfer and learn</h3><p>Book the next step, record useful context, update the CRM, support attendance, review outcomes, and improve the campaign.</p></article>
       </div>
-      <p><a class="card-link" href="/videos/callteam-process-demo/" data-process-video-placement="about">Watch how we work · 78 sec</a></p>
+      {{ processVideoWatch("Watch how we work · 78 sec", "about") }}
     </div>
   </section>
 

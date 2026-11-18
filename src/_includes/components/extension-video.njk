@@ -1,3 +1,4 @@
+{% from "components/inline-video.njk" import inlineWatch %}
 {% macro extensionLesson(key, placement) %}
 {% set lesson = extensionVideos[key] %}
 {% from "components/chrome-extension.njk" import storeBadge with context %}
@@ -10,7 +11,8 @@
   <blockquote id="extension-information-words">Sure. Should I send an approval-routing example or an overview of the process?</blockquote>
   <button class="ctl-copy" type="button" data-copy-target="extension-information-words" hidden>Copy the response</button><span class="ctl-copy-status" role="status" aria-live="polite"></span>
   <p>Send the item they choose. Schedule a follow-up only if they agree. Record the request as <strong>information requested</strong>.</p>
-  <p class="ctev-small">Illustrative adaptation of the accounts payable script. <a href="/assets/video/callteam-send-me-information.mp4">Watch the original coaching example (35 seconds)</a>.</p>
+  <p class="ctev-small">Illustrative adaptation of the accounts payable script.</p>
+  {{ inlineWatch("Watch the original 35-second coaching example", "callteam-send-me-information", 720, 1280, true) }}
   {% else %}<p>Keep the words beside your dialer. Make them fit your business and the person you are calling.</p>{% endif %}
   <div class="ctev-actions">{{ storeBadge(placement + "-video") }}<a href="/cold-call-script-chrome-extension/">Explore the free Chrome extension →</a></div>
  </div>

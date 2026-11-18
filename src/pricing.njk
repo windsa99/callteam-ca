@@ -12,6 +12,7 @@ date: 2026-08-15
 modified: "2026-11-11"
 awardPlacements: true
 ---
+{% from "components/process-video-preview.njk" import processVideoWatch %}
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
 
 <script type="application/ld+json">
@@ -215,7 +216,7 @@ awardPlacements: true
         <article><span>11</span><h3>CRM and sales handoff</h3><p>Useful notes, buyer context, commitments, and unknowns.</p></article>
         <article><span>12</span><h3>Weekly optimization</h3><p>Reporting, call learning, feedback, and campaign improvement.</p></article>
       </div>
-      <p><a class="card-link" href="/videos/callteam-process-demo/" data-process-video-placement="pricing">Watch how we work · 78 sec</a></p>
+      {{ processVideoWatch("Watch how we work · 78 sec", "pricing") }}
     </div>
   </section>
 

@@ -8,6 +8,7 @@ eleventyComputed:
 canonicalUrl: "https://www.callteam.ca/resources/cold-call-scripts/"
 modified: "2026-11-12"
 ---
+{% from "components/inline-video.njk" import videoPlayer %}
 {% from "components/extension-video.njk" import extensionLesson with context %}
 {% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
 
@@ -57,7 +58,11 @@ modified: "2026-11-12"
         <p class="hub-kicker"><span aria-hidden="true"></span>{{ callScripts.length }} free B2B scripts</p>
         <h1 id="hub-title">A B2B Cold Calling Script You Can Use Today</h1>
         <p class="script-hub-lead">Alex at CallTeam calls a sales leader about accounts their reps haven’t reached. See when he asks for ten minutes.</p>
-        <a class="ctl-thumbnail" href="/videos/cold-call-opener-example/" aria-label="Watch the cold call opener demonstration"><img src="/assets/video/callteam-cold-call-opener-poster.jpg" width="540" height="960" alt="Cold call opener demonstration" loading="lazy"><span><em>▶ {{ callingLessons.opener.label }}</em><strong>Hear the first 15 seconds.</strong><span>Listen to the opener, the pause and the buyer’s reply.</span></span></a>
+        <details class="ct-inline-watch">
+          <summary class="ctl-thumbnail" data-inline-watch><img src="/assets/video/callteam-cold-call-opener-poster.jpg" width="540" height="960" alt="" loading="lazy"><span><em>▶ {{ callingLessons.opener.label }}</em><strong>Hear the first 15 seconds.</strong><span>Listen to the opener, the pause and the buyer’s reply.</span></span></summary>
+          {{ videoPlayer("callteam-cold-call-opener", 720, 1280, callingLessons.opener.title, {captions: true}) }}
+        </details>
+        <a class="card-link" href="/videos/cold-call-opener-example/#opener-transcript">Read the opener transcript</a>
       </div>
       <div class="hub-call-card" aria-label="Illustrative CallTeam script">
         <p class="hub-card-label">Illustrative CallTeam script</p>

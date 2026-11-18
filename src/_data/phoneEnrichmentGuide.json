@@ -61,7 +61,7 @@
     "title": "Choose the prospect before you buy the number",
     "copy": "This CallTeam example compares two prospects. One has a mobile number. The other fits the campaign and has a company line. See who gets the first call.",
     "url": "/articles/b2b-prospect-list-building-services/#prospect-lesson",
-    "poster": "/assets/video/callteam-which-prospect-first-poster.jpg",
+    "asset": "callteam-which-prospect-first",
     "width": 540,
     "height": 960,
     "label": "Which prospect should you call first?"

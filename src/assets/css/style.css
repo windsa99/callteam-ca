@@ -9974,6 +9974,54 @@ footer .flinks a:hover {
   text-align: right;
 }
 
+.ct-inline-watch {
+  min-width: 0;
+}
+
+.ct-inline-watch > summary {
+  width: fit-content;
+  max-width: 100%;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.ct-inline-watch > summary.ctl-thumbnail {
+  width: auto;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.ct-inline-watch > summary:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 4px;
+}
+
+.ct-inline-watch > video {
+  display: block;
+  width: min(100%, 560px);
+  height: auto;
+  margin-top: 8px;
+  background: #151515;
+}
+
+.ct-inline-watch > video[height="1280"],
+.ct-inline-watch > video[height="1920"] {
+  width: min(100%, 240px);
+}
+
+.footer-nav-column .ct-inline-watch > summary {
+  color: #999;
+  font-size: 11.5px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-nav-column .ct-inline-watch > summary:hover {
+  color: var(--orange);
+}
+
 /* Services hub */
 .services-hub-page,
 .appointment-page {

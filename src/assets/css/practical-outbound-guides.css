@@ -47,13 +47,9 @@
   margin: 0;
 }
 
-.po-guide .po-video .ct-process-preview__image {
-  aspect-ratio: 16 / 7;
-}
-
-.po-guide .po-video .ct-process-preview__image img {
-  object-fit: contain;
-  background: #151515;
+.po-guide .po-video .ct-process-inline--portrait {
+  width: min(100%, 220px);
+  justify-self: center;
 }
 
 .po-guide .dg-reviews .lp-provider h3 {

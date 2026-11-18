@@ -18,6 +18,7 @@ pageScripts:
 date: "2026-10-16"
 modified: "2026-11-11"
 ---
+{% from "components/process-video-preview.njk" import processVideoWatch %}
 {% from "components/process-short.njk" import processShort %}
 
 <script type="application/ld+json">
@@ -54,7 +55,7 @@ modified: "2026-11-11"
     <div class="uce-wrap">
       {% call processShort("handoff-lesson", "callteam-sales-meeting-handoff", "Four fields for a sales meeting handoff") %}
         <p>Give the rep the buyer’s role, their reason to meet, what still needs confirming and the next step they agreed to.</p>
-        <p><a href="/videos/callteam-process-demo/" class="uce-link" data-process-video-placement="us-campaign-example">Watch the full 78-second campaign walkthrough <span aria-hidden="true">→</span></a></p>
+        {{ processVideoWatch("Watch the 78-second campaign walkthrough", "us-campaign-example") }}
       {% endcall %}
     </div>
   </section>

@@ -24,7 +24,7 @@
     "title": "See how CallTeam runs an outbound campaign",
     "copy": "This 78-second walkthrough shows how we select accounts, make calls, qualify interest and hand meetings to your sales team.",
     "url": "/videos/callteam-process-demo/",
-    "poster": "/assets/video/callteam-process-demo-poster.jpg",
+    "asset": "callteam-process-demo",
     "width": 1920,
     "height": 1080,
     "label": "How CallTeam works · 78 seconds"

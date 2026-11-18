@@ -1,3 +1,4 @@
+{% from "components/inline-video.njk" import inlineWatch %}
 {% from "components/calling-lesson.njk" import player, schema, transcript, copy %}
 {% set lesson = callingLessons[callingLesson] %}
 <div class="container ctl-article-lesson">
@@ -11,12 +12,12 @@
   {{ copy("information-words", "Copy the response") }}
   <p><strong>Then:</strong> send the item they chose. Ask whether a follow-up would help. Schedule it only if they agree.</p>
   <p><strong>CRM status:</strong> information requested. Record what they asked for and any agreed follow-up.</p>
-  <p class="ctl-related">For an agreed callback, <a href="/b2b-cold-calling-campaign-process/#callback-lesson">hear the “call me next week” example</a>.</p>
+  {{ inlineWatch("Hear the “call me next week” example", "callteam-call-me-next-week", 1080, 1920, false) }}
   {% else %}
   <p><strong>The brief:</strong> controllers at distributors with several locations. Topic: invoice approvals.</p>
   <dl class="ctl-prospects"><div><dt>Prospect A</dt><dd>One location. CEO mobile available. Outside the brief.</dd></div><div><dt>Prospect B</dt><dd>Three locations. Named controller. Company number available.</dd></div></dl>
   <p><strong>Call B first.</strong> Check exclusions and existing CRM records, then ask for the controller. Confirm who owns invoice approvals during the conversation.</p>
-  <p class="ctl-related">Ready to call? <a href="/videos/cold-call-opener-example/">Hear an opening question and how to pause</a>.</p>
+  {{ inlineWatch("Hear an opening question and how to pause", "callteam-cold-call-opener", 720, 1280, true) }}
   {% endif %}
   <p class="ctl-note">Illustrative example · English narration and captions</p>
  </div>

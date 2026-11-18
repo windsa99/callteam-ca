@@ -12,6 +12,7 @@ pageStyles:
   - "/assets/css/process-video-preview.css"
   - "/assets/css/outbound-buyer-pages.css"
 ---
+{% from "components/inline-video.njk" import inlineWatch %}
 {% set service = financialAppointmentSetting %}
 {% include "commercial/market-schema.njk" %}
 {% from "components/process-video-preview.njk" import processVideoPreview %}
@@ -117,7 +118,8 @@ pageStyles:
           <h3>When the buyer already has an analyst team</h3>
           <p><strong>Buyer:</strong> “We have our own analyst team.”</p>
           <p><strong>Caller:</strong> “When a deal team needs a model by tomorrow, who decides what can wait?”</p>
-          <p>Bring your own opening to the <a href="/cold-call-script-checker/">free Cold Call Script Checker</a> or <a href="/videos/cold-call-opener-example/">hear a CallTeam opener</a>.</p>
+          <p>Try your opening in the <a href="/cold-call-script-checker/">free Cold Call Script Checker</a>.</p>
+          {{ inlineWatch("Hear a CallTeam opener", "callteam-cold-call-opener", 720, 1280, true) }}
         </aside>
       </div>
       <p class="mp-caption">Your specialists run the sales meeting, answer detailed questions and own proposals. See how we agree on <a href="/articles/appointment-setting-crm-integration/">CRM ownership and handoff</a>.</p>

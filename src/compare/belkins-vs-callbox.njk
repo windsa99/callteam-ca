@@ -17,7 +17,7 @@ pageStyles:
 {% set guide = belkinsCallboxComparison %}
 {% set prices = guide.prices %}
 {% set sources = guide.sources %}
-{% from "components/process-video-preview.njk" import processVideoInline %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -77,7 +77,7 @@ pageStyles:
         <p class="lp-intro">Start with the first three months of costs. Then check the contract length, calling coverage and who owns the follow-up.</p>
         <div class="lp-actions">
           <a class="lp-button" href="#comparison">Compare prices <span aria-hidden="true">↓</span></a>
-          <a class="lp-text-link" href="#callteam">Watch how CallTeam works <span aria-hidden="true">↓</span></a>
+          <a class="lp-text-link" href="#belkins-vs-callbox-video" data-inline-play>Watch how CallTeam works <span aria-hidden="true">↓</span></a>
         </div>
       </div>
       <aside class="lp-brief" aria-labelledby="belkins-callbox-fit">
@@ -95,7 +95,7 @@ pageStyles:
   <nav class="lp-jump" aria-label="On this page"><div class="lp-wrap">
     <a href="#comparison">Price table</a>
     <a href="#budget">Budget examples</a>
-    <a href="#callteam">CallTeam video</a>
+    <a href="#belkins-vs-callbox-video" data-inline-play>CallTeam video</a>
     <a href="#quote">Compare quotes</a>
     <a href="#questions">FAQs</a>
   </div></nav>
@@ -178,7 +178,7 @@ pageStyles:
       <p>Managed calling starts at <strong>{{ prices.callTeamMonthly }} per month</strong> when you have accounts ready to call. List research and data can be part of the quote. <a href="/pricing/">CallTeam pricing and scope</a>.</p>
     </div>
     <div class="sg-two bvc-proof">
-      {{ processVideoInline('CallTeam’s calling process', 'See how we pick accounts, follow up and give sales the reason a buyer agreed to meet.', 'belkins-vs-callbox') }}
+      {{ processVideoPreview('CallTeam’s calling process', 'See how we pick accounts, follow up and give sales the reason a buyer agreed to meet.', 'belkins-vs-callbox') }}
       <article class="lp-pair-card">
         <h3>18 meetings booked in 90 days</h3>
         <p>We asked finance buyers where outside analysts could help on live deals. The calls covered financial modelling, company comparisons and deal support.</p>

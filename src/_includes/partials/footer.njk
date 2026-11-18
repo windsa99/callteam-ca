@@ -1,3 +1,4 @@
+{% from "components/process-video-preview.njk" import processVideoWatch %}
 {% from "components/chrome-extension.njk" import storeBadge with context %}
 <footer id="site-footer">
   <div class="footer-top">
@@ -48,7 +49,7 @@
     <div class="footer-nav-column">
       <strong>CallTeam</strong>
       <a href="/about/">About CallTeam</a>
-      <a href="/videos/callteam-process-demo/" data-process-video-placement="footer">Watch how we work · 78 sec</a>
+      {{ processVideoWatch("Watch our 78-second demo", "footer") }}
       <a href="/awards/" id="footer-awards-link">Awards & Recognition</a>
       <a href="/services/">All Services</a>
       <a href="/pricing/">Pricing</a>

@@ -1,18 +1,15 @@
+{% from "components/inline-video.njk" import videoPlayer %}
 {% if guide.video %}
 <div class="po-video">
   <div>
     <h2>{{ guide.video.title }}</h2>
     <p>{{ guide.video.copy }}</p>
   </div>
-  <a class="ct-process-preview" href="{{ guide.video.url }}" data-process-video-placement="{{ guide.slug }}">
-    <span class="ct-process-preview__image">
-      <img src="{{ guide.video.poster }}" alt="" width="{{ guide.video.width }}" height="{{ guide.video.height }}" loading="lazy" decoding="async">
-      <span class="ct-process-preview__play" aria-hidden="true">▶</span>
-    </span>
-    <span class="ct-process-preview__body">
+  <figure class="ct-process-preview ct-process-inline{% if guide.video.height > guide.video.width %} ct-process-inline--portrait{% endif %}">
+    {{ videoPlayer(guide.video.asset, guide.video.width, guide.video.height, guide.video.label, {poster: true, captions: true, placement: guide.slug}) }}
+    <figcaption class="ct-process-preview__body">
       <strong>{{ guide.video.label }}</strong>
-      <span class="ct-process-preview__link">Watch the video <span aria-hidden="true">→</span></span>
-    </span>
-  </a>
+    </figcaption>
+  </figure>
 </div>
 {% endif %}
