@@ -17,7 +17,7 @@ pageStyles:
 {% set guide = belkinsCallboxComparison %}
 {% set prices = guide.prices %}
 {% set sources = guide.sources %}
-{% from "components/process-video-preview.njk" import processVideoPreview %}
+{% from "components/process-video-preview.njk" import processVideoInline %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -178,7 +178,7 @@ pageStyles:
       <p>Managed calling starts at <strong>{{ prices.callTeamMonthly }} per month</strong> when you have accounts ready to call. List research and data can be part of the quote. <a href="/pricing/">CallTeam pricing and scope</a>.</p>
     </div>
     <div class="sg-two bvc-proof">
-      {{ processVideoPreview('See CallTeam’s calling process', 'Watch how we pick accounts, follow up and give sales the reason a buyer agreed to meet.', 'belkins-vs-callbox') }}
+      {{ processVideoInline('CallTeam’s calling process', 'See how we pick accounts, follow up and give sales the reason a buyer agreed to meet.', 'belkins-vs-callbox') }}
       <article class="lp-pair-card">
         <h3>18 meetings booked in 90 days</h3>
         <p>We asked finance buyers where outside analysts could help on live deals. The calls covered financial modelling, company comparisons and deal support.</p>

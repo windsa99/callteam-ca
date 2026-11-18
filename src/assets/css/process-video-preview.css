@@ -1,4 +1,4 @@
-/* Only loaded by pages with a process-video thumbnail. */
+/* Only loaded by pages that feature the process video. */
 .ct-process-preview {
   display: block;
   min-width: 0;
@@ -75,6 +75,21 @@
 .ct-process-preview__body > .ct-process-preview__link {
   font-weight: 600;
   text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.ct-process-inline {
+  margin: 0;
+}
+.ct-process-inline video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #151515;
+}
+.ct-process-inline figcaption a {
+  font-size: 14px;
+  font-weight: 600;
   text-underline-offset: 4px;
 }
 .ct-home-video-grid {

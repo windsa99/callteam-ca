@@ -12,3 +12,21 @@
   </span>
 </a>
 {% endmacro %}
+
+{% macro processVideoInline(heading, description, placement) %}
+<figure class="ct-process-preview ct-process-inline">
+  <video controls playsinline preload="none" width="1920" height="1080"
+    poster="/assets/video/callteam-process-demo-poster.jpg"
+    aria-label="CallTeam’s 78-second calling process"
+    data-process-video-placement="{{ placement }}">
+    <source src="/assets/video/callteam-process-demo.mp4" type="video/mp4">
+    <track src="/assets/video/callteam-process-demo-en.vtt" kind="captions" srclang="en" label="English">
+    <a href="/videos/callteam-process-demo/">Watch the CallTeam demo</a>
+  </video>
+  <figcaption class="ct-process-preview__body">
+    <strong>{{ heading }}</strong>
+    <span>{{ description }}</span>
+    <a href="/videos/callteam-process-demo/#transcript">Read the transcript</a>
+  </figcaption>
+</figure>
+{% endmacro %}
