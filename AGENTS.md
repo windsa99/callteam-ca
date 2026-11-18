@@ -62,4 +62,5 @@ User preference confirmed 8 November 2026:
 - Omit generic benchmark disclaimers and repeated explanations of what the guide is or is not. Do not invent firsthand tests, benchmark results or universal winners.
 - Keep specific facts that change the buying decision: published prices, billing terms, minimum seats, usage charges, add-ons, feature limits and material unknowns. Explain these once where they help the reader.
 - Link product facts to official sources and keep an accurate checked date. Any genuinely material commercial disclosure still belongs in a short, relevant note.
+- On agency comparison pages, describe CallTeam’s live voicemails and approved voicemail drops where relevant to the calling scope. Distinguish a voicemail left during a call from a prerecorded drop used after reaching voicemail.
 - Preserve SEO targeting, useful cross-links, free resources and booking calls to action when tightening copy. Test affected tools and links before publication.
