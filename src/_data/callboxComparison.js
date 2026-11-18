@@ -14,6 +14,7 @@ module.exports = {
   checkedDate: '2026-11-17',
   checkedLabel: '17 November 2026',
   callTeamMonthly: formatUsd(callTeamMonthly),
+  callboxPerPod,
   callboxMonthly: formatUsd(callboxPerPod),
   startingPriceGap: formatUsd(callboxPerPod - callTeamMonthly),
   twoPods: formatUsd(callboxPerPod * 2),
