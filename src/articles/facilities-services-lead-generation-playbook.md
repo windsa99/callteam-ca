@@ -152,6 +152,8 @@ Once ownership is clear, ask how supplier reviews work and whether there is a cu
 
 The [commercial cleaning script](/resources/cold-call-scripts/commercial-cleaning-cold-call-script-property-owners/) contains a complete call flow. The [security services script](/resources/cold-call-scripts/security-guard-services-cold-call-script/) uses a different coverage conversation. Do not mix the two offers into a generic building-services pitch.
 
+For a team to research accounts, check service fit and book walkthroughs, see our [lead generation service for commercial contractors](/services/commercial-contractor-lead-generation/).
+
 ## Make serviceability part of appointment qualification
 
 Capture the minimum information needed to assess a useful next step:
