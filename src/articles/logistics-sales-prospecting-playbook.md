@@ -192,3 +192,5 @@ A booked call with no lane, facility, volume, workflow, or decision reason is we
 CallTeam can manage ICP design, account research, human calling, qualification, follow-up, confirmation, and sales-ready CRM handoff. AI helps prepare data and signals. Experienced callers test the real operating conditions and know when the opportunity should be disqualified.
 
 Explore [outsourced SDR services](/services/outsourced-sdr/) or [book a strategy call](https://calendly.com/hello-callteam/new-meeting) to build a logistics campaign around a network your team can actually serve.
+
+Need a team to call shippers and qualify the next conversation? See [lead generation for freight brokers and 3PLs](/services/freight-broker-lead-generation/).

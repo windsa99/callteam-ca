@@ -206,3 +206,5 @@ If many meetings fail because the agency cannot recruit the role, narrow the ICP
 CallTeam can manage employer account selection, signal research, prospect preparation, human cold calling, workforce qualification, follow-up, meeting confirmation, attendance reporting, and CRM handoff. The campaign is designed to find a real employer decision, not to turn every vacancy into a sales claim.
 
 Explore [B2B appointment setting](/services/b2b-appointment-setting/) or [book a strategy call](https://calendly.com/hello-callteam/new-meeting) to create a staffing outbound program around roles your recruiting team can credibly fill.
+
+Need a team to call employers while your recruiters fill roles? Explore [lead generation for staffing agencies](/services/staffing-agency-lead-generation/).

@@ -1,0 +1,109 @@
+{% include "commercial/market-schema.njk" %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+{% set bookingUrl = "https://calendly.com/hello-callteam/new-meeting" %}
+<main class="mp-page">
+  <div class="mp-hero-shell">
+    <div class="mp-wrap">
+      <nav class="mp-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <a href="/services/">Services</a><span aria-hidden="true">/</span>
+        <span aria-current="page">{{ service.name }}</span>
+      </nav>
+      <div class="mp-hero">
+        <div>
+          <p class="mp-kicker">{{ service.label }}</p>
+          <h1>Lead Generation for <span>{{ service.headline }}</span></h1>
+          <p class="mp-lead">{{ service.summary }}</p>
+          <p>The experience behind CallTeam spans 150+ companies. <a href="/case-studies/">See our campaign work</a>.</p>
+          <div class="mp-actions">
+            <a class="mp-button" href="{{ bookingUrl }}" data-booking-placement="{{ service.placement }}-hero">{{ service.bookingLabel }}</a>
+            <a class="mp-text-link" href="#qualification">See what we qualify</a>
+          </div>
+        </div>
+        <aside class="mp-note" aria-labelledby="sample-title">
+          <p class="mp-label">Illustrative sales handoff</p>
+          <h2 id="sample-title">{{ service.sample.title }}</h2>
+          <dl>
+            {% for field in service.sample.fields %}
+            <div><dt>{{ field.name }}</dt><dd>{{ field.value }}</dd></div>
+            {% endfor %}
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <nav class="mp-jump" aria-label="On this page"><div class="mp-wrap">
+    <a href="#qualification">Qualification</a><a href="#buyers">Who we call</a><a href="#calling">How we work</a><a href="#pricing">Pricing</a><a href="#questions">FAQs</a>
+  </div></nav>
+
+  <section class="mp-section mp-paper" id="qualification">
+    <div class="mp-wrap mp-split">
+      <div>
+        <h2>{{ service.qualification.title }}</h2>
+        <ul class="mp-checks">
+          {% for check in service.qualification.checks %}
+          <li><strong>{{ check.name }}.</strong> {{ check.value }}</li>
+          {% endfor %}
+        </ul>
+        <p>{{ service.qualification.boundary }}</p>
+      </div>
+      <div>
+        {{ processVideoPreview("Watch how CallTeam prepares and qualifies sales calls", "See how we choose accounts, make the calls and brief the person taking the meeting.", service.placement + "-process") }}
+      </div>
+    </div>
+  </section>
+
+  <section class="mp-section" id="buyers">
+    <div class="mp-wrap">
+      <div class="mp-heading"><h2>{{ service.buyers.title }}</h2></div>
+      <div class="mp-scope-grid">
+        {% for group in service.buyers.groups %}
+        <article><h3>{{ group.name }}</h3><p>{{ group.detail }}</p></article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="mp-section mp-paper" id="calling">
+    <div class="mp-wrap mp-split">
+      <div>
+        <h2>{{ service.calling.title }}</h2>
+        <p>{{ service.calling.targeting }}</p>
+        <p>{{ service.calling.followUp }}</p>
+        <p>See how we prepare campaigns in our <a href="{{ service.calling.guide.url }}">{{ service.calling.guide.label | lower }}</a>.</p>
+      </div>
+      <aside class="mp-note">
+        <p class="mp-label">Sample opening question</p>
+        <blockquote><p>“{{ service.calling.opener }}”</p></blockquote>
+        <p><a href="{{ service.calling.script.url }}">{{ service.calling.script.label }}</a></p>
+        <a class="mp-text-link" href="/cold-call-script-checker/">Check your own call opener</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="mp-section" id="pricing">
+    <div class="mp-wrap mp-split">
+      <div>
+        <h2>What does a calling campaign cost?</h2>
+        <p><strong>Managed outbound calling programs start at US$4,000 per month.</strong> {{ service.pricing }}</p>
+        <a class="mp-text-link" href="/pricing/">See the pricing and campaign scope</a>
+      </div>
+      <aside class="mp-fit-note">
+        <h3>Plan your first campaign</h3>
+        <p>{{ service.planner }}</p>
+        <a class="mp-text-link" href="/b2b-outbound-campaign-planner/">Preview your outbound campaign</a>
+      </aside>
+    </div>
+  </section>
+
+  {% set faqHeading = "Questions before you hire CallTeam" %}
+  {% set faqIntro = service.faqIntro %}
+  {% include "commercial/faq.njk" %}
+
+  <section class="mp-final"><div class="mp-wrap">
+    <h2>{{ service.finalTitle }}</h2>
+    <p>{{ service.finalCopy }}</p>
+    <a class="mp-button" href="{{ bookingUrl }}" data-booking-placement="{{ service.placement }}-final">{{ service.bookingLabel }}</a>
+  </div></section>
+</main>
