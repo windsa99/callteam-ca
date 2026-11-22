@@ -9,23 +9,21 @@ const dollars = new Intl.NumberFormat('en-US', {
 });
 
 module.exports = {
-  checkedDate: '2026-11-17',
-  checkedLabel: '17 November 2026',
+  checkedDate: '2026-11-21',
+  checkedLabel: 'November 21, 2026',
   callTeamMonthly: `US${dollars.format(4000)}`,
   salesroadsFourWeekRate: dollars.format(salesroadsFourWeekRate),
   salesroadsYear: dollars.format(salesroadsYear),
   salesroadsMonthlyEquivalent: dollars.format(salesroadsYear / 12),
   fourWeekPeriods,
-  fractionalAppointmentRate: dollars.format(6950),
-  fullAppointmentRate: dollars.format(9500),
   sources: {
     salesroadsPricing: {
       url: 'https://salesroads.com/pricing/',
       label: 'SalesRoads dedicated SDR pricing, inclusions and terms',
     },
-    salesroadsAppointments: {
-      url: 'https://salesroads.com/appointment-setting-services/',
-      label: 'SalesRoads fractional and full SDR appointment-setting prices',
+    salesroadsMethodology: {
+      url: 'https://salesroads.com/methodology/',
+      label: 'SalesRoads calling, email and LinkedIn use',
     },
     callTeamPricing: {
       url: 'https://www.callteam.ca/pricing/',

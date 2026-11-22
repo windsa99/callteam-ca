@@ -7,7 +7,7 @@ description: "Compare CallTeam vs Belkins for B2B appointment setting. See month
 canonicalUrl: "https://www.callteam.ca/compare/callteam-vs-belkins/"
 contentLanguage: "en-CA"
 ogType: "article"
-modified: "2026-11-17"
+modified: "2026-11-21"
 pageStyles:
   - "/assets/css/lead-providers.css"
   - "/assets/css/simple-buying-guide.css"
@@ -74,7 +74,7 @@ pageStyles:
         <h1>CallTeam vs <span>Belkins</span>
           <small>Pricing and B2B appointment setting</small>
         </h1>
-        <p class="lp-intro">Choose CallTeam for a calling campaign with follow-up and qualified meetings handed to sales. Get a Belkins quote if you need a team to run email, LinkedIn and calls together.</p>
+        <p class="lp-intro">CallTeam starts at <strong>{{ prices.callTeamMonthly }} per month</strong> for a managed campaign with North America–based callers. Belkins’ {{ prices.belkinsMonthly }} is its retainer floor. Get a Growth Plus quote for regular cold calling and voicemail.</p>
         <div class="lp-actions">
           <a class="lp-button" href="#comparison">Compare prices and scope <span aria-hidden="true">↓</span></a>
           <a class="lp-text-link" href="#callteam-vs-belkins-video" data-inline-play>See the 78-second demo <span aria-hidden="true">↓</span></a>
@@ -83,7 +83,7 @@ pageStyles:
       <aside class="lp-brief belkins-price-brief" aria-labelledby="starter-price-heading">
         <h2 id="starter-price-heading">Belkins’ first ten appointments</h2>
         <p class="belkins-hero-price">{{ prices.starterTotal }}</p>
-        <p>Starting total with setup included.</p>
+        <p>Starting total for email and LinkedIn outreach, with setup included.</p>
         <a href="#starter-package">See the line items <span aria-hidden="true">↓</span></a>
       </aside>
     </div>
@@ -95,7 +95,7 @@ pageStyles:
 
   <section class="lp-section belkins-first-section" id="comparison"><div class="lp-wrap">
     <div class="lp-heading"><h2>CallTeam vs Belkins pricing</h2>
-      <p>Published prices and terms checked <time datetime="{{ guide.checkedDate }}">{{ guide.checkedLabel }}</time>.</p>
+      <p>Published prices and terms checked <time datetime="{{ modified }}">{{ modified | readableDate }}</time>.</p>
     </div>
     <div class="sg-table-wrap">
       <table class="lp-table sg-table belkins-table" role="table">
@@ -104,15 +104,15 @@ pageStyles:
         <tbody>
           <tr role="row">
             <th scope="row" role="rowheader">Starting price</th>
-            <td role="cell" data-label="CallTeam managed calling"><strong>{{ prices.callTeamMonthly }} per month</strong> For campaigns with target accounts ready to call.</td>
-            <td role="cell" data-label="Belkins managed retainer"><strong>{{ prices.belkinsMonthly }} per month</strong> Final price depends on the plan and scope.</td>
+            <td role="cell" data-label="CallTeam managed calling"><strong>{{ prices.callTeamMonthly }} per month</strong> For a campaign ready to launch. Any added research, data or coverage is priced in your written quote.</td>
+            <td role="cell" data-label="Belkins managed retainer"><strong>{{ prices.belkinsMonthly }} per month</strong> Published starting rate. Belkins quotes Growth Plus separately.</td>
             <td role="cell" data-label="Belkins pay per appointment"><strong>{{ prices.appointmentRate }} per appointment</strong> Plus {{ prices.setupFee }} for setup. Minimum {{ prices.starterAppointments }} appointments.</td>
           </tr>
           <tr role="row">
             <th scope="row" role="rowheader">Outreach</th>
-            <td role="cell" data-label="CallTeam managed calling">Human cold calling, live voicemails, approved voicemail drops and callbacks. Email follow-up by agreement.</td>
-            <td role="cell" data-label="Belkins managed retainer">Email and LinkedIn. Calling coverage depends on the plan.</td>
-            <td role="cell" data-label="Belkins pay per appointment">Email and LinkedIn. Belkins handles replies and booking.</td>
+            <td role="cell" data-label="CallTeam managed calling">North America–based callers make live calls, leave live voicemails or approved voicemail drops, and handle callbacks.</td>
+            <td role="cell" data-label="Belkins managed retainer">Email and LinkedIn outreach. Growth lists calls tied to buying signals. Growth Plus lists cold calling and voicemail.</td>
+            <td role="cell" data-label="Belkins pay per appointment">Belkins sends emails and LinkedIn messages, handles replies and schedules meetings. Cold calling requires a separate offer.</td>
           </tr>
           <tr role="row">
             <th scope="row" role="rowheader">Term or delivery window</th>
@@ -184,7 +184,7 @@ pageStyles:
           <div><dt>Starting total</dt><dd><strong>{{ prices.starterTotal }}</strong></dd></div>
         </dl>
         <p>That’s <strong>{{ prices.starterUnitCost }} per appointment including setup</strong> at the advertised floor. A missed meeting stays in the package while Belkins works to rebook it.</p>
-        <p>The package covers email and LinkedIn through booking. Budget separately for any calls, account research or CRM work you need.</p>
+        <p>Your team takes over after booking. Budget separately for any account research or CRM work you need.</p>
       </article>
     </div>
   </div></section>
@@ -192,9 +192,9 @@ pageStyles:
   <section class="lp-section lp-paper" id="choose"><div class="lp-wrap">
     <div class="lp-heading"><h2>Price the work that can change your quote</h2></div>
     <dl class="belkins-quote-list">
-      <div><dt>Belkins calling coverage</dt><dd>Growth lists calls tied to buying signals. Growth Plus includes cold calling and voicemail. Belkins leaves the tier prices off its <a href="{{ sources.belkinsPlans.url }}">plan page</a>.</dd></div>
+      <div><dt>Belkins calling coverage</dt><dd>Ask Belkins where your assigned callers will be based, when they’ll call and how they handle callbacks. Get the calling tier and price in writing. <a href="{{ sources.belkinsPlans.url }}">See the Belkins plans</a>.</dd></div>
       <div><dt>Belkins HubSpot integration</dt><dd>Belkins lists it as optional and leaves the fee unpublished. Ask who updates records and what that costs.</dd></div>
-      <div><dt>CallTeam list and data</dt><dd>We can research your market and build the calling list. Ask us to price research, licensing and validation into the campaign.</dd></div>
+      <div><dt>CallTeam list and data</dt><dd>We can build a fresh list or use your accounts. The proposal shows what your campaign includes before you sign.</dd></div>
     </dl>
   </div></section>
 
