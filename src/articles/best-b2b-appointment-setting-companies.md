@@ -198,6 +198,8 @@ A meeting commitment needs a precise remedy. Continuing work, replacing a repres
 
 If the quotes charge for different outcomes, use the [retainer vs. pay-per-meeting cost example](/articles/b2b-appointment-setting-cost/#appointment-setting-cost-example) to compare what you pay per booked, held and sales-accepted meeting.
 
+For a shortlist of agencies that sell meetings, see the [B2B pay-per-appointment comparison](/resources/best-pay-per-appointment-companies/).
+
 Include your sellers' preparation, follow-up and management time when judging the overall investment. The [Proposal Comparison tool](/lead-generation-proposal-comparison/) can organize quoted scope and fees, while the [ROI calculator](/b2b-lead-generation-roi-calculator/) lets you use your own customer and conversion assumptions.
 
 <aside class="context-tool-cta" id="cta-appointment-roi" aria-label="Calculate campaign economics" data-context-tool-cta="cta-appointment-roi">

@@ -1,0 +1,159 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/best-pay-per-appointment-companies/"
+title: "Best Pay-Per-Appointment Companies for B2B in 2027"
+description: "Compare B2B pay-per-appointment companies by price, setup fees, minimums and no-show rules. See when you pay for booked, held or qualified meetings."
+canonicalUrl: "https://www.callteam.ca/resources/best-pay-per-appointment-companies/"
+date: "2026-11-23"
+modified: "2026-11-23"
+contentLanguage: "en-CA"
+ogType: "article"
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/simple-buying-guide.css", "/assets/css/process-video-preview.css", "/assets/css/pay-per-appointment.css"]
+pageScripts: ["/assets/js/simple-buying-guide.js"]
+---
+{% set guide = payPerAppointmentGuide %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+  {"@type":"WebPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"inLanguage":"en-CA","breadcrumb":{"@id":"{{ canonicalUrl }}#breadcrumb"},"mainEntity":{"@id":"{{ canonicalUrl }}#article"}},
+  {"@type":"Article","@id":"{{ canonicalUrl }}#article","headline":{{ title | json | safe }},"description":{{ description | json | safe }},"datePublished":"{{ date | sitemapDate }}","dateModified":"{{ modified }}","mainEntityOfPage":{"@id":"{{ canonicalUrl }}#webpage"},"author":{"@id":"{{ site.organizationId }}"},"publisher":{"@id":"{{ site.organizationId }}"},"mentions":{"@id":"{{ canonicalUrl }}#providers"}},
+  {"@type":"BreadcrumbList","@id":"{{ canonicalUrl }}#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Outbound Sales Library","item":"{{ site.url }}/resources/outbound-sales-library/"},{"@type":"ListItem","position":3,"name":"Pay-per-appointment companies","item":"{{ canonicalUrl }}"}]},
+  {"@type":"ItemList","@id":"{{ canonicalUrl }}#providers","name":"B2B pay-per-appointment companies","itemListOrder":"https://schema.org/ItemListUnordered","numberOfItems":{{ guide.providers | length }},"itemListElement":[{% for provider in guide.providers %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ provider.name | json | safe }},"url":"{{ canonicalUrl }}#{{ provider.id }}"}{% if not loop.last %},{% endif %}{% endfor %}]},
+  {"@type":"FAQPage","@id":"{{ canonicalUrl }}#questions","mainEntity":[{% for faq in guide.faqs %}{"@type":"Question","name":{{ faq.question | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ faq.answer | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}
+]}
+</script>
+
+<main class="lp-page pay-appointment" id="simple-guide">
+  <div class="lp-hero-shell"><div class="lp-wrap">
+    <nav class="lp-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span aria-hidden="true">/</span><span aria-current="page">Pay-per-appointment companies</span></nav>
+    <div class="lp-hero">
+      <div>
+        <h1>{{ title }}</h1>
+        <p class="lp-intro">See what four B2B pay-per-appointment providers charge, when they bill and how they handle missed meetings.</p>
+        <div class="lp-actions"><a class="lp-button" href="#compare">Compare providers</a><a class="lp-text-link" href="#invoice">See a sample invoice</a></div>
+      </div>
+      <aside class="lp-brief pay-appointment-brief" aria-labelledby="pay-appointment-choice">
+        <h2 id="pay-appointment-choice">Choose what to buy</h2>
+        <ul>
+          <li><strong>Hire a calling team.</strong> <a href="#managed-calling">CallTeam</a> can build your list, call buyers and record what happens in your CRM.</li>
+          <li><strong>Pay when buyers attend.</strong> Start with Vivin for a published price range or ViB for opt-in tech buyers.</li>
+          <li><strong>Buy a package.</strong> Belkins starts at ten meetings. Zen offers a one-appointment test.</li>
+        </ul>
+      </aside>
+    </div>
+  </div></div>
+
+  <nav class="lp-jump" aria-label="On this page"><div class="lp-wrap">
+    <a href="#compare">Provider comparison</a><a href="#managed-calling">CallTeam</a><a href="#billing">What you pay for</a><a href="#verdicts">Who to hire</a><a href="#terms">Quote checklist</a><a href="#questions">FAQs</a>
+  </div></nav>
+
+  <section class="lp-section" id="compare"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>Compare B2B pay-per-appointment companies</h2>
+      <p>CallTeam publishes this guide and sells managed calling. We checked each provider’s public terms on <time datetime="{{ guide.checkedDate }}">{{ guide.checkedLabel }}</time>. Dollar amounts appear as published.</p>
+    </div>
+    <div class="sg-table-wrap">
+      <table class="lp-table sg-table pay-appointment-providers" role="table">
+        <caption>Published prices, billing triggers, setup fees, minimums and no-show terms</caption>
+        <thead><tr role="row"><th scope="col" role="columnheader">Provider</th><th scope="col" role="columnheader">What you pay for</th><th scope="col" role="columnheader">Published price</th><th scope="col" role="columnheader">Setup and minimum</th><th scope="col" role="columnheader">If the buyer misses it</th></tr></thead>
+        <tbody>
+          {% for provider in guide.providers %}
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="#{{ provider.id }}">{{ provider.name }}</a></th>
+            <td role="cell" data-label="What you pay for">{{ provider.billing }}</td>
+            <td role="cell" data-label="Published price"><strong>{{ provider.price }}</strong></td>
+            <td role="cell" data-label="Setup and minimum">{{ provider.fees }}</td>
+            <td role="cell" data-label="If the buyer misses it">{{ provider.noShow }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="managed-calling"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>Hire CallTeam to work your target accounts</h2>
+      <p>We call buyers to find out who owns the work, how they handle it today and what would make a meeting useful. If the timing is off, we agree on when to call back.</p>
+    </div>
+    <div class="pay-appointment-evidence">
+      {{ processVideoPreview('Watch CallTeam’s 78-second process demo', 'See how we choose accounts, qualify interest and hand a meeting to sales.', 'pay-per-appointment-guide') }}
+      <aside class="pay-appointment-scope" aria-labelledby="pay-appointment-scope-title">
+        <h3 id="pay-appointment-scope-title">Managed calling from US$4,000 per month</h3>
+        <p>Our North America–based callers leave live voicemails or use approved prerecorded voicemail drops and log each follow-up. Sales gets qualification notes, the buyer’s reason for meeting and the agreed next step in your CRM.</p>
+        <p>The starting rate covers a campaign ready to launch. We price list research, data and added coverage in your quote. <a href="/pricing/">See CallTeam pricing</a>.</p>
+        <div class="pay-appointment-proof">
+          <p><strong>18 meetings booked in 90 days</strong> for a financial research provider. Our callers asked how buyers handled extra research and model work when deal activity picked up.</p>
+          <a href="/case-studies/financial-services-appointment-setting/">Read the campaign case study</a>
+        </div>
+      </aside>
+    </div>
+  </div></section>
+
+  <section class="lp-section" id="billing"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>What makes a B2B appointment billable?</h2>
+      <p>Write down the company type, buyer role and reason to meet. Then agree which event triggers payment.</p>
+    </div>
+    <div class="sg-flow">
+      <div><h3>Booked meeting</h3><p>A prospect agrees to a calendar slot. If the fee is due at booking, check how a cancellation or no-show gets credited.</p></div>
+      <div><h3>Held meeting</h3><p>The buyer attends. Spell out what counts if the wrong person joins or the conversation ends early.</p></div>
+      <div><h3>Sales-accepted meeting</h3><p>The meeting takes place and meets your written buyer criteria. Agree what evidence sales needs and how long reps have to flag a mismatch.</p></div>
+    </div>
+    <div class="pay-appointment-invoice" id="invoice">
+      <h3>Same calendar, three invoices</h3>
+      <p>Your campaign books {{ guide.invoiceRows[0].count }} meetings. Of those, {{ guide.invoiceRows[1].count }} take place and sales accepts {{ guide.invoiceRows[2].count }}. Each example charges {{ guide.invoiceRate }} per billable meeting and {{ guide.invoiceSetup }} for setup.</p>
+      <div class="sg-table-wrap">
+        <table class="lp-table sg-table" role="table">
+          <caption>Illustrative totals for the same campaign, rounded to the nearest dollar</caption>
+          <thead><tr role="row"><th scope="col" role="columnheader">You pay for</th><th scope="col" role="columnheader">Meetings billed</th><th scope="col" role="columnheader">Total with setup</th><th scope="col" role="columnheader">Cost per accepted meeting</th></tr></thead>
+          <tbody>
+            {% for row in guide.invoiceRows %}
+            <tr role="row"><th scope="row" role="rowheader">{{ row.trigger }}</th><td role="cell" data-label="Meetings billed">{{ row.count }}</td><td role="cell" data-label="Total with setup"><strong>{{ row.total }}</strong></td><td role="cell" data-label="Cost per accepted meeting">{{ row.perAccepted }}</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <p class="pay-appointment-inline">Use the <a href="/articles/b2b-appointment-setting-cost/">appointment setting cost guide</a> to compare a monthly retainer against your own attendance and acceptance rates.</p>
+    </div>
+  </div></section>
+
+  <section class="lp-section" id="verdicts"><div class="lp-wrap">
+    <div class="lp-heading"><h2>Which pay-per-meeting agency should you hire?</h2></div>
+    {% for provider in guide.providers %}
+    <article class="lp-provider pay-appointment-review" id="{{ provider.id }}">
+      <header class="lp-provider-head"><h3>{{ provider.name }}</h3><p>{{ provider.headline }}</p></header>
+      <div class="lp-provider-body">
+        <div class="lp-provider-detail"><h4>CallTeam verdict</h4><p>{{ provider.fit }}</p></div>
+        <aside class="lp-verdict"><h4>{{ provider.checkTitle }}</h4><p>{{ provider.check }}</p></aside>
+      </div>
+      <ul class="pay-appointment-sources" aria-label="{{ provider.name }} sources">
+        {% for source in provider.sources %}<li><a href="{{ source[1] }}">{{ source[0] }}</a></li>{% endfor %}
+      </ul>
+    </article>
+    {% endfor %}
+  </div></section>
+
+  <section class="lp-section" id="terms"><div class="lp-wrap">
+    <div class="lp-heading"><h2>Five questions for a pay-per-appointment quote</h2><p>Send the same questions to each provider so you can compare the answers line by line.</p></div>
+    <div class="sg-resource">
+      <pre id="sg-resource-text" tabindex="-1">{% for question in guide.quoteQuestions %}{{ loop.index }}. {{ question }}{% if not loop.last %}{{ "\n" }}{% endif %}{% endfor %}</pre>
+      <button class="lp-button" type="button" id="sg-copy-resource" hidden>Copy the five questions</button>
+      <p id="sg-copy-status" role="status" aria-live="polite"></p>
+    </div>
+    <div class="lp-actions"><a class="lp-text-link" href="/lead-generation-proposal-comparison/">Compare agency proposals</a><a class="lp-text-link" href="/b2b-meeting-quality-check/">Check meeting quality</a></div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="questions"><div class="lp-wrap lp-faq-wrap">
+    <div class="lp-heading"><h2>Pay-per-appointment questions</h2></div>
+    <div class="lp-faqs">{% for faq in guide.faqs %}<details><summary>{{ faq.question }}</summary><p>{{ faq.answer }}</p></details>{% endfor %}</div>
+  </div></section>
+
+  <section class="lp-section"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>Get a quote for a phone-led campaign</h2>
+      <p>Tell us who you want to reach and what makes a meeting worth taking. We’ll quote the calling plan and any list research up front.</p>
+    </div>
+    <div class="lp-actions"><a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="pay-per-appointment-guide">Book a free 30-minute call</a><a class="lp-text-link" href="/services/b2b-appointment-setting/">Explore managed appointment setting</a></div>
+  </div></section>
+</main>

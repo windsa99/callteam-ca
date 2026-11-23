@@ -122,6 +122,8 @@ Decide how long sales has to review the handoff. Give the seller a place to reco
 
 For named providers and their published billing terms, use the [B2B lead generation agency pricing report](/resources/b2b-lead-generation-pricing-report/).
 
+If you want to buy meetings, [compare pay-per-appointment companies](/resources/best-pay-per-appointment-companies/) on setup fees, minimum purchases and no-show rules.
+
 Include setup, the agency fee, data, tools, and the time your staff spend managing the campaign and preparing for meetings. If you compare a new quarter with an existing campaign, count the same costs in both. A one-off setup fee belongs in your first-term comparison even when it falls outside the monthly fee.
 
 Research effort goes up when the market is small, buyers are senior or accounts need individual preparation. Extra regions, languages and follow-up can also change the scope. Ask who pays for list updates and who provides cover when a caller is away.

@@ -1,0 +1,124 @@
+#simple-guide.pay-appointment h1 {
+  font-size: clamp(36px, 4.4vw, 59px);
+  text-wrap: balance;
+}
+
+.pay-appointment .pay-appointment-brief ul {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.pay-appointment .pay-appointment-brief li {
+  display: list-item;
+  font-size: 15px;
+}
+
+.pay-appointment .pay-appointment-brief li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+#simple-guide.pay-appointment .pay-appointment-providers th:first-child {
+  width: 15%;
+}
+
+.pay-appointment .pay-appointment-providers th a {
+  text-underline-offset: 3px;
+}
+
+.pay-appointment-invoice {
+  margin-top: 36px;
+}
+
+.pay-appointment-invoice > h3 {
+  margin-bottom: 10px;
+}
+
+.pay-appointment .pay-appointment-inline {
+  margin: 16px 0 0;
+}
+
+.pay-appointment .pay-appointment-review .lp-provider-head {
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.pay-appointment .pay-appointment-review .lp-provider-head p {
+  margin: 0;
+  color: var(--lp-muted);
+  font-size: 14px;
+}
+
+.pay-appointment-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 15px 0 0;
+  border-top: 1px solid var(--lp-line);
+  font-size: 13px;
+  text-underline-offset: 3px;
+}
+
+.pay-appointment-evidence {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 28px;
+}
+
+.pay-appointment-scope {
+  border-top: 3px solid var(--lp-accent);
+  background: #fff3eb;
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.pay-appointment-scope > h3 {
+  margin-bottom: 12px;
+}
+
+.pay-appointment-proof {
+  border-top: 1px solid #ead6cb;
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.pay-appointment .pay-appointment-proof p {
+  margin-bottom: 6px;
+}
+
+.pay-appointment .sg-resource {
+  max-width: 800px;
+  padding: clamp(20px, 3vw, 30px);
+  border-top: 3px solid var(--lp-accent);
+  background: #151515;
+  color: #fff;
+}
+
+.pay-appointment .sg-resource pre {
+  margin: 0 0 18px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: 400 15px/1.8 Inter, Arial, sans-serif;
+}
+
+#simple-guide.pay-appointment #sg-copy-status {
+  min-height: 0;
+  margin-bottom: 0;
+}
+
+#simple-guide.pay-appointment #sg-copy-status:empty {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  #simple-guide.pay-appointment .pay-appointment-providers th:first-child {
+    width: 100%;
+  }
+
+  .pay-appointment-evidence {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
