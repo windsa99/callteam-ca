@@ -1,0 +1,151 @@
+#simple-guide.saas-shortlist h1 {
+  font-size: clamp(36px, 4.4vw, 59px);
+  text-wrap: balance;
+}
+.saas-shortlist .saas-shortlist-brief ul {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.saas-shortlist .saas-shortlist-brief li {
+  display: list-item;
+  font-size: 15px;
+}
+.saas-shortlist .saas-shortlist-brief li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.saas-shortlist .saas-shortlist-brief li strong {
+  font-size: inherit;
+}
+#simple-guide.saas-shortlist .saas-shortlist-table th:first-child {
+  width: 16%;
+}
+.saas-shortlist .saas-shortlist-table th a {
+  text-decoration-color: #b8aaa2;
+  text-underline-offset: 3px;
+}
+.saas-shortlist .saas-shortlist-own-row th,
+.saas-shortlist .saas-shortlist-own-row td {
+  background: #fff3eb;
+}
+.saas-shortlist .saas-shortlist-evidence {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.saas-shortlist .saas-shortlist-results {
+  padding: 24px;
+  border-top: 3px solid var(--lp-accent);
+  background: #fff3eb;
+}
+.saas-shortlist .saas-shortlist-results h3 {
+  margin-bottom: 10px;
+}
+.saas-shortlist .saas-shortlist-results dl {
+  margin: 0 0 15px;
+}
+.saas-shortlist .saas-shortlist-results dl div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ead6cb;
+}
+.saas-shortlist .saas-shortlist-results dt {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.saas-shortlist .saas-shortlist-results dd {
+  margin: 0;
+  font: 700 30px/1 Archivo, Arial, sans-serif;
+}
+.saas-shortlist .saas-shortlist-results a {
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+.saas-shortlist .saas-shortlist-review .lp-provider-head {
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.saas-shortlist .saas-shortlist-review .lp-provider-head p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+.saas-shortlist .lp-verdict p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.saas-shortlist .lp-verdict p:last-child {
+  margin-bottom: 0;
+}
+.saas-shortlist .saas-shortlist-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 22px 0 0;
+  padding: 15px 0 0;
+  border-top: 1px solid var(--lp-line);
+  font-size: 12px;
+  list-style: none;
+  text-underline-offset: 3px;
+}
+.saas-shortlist .saas-shortlist-handoff > div {
+  min-width: 0;
+  background: #fff;
+  border-top: 3px solid var(--lp-accent);
+  padding: clamp(20px, 3vw, 32px);
+}
+.saas-shortlist .saas-shortlist-handoff dl,
+.saas-shortlist .saas-shortlist-handoff ul {
+  margin: 0 0 15px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.saas-shortlist .saas-shortlist-handoff dd {
+  margin: 0;
+}
+.saas-shortlist .saas-shortlist-handoff dt {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.saas-shortlist .saas-shortlist-handoff ul {
+  padding-left: 22px;
+}
+.saas-shortlist .saas-shortlist-handoff li + li {
+  margin-top: 7px;
+}
+.saas-shortlist .sg-resource {
+  max-width: 780px;
+  padding: clamp(20px, 3vw, 30px);
+  border-top: 3px solid var(--lp-accent);
+  background: #151515;
+  color: #fff;
+}
+.saas-shortlist .sg-resource pre {
+  margin: 0 0 18px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: 400 15px/1.8 Inter, Arial, sans-serif;
+}
+#simple-guide.saas-shortlist #sg-copy-status {
+  min-height: 0;
+  margin-bottom: 0;
+}
+#simple-guide.saas-shortlist #sg-copy-status:empty {
+  margin-top: 0;
+}
+.saas-shortlist .saas-shortlist-close .lp-heading {
+  margin-bottom: 20px;
+}
+@media (max-width: 760px) {
+  #simple-guide.saas-shortlist .saas-shortlist-table th:first-child {
+    width: 100%;
+  }
+  .saas-shortlist .saas-shortlist-evidence {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

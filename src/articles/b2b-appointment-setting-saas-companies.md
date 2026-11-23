@@ -186,7 +186,7 @@ Keep the first campaign focused enough to coach. Review real conversations, not 
 
 **CallTeam field observation:** We have seen demonstration quality improve when the campaign stopped promising a broad product tour and gave each meeting one clear job. Sales entered with a buyer-confirmed problem and a focused question. The buyer did not have to repeat the first call, and weak-fit curiosity was easier to disqualify before it consumed the calendar.
 
-Need a team to run this work? Explore our [SaaS appointment setting services](/services/saas-appointment-setting/).
+Need a team to run this work? [Compare five SaaS appointment setting companies](/resources/best-saas-appointment-setting-companies/) or explore [CallTeam’s SaaS appointment setting service](/services/saas-appointment-setting/).
 
 ## How CallTeam manages SaaS appointment setting
 

@@ -185,7 +185,7 @@ The [manufacturing cybersecurity case](/case-studies/manufacturing-cybersecurity
 
 The [payment-platform campaign](/case-studies/fintech-payment-platform-appointment-setting/) records 15 qualified demos in 90 days and three closed deals. The [SaaS demo case](/case-studies/saas-demo-appointment-setting/) follows 11 demos into four opportunities and two customers within six months.
 
-These anonymized examples provide a method and timeframe to inspect. Choose the case closest to your buying problem and ask how the targeting, questions and seller follow-through would need to change for your market.
+These anonymized examples provide a method and timeframe to inspect. For software demos, use the [SaaS appointment setting company shortlist](/resources/best-saas-appointment-setting-companies/) to compare buyer roles and sales handoffs.
 
 <aside class="context-tool-cta" id="cta-appointment-campaign" aria-label="Preview your campaign" data-context-tool-cta="cta-appointment-campaign">
 <p>Preview an approach to your market.</p>
