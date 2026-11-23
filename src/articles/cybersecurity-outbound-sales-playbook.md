@@ -198,6 +198,8 @@ Meeting rejection rules should be explicit. A no-show, duplicate account, out-of
 <!-- Cybersecurity service link: cta-playbook-cybersecurity-service -->
 <aside id="cta-playbook-cybersecurity-service" aria-label="Hire CallTeam for cybersecurity outreach" style="margin: 28px 0; padding: 24px; border: 1px solid #dedbd5; border-left: 4px solid var(--orange); background: #f5f4f2;"><p><strong>Want a team to run this campaign?</strong> See what CallTeam manages, how we qualify cybersecurity meetings and what your salesperson receives.</p><p><a class="btn-primary" style="color: #111; white-space: normal;" href="/services/cybersecurity-lead-generation/">Explore Cybersecurity Lead Generation</a></p></aside>
 
+If you're considering outside help, [compare five cybersecurity appointment setting companies](/resources/best-cybersecurity-appointment-setting-companies/) by outreach model, price and meeting rules.
+
 <!-- /Cybersecurity service link: cta-playbook-cybersecurity-service -->
 ## Build the campaign with human judgment
 

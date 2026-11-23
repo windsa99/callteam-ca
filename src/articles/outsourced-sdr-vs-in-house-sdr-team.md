@@ -120,6 +120,8 @@ The [Outsourced SDR service page](/services/outsourced-sdr/) owns transactional 
 
 For the choice between two external options, see [cold calling agencies versus freelance callers for US B2B sales](/articles/cold-calling-agency-vs-freelance-caller-us/). That guide focuses on the individual assignment, available support and continuity of calling work.
 
+If you’ve decided to outsource, [compare six outsourced SDR companies](/resources/best-outsourced-sdr-companies/) on staffing, backup coverage and the full cost of the work.
+
 ## Calculate the complete internal SDR cost
 
 Start with cash compensation, commission or bonus, payroll burden, benefits, recruiting, and onboarding. Add data, CRM, sales-engagement tools, dialer, phone numbers, call recording, enrichment, email infrastructure, equipment, training, management, quality assurance, compliance work, and reporting.
