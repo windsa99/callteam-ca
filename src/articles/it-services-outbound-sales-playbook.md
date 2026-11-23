@@ -201,6 +201,8 @@ If booked meetings fail because delivery cannot support the account, fix the ICP
 
 For a managed campaign built around service fit and provider timing, explore our [MSP lead generation services](/services/msp-lead-generation/).
 
+Shopping for an agency? [Compare five MSP lead generation companies](/resources/best-msp-lead-generation-companies/) on price, calling coverage and renewal follow-up.
+
 ## Run the complete IT services outbound program
 
 CallTeam can manage account selection, research, prospect preparation, human cold calling, qualification, follow-up, meeting confirmation, attendance reporting, and CRM handoff. AI helps organize evidence, but people own the live technical and commercial conversation.

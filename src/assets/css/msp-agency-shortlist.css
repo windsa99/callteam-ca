@@ -1,0 +1,191 @@
+#simple-guide.msp-shortlist h1 {
+  font-size: clamp(36px, 4.4vw, 60px);
+  text-wrap: balance;
+}
+
+.msp-shortlist .msp-shortlist-brief ul {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.msp-shortlist .msp-shortlist-brief li {
+  display: block;
+  font-size: 15px;
+}
+
+.msp-shortlist .msp-shortlist-brief li strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.msp-shortlist .msp-shortlist-brief li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+#simple-guide.msp-shortlist .msp-provider-table th:first-child {
+  width: 15%;
+}
+
+.msp-shortlist .msp-provider-table th a {
+  text-underline-offset: 3px;
+}
+
+.msp-shortlist .msp-callteam-row th,
+.msp-shortlist .msp-callteam-row td {
+  background: #fff3eb;
+}
+
+.msp-evidence,
+.msp-handoff {
+  display: grid;
+  align-items: start;
+  gap: clamp(22px, 3vw, 36px);
+}
+
+.msp-evidence {
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+}
+
+.msp-handoff {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+  margin-top: 36px;
+  padding-top: 32px;
+  border-top: 1px solid var(--lp-line);
+  scroll-margin-top: 84px;
+}
+
+.msp-proof {
+  border-top: 3px solid var(--lp-accent);
+  background: #fff3eb;
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.msp-shortlist .msp-proof > h3,
+.msp-shortlist .msp-handoff h3,
+.msp-shortlist .msp-cost-example > h3 {
+  margin-bottom: 12px;
+}
+
+.msp-shortlist .msp-proof > a {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.msp-shortlist .msp-proof p:last-child {
+  margin-bottom: 0;
+}
+
+.msp-handoff-record {
+  margin: 0;
+  border: 1px solid var(--lp-line);
+  background: #fff;
+}
+
+.msp-handoff-record > div {
+  display: grid;
+  grid-template-columns: minmax(0, 116px) minmax(0, 1fr);
+  gap: 12px;
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--lp-line);
+  line-height: 1.5;
+}
+
+.msp-handoff-record > div:last-child {
+  border-bottom: 0;
+}
+
+.msp-handoff-record dt {
+  font-weight: 700;
+}
+
+.msp-handoff-record dd {
+  margin: 0;
+}
+
+.msp-handoff-record > .msp-handoff-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #151515;
+  color: #fff;
+}
+
+.msp-handoff-caption dd {
+  color: #ff9168;
+}
+
+.msp-cost-example {
+  margin-top: 32px;
+}
+
+.msp-shortlist .msp-inline {
+  margin: 16px 0 0;
+}
+
+.msp-shortlist .msp-provider-review .lp-provider-head {
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.msp-shortlist .msp-provider-review .lp-provider-head p {
+  margin: 0;
+  color: var(--lp-muted);
+  font-size: 15px;
+}
+
+.msp-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 16px 0 0;
+  border-top: 1px solid var(--lp-line);
+  font-size: 14px;
+  text-underline-offset: 3px;
+}
+
+.msp-shortlist .msp-quote-checklist {
+  max-width: 800px;
+  padding: clamp(20px, 3vw, 30px);
+  border-top: 3px solid var(--lp-accent);
+  background: #151515;
+  color: #fff;
+}
+
+.msp-shortlist .msp-quote-checklist pre {
+  margin: 0 0 18px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: 400 15px/1.8 Inter, Arial, sans-serif;
+}
+
+#simple-guide.msp-shortlist #sg-copy-status {
+  min-height: 0;
+  margin-bottom: 0;
+}
+
+#simple-guide.msp-shortlist #sg-copy-status:empty {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  #simple-guide.msp-shortlist .msp-provider-table th:first-child {
+    width: 100%;
+  }
+
+  .msp-evidence,
+  .msp-handoff {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 430px) {
+  .msp-handoff-record > div:not(.msp-handoff-caption) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+}
