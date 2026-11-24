@@ -161,4 +161,4 @@ const cybersecurity = {
   service: ['See CallTeam’s cybersecurity lead generation service', '/services/cybersecurity-lead-generation/']
 };
 
-module.exports = { sdr, cybersecurity };
+module.exports = { sdr, cybersecurity, commercialContractors: require('./commercialContractorShortlist') };

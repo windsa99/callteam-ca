@@ -113,6 +113,8 @@ This playbook covers prospecting for contracted building services such as commer
 
 For a ready-to-adapt conversation about commercial hvac maintenance services, use the [Commercial HVAC Maintenance Cold Call Script](/resources/cold-call-scripts/commercial-hvac-maintenance-cold-call-script/). The buyer confirms a service opening and the person who can approve a scoped assessment.
 
+If you plan to outsource prospecting, [compare commercial contractor lead generation companies](/resources/best-commercial-contractor-lead-generation-companies/) by price, outreach and what they pass to your estimator.
+
 ## Define your service footprint before buying a list
 
 Start with geography, workforce availability, working hours and property types. Then add the specific services the provider can deliver. Do not target a country-wide property list when the business serves one metro area.
