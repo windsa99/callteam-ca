@@ -49,7 +49,7 @@ callTeamTakeA: "A buyer returns a call while the caller is in another session. A
 callTeamTakeB: "Use the answer to set a callback window and name the person responsible."
 aboutHeading: "About CallTeam"
 aboutCopyA: "CallTeam is a Canadian outbound sales company that serves US businesses and other agreed markets."
-aboutCopyB: "Our team’s experience covers more than 500,000 outbound calls and 150 companies."
+aboutCopyB: "CallTeam has made 650,000+ outbound calls and served 150+ clients."
 aboutLinks:
   - title: "About CallTeam"
     url: "/about/"

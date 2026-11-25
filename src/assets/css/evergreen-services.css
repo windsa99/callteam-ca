@@ -27,7 +27,7 @@
 .ev-sheet dd { margin:6px 0 0;color:#ddd;font-size:13px;line-height:1.65 }
 .ev-sheet-stamp { font-size:11px;border-top:1px solid #333;margin-top:22px;padding-top:18px;display:flex;align-items:center;gap:9px;color:#ddd }
 .ev-dot { height:7px;width:7px;background:var(--orange);border-radius:50% }
-.ev-trust { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--grey-bg);border-top:1px solid #ddd;gap:0 }
+.ev-trust { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:var(--grey-bg);border-top:1px solid #ddd;gap:0 }
 .ev-trust p { text-align:center;font-size:13px;color:var(--grey-text);margin:0;padding:22px 12px;border-right:1px solid #ddd }
 .ev-trust p:last-child { border-right:0 }
 .ev-trust strong { display:block;font-family:'Archivo',sans-serif;font-weight:900;font-size:24px;color:var(--black) }
@@ -92,3 +92,7 @@
 .ev-final p:not(.ev-kicker) { max-width:640px;margin:0 auto 24px;color:#ccc;font-size:17px }
 @media(max-width:900px) { .ev-wrap { width:calc(100% - 56px) }.ev-hero { grid-template-columns:minmax(0,1fr);gap:34px;padding:48px 0 64px }.ev-page h1 { max-width:760px;font-size:clamp(38px,6vw,52px) }.ev-sheet { max-width:620px;width:100% }.ev-section,.ev-final { padding:64px 0 }.ev-cards,.ev-related { grid-template-columns:minmax(0,1fr) }.ev-split,.ev-proof-grid { grid-template-columns:minmax(0,1fr);gap:30px }.ev-trust { grid-template-columns:repeat(2,minmax(0,1fr)) }.ev-trust p:nth-child(2) { border-right:0 }.ev-trust p:nth-child(-n+2) { border-bottom:1px solid #ddd } }
 @media(max-width:640px) { .ev-wrap { width:calc(100% - 40px) }.ev-page h1 { font-size:clamp(35px,8.6vw,47px) }.ev-intro { font-size:17px }.ev-tagline { font-size:17px }.ev-breadcrumb { font-size:12px;justify-content:flex-start }.ev-section,.ev-final { padding:52px 0 }.ev-hero { padding:36px 0 52px }.ev-jump .ev-wrap { gap:12px 20px }.ev-sheet,.ev-card,.ev-price { padding:24px 20px }.ev-sheet h2 { font-size:25px }.ev-ownership { grid-template-columns:minmax(0,1fr) }.ev-trust strong { font-size:22px }.ev-trust p { font-size:12px;padding:18px 10px }.ev-proof h2 { font-size:32px }.ev-stats strong { font-size:52px }.ev-price-number { font-size:46px }.ev-faqs summary { font-size:16px }.ev-faqs details p { font-size:15px } }
+
+@media (max-width: 900px) {
+  .ev-trust > p:last-child { grid-column: 1 / -1; }
+}

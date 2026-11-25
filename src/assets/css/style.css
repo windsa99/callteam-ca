@@ -1320,7 +1320,7 @@
 .sdr-proof-strip .container-wide,
 .market-proof-strip .container-wide {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .sdr-proof-strip .container-wide > div,
@@ -3128,7 +3128,7 @@
 .agtm-proof-strip .container-wide,
 .training-proof-strip .container-wide {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .agtm-proof-strip .container-wide > div,
@@ -4680,7 +4680,7 @@
 
 .home-proof-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   max-width: 1120px;
   margin: 0 auto;
   border-top: 1px solid #dedede;
@@ -5699,6 +5699,10 @@
 
   .home-proof-grid > div:nth-child(-n+2) {
     border-bottom: 1px solid #dedede;
+  }
+
+  .home-proof-grid > div:last-child {
+    grid-column: 1 / -1;
   }
 
   .home-path-grid,
@@ -7326,7 +7330,7 @@ footer .flinks a:hover {
 
 .lab-proof-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -8326,6 +8330,7 @@ footer .flinks a:hover {
 
   .lab-proof-grid > div:nth-child(3) {
     padding-left: 0;
+    grid-column: 1 / -1;
   }
 
   .lab-core-deliverables {
@@ -8747,7 +8752,7 @@ footer .flinks a:hover {
 
 .revenue-authority-strip .container-wide {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   padding: 0;
 }
 
@@ -9713,6 +9718,7 @@ footer .flinks a:hover {
 
   .revenue-authority-strip .container-wide > div:nth-child(n+3) {
     margin-top: 20px;
+    grid-column: 1 / -1;
   }
 
   .revenue-input-rail {
@@ -10209,6 +10215,10 @@ footer .flinks a:hover {
   grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
+}
+
+.services-proof-strip .container-wide {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .services-proof-strip .container-wide > div,
@@ -11412,6 +11422,10 @@ footer .flinks a:hover {
     border-top: 1px solid #dedede;
   }
 
+  .services-proof-strip .container-wide > div:last-child {
+    grid-column: 1 / -1;
+  }
+
   .services-card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -12570,7 +12584,7 @@ footer .flinks a:hover {
 
 .pricing-proof-strip .container-wide {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   border-top: 1px solid #d7d7d2;
 }
 
@@ -13210,6 +13224,7 @@ footer .flinks a:hover {
 
   .pricing-proof-strip .container-wide > div:nth-child(n+3) {
     border-top: 1px solid #d7d7d2;
+    grid-column: 1 / -1;
   }
 
   .pricing-engagement-grid,

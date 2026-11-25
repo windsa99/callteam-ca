@@ -19,7 +19,7 @@
 .clw-page .clw-process h3{font:900 25px/1.2 Archivo,sans-serif;margin:18px 0}
 .clw-process p{font-size:15px!important}.clw-process a{font-size:13px;font-weight:600;color:var(--black);text-underline-offset:4px}
 .clw-experience-wrap{padding-top:32px;margin-top:42px;border-top:1px solid #d9d9d6}
-.clw-experience{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:26px;margin-top:22px}
+.clw-experience{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin-top:22px}
 .clw-experience strong{font:900 34px/1.15 Archivo,sans-serif;display:block;margin-bottom:9px}
 .clw-experience>div:last-child strong{font-size:25px}.clw-experience span{font-size:12px;line-height:1.7;display:block;color:var(--grey-text)}
 .clw-proof{background:var(--black);color:var(--white)}
@@ -57,3 +57,7 @@
 @media(max-width:1000px){.clw-page .clw-hero{grid-template-columns:minmax(0,1fr);gap:36px}.clw-badge-card{max-width:580px}.clw-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.clw-process,.clw-proof-grid,.clw-other-awards{grid-template-columns:minmax(0,1fr)}.clw-proof-grid{gap:36px}.clw-other-awards article{display:grid;grid-template-columns:130px minmax(0,1fr);gap:0 20px}.clw-other-awards article>div{min-width:0}.clw-other-awards img{grid-row:1/3}.clw-experience{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.clw-page .clw-hero{padding:20px 0 40px}.clw-page h1{font-size:36px;line-height:1.12;letter-spacing:-.025em}.clw-page .clw-lead{font-size:19px}.clw-badge-card{padding:24px}.clw-badge-card img{width:min(100%,235px)}.clw-facts{gap:24px 20px}.clw-facts>div:nth-child(2){grid-column:1/-1;grid-row:2}.clw-facts dd{font-size:13px}.clw-facts>div:last-child{grid-column:2;grid-row:1}.clw-process{gap:28px}.clw-process h3{font-size:23px!important}.clw-handoff{padding:25px}.clw-library-links,.clw-services{grid-template-columns:minmax(0,1fr)}.clw-other-awards article{display:flex;padding:25px}.clw-experience{gap:25px 18px}.clw-experience strong{font-size:29px}.clw-experience>div:last-child strong{font-size:22px}.clw-faq summary{font-size:17px}.clw-faq-links{flex-direction:column;gap:12px}}
 @media(max-width:360px){.clw-page h1{font-size:32px}.clw-page .mp-button{white-space:normal;text-align:center}.clw-badge-card{padding:20px}.clw-experience strong{font-size:26px}}
+
+@media (max-width: 1000px) {
+  .clw-experience > div:last-child { grid-column: 1 / -1; }
+}

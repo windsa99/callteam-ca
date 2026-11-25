@@ -122,7 +122,7 @@ An appointment handoff can include the buyer’s needs, objections, timing and a
 
 ## Experience and practical sales education
 
-The combined experience behind CallTeam includes more than 500,000 outbound calls, over 1,000 sellers coached and work across more than 150 companies. That background includes Fortune 100 and Fortune 500 sales environments and informs our approach to targeting and qualification.
+CallTeam has made 650,000+ outbound calls and served 150+ clients. Our team draws on sales experience from Fortune 100 and Fortune 500 environments when setting campaign targets and qualification criteria.
 
 Our [free outbound sales library](/resources/outbound-sales-library/) extends that knowledge beyond managed campaigns. It includes 100 cold-call scripts and 138 outbound sales guides that founders and sellers can use when preparing their own outreach.
 

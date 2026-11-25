@@ -105,7 +105,7 @@
 .vc-case .vc-case-outcome{color:#fff;font-size:14px;font-weight:500}
 .vc-case a{font-size:13px;margin-top:auto;padding-top:15px;color:#fff;text-decoration:underline}
 .vc-page .vc-proof-note{font-size:12px;color:#bdbdb7;margin:24px 0 0;max-width:900px}
-.vc-experience{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;border-top:1px solid #454545;margin-top:38px;padding-top:28px}
+.vc-experience{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;border-top:1px solid #454545;margin-top:38px;padding-top:28px}
 .vc-experience p{margin:0}
 .vc-experience strong{display:block;font-family:Archivo,sans-serif;font-size:25px;font-weight:700;letter-spacing:-.03em;line-height:1.3}
 .vc-experience span{display:block;font-size:11px;color:#bdbdb7;margin-top:5px}
@@ -136,3 +136,7 @@
 @media(max-width:1050px){.vc-hero{gap:35px;grid-template-columns:1.2fr 1fr}.vc-page h1{font-size:57px}.vc-brief{padding:23px}.vc-brief h2{font-size:27px}.vc-handoff-grid,.vc-faq-grid,.vc-source-grid{gap:40px}.vc-case{padding:22px}.vc-experience strong{font-size:22px}.vc-cost-check{gap:30px}}
 @media(max-width:760px){.vc-wrap{width:calc(100% - 40px)}.vc-hero-shell{background:#fff}.vc-breadcrumb{padding:20px 0;font-size:11px}.vc-hero{grid-template-columns:1fr;padding:25px 0 35px;gap:30px}.vc-page h1{font-size:clamp(44px,9.3vw,62px)}.vc-page h2{font-size:35px}.vc-page .vc-lead{font-size:20px}.vc-hero-copy>p{font-size:15px}.vc-actions{gap:17px}.vc-hero .vc-button{width:100%}.vc-brief{margin:0;padding:25px;box-shadow:none}.vc-brief h2{font-size:30px}.vc-answer{grid-template-columns:1fr;gap:12px;padding:25px 0 30px}.vc-answer p{font-size:14px}.vc-jump .vc-wrap{gap:13px 23px;padding:17px 0}.vc-jump a{font-size:11px}.vc-section{padding:57px 0}.vc-heading{margin-bottom:28px}.vc-heading>p:not(.vc-eyebrow){font-size:15px}.vc-page .vc-eyebrow{font-size:11px;margin-bottom:16px}.vc-scroll-hint{display:block;color:var(--vc-muted)}.vc-table th,.vc-table td{padding:20px}.vc-cost-check{grid-template-columns:1fr;padding:24px;gap:24px;margin-top:27px}.vc-fit-grid,.vc-handoff-grid,.vc-case-grid,.vc-tool-grid,.vc-faq-grid,.vc-source-grid{grid-template-columns:1fr;gap:24px}.vc-fit-card{padding:26px}.vc-fit-card h3{font-size:28px}.vc-fit-card li{font-size:14px}.vc-handoff-grid{gap:30px}.vc-section-lead{font-size:18px}.vc-meeting-note{padding:25px}.vc-meeting-note dl>div{grid-template-columns:90px 1fr;gap:14px}.vc-meeting-note dd{font-size:13px}.vc-case .vc-card-label{min-height:0}.vc-case{padding:25px}.vc-page .vc-case-number{font-size:65px}.vc-case-grid{gap:18px}.vc-experience{grid-template-columns:1fr 1fr;gap:24px 16px}.vc-experience strong{font-size:23px}.vc-experience span{font-size:11px}.vc-tool-card{padding:25px}.vc-tool-card h3{font-size:27px}.vc-tool-card .vc-button,.vc-cost-check .vc-button{width:100%}.vc-faq-grid,.vc-source-grid{gap:30px}.vc-faqs summary{font-size:14px}.vc-final{padding:57px 0}.vc-final h2{font-size:35px}.vc-final>.vc-wrap>p:not(.vc-eyebrow){font-size:15px}.vc-final .vc-button{width:100%;max-width:420px}.vc-page section[id],.vc-page aside[id]{scroll-margin-top:90px}}
 @media(prefers-reduced-motion:reduce){.vc-page *{scroll-behavior:auto!important}}
+
+@media (max-width: 760px) {
+  .vc-experience > p:last-child { grid-column: 1 / -1; }
+}
