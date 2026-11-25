@@ -1,0 +1,213 @@
+{
+  "checkedDate": "2026-11-25",
+  "checkedLabel": "November 25, 2026",
+  "providers": [
+    {
+      "id": "bombora",
+      "name": "Bombora Company Surge",
+      "fit": "Research across B2B sites",
+      "signal": "Increased topic research across a network of B2B websites.",
+      "identity": "Company or business domain",
+      "timing": "Weekly Company Surge data",
+      "price": "Request a quote",
+      "good": "Company Surge highlights accounts researching a topic more than they usually do. It gives an outbound team a way to prioritize accounts beyond its own website traffic.",
+      "weak": "The result identifies a company and a topic. You still need to find the buyer and get a usable number. A broad topic can leave the caller with little to say.",
+      "verdict": "Buy it when you have a contact source and specific topics that map to a sales conversation. Ask for your exact topic list and a sample export before you pay.",
+      "sources": [
+        ["Company Surge overview", "https://bombora.com/intent/"],
+        ["Company reports", "https://customers.bombora.com/crc-coop/company-surge-1"],
+        ["Weekly data in the Salesforce integration", "https://customers.bombora.com/hubfs/CRC_Brand_Files%20and%20Videos/Integrations_SFDC/%21MASTER_Bombora%20Salesforce%20app%20Installation%20Guide.pdf"]
+      ]
+    },
+    {
+      "id": "g2",
+      "name": "G2 Buyer Intent",
+      "fit": "Software comparison activity",
+      "signal": "Product, pricing, category and comparison activity on the G2 marketplace, subject to your plan.",
+      "identity": "Company",
+      "timing": "Timestamped activity. G2 documents daily stage updates in Salesforce.",
+      "price": "Request a quote per product",
+      "good": "Pricing views and competitor comparisons show software sellers which accounts are taking a closer look.",
+      "weak": "G2 reports the organization. You have to find the person who owns the decision. Each G2-listed product that receives signals needs its own subscription.",
+      "verdict": "Buy it when the software category and competitor activity match the accounts you sell to. Ask to see a sample for your exact product before you commit.",
+      "sources": [
+        ["Signal types and product subscriptions", "https://documentation.g2.com/docs/buyer-intent"],
+        ["Company-level signal data", "https://documentation.g2.com/docs/performance-analytics"],
+        ["Salesforce timing", "https://documentation.g2.com/docs/g2-buyer-intent-salesforce-tab"]
+      ]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "fit": "A small team using one prospecting tool",
+      "signal": "Bombora topic research inside a B2B contact database.",
+      "identity": "Company signal with separate contact search",
+      "timing": "Weekly",
+      "price": "Free or Basic from US$49/user/month on annual billing",
+      "good": "You can go from a company researching a topic to finding someone in the relevant role. That keeps list building and prospecting together.",
+      "weak": "Free tracks one topic. Basic and Professional each track six. Organization tracks 12. Phone access uses credits under Apollo’s billing rules.",
+      "verdict": "Start on Free with the topic closest to what you sell. Buy Basic when you find accounts worth calling and need more topics.",
+      "sources": [
+        ["Plan prices", "https://www.apollo.io/pricing"],
+        ["Bombora signals, refresh and topic limits", "https://knowledge.apollo.io/hc/en-us/articles/8047704465933-Buying-Intent-Overview"],
+        ["Contact credit rules", "https://knowledge.apollo.io/hc/en-us/articles/9527776320781-Review-Credit-Usage-in-Apollo"]
+      ]
+    },
+    {
+      "id": "cognism",
+      "name": "Cognism",
+      "fit": "Prospecting and phone verification",
+      "signal": "Bombora company research alongside contact and business-change data.",
+      "identity": "Company signal with separate contact search",
+      "timing": "Confirm when topic results reach your workflow",
+      "price": "Pro includes intent. Request a quote.",
+      "good": "Cognism Pro combines company research and contact search with mobile number verification on request.",
+      "weak": "The signal tells you which company is researching. The number and export are separate parts of the offer. Check the credits and verification coverage for your territory.",
+      "verdict": "Price Cognism when reaching the right person by phone is a major part of your business case. Make the vendor show suitable contacts at the accounts on your sample list.",
+      "sources": [
+        ["Pro plan and pricing", "https://www.cognism.com/pricing"],
+        ["Bombora intent topics", "https://help.cognism.com/hc/en-gb/articles/34676050489874-How-to-configure-Bombora-intent-topics"]
+      ]
+    },
+    {
+      "id": "zoominfo",
+      "name": "ZoomInfo",
+      "fit": "Account research and sales alerts",
+      "signal": "Company research topics and competitive activity, with additional business signals by plan.",
+      "identity": "Company-level intent with separate contact records",
+      "timing": "Copilot Enterprise lists real-time buyer intent",
+      "price": "Request a quote for the Copilot plan",
+      "good": "Copilot Advanced lists buyer intent and topic clusters. Enterprise adds real-time buyer intent and custom signals. A team can bring that research together with account and contact records.",
+      "weak": "Credits and add-ons affect the quote. If you buy Streaming Intent, confirm how many keywords and accounts the fee covers.",
+      "verdict": "Get an itemized quote when several reps will use the account research. Ask the seller to show a current alert and export a call-ready record under the proposed plan.",
+      "sources": [
+        ["Copilot packages and feature limits", "https://www.zoominfo.com/pricing"],
+        ["ZoomInfo signal definitions", "https://docs.gtm.ai/docs/signals-insights"]
+      ]
+    },
+    {
+      "id": "6sense",
+      "name": "6sense",
+      "fit": "Account prioritization across teams",
+      "signal": "Keyword research and engagement data combined in a predictive account score.",
+      "identity": "Account score",
+      "timing": "Predictive intent score recalculates daily",
+      "price": "Request a quote for the scoring package",
+      "good": "6sense can combine research, website activity and CRM history to help sales and marketing focus on the same accounts. Its predictive model estimates which accounts may open an opportunity.",
+      "weak": "A score updated today can include older activity. Check the event dates before assigning the account to a rep.",
+      "verdict": "Buy it when several teams will act on shared account scores. Ask the vendor to show exactly which events moved an account up the list.",
+      "sources": [
+        ["6sense pricing", "https://6sense.com/pricing"],
+        ["Predictive intent model", "https://support.6sense.com/docs/intent-model"],
+        ["Data Pack delivery schedules", "https://support.6sense.com/docs/6sdata-faq-data-packs"]
+      ]
+    },
+    {
+      "id": "demandbase",
+      "name": "Demandbase",
+      "fit": "Shared account programs and reporting",
+      "signal": "Account-level research for selected keywords, with a separate cloud data feed available.",
+      "identity": "Company",
+      "timing": "Daily delivery for the cloud data service",
+      "price": "Platform fee plus per-user fees. Request a quote.",
+      "good": "Sales and marketing can work from the same account research and keyword sets. The data service can deliver activity and scores directly to a cloud account.",
+      "weak": "A platform and seat bill can be hard to justify for a small calling team. Get a price for the exact delivery method and seats you need.",
+      "verdict": "Buy it for a coordinated account program. If you only need a file of companies to call, quote the data service and compare that scope first.",
+      "sources": [
+        ["Platform and seat pricing model", "https://www.demandbase.com/pricing/"],
+        ["How Demandbase measures intent", "https://support.demandbase.com/hc/en-us/articles/360056755791-Understanding-Demandbase-Intent"],
+        ["Cloud feed delivery", "https://support.demandbase.com/hc/en-us/articles/12126469581979-Demandbase-Intent-Data-Service-Delivery"]
+      ]
+    },
+    {
+      "id": "leadfeeder",
+      "name": "Leadfeeder",
+      "fit": "Company visits to your website",
+      "signal": "Companies visiting your website and the pages they viewed.",
+      "identity": "Company with optional contact enrichment",
+      "timing": "Real-time company identification",
+      "price": "Discover from €79/month on annual billing",
+      "good": "A sales team can see which companies visited its own site and use the pages viewed to prioritize follow-up. The entry Discover price covers up to 50 identified companies per month.",
+      "weak": "You need visits from companies you sell to. Contact enrichment, exports and CRM sync use credits.",
+      "verdict": "Start here if you have steady traffic from target accounts and company names are enough to start researching. Price your actual visit volume and the contact work you need.",
+      "sources": [
+        ["Pricing by company volume", "https://www.leadfeeder.com/pricing/"],
+        ["Plan limits and credit charges", "https://help.leadfeeder.com/en/articles/13922261-pricing-plans-and-payment-methods"]
+      ]
+    },
+    {
+      "id": "rb2b",
+      "name": "RB2B",
+      "fit": "Matched US website visitors",
+      "signal": "Website visitor matching, with company and eligible person profiles.",
+      "identity": "US person-level matches on paid plans and company-level matches",
+      "timing": "Check visit-to-notification time in your setup",
+      "price": "Starter US$79/month. Pro from US$149/month.",
+      "good": "Starter delivers LinkedIn profiles for eligible US person matches. Pro adds business emails and a wider set of integrations.",
+      "weak": "Person-level identification is US-only. Company and person matches draw from the same allowance. Check which phone fields you still need for outreach.",
+      "verdict": "Try it if your site already brings in US buyers and your team can work the leads. Pick a plan only after seeing how many matches fit your market.",
+      "sources": [
+        ["Starter and Pro prices", "https://rb2b.com/pricing"],
+        ["Starter plan allowance and currency", "https://support.rb2b.com/en/articles/13252597-plan-starter"],
+        ["Coverage outside the US", "https://support.rb2b.com/en/articles/11185399-global-visitor-tracking"],
+        ["How identified visits use credits", "https://support.rb2b.com/en/articles/13285979-updates-to-rb2b-billing-and-subscription-plans-january-2026"]
+      ]
+    },
+    {
+      "id": "techtarget",
+      "name": "Informa TechTarget Priority Engine",
+      "fit": "Enterprise technology research",
+      "signal": "Research activity from registered buyers across its technology publications.",
+      "identity": "Accounts and individual researchers in supported products",
+      "timing": "Check the event dates and delivery schedule for your markets",
+      "price": "Contact sales for pricing",
+      "good": "Prospect-Level Intent can show which technology subjects or vendors an individual is researching. That can give a specialist seller a concrete reason to prioritize a conversation.",
+      "weak": "Value depends on having relevant buyers within the publisher network. You need a sample that covers your products, territories and roles.",
+      "verdict": "Shortlist it for enterprise technology sales where contact-level research helps a rep prepare. Check which contact fields and signal history you can use after export.",
+      "sources": [
+        ["Informa TechTarget Portal and Priority Engine", "https://www.informatechtarget.com/products/portal/"]
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is B2B intent data?",
+      "a": "B2B intent data uses observed activity to help sales teams prioritize accounts. Examples include visits to a product page, comparisons on a software marketplace and increased research on a topic."
+    },
+    {
+      "q": "What’s the difference between company-level and person-level intent?",
+      "a": "Company-level intent points to an organization. Person-level intent connects activity to an identified visitor or researcher. Ask the vendor to show the original signal and how it matched that person."
+    },
+    {
+      "q": "Which B2B intent data provider suits a small sales team?",
+      "a": "Start with your current prospecting tool if it includes suitable topics. Apollo offers one topic on Free. If you mainly want to see which companies visit your website, test a company-identification tool against your own traffic."
+    },
+    {
+      "q": "How much do B2B intent data tools cost?",
+      "a": "Published subscriptions can charge by seat, company volume or identified visitor. Enterprise vendors typically quote the package. Compare the full commitment, contact credits and integration costs for the records your team can use."
+    },
+    {
+      "q": "Does buying intent data give you a phone number?",
+      "a": "Phone access depends on the product and plan. Start from the account or person identified, find the relevant buyer and check the price of a usable number."
+    },
+    {
+      "q": "How fresh does an intent signal need to be?",
+      "a": "A pricing-page visit can help with follow-up today. Weekly topic activity can help prioritize an outbound list. Check when the event occurred and when your reps received it."
+    },
+    {
+      "q": "How do you use intent data for B2B cold calling?",
+      "a": "Check the account against your market, find the person who owns the issue and prepare a relevant question. Use the call to confirm the buyer’s situation and agree on a useful next step."
+    },
+    {
+      "q": "Can CallTeam call the accounts we find with intent data?",
+      "a": "Yes. CallTeam can work your list or research buyers for you. Our North America–based callers handle calling and follow-up, qualify interest and send your sales team the reason for the meeting."
+    }
+  ],
+  "questions": [
+    "Show current signals for these 25 accounts. What happened, and could you identify the company or the person?",
+    "When did each event happen, when did the score update, and when would our reps see it?",
+    "Show which contacts, phone numbers and signal fields we can export on this plan.",
+    "Itemize seats, topics, credits, integrations, the minimum term and renewal terms.",
+    "List any signal sources we already pay for and explain which records we can keep after cancellation."
+  ]
+}

@@ -1,0 +1,330 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/best-b2b-intent-data-providers/"
+title: "10 Best B2B Intent Data Providers in 2027"
+seoTitle: "10 Best B2B Intent Data Providers in 2027 | Pricing"
+description: "Compare 10 B2B intent data providers by price, signal source, freshness and who they identify. See how CallTeam uses buyer intent in cold calling."
+canonicalUrl: "https://www.callteam.ca/resources/best-b2b-intent-data-providers/"
+date: "2026-11-25"
+modified: "2026-11-25"
+contentLanguage: "en-CA"
+ogType: "article"
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/simple-buying-guide.css", "/assets/css/decision-guides.css", "/assets/css/process-video-preview.css", "/assets/css/b2b-intent-data-providers.css"]
+pageScripts: ["/assets/js/simple-buying-guide.js"]
+---
+{% set guide = intentDataProviders %}
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "inLanguage": "{{ contentLanguage }}",
+      "mainEntity": {"@id": "{{ canonicalUrl }}#guide"},
+      "breadcrumb": {"@id": "{{ canonicalUrl }}#breadcrumb"}
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ canonicalUrl }}#guide",
+      "headline": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "datePublished": "{{ date | sitemapDate }}",
+      "dateModified": "{{ modified }}",
+      "mainEntityOfPage": {"@id": "{{ canonicalUrl }}#webpage"},
+      "author": {"@id": "{{ site.organizationId }}"},
+      "publisher": {"@id": "{{ site.organizationId }}"}
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ canonicalUrl }}#comparison",
+      "name": "B2B intent data providers compared by signal and cost",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": {{ guide.providers | length }},
+      "itemListElement": [
+        {% for provider in guide.providers %}{
+          "@type": "ListItem",
+          "position": {{ loop.index }},
+          "name": {{ provider.name | json | safe }},
+          "url": "{{ canonicalUrl }}#{{ provider.id }}"
+        }{% if not loop.last %},{% endif %}{% endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/"},
+        {"@type": "ListItem", "position": 2, "name": "Outbound Sales Library", "item": "{{ site.url }}/resources/outbound-sales-library/"},
+        {"@type": "ListItem", "position": 3, "name": "B2B Intent Data Providers", "item": "{{ canonicalUrl }}"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ canonicalUrl }}#questions",
+      "mainEntity": [
+        {% for faq in guide.faqs %}{
+          "@type": "Question",
+          "name": {{ faq.q | json | safe }},
+          "acceptedAnswer": {"@type": "Answer", "text": {{ faq.a | json | safe }}}
+        }{% if not loop.last %},{% endif %}{% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="lp-page dg-page bid-page" id="simple-guide">
+  <div class="lp-hero-shell">
+    <div class="lp-wrap">
+      <nav class="lp-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span aria-hidden="true">/</span>
+        <span aria-current="page">B2B Intent Data Providers</span>
+      </nav>
+      <div class="lp-hero">
+        <div>
+          <h1>10 Best B2B <span>Intent Data Providers in 2027</span></h1>
+          <p class="lp-intro">B2B intent data helps you spot companies and people researching a topic or product. Compare ten providers by signal, price and fit for your sales team.</p>
+          <p class="bid-checked">Vendor sources checked <time datetime="{{ guide.checkedDate }}">{{ guide.checkedLabel }}</time></p>
+          <div class="lp-actions">
+            <a class="lp-button" href="#comparison">Compare the 10 providers</a>
+            <a class="lp-text-link" href="#signal-to-call">See how CallTeam uses a signal</a>
+          </div>
+        </div>
+        <aside class="lp-brief bid-quick" aria-labelledby="bid-quick-heading">
+          <h2 id="bid-quick-heading">Start with the signal you need</h2>
+          <ul>
+            <li><strong>Software comparisons</strong><span>Try <a href="#g2">G2 Buyer Intent</a> for product and competitor research.</span></li>
+            <li><strong>Visits to your website</strong><span>Use <a href="#leadfeeder">Leadfeeder</a> for companies or test <a href="#rb2b">RB2B</a> for US visitor matches.</span></li>
+            <li><strong>Topic research across B2B sites</strong><span>Start with <a href="#apollo">Apollo’s included topics</a> or quote <a href="#bombora">Bombora</a> for a separate feed.</span></li>
+            <li><strong>Shared account scoring</strong><span>Compare <a href="#6sense">6sense</a> and <a href="#demandbase">Demandbase</a> when sales and marketing will use the scores.</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <nav class="lp-jump" aria-label="On this page">
+    <div class="lp-wrap">
+      <a href="#comparison">Comparison</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#signal-to-call">How CallTeam calls</a>
+      <a href="#verdicts">Vendor verdicts</a>
+      <a href="#buying-questions">Vendor test</a>
+      <a href="#questions">FAQs</a>
+    </div>
+  </nav>
+
+  <section class="lp-section" id="comparison">
+    <div class="lp-wrap">
+      <div class="lp-heading">
+        <h2>B2B intent data providers compared</h2>
+      </div>
+      <div class="sg-table-wrap">
+        <table class="lp-table sg-table dg-table bid-table" role="table">
+          <caption>Signal sources, identification, timing and pricing checked {{ guide.checkedLabel }}</caption>
+          <thead>
+            <tr role="row">
+              <th scope="col" role="columnheader">Provider</th>
+              <th scope="col" role="columnheader">What it detects</th>
+              <th scope="col" role="columnheader">Who it identifies</th>
+              <th scope="col" role="columnheader">Signal timing</th>
+              <th scope="col" role="columnheader">Starting price or quote</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for provider in guide.providers %}
+            <tr role="row" data-provider="{{ provider.id }}">
+              <th scope="row" role="rowheader"><a href="#{{ provider.id }}">{{ provider.name }}</a><span>{{ provider.fit }}</span></th>
+              <td role="cell" data-label="What it detects">{{ provider.signal }}</td>
+              <td role="cell" data-label="Who it identifies">{{ provider.identity }}</td>
+              <td role="cell" data-label="Signal timing">{{ provider.timing }}</td>
+              <td role="cell" data-label="Starting price or quote">
+                <strong>{{ provider.price }}</strong>
+                <a class="bid-source" href="{{ provider.sources[0][1] }}">{{ provider.sources[0][0] }}</a>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="lp-field-note bid-compare-note" id="company-vs-person">
+        <h3>Know who actually took the action</h3>
+        <p>When a signal names a company, find the person who owns the issue. If the vendor gives you a name, ask who took the action and how they matched that person.</p>
+        <p>Need names and numbers for a list you already have? Compare <a href="/resources/b2b-lead-providers/">B2B lead generation databases and phone credits</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section lp-paper" id="pricing">
+    <div class="lp-wrap">
+      <div class="lp-heading">
+        <h2>What intent data actually costs</h2>
+        <p>Budget for the signals, contact details and exports your team needs.</p>
+      </div>
+      <div class="bid-prices">
+        <article>
+          <h3>Apollo Basic</h3>
+          <p class="bid-price-point">US$49 <span>per user per month on annual billing</span></p>
+          <p>Three users cost <strong>US$1,764 a year</strong> at that rate. Basic is US$65 per user on monthly billing. Basic and Professional both track six intent topics.</p>
+          <a href="https://www.apollo.io/pricing">Apollo’s plan prices</a>
+        </article>
+        <article>
+          <h3>Leadfeeder Discover</h3>
+          <p class="bid-price-point">€79 <span>per month on annual billing</span></p>
+          <p>The up-to-50-company tier costs <strong>€948 a year</strong> at that rate. It starts at €113 on monthly billing. Contact enrichment and exports use credits.</p>
+          <a href="https://www.leadfeeder.com/pricing/">Leadfeeder’s volume tiers</a>
+        </article>
+        <article>
+          <h3>RB2B Starter</h3>
+          <p class="bid-price-point">US$79 <span>per month</span></p>
+          <p>Starter includes <strong>300 resolutions a month</strong> and delivers LinkedIn links for eligible person matches. Pro starts at US$149 a month and adds business emails.</p>
+          <a href="https://rb2b.com/pricing">RB2B plans and allowances</a>
+        </article>
+      </div>
+      <div class="bid-prices-detail">
+        <div>
+          <h3>Check for duplicate data</h3>
+          <p>Apollo and Cognism both use Bombora. Check the source and topic coverage in your current plan before licensing a second feed. Pay more when the new offer improves which accounts you can reach or what your callers know.</p>
+          <p class="bid-source-line"><a href="https://knowledge.apollo.io/hc/en-us/articles/8047704465933-Buying-Intent-Overview">Apollo’s intent source</a><span aria-hidden="true"> · </span><a href="https://help.cognism.com/hc/en-gb/articles/34676050489874-How-to-configure-Bombora-intent-topics">Cognism’s intent source</a></p>
+        </div>
+        <div>
+          <h3>Ask for the full cost</h3>
+          <p>Ask for seats, topics, contact credits, integrations, setup and renewal in one quote. Check which exports you can keep if you cancel. Compare what each agency takes on with the <a href="/lead-generation-proposal-comparison/">proposal comparison tool</a> when you also need a calling team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section" id="signal-to-call">
+    <div class="lp-wrap">
+      <div class="lp-heading">
+        <h2>How CallTeam uses buyer intent in cold calling</h2>
+        <p>Use the signal to pick an account and prepare a question. The caller finds out whether there’s a business reason to meet.</p>
+      </div>
+      <div class="bid-case-grid" id="credit-union-campaign">
+        <article class="bid-proof" aria-labelledby="bid-case-heading">
+          <h3 id="bid-case-heading">Credit union income verification</h3>
+          <p>CallTeam researched credit unions and lending teams for a software provider. We used public business changes and buyer research to decide who to call and what to ask.</p>
+          <dl class="bid-outcomes">
+            <div><dt>Qualified meetings</dt><dd>8</dd></div>
+            <div><dt>Signed customers</dt><dd>2</dd></div>
+            <div><dt>Campaign days</dt><dd>90</dd></div>
+          </dl>
+          <a href="/case-studies/credit-union-income-verification-appointment-setting/">Read the credit union case study</a>
+        </article>
+        {{ processVideoPreview('See how CallTeam works in 78 seconds', 'Watch how we choose accounts, qualify interest and prepare the handoff.', 'intent-data') }}
+      </div>
+      <div class="bid-workflow">
+        <article>
+          <h3>Pick the account and buyer</h3>
+          <p>Check that the company fits the offer, then find the role that owns the issue. At a credit union, that could be lending operations or underwriting.</p>
+        </article>
+        <article>
+          <h3>Confirm the reason to talk</h3>
+          <p>Use a relevant question about the buyer’s process. A sample opener for a lending team is “How do you verify income when a loan file needs a second look?”</p>
+        </article>
+        <article>
+          <h3>Hand sales the next step</h3>
+          <p>Send the buyer’s role, what they confirmed, the reason they agreed to meet and the next action. Record whether the meeting took place and where it went.</p>
+        </article>
+      </div>
+      <div class="lp-field-note bid-handoff">
+        <h3>Sample meeting note for sales</h3>
+        <p>The lending operations lead still reviews some files manually. They want to see how income verification would work on those files. They agreed to a workflow review with underwriting.</p>
+      </div>
+      <p class="bid-evidence-links">For another market, see how a <a href="/case-studies/saas-demo-appointment-setting/">SaaS campaign booked 11 qualified demos in 90 days</a>. The <a href="/resources/b2b-cold-calling-report/">B2B cold calling report</a> shows how CallTeam tracks attempts, bookings and attendance.</p>
+      <div class="sg-mid-cta">
+        <p><strong>Ready to follow up on buyer signals?</strong> CallTeam finds the right contacts, makes the calls and qualifies the next step.</p>
+        <a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="intent-data-case">Talk to CallTeam</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section lp-paper" id="verdicts">
+    <div class="lp-wrap">
+      <div class="lp-heading">
+        <h2>10 intent data providers and our verdicts</h2>
+      </div>
+      <div class="dg-reviews">
+        {% for provider in guide.providers %}
+        <article class="lp-provider bid-review" id="{{ provider.id }}">
+          <header class="lp-provider-head">
+            <div><p class="lp-kicker">{{ provider.fit }}</p><h3>{{ provider.name }}</h3></div>
+          </header>
+          <div class="lp-provider-body">
+            <div class="lp-provider-detail">
+              <h4>What it does well</h4><p>{{ provider.good }}</p>
+              <h4>Where it falls short</h4><p>{{ provider.weak }}</p>
+            </div>
+            <aside class="lp-verdict">
+              <h4>CallTeam verdict</h4><p class="lp-verdict-text">{{ provider.verdict }}</p>
+            </aside>
+          </div>
+          <p class="sg-sources">
+            {% for source in provider.sources %}
+            <a href="{{ source[1] }}">{{ source[0] }}</a>{% if not loop.last %}<span aria-hidden="true"> · </span>{% endif %}
+            {% endfor %}
+          </p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section lp-dark" id="buying-questions">
+    <div class="lp-wrap">
+      <div class="lp-heading">
+        <h2>Test the same 25 accounts before you buy</h2>
+        <p>Use accounts you would actually call. Ask each vendor to show the event date, the buyer or company it identified, and what your reps can export.</p>
+      </div>
+      <div class="sg-copy-layout">
+        <pre id="sg-resource-text" tabindex="0" aria-label="Five questions for intent data providers">{% for question in guide.questions %}{{ loop.index }}. {{ question }}{% if not loop.last %}{{ "\n\n" }}{% endif %}{% endfor %}</pre>
+        <aside>
+          <h3>Take these questions to the demo</h3>
+          <p>Keep the same sample and time window for each vendor. Count the target accounts with a recent signal and a buyer you can reach.</p>
+          <button id="sg-copy-resource" class="lp-button" type="button" hidden>Copy the five questions</button>
+          <span id="sg-copy-status" role="status" aria-live="polite"></span>
+          <noscript><p>Select and copy the questions above.</p></noscript>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section" id="questions">
+    <div class="lp-wrap lp-faq-wrap">
+      <div class="lp-heading"><h2>B2B intent data FAQs</h2></div>
+      <div class="lp-faqs">
+        {% for faq in guide.faqs %}
+        <details><summary>{{ faq.q }}</summary><p>{{ faq.a }}</p></details>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-section lp-paper lp-close" id="hire-callteam">
+    <div class="lp-wrap lp-close-grid">
+      <div>
+        <h2>Let CallTeam work your signal list</h2>
+        <p>Bring your accounts or hire us to find the buyers. Our North America–based callers make the calls, leave live voicemails or approved voicemail drops, and follow up. Your sales team gets the conversation notes and the agreed next step.</p>
+        <div class="lp-actions">
+          <a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="intent-data-final">Book a free 30-minute call</a>
+          <a class="lp-text-link" href="/services/b2b-cold-calling/">See CallTeam’s calling service</a>
+        </div>
+      </div>
+      <aside>
+        <h3>Plan the outreach</h3>
+        <a href="/services/ai-gtm/#buyer-signal-radar">See CallTeam’s Buyer Signal Radar</a>
+        <a href="/b2b-outbound-campaign-planner/">Build a campaign preview for your market</a>
+        <a href="/resources/how-to-buy-cold-calling-leads/">Choose a mobile, direct line or company number</a>
+        <a href="/services/outsourced-sdr/">Explore outsourced SDR services</a>
+      </aside>
+    </div>
+  </section>
+</main>

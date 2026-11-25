@@ -1,0 +1,198 @@
+.bid-page .lp-hero-shell {
+  background: linear-gradient(135deg, #fff 58%, #fff3eb);
+}
+
+.bid-page .lp-hero {
+  grid-template-columns: minmax(0, 1.18fr) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 68px);
+  align-items: center;
+  padding-block: clamp(36px, 5vw, 68px);
+}
+
+.bid-page .lp-hero h1 {
+  max-width: 14ch;
+  font-size: clamp(38px, 6.3vw, 75px);
+}
+
+.bid-page .lp-button {
+  color: #111;
+}
+
+.bid-checked {
+  margin: 14px 0 0;
+  color: var(--lp-muted);
+  font-size: .875rem;
+}
+
+.bid-page .bid-quick {
+  padding: clamp(22px, 3vw, 34px);
+}
+
+.bid-quick h2 {
+  margin: 0 0 12px;
+  color: #fff;
+}
+
+.bid-quick ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bid-quick li {
+  display: grid;
+  gap: 3px;
+  padding-block: 12px;
+  border-bottom: 1px solid #424242;
+}
+
+.bid-quick li:last-child {
+  border-bottom: 0;
+}
+
+.bid-quick li span {
+  color: #e5e5e5;
+}
+
+.bid-quick li a {
+  color: #ff9168;
+}
+
+.bid-table th[scope="row"] {
+  min-width: 128px;
+}
+
+.bid-table th[scope="row"] span,
+.bid-table .bid-source {
+  display: block;
+  margin-top: 4px;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.bid-table th[scope="row"] span {
+  color: var(--lp-muted);
+}
+
+.bid-compare-note {
+  margin-top: 24px;
+}
+
+.bid-prices,
+.bid-workflow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.bid-prices article,
+.bid-workflow article,
+.bid-prices-detail > div,
+.bid-proof {
+  padding: clamp(18px, 2.6vw, 28px);
+  border: 1px solid var(--lp-line);
+  background: #fff;
+}
+
+.bid-price-point {
+  margin: 0 0 12px;
+  color: var(--lp-ink);
+  font-family: Archivo, Arial, sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.bid-price-point span {
+  display: block;
+  margin-top: 5px;
+  color: var(--lp-muted);
+  font: 500 .875rem/1.45 Inter, sans-serif;
+}
+
+.bid-prices-detail,
+.bid-case-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.bid-prices-detail,
+.bid-workflow,
+.bid-handoff,
+.bid-evidence-links {
+  margin-top: 20px;
+}
+
+.bid-source-line {
+  margin-bottom: 0;
+  font-size: .875rem;
+}
+
+.bid-proof {
+  border-top: 4px solid var(--orange);
+  background: #fff3eb;
+}
+
+.bid-case-grid .ct-process-preview {
+  align-self: start;
+  margin: 0;
+}
+
+.bid-outcomes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.bid-outcomes div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.bid-outcomes dt {
+  font-size: .875rem;
+}
+
+.bid-outcomes dd {
+  margin: 0 0 4px;
+  color: var(--lp-ink);
+  font-family: Archivo, Arial, sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.65rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.bid-review .lp-provider-head {
+  margin-bottom: 12px;
+}
+
+.bid-page #credit-union-campaign,
+.bid-page #company-vs-person {
+  scroll-margin-top: calc(var(--lp-header-offset, 76px) + 66px);
+}
+
+@media (max-width: 880px) {
+  .bid-page .lp-hero {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .bid-prices,
+  .bid-workflow,
+  .bid-prices-detail,
+  .bid-case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bid-outcomes {
+    gap: 8px;
+  }
+
+  .bid-page .lp-jump a {
+    white-space: nowrap;
+  }
+}
