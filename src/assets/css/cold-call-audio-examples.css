@@ -1,0 +1,225 @@
+.cae-page .cae-hero {
+  align-items: center;
+}
+
+.cae-provenance {
+  max-width: 510px;
+  color: var(--lp-muted);
+  font-size: 14px;
+}
+
+.cae-page .lp-button {
+  color: #151515;
+}
+
+.cae-page .lp-jump .lp-wrap {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0 24px;
+}
+
+.cae-page .lp-jump a {
+  white-space: nowrap;
+}
+
+.cae-spotlight {
+  display: grid;
+  grid-template-columns: minmax(125px, .7fr) minmax(0, 1fr);
+  gap: clamp(16px, 2.4vw, 28px);
+  align-items: center;
+  padding: clamp(16px, 2.4vw, 28px);
+  border-top: 4px solid var(--orange);
+  background: #151515;
+  color: #fff;
+  scroll-margin-top: calc(var(--lp-header-offset, 76px) + 72px);
+}
+
+.cae-media {
+  width: 100%;
+  min-width: 0;
+  max-width: 210px;
+  margin-inline: auto;
+}
+
+.cae-media video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  background: #151515;
+}
+
+.cae-spotlight .lp-kicker,
+.cae-spotlight a {
+  color: #ff9168;
+}
+
+.cae-spotlight h2 {
+  color: #fff;
+  font-size: clamp(23px, 2.4vw, 35px);
+}
+
+.cae-spotlight p {
+  color: #ececec;
+}
+
+.cae-spotlight .ctl-transcript {
+  background: #252525;
+  border-color: #515151;
+}
+
+.cae-spotlight .ctl-transcript summary {
+  color: #fff;
+}
+
+.cae-opening,
+.cae-dialogue-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(24px, 4vw, 48px);
+}
+
+.cae-dialogue-grid {
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+}
+
+.cae-practice:nth-of-type(even) {
+  background: var(--lp-paper);
+}
+
+.cae-lesson {
+  display: grid;
+  grid-template-columns: minmax(160px, 210px) minmax(0, 680px);
+  justify-content: center;
+  align-items: start;
+  gap: clamp(24px, 5vw, 56px);
+}
+
+.cae-lesson-body h2 {
+  margin-bottom: 14px;
+}
+
+.cae-say,
+.cae-proof {
+  border-left: 4px solid var(--orange);
+  padding: clamp(18px, 2.6vw, 28px);
+  background: #fff3eb;
+}
+
+.cae-say blockquote {
+  margin: 0 0 16px;
+  font: 700 clamp(17px, 2vw, 23px)/1.48 Archivo, Arial, sans-serif;
+}
+
+.cae-page .ctl-transcript + a {
+  display: inline-block;
+  margin-top: 14px;
+}
+
+.cae-dialogue {
+  border: 1px solid var(--lp-line);
+  padding: clamp(18px, 2.6vw, 28px);
+}
+
+.cae-dialogue-player {
+  margin-bottom: 24px;
+}
+
+.cae-dialogue-player video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #151515;
+}
+
+.cae-dialogue dl {
+  margin: 14px 0;
+}
+
+.cae-dialogue dl > div {
+  display: grid;
+  grid-template-columns: minmax(110px, .32fr) 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--lp-line);
+}
+
+.cae-dialogue dt {
+  font-weight: 700;
+}
+
+.cae-dialogue dd,
+.cae-results dd {
+  margin: 0;
+}
+
+.cae-script-actions {
+  display: grid;
+  justify-items: start;
+  gap: 10px;
+}
+
+.cae-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 20px 0;
+  padding-block: 14px;
+  border-block: 1px solid var(--lp-line);
+}
+
+.cae-results > div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cae-results dd {
+  color: #151515;
+  font: 800 clamp(28px, 4vw, 44px)/1 Archivo, Arial, sans-serif;
+}
+
+.cae-proof > a + h3 {
+  margin-top: 28px;
+}
+
+.cae-proof h3 + p {
+  margin-top: 12px;
+}
+
+.cae-demo-resource {
+  border-top: 1px solid var(--lp-line);
+  margin-top: 18px;
+  padding-top: 18px;
+}
+
+@media (max-width: 1080px) {
+  .cae-page .lp-jump {
+    position: static;
+  }
+}
+
+@media (max-width: 860px) {
+  .cae-page .cae-hero,
+  .cae-dialogue-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .cae-spotlight,
+  .cae-opening,
+  .cae-lesson,
+  .cae-dialogue dl > div {
+    grid-template-columns: 1fr;
+  }
+
+  .cae-page .lp-jump a {
+    padding-block: 12px;
+  }
+
+  .cae-lesson .cae-media {
+    max-width: 180px;
+  }
+}

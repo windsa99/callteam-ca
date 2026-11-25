@@ -189,6 +189,8 @@ A useful opening usually establishes three things in plain English:
 - the business situation behind the call;
 - the question the caller wants to test.
 
+Hear how the caller pauses after the first question in our [cold call audio examples](/resources/cold-call-audio-examples/#opener). Practise the pause aloud before you dial.
+
 That can happen in several styles. An executive opening may name an outcome or decision. An operational opening may describe a recognizable failure point. A permission-based opening may acknowledge the interruption and ask a direct current-state question.
 
 Avoid false familiarity, unsupported claims, and overpersonalization. Mentioning every fact found online can feel invasive rather than relevant. Choose the one piece of context that makes the question easier to understand.

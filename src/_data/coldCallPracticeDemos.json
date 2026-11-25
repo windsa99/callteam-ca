@@ -1,0 +1,107 @@
+[
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity cold call example",
+    "jumpLabel": "Cybersecurity",
+    "asset": "callteam-cybersecurity-cold-call-demo",
+    "intro": "An IT leader already has a provider. Hear how the caller asks what the last security review covered.",
+    "takeawayHeading": "Ask what they tested",
+    "takeaway": "If the buyer names a gap in their incident response plan, find out who owns the next exercise before asking for a meeting.",
+    "sourceUrl": "/resources/cold-call-scripts/cybersecurity-risk-assessment-cold-call-script/",
+    "sourceLabel": "Read the full cybersecurity risk assessment script",
+    "relatedText": "CallTeam’s manufacturing cybersecurity case study reports 9 qualified appointments in 90 days. Three advanced to sales opportunities.",
+    "relatedUrl": "/case-studies/manufacturing-cybersecurity-appointment-setting/",
+    "relatedLabel": "Read the manufacturing campaign results",
+    "turns": [
+      {"speaker": "Caller", "line": "When was the last time an independent team tested how you’d respond to a security incident?"},
+      {"speaker": "IT leader", "line": "Our managed IT provider handles security."},
+      {"speaker": "Caller", "line": "What did their last review cover?"},
+      {"speaker": "IT leader", "line": "They checked our tools. We haven’t tested our incident response plan."},
+      {"speaker": "Caller", "line": "Who would lead that exercise on your side?"},
+      {"speaker": "IT leader", "line": "I’d lead it. Operations would need to be there."},
+      {"speaker": "Caller", "line": "Would 15 minutes Tuesday work to see what an independent review would cover?"},
+      {"speaker": "IT leader", "line": "Ten Eastern works. I’ll bring our operations lead."}
+    ]
+  },
+  {
+    "id": "it-staffing",
+    "title": "IT staffing cold call example",
+    "jumpLabel": "IT staffing",
+    "asset": "callteam-it-staffing-cold-call-demo",
+    "intro": "A recruiter calls a hiring manager about an open network administrator job. The manager explains what the contractor has to do in the first week.",
+    "takeawayHeading": "Check who can send candidates",
+    "takeaway": "Ask whether the employer can use an outside recruiter for the role. If the approved list is closed, record it and thank the buyer.",
+    "sourceUrl": "/resources/cold-call-scripts/it-staffing-cold-call-script-hiring-managers/",
+    "sourceLabel": "Read the full IT staffing cold call script",
+    "relatedUrl": "/articles/staffing-recruiting-outbound-sales-playbook/",
+    "relatedLabel": "Read the staffing and recruiting outbound playbook",
+    "turns": [
+      {"speaker": "Caller", "line": "I saw your contract network administrator opening. Are you still hiring for it?"},
+      {"speaker": "Hiring manager", "line": "Yes. We need someone who can run the cutover."},
+      {"speaker": "Caller", "line": "What would they need to handle on their own in the first week?"},
+      {"speaker": "Hiring manager", "line": "The switch to the new network on Saturday night."},
+      {"speaker": "Caller", "line": "Can you bring in an outside recruiter for this role?"},
+      {"speaker": "Hiring manager", "line": "No. Only approved agencies can submit, and the list is closed."},
+      {"speaker": "Caller", "line": "Got it. I’ll leave it there. Thanks for your time."},
+      {"speaker": "Hiring manager", "line": "Thanks for checking."}
+    ]
+  },
+  {
+    "id": "appointment-setting",
+    "title": "Appointment setting cold call example",
+    "jumpLabel": "Booking a meeting",
+    "asset": "callteam-appointment-setting-cold-call-demo",
+    "intro": "A parts supplier finds the item holding up orders and makes it the agenda for a short meeting.",
+    "takeawayHeading": "Give the specialist enough to prepare",
+    "takeaway": "Record the part, how many orders had to wait and the agreed meeting time. Tell the specialist the buyer will bring the part number.",
+    "sourceUrl": "/resources/cold-call-scripts/b2b-appointment-setting-cold-call-script/",
+    "sourceLabel": "Read the full B2B appointment setting script",
+    "relatedUrl": "/articles/what-makes-b2b-appointment-qualified-practical-standard/",
+    "relatedLabel": "Read what qualifies a B2B sales meeting",
+    "turns": [
+      {"speaker": "Caller", "line": "When a customer needs a part you don’t have, how do you find it today?"},
+      {"speaker": "Purchasing manager", "line": "I call our two suppliers. If they’re out, the order sits."},
+      {"speaker": "Caller", "line": "Is there one part that keeps coming up?"},
+      {"speaker": "Purchasing manager", "line": "A pump seal. We’ve had two orders wait for it this month."},
+      {"speaker": "Caller", "line": "Would ten minutes with our parts specialist help you check what would fit?"},
+      {"speaker": "Purchasing manager", "line": "Yes. I can bring the part number."},
+      {"speaker": "Caller", "line": "Tuesday at ten Mountain or Wednesday at two Mountain?"},
+      {"speaker": "Purchasing manager", "line": "Tuesday at ten. Let’s look at that seal."}
+    ]
+  },
+  {
+    "id": "voicemail",
+    "title": "Cold call voicemail example",
+    "jumpLabel": "Voicemail",
+    "asset": "callteam-cold-call-voicemail-demo",
+    "intro": "A caller offers a second repair estimate in a 20-second voicemail for a fleet manager.",
+    "takeawayHeading": "Make the callback easy",
+    "takeaway": "Give one reason to call back. Say the number slowly enough to write down. The clip uses an example number.",
+    "sourceUrl": "/resources/cold-call-scripts/fleet-account-cold-calling-script-auto-body-shops/#alternative-3",
+    "sourceLabel": "Read the fleet voicemail script",
+    "relatedUrl": "/articles/b2b-cold-call-voicemail-scripts-that-create-a-reason-to-call-back/",
+    "relatedLabel": "See more B2B cold call voicemail scripts",
+    "turns": [
+      {"speaker": "Caller", "line": "Hi, Alex with CallTeam. I’m calling for a Calgary body shop that repairs service vans. If you ever need a second estimate, you can reach me at 403-555-0148. Again, that’s 403-555-0148."}
+    ]
+  },
+  {
+    "id": "how-did-you-get-my-number",
+    "title": "“How did you get my number?” example",
+    "jumpLabel": "How did you get my number?",
+    "asset": "callteam-how-did-you-get-my-number-demo",
+    "intro": "The buyer wants to know where the number came from. They ask the caller to take them off the list.",
+    "takeawayHeading": "Answer the source question first",
+    "takeaway": "Name the source you can verify, then pause. When someone asks you to stop, end the call and record the request before calling the next prospect.",
+    "sourceUrl": "/articles/how-to-answer-how-did-you-get-my-number-b2b-cold-call/#four-cold-call-responses",
+    "sourceLabel": "Read all four replies in the guide",
+    "relatedUrl": "/resources/how-to-buy-cold-calling-leads/",
+    "relatedLabel": "See when to use a mobile, direct or company number",
+    "turns": [
+      {"speaker": "Buyer", "line": "How did you get my number?"},
+      {"speaker": "Caller", "line": "I found it in your company’s public staff directory."},
+      {"speaker": "Buyer", "line": "Thanks. Please take me off your list."},
+      {"speaker": "Caller", "line": "Understood. I’ll record your request and stop here."}
+    ]
+  }
+]
