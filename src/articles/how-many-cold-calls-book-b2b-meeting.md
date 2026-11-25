@@ -115,6 +115,8 @@ If the dial-to-booked-meeting rate is known:
 
 If 2% of dials produce booked meetings, one divided by 0.02 equals 50 dials per booking. That calculation says nothing about whether the meeting was qualified or held.
 
+For observed booking rates, see the [2027 B2B cold calling benchmarks](/resources/b2b-cold-calling-report/#benchmarks).
+
 Add attendance:
 
 > **Dials per held meeting = dials per booked meeting ÷ show rate**

@@ -1,0 +1,400 @@
+---
+layout: layouts/base.njk
+permalink: "/resources/b2b-cold-calling-report/"
+title: "2027 B2B Cold Calling Report"
+seoTitle: "2027 B2B Cold Calling Report: Benchmarks & Results | CallTeam"
+description: "Compare B2B cold calling benchmarks and six campaign results. See calls per booked meeting, live conversation rates, attendance and sales outcomes."
+canonicalUrl: "https://www.callteam.ca/resources/b2b-cold-calling-report/"
+date: "2026-11-25"
+modified: "2026-11-25"
+contentLanguage: "en-CA"
+ogType: "article"
+pageStyles: ["/assets/css/lead-providers.css", "/assets/css/process-video-preview.css", "/assets/css/b2b-cold-calling-report.css"]
+---
+{% from "components/process-video-preview.njk" import processVideoPreview %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ canonicalUrl }}#webpage",
+      "url": "{{ canonicalUrl }}",
+      "name": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "inLanguage": "en-CA",
+      "breadcrumb": {
+        "@id": "{{ canonicalUrl }}#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "{{ canonicalUrl }}#report"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "{{ canonicalUrl }}#report",
+      "headline": {{ title | json | safe }},
+      "description": {{ description | json | safe }},
+      "datePublished": "{{ date | sitemapDate }}",
+      "dateModified": "{{ modified }}",
+      "mainEntityOfPage": {
+        "@id": "{{ canonicalUrl }}#webpage"
+      },
+      "hasPart": {
+        "@id": "{{ canonicalUrl }}#dataset"
+      },
+      "author": {
+        "@id": "{{ site.organizationId }}"
+      },
+      "publisher": {
+        "@id": "{{ site.organizationId }}"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "{{ canonicalUrl }}#dataset",
+      "name": "CallTeam B2B cold calling campaign results",
+      "description": "Outcomes for six outbound campaigns, including weekly calling activity, meeting show rates, the MaxWell Realty Canada case study and a September 2026 IT disaster recovery snapshot.",
+      "url": "{{ canonicalUrl }}#campaign-results",
+      "dateModified": "2026-11-24",
+      "creator": {
+        "@id": "{{ site.organizationId }}"
+      },
+      "measurementTechnique": "Campaign call log, meeting register, campaign team confirmations and linked case studies.",
+      "variableMeasured": [
+        "Logged outbound attempts",
+        "Confirmed conversations",
+        "Bookings",
+        "Confirmed held meetings",
+        "Downstream result",
+        "Calls per active week",
+        "Connection rate low (%)",
+        "Connection rate high (%)",
+        "Weekly bookings low",
+        "Weekly bookings high",
+        "Show rate low (%)",
+        "Show rate high (%)"
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "{{ site.url }}/assets/downloads/2027-b2b-cold-calling-report.csv"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonicalUrl }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{ site.url }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Outbound Sales Library",
+          "item": "{{ site.url }}/resources/outbound-sales-library/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ title | json | safe }},
+          "item": "{{ canonicalUrl }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<main class="lp-page cc-report" id="cold-calling-report">
+  <div class="lp-hero-shell">
+    <div class="lp-wrap">
+      <nav class="lp-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <a href="/resources/outbound-sales-library/">Outbound Sales Library</a><span aria-hidden="true">/</span>
+        <span aria-current="page">Cold Calling Report</span>
+      </nav>
+      <div class="lp-hero cc-report-hero">
+        <div class="cc-report-intro">
+          <h1>2027 B2B Cold <span>Calling Report</span></h1>
+          <p class="lp-intro">CallTeam’s fleet repair campaign averaged <strong>33 logged attempts per booked meeting</strong>. See results from six B2B campaigns and compare the fleet booking rate with published benchmarks.</p>
+          <p class="cc-report-date">Published <time datetime="{{ date | sitemapDate }}">November 25, 2026</time></p>
+          <div class="lp-actions">
+            <a class="lp-button" href="#benchmarks">Compare the benchmarks</a>
+            <a class="lp-text-link" href="#campaign-results">See campaign results</a>
+          </div>
+        </div>
+        <aside class="lp-brief cc-report-ledger" aria-labelledby="fleet-results-title">
+          <header>
+            <h2 id="fleet-results-title">Fleet repair results</h2>
+            <p>November 2–24, 2026</p>
+          </header>
+          <dl>
+            <div><dt>Logged attempts</dt><dd>880</dd></div>
+            <div><dt>Live conversations</dt><dd>158</dd></div>
+            <div><dt>Meetings booked</dt><dd>27</dd></div>
+            <div><dt>Meetings attended</dt><dd>9</dd></div>
+          </dl>
+          <div class="cc-report-ledger-result"><strong>1 new customer</strong><a href="#fleet-source">Source and counting rules</a></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <nav class="lp-jump" aria-label="On this page"><div class="lp-wrap">
+    <a href="#benchmarks">Benchmarks</a><a href="#campaign-results">Campaigns</a><a href="#methodology">Method</a><a href="#callteam-outreach">Demo</a>
+  </div></nav>
+
+  <section class="lp-section" id="benchmarks"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>B2B cold calling benchmarks</h2>
+    </div>
+    <div class="cc-report-table-wrap">
+      <table class="lp-table cc-report-table cc-report-benchmarks" aria-describedby="benchmark-note" role="table">
+        <caption>How many calls does it take to book a meeting?</caption>
+        <thead><tr role="row"><th scope="col" role="columnheader">Source</th><th scope="col" role="columnheader">Attempts and bookings</th><th scope="col" role="columnheader">Bookings per 100 attempts</th><th scope="col" role="columnheader">Attempts per booking</th></tr></thead>
+        <tbody>
+
+          <tr role="row" class="cc-report-featured-row">
+            <th scope="row" role="rowheader"><a href="#fleet-source">CallTeam fleet repair</a></th>
+            <td role="cell" data-label="Attempts and bookings"><div>27 bookings across 880 logged attempts<br>November 2–24, 2026</div></td>
+            <td role="cell" data-label="Bookings per 100 attempts"><strong>3.07</strong></td>
+            <td role="cell" data-label="Attempts per booking"><strong>33</strong></td>
+          </tr>
+
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="https://www.abstraktmg.com/our-process/">Abstrakt</a></th>
+            <td role="cell" data-label="Attempts and bookings"><div>25,151 bookings across 3,140,107 dials<br>15 US commercial service industries through October 2026</div></td>
+            <td role="cell" data-label="Bookings per 100 attempts"><strong>0.80</strong></td>
+            <td role="cell" data-label="Attempts per booking"><strong>125</strong></td>
+          </tr>
+
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="https://www.cognism.com/hubfs/2025-Cold-Calling-Report-PDFs.pdf">WHAM in Cognism’s 2025 report</a></th>
+            <td role="cell" data-label="Attempts and bookings"><div>617 bookings across 204,698 dials<br>Worldwide sample</div></td>
+            <td role="cell" data-label="Bookings per 100 attempts"><strong>0.30</strong></td>
+            <td role="cell" data-label="Attempts per booking"><strong>332</strong></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <p class="cc-report-table-note" id="benchmark-note">Bookings per 100 attempts = bookings ÷ attempts × 100. Attempts per booking = attempts ÷ bookings, rounded to a whole number. Fleet totals include failed and cancelled attempts. Abstrakt counts qualified appointments booked.</p>
+    <div class="lp-field-note" id="connection-benchmarks">
+      <h3>What Gong and Cognism measure</h3>
+      <p><a href="https://www.gong.io/blog/the-hidden-power-of-cold-calling-insights-from-300m-calls">Gong analysed more than 300 million calls</a>. Average reps connected on 5.4% of dials and turned 4.6% of conversations into bookings. Top-quartile reps connected on 13.3% of dials and booked meetings from 16.7% of conversations. At 800 dials, Gong’s example works out to 2 bookings for average reps and 18 for the top quartile.</p>
+      <p>WHAM’s 2025 dataset includes 41,936 connected calls and 27,513 conversations. <a href="https://www.cognism.com/reports/state-of-outbound-2026">Cognism’s 2026 outbound study</a> shows a 13.3% cold-call answer rate for its SDRs using verified contact data.</p>
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="campaign-results"><div class="lp-wrap">
+    <div class="lp-heading">
+      <h2>Results from six B2B campaigns</h2>
+      <p>At 200 calls a week, four to five active weeks total 800–1,000 calls.</p>
+    </div>
+    <div class="cc-report-table-wrap">
+      <table class="lp-table cc-report-table cc-report-results" role="table">
+        <caption>Booked meetings, demos and sales outcomes</caption>
+        <thead><tr role="row"><th scope="col" role="columnheader">Campaign</th><th scope="col" role="columnheader">Period and call activity</th><th scope="col" role="columnheader">Booked</th><th scope="col" role="columnheader">After booking</th><th scope="col" role="columnheader">Source</th></tr></thead>
+        <tbody>
+
+          <tr role="row" class="cc-report-featured-row">
+            <th scope="row" role="rowheader"><a href="#fleet-repair">Canadian fleet repair</a></th>
+            <td role="cell" data-label="Period and calls"><div>November 2–24, 2026<br>
+              880 logged attempts
+            </div></td>
+            <td role="cell" data-label="Booked"><strong>27 meetings</strong></td>
+            <td role="cell" data-label="After booking"><div>
+              9 confirmed held,
+              1 new customer
+
+            </div></td>
+            <td role="cell" data-label="Source"><a href="#fleet-source">Campaign records</a></td>
+          </tr>
+
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="#disaster-recovery">IT disaster recovery</a></th>
+            <td role="cell" data-label="Period and calls"><div>First 6 months<br>
+              200 calls per active week
+
+            </div></td>
+            <td role="cell" data-label="Booked"><strong>22 meetings</strong></td>
+            <td role="cell" data-label="After booking"><div>
+
+              60–70% show rate
+
+            </div></td>
+            <td role="cell" data-label="Source"><a href="/case-studies/it-disaster-recovery-appointment-setting/">IT disaster recovery case study</a></td>
+          </tr>
+
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="#payments-technology">FinTech payments</a></th>
+            <td role="cell" data-label="Period and calls"><div>90 days<br>
+              200 calls per active week
+
+            </div></td>
+            <td role="cell" data-label="Booked"><strong>15 qualified demos</strong></td>
+            <td role="cell" data-label="After booking"><div>
+
+              3 closed deals
+
+            </div></td>
+            <td role="cell" data-label="Source"><a href="/case-studies/fintech-payment-platform-appointment-setting/">FinTech payments case study</a></td>
+          </tr>
+
+          <tr role="row" id="saas-results">
+            <th scope="row" role="rowheader"><a href="#b2b-saas">Location-intelligence SaaS</a></th>
+            <td role="cell" data-label="Period and calls"><div>First 90 days<br>
+              200 calls per active week
+
+            </div></td>
+            <td role="cell" data-label="Booked"><strong>11 qualified demos</strong></td>
+            <td role="cell" data-label="After booking"><div>
+
+              4 opportunities, 2 customers within 6 months
+              <br>60–70% show rate
+
+            </div></td>
+            <td role="cell" data-label="Source"><a href="/case-studies/saas-demo-appointment-setting/">B2B SaaS case study</a></td>
+          </tr>
+
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="#professional-services">Professional services</a></th>
+            <td role="cell" data-label="Period and calls"><div>90 days<br>
+              200 calls per active week
+
+            </div></td>
+            <td role="cell" data-label="Booked"><strong>6 qualified meetings</strong></td>
+            <td role="cell" data-label="After booking"><div>
+
+              3 opportunities, 1 signed client
+
+            </div></td>
+            <td role="cell" data-label="Source"><a href="/case-studies/professional-services-appointment-setting/">Professional services case study</a></td>
+          </tr>
+
+          <tr role="row">
+            <th scope="row" role="rowheader"><a href="#maxwell-realty">MaxWell Realty Canada</a></th>
+            <td role="cell" data-label="Period and calls"><div>6 months<br>
+              22–25% connection rate
+
+            </div></td>
+            <td role="cell" data-label="Booked"><strong>36 appointments</strong></td>
+            <td role="cell" data-label="After booking"><div>
+
+              —
+            </div></td>
+            <td role="cell" data-label="Source"><a href="/case-studies/maxwell-realty-canada-appointment-setting/">MaxWell Realty Canada case study</a></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="cc-report-data-note" id="dataset">
+      <p>Includes campaign results and the September IT calling snapshot.</p>
+      <a class="lp-text-link" href="/assets/downloads/2027-b2b-cold-calling-report.csv" download="CallTeam-2027-B2B-Cold-Calling-Report.csv">Download the results CSV</a>
+    </div>
+
+    <div class="lp-field-note cc-report-show-rates" id="meeting-show-rates">
+      <h3>How many booked meetings took place?</h3>
+      <p>The fleet register confirms 9 meetings held by November 24. Use the meetings due by that cutoff to calculate the show rate.</p>
+      <p>In <a href="https://www.growthcab.com/b2b-meeting-show-rate-study">Growth Cab’s study</a>, 69.6% of 1,380 cold-call bookings took place, mainly in European markets. <a href="https://www.cognism.com/reports/state-of-outbound-2026">Cognism’s outbound team</a> averaged 85.94% held across phone, email and LinkedIn outreach.</p>
+    </div>
+
+    <article class="cc-report-pace" id="disaster-recovery" aria-labelledby="recovery-title">
+      <div>
+        <p class="cc-report-period">September 2026 · Weekly pace</p>
+        <h3 id="recovery-title">IT disaster recovery calling</h3>
+        <p>These weekly figures cover September. The linked case study covers six months and 22 bookings.</p>
+        <a href="/case-studies/it-disaster-recovery-appointment-setting/">Read the IT disaster recovery case study</a>
+      </div>
+      <div>
+        <dl>
+          <div><dt>Calls a week</dt><dd>250</dd></div>
+          <div><dt>Connection rate</dt><dd>16–21%</dd></div>
+          <div><dt>Bookings a week</dt><dd>3–5</dd></div>
+        </dl>
+        <p>The connection range converts to 40–53 live conversations a week. The booking range works out to 1.2–2.0 bookings per 100 calls and 50–83 calls per booking.</p>
+      </div>
+    </article>
+  </div></section>
+
+  <section class="lp-section" id="campaign-notes"><div class="lp-wrap">
+    <div class="lp-heading"><h2>What the callers qualified</h2></div>
+    <div class="cc-report-campaigns">
+
+        <article class="cc-report-card" id="fleet-repair" aria-labelledby="fleet-repair-title">
+          <h3 id="fleet-repair-title">Canadian fleet repair</h3>
+          <p>Callers asked fleet and maintenance buyers which vehicles needed repair coverage and where those vehicles operated.</p>
+          <a href="#fleet-source">Fleet campaign records</a>
+        </article>
+
+        <article class="cc-report-card" id="payments-technology" aria-labelledby="payments-technology-title">
+          <h3 id="payments-technology-title">FinTech payments</h3>
+          <p>The callers asked merchants how they processed payments and checked whether the platform fit.</p>
+          <a href="/case-studies/fintech-payment-platform-appointment-setting/">FinTech payments case study</a>
+        </article>
+
+        <article class="cc-report-card" id="b2b-saas" aria-labelledby="b2b-saas-title">
+          <h3 id="b2b-saas-title">Location-intelligence SaaS</h3>
+          <p>Callers asked property and location professionals which decisions the software would help them make.</p>
+          <a href="/case-studies/saas-demo-appointment-setting/">B2B SaaS case study</a>
+        </article>
+
+        <article class="cc-report-card" id="professional-services" aria-labelledby="professional-services-title">
+          <h3 id="professional-services-title">Professional services</h3>
+          <p>Callers opened on changes in the buyer’s operations and asked where outside delivery support would help.</p>
+          <a href="/case-studies/professional-services-appointment-setting/">Professional services case study</a>
+        </article>
+
+        <article class="cc-report-card" id="maxwell-realty" aria-labelledby="maxwell-realty-title">
+          <h3 id="maxwell-realty-title">MaxWell Realty Canada</h3>
+          <p>The callers asked what properties prospects were looking for. Private listings and commercial property needs gave brokers a reason to continue the conversation.</p>
+          <a href="/case-studies/maxwell-realty-canada-appointment-setting/">MaxWell Realty Canada case study</a>
+        </article>
+
+    </div>
+  </div></section>
+
+  <section class="lp-section lp-paper" id="methodology"><div class="lp-wrap">
+    <div class="lp-heading"><h2>How we counted calls and meetings</h2></div>
+    <div class="cc-report-method">
+      <div id="fleet-source">
+        <h3>Fleet repair records</h3>
+        <p>CallTeam used its anonymized call log and meeting register for November 2–24, 2026. The campaign owner confirmed the new customer.</p>
+        <p>The log counts each outbound call activity once. The 158 live conversations across 880 attempts give a 17.95% live conversation rate.</p>
+      </div>
+      <div>
+        <h3>Other campaign results</h3>
+        <p>The case studies document bookings and sales outcomes for the stated periods.</p>
+        <p>The campaign team confirmed weekly call volumes, the SaaS and IT show rates, and the connection rates for September IT and MaxWell Realty Canada.</p>
+        <p>For more on regions and call timing, see <a href="https://www.cognism.com/reports/cold-calling-report-2026">Cognism and WHAM’s 2026 cold calling report</a>.</p>
+      </div>
+    </div>
+    <div class="lp-field-note cc-report-measurement" id="compare-your-campaign">
+      <h3>How to compare your cold calling results</h3>
+      <p>Use the same buyer group and dates for calls, conversations and bookings. For show rate, divide attended meetings by bookings due in that group. Count each rescheduled booking once.</p>
+      <p>If few prospects answer, compare <a href="/resources/how-to-buy-cold-calling-leads/">direct and company numbers</a> for similar buyers. If people answer and seldom book, review your opener and qualifying question with the <a href="/cold-call-script-checker/">cold call script checker</a>.</p>
+      <p>Check how many held meetings became opportunities with the <a href="/b2b-meeting-quality-check/">meeting quality check</a>. Use the <a href="/lead-generation-proposal-comparison/">proposal comparison tool</a> to see which agencies charge for booked, held or qualified meetings.</p>
+      <a href="/articles/how-many-cold-calls-book-b2b-meeting/">Calculate how many calls you need per meeting</a>
+    </div>
+  </div></section>
+
+  <section class="lp-section" id="callteam-outreach"><div class="lp-wrap cc-report-process">
+    <div>
+      <h2>Put CallTeam on your next calling campaign</h2>
+      <p>CallTeam builds your list or works from yours. Our North America–based callers qualify interest, leave live voicemails or approved voicemail drops, and follow up.</p>
+      <p>Sales gets the buyer’s reason for meeting, the call notes and the agreed next step.</p>
+      <div class="lp-actions">
+        <a class="lp-button" href="https://calendly.com/hello-callteam/new-meeting" target="_blank" rel="noopener" data-booking-placement="cold-calling-report">Book a free 30-minute call</a>
+        <a class="lp-text-link" href="/services/b2b-cold-calling/">Explore B2B cold calling services</a>
+      </div>
+    </div>
+
+{{ processVideoPreview('Watch the 78-second CallTeam demo', 'See how we select accounts, qualify interest and hand off a meeting.', 'cold-calling-report') }}
+
+  </div></section>
+</main>
