@@ -1,0 +1,22 @@
+{% macro nomineeRecognition(placement) %}
+<a
+  class="ct-nominee-link ct-nominee-link--{{ placement }}"
+  id="{{ placement }}-canadian-choice-nomination"
+  data-nominee-placement="{{ placement }}"
+  href="{{ canadianChoiceAward2027.url }}"
+>
+  <img
+    src="{{ canadianChoiceAward2027.image }}"
+    width="{{ canadianChoiceAward2027.imageWidth }}"
+    height="{{ canadianChoiceAward2027.imageHeight }}"
+    alt=""
+    loading="lazy"
+    decoding="async"
+  >
+  <span class="ct-nominee-link-copy">
+    <strong>{{ canadianChoiceAward2027.year }} {{ canadianChoiceAward2027.programme }}</strong>
+    <span>{{ canadianChoiceAward2027.status }}{% if placement != "footer" %} · {{ canadianChoiceAward2027.category }}{% endif %}</span>
+  </span>
+  {% if placement != "footer" %}<span class="ct-nominee-link-action">Read the announcement</span>{% endif %}
+</a>
+{% endmacro %}

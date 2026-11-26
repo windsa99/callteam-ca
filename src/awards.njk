@@ -2,10 +2,10 @@
 layout: "layouts/base.njk"
 title: "CallTeam Awards and Recognition"
 seoTitle: "Multi-Award-Winning B2B Sales Execution | CallTeam"
-description: "Explore CallTeam’s four awards for B2B sales, calling, lead generation and appointment setting, with judges’ feedback and published campaign results."
+description: "Explore CallTeam’s four award wins and 2027 Canadian Choice Award nomination, with judges’ feedback and B2B calling campaign results."
 permalink: "/awards/"
 canonicalUrl: "https://www.callteam.ca/awards/"
-modified: "2026-11-03"
+modified: "2026-11-26"
 contentLanguage: "en-CA"
 pageStyles:
   - "/assets/css/awards.css"
@@ -16,6 +16,7 @@ organizationAwards:
   - "Best Global B2B Outbound Sales Execution Company 2027 | Global Excellence Awards · Acquisition International | 2027 edition"
   - "Business-to-Business Sales Specialists of the Year | Global Awards · Corporate LiveWire | 2026/27"
 ---
+{% from "components/nominee-recognition.njk" import nomineeRecognition with context %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"{{ canonicalUrl }}#webpage","url":"{{ canonicalUrl }}","name":{{ title | json | safe }},"description":{{ description | json | safe }},"dateModified":"{{ modified }}","inLanguage":"en-CA","isPartOf":{"@id":"{{ site.websiteId }}"},"about":{"@id":"{{ site.organizationId }}"},"mainEntity":{"@id":"{{ canonicalUrl }}#recognition"},"hasPart":{"@id":"{{ canonicalUrl }}#award-questions"}},{"@type":"ItemList","@id":"{{ canonicalUrl }}#recognition","name":"CallTeam awards and recognition","numberOfItems":{{ recognition.names | length }},"itemListElement":[{% for key, award in awards %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ (award.title ~ ' | ' ~ award.programme ~ ' | ' ~ award.edition) | json | safe }},"url":"{{ site.url }}{{ award.url }}"}{% if not loop.last %},{% endif %}{% endfor %}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"Awards & Recognition","item":"{{ canonicalUrl }}"}]},{"@type":"FAQPage","@id":"{{ canonicalUrl }}#award-questions","mainEntity":[{% for item in awardsHub.faq %}{"@type":"Question","name":{{ item.q | json | safe }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | json | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]}]}
 </script>
@@ -45,6 +46,7 @@ organizationAwards:
         </article>
         {% endfor %}
       </div>
+      {{ nomineeRecognition("awards") }}
     </div>
   </section>
 

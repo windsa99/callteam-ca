@@ -6,7 +6,7 @@ title: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 seoTitle: "B2B Outbound Calling & Appointment Setting Services | CallTeam"
 description: "Done-for-you B2B outbound calling, prospect list building, lead follow-up, qualification, and appointment setting that creates better sales conversations."
 canonicalUrl: "https://www.callteam.ca/"
-modified: "2026-11-11"
+modified: "2026-11-26"
 socialTitle: "B2B Outbound Calling & Appointment Setting | CallTeam"
 socialDescription: "We can build the list or use the leads you already have, make the calls, follow up, qualify the opportunity, and book the conversation."
 faqSchema: |
@@ -149,6 +149,7 @@ awardPlacements: true
 {% from "components/chrome-extension.njk" import storeBadge, scriptInstall, productCard with context %}
 
 {% from "components/award-recognition.njk" import awardPanel, bookingRecognition with context %}
+{% from "components/nominee-recognition.njk" import nomineeRecognition with context %}
 {% from "components/process-video-preview.njk" import processVideoPreview %}
 
 
@@ -194,6 +195,7 @@ awardPlacements: true
 
 
 {{ awardPanel("recognition-home", "strip", "Multi-award-winning B2B outbound calling & appointment setting.", "Internationally recognised for B2B lead generation, outbound calling and appointment setting.") }}
+{{ nomineeRecognition("home") }}
 <section class="home-proof-strip" aria-label="CallTeam track record">
     <div class="home-proof-grid">
       <div><strong>650,000+</strong><span>outbound calls made</span></div>

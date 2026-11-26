@@ -1,5 +1,6 @@
 {% from "components/process-video-preview.njk" import processVideoWatch %}
 {% from "components/chrome-extension.njk" import storeBadge with context %}
+{% from "components/nominee-recognition.njk" import nomineeRecognition with context %}
 <footer id="site-footer">
   <div class="footer-top">
     <div class="footer-brand">
@@ -20,6 +21,7 @@
         </a>
         {% endfor %}
       </div>
+      {{ nomineeRecognition("footer") }}
     </div>
     <div class="footer-nav-column">
       <strong>Services</strong>
