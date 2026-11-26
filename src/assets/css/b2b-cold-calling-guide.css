@@ -1,0 +1,18 @@
+.calling-guide-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-bottom: 24px;
+}
+
+.calling-guide-jumps a {
+  display: block;
+  padding-block: 3px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.calling-guide-anchor {
+  scroll-margin-top: calc(var(--lp-header-offset, 94px) + 16px);
+}
